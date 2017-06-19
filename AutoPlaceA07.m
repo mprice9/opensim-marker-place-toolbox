@@ -13,8 +13,8 @@ divisor = 1;
 
 % downSample the passive .trc file for speed
 file_input = 'Passive_Pref0002.trc';
-newFile = 'Chopped.trc';
-downSampleTRC(divisor,file_input,newFile)
+file_output = 'Chopped.trc';
+downSampleTRC(divisor,file_input,file_output)
 
 % create new file for log
 fileID = fopen('coarseMarkerSearch_log_passive_unchopped.txt', 'w'); 
