@@ -58,9 +58,9 @@ TILTcost = abs(mean(data(1:end,2).^2))*10;
 % penalize non-zero socket coordinates at the zero position
 data = importdata('Chopped_ik.mot','\t',11);
 tags = data.colheaders;
-flexionTag = find(strcmp('socket_flexion',tags));
+flexionTag = find(strcmp(
 socketFlexion = data.data(1,flexionTag);
-SOCKETcost = socketFlexion.^2 .* 50;
+SOCKETcost = socketFlexion.^2 .* 10;
 
 % total cost
 cost = TSEcost + TILTcost + SOCKETcost;
