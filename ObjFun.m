@@ -59,8 +59,10 @@ TILTcost = abs(mean(data(1:end,2).^2))*10;
 data = importdata('Chopped_ik.mot','\t',11);
 tags = data.colheaders;
 flexionTag = find(strcmp('socket_flexion',tags));
+pistonTag = find(strcmp('socket_ty',tags));
 socketFlexion = data.data(1,flexionTag);
-SOCKETcost = socketFlexion.^2 .* 50;
+socketPiston = data.data(1,pistonTag);
+SOCKETcost = (socketFlexion.^2 + socketPiston.^2) .* 50;
 
 % total cost
 cost = TSEcost + TILTcost + SOCKETcost;
