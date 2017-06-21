@@ -36,10 +36,8 @@ options.modelFolder = [pwd '\Models\'];
 options.model = myModel;                    % generic model name
 options.subjectMass = 73.1637;
 options.newName = newName;
-% options.bodySet = 'ROB';
-options.bodySet = 'pros';
-options.fixedMarkerCoords = {'L_HEEL_SUP y','L_HEEL_SUP z','L_TOE x','L_TOE y','L_TOE z'};
-options.convThresh = 1;
+options.bodySet = 'ROB';
+options.convThresh = 2;
 
 tic
 

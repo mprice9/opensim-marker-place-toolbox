@@ -28,7 +28,10 @@ try
 %     disp(lines)
     nLines = size(lines,2)-3;
 %     disp(nLines)
-    TSE = zeros(nLines-23,1); % Actually line 19, but unknown error, this cuts off first few frames
+
+    % Actually line 19, but unknown error, this cuts off first few frames
+    % Revisit this, it can be cleaned up
+    TSE = zeros(nLines-23,1); 
     RMS = zeros(nLines-23,1);
     for line = 22:nLines-2
 
@@ -56,13 +59,23 @@ data = dlmread(IKresults,'\t',11,0);
 TILTcost = abs(mean(data(1:end,2).^2))*10;
 
 % penalize non-zero socket coordinates at the zero position
-data = importdata('Chopped_ik.mot','\t',11);
-tags = data.colheaders;
-flexionTag = find(strcmp('socket_flexion',tags));
-pistonTag = find(strcmp('socket_ty',tags));
-socketFlexion = data.data(1,flexionTag);
-socketPiston = data.data(1,pistonTag);
-SOCKETcost = (socketFlexion.^2 + socketPiston.^2) .* 50;
+% data = importdata('Chopped_ik.mot','\t',11);
+% tags = data.colheaders;
+% flexionTag = find(strcmp('socket_flexion',tags));
+% pistonTag = find(strcmp('socket_ty',tags));
+% socketFlexion = data.data(1,flexionTag);
+% socketPiston = data.data(1,pistonTag);
+
+socketCostWeight = 100;
+
+socketFlexion = data(1,19);
+socketFlexion = socketFlexion.^2 * 100;
+socketAdduction = data(1,20);
+socketRotation = data(1,21);
+socketPiston = data(1,23);
+socketPiston = (socketPiston*1000).^2;
+% SOCKETcost = (socketFlexion.^2 + socketPiston.^2) .* 50;
+SOCKETcost = socketFlexion + socketPiston;
 
 % total cost
 cost = TSEcost + TILTcost + SOCKETcost;
@@ -81,9 +94,16 @@ avgRMS = mean(RMS.*1000);
 %     ' Obj: ' num2str(cost) ' Avg RMS: ' num2str(avgRMS) ' time: ' ...
 %     num2str(toc)];
 
+%     message = [' Iter: ' num2str(iteration)...
+%     ' Obj: ' num2str(cost) ' Avg RMS: ' num2str(avgRMS) ' Marker coordinate: ' ...
+%     coord ' Steps from IC (mm): ' num2str(stepCount) ' time: ' num2str(toc)];
+
     message = [' Iter: ' num2str(iteration)...
-    ' Obj: ' num2str(cost) ' Avg RMS: ' num2str(avgRMS) ' Marker coordinate: ' ...
-    coord ' Steps from IC (mm): ' num2str(stepCount) ' time: ' num2str(toc)];
+    ' Obj: ' num2str(cost) ' Marker cost: ' num2str(TSEcost) ' Tilt cost: ' ...
+    num2str(TILTcost) ' Socket cost: ' num2str(SOCKETcost) ' Flexion cost: ' ...
+    num2str(socketFlexion) ' Piston cost: ' num2str(socketPiston) ' Avg RMS: ' ...
+    num2str(avgRMS) ' Marker coordinate: ' coord ' Steps from IC (mm): ' ...
+    num2str(stepCount) ' time: ' num2str(toc)];
 
 disp(message)
 
