@@ -22,7 +22,7 @@ file_output = 'Chopped.trc';			% Leave this, used in other functions
 downSampleTRC(divisor,file_input,file_output)
 
 % create new file for log of marker search
-fileID = fopen(['coarseMarkerSearch_log_' subject '_' prosType '_' char(date) '.txt'], 'w'); 
+fileID = fopen(['coarseMarkerSearch_log_' subject '_' prosType '_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss_Z')) '.txt'], 'w'); 
 
 
 myModel = [subject '_' prosType '_pre_auto_marker_place.osim'];	% define .osim model used as the starting point

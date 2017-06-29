@@ -29,7 +29,7 @@ downSampleTRC(divisor,file_input,file_output)
 % newName = 'A07_passive_coarse_marker_search.osim';
 
 % create new file for log - Socket search
-fileID = fopen(['coarseMarkerSearch_log_' subject '_' prosType '_' char(date) '.txt'], 'w'); 
+fileID = fopen(['coarseMarkerSearch_log_' subject '_' prosType '_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss_Z')) '.txt'], 'w'); 
 % myModel = 'A07_passive_manual_foot_markers.osim';
 myModel = [subject '_' prosType '_pre_auto_marker_place.osim'];
 newName = [subject '_' prosType '_ROB_auto_marker_place.osim'];
