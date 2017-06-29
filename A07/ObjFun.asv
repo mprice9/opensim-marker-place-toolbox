@@ -5,8 +5,10 @@ global  rmsCOST avgRMS divisor COST fileID iteration markerScale loop coord step
 % override variables
 % divisor = 1;
 
-genericSetupForIK = options.IKsetup;
-% genericSetupForIK = 'markerOptIKSetup.xml';
+
+% Need to add comparison at frame 0 of socket angles - min to 0
+
+genericSetupForIK = 'markerOptIKSetup.xml';
 
 % X = x0;
 X = x;
@@ -105,8 +107,7 @@ else
     avgRMS = mean(RMS.*1000);
     
     message = [' Iter: ' num2str(iteration)...
-    ' Obj: ' num2str(cost) ' Marker cost: ' num2str(TSEcost) ' Tilt cost: ' ...
-    num2str(TILTcost) ' Avg RMS: ' num2str(avgRMS) ' Marker coordinate: ' ...
+    ' Obj: ' num2str(cost) ' Avg RMS: ' num2str(avgRMS) ' Marker coordinate: ' ...
     coord ' Steps from IC (mm): ' num2str(stepCount) ' time: ' num2str(toc)];
 end
 

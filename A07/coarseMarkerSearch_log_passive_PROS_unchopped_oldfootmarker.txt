@@ -1,0 +1,1094 @@
+ Iter: 1 Obj: 6176.4914 Marker cost: 207.3292 Tilt cost: 27.445 Socket cost: 5941.7172 Flexion cost: 42.8226 Piston cost: 5898.8946 Avg RMS: 4.4128 Marker coordinate:  Steps from IC (mm):  time: 13.3902
+ Iter: 2 Obj: 6091.3589 Marker cost: 207.845 Tilt cost: 26.885 Socket cost: 5856.629 Flexion cost: 32.4721 Piston cost: 5824.1569 Avg RMS: 4.4167 Marker coordinate: L_SHANK_PROX_POST x Steps from IC (mm): 1 time: 25.7955
+ Iter: 3 Obj: 6137.9873 Marker cost: 208.866 Tilt cost: 27.1866 Socket cost: 5901.9347 Flexion cost: 47.8528 Piston cost: 5854.0819 Avg RMS: 4.4255 Marker coordinate: L_SHANK_PROX_POST x Steps from IC (mm): 2 time: 38.4262
+L_SHANK_PROX_POST x converged at 1 mm from IC. Min obj: 6091.3589
+ Iter: 4 Obj: 6106.3541 Marker cost: 208.0753 Tilt cost: 27.3106 Socket cost: 5870.9682 Flexion cost: 28.4507 Piston cost: 5842.5174 Avg RMS: 4.419 Marker coordinate: L_SHANK_PROX_POST y Steps from IC (mm): 1 time: 51.5828
+ Iter: 5 Obj: 6240.479 Marker cost: 207.8672 Tilt cost: 27.069 Socket cost: 6005.5428 Flexion cost: 55.2315 Piston cost: 5950.3113 Avg RMS: 4.4178 Marker coordinate: L_SHANK_PROX_POST y Steps from IC (mm): -1 time: 65.1794
+L_SHANK_PROX_POST y converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 6 Obj: 6122.3922 Marker cost: 208.3056 Tilt cost: 27.2973 Socket cost: 5886.7893 Flexion cost: 48.5639 Piston cost: 5838.2254 Avg RMS: 4.4198 Marker coordinate: L_SHANK_PROX_POST z Steps from IC (mm): 1 time: 77.7081
+ Iter: 7 Obj: 6175.2607 Marker cost: 207.1974 Tilt cost: 27.2889 Socket cost: 5940.7744 Flexion cost: 60.5859 Piston cost: 5880.1885 Avg RMS: 4.4146 Marker coordinate: L_SHANK_PROX_POST z Steps from IC (mm): -1 time: 90.3147
+L_SHANK_PROX_POST z converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 8 Obj: 6143.0485 Marker cost: 208.4555 Tilt cost: 27.3425 Socket cost: 5907.2505 Flexion cost: 36.2827 Piston cost: 5870.9678 Avg RMS: 4.4205 Marker coordinate: L_SHANK_PROX_ANT x Steps from IC (mm): 1 time: 102.5944
+ Iter: 9 Obj: 6172.28 Marker cost: 208.3024 Tilt cost: 27.2387 Socket cost: 5936.7389 Flexion cost: 69.284 Piston cost: 5867.4549 Avg RMS: 4.4207 Marker coordinate: L_SHANK_PROX_ANT x Steps from IC (mm): -1 time: 115.2325
+L_SHANK_PROX_ANT x converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 10 Obj: 6112.6768 Marker cost: 207.0159 Tilt cost: 26.9905 Socket cost: 5878.6704 Flexion cost: 68.1361 Piston cost: 5810.5344 Avg RMS: 4.4137 Marker coordinate: L_SHANK_PROX_ANT y Steps from IC (mm): 1 time: 128.6509
+ Iter: 11 Obj: 6250.9687 Marker cost: 208.3396 Tilt cost: 27.3979 Socket cost: 6015.2311 Flexion cost: 34.4527 Piston cost: 5980.7784 Avg RMS: 4.4228 Marker coordinate: L_SHANK_PROX_ANT y Steps from IC (mm): -1 time: 142.0367
+L_SHANK_PROX_ANT y converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 12 Obj: 6158.6854 Marker cost: 208.9104 Tilt cost: 26.9194 Socket cost: 5922.8556 Flexion cost: 30.0314 Piston cost: 5892.8242 Avg RMS: 4.4222 Marker coordinate: L_SHANK_PROX_ANT z Steps from IC (mm): 1 time: 155.3131
+ Iter: 13 Obj: 6169.318 Marker cost: 208.2404 Tilt cost: 27.2313 Socket cost: 5933.8464 Flexion cost: 88.4619 Piston cost: 5845.3845 Avg RMS: 4.4184 Marker coordinate: L_SHANK_PROX_ANT z Steps from IC (mm): -1 time: 168.5799
+L_SHANK_PROX_ANT z converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 14 Obj: 6172.1079 Marker cost: 207.022 Tilt cost: 27.674 Socket cost: 5937.4119 Flexion cost: 57.9606 Piston cost: 5879.4514 Avg RMS: 4.412 Marker coordinate: L_SHANK_DIST_ANT x Steps from IC (mm): 1 time: 181.738
+ Iter: 15 Obj: 6194.1305 Marker cost: 209.321 Tilt cost: 27.3424 Socket cost: 5957.4671 Flexion cost: 31.8746 Piston cost: 5925.5925 Avg RMS: 4.4261 Marker coordinate: L_SHANK_DIST_ANT x Steps from IC (mm): -1 time: 195.2453
+L_SHANK_DIST_ANT x converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 16 Obj: 6124.474 Marker cost: 207.4935 Tilt cost: 27.1292 Socket cost: 5889.8513 Flexion cost: 46.4105 Piston cost: 5843.4408 Avg RMS: 4.4151 Marker coordinate: L_SHANK_DIST_ANT y Steps from IC (mm): 1 time: 208.6262
+ Iter: 17 Obj: 6230.7558 Marker cost: 208.3477 Tilt cost: 27.4356 Socket cost: 5994.9725 Flexion cost: 54.2536 Piston cost: 5940.7189 Avg RMS: 4.4214 Marker coordinate: L_SHANK_DIST_ANT y Steps from IC (mm): -1 time: 221.7795
+L_SHANK_DIST_ANT y converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 18 Obj: 6234.4155 Marker cost: 208.8694 Tilt cost: 27.2398 Socket cost: 5998.3063 Flexion cost: 72.6895 Piston cost: 5925.6169 Avg RMS: 4.4228 Marker coordinate: L_SHANK_DIST_ANT z Steps from IC (mm): 1 time: 235.0541
+ Iter: 19 Obj: 6114.1399 Marker cost: 207.9414 Tilt cost: 27.6374 Socket cost: 5878.5611 Flexion cost: 56.161 Piston cost: 5822.4001 Avg RMS: 4.4176 Marker coordinate: L_SHANK_DIST_ANT z Steps from IC (mm): -1 time: 248.5509
+L_SHANK_DIST_ANT z converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 20 Obj: 6179.1049 Marker cost: 209.1503 Tilt cost: 27.7137 Socket cost: 5942.2409 Flexion cost: 33.6467 Piston cost: 5908.5942 Avg RMS: 4.4232 Marker coordinate: L_SHANK_DIST_POST x Steps from IC (mm): 1 time: 261.7235
+ Iter: 21 Obj: 6215.3582 Marker cost: 208.2479 Tilt cost: 27.0636 Socket cost: 5980.0466 Flexion cost: 59.0247 Piston cost: 5921.0219 Avg RMS: 4.4187 Marker coordinate: L_SHANK_DIST_POST x Steps from IC (mm): -1 time: 274.8838
+L_SHANK_DIST_POST x converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 22 Obj: 6147.6853 Marker cost: 207.2049 Tilt cost: 27.6745 Socket cost: 5912.8059 Flexion cost: 53.2256 Piston cost: 5859.5803 Avg RMS: 4.4124 Marker coordinate: L_SHANK_DIST_POST y Steps from IC (mm): 1 time: 288.1593
+ Iter: 23 Obj: 6208.1116 Marker cost: 207.9547 Tilt cost: 27.4227 Socket cost: 5972.7341 Flexion cost: 39.6271 Piston cost: 5933.107 Avg RMS: 4.419 Marker coordinate: L_SHANK_DIST_POST y Steps from IC (mm): -1 time: 301.664
+L_SHANK_DIST_POST y converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 24 Obj: 6170.3474 Marker cost: 209.1649 Tilt cost: 27.2235 Socket cost: 5933.9589 Flexion cost: 56.9854 Piston cost: 5876.9735 Avg RMS: 4.4235 Marker coordinate: L_SHANK_DIST_POST z Steps from IC (mm): 1 time: 314.6481
+ Iter: 25 Obj: 6116.5915 Marker cost: 208.3344 Tilt cost: 27.5223 Socket cost: 5880.7349 Flexion cost: 23.1829 Piston cost: 5857.552 Avg RMS: 4.4207 Marker coordinate: L_SHANK_DIST_POST z Steps from IC (mm): -1 time: 327.6951
+L_SHANK_DIST_POST z converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 26 Obj: 6195.8405 Marker cost: 207.995 Tilt cost: 27.56 Socket cost: 5960.2855 Flexion cost: 52.2844 Piston cost: 5908.0011 Avg RMS: 4.4191 Marker coordinate: L_HEEL_SUP x Steps from IC (mm): 1 time: 340.8539
+ Iter: 27 Obj: 6184.5008 Marker cost: 207.3175 Tilt cost: 27.3862 Socket cost: 5949.7971 Flexion cost: 38.4607 Piston cost: 5911.3364 Avg RMS: 4.4142 Marker coordinate: L_HEEL_SUP x Steps from IC (mm): -1 time: 354.128
+L_HEEL_SUP x converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 28 Obj: 6178.5584 Marker cost: 209.6763 Tilt cost: 27.5169 Socket cost: 5941.3653 Flexion cost: 72.171 Piston cost: 5869.1943 Avg RMS: 4.427 Marker coordinate: L_HEEL_SUP y Steps from IC (mm): 1 time: 367.3093
+ Iter: 29 Obj: 6178.5378 Marker cost: 207.2329 Tilt cost: 27.4277 Socket cost: 5943.8773 Flexion cost: 41.684 Piston cost: 5902.1933 Avg RMS: 4.4117 Marker coordinate: L_HEEL_SUP y Steps from IC (mm): -1 time: 380.4732
+L_HEEL_SUP y converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 30 Obj: 6116.6827 Marker cost: 207.0077 Tilt cost: 27.3354 Socket cost: 5882.3396 Flexion cost: 55.1947 Piston cost: 5827.1449 Avg RMS: 4.4126 Marker coordinate: L_HEEL_SUP z Steps from IC (mm): 1 time: 393.7946
+ Iter: 31 Obj: 6167.6758 Marker cost: 209.2477 Tilt cost: 27.4197 Socket cost: 5931.0084 Flexion cost: 69.8594 Piston cost: 5861.149 Avg RMS: 4.4252 Marker coordinate: L_HEEL_SUP z Steps from IC (mm): -1 time: 407.1038
+L_HEEL_SUP z converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 32 Obj: 6222.953 Marker cost: 208.1599 Tilt cost: 27.2212 Socket cost: 5987.572 Flexion cost: 69.6984 Piston cost: 5917.8736 Avg RMS: 4.4212 Marker coordinate: L_HEEL_MED x Steps from IC (mm): 1 time: 420.1578
+ Iter: 33 Obj: 6142.8711 Marker cost: 208.443 Tilt cost: 27.1147 Socket cost: 5907.3134 Flexion cost: 30.5532 Piston cost: 5876.7602 Avg RMS: 4.4179 Marker coordinate: L_HEEL_MED x Steps from IC (mm): -1 time: 433.2525
+L_HEEL_MED x converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 34 Obj: 6148.39 Marker cost: 209.6673 Tilt cost: 27.2233 Socket cost: 5911.4994 Flexion cost: 34.1622 Piston cost: 5877.3372 Avg RMS: 4.4282 Marker coordinate: L_HEEL_MED y Steps from IC (mm): 1 time: 446.4105
+ Iter: 35 Obj: 6196.8121 Marker cost: 206.0034 Tilt cost: 27.4931 Socket cost: 5963.3156 Flexion cost: 27.7189 Piston cost: 5935.5967 Avg RMS: 4.4057 Marker coordinate: L_HEEL_MED y Steps from IC (mm): -1 time: 459.5649
+L_HEEL_MED y converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 36 Obj: 6166.2292 Marker cost: 207.8684 Tilt cost: 27.0283 Socket cost: 5931.3325 Flexion cost: 29.2412 Piston cost: 5902.0913 Avg RMS: 4.4172 Marker coordinate: L_HEEL_MED z Steps from IC (mm): 1 time: 472.8258
+ Iter: 37 Obj: 6142.7337 Marker cost: 208.0166 Tilt cost: 27.2958 Socket cost: 5907.4212 Flexion cost: 31.0925 Piston cost: 5876.3287 Avg RMS: 4.4186 Marker coordinate: L_HEEL_MED z Steps from IC (mm): -1 time: 486.0999
+L_HEEL_MED z converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 38 Obj: 6150.5221 Marker cost: 209.1633 Tilt cost: 27.2743 Socket cost: 5914.0844 Flexion cost: 24.2068 Piston cost: 5889.8776 Avg RMS: 4.4235 Marker coordinate: L_HEEL_LAT x Steps from IC (mm): 1 time: 499.141
+ Iter: 39 Obj: 6189.8434 Marker cost: 207.7671 Tilt cost: 27.1553 Socket cost: 5954.921 Flexion cost: 46.5408 Piston cost: 5908.3803 Avg RMS: 4.4171 Marker coordinate: L_HEEL_LAT x Steps from IC (mm): -1 time: 512.3988
+L_HEEL_LAT x converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 40 Obj: 6129.4533 Marker cost: 207.0027 Tilt cost: 27.5164 Socket cost: 5894.9342 Flexion cost: 54.8385 Piston cost: 5840.0957 Avg RMS: 4.4122 Marker coordinate: L_HEEL_LAT y Steps from IC (mm): 1 time: 525.7703
+ Iter: 41 Obj: 6194.9701 Marker cost: 210.1978 Tilt cost: 27.2354 Socket cost: 5957.5369 Flexion cost: 28.346 Piston cost: 5929.1909 Avg RMS: 4.431 Marker coordinate: L_HEEL_LAT y Steps from IC (mm): -1 time: 538.7239
+L_HEEL_LAT y converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 42 Obj: 6099.8411 Marker cost: 207.9804 Tilt cost: 27.2621 Socket cost: 5864.5987 Flexion cost: 43.7862 Piston cost: 5820.8125 Avg RMS: 4.4191 Marker coordinate: L_HEEL_LAT z Steps from IC (mm): 1 time: 551.8825
+ Iter: 43 Obj: 6209.0398 Marker cost: 207.2993 Tilt cost: 27.2148 Socket cost: 5974.5257 Flexion cost: 69.7278 Piston cost: 5904.7979 Avg RMS: 4.413 Marker coordinate: L_HEEL_LAT z Steps from IC (mm): -1 time: 564.9561
+L_HEEL_LAT z converged at 0 mm from IC. Min obj: 6091.3589
+Marker coordinate L_TOE x is locked.
+Marker coordinate L_TOE y is locked.
+Marker coordinate L_TOE z is locked.
+ Iter: 44 Obj: 6141.2927 Marker cost: 207.5066 Tilt cost: 26.5688 Socket cost: 5907.2173 Flexion cost: 57.4027 Piston cost: 5849.8146 Avg RMS: 4.4145 Marker coordinate: L_1ST_MET x Steps from IC (mm): 1 time: 578.2308
+ Iter: 45 Obj: 6190.4782 Marker cost: 208.6012 Tilt cost: 27.2371 Socket cost: 5954.6398 Flexion cost: 37.2528 Piston cost: 5917.3871 Avg RMS: 4.422 Marker coordinate: L_1ST_MET x Steps from IC (mm): -1 time: 591.4177
+L_1ST_MET x converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 46 Obj: 6151.752 Marker cost: 209.7137 Tilt cost: 27.0083 Socket cost: 5915.03 Flexion cost: 35.6805 Piston cost: 5879.3495 Avg RMS: 4.4289 Marker coordinate: L_1ST_MET y Steps from IC (mm): 1 time: 604.9863
+ Iter: 47 Obj: 6122.8343 Marker cost: 206.7142 Tilt cost: 27.4071 Socket cost: 5888.7131 Flexion cost: 84.4058 Piston cost: 5804.3073 Avg RMS: 4.4085 Marker coordinate: L_1ST_MET y Steps from IC (mm): -1 time: 618.2412
+L_1ST_MET y converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 48 Obj: 6168.483 Marker cost: 208.0749 Tilt cost: 27.5647 Socket cost: 5932.8434 Flexion cost: 47.3625 Piston cost: 5885.4809 Avg RMS: 4.4183 Marker coordinate: L_1ST_MET z Steps from IC (mm): 1 time: 631.5063
+ Iter: 49 Obj: 6169.2871 Marker cost: 208.5392 Tilt cost: 27.3258 Socket cost: 5933.4221 Flexion cost: 36.6501 Piston cost: 5896.772 Avg RMS: 4.422 Marker coordinate: L_1ST_MET z Steps from IC (mm): -1 time: 644.6889
+L_1ST_MET z converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 50 Obj: 6206.7252 Marker cost: 207.5833 Tilt cost: 27.2218 Socket cost: 5971.9201 Flexion cost: 56.3476 Piston cost: 5915.5725 Avg RMS: 4.4157 Marker coordinate: L_5TH_MET x Steps from IC (mm): 1 time: 657.5437
+ Iter: 51 Obj: 6174.5614 Marker cost: 208.5877 Tilt cost: 27.3796 Socket cost: 5938.594 Flexion cost: 38.7911 Piston cost: 5899.803 Avg RMS: 4.4221 Marker coordinate: L_5TH_MET x Steps from IC (mm): -1 time: 670.8616
+L_5TH_MET x converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 52 Obj: 6114.9682 Marker cost: 209.3709 Tilt cost: 27.3063 Socket cost: 5878.291 Flexion cost: 39.8143 Piston cost: 5838.4767 Avg RMS: 4.4254 Marker coordinate: L_5TH_MET y Steps from IC (mm): 1 time: 684.0897
+ Iter: 53 Obj: 6113.3581 Marker cost: 206.3148 Tilt cost: 26.9518 Socket cost: 5880.0915 Flexion cost: 23.614 Piston cost: 5856.4774 Avg RMS: 4.4069 Marker coordinate: L_5TH_MET y Steps from IC (mm): -1 time: 697.3519
+L_5TH_MET y converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 54 Obj: 6171.0741 Marker cost: 209.0873 Tilt cost: 27.0789 Socket cost: 5934.9078 Flexion cost: 26.9602 Piston cost: 5907.9476 Avg RMS: 4.425 Marker coordinate: L_5TH_MET z Steps from IC (mm): 1 time: 710.5323
+ Iter: 55 Obj: 6161.0741 Marker cost: 207.6075 Tilt cost: 27.5588 Socket cost: 5925.9079 Flexion cost: 48.0761 Piston cost: 5877.8317 Avg RMS: 4.4162 Marker coordinate: L_5TH_MET z Steps from IC (mm): -1 time: 723.9076
+L_5TH_MET z converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 56 Obj: 6124.5743 Marker cost: 210.1276 Tilt cost: 27.0718 Socket cost: 5887.375 Flexion cost: 26.2841 Piston cost: 5861.0909 Avg RMS: 4.4323 Marker coordinate: L_THIGH_PROX_POST x Steps from IC (mm): 1 time: 737.0711
+ Iter: 57 Obj: 6207.4716 Marker cost: 205.3499 Tilt cost: 26.9896 Socket cost: 5975.1321 Flexion cost: 41.8497 Piston cost: 5933.2824 Avg RMS: 4.4035 Marker coordinate: L_THIGH_PROX_POST x Steps from IC (mm): -1 time: 750.2318
+L_THIGH_PROX_POST x converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 58 Obj: 6271.743 Marker cost: 208.6153 Tilt cost: 27.1078 Socket cost: 6036.0199 Flexion cost: 47.5747 Piston cost: 5988.4452 Avg RMS: 4.4245 Marker coordinate: L_THIGH_PROX_POST y Steps from IC (mm): 1 time: 763.1825
+ Iter: 59 Obj: 6128.7199 Marker cost: 207.9854 Tilt cost: 27.3285 Socket cost: 5893.4059 Flexion cost: 56.3354 Piston cost: 5837.0705 Avg RMS: 4.4141 Marker coordinate: L_THIGH_PROX_POST y Steps from IC (mm): -1 time: 776.3486
+L_THIGH_PROX_POST y converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 60 Obj: 6096.832 Marker cost: 210.2095 Tilt cost: 27.3797 Socket cost: 5859.2429 Flexion cost: 47.2236 Piston cost: 5812.0193 Avg RMS: 4.4336 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): 1 time: 789.4184
+ Iter: 61 Obj: 6275.0904 Marker cost: 205.6708 Tilt cost: 27.2327 Socket cost: 6042.187 Flexion cost: 61.1885 Piston cost: 5980.9985 Avg RMS: 4.4021 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): -1 time: 802.5692
+L_THIGH_PROX_POST z converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 62 Obj: 6134.3395 Marker cost: 207.7564 Tilt cost: 26.7354 Socket cost: 5899.8477 Flexion cost: 64.6277 Piston cost: 5835.22 Avg RMS: 4.4173 Marker coordinate: L_THIGH_PROX_ANT x Steps from IC (mm): 1 time: 816.0213
+ Iter: 63 Obj: 6218.1948 Marker cost: 208.0132 Tilt cost: 27.904 Socket cost: 5982.2776 Flexion cost: 95.933 Piston cost: 5886.3445 Avg RMS: 4.4176 Marker coordinate: L_THIGH_PROX_ANT x Steps from IC (mm): -1 time: 829.4135
+L_THIGH_PROX_ANT x converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 64 Obj: 6226.5697 Marker cost: 207.7974 Tilt cost: 26.9526 Socket cost: 5991.8196 Flexion cost: 54.6734 Piston cost: 5937.1463 Avg RMS: 4.4172 Marker coordinate: L_THIGH_PROX_ANT y Steps from IC (mm): 1 time: 842.3519
+ Iter: 65 Obj: 6094.486 Marker cost: 209.3508 Tilt cost: 27.2773 Socket cost: 5857.8579 Flexion cost: 30.6068 Piston cost: 5827.2512 Avg RMS: 4.425 Marker coordinate: L_THIGH_PROX_ANT y Steps from IC (mm): -1 time: 855.3098
+L_THIGH_PROX_ANT y converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 66 Obj: 6183.5365 Marker cost: 208.0445 Tilt cost: 27.1432 Socket cost: 5948.3488 Flexion cost: 18.0329 Piston cost: 5930.3159 Avg RMS: 4.4182 Marker coordinate: L_THIGH_PROX_ANT z Steps from IC (mm): 1 time: 868.3704
+ Iter: 67 Obj: 6177.4439 Marker cost: 209.636 Tilt cost: 27.5081 Socket cost: 5940.2998 Flexion cost: 34.3743 Piston cost: 5905.9255 Avg RMS: 4.4245 Marker coordinate: L_THIGH_PROX_ANT z Steps from IC (mm): -1 time: 881.6367
+L_THIGH_PROX_ANT z converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 68 Obj: 6187.9351 Marker cost: 208.3692 Tilt cost: 27.168 Socket cost: 5952.3979 Flexion cost: 55.1305 Piston cost: 5897.2674 Avg RMS: 4.4193 Marker coordinate: L_THIGH_DIST_POST x Steps from IC (mm): 1 time: 894.7969
+ Iter: 69 Obj: 6197.7319 Marker cost: 208.8531 Tilt cost: 27.0231 Socket cost: 5961.8556 Flexion cost: 46.4582 Piston cost: 5915.3974 Avg RMS: 4.4213 Marker coordinate: L_THIGH_DIST_POST x Steps from IC (mm): -1 time: 907.8397
+L_THIGH_DIST_POST x converged at 0 mm from IC. Min obj: 6091.3589
+ Iter: 70 Obj: 6217.1575 Marker cost: 208.8095 Tilt cost: 26.8985 Socket cost: 5981.4496 Flexion cost: 36.7571 Piston cost: 5944.6925 Avg RMS: 4.4244 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): 1 time: 921.1117
+ Iter: 71 Obj: 6041.8193 Marker cost: 207.2031 Tilt cost: 27.2671 Socket cost: 5807.3491 Flexion cost: 31.2627 Piston cost: 5776.0864 Avg RMS: 4.4113 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): -1 time: 934.2661
+ Iter: 72 Obj: 6041.6643 Marker cost: 207.2886 Tilt cost: 27.9729 Socket cost: 5806.4027 Flexion cost: 54.5742 Piston cost: 5751.8285 Avg RMS: 4.4094 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): -2 time: 947.2096
+ Iter: 73 Obj: 5964.2656 Marker cost: 208.05 Tilt cost: 28.0109 Socket cost: 5728.2048 Flexion cost: 60.4437 Piston cost: 5667.7611 Avg RMS: 4.4118 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): -3 time: 960.4752
+ Iter: 74 Obj: 5884.6055 Marker cost: 211.2396 Tilt cost: 28.2288 Socket cost: 5645.1371 Flexion cost: 76.0988 Piston cost: 5569.0383 Avg RMS: 4.4253 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): -4 time: 974.0725
+ Iter: 75 Obj: 5998.2008 Marker cost: 214.826 Tilt cost: 28.7682 Socket cost: 5754.6066 Flexion cost: 187.8854 Piston cost: 5566.7212 Avg RMS: 4.4439 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): -5 time: 987.1155
+L_THIGH_DIST_POST y converged at -4 mm from IC. Min obj: 5884.6055
+ Iter: 76 Obj: 5937.0705 Marker cost: 213.1902 Tilt cost: 28.5592 Socket cost: 5695.3211 Flexion cost: 109.5481 Piston cost: 5585.773 Avg RMS: 4.4417 Marker coordinate: L_THIGH_DIST_POST z Steps from IC (mm): 1 time: 1000.4976
+ Iter: 77 Obj: 5880.1016 Marker cost: 211.2847 Tilt cost: 28.5583 Socket cost: 5640.2586 Flexion cost: 73.0656 Piston cost: 5567.1931 Avg RMS: 4.4202 Marker coordinate: L_THIGH_DIST_POST z Steps from IC (mm): -1 time: 1013.8971
+ Iter: 78 Obj: 5929.9708 Marker cost: 210.7649 Tilt cost: 28.1841 Socket cost: 5691.0218 Flexion cost: 56.2805 Piston cost: 5634.7413 Avg RMS: 4.4138 Marker coordinate: L_THIGH_DIST_POST z Steps from IC (mm): -2 time: 1027.1581
+L_THIGH_DIST_POST z converged at -1 mm from IC. Min obj: 5880.1016
+ Iter: 79 Obj: 5951.4516 Marker cost: 208.9705 Tilt cost: 28.2255 Socket cost: 5714.2556 Flexion cost: 121.4042 Piston cost: 5592.8513 Avg RMS: 4.4068 Marker coordinate: L_THIGH_DIST_ANT x Steps from IC (mm): 1 time: 1040.5316
+ Iter: 80 Obj: 5902.9228 Marker cost: 212.7403 Tilt cost: 28.4909 Socket cost: 5661.6916 Flexion cost: 57.5492 Piston cost: 5604.1424 Avg RMS: 4.4316 Marker coordinate: L_THIGH_DIST_ANT x Steps from IC (mm): -1 time: 1053.8016
+L_THIGH_DIST_ANT x converged at 0 mm from IC. Min obj: 5880.1016
+ Iter: 81 Obj: 6018.1664 Marker cost: 210.078 Tilt cost: 28.1685 Socket cost: 5779.9199 Flexion cost: 93.0686 Piston cost: 5686.8513 Avg RMS: 4.4163 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): 1 time: 1067.0788
+ Iter: 82 Obj: 5771.387 Marker cost: 212.832 Tilt cost: 28.6177 Socket cost: 5529.9373 Flexion cost: 79.8883 Piston cost: 5450.049 Avg RMS: 4.4278 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): -1 time: 1080.339
+ Iter: 83 Obj: 5787.6791 Marker cost: 215.6571 Tilt cost: 28.6154 Socket cost: 5543.4066 Flexion cost: 69.1309 Piston cost: 5474.2756 Avg RMS: 4.4412 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): -2 time: 1093.5166
+L_THIGH_DIST_ANT y converged at -1 mm from IC. Min obj: 5771.387
+ Iter: 84 Obj: 5768.7071 Marker cost: 210.7194 Tilt cost: 28.2568 Socket cost: 5529.731 Flexion cost: 86.1514 Piston cost: 5443.5796 Avg RMS: 4.4205 Marker coordinate: L_THIGH_DIST_ANT z Steps from IC (mm): 1 time: 1107.3445
+ Iter: 85 Obj: 5757.6351 Marker cost: 211.5241 Tilt cost: 28.3589 Socket cost: 5517.752 Flexion cost: 46.6252 Piston cost: 5471.1268 Avg RMS: 4.427 Marker coordinate: L_THIGH_DIST_ANT z Steps from IC (mm): 2 time: 1120.5296
+ Iter: 86 Obj: 5697.0961 Marker cost: 210.8885 Tilt cost: 28.5874 Socket cost: 5457.6203 Flexion cost: 30.5049 Piston cost: 5427.1154 Avg RMS: 4.4261 Marker coordinate: L_THIGH_DIST_ANT z Steps from IC (mm): 3 time: 1134.1274
+ Iter: 87 Obj: 5716.6357 Marker cost: 211.3862 Tilt cost: 28.3415 Socket cost: 5476.908 Flexion cost: 15.2642 Piston cost: 5461.6438 Avg RMS: 4.433 Marker coordinate: L_THIGH_DIST_ANT z Steps from IC (mm): 4 time: 1147.4323
+L_THIGH_DIST_ANT z converged at 3 mm from IC. Min obj: 5697.0961
+ Iter: 88 Obj: 5771.902 Marker cost: 210.4706 Tilt cost: 28.4988 Socket cost: 5532.9325 Flexion cost: 54.7582 Piston cost: 5478.1743 Avg RMS: 4.423 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD x Steps from IC (mm): 1 time: 1161.0177
+ Iter: 89 Obj: 5887.4996 Marker cost: 210.7318 Tilt cost: 29.3997 Socket cost: 5647.3681 Flexion cost: 13.8421 Piston cost: 5633.526 Avg RMS: 4.427 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD x Steps from IC (mm): -1 time: 1174.2813
+SOCKET_JOINT_LOC_IN_CHILD x converged at 0 mm from IC. Min obj: 5697.0961
+ Iter: 90 Obj: 6212.3372 Marker cost: 211.309 Tilt cost: 28.6409 Socket cost: 5972.3873 Flexion cost: 20.7294 Piston cost: 5951.6579 Avg RMS: 4.4283 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): 1 time: 1187.5389
+ Iter: 91 Obj: 5331.1522 Marker cost: 210.7982 Tilt cost: 28.6254 Socket cost: 5091.7286 Flexion cost: 43.2049 Piston cost: 5048.5237 Avg RMS: 4.427 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -1 time: 1200.5813
+ Iter: 92 Obj: 4931.6123 Marker cost: 211.6645 Tilt cost: 28.763 Socket cost: 4691.1848 Flexion cost: 71.028 Piston cost: 4620.1568 Avg RMS: 4.4297 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -2 time: 1213.7615
+ Iter: 93 Obj: 4461.3274 Marker cost: 210.3945 Tilt cost: 28.5744 Socket cost: 4222.3585 Flexion cost: 33.6765 Piston cost: 4188.6821 Avg RMS: 4.424 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -3 time: 1227.1312
+ Iter: 94 Obj: 4037.3724 Marker cost: 211.8379 Tilt cost: 28.5607 Socket cost: 3796.9737 Flexion cost: 14.2016 Piston cost: 3782.7722 Avg RMS: 4.4305 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -4 time: 1240.1885
+ Iter: 95 Obj: 3669.3583 Marker cost: 212.091 Tilt cost: 28.6731 Socket cost: 3428.5942 Flexion cost: 29.2428 Piston cost: 3399.3514 Avg RMS: 4.4322 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -5 time: 1253.355
+ Iter: 96 Obj: 3324.8323 Marker cost: 211.5347 Tilt cost: 28.7501 Socket cost: 3084.5475 Flexion cost: 46.3939 Piston cost: 3038.1536 Avg RMS: 4.4299 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -6 time: 1266.5025
+ Iter: 97 Obj: 2982.4824 Marker cost: 211.372 Tilt cost: 28.6925 Socket cost: 2742.4179 Flexion cost: 32.3414 Piston cost: 2710.0765 Avg RMS: 4.4297 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -7 time: 1279.782
+ Iter: 98 Obj: 2637.0409 Marker cost: 210.3863 Tilt cost: 28.5913 Socket cost: 2398.0633 Flexion cost: 24.5071 Piston cost: 2373.5562 Avg RMS: 4.4244 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -8 time: 1293.0551
+ Iter: 99 Obj: 2367.9229 Marker cost: 210.7969 Tilt cost: 28.5741 Socket cost: 2128.5519 Flexion cost: 49.2745 Piston cost: 2079.2775 Avg RMS: 4.4264 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -9 time: 1306.5404
+ Iter: 100 Obj: 2108.8547 Marker cost: 211.6783 Tilt cost: 28.5479 Socket cost: 1868.6285 Flexion cost: 23.3481 Piston cost: 1845.2804 Avg RMS: 4.4299 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -10 time: 1319.3753
+ Iter: 101 Obj: 1852.216 Marker cost: 210.8803 Tilt cost: 28.8692 Socket cost: 1612.4666 Flexion cost: 57.8042 Piston cost: 1554.6624 Avg RMS: 4.4265 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -11 time: 1332.6469
+ Iter: 102 Obj: 1607.7114 Marker cost: 210.4675 Tilt cost: 28.8839 Socket cost: 1368.36 Flexion cost: 65.8125 Piston cost: 1302.5474 Avg RMS: 4.426 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -12 time: 1345.687
+ Iter: 103 Obj: 1346.4157 Marker cost: 211.305 Tilt cost: 28.8159 Socket cost: 1106.2948 Flexion cost: 25.3437 Piston cost: 1080.9511 Avg RMS: 4.4285 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -13 time: 1358.9493
+ Iter: 104 Obj: 1182.8558 Marker cost: 211.393 Tilt cost: 28.9286 Socket cost: 942.5342 Flexion cost: 45.6589 Piston cost: 896.8753 Avg RMS: 4.4297 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -14 time: 1372.2112
+ Iter: 105 Obj: 1024.3858 Marker cost: 211.6621 Tilt cost: 28.6975 Socket cost: 784.0262 Flexion cost: 46.7447 Piston cost: 737.2815 Avg RMS: 4.4315 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -15 time: 1385.3773
+ Iter: 106 Obj: 870.8289 Marker cost: 211.2532 Tilt cost: 28.5509 Socket cost: 631.0248 Flexion cost: 72.9964 Piston cost: 558.0284 Avg RMS: 4.4291 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -16 time: 1398.6502
+ Iter: 107 Obj: 677.4264 Marker cost: 210.7892 Tilt cost: 28.7652 Socket cost: 437.872 Flexion cost: 23.8299 Piston cost: 414.0421 Avg RMS: 4.4264 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -17 time: 1412.2414
+ Iter: 108 Obj: 593.1328 Marker cost: 212.1126 Tilt cost: 28.8454 Socket cost: 352.1748 Flexion cost: 61.6139 Piston cost: 290.5609 Avg RMS: 4.4314 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -18 time: 1425.1891
+ Iter: 109 Obj: 456.0131 Marker cost: 210.5153 Tilt cost: 28.8977 Socket cost: 216.6 Flexion cost: 24.3818 Piston cost: 192.2182 Avg RMS: 4.4258 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -19 time: 1438.3764
+ Iter: 110 Obj: 375.0623 Marker cost: 211.9236 Tilt cost: 28.6758 Socket cost: 134.4629 Flexion cost: 16.0512 Piston cost: 118.4117 Avg RMS: 4.4317 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -20 time: 1451.7548
+ Iter: 111 Obj: 342.3342 Marker cost: 212.7092 Tilt cost: 28.7319 Socket cost: 100.8931 Flexion cost: 39.196 Piston cost: 61.6971 Avg RMS: 4.4368 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -21 time: 1464.6985
+ Iter: 112 Obj: 298.9363 Marker cost: 210.4492 Tilt cost: 29.0101 Socket cost: 59.477 Flexion cost: 40.0867 Piston cost: 19.3903 Avg RMS: 4.4255 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -22 time: 1477.9802
+ Iter: 113 Obj: 286.9727 Marker cost: 210.9365 Tilt cost: 28.6107 Socket cost: 47.4254 Flexion cost: 45.1063 Piston cost: 2.3191 Avg RMS: 4.4263 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -23 time: 1491.4682
+ Iter: 114 Obj: 286.7426 Marker cost: 210.4155 Tilt cost: 28.7918 Socket cost: 47.5353 Flexion cost: 44.2803 Piston cost: 3.255 Avg RMS: 4.4258 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -24 time: 1504.7465
+ Iter: 115 Obj: 286.4273 Marker cost: 210.9363 Tilt cost: 28.617 Socket cost: 46.8741 Flexion cost: 22.8382 Piston cost: 24.0359 Avg RMS: 4.4277 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -25 time: 1517.8032
+ Iter: 116 Obj: 345.9148 Marker cost: 211.9685 Tilt cost: 29.0512 Socket cost: 104.8951 Flexion cost: 41.2524 Piston cost: 63.6427 Avg RMS: 4.4319 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -26 time: 1530.9688
+SOCKET_JOINT_LOC_IN_CHILD y converged at -25 mm from IC. Min obj: 286.4273
+ Iter: 117 Obj: 304.2109 Marker cost: 213.158 Tilt cost: 29.1986 Socket cost: 61.8543 Flexion cost: 30.1871 Piston cost: 31.6673 Avg RMS: 4.4415 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD z Steps from IC (mm): 1 time: 1544.0244
+ Iter: 118 Obj: 293.0017 Marker cost: 208.9567 Tilt cost: 28.0871 Socket cost: 55.9579 Flexion cost: 35.2391 Piston cost: 20.7187 Avg RMS: 4.4149 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD z Steps from IC (mm): -1 time: 1557.1906
+SOCKET_JOINT_LOC_IN_CHILD z converged at 0 mm from IC. Min obj: 286.4273
+ Iter: 119 Obj: 304.7348 Marker cost: 212.3382 Tilt cost: 28.9438 Socket cost: 63.4528 Flexion cost: 38.9922 Piston cost: 24.4606 Avg RMS: 4.4364 Marker coordinate: L_SHANK_PROX_POST x Steps from IC (mm): 1 time: 1569.9119
+ Iter: 120 Obj: 292.7328 Marker cost: 209.0114 Tilt cost: 28.7314 Socket cost: 54.99 Flexion cost: 30.1752 Piston cost: 24.8148 Avg RMS: 4.4171 Marker coordinate: L_SHANK_PROX_POST x Steps from IC (mm): -1 time: 1583.0558
+L_SHANK_PROX_POST x converged at 0 mm from IC. Min obj: 286.4273
+ Iter: 121 Obj: 288.1272 Marker cost: 211.2559 Tilt cost: 28.9236 Socket cost: 47.9477 Flexion cost: 19.9584 Piston cost: 27.9893 Avg RMS: 4.4276 Marker coordinate: L_SHANK_PROX_POST y Steps from IC (mm): 1 time: 1595.6548
+ Iter: 122 Obj: 329.2996 Marker cost: 213.0675 Tilt cost: 29.0269 Socket cost: 87.2051 Flexion cost: 66.6011 Piston cost: 20.604 Avg RMS: 4.4369 Marker coordinate: L_SHANK_PROX_POST y Steps from IC (mm): -1 time: 1608.483
+L_SHANK_PROX_POST y converged at 0 mm from IC. Min obj: 286.4273
+ Iter: 123 Obj: 294.6089 Marker cost: 211.8446 Tilt cost: 28.5053 Socket cost: 54.259 Flexion cost: 31.9667 Piston cost: 22.2923 Avg RMS: 4.433 Marker coordinate: L_SHANK_PROX_POST z Steps from IC (mm): 1 time: 1621.5307
+ Iter: 124 Obj: 301.7357 Marker cost: 210.6598 Tilt cost: 28.4764 Socket cost: 62.5995 Flexion cost: 36.1968 Piston cost: 26.4027 Avg RMS: 4.4264 Marker coordinate: L_SHANK_PROX_POST z Steps from IC (mm): -1 time: 1634.3573
+L_SHANK_PROX_POST z converged at 0 mm from IC. Min obj: 286.4273
+ Iter: 125 Obj: 301.3035 Marker cost: 211.402 Tilt cost: 28.8693 Socket cost: 61.0322 Flexion cost: 34.5616 Piston cost: 26.4706 Avg RMS: 4.4283 Marker coordinate: L_SHANK_PROX_ANT x Steps from IC (mm): 1 time: 1647.1721
+ Iter: 126 Obj: 305.9612 Marker cost: 212.1237 Tilt cost: 28.5746 Socket cost: 65.263 Flexion cost: 41.2906 Piston cost: 23.9723 Avg RMS: 4.4341 Marker coordinate: L_SHANK_PROX_ANT x Steps from IC (mm): -1 time: 1659.8733
+L_SHANK_PROX_ANT x converged at 0 mm from IC. Min obj: 286.4273
+ Iter: 127 Obj: 334.4144 Marker cost: 211.2651 Tilt cost: 28.8363 Socket cost: 94.313 Flexion cost: 65.1226 Piston cost: 29.1904 Avg RMS: 4.4269 Marker coordinate: L_SHANK_PROX_ANT y Steps from IC (mm): 1 time: 1672.477
+ Iter: 128 Obj: 328.2975 Marker cost: 211.5854 Tilt cost: 28.6564 Socket cost: 88.0557 Flexion cost: 65.9268 Piston cost: 22.1289 Avg RMS: 4.4339 Marker coordinate: L_SHANK_PROX_ANT y Steps from IC (mm): -1 time: 1685.0041
+L_SHANK_PROX_ANT y converged at 0 mm from IC. Min obj: 286.4273
+ Iter: 129 Obj: 285.3168 Marker cost: 211.1108 Tilt cost: 28.5887 Socket cost: 45.6173 Flexion cost: 23.6223 Piston cost: 21.995 Avg RMS: 4.4297 Marker coordinate: L_SHANK_PROX_ANT z Steps from IC (mm): 1 time: 1697.7171
+ Iter: 130 Obj: 338.4911 Marker cost: 212.6955 Tilt cost: 28.5325 Socket cost: 97.263 Flexion cost: 71.9521 Piston cost: 25.3109 Avg RMS: 4.4386 Marker coordinate: L_SHANK_PROX_ANT z Steps from IC (mm): 2 time: 1710.5632
+L_SHANK_PROX_ANT z converged at 1 mm from IC. Min obj: 285.3168
+ Iter: 131 Obj: 327.4188 Marker cost: 211.3712 Tilt cost: 28.8424 Socket cost: 87.2052 Flexion cost: 63.1876 Piston cost: 24.0176 Avg RMS: 4.4292 Marker coordinate: L_SHANK_DIST_ANT x Steps from IC (mm): 1 time: 1723.0557
+ Iter: 132 Obj: 304.4063 Marker cost: 213.2285 Tilt cost: 28.6439 Socket cost: 62.5338 Flexion cost: 36.2223 Piston cost: 26.3114 Avg RMS: 4.4398 Marker coordinate: L_SHANK_DIST_ANT x Steps from IC (mm): -1 time: 1735.7723
+L_SHANK_DIST_ANT x converged at 0 mm from IC. Min obj: 285.3168
+ Iter: 133 Obj: 292.8107 Marker cost: 212.1877 Tilt cost: 28.7447 Socket cost: 51.8783 Flexion cost: 24.1051 Piston cost: 27.7732 Avg RMS: 4.4328 Marker coordinate: L_SHANK_DIST_ANT y Steps from IC (mm): 1 time: 1748.2643
+ Iter: 134 Obj: 294.7899 Marker cost: 212.3633 Tilt cost: 28.5818 Socket cost: 53.8448 Flexion cost: 32.9235 Piston cost: 20.9213 Avg RMS: 4.4368 Marker coordinate: L_SHANK_DIST_ANT y Steps from IC (mm): -1 time: 1760.8874
+L_SHANK_DIST_ANT y converged at 0 mm from IC. Min obj: 285.3168
+ Iter: 135 Obj: 304.7329 Marker cost: 212.1844 Tilt cost: 28.6292 Socket cost: 63.9193 Flexion cost: 40.4739 Piston cost: 23.4454 Avg RMS: 4.4326 Marker coordinate: L_SHANK_DIST_ANT z Steps from IC (mm): 1 time: 1773.7025
+ Iter: 136 Obj: 308.1455 Marker cost: 211.3841 Tilt cost: 28.6479 Socket cost: 68.1136 Flexion cost: 42.6484 Piston cost: 25.4651 Avg RMS: 4.4306 Marker coordinate: L_SHANK_DIST_ANT z Steps from IC (mm): -1 time: 1786.6381
+L_SHANK_DIST_ANT z converged at 0 mm from IC. Min obj: 285.3168
+ Iter: 137 Obj: 292.8908 Marker cost: 212.9044 Tilt cost: 28.953 Socket cost: 51.0334 Flexion cost: 27.6611 Piston cost: 23.3723 Avg RMS: 4.438 Marker coordinate: L_SHANK_DIST_POST x Steps from IC (mm): 1 time: 1799.2028
+ Iter: 138 Obj: 304.7022 Marker cost: 212.2873 Tilt cost: 28.6621 Socket cost: 63.7528 Flexion cost: 40.3769 Piston cost: 23.376 Avg RMS: 4.4339 Marker coordinate: L_SHANK_DIST_POST x Steps from IC (mm): -1 time: 1811.9101
+L_SHANK_DIST_POST x converged at 0 mm from IC. Min obj: 285.3168
+ Iter: 139 Obj: 292.4861 Marker cost: 211.5271 Tilt cost: 28.4584 Socket cost: 52.5005 Flexion cost: 31.0421 Piston cost: 21.4584 Avg RMS: 4.4293 Marker coordinate: L_SHANK_DIST_POST y Steps from IC (mm): 1 time: 1824.5159
+ Iter: 140 Obj: 286.9245 Marker cost: 212.1705 Tilt cost: 28.6624 Socket cost: 46.0916 Flexion cost: 25.7882 Piston cost: 20.3034 Avg RMS: 4.4359 Marker coordinate: L_SHANK_DIST_POST y Steps from IC (mm): -1 time: 1837.5151
+L_SHANK_DIST_POST y converged at 0 mm from IC. Min obj: 285.3168
+ Iter: 141 Obj: 351.0517 Marker cost: 212.0823 Tilt cost: 28.5223 Socket cost: 110.4471 Flexion cost: 87.1186 Piston cost: 23.3286 Avg RMS: 4.4332 Marker coordinate: L_SHANK_DIST_POST z Steps from IC (mm): 1 time: 1850.4465
+ Iter: 142 Obj: 291.5345 Marker cost: 211.8491 Tilt cost: 28.5609 Socket cost: 51.1244 Flexion cost: 26.3396 Piston cost: 24.7848 Avg RMS: 4.4339 Marker coordinate: L_SHANK_DIST_POST z Steps from IC (mm): -1 time: 1863.1585
+L_SHANK_DIST_POST z converged at 0 mm from IC. Min obj: 285.3168
+ Iter: 143 Obj: 299.675 Marker cost: 212.8757 Tilt cost: 28.762 Socket cost: 58.0373 Flexion cost: 33.2084 Piston cost: 24.8289 Avg RMS: 4.4362 Marker coordinate: L_HEEL_SUP x Steps from IC (mm): 1 time: 1875.984
+ Iter: 144 Obj: 297.5804 Marker cost: 211.8944 Tilt cost: 28.9373 Socket cost: 56.7486 Flexion cost: 32.714 Piston cost: 24.0346 Avg RMS: 4.4318 Marker coordinate: L_HEEL_SUP x Steps from IC (mm): -1 time: 1888.9116
+L_HEEL_SUP x converged at 0 mm from IC. Min obj: 285.3168
+ Iter: 145 Obj: 292.026 Marker cost: 212.9614 Tilt cost: 28.6 Socket cost: 50.4647 Flexion cost: 24.981 Piston cost: 25.4837 Avg RMS: 4.4408 Marker coordinate: L_HEEL_SUP y Steps from IC (mm): 1 time: 1901.8411
+ Iter: 146 Obj: 336.846 Marker cost: 210.9966 Tilt cost: 28.5073 Socket cost: 97.3421 Flexion cost: 74.8145 Piston cost: 22.5276 Avg RMS: 4.4258 Marker coordinate: L_HEEL_SUP y Steps from IC (mm): -1 time: 1914.6596
+L_HEEL_SUP y converged at 0 mm from IC. Min obj: 285.3168
+ Iter: 147 Obj: 293.5393 Marker cost: 210.5096 Tilt cost: 28.3954 Socket cost: 54.6343 Flexion cost: 30.5215 Piston cost: 24.1128 Avg RMS: 4.4242 Marker coordinate: L_HEEL_SUP z Steps from IC (mm): 1 time: 1927.6924
+ Iter: 148 Obj: 276.7032 Marker cost: 212.3392 Tilt cost: 28.6105 Socket cost: 35.7535 Flexion cost: 14.6803 Piston cost: 21.0732 Avg RMS: 4.4374 Marker coordinate: L_HEEL_SUP z Steps from IC (mm): -1 time: 1940.5128
+ Iter: 149 Obj: 296.2479 Marker cost: 213.9193 Tilt cost: 28.7309 Socket cost: 53.5976 Flexion cost: 28.2046 Piston cost: 25.3931 Avg RMS: 4.4459 Marker coordinate: L_HEEL_SUP z Steps from IC (mm): -2 time: 1953.7712
+L_HEEL_SUP z converged at -1 mm from IC. Min obj: 276.7032
+ Iter: 150 Obj: 293.4697 Marker cost: 213.7528 Tilt cost: 29.0929 Socket cost: 50.624 Flexion cost: 26.07 Piston cost: 24.5539 Avg RMS: 4.4454 Marker coordinate: L_HEEL_MED x Steps from IC (mm): 1 time: 1967.1264
+ Iter: 151 Obj: 363.6537 Marker cost: 211.3996 Tilt cost: 28.6845 Socket cost: 123.5696 Flexion cost: 97.9924 Piston cost: 25.5773 Avg RMS: 4.4329 Marker coordinate: L_HEEL_MED x Steps from IC (mm): -1 time: 1979.7739
+L_HEEL_MED x converged at 0 mm from IC. Min obj: 276.7032
+ Iter: 152 Obj: 309.3045 Marker cost: 214.0447 Tilt cost: 28.8976 Socket cost: 66.3622 Flexion cost: 36.4584 Piston cost: 29.9037 Avg RMS: 4.4469 Marker coordinate: L_HEEL_MED y Steps from IC (mm): 1 time: 1992.4456
+ Iter: 153 Obj: 295.3146 Marker cost: 211.7755 Tilt cost: 28.7766 Socket cost: 54.7625 Flexion cost: 31.729 Piston cost: 23.0335 Avg RMS: 4.4294 Marker coordinate: L_HEEL_MED y Steps from IC (mm): -1 time: 2005.0583
+L_HEEL_MED y converged at 0 mm from IC. Min obj: 276.7032
+ Iter: 154 Obj: 286.471 Marker cost: 213.5716 Tilt cost: 28.9881 Socket cost: 43.9114 Flexion cost: 19.0556 Piston cost: 24.8557 Avg RMS: 4.4429 Marker coordinate: L_HEEL_MED z Steps from IC (mm): 1 time: 2017.5452
+ Iter: 155 Obj: 288.5865 Marker cost: 214.0796 Tilt cost: 28.6608 Socket cost: 45.846 Flexion cost: 20.1926 Piston cost: 25.6535 Avg RMS: 4.4444 Marker coordinate: L_HEEL_MED z Steps from IC (mm): -1 time: 2030.2562
+L_HEEL_MED z converged at 0 mm from IC. Min obj: 276.7032
+ Iter: 156 Obj: 307.1301 Marker cost: 214.4883 Tilt cost: 28.461 Socket cost: 64.1808 Flexion cost: 41.0476 Piston cost: 23.1332 Avg RMS: 4.4472 Marker coordinate: L_HEEL_LAT x Steps from IC (mm): 1 time: 2042.8672
+ Iter: 157 Obj: 279.6515 Marker cost: 212.1947 Tilt cost: 28.7148 Socket cost: 38.742 Flexion cost: 15.5878 Piston cost: 23.1542 Avg RMS: 4.4369 Marker coordinate: L_HEEL_LAT x Steps from IC (mm): -1 time: 2055.3602
+L_HEEL_LAT x converged at 0 mm from IC. Min obj: 276.7032
+ Iter: 158 Obj: 332.2393 Marker cost: 211.436 Tilt cost: 28.8821 Socket cost: 91.9212 Flexion cost: 64.2216 Piston cost: 27.6996 Avg RMS: 4.432 Marker coordinate: L_HEEL_LAT y Steps from IC (mm): 1 time: 2068.1752
+ Iter: 159 Obj: 315.9867 Marker cost: 214.2241 Tilt cost: 28.979 Socket cost: 72.7835 Flexion cost: 52.5914 Piston cost: 20.1921 Avg RMS: 4.447 Marker coordinate: L_HEEL_LAT y Steps from IC (mm): -1 time: 2080.7632
+L_HEEL_LAT y converged at 0 mm from IC. Min obj: 276.7032
+ Iter: 160 Obj: 302.9803 Marker cost: 213.4126 Tilt cost: 28.6459 Socket cost: 60.9217 Flexion cost: 37.3325 Piston cost: 23.5893 Avg RMS: 4.4427 Marker coordinate: L_HEEL_LAT z Steps from IC (mm): 1 time: 2093.141
+ Iter: 161 Obj: 304.3299 Marker cost: 212.2029 Tilt cost: 28.9692 Socket cost: 63.1578 Flexion cost: 37.4732 Piston cost: 25.6845 Avg RMS: 4.4357 Marker coordinate: L_HEEL_LAT z Steps from IC (mm): -1 time: 2105.9112
+L_HEEL_LAT z converged at 0 mm from IC. Min obj: 276.7032
+Marker coordinate L_TOE x is locked.
+Marker coordinate L_TOE y is locked.
+Marker coordinate L_TOE z is locked.
+ Iter: 162 Obj: 280.4429 Marker cost: 212.8831 Tilt cost: 28.6013 Socket cost: 38.9585 Flexion cost: 17.1931 Piston cost: 21.7654 Avg RMS: 4.439 Marker coordinate: L_1ST_MET x Steps from IC (mm): 1 time: 2118.6122
+ Iter: 163 Obj: 292.7298 Marker cost: 213.3017 Tilt cost: 28.5863 Socket cost: 50.8418 Flexion cost: 23.9993 Piston cost: 26.8426 Avg RMS: 4.4431 Marker coordinate: L_1ST_MET x Steps from IC (mm): -1 time: 2131.0878
+L_1ST_MET x converged at 0 mm from IC. Min obj: 276.7032
+ Iter: 164 Obj: 296.6758 Marker cost: 215.1561 Tilt cost: 28.5725 Socket cost: 52.9472 Flexion cost: 27.6773 Piston cost: 25.2699 Avg RMS: 4.4512 Marker coordinate: L_1ST_MET y Steps from IC (mm): 1 time: 2143.789
+ Iter: 165 Obj: 322.3132 Marker cost: 211.2083 Tilt cost: 28.9594 Socket cost: 82.1455 Flexion cost: 58.6719 Piston cost: 23.4736 Avg RMS: 4.4282 Marker coordinate: L_1ST_MET y Steps from IC (mm): -1 time: 2156.2669
+L_1ST_MET y converged at 0 mm from IC. Min obj: 276.7032
+ Iter: 166 Obj: 304.3292 Marker cost: 211.6659 Tilt cost: 28.793 Socket cost: 63.8703 Flexion cost: 38.2859 Piston cost: 25.5843 Avg RMS: 4.4322 Marker coordinate: L_1ST_MET z Steps from IC (mm): 1 time: 2168.7548
+ Iter: 167 Obj: 283.3944 Marker cost: 214.1525 Tilt cost: 28.3692 Socket cost: 40.8726 Flexion cost: 18.0462 Piston cost: 22.8264 Avg RMS: 4.445 Marker coordinate: L_1ST_MET z Steps from IC (mm): -1 time: 2181.0229
+L_1ST_MET z converged at 0 mm from IC. Min obj: 276.7032
+ Iter: 168 Obj: 292.128 Marker cost: 212.823 Tilt cost: 28.8363 Socket cost: 50.4687 Flexion cost: 26.8096 Piston cost: 23.6591 Avg RMS: 4.4388 Marker coordinate: L_5TH_MET x Steps from IC (mm): 1 time: 2193.3983
+ Iter: 169 Obj: 308.384 Marker cost: 214.0001 Tilt cost: 28.6661 Socket cost: 65.7178 Flexion cost: 41.7111 Piston cost: 24.0067 Avg RMS: 4.4452 Marker coordinate: L_5TH_MET x Steps from IC (mm): -1 time: 2205.658
+L_5TH_MET x converged at 0 mm from IC. Min obj: 276.7032
+ Iter: 170 Obj: 303.179 Marker cost: 213.9509 Tilt cost: 28.9536 Socket cost: 60.2745 Flexion cost: 33.6892 Piston cost: 26.5853 Avg RMS: 4.4459 Marker coordinate: L_5TH_MET y Steps from IC (mm): 1 time: 2218.1389
+ Iter: 171 Obj: 280.9259 Marker cost: 211.5644 Tilt cost: 28.6275 Socket cost: 40.734 Flexion cost: 17.8904 Piston cost: 22.8436 Avg RMS: 4.4304 Marker coordinate: L_5TH_MET y Steps from IC (mm): -1 time: 2230.5101
+L_5TH_MET y converged at 0 mm from IC. Min obj: 276.7032
+ Iter: 172 Obj: 294.3272 Marker cost: 214.5079 Tilt cost: 28.712 Socket cost: 51.1072 Flexion cost: 28.5664 Piston cost: 22.5408 Avg RMS: 4.448 Marker coordinate: L_5TH_MET z Steps from IC (mm): 1 time: 2242.879
+ Iter: 173 Obj: 279.1685 Marker cost: 212.8198 Tilt cost: 28.6478 Socket cost: 37.7008 Flexion cost: 14.2073 Piston cost: 23.4935 Avg RMS: 4.4388 Marker coordinate: L_5TH_MET z Steps from IC (mm): -1 time: 2255.3565
+L_5TH_MET z converged at 0 mm from IC. Min obj: 276.7032
+ Iter: 174 Obj: 297.9187 Marker cost: 214.4754 Tilt cost: 28.5635 Socket cost: 54.8798 Flexion cost: 31.3627 Piston cost: 23.5171 Avg RMS: 4.4499 Marker coordinate: L_THIGH_PROX_POST x Steps from IC (mm): 1 time: 2267.8377
+ Iter: 175 Obj: 312.6649 Marker cost: 211.5888 Tilt cost: 29.2875 Socket cost: 71.7886 Flexion cost: 50.1196 Piston cost: 21.669 Avg RMS: 4.4295 Marker coordinate: L_THIGH_PROX_POST x Steps from IC (mm): -1 time: 2280.4231
+L_THIGH_PROX_POST x converged at 0 mm from IC. Min obj: 276.7032
+ Iter: 176 Obj: 269.0028 Marker cost: 213.5279 Tilt cost: 28.1711 Socket cost: 27.3038 Flexion cost: 8.6342 Piston cost: 18.6697 Avg RMS: 4.4476 Marker coordinate: L_THIGH_PROX_POST y Steps from IC (mm): 1 time: 2292.684
+ Iter: 177 Obj: 286.1363 Marker cost: 217.1611 Tilt cost: 28.0251 Socket cost: 40.9501 Flexion cost: 25.2633 Piston cost: 15.6868 Avg RMS: 4.4684 Marker coordinate: L_THIGH_PROX_POST y Steps from IC (mm): 2 time: 2304.9468
+L_THIGH_PROX_POST y converged at 1 mm from IC. Min obj: 269.0028
+ Iter: 178 Obj: 312.7407 Marker cost: 217.0156 Tilt cost: 28.575 Socket cost: 67.1501 Flexion cost: 46.6322 Piston cost: 20.518 Avg RMS: 4.4681 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): 1 time: 2317.2181
+ Iter: 179 Obj: 280.5618 Marker cost: 212.4001 Tilt cost: 28.4533 Socket cost: 39.7084 Flexion cost: 21.5465 Piston cost: 18.1619 Avg RMS: 4.4391 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): -1 time: 2329.5084
+L_THIGH_PROX_POST z converged at 0 mm from IC. Min obj: 269.0028
+ Iter: 180 Obj: 289.5529 Marker cost: 214.9026 Tilt cost: 28.242 Socket cost: 46.4083 Flexion cost: 26.7794 Piston cost: 19.6289 Avg RMS: 4.4533 Marker coordinate: L_THIGH_PROX_ANT x Steps from IC (mm): 1 time: 2342.0151
+ Iter: 181 Obj: 307.5303 Marker cost: 214.4217 Tilt cost: 28.5384 Socket cost: 64.5701 Flexion cost: 44.2852 Piston cost: 20.2849 Avg RMS: 4.4509 Marker coordinate: L_THIGH_PROX_ANT x Steps from IC (mm): -1 time: 2354.5085
+L_THIGH_PROX_ANT x converged at 0 mm from IC. Min obj: 269.0028
+ Iter: 182 Obj: 289.7827 Marker cost: 214.7919 Tilt cost: 28.1514 Socket cost: 46.8393 Flexion cost: 28.7262 Piston cost: 18.1131 Avg RMS: 4.4515 Marker coordinate: L_THIGH_PROX_ANT y Steps from IC (mm): 1 time: 2366.8772
+ Iter: 183 Obj: 297.8145 Marker cost: 214.8733 Tilt cost: 28.5252 Socket cost: 54.4159 Flexion cost: 30.1902 Piston cost: 24.2257 Avg RMS: 4.4532 Marker coordinate: L_THIGH_PROX_ANT y Steps from IC (mm): -1 time: 2379.2615
+L_THIGH_PROX_ANT y converged at 0 mm from IC. Min obj: 269.0028
+ Iter: 184 Obj: 270.964 Marker cost: 213.1847 Tilt cost: 28.274 Socket cost: 29.5052 Flexion cost: 10.9303 Piston cost: 18.575 Avg RMS: 4.4456 Marker coordinate: L_THIGH_PROX_ANT z Steps from IC (mm): 1 time: 2391.7548
+ Iter: 185 Obj: 304.4753 Marker cost: 216.6057 Tilt cost: 28.5833 Socket cost: 59.2863 Flexion cost: 39.101 Piston cost: 20.1853 Avg RMS: 4.4621 Marker coordinate: L_THIGH_PROX_ANT z Steps from IC (mm): -1 time: 2404.2392
+L_THIGH_PROX_ANT z converged at 0 mm from IC. Min obj: 269.0028
+ Iter: 186 Obj: 309.0668 Marker cost: 214.007 Tilt cost: 28.0846 Socket cost: 66.9752 Flexion cost: 46.885 Piston cost: 20.0902 Avg RMS: 4.4476 Marker coordinate: L_THIGH_DIST_POST x Steps from IC (mm): 1 time: 2416.9439
+ Iter: 187 Obj: 266.6959 Marker cost: 214.1705 Tilt cost: 28.162 Socket cost: 24.3634 Flexion cost: 3.3262 Piston cost: 21.0372 Avg RMS: 4.4488 Marker coordinate: L_THIGH_DIST_POST x Steps from IC (mm): -1 time: 2429.9809
+ Iter: 188 Obj: 272.0042 Marker cost: 215.5233 Tilt cost: 28.7753 Socket cost: 27.7057 Flexion cost: 9.0133 Piston cost: 18.6924 Avg RMS: 4.4582 Marker coordinate: L_THIGH_DIST_POST x Steps from IC (mm): -2 time: 2442.6772
+L_THIGH_DIST_POST x converged at -1 mm from IC. Min obj: 266.6959
+ Iter: 189 Obj: 260.5025 Marker cost: 212.7564 Tilt cost: 28.0503 Socket cost: 19.6959 Flexion cost: 4.7889 Piston cost: 14.9069 Avg RMS: 4.4434 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): 1 time: 2455.3849
+ Iter: 190 Obj: 248.4207 Marker cost: 210.2434 Tilt cost: 27.2042 Socket cost: 10.9731 Flexion cost: 0.71931 Piston cost: 10.2538 Avg RMS: 4.4331 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): 2 time: 2467.9783
+ Iter: 191 Obj: 244.9754 Marker cost: 209.4498 Tilt cost: 27.0888 Socket cost: 8.4368 Flexion cost: 0.0072059 Piston cost: 8.4296 Avg RMS: 4.432 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): 3 time: 2480.3479
+ Iter: 192 Obj: 242.5909 Marker cost: 210.4075 Tilt cost: 26.9968 Socket cost: 5.1866 Flexion cost: 0.0095042 Piston cost: 5.1771 Avg RMS: 4.4371 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): 4 time: 2492.9344
+ Iter: 193 Obj: 248.8063 Marker cost: 211.0501 Tilt cost: 26.5994 Socket cost: 11.1568 Flexion cost: 8.9903 Piston cost: 2.1665 Avg RMS: 4.4436 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): 5 time: 2505.2006
+L_THIGH_DIST_POST y converged at 4 mm from IC. Min obj: 242.5909
+ Iter: 194 Obj: 244.1473 Marker cost: 211.2126 Tilt cost: 27.3766 Socket cost: 5.5582 Flexion cost: 0.10758 Piston cost: 5.4506 Avg RMS: 4.4461 Marker coordinate: L_THIGH_DIST_POST z Steps from IC (mm): 1 time: 2517.3515
+ Iter: 195 Obj: 240.2179 Marker cost: 209.0019 Tilt cost: 26.601 Socket cost: 4.615 Flexion cost: 0.27896 Piston cost: 4.3361 Avg RMS: 4.4288 Marker coordinate: L_THIGH_DIST_POST z Steps from IC (mm): -1 time: 2529.9726
+ Iter: 196 Obj: 248.4133 Marker cost: 210.0845 Tilt cost: 26.5598 Socket cost: 11.769 Flexion cost: 7.9845 Piston cost: 3.7845 Avg RMS: 4.4298 Marker coordinate: L_THIGH_DIST_POST z Steps from IC (mm): -2 time: 2542.4996
+L_THIGH_DIST_POST z converged at -1 mm from IC. Min obj: 240.2179
+ Iter: 197 Obj: 238.8351 Marker cost: 207.6406 Tilt cost: 26.6528 Socket cost: 4.5417 Flexion cost: 0.09962 Piston cost: 4.4421 Avg RMS: 4.4211 Marker coordinate: L_THIGH_DIST_ANT x Steps from IC (mm): 1 time: 2554.6865
+ Iter: 198 Obj: 240.6763 Marker cost: 208.7524 Tilt cost: 26.5317 Socket cost: 5.3922 Flexion cost: 0.071497 Piston cost: 5.3207 Avg RMS: 4.4262 Marker coordinate: L_THIGH_DIST_ANT x Steps from IC (mm): 2 time: 2566.8978
+L_THIGH_DIST_ANT x converged at 1 mm from IC. Min obj: 238.8351
+ Iter: 199 Obj: 237.7319 Marker cost: 207.4145 Tilt cost: 26.3376 Socket cost: 3.9798 Flexion cost: 1.7346 Piston cost: 2.2452 Avg RMS: 4.4177 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): 1 time: 2579.298
+ Iter: 200 Obj: 235.7777 Marker cost: 206.004 Tilt cost: 26.0292 Socket cost: 3.7445 Flexion cost: 2.4933 Piston cost: 1.2512 Avg RMS: 4.4141 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): 2 time: 2591.6692
+ Iter: 201 Obj: 233.948 Marker cost: 205.809 Tilt cost: 25.9721 Socket cost: 2.1669 Flexion cost: 2.15 Piston cost: 0.016925 Avg RMS: 4.4136 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): 3 time: 2603.9949
+ Iter: 202 Obj: 242.5963 Marker cost: 206.6432 Tilt cost: 26.4199 Socket cost: 9.5332 Flexion cost: 9.4274 Piston cost: 0.10582 Avg RMS: 4.4192 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): 4 time: 2616.7477
+L_THIGH_DIST_ANT y converged at 3 mm from IC. Min obj: 233.948
+ Iter: 203 Obj: 235.8546 Marker cost: 206.6982 Tilt cost: 26.3399 Socket cost: 2.8166 Flexion cost: 2.2323 Piston cost: 0.58424 Avg RMS: 4.4202 Marker coordinate: L_THIGH_DIST_ANT z Steps from IC (mm): 1 time: 2629.2304
+ Iter: 204 Obj: 234.5743 Marker cost: 206.6515 Tilt cost: 25.9116 Socket cost: 2.0112 Flexion cost: 1.4475 Piston cost: 0.56373 Avg RMS: 4.4142 Marker coordinate: L_THIGH_DIST_ANT z Steps from IC (mm): -1 time: 2641.6063
+L_THIGH_DIST_ANT z converged at 0 mm from IC. Min obj: 233.948
+ Iter: 205 Obj: 249.9019 Marker cost: 205.2698 Tilt cost: 26.1076 Socket cost: 18.5244 Flexion cost: 17.8348 Piston cost: 0.68964 Avg RMS: 4.4092 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD x Steps from IC (mm): 1 time: 2654.1901
+ Iter: 206 Obj: 233.8823 Marker cost: 206.7302 Tilt cost: 26.5943 Socket cost: 0.55771 Flexion cost: 0.43029 Piston cost: 0.12742 Avg RMS: 4.4189 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD x Steps from IC (mm): -1 time: 2666.5633
+ Iter: 207 Obj: 234.4879 Marker cost: 206.9706 Tilt cost: 26.9339 Socket cost: 0.58341 Flexion cost: 0.51065 Piston cost: 0.072761 Avg RMS: 4.4201 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD x Steps from IC (mm): -2 time: 2678.9391
+SOCKET_JOINT_LOC_IN_CHILD x converged at -1 mm from IC. Min obj: 233.8823
+ Iter: 208 Obj: 247.9599 Marker cost: 206.0263 Tilt cost: 26.487 Socket cost: 15.4465 Flexion cost: 8.1713 Piston cost: 7.2752 Avg RMS: 4.4159 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): 1 time: 2691.3199
+ Iter: 209 Obj: 249.7808 Marker cost: 206.6913 Tilt cost: 26.5846 Socket cost: 16.5049 Flexion cost: 2.9063 Piston cost: 13.5986 Avg RMS: 4.4181 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -1 time: 2703.6959
+SOCKET_JOINT_LOC_IN_CHILD y converged at 0 mm from IC. Min obj: 233.8823
+ Iter: 210 Obj: 236.3787 Marker cost: 207.265 Tilt cost: 27.0449 Socket cost: 2.0688 Flexion cost: 1.4783 Piston cost: 0.59059 Avg RMS: 4.424 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD z Steps from IC (mm): 1 time: 2716.1888
+ Iter: 211 Obj: 239.2679 Marker cost: 206.2381 Tilt cost: 26.5086 Socket cost: 6.5213 Flexion cost: 6.4628 Piston cost: 0.058507 Avg RMS: 4.4128 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD z Steps from IC (mm): -1 time: 2729.3176
+SOCKET_JOINT_LOC_IN_CHILD z converged at 0 mm from IC. Min obj: 233.8823
+ Iter: 212 Obj: 236.9893 Marker cost: 208.2677 Tilt cost: 26.9756 Socket cost: 1.746 Flexion cost: 1.515 Piston cost: 0.23101 Avg RMS: 4.427 Marker coordinate: L_SHANK_PROX_POST x Steps from IC (mm): 1 time: 2741.7996
+ Iter: 213 Obj: 234.1416 Marker cost: 206.0512 Tilt cost: 26.5505 Socket cost: 1.5399 Flexion cost: 1.4251 Piston cost: 0.11483 Avg RMS: 4.4148 Marker coordinate: L_SHANK_PROX_POST x Steps from IC (mm): -1 time: 2754.0631
+L_SHANK_PROX_POST x converged at 0 mm from IC. Min obj: 233.8823
+ Iter: 214 Obj: 233.9368 Marker cost: 206.3786 Tilt cost: 26.5201 Socket cost: 1.0381 Flexion cost: 0.32932 Piston cost: 0.70873 Avg RMS: 4.4161 Marker coordinate: L_SHANK_PROX_POST y Steps from IC (mm): 1 time: 2766.3241
+ Iter: 215 Obj: 234.3521 Marker cost: 207.4536 Tilt cost: 26.4959 Socket cost: 0.40257 Flexion cost: 0.22266 Piston cost: 0.17991 Avg RMS: 4.4229 Marker coordinate: L_SHANK_PROX_POST y Steps from IC (mm): -1 time: 2778.4753
+L_SHANK_PROX_POST y converged at 0 mm from IC. Min obj: 233.8823
+ Iter: 216 Obj: 237.4288 Marker cost: 206.6092 Tilt cost: 26.2981 Socket cost: 4.5215 Flexion cost: 4.3666 Piston cost: 0.1549 Avg RMS: 4.4181 Marker coordinate: L_SHANK_PROX_POST z Steps from IC (mm): 1 time: 2790.4087
+ Iter: 217 Obj: 233.9945 Marker cost: 206.5837 Tilt cost: 26.4275 Socket cost: 0.9833 Flexion cost: 0.88191 Piston cost: 0.10138 Avg RMS: 4.417 Marker coordinate: L_SHANK_PROX_POST z Steps from IC (mm): -1 time: 2802.7823
+L_SHANK_PROX_POST z converged at 0 mm from IC. Min obj: 233.8823
+ Iter: 218 Obj: 234.2661 Marker cost: 207.0909 Tilt cost: 26.7509 Socket cost: 0.42431 Flexion cost: 0.11084 Piston cost: 0.31347 Avg RMS: 4.4202 Marker coordinate: L_SHANK_PROX_ANT x Steps from IC (mm): 1 time: 2815.0436
+ Iter: 219 Obj: 235.4618 Marker cost: 207.8775 Tilt cost: 26.8523 Socket cost: 0.73196 Flexion cost: 0.46523 Piston cost: 0.26673 Avg RMS: 4.4247 Marker coordinate: L_SHANK_PROX_ANT x Steps from IC (mm): -1 time: 2827.1929
+L_SHANK_PROX_ANT x converged at 0 mm from IC. Min obj: 233.8823
+ Iter: 220 Obj: 234.4881 Marker cost: 206.3994 Tilt cost: 26.3055 Socket cost: 1.7832 Flexion cost: 0.58629 Piston cost: 1.197 Avg RMS: 4.4168 Marker coordinate: L_SHANK_PROX_ANT y Steps from IC (mm): 1 time: 2839.5696
+ Iter: 221 Obj: 238.1459 Marker cost: 207.9092 Tilt cost: 27.047 Socket cost: 3.1897 Flexion cost: 3.1801 Piston cost: 0.0096286 Avg RMS: 4.4262 Marker coordinate: L_SHANK_PROX_ANT y Steps from IC (mm): -1 time: 2851.6082
+L_SHANK_PROX_ANT y converged at 0 mm from IC. Min obj: 233.8823
+ Iter: 222 Obj: 235.5182 Marker cost: 208.3177 Tilt cost: 26.8449 Socket cost: 0.35559 Flexion cost: 0.19402 Piston cost: 0.16157 Avg RMS: 4.4271 Marker coordinate: L_SHANK_PROX_ANT z Steps from IC (mm): 1 time: 2863.775
+ Iter: 223 Obj: 239.0749 Marker cost: 206.6563 Tilt cost: 26.6567 Socket cost: 5.7618 Flexion cost: 5.426 Piston cost: 0.33581 Avg RMS: 4.4173 Marker coordinate: L_SHANK_PROX_ANT z Steps from IC (mm): -1 time: 2876.0348
+L_SHANK_PROX_ANT z converged at 0 mm from IC. Min obj: 233.8823
+ Iter: 224 Obj: 234.3349 Marker cost: 207.0703 Tilt cost: 26.8627 Socket cost: 0.40189 Flexion cost: 0.0012065 Piston cost: 0.40068 Avg RMS: 4.4189 Marker coordinate: L_SHANK_DIST_ANT x Steps from IC (mm): 1 time: 2888.5204
+ Iter: 225 Obj: 234.9317 Marker cost: 207.985 Tilt cost: 26.7333 Socket cost: 0.21335 Flexion cost: 0.14071 Piston cost: 0.072642 Avg RMS: 4.425 Marker coordinate: L_SHANK_DIST_ANT x Steps from IC (mm): -1 time: 2900.8863
+L_SHANK_DIST_ANT x converged at 0 mm from IC. Min obj: 233.8823
+ Iter: 226 Obj: 235.1732 Marker cost: 206.2776 Tilt cost: 26.3304 Socket cost: 2.5652 Flexion cost: 2.1073 Piston cost: 0.45787 Avg RMS: 4.4149 Marker coordinate: L_SHANK_DIST_ANT y Steps from IC (mm): 1 time: 2913.3652
+ Iter: 227 Obj: 253.8401 Marker cost: 207.1121 Tilt cost: 26.5046 Socket cost: 20.2234 Flexion cost: 20.2223 Piston cost: 0.0011664 Avg RMS: 4.4227 Marker coordinate: L_SHANK_DIST_ANT y Steps from IC (mm): -1 time: 2925.7387
+L_SHANK_DIST_ANT y converged at 0 mm from IC. Min obj: 233.8823
+ Iter: 228 Obj: 256.2016 Marker cost: 207.2638 Tilt cost: 27.0157 Socket cost: 21.9222 Flexion cost: 21.7648 Piston cost: 0.15738 Avg RMS: 4.4213 Marker coordinate: L_SHANK_DIST_ANT z Steps from IC (mm): 1 time: 2938.1073
+ Iter: 229 Obj: 235.4422 Marker cost: 207.4157 Tilt cost: 26.4883 Socket cost: 1.5382 Flexion cost: 1.4314 Piston cost: 0.10675 Avg RMS: 4.422 Marker coordinate: L_SHANK_DIST_ANT z Steps from IC (mm): -1 time: 2950.0448
+L_SHANK_DIST_ANT z converged at 0 mm from IC. Min obj: 233.8823
+ Iter: 230 Obj: 233.8671 Marker cost: 206.9621 Tilt cost: 26.6009 Socket cost: 0.30415 Flexion cost: 0.20981 Piston cost: 0.094342 Avg RMS: 4.4196 Marker coordinate: L_SHANK_DIST_POST x Steps from IC (mm): 1 time: 2962.4178
+ Iter: 231 Obj: 238.423 Marker cost: 208.6029 Tilt cost: 26.3632 Socket cost: 3.4569 Flexion cost: 3.1235 Piston cost: 0.33339 Avg RMS: 4.4291 Marker coordinate: L_SHANK_DIST_POST x Steps from IC (mm): 2 time: 2974.8903
+L_SHANK_DIST_POST x converged at 1 mm from IC. Min obj: 233.8671
+ Iter: 232 Obj: 237.7771 Marker cost: 206.918 Tilt cost: 26.9401 Socket cost: 3.919 Flexion cost: 3.1418 Piston cost: 0.77718 Avg RMS: 4.4211 Marker coordinate: L_SHANK_DIST_POST y Steps from IC (mm): 1 time: 2987.1529
+ Iter: 233 Obj: 234.7551 Marker cost: 207.9377 Tilt cost: 26.5832 Socket cost: 0.23418 Flexion cost: 0.13818 Piston cost: 0.096001 Avg RMS: 4.4254 Marker coordinate: L_SHANK_DIST_POST y Steps from IC (mm): -1 time: 2999.6329
+L_SHANK_DIST_POST y converged at 0 mm from IC. Min obj: 233.8671
+ Iter: 234 Obj: 235.8182 Marker cost: 208.3257 Tilt cost: 26.7544 Socket cost: 0.73817 Flexion cost: 0.39195 Piston cost: 0.34622 Avg RMS: 4.4274 Marker coordinate: L_SHANK_DIST_POST z Steps from IC (mm): 1 time: 3011.7879
+ Iter: 235 Obj: 233.7967 Marker cost: 206.9148 Tilt cost: 26.464 Socket cost: 0.41794 Flexion cost: 0.0032429 Piston cost: 0.41469 Avg RMS: 4.4216 Marker coordinate: L_SHANK_DIST_POST z Steps from IC (mm): -1 time: 3023.934
+ Iter: 236 Obj: 241.2182 Marker cost: 208.33 Tilt cost: 26.8484 Socket cost: 6.0398 Flexion cost: 5.4149 Piston cost: 0.62495 Avg RMS: 4.4276 Marker coordinate: L_SHANK_DIST_POST z Steps from IC (mm): -2 time: 3036.2009
+L_SHANK_DIST_POST z converged at -1 mm from IC. Min obj: 233.7967
+ Iter: 237 Obj: 234.7975 Marker cost: 207.6281 Tilt cost: 26.6802 Socket cost: 0.48919 Flexion cost: 0.15114 Piston cost: 0.33804 Avg RMS: 4.4248 Marker coordinate: L_HEEL_SUP x Steps from IC (mm): 1 time: 3048.6801
+ Iter: 238 Obj: 234.623 Marker cost: 207.5297 Tilt cost: 26.727 Socket cost: 0.36628 Flexion cost: 0.00067009 Piston cost: 0.36561 Avg RMS: 4.4232 Marker coordinate: L_HEEL_SUP x Steps from IC (mm): -1 time: 3060.8358
+L_HEEL_SUP x converged at 0 mm from IC. Min obj: 233.7967
+ Iter: 239 Obj: 236.6933 Marker cost: 208.5667 Tilt cost: 26.9476 Socket cost: 1.179 Flexion cost: 0.55165 Piston cost: 0.6273 Avg RMS: 4.4296 Marker coordinate: L_HEEL_SUP y Steps from IC (mm): 1 time: 3073.0957
+ Iter: 240 Obj: 235.4113 Marker cost: 206.4741 Tilt cost: 26.7966 Socket cost: 2.1406 Flexion cost: 1.8591 Piston cost: 0.2815 Avg RMS: 4.4181 Marker coordinate: L_HEEL_SUP y Steps from IC (mm): -1 time: 3085.4723
+L_HEEL_SUP y converged at 0 mm from IC. Min obj: 233.7967
+ Iter: 241 Obj: 233.0011 Marker cost: 205.3997 Tilt cost: 26.6388 Socket cost: 0.96258 Flexion cost: 0.66623 Piston cost: 0.29636 Avg RMS: 4.4121 Marker coordinate: L_HEEL_SUP z Steps from IC (mm): 1 time: 3097.8465
+ Iter: 242 Obj: 232.5117 Marker cost: 205.5743 Tilt cost: 26.692 Socket cost: 0.24539 Flexion cost: 0.071653 Piston cost: 0.17374 Avg RMS: 4.413 Marker coordinate: L_HEEL_SUP z Steps from IC (mm): 2 time: 3110.1125
+ Iter: 243 Obj: 234.076 Marker cost: 206.9248 Tilt cost: 26.6375 Socket cost: 0.51375 Flexion cost: 0.26974 Piston cost: 0.24402 Avg RMS: 4.418 Marker coordinate: L_HEEL_SUP z Steps from IC (mm): 3 time: 3122.0496
+L_HEEL_SUP z converged at 2 mm from IC. Min obj: 232.5117
+ Iter: 244 Obj: 234.5833 Marker cost: 207.7143 Tilt cost: 26.3999 Socket cost: 0.46912 Flexion cost: 0.18728 Piston cost: 0.28184 Avg RMS: 4.4215 Marker coordinate: L_HEEL_MED x Steps from IC (mm): 1 time: 3134.6534
+ Iter: 245 Obj: 236.3118 Marker cost: 205.8802 Tilt cost: 26.9137 Socket cost: 3.518 Flexion cost: 3.1545 Piston cost: 0.36344 Avg RMS: 4.4115 Marker coordinate: L_HEEL_MED x Steps from IC (mm): -1 time: 3147.0133
+L_HEEL_MED x converged at 0 mm from IC. Min obj: 232.5117
+ Iter: 246 Obj: 236.2288 Marker cost: 208.296 Tilt cost: 26.8118 Socket cost: 1.1209 Flexion cost: 0.50945 Piston cost: 0.61147 Avg RMS: 4.4276 Marker coordinate: L_HEEL_MED y Steps from IC (mm): 1 time: 3159.3927
+ Iter: 247 Obj: 234.5766 Marker cost: 205.4997 Tilt cost: 26.96 Socket cost: 2.1169 Flexion cost: 2.1025 Piston cost: 0.014372 Avg RMS: 4.4088 Marker coordinate: L_HEEL_MED y Steps from IC (mm): -1 time: 3171.5394
+L_HEEL_MED y converged at 0 mm from IC. Min obj: 232.5117
+ Iter: 248 Obj: 232.5921 Marker cost: 205.6455 Tilt cost: 26.5004 Socket cost: 0.44624 Flexion cost: 0.095543 Piston cost: 0.3507 Avg RMS: 4.4117 Marker coordinate: L_HEEL_MED z Steps from IC (mm): 1 time: 3183.5835
+ Iter: 249 Obj: 237.3166 Marker cost: 206.663 Tilt cost: 26.8596 Socket cost: 3.7941 Flexion cost: 3.3385 Piston cost: 0.45557 Avg RMS: 4.4175 Marker coordinate: L_HEEL_MED z Steps from IC (mm): -1 time: 3195.6236
+L_HEEL_MED z converged at 0 mm from IC. Min obj: 232.5117
+ Iter: 250 Obj: 234.7131 Marker cost: 207.1002 Tilt cost: 26.6489 Socket cost: 0.96399 Flexion cost: 0.49518 Piston cost: 0.46881 Avg RMS: 4.4196 Marker coordinate: L_HEEL_LAT x Steps from IC (mm): 1 time: 3207.8992
+ Iter: 251 Obj: 234.0925 Marker cost: 205.9765 Tilt cost: 26.6322 Socket cost: 1.4837 Flexion cost: 1.2271 Piston cost: 0.25658 Avg RMS: 4.4139 Marker coordinate: L_HEEL_LAT x Steps from IC (mm): -1 time: 3220.2427
+L_HEEL_LAT x converged at 0 mm from IC. Min obj: 232.5117
+ Iter: 252 Obj: 244.0752 Marker cost: 205.1559 Tilt cost: 26.7675 Socket cost: 12.1518 Flexion cost: 11.6176 Piston cost: 0.53412 Avg RMS: 4.4081 Marker coordinate: L_HEEL_LAT y Steps from IC (mm): 1 time: 3232.7209
+ Iter: 253 Obj: 238.8444 Marker cost: 209.1983 Tilt cost: 26.8697 Socket cost: 2.7763 Flexion cost: 2.69 Piston cost: 0.086341 Avg RMS: 4.4306 Marker coordinate: L_HEEL_LAT y Steps from IC (mm): -1 time: 3244.9876
+L_HEEL_LAT y converged at 0 mm from IC. Min obj: 232.5117
+ Iter: 254 Obj: 234.7641 Marker cost: 206.2755 Tilt cost: 26.9798 Socket cost: 1.5088 Flexion cost: 0.5817 Piston cost: 0.92714 Avg RMS: 4.4148 Marker coordinate: L_HEEL_LAT z Steps from IC (mm): 1 time: 3258.0183
+ Iter: 255 Obj: 232.8123 Marker cost: 205.6126 Tilt cost: 26.6272 Socket cost: 0.57255 Flexion cost: 0.072808 Piston cost: 0.49975 Avg RMS: 4.412 Marker coordinate: L_HEEL_LAT z Steps from IC (mm): -1 time: 3270.289
+L_HEEL_LAT z converged at 0 mm from IC. Min obj: 232.5117
+Marker coordinate L_TOE x is locked.
+Marker coordinate L_TOE y is locked.
+Marker coordinate L_TOE z is locked.
+ Iter: 256 Obj: 235.6431 Marker cost: 206.0043 Tilt cost: 26.8586 Socket cost: 2.7803 Flexion cost: 2.4664 Piston cost: 0.31386 Avg RMS: 4.4132 Marker coordinate: L_1ST_MET x Steps from IC (mm): 1 time: 3282.6569
+ Iter: 257 Obj: 233.4418 Marker cost: 206.5768 Tilt cost: 26.5727 Socket cost: 0.29221 Flexion cost: 0.00027743 Piston cost: 0.29193 Avg RMS: 4.4181 Marker coordinate: L_1ST_MET x Steps from IC (mm): -1 time: 3295.033
+L_1ST_MET x converged at 0 mm from IC. Min obj: 232.5117
+ Iter: 258 Obj: 234.4848 Marker cost: 207.3647 Tilt cost: 26.6226 Socket cost: 0.49755 Flexion cost: 0.12903 Piston cost: 0.36852 Avg RMS: 4.4223 Marker coordinate: L_1ST_MET y Steps from IC (mm): 1 time: 3307.5073
+ Iter: 259 Obj: 236.2916 Marker cost: 204.5858 Tilt cost: 26.7137 Socket cost: 4.9922 Flexion cost: 4.7756 Piston cost: 0.21662 Avg RMS: 4.406 Marker coordinate: L_1ST_MET y Steps from IC (mm): -1 time: 3319.6603
+L_1ST_MET y converged at 0 mm from IC. Min obj: 232.5117
+ Iter: 260 Obj: 243.8137 Marker cost: 206.5388 Tilt cost: 26.4221 Socket cost: 10.8528 Flexion cost: 10.8528 Piston cost: 4.096e-06 Avg RMS: 4.4163 Marker coordinate: L_1ST_MET z Steps from IC (mm): 1 time: 3331.9362
+ Iter: 261 Obj: 235.801 Marker cost: 207.583 Tilt cost: 26.7749 Socket cost: 1.4431 Flexion cost: 1.1865 Piston cost: 0.25658 Avg RMS: 4.4209 Marker coordinate: L_1ST_MET z Steps from IC (mm): -1 time: 3344.4267
+L_1ST_MET z converged at 0 mm from IC. Min obj: 232.5117
+ Iter: 262 Obj: 232.8526 Marker cost: 206.0198 Tilt cost: 26.7055 Socket cost: 0.12741 Flexion cost: 0.065265 Piston cost: 0.062142 Avg RMS: 4.4115 Marker coordinate: L_5TH_MET x Steps from IC (mm): 1 time: 3356.9189
+ Iter: 263 Obj: 243.5003 Marker cost: 207.1057 Tilt cost: 26.5285 Socket cost: 9.8661 Flexion cost: 9.5644 Piston cost: 0.30165 Avg RMS: 4.4197 Marker coordinate: L_5TH_MET x Steps from IC (mm): -1 time: 3369.5011
+L_5TH_MET x converged at 0 mm from IC. Min obj: 232.5117
+ Iter: 264 Obj: 236.3462 Marker cost: 209.1276 Tilt cost: 26.6929 Socket cost: 0.52567 Flexion cost: 0.17385 Piston cost: 0.35183 Avg RMS: 4.4307 Marker coordinate: L_5TH_MET y Steps from IC (mm): 1 time: 3381.7649
+ Iter: 265 Obj: 236.1282 Marker cost: 205.6749 Tilt cost: 26.6606 Socket cost: 3.7926 Flexion cost: 3.4612 Piston cost: 0.33146 Avg RMS: 4.4104 Marker coordinate: L_5TH_MET y Steps from IC (mm): -1 time: 3394.1431
+L_5TH_MET y converged at 0 mm from IC. Min obj: 232.5117
+ Iter: 266 Obj: 234.1653 Marker cost: 206.6789 Tilt cost: 26.8897 Socket cost: 0.59683 Flexion cost: 0.37776 Piston cost: 0.21907 Avg RMS: 4.4172 Marker coordinate: L_5TH_MET z Steps from IC (mm): 1 time: 3406.4145
+ Iter: 267 Obj: 236.8804 Marker cost: 206.4097 Tilt cost: 26.786 Socket cost: 3.6847 Flexion cost: 3.5417 Piston cost: 0.14299 Avg RMS: 4.415 Marker coordinate: L_5TH_MET z Steps from IC (mm): -1 time: 3418.7823
+L_5TH_MET z converged at 0 mm from IC. Min obj: 232.5117
+ Iter: 268 Obj: 235.1771 Marker cost: 208.2512 Tilt cost: 26.3209 Socket cost: 0.605 Flexion cost: 0.12543 Piston cost: 0.47957 Avg RMS: 4.4266 Marker coordinate: L_THIGH_PROX_POST x Steps from IC (mm): 1 time: 3431.0397
+ Iter: 269 Obj: 231.9067 Marker cost: 204.3727 Tilt cost: 26.8981 Socket cost: 0.63583 Flexion cost: 0.45309 Piston cost: 0.18274 Avg RMS: 4.4043 Marker coordinate: L_THIGH_PROX_POST x Steps from IC (mm): -1 time: 3443.3112
+ Iter: 270 Obj: 243.3467 Marker cost: 204.717 Tilt cost: 27.3739 Socket cost: 11.2559 Flexion cost: 10.8164 Piston cost: 0.43945 Avg RMS: 4.4039 Marker coordinate: L_THIGH_PROX_POST x Steps from IC (mm): -2 time: 3455.6937
+L_THIGH_PROX_POST x converged at -1 mm from IC. Min obj: 231.9067
+ Iter: 271 Obj: 238.6152 Marker cost: 205.7843 Tilt cost: 26.5671 Socket cost: 6.2638 Flexion cost: 6.2615 Piston cost: 0.002265 Avg RMS: 4.4151 Marker coordinate: L_THIGH_PROX_POST y Steps from IC (mm): 1 time: 3467.951
+ Iter: 272 Obj: 232.262 Marker cost: 204.0401 Tilt cost: 27.2544 Socket cost: 0.96744 Flexion cost: 0.029056 Piston cost: 0.93838 Avg RMS: 4.3985 Marker coordinate: L_THIGH_PROX_POST y Steps from IC (mm): -1 time: 3480.3241
+L_THIGH_PROX_POST y converged at 0 mm from IC. Min obj: 231.9067
+ Iter: 273 Obj: 236.2908 Marker cost: 207.2161 Tilt cost: 26.8769 Socket cost: 2.1977 Flexion cost: 1.9999 Piston cost: 0.19788 Avg RMS: 4.4231 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): 1 time: 3492.6921
+ Iter: 274 Obj: 229.7645 Marker cost: 202.6612 Tilt cost: 27.0425 Socket cost: 0.060714 Flexion cost: 0.015703 Piston cost: 0.045011 Avg RMS: 4.3926 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): -1 time: 3504.9551
+ Iter: 275 Obj: 229.4417 Marker cost: 201.445 Tilt cost: 26.6135 Socket cost: 1.3832 Flexion cost: 1.3167 Piston cost: 0.066504 Avg RMS: 4.3818 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): -2 time: 3517.4374
+ Iter: 276 Obj: 238.7103 Marker cost: 200.3772 Tilt cost: 26.9187 Socket cost: 11.4144 Flexion cost: 11.4077 Piston cost: 0.0066564 Avg RMS: 4.3754 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): -3 time: 3529.4822
+L_THIGH_PROX_POST z converged at -2 mm from IC. Min obj: 229.4417
+ Iter: 277 Obj: 246.8974 Marker cost: 202.2961 Tilt cost: 26.601 Socket cost: 18.0003 Flexion cost: 17.8335 Piston cost: 0.16682 Avg RMS: 4.3855 Marker coordinate: L_THIGH_PROX_ANT x Steps from IC (mm): 1 time: 3541.8666
+ Iter: 278 Obj: 228.3558 Marker cost: 200.9484 Tilt cost: 26.9593 Socket cost: 0.44813 Flexion cost: 0.42488 Piston cost: 0.023242 Avg RMS: 4.3784 Marker coordinate: L_THIGH_PROX_ANT x Steps from IC (mm): -1 time: 3554.1205
+ Iter: 279 Obj: 230.5449 Marker cost: 202.0547 Tilt cost: 27.4154 Socket cost: 1.0748 Flexion cost: 1.0374 Piston cost: 0.037393 Avg RMS: 4.3847 Marker coordinate: L_THIGH_PROX_ANT x Steps from IC (mm): -2 time: 3566.4955
+L_THIGH_PROX_ANT x converged at -1 mm from IC. Min obj: 228.3558
+ Iter: 280 Obj: 239.4593 Marker cost: 200.1086 Tilt cost: 26.8928 Socket cost: 12.4578 Flexion cost: 12.3726 Piston cost: 0.085248 Avg RMS: 4.3748 Marker coordinate: L_THIGH_PROX_ANT y Steps from IC (mm): 1 time: 3578.752
+ Iter: 281 Obj: 235.5768 Marker cost: 203.3759 Tilt cost: 27.4055 Socket cost: 4.7954 Flexion cost: 4.2632 Piston cost: 0.53222 Avg RMS: 4.3918 Marker coordinate: L_THIGH_PROX_ANT y Steps from IC (mm): -1 time: 3591.1297
+L_THIGH_PROX_ANT y converged at 0 mm from IC. Min obj: 228.3558
+ Iter: 282 Obj: 235.8367 Marker cost: 200.004 Tilt cost: 26.89 Socket cost: 8.9426 Flexion cost: 8.77 Piston cost: 0.17266 Avg RMS: 4.3766 Marker coordinate: L_THIGH_PROX_ANT z Steps from IC (mm): 1 time: 3603.1718
+ Iter: 283 Obj: 233.0265 Marker cost: 202.4933 Tilt cost: 26.977 Socket cost: 3.5561 Flexion cost: 3.5163 Piston cost: 0.039791 Avg RMS: 4.3866 Marker coordinate: L_THIGH_PROX_ANT z Steps from IC (mm): -1 time: 3615.4285
+L_THIGH_PROX_ANT z converged at 0 mm from IC. Min obj: 228.3558
+ Iter: 284 Obj: 227.7431 Marker cost: 200.9312 Tilt cost: 26.599 Socket cost: 0.21299 Flexion cost: 0.12183 Piston cost: 0.091164 Avg RMS: 4.3793 Marker coordinate: L_THIGH_DIST_POST x Steps from IC (mm): 1 time: 3627.6937
+ Iter: 285 Obj: 229.6895 Marker cost: 202.3465 Tilt cost: 27.144 Socket cost: 0.199 Flexion cost: 0.06767 Piston cost: 0.13133 Avg RMS: 4.3856 Marker coordinate: L_THIGH_DIST_POST x Steps from IC (mm): 2 time: 3639.8413
+L_THIGH_DIST_POST x converged at 1 mm from IC. Min obj: 227.7431
+ Iter: 286 Obj: 227.5209 Marker cost: 200.6637 Tilt cost: 26.7945 Socket cost: 0.062706 Flexion cost: 0.052059 Piston cost: 0.010647 Avg RMS: 4.3815 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): 1 time: 3652.1069
+ Iter: 287 Obj: 248.9254 Marker cost: 203.2117 Tilt cost: 26.4375 Socket cost: 19.2763 Flexion cost: 18.8335 Piston cost: 0.44272 Avg RMS: 4.396 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): 2 time: 3664.2599
+L_THIGH_DIST_POST y converged at 1 mm from IC. Min obj: 227.5209
+ Iter: 288 Obj: 229.6517 Marker cost: 202.258 Tilt cost: 27.3113 Socket cost: 0.082437 Flexion cost: 0.081821 Piston cost: 0.00061622 Avg RMS: 4.3923 Marker coordinate: L_THIGH_DIST_POST z Steps from IC (mm): 1 time: 3676.6261
+ Iter: 289 Obj: 231.1362 Marker cost: 202.3355 Tilt cost: 26.1824 Socket cost: 2.6183 Flexion cost: 2.3035 Piston cost: 0.31485 Avg RMS: 4.3847 Marker coordinate: L_THIGH_DIST_POST z Steps from IC (mm): -1 time: 3688.999
+L_THIGH_DIST_POST z converged at 0 mm from IC. Min obj: 227.5209
+ Iter: 290 Obj: 229.4307 Marker cost: 201.564 Tilt cost: 26.5858 Socket cost: 1.281 Flexion cost: 1.1708 Piston cost: 0.11019 Avg RMS: 4.3834 Marker coordinate: L_THIGH_DIST_ANT x Steps from IC (mm): 1 time: 3701.2646
+ Iter: 291 Obj: 249.8481 Marker cost: 202.6552 Tilt cost: 26.8626 Socket cost: 20.3304 Flexion cost: 20.2213 Piston cost: 0.10906 Avg RMS: 4.391 Marker coordinate: L_THIGH_DIST_ANT x Steps from IC (mm): -1 time: 3713.4286
+L_THIGH_DIST_ANT x converged at 0 mm from IC. Min obj: 227.5209
+ Iter: 292 Obj: 229.0077 Marker cost: 201.7206 Tilt cost: 26.6137 Socket cost: 0.67337 Flexion cost: 0.088019 Piston cost: 0.58535 Avg RMS: 4.3873 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): 1 time: 3725.5756
+ Iter: 293 Obj: 236.0531 Marker cost: 202.5638 Tilt cost: 26.9329 Socket cost: 6.5565 Flexion cost: 6.5203 Piston cost: 0.036192 Avg RMS: 4.3878 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): -1 time: 3737.9488
+L_THIGH_DIST_ANT y converged at 0 mm from IC. Min obj: 227.5209
+ Iter: 294 Obj: 230.6907 Marker cost: 203.7095 Tilt cost: 26.8278 Socket cost: 0.15336 Flexion cost: 0.15021 Piston cost: 0.0031435 Avg RMS: 4.3985 Marker coordinate: L_THIGH_DIST_ANT z Steps from IC (mm): 1 time: 3749.9926
+ Iter: 295 Obj: 233.5392 Marker cost: 200.808 Tilt cost: 26.4666 Socket cost: 6.2646 Flexion cost: 6.2537 Piston cost: 0.01091 Avg RMS: 4.3758 Marker coordinate: L_THIGH_DIST_ANT z Steps from IC (mm): -1 time: 3762.3684
+L_THIGH_DIST_ANT z converged at 0 mm from IC. Min obj: 227.5209
+ Iter: 296 Obj: 227.071 Marker cost: 200.7241 Tilt cost: 26.2569 Socket cost: 0.090027 Flexion cost: 0.08999 Piston cost: 3.7249e-05 Avg RMS: 4.3799 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD x Steps from IC (mm): 1 time: 3774.5123
+ Iter: 297 Obj: 231.1615 Marker cost: 200.9208 Tilt cost: 26.0847 Socket cost: 4.156 Flexion cost: 4.1475 Piston cost: 0.0085556 Avg RMS: 4.3785 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD x Steps from IC (mm): 2 time: 3786.8912
+SOCKET_JOINT_LOC_IN_CHILD x converged at 1 mm from IC. Min obj: 227.071
+ Iter: 298 Obj: 237.6899 Marker cost: 200.2902 Tilt cost: 26.1081 Socket cost: 11.2916 Flexion cost: 0.34337 Piston cost: 10.9483 Avg RMS: 4.3791 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): 1 time: 3799.0355
+ Iter: 299 Obj: 237.2636 Marker cost: 200.5196 Tilt cost: 26.4031 Socket cost: 10.3409 Flexion cost: 1.8366 Piston cost: 8.5043 Avg RMS: 4.3775 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -1 time: 3811.4094
+SOCKET_JOINT_LOC_IN_CHILD y converged at 0 mm from IC. Min obj: 227.071
+ Iter: 300 Obj: 233.8203 Marker cost: 201.3437 Tilt cost: 26.6826 Socket cost: 5.794 Flexion cost: 5.7657 Piston cost: 0.028366 Avg RMS: 4.3849 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD z Steps from IC (mm): 1 time: 3824.0035
+ Iter: 301 Obj: 227.0089 Marker cost: 200.1689 Tilt cost: 26.0757 Socket cost: 0.76423 Flexion cost: 0.58176 Piston cost: 0.18247 Avg RMS: 4.3751 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD z Steps from IC (mm): -1 time: 3836.2759
+ Iter: 302 Obj: 228.4098 Marker cost: 201.293 Tilt cost: 26.0478 Socket cost: 1.069 Flexion cost: 0.036311 Piston cost: 1.0327 Avg RMS: 4.3766 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD z Steps from IC (mm): -2 time: 3848.5352
+SOCKET_JOINT_LOC_IN_CHILD z converged at -1 mm from IC. Min obj: 227.0089
+ Iter: 303 Obj: 228.1378 Marker cost: 201.7592 Tilt cost: 26.0428 Socket cost: 0.33577 Flexion cost: 0.15008 Piston cost: 0.1857 Avg RMS: 4.3832 Marker coordinate: L_SHANK_PROX_POST x Steps from IC (mm): 1 time: 3861.0185
+ Iter: 304 Obj: 232.1174 Marker cost: 199.8185 Tilt cost: 25.9205 Socket cost: 6.3784 Flexion cost: 6.3143 Piston cost: 0.064096 Avg RMS: 4.372 Marker coordinate: L_SHANK_PROX_POST x Steps from IC (mm): -1 time: 3873.3945
+L_SHANK_PROX_POST x converged at 0 mm from IC. Min obj: 227.0089
+ Iter: 305 Obj: 240.69 Marker cost: 201.3363 Tilt cost: 26.1255 Socket cost: 13.2282 Flexion cost: 13.2053 Piston cost: 0.022906 Avg RMS: 4.3768 Marker coordinate: L_SHANK_PROX_POST y Steps from IC (mm): 1 time: 3885.7766
+ Iter: 306 Obj: 228.9439 Marker cost: 201.2601 Tilt cost: 26.0969 Socket cost: 1.5869 Flexion cost: 0.33684 Piston cost: 1.25 Avg RMS: 4.3819 Marker coordinate: L_SHANK_PROX_POST y Steps from IC (mm): -1 time: 3898.256
+L_SHANK_PROX_POST y converged at 0 mm from IC. Min obj: 227.0089
+ Iter: 307 Obj: 227.4486 Marker cost: 200.8301 Tilt cost: 26.3943 Socket cost: 0.22415 Flexion cost: 0.012416 Piston cost: 0.21173 Avg RMS: 4.3766 Marker coordinate: L_SHANK_PROX_POST z Steps from IC (mm): 1 time: 3910.736
+ Iter: 308 Obj: 244.8095 Marker cost: 201.27 Tilt cost: 25.8945 Socket cost: 17.6449 Flexion cost: 17.5909 Piston cost: 0.054052 Avg RMS: 4.3793 Marker coordinate: L_SHANK_PROX_POST z Steps from IC (mm): -1 time: 3922.8837
+L_SHANK_PROX_POST z converged at 0 mm from IC. Min obj: 227.0089
+ Iter: 309 Obj: 226.65 Marker cost: 199.9116 Tilt cost: 25.9238 Socket cost: 0.81455 Flexion cost: 0.63167 Piston cost: 0.18287 Avg RMS: 4.372 Marker coordinate: L_SHANK_PROX_ANT x Steps from IC (mm): 1 time: 3935.368
+ Iter: 310 Obj: 227.501 Marker cost: 201.1128 Tilt cost: 25.926 Socket cost: 0.46224 Flexion cost: 0.45995 Piston cost: 0.0022861 Avg RMS: 4.3778 Marker coordinate: L_SHANK_PROX_ANT x Steps from IC (mm): 2 time: 3947.7356
+L_SHANK_PROX_ANT x converged at 1 mm from IC. Min obj: 226.65
+ Iter: 311 Obj: 226.6436 Marker cost: 200.5266 Tilt cost: 26.0489 Socket cost: 0.068205 Flexion cost: 0.062762 Piston cost: 0.0054429 Avg RMS: 4.3751 Marker coordinate: L_SHANK_PROX_ANT y Steps from IC (mm): 1 time: 3959.89
+ Iter: 312 Obj: 231.8933 Marker cost: 200.4887 Tilt cost: 25.8171 Socket cost: 5.5875 Flexion cost: 5.5823 Piston cost: 0.0051847 Avg RMS: 4.3747 Marker coordinate: L_SHANK_PROX_ANT y Steps from IC (mm): 2 time: 3972.1525
+L_SHANK_PROX_ANT y converged at 1 mm from IC. Min obj: 226.6436
+ Iter: 313 Obj: 239.3452 Marker cost: 201.7246 Tilt cost: 25.9551 Socket cost: 11.6655 Flexion cost: 11.6489 Piston cost: 0.01654 Avg RMS: 4.3816 Marker coordinate: L_SHANK_PROX_ANT z Steps from IC (mm): 1 time: 3984.3075
+ Iter: 314 Obj: 238.9526 Marker cost: 199.411 Tilt cost: 26.0648 Socket cost: 13.4768 Flexion cost: 13.4689 Piston cost: 0.0079073 Avg RMS: 4.3688 Marker coordinate: L_SHANK_PROX_ANT z Steps from IC (mm): -1 time: 3996.5793
+L_SHANK_PROX_ANT z converged at 0 mm from IC. Min obj: 226.6436
+ Iter: 315 Obj: 227.0902 Marker cost: 198.9724 Tilt cost: 25.9065 Socket cost: 2.2113 Flexion cost: 2.1529 Piston cost: 0.05837 Avg RMS: 4.3651 Marker coordinate: L_SHANK_DIST_ANT x Steps from IC (mm): 1 time: 4009.055
+ Iter: 316 Obj: 228.0462 Marker cost: 201.915 Tilt cost: 26.0946 Socket cost: 0.036614 Flexion cost: 0.036117 Piston cost: 0.00049703 Avg RMS: 4.3818 Marker coordinate: L_SHANK_DIST_ANT x Steps from IC (mm): -1 time: 4021.2073
+L_SHANK_DIST_ANT x converged at 0 mm from IC. Min obj: 226.6436
+ Iter: 317 Obj: 226.6714 Marker cost: 200.116 Tilt cost: 25.7997 Socket cost: 0.7557 Flexion cost: 0.48893 Piston cost: 0.26677 Avg RMS: 4.3726 Marker coordinate: L_SHANK_DIST_ANT y Steps from IC (mm): 1 time: 4033.2581
+ Iter: 318 Obj: 227.233 Marker cost: 200.0988 Tilt cost: 26.0817 Socket cost: 1.0525 Flexion cost: 0.72074 Piston cost: 0.33175 Avg RMS: 4.3748 Marker coordinate: L_SHANK_DIST_ANT y Steps from IC (mm): -1 time: 4045.5164
+L_SHANK_DIST_ANT y converged at 0 mm from IC. Min obj: 226.6436
+ Iter: 319 Obj: 226.3055 Marker cost: 200.0995 Tilt cost: 26.147 Socket cost: 0.058995 Flexion cost: 0.018175 Piston cost: 0.040819 Avg RMS: 4.3739 Marker coordinate: L_SHANK_DIST_ANT z Steps from IC (mm): 1 time: 4057.7772
+ Iter: 320 Obj: 228.6506 Marker cost: 202.1477 Tilt cost: 25.9541 Socket cost: 0.54869 Flexion cost: 0.49397 Piston cost: 0.054716 Avg RMS: 4.384 Marker coordinate: L_SHANK_DIST_ANT z Steps from IC (mm): 2 time: 4069.8167
+L_SHANK_DIST_ANT z converged at 1 mm from IC. Min obj: 226.3055
+ Iter: 321 Obj: 228.2278 Marker cost: 201.9225 Tilt cost: 26.1954 Socket cost: 0.10988 Flexion cost: 0.084148 Piston cost: 0.025735 Avg RMS: 4.3828 Marker coordinate: L_SHANK_DIST_POST x Steps from IC (mm): 1 time: 4082.4122
+ Iter: 322 Obj: 240.0067 Marker cost: 199.9043 Tilt cost: 25.7692 Socket cost: 14.3332 Flexion cost: 14.2949 Piston cost: 0.038242 Avg RMS: 4.3721 Marker coordinate: L_SHANK_DIST_POST x Steps from IC (mm): -1 time: 4094.7774
+L_SHANK_DIST_POST x converged at 0 mm from IC. Min obj: 226.3055
+ Iter: 323 Obj: 228.6879 Marker cost: 201.1756 Tilt cost: 26.3701 Socket cost: 1.1422 Flexion cost: 1.1411 Piston cost: 0.0010568 Avg RMS: 4.3765 Marker coordinate: L_SHANK_DIST_POST y Steps from IC (mm): 1 time: 4107.0395
+ Iter: 324 Obj: 228.295 Marker cost: 201.8542 Tilt cost: 26.0856 Socket cost: 0.3553 Flexion cost: 0.0070261 Piston cost: 0.34827 Avg RMS: 4.3815 Marker coordinate: L_SHANK_DIST_POST y Steps from IC (mm): -1 time: 4119.1892
+L_SHANK_DIST_POST y converged at 0 mm from IC. Min obj: 226.3055
+ Iter: 325 Obj: 226.1413 Marker cost: 200.5803 Tilt cost: 25.536 Socket cost: 0.024978 Flexion cost: 0.002177 Piston cost: 0.022801 Avg RMS: 4.3748 Marker coordinate: L_SHANK_DIST_POST z Steps from IC (mm): 1 time: 4131.3476
+ Iter: 326 Obj: 228.6919 Marker cost: 201.8821 Tilt cost: 26.012 Socket cost: 0.79783 Flexion cost: 0.77755 Piston cost: 0.020277 Avg RMS: 4.3809 Marker coordinate: L_SHANK_DIST_POST z Steps from IC (mm): 2 time: 4143.5086
+L_SHANK_DIST_POST z converged at 1 mm from IC. Min obj: 226.1413
+ Iter: 327 Obj: 227.9127 Marker cost: 201.392 Tilt cost: 25.8283 Socket cost: 0.69244 Flexion cost: 0.60344 Piston cost: 0.089 Avg RMS: 4.3793 Marker coordinate: L_HEEL_SUP x Steps from IC (mm): 1 time: 4155.9932
+ Iter: 328 Obj: 226.3694 Marker cost: 200.1011 Tilt cost: 26.0251 Socket cost: 0.24323 Flexion cost: 0.22088 Piston cost: 0.022354 Avg RMS: 4.3719 Marker coordinate: L_HEEL_SUP x Steps from IC (mm): -1 time: 4168.5769
+L_HEEL_SUP x converged at 0 mm from IC. Min obj: 226.1413
+ Iter: 329 Obj: 228.2853 Marker cost: 202.1814 Tilt cost: 26.0828 Socket cost: 0.021079 Flexion cost: 0.00014868 Piston cost: 0.020931 Avg RMS: 4.3826 Marker coordinate: L_HEEL_SUP y Steps from IC (mm): 1 time: 4180.9581
+ Iter: 330 Obj: 227.5765 Marker cost: 200.408 Tilt cost: 26.0329 Socket cost: 1.1357 Flexion cost: 0.93188 Piston cost: 0.20378 Avg RMS: 4.3721 Marker coordinate: L_HEEL_SUP y Steps from IC (mm): -1 time: 4193.0267
+L_HEEL_SUP y converged at 0 mm from IC. Min obj: 226.1413
+ Iter: 331 Obj: 229.6384 Marker cost: 202.0229 Tilt cost: 25.7868 Socket cost: 1.8287 Flexion cost: 1.8281 Piston cost: 0.00058522 Avg RMS: 4.3823 Marker coordinate: L_HEEL_SUP z Steps from IC (mm): 1 time: 4204.9589
+ Iter: 332 Obj: 227.0472 Marker cost: 200.8873 Tilt cost: 25.8272 Socket cost: 0.3327 Flexion cost: 0.25067 Piston cost: 0.082029 Avg RMS: 4.3778 Marker coordinate: L_HEEL_SUP z Steps from IC (mm): -1 time: 4217.2166
+L_HEEL_SUP z converged at 0 mm from IC. Min obj: 226.1413
+ Iter: 333 Obj: 228.1536 Marker cost: 201.8928 Tilt cost: 25.6795 Socket cost: 0.58139 Flexion cost: 0.55112 Piston cost: 0.030272 Avg RMS: 4.3814 Marker coordinate: L_HEEL_MED x Steps from IC (mm): 1 time: 4229.59
+ Iter: 334 Obj: 226.3678 Marker cost: 199.9421 Tilt cost: 26.1082 Socket cost: 0.31745 Flexion cost: 0.26361 Piston cost: 0.053846 Avg RMS: 4.3707 Marker coordinate: L_HEEL_MED x Steps from IC (mm): -1 time: 4241.8549
+L_HEEL_MED x converged at 0 mm from IC. Min obj: 226.1413
+ Iter: 335 Obj: 228.1728 Marker cost: 201.8107 Tilt cost: 25.8052 Socket cost: 0.55694 Flexion cost: 0.55223 Piston cost: 0.0047132 Avg RMS: 4.3834 Marker coordinate: L_HEEL_MED y Steps from IC (mm): 1 time: 4254.0066
+ Iter: 336 Obj: 224.5214 Marker cost: 198.4278 Tilt cost: 25.6891 Socket cost: 0.40456 Flexion cost: 0.0015114 Piston cost: 0.40305 Avg RMS: 4.3612 Marker coordinate: L_HEEL_MED y Steps from IC (mm): -1 time: 4266.2809
+ Iter: 337 Obj: 225.4449 Marker cost: 198.2616 Tilt cost: 25.9247 Socket cost: 1.2586 Flexion cost: 0.64641 Piston cost: 0.61217 Avg RMS: 4.3572 Marker coordinate: L_HEEL_MED y Steps from IC (mm): -2 time: 4278.7633
+L_HEEL_MED y converged at -1 mm from IC. Min obj: 224.5214
+ Iter: 338 Obj: 225.4186 Marker cost: 198.7739 Tilt cost: 25.7829 Socket cost: 0.86188 Flexion cost: 0.56483 Piston cost: 0.29705 Avg RMS: 4.3638 Marker coordinate: L_HEEL_MED z Steps from IC (mm): 1 time: 4291.1476
+ Iter: 339 Obj: 225.5349 Marker cost: 199.2525 Tilt cost: 26.0546 Socket cost: 0.22786 Flexion cost: 0.00032859 Piston cost: 0.22753 Avg RMS: 4.367 Marker coordinate: L_HEEL_MED z Steps from IC (mm): -1 time: 4303.4085
+L_HEEL_MED z converged at 0 mm from IC. Min obj: 224.5214
+ Iter: 340 Obj: 226.1617 Marker cost: 199.8923 Tilt cost: 26.0422 Socket cost: 0.2272 Flexion cost: 0.0071561 Piston cost: 0.22005 Avg RMS: 4.3685 Marker coordinate: L_HEEL_LAT x Steps from IC (mm): 1 time: 4315.7784
+ Iter: 341 Obj: 226.0868 Marker cost: 199.217 Tilt cost: 25.9686 Socket cost: 0.90115 Flexion cost: 0.69205 Piston cost: 0.20909 Avg RMS: 4.3658 Marker coordinate: L_HEEL_LAT x Steps from IC (mm): -1 time: 4328.0411
+L_HEEL_LAT x converged at 0 mm from IC. Min obj: 224.5214
+ Iter: 342 Obj: 228.5038 Marker cost: 198.3122 Tilt cost: 26.2952 Socket cost: 3.8964 Flexion cost: 3.8442 Piston cost: 0.052201 Avg RMS: 4.3593 Marker coordinate: L_HEEL_LAT y Steps from IC (mm): 1 time: 4340.0847
+ Iter: 343 Obj: 227.8886 Marker cost: 201.1593 Tilt cost: 25.7284 Socket cost: 1.0009 Flexion cost: 0.70362 Piston cost: 0.29725 Avg RMS: 4.3761 Marker coordinate: L_HEEL_LAT y Steps from IC (mm): -1 time: 4352.2339
+L_HEEL_LAT y converged at 0 mm from IC. Min obj: 224.5214
+ Iter: 344 Obj: 231.2723 Marker cost: 200.4736 Tilt cost: 25.9528 Socket cost: 4.8459 Flexion cost: 4.7123 Piston cost: 0.13368 Avg RMS: 4.3711 Marker coordinate: L_HEEL_LAT z Steps from IC (mm): 1 time: 4364.3857
+ Iter: 345 Obj: 226.1731 Marker cost: 199.8599 Tilt cost: 26.0599 Socket cost: 0.25334 Flexion cost: 0.20129 Piston cost: 0.052056 Avg RMS: 4.3683 Marker coordinate: L_HEEL_LAT z Steps from IC (mm): -1 time: 4376.538
+L_HEEL_LAT z converged at 0 mm from IC. Min obj: 224.5214
+Marker coordinate L_TOE x is locked.
+Marker coordinate L_TOE y is locked.
+Marker coordinate L_TOE z is locked.
+ Iter: 346 Obj: 227.2741 Marker cost: 199.9268 Tilt cost: 26.357 Socket cost: 0.99035 Flexion cost: 0.55762 Piston cost: 0.43272 Avg RMS: 4.3663 Marker coordinate: L_1ST_MET x Steps from IC (mm): 1 time: 4388.6919
+ Iter: 347 Obj: 227.4173 Marker cost: 200.6036 Tilt cost: 26.102 Socket cost: 0.71166 Flexion cost: 0.62944 Piston cost: 0.082229 Avg RMS: 4.373 Marker coordinate: L_1ST_MET x Steps from IC (mm): -1 time: 4400.8476
+L_1ST_MET x converged at 0 mm from IC. Min obj: 224.5214
+ Iter: 348 Obj: 227.4658 Marker cost: 201.5477 Tilt cost: 25.8189 Socket cost: 0.099174 Flexion cost: 0.031819 Piston cost: 0.067355 Avg RMS: 4.3793 Marker coordinate: L_1ST_MET y Steps from IC (mm): 1 time: 4413.3223
+ Iter: 349 Obj: 223.6537 Marker cost: 197.6904 Tilt cost: 25.83 Socket cost: 0.13332 Flexion cost: 0.0038828 Piston cost: 0.12944 Avg RMS: 4.3554 Marker coordinate: L_1ST_MET y Steps from IC (mm): -1 time: 4425.8083
+ Iter: 350 Obj: 225.0567 Marker cost: 198.5941 Tilt cost: 26.0261 Socket cost: 0.43646 Flexion cost: 0.10961 Piston cost: 0.32685 Avg RMS: 4.3572 Marker coordinate: L_1ST_MET y Steps from IC (mm): -2 time: 4437.9523
+L_1ST_MET y converged at -1 mm from IC. Min obj: 223.6537
+ Iter: 351 Obj: 229.3559 Marker cost: 196.9752 Tilt cost: 25.6523 Socket cost: 6.7283 Flexion cost: 6.4653 Piston cost: 0.26309 Avg RMS: 4.3509 Marker coordinate: L_1ST_MET z Steps from IC (mm): 1 time: 4449.8903
+ Iter: 352 Obj: 225.234 Marker cost: 198.474 Tilt cost: 26.312 Socket cost: 0.44804 Flexion cost: 0.039151 Piston cost: 0.40889 Avg RMS: 4.3611 Marker coordinate: L_1ST_MET z Steps from IC (mm): -1 time: 4462.258
+L_1ST_MET z converged at 0 mm from IC. Min obj: 223.6537
+ Iter: 353 Obj: 224.4487 Marker cost: 197.9272 Tilt cost: 26.1107 Socket cost: 0.41074 Flexion cost: 0.26532 Piston cost: 0.14542 Avg RMS: 4.3565 Marker coordinate: L_5TH_MET x Steps from IC (mm): 1 time: 4474.5254
+ Iter: 354 Obj: 227.1606 Marker cost: 198.8589 Tilt cost: 25.79 Socket cost: 2.5118 Flexion cost: 2.4658 Piston cost: 0.045928 Avg RMS: 4.3624 Marker coordinate: L_5TH_MET x Steps from IC (mm): -1 time: 4486.7863
+L_5TH_MET x converged at 0 mm from IC. Min obj: 223.6537
+ Iter: 355 Obj: 226.6963 Marker cost: 199.9914 Tilt cost: 26.3514 Socket cost: 0.35355 Flexion cost: 0.0078497 Piston cost: 0.3457 Avg RMS: 4.3687 Marker coordinate: L_5TH_MET y Steps from IC (mm): 1 time: 4498.9348
+ Iter: 356 Obj: 225.6317 Marker cost: 197.6155 Tilt cost: 26.1176 Socket cost: 1.8986 Flexion cost: 1.6483 Piston cost: 0.25027 Avg RMS: 4.354 Marker coordinate: L_5TH_MET y Steps from IC (mm): -1 time: 4510.9803
+L_5TH_MET y converged at 0 mm from IC. Min obj: 223.6537
+ Iter: 357 Obj: 225.7595 Marker cost: 198.6251 Tilt cost: 26.2907 Socket cost: 0.84374 Flexion cost: 0.47403 Piston cost: 0.36972 Avg RMS: 4.3604 Marker coordinate: L_5TH_MET z Steps from IC (mm): 1 time: 4523.1269
+ Iter: 358 Obj: 226.3888 Marker cost: 198.7042 Tilt cost: 25.9609 Socket cost: 1.7238 Flexion cost: 1.5017 Piston cost: 0.22207 Avg RMS: 4.3599 Marker coordinate: L_5TH_MET z Steps from IC (mm): -1 time: 4535.5007
+L_5TH_MET z converged at 0 mm from IC. Min obj: 223.6537
+ Iter: 359 Obj: 225.3469 Marker cost: 199.3977 Tilt cost: 25.8521 Socket cost: 0.096964 Flexion cost: 0.0061817 Piston cost: 0.090783 Avg RMS: 4.3662 Marker coordinate: L_THIGH_PROX_POST x Steps from IC (mm): 1 time: 4547.6529
+ Iter: 360 Obj: 224.1889 Marker cost: 197.0342 Tilt cost: 26.2644 Socket cost: 0.89039 Flexion cost: 0.58613 Piston cost: 0.30426 Avg RMS: 4.3517 Marker coordinate: L_THIGH_PROX_POST x Steps from IC (mm): -1 time: 4560.2462
+L_THIGH_PROX_POST x converged at 0 mm from IC. Min obj: 223.6537
+ Iter: 361 Obj: 232.5172 Marker cost: 199.0523 Tilt cost: 25.3746 Socket cost: 8.0903 Flexion cost: 7.3437 Piston cost: 0.7466 Avg RMS: 4.3669 Marker coordinate: L_THIGH_PROX_POST y Steps from IC (mm): 1 time: 4572.6102
+ Iter: 362 Obj: 246.1974 Marker cost: 198.4323 Tilt cost: 26.2765 Socket cost: 21.4887 Flexion cost: 21.4785 Piston cost: 0.010119 Avg RMS: 4.3557 Marker coordinate: L_THIGH_PROX_POST y Steps from IC (mm): -1 time: 4584.8727
+L_THIGH_PROX_POST y converged at 0 mm from IC. Min obj: 223.6537
+ Iter: 363 Obj: 228.2053 Marker cost: 199.0628 Tilt cost: 26.1382 Socket cost: 3.0043 Flexion cost: 2.7442 Piston cost: 0.26011 Avg RMS: 4.366 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): 1 time: 4597.027
+ Iter: 364 Obj: 223.3086 Marker cost: 197.0669 Tilt cost: 25.6479 Socket cost: 0.5938 Flexion cost: 0.040704 Piston cost: 0.5531 Avg RMS: 4.3503 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): -1 time: 4609.2877
+ Iter: 365 Obj: 236.4718 Marker cost: 197.837 Tilt cost: 25.5808 Socket cost: 13.054 Flexion cost: 12.3923 Piston cost: 0.66167 Avg RMS: 4.3505 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): -2 time: 4621.5478
+L_THIGH_PROX_POST z converged at -1 mm from IC. Min obj: 223.3086
+ Iter: 366 Obj: 224.024 Marker cost: 197.2206 Tilt cost: 25.818 Socket cost: 0.98542 Flexion cost: 0.24383 Piston cost: 0.74158 Avg RMS: 4.3499 Marker coordinate: L_THIGH_PROX_ANT x Steps from IC (mm): 1 time: 4633.7055
+ Iter: 367 Obj: 229.8729 Marker cost: 198.7079 Tilt cost: 26.2338 Socket cost: 4.9312 Flexion cost: 4.2434 Piston cost: 0.6878 Avg RMS: 4.3583 Marker coordinate: L_THIGH_PROX_ANT x Steps from IC (mm): -1 time: 4645.9658
+L_THIGH_PROX_ANT x converged at 0 mm from IC. Min obj: 223.3086
+ Iter: 368 Obj: 222.9463 Marker cost: 196.0107 Tilt cost: 25.5215 Socket cost: 1.4141 Flexion cost: 0.051722 Piston cost: 1.3624 Avg RMS: 4.3433 Marker coordinate: L_THIGH_PROX_ANT y Steps from IC (mm): 1 time: 4658.2187
+ Iter: 369 Obj: 235.3153 Marker cost: 196.6093 Tilt cost: 25.4437 Socket cost: 13.2623 Flexion cost: 10.9524 Piston cost: 2.31 Avg RMS: 4.3484 Marker coordinate: L_THIGH_PROX_ANT y Steps from IC (mm): 2 time: 4670.4852
+L_THIGH_PROX_ANT y converged at 1 mm from IC. Min obj: 222.9463
+ Iter: 370 Obj: 223.1775 Marker cost: 194.8226 Tilt cost: 25.6426 Socket cost: 2.7123 Flexion cost: 1.7764 Piston cost: 0.93587 Avg RMS: 4.3402 Marker coordinate: L_THIGH_PROX_ANT z Steps from IC (mm): 1 time: 4683.0737
+ Iter: 371 Obj: 226.6704 Marker cost: 198.9449 Tilt cost: 25.828 Socket cost: 1.8975 Flexion cost: 0.78051 Piston cost: 1.117 Avg RMS: 4.3566 Marker coordinate: L_THIGH_PROX_ANT z Steps from IC (mm): -1 time: 4695.2238
+L_THIGH_PROX_ANT z converged at 0 mm from IC. Min obj: 222.9463
+ Iter: 372 Obj: 224.5881 Marker cost: 196.8883 Tilt cost: 25.694 Socket cost: 2.0058 Flexion cost: 0.091604 Piston cost: 1.9142 Avg RMS: 4.3486 Marker coordinate: L_THIGH_DIST_POST x Steps from IC (mm): 1 time: 4707.4909
+ Iter: 373 Obj: 228.9641 Marker cost: 196.9309 Tilt cost: 25.7989 Socket cost: 6.2343 Flexion cost: 5.1509 Piston cost: 1.0834 Avg RMS: 4.35 Marker coordinate: L_THIGH_DIST_POST x Steps from IC (mm): -1 time: 4719.858
+L_THIGH_DIST_POST x converged at 0 mm from IC. Min obj: 222.9463
+ Iter: 374 Obj: 230.5158 Marker cost: 198.0774 Tilt cost: 25.2172 Socket cost: 7.2212 Flexion cost: 4.9582 Piston cost: 2.263 Avg RMS: 4.3571 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): 1 time: 4732.2279
+ Iter: 375 Obj: 228.5991 Marker cost: 196.7252 Tilt cost: 25.8425 Socket cost: 6.0314 Flexion cost: 5.6182 Piston cost: 0.41323 Avg RMS: 4.344 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): -1 time: 4744.5988
+L_THIGH_DIST_POST y converged at 0 mm from IC. Min obj: 222.9463
+ Iter: 376 Obj: 223.4977 Marker cost: 196.8226 Tilt cost: 25.6501 Socket cost: 1.0251 Flexion cost: 0.068831 Piston cost: 0.95623 Avg RMS: 4.3514 Marker coordinate: L_THIGH_DIST_POST z Steps from IC (mm): 1 time: 4756.969
+ Iter: 377 Obj: 225.568 Marker cost: 196.8501 Tilt cost: 25.5387 Socket cost: 3.1792 Flexion cost: 1.3027 Piston cost: 1.8765 Avg RMS: 4.3429 Marker coordinate: L_THIGH_DIST_POST z Steps from IC (mm): -1 time: 4769.1658
+L_THIGH_DIST_POST z converged at 0 mm from IC. Min obj: 222.9463
+ Iter: 378 Obj: 227.8431 Marker cost: 196.472 Tilt cost: 26.0543 Socket cost: 5.3168 Flexion cost: 3.9343 Piston cost: 1.3825 Avg RMS: 4.345 Marker coordinate: L_THIGH_DIST_ANT x Steps from IC (mm): 1 time: 4781.4299
+ Iter: 379 Obj: 224.4717 Marker cost: 195.9665 Tilt cost: 25.9719 Socket cost: 2.5333 Flexion cost: 1.4411 Piston cost: 1.0922 Avg RMS: 4.3451 Marker coordinate: L_THIGH_DIST_ANT x Steps from IC (mm): -1 time: 4793.8003
+L_THIGH_DIST_ANT x converged at 0 mm from IC. Min obj: 222.9463
+ Iter: 380 Obj: 225.7948 Marker cost: 196.612 Tilt cost: 25.2751 Socket cost: 3.9078 Flexion cost: 1.0804 Piston cost: 2.8274 Avg RMS: 4.3481 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): 1 time: 4805.9529
+ Iter: 381 Obj: 225.6444 Marker cost: 197.1776 Tilt cost: 25.839 Socket cost: 2.6278 Flexion cost: 2.2767 Piston cost: 0.35104 Avg RMS: 4.3481 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): -1 time: 4818.108
+L_THIGH_DIST_ANT y converged at 0 mm from IC. Min obj: 222.9463
+ Iter: 382 Obj: 224.7759 Marker cost: 197.3504 Tilt cost: 25.7238 Socket cost: 1.7017 Flexion cost: 0.56408 Piston cost: 1.1376 Avg RMS: 4.3564 Marker coordinate: L_THIGH_DIST_ANT z Steps from IC (mm): 1 time: 4830.3693
+ Iter: 383 Obj: 224.046 Marker cost: 196.272 Tilt cost: 25.5875 Socket cost: 2.1865 Flexion cost: 0.00018825 Piston cost: 2.1863 Avg RMS: 4.341 Marker coordinate: L_THIGH_DIST_ANT z Steps from IC (mm): -1 time: 4842.518
+L_THIGH_DIST_ANT z converged at 0 mm from IC. Min obj: 222.9463
+ Iter: 384 Obj: 222.6095 Marker cost: 195.8837 Tilt cost: 25.2507 Socket cost: 1.475 Flexion cost: 0.30061 Piston cost: 1.1744 Avg RMS: 4.3429 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD x Steps from IC (mm): 1 time: 4854.7811
+ Iter: 385 Obj: 228.3219 Marker cost: 195.7512 Tilt cost: 25.0193 Socket cost: 7.5514 Flexion cost: 7.0581 Piston cost: 0.49333 Avg RMS: 4.3399 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD x Steps from IC (mm): 2 time: 4866.9381
+SOCKET_JOINT_LOC_IN_CHILD x converged at 1 mm from IC. Min obj: 222.6095
+ Iter: 386 Obj: 248.2985 Marker cost: 195.5433 Tilt cost: 25.2404 Socket cost: 27.5148 Flexion cost: 10.9699 Piston cost: 16.5449 Avg RMS: 4.341 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): 1 time: 4879.3159
+ Iter: 387 Obj: 231.7851 Marker cost: 195.489 Tilt cost: 25.1726 Socket cost: 11.1234 Flexion cost: 6.1207 Piston cost: 5.0027 Avg RMS: 4.3406 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -1 time: 4891.3594
+SOCKET_JOINT_LOC_IN_CHILD y converged at 0 mm from IC. Min obj: 222.6095
+ Iter: 388 Obj: 227.3871 Marker cost: 195.7246 Tilt cost: 25.9288 Socket cost: 5.7337 Flexion cost: 5.4803 Piston cost: 0.25338 Avg RMS: 4.3444 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD z Steps from IC (mm): 1 time: 4903.7313
+ Iter: 389 Obj: 230.8323 Marker cost: 196.2234 Tilt cost: 25.2817 Socket cost: 9.3272 Flexion cost: 7.246 Piston cost: 2.0812 Avg RMS: 4.339 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD z Steps from IC (mm): -1 time: 4915.9916
+SOCKET_JOINT_LOC_IN_CHILD z converged at 0 mm from IC. Min obj: 222.6095
+ Iter: 390 Obj: 227.1004 Marker cost: 196.2416 Tilt cost: 25.5173 Socket cost: 5.3415 Flexion cost: 4.674 Piston cost: 0.66745 Avg RMS: 4.3454 Marker coordinate: L_SHANK_PROX_POST x Steps from IC (mm): 1 time: 4928.5817
+ Iter: 391 Obj: 222.7483 Marker cost: 194.908 Tilt cost: 25.4503 Socket cost: 2.3899 Flexion cost: 1.4197 Piston cost: 0.97026 Avg RMS: 4.3367 Marker coordinate: L_SHANK_PROX_POST x Steps from IC (mm): -1 time: 4940.7385
+L_SHANK_PROX_POST x converged at 0 mm from IC. Min obj: 222.6095
+ Iter: 392 Obj: 225.2144 Marker cost: 195.8811 Tilt cost: 25.6498 Socket cost: 3.6835 Flexion cost: 3.3146 Piston cost: 0.36887 Avg RMS: 4.3414 Marker coordinate: L_SHANK_PROX_POST y Steps from IC (mm): 1 time: 4953.2148
+ Iter: 393 Obj: 223.955 Marker cost: 196.3558 Tilt cost: 25.4981 Socket cost: 2.1011 Flexion cost: 0.69572 Piston cost: 1.4054 Avg RMS: 4.3452 Marker coordinate: L_SHANK_PROX_POST y Steps from IC (mm): -1 time: 4965.3699
+L_SHANK_PROX_POST y converged at 0 mm from IC. Min obj: 222.6095
+ Iter: 394 Obj: 224.1283 Marker cost: 196.3417 Tilt cost: 25.1083 Socket cost: 2.6783 Flexion cost: 1.6 Piston cost: 1.0783 Avg RMS: 4.345 Marker coordinate: L_SHANK_PROX_POST z Steps from IC (mm): 1 time: 4977.6233
+ Iter: 395 Obj: 222.8307 Marker cost: 196.1266 Tilt cost: 25.5075 Socket cost: 1.1966 Flexion cost: 0.31122 Piston cost: 0.88542 Avg RMS: 4.3445 Marker coordinate: L_SHANK_PROX_POST z Steps from IC (mm): -1 time: 4989.8879
+L_SHANK_PROX_POST z converged at 0 mm from IC. Min obj: 222.6095
+ Iter: 396 Obj: 226.2738 Marker cost: 196.5205 Tilt cost: 25.3239 Socket cost: 4.4293 Flexion cost: 3.5172 Piston cost: 0.9121 Avg RMS: 4.3466 Marker coordinate: L_SHANK_PROX_ANT x Steps from IC (mm): 1 time: 5002.0395
+ Iter: 397 Obj: 231.6854 Marker cost: 196.8141 Tilt cost: 25.6967 Socket cost: 9.1746 Flexion cost: 8.3409 Piston cost: 0.83371 Avg RMS: 4.3477 Marker coordinate: L_SHANK_PROX_ANT x Steps from IC (mm): -1 time: 5014.4139
+L_SHANK_PROX_ANT x converged at 0 mm from IC. Min obj: 222.6095
+ Iter: 398 Obj: 225.4473 Marker cost: 196.5635 Tilt cost: 24.9627 Socket cost: 3.9211 Flexion cost: 3.5562 Piston cost: 0.36485 Avg RMS: 4.3463 Marker coordinate: L_SHANK_PROX_ANT y Steps from IC (mm): 1 time: 5026.5599
+ Iter: 399 Obj: 223.2245 Marker cost: 196.0008 Tilt cost: 25.4679 Socket cost: 1.7558 Flexion cost: 0.29818 Piston cost: 1.4576 Avg RMS: 4.343 Marker coordinate: L_SHANK_PROX_ANT y Steps from IC (mm): -1 time: 5038.7162
+L_SHANK_PROX_ANT y converged at 0 mm from IC. Min obj: 222.6095
+ Iter: 400 Obj: 234.8961 Marker cost: 197.7355 Tilt cost: 25.2946 Socket cost: 11.866 Flexion cost: 10.8416 Piston cost: 1.0244 Avg RMS: 4.3537 Marker coordinate: L_SHANK_PROX_ANT z Steps from IC (mm): 1 time: 5050.8649
+ Iter: 401 Obj: 235.9106 Marker cost: 195.1038 Tilt cost: 25.6228 Socket cost: 15.1841 Flexion cost: 14.5878 Piston cost: 0.59634 Avg RMS: 4.3376 Marker coordinate: L_SHANK_PROX_ANT z Steps from IC (mm): -1 time: 5063.4577
+L_SHANK_PROX_ANT z converged at 0 mm from IC. Min obj: 222.6095
+ Iter: 402 Obj: 226.7095 Marker cost: 194.5361 Tilt cost: 25.4748 Socket cost: 6.6986 Flexion cost: 5.56 Piston cost: 1.1386 Avg RMS: 4.3336 Marker coordinate: L_SHANK_DIST_ANT x Steps from IC (mm): 1 time: 5075.9348
+ Iter: 403 Obj: 230.6389 Marker cost: 196.6642 Tilt cost: 25.438 Socket cost: 8.5367 Flexion cost: 7.3233 Piston cost: 1.2134 Avg RMS: 4.3474 Marker coordinate: L_SHANK_DIST_ANT x Steps from IC (mm): -1 time: 5088.4132
+L_SHANK_DIST_ANT x converged at 0 mm from IC. Min obj: 222.6095
+ Iter: 404 Obj: 222.0815 Marker cost: 195.0531 Tilt cost: 25.3882 Socket cost: 1.6402 Flexion cost: 1.3601 Piston cost: 0.28013 Avg RMS: 4.3365 Marker coordinate: L_SHANK_DIST_ANT y Steps from IC (mm): 1 time: 5101.0012
+ Iter: 405 Obj: 228.8721 Marker cost: 196.2418 Tilt cost: 25.4641 Socket cost: 7.1662 Flexion cost: 7.1123 Piston cost: 0.05392 Avg RMS: 4.3424 Marker coordinate: L_SHANK_DIST_ANT y Steps from IC (mm): 2 time: 5113.3816
+L_SHANK_DIST_ANT y converged at 1 mm from IC. Min obj: 222.0815
+ Iter: 406 Obj: 261.7284 Marker cost: 197.0428 Tilt cost: 25.6339 Socket cost: 39.0517 Flexion cost: 38.4757 Piston cost: 0.57595 Avg RMS: 4.3484 Marker coordinate: L_SHANK_DIST_ANT z Steps from IC (mm): 1 time: 5125.6548
+ Iter: 407 Obj: 222.3343 Marker cost: 195.5751 Tilt cost: 25.4986 Socket cost: 1.2606 Flexion cost: 0.53063 Piston cost: 0.72997 Avg RMS: 4.3398 Marker coordinate: L_SHANK_DIST_ANT z Steps from IC (mm): -1 time: 5137.6972
+L_SHANK_DIST_ANT z converged at 0 mm from IC. Min obj: 222.0815
+ Iter: 408 Obj: 226.5165 Marker cost: 197.8113 Tilt cost: 25.376 Socket cost: 3.3292 Flexion cost: 2.7819 Piston cost: 0.54728 Avg RMS: 4.3535 Marker coordinate: L_SHANK_DIST_POST x Steps from IC (mm): 1 time: 5149.6263
+ Iter: 409 Obj: 225.7081 Marker cost: 194.9379 Tilt cost: 25.4402 Socket cost: 5.3301 Flexion cost: 5.0271 Piston cost: 0.30293 Avg RMS: 4.3354 Marker coordinate: L_SHANK_DIST_POST x Steps from IC (mm): -1 time: 5161.8918
+L_SHANK_DIST_POST x converged at 0 mm from IC. Min obj: 222.0815
+ Iter: 410 Obj: 223.2104 Marker cost: 196.0693 Tilt cost: 25.5079 Socket cost: 1.6332 Flexion cost: 1.5925 Piston cost: 0.040755 Avg RMS: 4.3393 Marker coordinate: L_SHANK_DIST_POST y Steps from IC (mm): 1 time: 5174.2567
+ Iter: 411 Obj: 228.2749 Marker cost: 196.3326 Tilt cost: 25.4951 Socket cost: 6.4472 Flexion cost: 5.5573 Piston cost: 0.88989 Avg RMS: 4.3442 Marker coordinate: L_SHANK_DIST_POST y Steps from IC (mm): -1 time: 5186.6327
+L_SHANK_DIST_POST y converged at 0 mm from IC. Min obj: 222.0815
+ Iter: 412 Obj: 231.5895 Marker cost: 196.0417 Tilt cost: 25.3031 Socket cost: 10.2446 Flexion cost: 9.8515 Piston cost: 0.39315 Avg RMS: 4.3428 Marker coordinate: L_SHANK_DIST_POST z Steps from IC (mm): 1 time: 5199.0048
+ Iter: 413 Obj: 236.0802 Marker cost: 196.0967 Tilt cost: 25.1446 Socket cost: 14.8389 Flexion cost: 14.5702 Piston cost: 0.2687 Avg RMS: 4.342 Marker coordinate: L_SHANK_DIST_POST z Steps from IC (mm): -1 time: 5211.2644
+L_SHANK_DIST_POST z converged at 0 mm from IC. Min obj: 222.0815
+ Iter: 414 Obj: 238.9788 Marker cost: 196.716 Tilt cost: 25.6243 Socket cost: 16.6385 Flexion cost: 16.1675 Piston cost: 0.47098 Avg RMS: 4.3445 Marker coordinate: L_HEEL_SUP x Steps from IC (mm): 1 time: 5223.6383
+ Iter: 415 Obj: 224.3682 Marker cost: 195.2999 Tilt cost: 25.5146 Socket cost: 3.5537 Flexion cost: 2.8718 Piston cost: 0.68184 Avg RMS: 4.3394 Marker coordinate: L_HEEL_SUP x Steps from IC (mm): -1 time: 5235.8949
+L_HEEL_SUP x converged at 0 mm from IC. Min obj: 222.0815
+ Iter: 416 Obj: 226.2313 Marker cost: 196.3805 Tilt cost: 25.1057 Socket cost: 4.745 Flexion cost: 2.6825 Piston cost: 2.0625 Avg RMS: 4.3463 Marker coordinate: L_HEEL_SUP y Steps from IC (mm): 1 time: 5248.1598
+ Iter: 417 Obj: 230.1783 Marker cost: 195.3344 Tilt cost: 25.4058 Socket cost: 9.4382 Flexion cost: 8.6212 Piston cost: 0.81699 Avg RMS: 4.3363 Marker coordinate: L_HEEL_SUP y Steps from IC (mm): -1 time: 5260.6395
+L_HEEL_SUP y converged at 0 mm from IC. Min obj: 222.0815
+ Iter: 418 Obj: 224.5795 Marker cost: 196.4053 Tilt cost: 25.1248 Socket cost: 3.0494 Flexion cost: 2.6712 Piston cost: 0.37822 Avg RMS: 4.3431 Marker coordinate: L_HEEL_SUP z Steps from IC (mm): 1 time: 5272.6837
+ Iter: 419 Obj: 231.5237 Marker cost: 196.0818 Tilt cost: 25.178 Socket cost: 10.2639 Flexion cost: 9.8384 Piston cost: 0.42551 Avg RMS: 4.3436 Marker coordinate: L_HEEL_SUP z Steps from IC (mm): -1 time: 5284.9596
+L_HEEL_SUP z converged at 0 mm from IC. Min obj: 222.0815
+ Iter: 420 Obj: 228.5788 Marker cost: 196.9301 Tilt cost: 24.823 Socket cost: 6.8258 Flexion cost: 6.3255 Piston cost: 0.50024 Avg RMS: 4.3491 Marker coordinate: L_HEEL_MED x Steps from IC (mm): 1 time: 5297.1094
+ Iter: 421 Obj: 235.1962 Marker cost: 195.8949 Tilt cost: 25.5057 Socket cost: 13.7956 Flexion cost: 13.5046 Piston cost: 0.29104 Avg RMS: 4.3398 Marker coordinate: L_HEEL_MED x Steps from IC (mm): -1 time: 5309.3677
+L_HEEL_MED x converged at 0 mm from IC. Min obj: 222.0815
+ Iter: 422 Obj: 239.586 Marker cost: 196.9614 Tilt cost: 25.4358 Socket cost: 17.1888 Flexion cost: 16.9292 Piston cost: 0.25953 Avg RMS: 4.3486 Marker coordinate: L_HEEL_MED y Steps from IC (mm): 1 time: 5321.7352
+ Iter: 423 Obj: 224.0873 Marker cost: 194.7759 Tilt cost: 25.1946 Socket cost: 4.1168 Flexion cost: 3.2829 Piston cost: 0.83394 Avg RMS: 4.3341 Marker coordinate: L_HEEL_MED y Steps from IC (mm): -1 time: 5334.1206
+L_HEEL_MED y converged at 0 mm from IC. Min obj: 222.0815
+ Iter: 424 Obj: 226.3651 Marker cost: 195.5423 Tilt cost: 25.6179 Socket cost: 5.205 Flexion cost: 4.2929 Piston cost: 0.91204 Avg RMS: 4.3395 Marker coordinate: L_HEEL_MED z Steps from IC (mm): 1 time: 5346.4981
+ Iter: 425 Obj: 239.0575 Marker cost: 196.1869 Tilt cost: 25.2629 Socket cost: 17.6077 Flexion cost: 17.2149 Piston cost: 0.39283 Avg RMS: 4.3446 Marker coordinate: L_HEEL_MED z Steps from IC (mm): -1 time: 5358.7599
+L_HEEL_MED z converged at 0 mm from IC. Min obj: 222.0815
+ Iter: 426 Obj: 235.5 Marker cost: 197.3209 Tilt cost: 25.4348 Socket cost: 12.7444 Flexion cost: 12.1742 Piston cost: 0.57016 Avg RMS: 4.3465 Marker coordinate: L_HEEL_LAT x Steps from IC (mm): 1 time: 5371.1314
+ Iter: 427 Obj: 224.1735 Marker cost: 195.6016 Tilt cost: 25.3459 Socket cost: 3.226 Flexion cost: 2.7156 Piston cost: 0.5104 Avg RMS: 4.3403 Marker coordinate: L_HEEL_LAT x Steps from IC (mm): -1 time: 5383.4006
+L_HEEL_LAT x converged at 0 mm from IC. Min obj: 222.0815
+ Iter: 428 Obj: 220.501 Marker cost: 194.153 Tilt cost: 25.3876 Socket cost: 0.96037 Flexion cost: 0.85291 Piston cost: 0.10745 Avg RMS: 4.3323 Marker coordinate: L_HEEL_LAT y Steps from IC (mm): 1 time: 5395.8901
+ Iter: 429 Obj: 241.2167 Marker cost: 194.6223 Tilt cost: 25.4843 Socket cost: 21.11 Flexion cost: 21.0546 Piston cost: 0.055473 Avg RMS: 4.3333 Marker coordinate: L_HEEL_LAT y Steps from IC (mm): 2 time: 5408.2551
+L_HEEL_LAT y converged at 1 mm from IC. Min obj: 220.501
+ Iter: 430 Obj: 240.7597 Marker cost: 195.4635 Tilt cost: 25.3686 Socket cost: 19.9276 Flexion cost: 19.7378 Piston cost: 0.18978 Avg RMS: 4.3394 Marker coordinate: L_HEEL_LAT z Steps from IC (mm): 1 time: 5420.9529
+ Iter: 431 Obj: 219.8608 Marker cost: 194.1872 Tilt cost: 25.3878 Socket cost: 0.28575 Flexion cost: 0.068957 Piston cost: 0.2168 Avg RMS: 4.3306 Marker coordinate: L_HEEL_LAT z Steps from IC (mm): -1 time: 5433.5445
+ Iter: 432 Obj: 223.3583 Marker cost: 194.8568 Tilt cost: 25.2497 Socket cost: 3.2519 Flexion cost: 3.0919 Piston cost: 0.15997 Avg RMS: 4.3356 Marker coordinate: L_HEEL_LAT z Steps from IC (mm): -2 time: 5445.696
+L_HEEL_LAT z converged at -1 mm from IC. Min obj: 219.8608
+Marker coordinate L_TOE x is locked.
+Marker coordinate L_TOE y is locked.
+Marker coordinate L_TOE z is locked.
+ Iter: 433 Obj: 220.6851 Marker cost: 194.8273 Tilt cost: 25.1076 Socket cost: 0.75015 Flexion cost: 0.539 Piston cost: 0.21115 Avg RMS: 4.332 Marker coordinate: L_1ST_MET x Steps from IC (mm): 1 time: 5457.9544
+ Iter: 434 Obj: 224.0287 Marker cost: 197.0177 Tilt cost: 25.2996 Socket cost: 1.7114 Flexion cost: 1.3164 Piston cost: 0.39502 Avg RMS: 4.3479 Marker coordinate: L_1ST_MET x Steps from IC (mm): -1 time: 5470.1113
+L_1ST_MET x converged at 0 mm from IC. Min obj: 219.8608
+ Iter: 435 Obj: 230.6842 Marker cost: 195.8703 Tilt cost: 25.6886 Socket cost: 9.1253 Flexion cost: 8.9369 Piston cost: 0.18843 Avg RMS: 4.342 Marker coordinate: L_1ST_MET y Steps from IC (mm): 1 time: 5482.3674
+ Iter: 436 Obj: 222.4727 Marker cost: 193.601 Tilt cost: 25.3228 Socket cost: 3.5488 Flexion cost: 3.207 Piston cost: 0.34188 Avg RMS: 4.3267 Marker coordinate: L_1ST_MET y Steps from IC (mm): -1 time: 5495.0685
+L_1ST_MET y converged at 0 mm from IC. Min obj: 219.8608
+ Iter: 437 Obj: 221.5095 Marker cost: 194.498 Tilt cost: 25.3861 Socket cost: 1.6254 Flexion cost: 1.2619 Piston cost: 0.36347 Avg RMS: 4.3315 Marker coordinate: L_1ST_MET z Steps from IC (mm): 1 time: 5507.4372
+ Iter: 438 Obj: 240.1726 Marker cost: 197.2773 Tilt cost: 25.6424 Socket cost: 17.2528 Flexion cost: 17.0512 Piston cost: 0.20167 Avg RMS: 4.3477 Marker coordinate: L_1ST_MET z Steps from IC (mm): -1 time: 5519.6979
+L_1ST_MET z converged at 0 mm from IC. Min obj: 219.8608
+ Iter: 439 Obj: 229.1297 Marker cost: 194.0615 Tilt cost: 25.7331 Socket cost: 9.3351 Flexion cost: 8.9284 Piston cost: 0.40667 Avg RMS: 4.3303 Marker coordinate: L_5TH_MET x Steps from IC (mm): 1 time: 5532.5079
+ Iter: 440 Obj: 222.2325 Marker cost: 195.2845 Tilt cost: 25.4566 Socket cost: 1.4915 Flexion cost: 1.3979 Piston cost: 0.093664 Avg RMS: 4.3382 Marker coordinate: L_5TH_MET x Steps from IC (mm): -1 time: 5544.7753
+L_5TH_MET x converged at 0 mm from IC. Min obj: 219.8608
+ Iter: 441 Obj: 227.1421 Marker cost: 196.1237 Tilt cost: 25.1246 Socket cost: 5.8938 Flexion cost: 5.6493 Piston cost: 0.24445 Avg RMS: 4.3423 Marker coordinate: L_5TH_MET y Steps from IC (mm): 1 time: 5557.2507
+ Iter: 442 Obj: 221.0319 Marker cost: 194.4702 Tilt cost: 25.1363 Socket cost: 1.4254 Flexion cost: 1.1043 Piston cost: 0.32113 Avg RMS: 4.3325 Marker coordinate: L_5TH_MET y Steps from IC (mm): -1 time: 5569.4044
+L_5TH_MET y converged at 0 mm from IC. Min obj: 219.8608
+ Iter: 443 Obj: 222.4259 Marker cost: 195.0332 Tilt cost: 25.1423 Socket cost: 2.2504 Flexion cost: 2.0157 Piston cost: 0.23464 Avg RMS: 4.3375 Marker coordinate: L_5TH_MET z Steps from IC (mm): 1 time: 5581.5513
+ Iter: 444 Obj: 220.2297 Marker cost: 194.1398 Tilt cost: 25.208 Socket cost: 0.88184 Flexion cost: 0.36827 Piston cost: 0.51357 Avg RMS: 4.3318 Marker coordinate: L_5TH_MET z Steps from IC (mm): -1 time: 5593.8178
+L_5TH_MET z converged at 0 mm from IC. Min obj: 219.8608
+ Iter: 445 Obj: 222.0871 Marker cost: 195.0671 Tilt cost: 25.0193 Socket cost: 2.0008 Flexion cost: 1.669 Piston cost: 0.33171 Avg RMS: 4.3379 Marker coordinate: L_THIGH_PROX_POST x Steps from IC (mm): 1 time: 5606.072
+ Iter: 446 Obj: 243.0925 Marker cost: 194.1226 Tilt cost: 25.7868 Socket cost: 23.1831 Flexion cost: 22.836 Piston cost: 0.34715 Avg RMS: 4.3306 Marker coordinate: L_THIGH_PROX_POST x Steps from IC (mm): -1 time: 5618.4453
+L_THIGH_PROX_POST x converged at 0 mm from IC. Min obj: 219.8608
+ Iter: 447 Obj: 221.7774 Marker cost: 196.0866 Tilt cost: 24.5887 Socket cost: 1.1021 Flexion cost: 0.03264 Piston cost: 1.0695 Avg RMS: 4.3447 Marker coordinate: L_THIGH_PROX_POST y Steps from IC (mm): 1 time: 5630.705
+ Iter: 448 Obj: 221.9995 Marker cost: 193.5334 Tilt cost: 25.7843 Socket cost: 2.6818 Flexion cost: 2.6379 Piston cost: 0.04393 Avg RMS: 4.3244 Marker coordinate: L_THIGH_PROX_POST y Steps from IC (mm): -1 time: 5643.0851
+L_THIGH_PROX_POST y converged at 0 mm from IC. Min obj: 219.8608
+ Iter: 449 Obj: 225.1976 Marker cost: 195.1272 Tilt cost: 25.7507 Socket cost: 4.3197 Flexion cost: 4.1817 Piston cost: 0.13799 Avg RMS: 4.3391 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): 1 time: 5655.2613
+ Iter: 450 Obj: 221.2652 Marker cost: 195.6898 Tilt cost: 25.0675 Socket cost: 0.50782 Flexion cost: 0.20115 Piston cost: 0.30667 Avg RMS: 4.3361 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): -1 time: 5667.6319
+L_THIGH_PROX_POST z converged at 0 mm from IC. Min obj: 219.8608
+ Iter: 451 Obj: 221.0797 Marker cost: 195.6225 Tilt cost: 24.8135 Socket cost: 0.64367 Flexion cost: 0.52877 Piston cost: 0.1149 Avg RMS: 4.3354 Marker coordinate: L_THIGH_PROX_ANT x Steps from IC (mm): 1 time: 5679.6713
+ Iter: 452 Obj: 224.9036 Marker cost: 195.5821 Tilt cost: 25.6431 Socket cost: 3.6784 Flexion cost: 3.5063 Piston cost: 0.17206 Avg RMS: 4.3391 Marker coordinate: L_THIGH_PROX_ANT x Steps from IC (mm): -1 time: 5692.0515
+L_THIGH_PROX_ANT x converged at 0 mm from IC. Min obj: 219.8608
+ Iter: 453 Obj: 226.6034 Marker cost: 194.76 Tilt cost: 25.3875 Socket cost: 6.4559 Flexion cost: 4.8305 Piston cost: 1.6255 Avg RMS: 4.3353 Marker coordinate: L_THIGH_PROX_ANT y Steps from IC (mm): 1 time: 5704.2004
+ Iter: 454 Obj: 220.9325 Marker cost: 195.4251 Tilt cost: 25.3269 Socket cost: 0.18057 Flexion cost: 0.17243 Piston cost: 0.0081339 Avg RMS: 4.3402 Marker coordinate: L_THIGH_PROX_ANT y Steps from IC (mm): -1 time: 5716.3496
+L_THIGH_PROX_ANT y converged at 0 mm from IC. Min obj: 219.8608
+ Iter: 455 Obj: 219.4676 Marker cost: 194.2676 Tilt cost: 24.9446 Socket cost: 0.25539 Flexion cost: 0.097584 Piston cost: 0.1578 Avg RMS: 4.3342 Marker coordinate: L_THIGH_PROX_ANT z Steps from IC (mm): 1 time: 5728.3943
+ Iter: 456 Obj: 219.0056 Marker cost: 193.0852 Tilt cost: 25.677 Socket cost: 0.24331 Flexion cost: 0.18718 Piston cost: 0.05613 Avg RMS: 4.3275 Marker coordinate: L_THIGH_PROX_ANT z Steps from IC (mm): 2 time: 5740.9954
+ Iter: 457 Obj: 219.4056 Marker cost: 194.1649 Tilt cost: 24.9905 Socket cost: 0.25013 Flexion cost: 0.18451 Piston cost: 0.065626 Avg RMS: 4.3356 Marker coordinate: L_THIGH_PROX_ANT z Steps from IC (mm): 3 time: 5753.4733
+L_THIGH_PROX_ANT z converged at 2 mm from IC. Min obj: 219.0056
+ Iter: 458 Obj: 237.3726 Marker cost: 194.1082 Tilt cost: 25.3758 Socket cost: 17.8885 Flexion cost: 17.8625 Piston cost: 0.02601 Avg RMS: 4.3333 Marker coordinate: L_THIGH_DIST_POST x Steps from IC (mm): 1 time: 5765.9549
+ Iter: 459 Obj: 219.5018 Marker cost: 193.8982 Tilt cost: 25.3621 Socket cost: 0.24152 Flexion cost: 0.026254 Piston cost: 0.21527 Avg RMS: 4.3323 Marker coordinate: L_THIGH_DIST_POST x Steps from IC (mm): -1 time: 5778.1146
+L_THIGH_DIST_POST x converged at 0 mm from IC. Min obj: 219.0056
+ Iter: 460 Obj: 222.8026 Marker cost: 195.4037 Tilt cost: 24.9185 Socket cost: 2.4803 Flexion cost: 2.0071 Piston cost: 0.47319 Avg RMS: 4.3432 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): 1 time: 5790.5883
+ Iter: 461 Obj: 220.284 Marker cost: 192.6413 Tilt cost: 25.5815 Socket cost: 2.0612 Flexion cost: 1.9866 Piston cost: 0.074563 Avg RMS: 4.3218 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): -1 time: 5802.8531
+L_THIGH_DIST_POST y converged at 0 mm from IC. Min obj: 219.0056
+ Iter: 462 Obj: 222.9474 Marker cost: 193.8066 Tilt cost: 25.4908 Socket cost: 3.65 Flexion cost: 3.626 Piston cost: 0.024079 Avg RMS: 4.3374 Marker coordinate: L_THIGH_DIST_POST z Steps from IC (mm): 1 time: 5815.3356
+ Iter: 463 Obj: 220.9289 Marker cost: 193.3828 Tilt cost: 25.1828 Socket cost: 2.3633 Flexion cost: 2.2946 Piston cost: 0.068691 Avg RMS: 4.3258 Marker coordinate: L_THIGH_DIST_POST z Steps from IC (mm): -1 time: 5827.6981
+L_THIGH_DIST_POST z converged at 0 mm from IC. Min obj: 219.0056
+ Iter: 464 Obj: 225.066 Marker cost: 193.5825 Tilt cost: 25.5253 Socket cost: 5.9582 Flexion cost: 5.7207 Piston cost: 0.23744 Avg RMS: 4.3288 Marker coordinate: L_THIGH_DIST_ANT x Steps from IC (mm): 1 time: 5840.0711
+ Iter: 465 Obj: 219.6078 Marker cost: 193.9039 Tilt cost: 25.2523 Socket cost: 0.45162 Flexion cost: 0.24102 Piston cost: 0.2106 Avg RMS: 4.3336 Marker coordinate: L_THIGH_DIST_ANT x Steps from IC (mm): -1 time: 5852.3385
+L_THIGH_DIST_ANT x converged at 0 mm from IC. Min obj: 219.0056
+ Iter: 466 Obj: 222.2437 Marker cost: 194.1267 Tilt cost: 25.258 Socket cost: 2.8591 Flexion cost: 2.0906 Piston cost: 0.76845 Avg RMS: 4.3365 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): 1 time: 5864.5924
+ Iter: 467 Obj: 218.7844 Marker cost: 193.2969 Tilt cost: 25.4707 Socket cost: 0.016746 Flexion cost: 0.00010737 Piston cost: 0.016638 Avg RMS: 4.3287 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): -1 time: 5876.8571
+ Iter: 468 Obj: 229.6647 Marker cost: 194.5211 Tilt cost: 25.6734 Socket cost: 9.4702 Flexion cost: 9.011 Piston cost: 0.45916 Avg RMS: 4.3348 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): -2 time: 5889.1186
+L_THIGH_DIST_ANT y converged at -1 mm from IC. Min obj: 218.7844
+ Iter: 469 Obj: 227.272 Marker cost: 194.5822 Tilt cost: 25.4062 Socket cost: 7.2836 Flexion cost: 7.1744 Piston cost: 0.10924 Avg RMS: 4.3386 Marker coordinate: L_THIGH_DIST_ANT z Steps from IC (mm): 1 time: 5901.3777
+ Iter: 470 Obj: 224.3585 Marker cost: 193.382 Tilt cost: 25.587 Socket cost: 5.3895 Flexion cost: 5.2451 Piston cost: 0.14438 Avg RMS: 4.3244 Marker coordinate: L_THIGH_DIST_ANT z Steps from IC (mm): -1 time: 5913.8607
+L_THIGH_DIST_ANT z converged at 0 mm from IC. Min obj: 218.7844
+ Iter: 471 Obj: 230.5344 Marker cost: 193.55 Tilt cost: 25.5128 Socket cost: 11.4717 Flexion cost: 11.3801 Piston cost: 0.091566 Avg RMS: 4.3286 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD x Steps from IC (mm): 1 time: 5926.3359
+ Iter: 472 Obj: 225.0823 Marker cost: 194.9866 Tilt cost: 26.1213 Socket cost: 3.9744 Flexion cost: 3.9495 Piston cost: 0.02489 Avg RMS: 4.336 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD x Steps from IC (mm): -1 time: 5938.5996
+SOCKET_JOINT_LOC_IN_CHILD x converged at 0 mm from IC. Min obj: 218.7844
+ Iter: 473 Obj: 231.91 Marker cost: 193.8484 Tilt cost: 25.4479 Socket cost: 12.6137 Flexion cost: 3.4436 Piston cost: 9.1702 Avg RMS: 4.3296 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): 1 time: 5950.7481
+ Iter: 474 Obj: 240.0755 Marker cost: 193.8833 Tilt cost: 25.5369 Socket cost: 20.6554 Flexion cost: 10.2292 Piston cost: 10.4262 Avg RMS: 4.3316 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -1 time: 5963.1239
+SOCKET_JOINT_LOC_IN_CHILD y converged at 0 mm from IC. Min obj: 218.7844
+ Iter: 475 Obj: 220.7464 Marker cost: 193.7307 Tilt cost: 25.9713 Socket cost: 1.0444 Flexion cost: 0.79046 Piston cost: 0.25396 Avg RMS: 4.333 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD z Steps from IC (mm): 1 time: 5975.1735
+ Iter: 476 Obj: 220.1719 Marker cost: 193.5844 Tilt cost: 25.0813 Socket cost: 1.5062 Flexion cost: 1.4516 Piston cost: 0.054583 Avg RMS: 4.3267 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD z Steps from IC (mm): -1 time: 5987.6609
+SOCKET_JOINT_LOC_IN_CHILD z converged at 0 mm from IC. Min obj: 218.7844
+ Iter: 477 Obj: 223.1596 Marker cost: 194.3654 Tilt cost: 25.4587 Socket cost: 3.3355 Flexion cost: 3.2586 Piston cost: 0.076913 Avg RMS: 4.336 Marker coordinate: L_SHANK_PROX_POST x Steps from IC (mm): 1 time: 6000.0348
+ Iter: 478 Obj: 218.6246 Marker cost: 193.097 Tilt cost: 25.2382 Socket cost: 0.28945 Flexion cost: 0.28057 Piston cost: 0.0088744 Avg RMS: 4.327 Marker coordinate: L_SHANK_PROX_POST x Steps from IC (mm): -1 time: 6012.2956
+ Iter: 479 Obj: 219.4323 Marker cost: 193.7078 Tilt cost: 25.5975 Socket cost: 0.12694 Flexion cost: 0.012705 Piston cost: 0.11423 Avg RMS: 4.3293 Marker coordinate: L_SHANK_PROX_POST x Steps from IC (mm): -2 time: 6024.6596
+L_SHANK_PROX_POST x converged at -1 mm from IC. Min obj: 218.6246
+ Iter: 480 Obj: 219.9189 Marker cost: 193.7054 Tilt cost: 25.7688 Socket cost: 0.44466 Flexion cost: 0.075525 Piston cost: 0.36914 Avg RMS: 4.3267 Marker coordinate: L_SHANK_PROX_POST y Steps from IC (mm): 1 time: 6036.9211
+ Iter: 481 Obj: 224.0037 Marker cost: 194.3728 Tilt cost: 25.5518 Socket cost: 4.0791 Flexion cost: 4.0634 Piston cost: 0.015626 Avg RMS: 4.3354 Marker coordinate: L_SHANK_PROX_POST y Steps from IC (mm): -1 time: 6049.1933
+L_SHANK_PROX_POST y converged at 0 mm from IC. Min obj: 218.6246
+ Iter: 482 Obj: 221.3528 Marker cost: 193.5974 Tilt cost: 25.5076 Socket cost: 2.2478 Flexion cost: 2.2478 Piston cost: 1.44e-07 Avg RMS: 4.329 Marker coordinate: L_SHANK_PROX_POST z Steps from IC (mm): 1 time: 6061.3488
+ Iter: 483 Obj: 225.2825 Marker cost: 193.4159 Tilt cost: 25.1069 Socket cost: 6.7597 Flexion cost: 6.6956 Piston cost: 0.064096 Avg RMS: 4.3301 Marker coordinate: L_SHANK_PROX_POST z Steps from IC (mm): -1 time: 6073.5036
+L_SHANK_PROX_POST z converged at 0 mm from IC. Min obj: 218.6246
+ Iter: 484 Obj: 222.957 Marker cost: 193.6049 Tilt cost: 25.721 Socket cost: 3.6311 Flexion cost: 3.5823 Piston cost: 0.048818 Avg RMS: 4.3303 Marker coordinate: L_SHANK_PROX_ANT x Steps from IC (mm): 1 time: 6085.89
+ Iter: 485 Obj: 221.511 Marker cost: 192.9527 Tilt cost: 25.1829 Socket cost: 3.3754 Flexion cost: 3.3735 Piston cost: 0.0018306 Avg RMS: 4.3259 Marker coordinate: L_SHANK_PROX_ANT x Steps from IC (mm): -1 time: 6097.9383
+L_SHANK_PROX_ANT x converged at 0 mm from IC. Min obj: 218.6246
+ Iter: 486 Obj: 221.2201 Marker cost: 193.8794 Tilt cost: 25.7462 Socket cost: 1.5945 Flexion cost: 1.4482 Piston cost: 0.14624 Avg RMS: 4.3295 Marker coordinate: L_SHANK_PROX_ANT y Steps from IC (mm): 1 time: 6110.1963
+ Iter: 487 Obj: 219.3638 Marker cost: 193.7008 Tilt cost: 25.4412 Socket cost: 0.22183 Flexion cost: 0.083626 Piston cost: 0.1382 Avg RMS: 4.33 Marker coordinate: L_SHANK_PROX_ANT y Steps from IC (mm): -1 time: 6122.4756
+L_SHANK_PROX_ANT y converged at 0 mm from IC. Min obj: 218.6246
+ Iter: 488 Obj: 220.9298 Marker cost: 194.3778 Tilt cost: 25.3152 Socket cost: 1.2368 Flexion cost: 1.2285 Piston cost: 0.0082944 Avg RMS: 4.3349 Marker coordinate: L_SHANK_PROX_ANT z Steps from IC (mm): 1 time: 6134.5109
+ Iter: 489 Obj: 219.8925 Marker cost: 192.6759 Tilt cost: 25.7357 Socket cost: 1.481 Flexion cost: 1.4118 Piston cost: 0.069156 Avg RMS: 4.3223 Marker coordinate: L_SHANK_PROX_ANT z Steps from IC (mm): -1 time: 6146.913
+L_SHANK_PROX_ANT z converged at 0 mm from IC. Min obj: 218.6246
+ Iter: 490 Obj: 218.0265 Marker cost: 192.2976 Tilt cost: 25.4712 Socket cost: 0.25769 Flexion cost: 0.2036 Piston cost: 0.054096 Avg RMS: 4.3205 Marker coordinate: L_SHANK_DIST_ANT x Steps from IC (mm): 1 time: 6159.0704
+ Iter: 491 Obj: 219.8676 Marker cost: 193.3062 Tilt cost: 25.5832 Socket cost: 0.97817 Flexion cost: 0.96086 Piston cost: 0.017314 Avg RMS: 4.3264 Marker coordinate: L_SHANK_DIST_ANT x Steps from IC (mm): 2 time: 6171.1187
+L_SHANK_DIST_ANT x converged at 1 mm from IC. Min obj: 218.0265
+ Iter: 492 Obj: 222.0207 Marker cost: 193.2253 Tilt cost: 25.5691 Socket cost: 3.2263 Flexion cost: 2.9306 Piston cost: 0.29577 Avg RMS: 4.3258 Marker coordinate: L_SHANK_DIST_ANT y Steps from IC (mm): 1 time: 6183.7191
+ Iter: 493 Obj: 218.9111 Marker cost: 192.6769 Tilt cost: 25.6114 Socket cost: 0.62277 Flexion cost: 0.62223 Piston cost: 0.00053144 Avg RMS: 4.3249 Marker coordinate: L_SHANK_DIST_ANT y Steps from IC (mm): -1 time: 6195.7608
+L_SHANK_DIST_ANT y converged at 0 mm from IC. Min obj: 218.0265
+ Iter: 494 Obj: 219.264 Marker cost: 193.7422 Tilt cost: 25.1957 Socket cost: 0.32604 Flexion cost: 0.27596 Piston cost: 0.050084 Avg RMS: 4.3301 Marker coordinate: L_SHANK_DIST_ANT z Steps from IC (mm): 1 time: 6207.909
+ Iter: 495 Obj: 217.9254 Marker cost: 191.9386 Tilt cost: 25.6104 Socket cost: 0.37639 Flexion cost: 0.34802 Piston cost: 0.028377 Avg RMS: 4.3202 Marker coordinate: L_SHANK_DIST_ANT z Steps from IC (mm): -1 time: 6220.0647
+ Iter: 496 Obj: 219.8046 Marker cost: 193.5308 Tilt cost: 25.8229 Socket cost: 0.45087 Flexion cost: 0.3284 Piston cost: 0.12248 Avg RMS: 4.3281 Marker coordinate: L_SHANK_DIST_ANT z Steps from IC (mm): -2 time: 6232.2242
+L_SHANK_DIST_ANT z converged at -1 mm from IC. Min obj: 217.9254
+ Iter: 497 Obj: 220.5422 Marker cost: 193.9272 Tilt cost: 25.8062 Socket cost: 0.8088 Flexion cost: 0.72005 Piston cost: 0.088755 Avg RMS: 4.3309 Marker coordinate: L_SHANK_DIST_POST x Steps from IC (mm): 1 time: 6244.2718
+ Iter: 498 Obj: 216.7906 Marker cost: 191.0674 Tilt cost: 25.6004 Socket cost: 0.1228 Flexion cost: 9.5858e-05 Piston cost: 0.1227 Avg RMS: 4.3143 Marker coordinate: L_SHANK_DIST_POST x Steps from IC (mm): -1 time: 6256.4299
+ Iter: 499 Obj: 224.5199 Marker cost: 192.0918 Tilt cost: 25.764 Socket cost: 6.664 Flexion cost: 6.6505 Piston cost: 0.013454 Avg RMS: 4.3207 Marker coordinate: L_SHANK_DIST_POST x Steps from IC (mm): -2 time: 6268.7982
+L_SHANK_DIST_POST x converged at -1 mm from IC. Min obj: 216.7906
+ Iter: 500 Obj: 218.2768 Marker cost: 191.9719 Tilt cost: 25.7042 Socket cost: 0.60058 Flexion cost: 0.24582 Piston cost: 0.35476 Avg RMS: 4.3178 Marker coordinate: L_SHANK_DIST_POST y Steps from IC (mm): 1 time: 6281.2778
+ Iter: 501 Obj: 217.5887 Marker cost: 192.2886 Tilt cost: 25.2716 Socket cost: 0.028465 Flexion cost: 0.0070831 Piston cost: 0.021381 Avg RMS: 4.323 Marker coordinate: L_SHANK_DIST_POST y Steps from IC (mm): -1 time: 6293.3201
+L_SHANK_DIST_POST y converged at 0 mm from IC. Min obj: 216.7906
+ Iter: 502 Obj: 219.6572 Marker cost: 192.4936 Tilt cost: 25.3306 Socket cost: 1.8331 Flexion cost: 1.8024 Piston cost: 0.030703 Avg RMS: 4.3211 Marker coordinate: L_SHANK_DIST_POST z Steps from IC (mm): 1 time: 6305.5802
+ Iter: 503 Obj: 219.3013 Marker cost: 191.8764 Tilt cost: 25.2941 Socket cost: 2.1308 Flexion cost: 2.025 Piston cost: 0.10576 Avg RMS: 4.3183 Marker coordinate: L_SHANK_DIST_POST z Steps from IC (mm): -1 time: 6318.0619
+L_SHANK_DIST_POST z converged at 0 mm from IC. Min obj: 216.7906
+ Iter: 504 Obj: 219.9566 Marker cost: 193.1088 Tilt cost: 25.8531 Socket cost: 0.99475 Flexion cost: 0.91382 Piston cost: 0.080928 Avg RMS: 4.324 Marker coordinate: L_HEEL_SUP x Steps from IC (mm): 1 time: 6330.3204
+ Iter: 505 Obj: 219.3119 Marker cost: 191.88 Tilt cost: 25.2853 Socket cost: 2.1466 Flexion cost: 1.7289 Piston cost: 0.41775 Avg RMS: 4.3181 Marker coordinate: L_HEEL_SUP x Steps from IC (mm): -1 time: 6342.3672
+L_HEEL_SUP x converged at 0 mm from IC. Min obj: 216.7906
+ Iter: 506 Obj: 219.8411 Marker cost: 192.8088 Tilt cost: 25.3449 Socket cost: 1.6873 Flexion cost: 1.4989 Piston cost: 0.1884 Avg RMS: 4.3252 Marker coordinate: L_HEEL_SUP y Steps from IC (mm): 1 time: 6354.6299
+ Iter: 507 Obj: 218.3059 Marker cost: 192.0986 Tilt cost: 25.2756 Socket cost: 0.93177 Flexion cost: 0.93143 Piston cost: 0.00034222 Avg RMS: 4.3175 Marker coordinate: L_HEEL_SUP y Steps from IC (mm): -1 time: 6366.9137
+L_HEEL_SUP y converged at 0 mm from IC. Min obj: 216.7906
+ Iter: 508 Obj: 217.7965 Marker cost: 192.3908 Tilt cost: 25.3374 Socket cost: 0.068267 Flexion cost: 0.042865 Piston cost: 0.025402 Avg RMS: 4.3209 Marker coordinate: L_HEEL_SUP z Steps from IC (mm): 1 time: 6379.0816
+ Iter: 509 Obj: 235.9845 Marker cost: 190.9606 Tilt cost: 25.4783 Socket cost: 19.5456 Flexion cost: 19.4948 Piston cost: 0.050766 Avg RMS: 4.3142 Marker coordinate: L_HEEL_SUP z Steps from IC (mm): -1 time: 6391.7087
+L_HEEL_SUP z converged at 0 mm from IC. Min obj: 216.7906
+ Iter: 510 Obj: 219.1242 Marker cost: 193.2404 Tilt cost: 25.434 Socket cost: 0.44981 Flexion cost: 0.38224 Piston cost: 0.067568 Avg RMS: 4.3268 Marker coordinate: L_HEEL_MED x Steps from IC (mm): 1 time: 6404.078
+ Iter: 511 Obj: 218.116 Marker cost: 190.3924 Tilt cost: 25.413 Socket cost: 2.3105 Flexion cost: 2.166 Piston cost: 0.14448 Avg RMS: 4.3093 Marker coordinate: L_HEEL_MED x Steps from IC (mm): -1 time: 6416.4464
+L_HEEL_MED x converged at 0 mm from IC. Min obj: 216.7906
+ Iter: 512 Obj: 218.5988 Marker cost: 192.7652 Tilt cost: 25.4902 Socket cost: 0.34344 Flexion cost: 0.15441 Piston cost: 0.18904 Avg RMS: 4.3244 Marker coordinate: L_HEEL_MED y Steps from IC (mm): 1 time: 6428.8158
+ Iter: 513 Obj: 218.0084 Marker cost: 191.3512 Tilt cost: 25.3517 Socket cost: 1.3055 Flexion cost: 1.2982 Piston cost: 0.0073549 Avg RMS: 4.3134 Marker coordinate: L_HEEL_MED y Steps from IC (mm): -1 time: 6441.3334
+L_HEEL_MED y converged at 0 mm from IC. Min obj: 216.7906
+ Iter: 514 Obj: 219.6543 Marker cost: 192.4991 Tilt cost: 25.4725 Socket cost: 1.6827 Flexion cost: 1.5789 Piston cost: 0.1038 Avg RMS: 4.3227 Marker coordinate: L_HEEL_MED z Steps from IC (mm): 1 time: 6453.4819
+ Iter: 515 Obj: 218.6725 Marker cost: 191.8386 Tilt cost: 25.7582 Socket cost: 1.0756 Flexion cost: 1.0625 Piston cost: 0.013097 Avg RMS: 4.3205 Marker coordinate: L_HEEL_MED z Steps from IC (mm): -1 time: 6465.5271
+L_HEEL_MED z converged at 0 mm from IC. Min obj: 216.7906
+ Iter: 516 Obj: 219.0273 Marker cost: 192.9035 Tilt cost: 25.2809 Socket cost: 0.84299 Flexion cost: 0.72438 Piston cost: 0.11861 Avg RMS: 4.3244 Marker coordinate: L_HEEL_LAT x Steps from IC (mm): 1 time: 6478.0035
+ Iter: 517 Obj: 216.7901 Marker cost: 190.81 Tilt cost: 25.0795 Socket cost: 0.90067 Flexion cost: 0.87678 Piston cost: 0.023883 Avg RMS: 4.3133 Marker coordinate: L_HEEL_LAT x Steps from IC (mm): -1 time: 6490.1641
+ Iter: 518 Obj: 223.0334 Marker cost: 192.7901 Tilt cost: 25.3064 Socket cost: 4.9369 Flexion cost: 4.7688 Piston cost: 0.16812 Avg RMS: 4.3243 Marker coordinate: L_HEEL_LAT x Steps from IC (mm): -2 time: 6502.2153
+L_HEEL_LAT x converged at -1 mm from IC. Min obj: 216.7901
+ Iter: 519 Obj: 219.0797 Marker cost: 192.0899 Tilt cost: 25.5475 Socket cost: 1.4423 Flexion cost: 1.0359 Piston cost: 0.40643 Avg RMS: 4.3193 Marker coordinate: L_HEEL_LAT y Steps from IC (mm): 1 time: 6514.4824
+ Iter: 520 Obj: 221.0432 Marker cost: 192.4969 Tilt cost: 25.7887 Socket cost: 2.7575 Flexion cost: 2.7389 Piston cost: 0.018593 Avg RMS: 4.3242 Marker coordinate: L_HEEL_LAT y Steps from IC (mm): -1 time: 6526.7438
+L_HEEL_LAT y converged at 0 mm from IC. Min obj: 216.7901
+ Iter: 521 Obj: 219.7622 Marker cost: 191.0575 Tilt cost: 25.6194 Socket cost: 3.0852 Flexion cost: 3.0443 Piston cost: 0.040909 Avg RMS: 4.3151 Marker coordinate: L_HEEL_LAT z Steps from IC (mm): 1 time: 6539.2293
+ Iter: 522 Obj: 221.1947 Marker cost: 192.3834 Tilt cost: 25.4503 Socket cost: 3.361 Flexion cost: 3.2661 Piston cost: 0.094946 Avg RMS: 4.3229 Marker coordinate: L_HEEL_LAT z Steps from IC (mm): -1 time: 6551.498
+L_HEEL_LAT z converged at 0 mm from IC. Min obj: 216.7901
+Marker coordinate L_TOE x is locked.
+Marker coordinate L_TOE y is locked.
+Marker coordinate L_TOE z is locked.
+ Iter: 523 Obj: 217.4418 Marker cost: 191.3454 Tilt cost: 25.4686 Socket cost: 0.6278 Flexion cost: 0.54021 Piston cost: 0.087591 Avg RMS: 4.3154 Marker coordinate: L_1ST_MET x Steps from IC (mm): 1 time: 6563.7524
+ Iter: 524 Obj: 220.0893 Marker cost: 192.3005 Tilt cost: 25.3958 Socket cost: 2.393 Flexion cost: 2.3219 Piston cost: 0.071149 Avg RMS: 4.3224 Marker coordinate: L_1ST_MET x Steps from IC (mm): -1 time: 6576.129
+L_1ST_MET x converged at 0 mm from IC. Min obj: 216.7901
+ Iter: 525 Obj: 218.7908 Marker cost: 192.6286 Tilt cost: 25.3425 Socket cost: 0.81967 Flexion cost: 0.76632 Piston cost: 0.053348 Avg RMS: 4.3249 Marker coordinate: L_1ST_MET y Steps from IC (mm): 1 time: 6588.5046
+ Iter: 526 Obj: 217.577 Marker cost: 191.308 Tilt cost: 25.5664 Socket cost: 0.70265 Flexion cost: 0.60418 Piston cost: 0.098466 Avg RMS: 4.3141 Marker coordinate: L_1ST_MET y Steps from IC (mm): -1 time: 6600.8835
+L_1ST_MET y converged at 0 mm from IC. Min obj: 216.7901
+ Iter: 527 Obj: 217.339 Marker cost: 191.4459 Tilt cost: 25.1372 Socket cost: 0.75589 Flexion cost: 0.71564 Piston cost: 0.040246 Avg RMS: 4.3167 Marker coordinate: L_1ST_MET z Steps from IC (mm): 1 time: 6613.1493
+ Iter: 528 Obj: 219.3498 Marker cost: 193.4665 Tilt cost: 25.2877 Socket cost: 0.59565 Flexion cost: 0.59459 Piston cost: 0.0010588 Avg RMS: 4.327 Marker coordinate: L_1ST_MET z Steps from IC (mm): -1 time: 6625.2981
+L_1ST_MET z converged at 0 mm from IC. Min obj: 216.7901
+ Iter: 529 Obj: 219.2375 Marker cost: 191.8454 Tilt cost: 25.3318 Socket cost: 2.0603 Flexion cost: 1.9009 Piston cost: 0.15939 Avg RMS: 4.316 Marker coordinate: L_5TH_MET x Steps from IC (mm): 1 time: 6637.6645
+ Iter: 530 Obj: 219.1456 Marker cost: 192.7989 Tilt cost: 25.5527 Socket cost: 0.79395 Flexion cost: 0.75322 Piston cost: 0.04073 Avg RMS: 4.3238 Marker coordinate: L_5TH_MET x Steps from IC (mm): -1 time: 6649.9336
+L_5TH_MET x converged at 0 mm from IC. Min obj: 216.7901
+ Iter: 531 Obj: 219.824 Marker cost: 193.5859 Tilt cost: 25.5289 Socket cost: 0.70923 Flexion cost: 0.49256 Piston cost: 0.21668 Avg RMS: 4.3283 Marker coordinate: L_5TH_MET y Steps from IC (mm): 1 time: 6662.5177
+ Iter: 532 Obj: 217.0655 Marker cost: 191.378 Tilt cost: 25.2233 Socket cost: 0.46423 Flexion cost: 0.37781 Piston cost: 0.086416 Avg RMS: 4.3142 Marker coordinate: L_5TH_MET y Steps from IC (mm): -1 time: 6674.9998
+L_5TH_MET y converged at 0 mm from IC. Min obj: 216.7901
+ Iter: 533 Obj: 220.8603 Marker cost: 192.7872 Tilt cost: 25.5129 Socket cost: 2.5602 Flexion cost: 2.4969 Piston cost: 0.063234 Avg RMS: 4.3228 Marker coordinate: L_5TH_MET z Steps from IC (mm): 1 time: 6687.2568
+ Iter: 534 Obj: 217.7085 Marker cost: 192.3618 Tilt cost: 25.2824 Socket cost: 0.064296 Flexion cost: 0.0036272 Piston cost: 0.060669 Avg RMS: 4.3213 Marker coordinate: L_5TH_MET z Steps from IC (mm): -1 time: 6699.5237
+L_5TH_MET z converged at 0 mm from IC. Min obj: 216.7901
+ Iter: 535 Obj: 218.551 Marker cost: 193.0998 Tilt cost: 25.3138 Socket cost: 0.13739 Flexion cost: 0.087447 Piston cost: 0.049942 Avg RMS: 4.3256 Marker coordinate: L_THIGH_PROX_POST x Steps from IC (mm): 1 time: 6711.6713
+ Iter: 536 Obj: 217.6972 Marker cost: 191.0161 Tilt cost: 26.0356 Socket cost: 0.64547 Flexion cost: 0.54559 Piston cost: 0.09988 Avg RMS: 4.313 Marker coordinate: L_THIGH_PROX_POST x Steps from IC (mm): -1 time: 6723.933
+L_THIGH_PROX_POST x converged at 0 mm from IC. Min obj: 216.7901
+ Iter: 537 Obj: 219.0793 Marker cost: 193.8213 Tilt cost: 25.0353 Socket cost: 0.22265 Flexion cost: 0.22033 Piston cost: 0.0023226 Avg RMS: 4.3327 Marker coordinate: L_THIGH_PROX_POST y Steps from IC (mm): 1 time: 6735.8698
+ Iter: 538 Obj: 217.4952 Marker cost: 190.7595 Tilt cost: 25.9089 Socket cost: 0.82677 Flexion cost: 0.15772 Piston cost: 0.66905 Avg RMS: 4.3091 Marker coordinate: L_THIGH_PROX_POST y Steps from IC (mm): -1 time: 6748.1343
+L_THIGH_PROX_POST y converged at 0 mm from IC. Min obj: 216.7901
+ Iter: 539 Obj: 216.8935 Marker cost: 191.1269 Tilt cost: 25.3521 Socket cost: 0.41451 Flexion cost: 0.17077 Piston cost: 0.24373 Avg RMS: 4.3183 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): 1 time: 6760.4982
+ Iter: 540 Obj: 220.4121 Marker cost: 191.9489 Tilt cost: 25.1193 Socket cost: 3.3439 Flexion cost: 3.3229 Piston cost: 0.021059 Avg RMS: 4.317 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): -1 time: 6772.7615
+L_THIGH_PROX_POST z converged at 0 mm from IC. Min obj: 216.7901
+ Iter: 541 Obj: 216.6611 Marker cost: 190.9269 Tilt cost: 25.5277 Socket cost: 0.20655 Flexion cost: 0.13644 Piston cost: 0.070107 Avg RMS: 4.3135 Marker coordinate: L_THIGH_PROX_ANT x Steps from IC (mm): 1 time: 6785.0234
+ Iter: 542 Obj: 219.3876 Marker cost: 191.5616 Tilt cost: 24.9495 Socket cost: 2.8765 Flexion cost: 2.8096 Piston cost: 0.066961 Avg RMS: 4.3191 Marker coordinate: L_THIGH_PROX_ANT x Steps from IC (mm): 2 time: 6797.5017
+L_THIGH_PROX_ANT x converged at 1 mm from IC. Min obj: 216.6611
+ Iter: 543 Obj: 217.0446 Marker cost: 191.2394 Tilt cost: 24.9241 Socket cost: 0.88114 Flexion cost: 0.832 Piston cost: 0.04914 Avg RMS: 4.3167 Marker coordinate: L_THIGH_PROX_ANT y Steps from IC (mm): 1 time: 6809.6644
+ Iter: 544 Obj: 219.3528 Marker cost: 191.9303 Tilt cost: 25.3361 Socket cost: 2.0864 Flexion cost: 1.6128 Piston cost: 0.47354 Avg RMS: 4.3193 Marker coordinate: L_THIGH_PROX_ANT y Steps from IC (mm): -1 time: 6821.8232
+L_THIGH_PROX_ANT y converged at 0 mm from IC. Min obj: 216.6611
+ Iter: 545 Obj: 221.5994 Marker cost: 191.4899 Tilt cost: 25.2838 Socket cost: 4.8257 Flexion cost: 4.0072 Piston cost: 0.81859 Avg RMS: 4.3187 Marker coordinate: L_THIGH_PROX_ANT z Steps from IC (mm): 1 time: 6834.3018
+ Iter: 546 Obj: 220.9447 Marker cost: 190.8617 Tilt cost: 25.0865 Socket cost: 4.9964 Flexion cost: 4.894 Piston cost: 0.10245 Avg RMS: 4.3118 Marker coordinate: L_THIGH_PROX_ANT z Steps from IC (mm): -1 time: 6846.6697
+L_THIGH_PROX_ANT z converged at 0 mm from IC. Min obj: 216.6611
+ Iter: 547 Obj: 217.4944 Marker cost: 191.6582 Tilt cost: 25.0691 Socket cost: 0.76711 Flexion cost: 0.65642 Piston cost: 0.11069 Avg RMS: 4.3188 Marker coordinate: L_THIGH_DIST_POST x Steps from IC (mm): 1 time: 6858.7137
+ Iter: 548 Obj: 216.8755 Marker cost: 191.6582 Tilt cost: 25.009 Socket cost: 0.20834 Flexion cost: 0.20817 Piston cost: 0.00016484 Avg RMS: 4.3174 Marker coordinate: L_THIGH_DIST_POST x Steps from IC (mm): -1 time: 6871.0892
+L_THIGH_DIST_POST x converged at 0 mm from IC. Min obj: 216.6611
+ Iter: 549 Obj: 222.4056 Marker cost: 192.4023 Tilt cost: 24.8265 Socket cost: 5.1767 Flexion cost: 5.1714 Piston cost: 0.0053038 Avg RMS: 4.3251 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): 1 time: 6883.348
+ Iter: 550 Obj: 218.6514 Marker cost: 190.8048 Tilt cost: 25.2316 Socket cost: 2.615 Flexion cost: 2.1884 Piston cost: 0.42663 Avg RMS: 4.3099 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): -1 time: 6895.7182
+L_THIGH_DIST_POST y converged at 0 mm from IC. Min obj: 216.6611
+ Iter: 551 Obj: 221.2178 Marker cost: 191.0695 Tilt cost: 25.1576 Socket cost: 4.9907 Flexion cost: 4.6186 Piston cost: 0.37218 Avg RMS: 4.3187 Marker coordinate: L_THIGH_DIST_POST z Steps from IC (mm): 1 time: 6907.9777
+ Iter: 552 Obj: 223.2875 Marker cost: 191.1577 Tilt cost: 24.8399 Socket cost: 7.2899 Flexion cost: 7.2772 Piston cost: 0.012731 Avg RMS: 4.313 Marker coordinate: L_THIGH_DIST_POST z Steps from IC (mm): -1 time: 6919.9088
+L_THIGH_DIST_POST z converged at 0 mm from IC. Min obj: 216.6611
+ Iter: 553 Obj: 216.1441 Marker cost: 190.9192 Tilt cost: 25.0298 Socket cost: 0.19513 Flexion cost: 7.6188e-05 Piston cost: 0.19505 Avg RMS: 4.3122 Marker coordinate: L_THIGH_DIST_ANT x Steps from IC (mm): 1 time: 6932.2813
+ Iter: 554 Obj: 225.4619 Marker cost: 191.7666 Tilt cost: 25.3995 Socket cost: 8.2958 Flexion cost: 8.0544 Piston cost: 0.24143 Avg RMS: 4.3164 Marker coordinate: L_THIGH_DIST_ANT x Steps from IC (mm): 2 time: 6944.764
+L_THIGH_DIST_ANT x converged at 1 mm from IC. Min obj: 216.1441
+ Iter: 555 Obj: 216.4642 Marker cost: 189.9588 Tilt cost: 24.8783 Socket cost: 1.6271 Flexion cost: 1.621 Piston cost: 0.0060713 Avg RMS: 4.3098 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): 1 time: 6957.051
+ Iter: 556 Obj: 217.8203 Marker cost: 191.7087 Tilt cost: 25.3232 Socket cost: 0.78842 Flexion cost: 0.42749 Piston cost: 0.36092 Avg RMS: 4.3159 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): -1 time: 6969.4249
+L_THIGH_DIST_ANT y converged at 0 mm from IC. Min obj: 216.1441
+ Iter: 557 Obj: 218.2312 Marker cost: 191.842 Tilt cost: 25.3346 Socket cost: 1.0546 Flexion cost: 0.88546 Piston cost: 0.16916 Avg RMS: 4.3224 Marker coordinate: L_THIGH_DIST_ANT z Steps from IC (mm): 1 time: 6981.5782
+ Iter: 558 Obj: 216.5598 Marker cost: 190.4577 Tilt cost: 25.0133 Socket cost: 1.0888 Flexion cost: 1.0717 Piston cost: 0.017106 Avg RMS: 4.3079 Marker coordinate: L_THIGH_DIST_ANT z Steps from IC (mm): -1 time: 6993.8419
+L_THIGH_DIST_ANT z converged at 0 mm from IC. Min obj: 216.1441
+ Iter: 559 Obj: 222.8497 Marker cost: 190.3268 Tilt cost: 24.6143 Socket cost: 7.9087 Flexion cost: 7.6098 Piston cost: 0.29884 Avg RMS: 4.3083 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD x Steps from IC (mm): 1 time: 7006.2095
+ Iter: 560 Obj: 220.2576 Marker cost: 191.1442 Tilt cost: 25.4822 Socket cost: 3.6313 Flexion cost: 3.6225 Piston cost: 0.0088031 Avg RMS: 4.3141 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD x Steps from IC (mm): -1 time: 7018.6919
+SOCKET_JOINT_LOC_IN_CHILD x converged at 0 mm from IC. Min obj: 216.1441
+ Iter: 561 Obj: 222.8025 Marker cost: 190.7764 Tilt cost: 25.1498 Socket cost: 6.8762 Flexion cost: 0.11742 Piston cost: 6.7588 Avg RMS: 4.3122 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): 1 time: 7030.9498
+ Iter: 562 Obj: 230.8806 Marker cost: 192.0111 Tilt cost: 25.0084 Socket cost: 13.8611 Flexion cost: 0.82635 Piston cost: 13.0348 Avg RMS: 4.3186 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -1 time: 7042.9941
+SOCKET_JOINT_LOC_IN_CHILD y converged at 0 mm from IC. Min obj: 216.1441
+ Iter: 563 Obj: 218.5702 Marker cost: 192.4088 Tilt cost: 25.4576 Socket cost: 0.7038 Flexion cost: 0.028221 Piston cost: 0.67558 Avg RMS: 4.3225 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD z Steps from IC (mm): 1 time: 7055.3681
+ Iter: 564 Obj: 215.7284 Marker cost: 191.067 Tilt cost: 24.5306 Socket cost: 0.13082 Flexion cost: 0.12908 Piston cost: 0.001745 Avg RMS: 4.3103 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD z Steps from IC (mm): -1 time: 7067.7348
+ Iter: 565 Obj: 220.8347 Marker cost: 190.7757 Tilt cost: 24.5668 Socket cost: 5.4923 Flexion cost: 4.5382 Piston cost: 0.95401 Avg RMS: 4.3063 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD z Steps from IC (mm): -2 time: 7079.7802
+SOCKET_JOINT_LOC_IN_CHILD z converged at -1 mm from IC. Min obj: 215.7284
+ Iter: 566 Obj: 217.5797 Marker cost: 191.0731 Tilt cost: 24.6909 Socket cost: 1.8158 Flexion cost: 1.757 Piston cost: 0.058737 Avg RMS: 4.3112 Marker coordinate: L_SHANK_PROX_POST x Steps from IC (mm): 1 time: 7092.1476
+ Iter: 567 Obj: 218.7718 Marker cost: 190.92 Tilt cost: 24.7892 Socket cost: 3.0626 Flexion cost: 3.0535 Piston cost: 0.0091567 Avg RMS: 4.3109 Marker coordinate: L_SHANK_PROX_POST x Steps from IC (mm): -1 time: 7104.4103
+L_SHANK_PROX_POST x converged at 0 mm from IC. Min obj: 215.7284
+ Iter: 568 Obj: 214.7176 Marker cost: 190.3575 Tilt cost: 24.3045 Socket cost: 0.05562 Flexion cost: 0.04518 Piston cost: 0.010439 Avg RMS: 4.3074 Marker coordinate: L_SHANK_PROX_POST y Steps from IC (mm): 1 time: 7116.6703
+ Iter: 569 Obj: 217.7281 Marker cost: 192.1306 Tilt cost: 25.0574 Socket cost: 0.5401 Flexion cost: 0.01335 Piston cost: 0.52675 Avg RMS: 4.3155 Marker coordinate: L_SHANK_PROX_POST y Steps from IC (mm): 2 time: 7128.942
+L_SHANK_PROX_POST y converged at 1 mm from IC. Min obj: 214.7176
+ Iter: 570 Obj: 217.2947 Marker cost: 191.8163 Tilt cost: 24.7011 Socket cost: 0.77719 Flexion cost: 0.65401 Piston cost: 0.12319 Avg RMS: 4.3145 Marker coordinate: L_SHANK_PROX_POST z Steps from IC (mm): 1 time: 7141.1033
+ Iter: 571 Obj: 217.202 Marker cost: 190.9432 Tilt cost: 24.8669 Socket cost: 1.3918 Flexion cost: 0.91022 Piston cost: 0.48163 Avg RMS: 4.3097 Marker coordinate: L_SHANK_PROX_POST z Steps from IC (mm): -1 time: 7153.4791
+L_SHANK_PROX_POST z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 572 Obj: 218.8874 Marker cost: 191.5346 Tilt cost: 24.7961 Socket cost: 2.5566 Flexion cost: 2.4122 Piston cost: 0.14446 Avg RMS: 4.312 Marker coordinate: L_SHANK_PROX_ANT x Steps from IC (mm): 1 time: 7165.7497
+ Iter: 573 Obj: 218.5406 Marker cost: 190.6426 Tilt cost: 24.4676 Socket cost: 3.4305 Flexion cost: 3.3992 Piston cost: 0.031304 Avg RMS: 4.3077 Marker coordinate: L_SHANK_PROX_ANT x Steps from IC (mm): -1 time: 7178.1217
+L_SHANK_PROX_ANT x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 574 Obj: 220.8411 Marker cost: 192.0533 Tilt cost: 24.3556 Socket cost: 4.4322 Flexion cost: 4.0147 Piston cost: 0.41743 Avg RMS: 4.3142 Marker coordinate: L_SHANK_PROX_ANT y Steps from IC (mm): 1 time: 7190.1637
+ Iter: 575 Obj: 226.049 Marker cost: 190.8471 Tilt cost: 24.8845 Socket cost: 10.3175 Flexion cost: 10.3172 Piston cost: 0.00031923 Avg RMS: 4.3098 Marker coordinate: L_SHANK_PROX_ANT y Steps from IC (mm): -1 time: 7202.4244
+L_SHANK_PROX_ANT y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 576 Obj: 217.5114 Marker cost: 192.2583 Tilt cost: 24.6779 Socket cost: 0.57528 Flexion cost: 0.55983 Piston cost: 0.015453 Avg RMS: 4.319 Marker coordinate: L_SHANK_PROX_ANT z Steps from IC (mm): 1 time: 7214.5711
+ Iter: 577 Obj: 217.5379 Marker cost: 190.7969 Tilt cost: 24.8995 Socket cost: 1.8415 Flexion cost: 1.8289 Piston cost: 0.012603 Avg RMS: 4.3074 Marker coordinate: L_SHANK_PROX_ANT z Steps from IC (mm): -1 time: 7226.8365
+L_SHANK_PROX_ANT z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 578 Obj: 219.28 Marker cost: 191.69 Tilt cost: 24.6552 Socket cost: 2.9348 Flexion cost: 2.8639 Piston cost: 0.070863 Avg RMS: 4.3126 Marker coordinate: L_SHANK_DIST_ANT x Steps from IC (mm): 1 time: 7239.0972
+ Iter: 579 Obj: 216.1086 Marker cost: 191.1641 Tilt cost: 24.6388 Socket cost: 0.30571 Flexion cost: 0.13855 Piston cost: 0.16716 Avg RMS: 4.3105 Marker coordinate: L_SHANK_DIST_ANT x Steps from IC (mm): -1 time: 7251.3574
+L_SHANK_DIST_ANT x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 580 Obj: 222.9487 Marker cost: 191.7018 Tilt cost: 24.8214 Socket cost: 6.4255 Flexion cost: 6.0028 Piston cost: 0.42267 Avg RMS: 4.3133 Marker coordinate: L_SHANK_DIST_ANT y Steps from IC (mm): 1 time: 7263.7276
+ Iter: 581 Obj: 216.6904 Marker cost: 191.7917 Tilt cost: 24.8868 Socket cost: 0.01189 Flexion cost: 0.00030246 Piston cost: 0.011587 Avg RMS: 4.3135 Marker coordinate: L_SHANK_DIST_ANT y Steps from IC (mm): -1 time: 7275.9988
+L_SHANK_DIST_ANT y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 582 Obj: 218.1789 Marker cost: 192.695 Tilt cost: 24.615 Socket cost: 0.86885 Flexion cost: 0.80274 Piston cost: 0.066113 Avg RMS: 4.3187 Marker coordinate: L_SHANK_DIST_ANT z Steps from IC (mm): 1 time: 7288.252
+ Iter: 583 Obj: 216.4739 Marker cost: 191.3673 Tilt cost: 24.9507 Socket cost: 0.15598 Flexion cost: 0.036235 Piston cost: 0.11975 Avg RMS: 4.3115 Marker coordinate: L_SHANK_DIST_ANT z Steps from IC (mm): -1 time: 7300.5153
+L_SHANK_DIST_ANT z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 584 Obj: 218.391 Marker cost: 191.4822 Tilt cost: 24.8054 Socket cost: 2.1034 Flexion cost: 2.0033 Piston cost: 0.10012 Avg RMS: 4.3121 Marker coordinate: L_SHANK_DIST_POST x Steps from IC (mm): 1 time: 7312.6626
+ Iter: 585 Obj: 217.962 Marker cost: 191.5702 Tilt cost: 24.6832 Socket cost: 1.7086 Flexion cost: 1.6533 Piston cost: 0.055294 Avg RMS: 4.3129 Marker coordinate: L_SHANK_DIST_POST x Steps from IC (mm): -1 time: 7324.927
+L_SHANK_DIST_POST x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 586 Obj: 233.4277 Marker cost: 190.4455 Tilt cost: 24.6582 Socket cost: 18.3239 Flexion cost: 17.7003 Piston cost: 0.6236 Avg RMS: 4.3055 Marker coordinate: L_SHANK_DIST_POST y Steps from IC (mm): 1 time: 7337.1912
+ Iter: 587 Obj: 229.5315 Marker cost: 191.3777 Tilt cost: 24.8813 Socket cost: 13.2724 Flexion cost: 13.272 Piston cost: 0.0004096 Avg RMS: 4.3137 Marker coordinate: L_SHANK_DIST_POST y Steps from IC (mm): -1 time: 7349.4492
+L_SHANK_DIST_POST y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 588 Obj: 217.004 Marker cost: 192.1263 Tilt cost: 24.6626 Socket cost: 0.21503 Flexion cost: 0.074587 Piston cost: 0.14045 Avg RMS: 4.3153 Marker coordinate: L_SHANK_DIST_POST z Steps from IC (mm): 1 time: 7361.9335
+ Iter: 589 Obj: 216.0372 Marker cost: 191.3988 Tilt cost: 24.4074 Socket cost: 0.23104 Flexion cost: 0.13488 Piston cost: 0.096158 Avg RMS: 4.313 Marker coordinate: L_SHANK_DIST_POST z Steps from IC (mm): -1 time: 7374.2997
+L_SHANK_DIST_POST z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 590 Obj: 217.2642 Marker cost: 192.2785 Tilt cost: 24.8446 Socket cost: 0.14103 Flexion cost: 0.1405 Piston cost: 0.00053144 Avg RMS: 4.3172 Marker coordinate: L_HEEL_SUP x Steps from IC (mm): 1 time: 7386.5693
+ Iter: 591 Obj: 215.4075 Marker cost: 190.321 Tilt cost: 24.9443 Socket cost: 0.14218 Flexion cost: 0.10029 Piston cost: 0.041887 Avg RMS: 4.3063 Marker coordinate: L_HEEL_SUP x Steps from IC (mm): -1 time: 7398.9341
+L_HEEL_SUP x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 592 Obj: 218.3483 Marker cost: 191.7306 Tilt cost: 24.6774 Socket cost: 1.9403 Flexion cost: 1.9172 Piston cost: 0.023165 Avg RMS: 4.3159 Marker coordinate: L_HEEL_SUP y Steps from IC (mm): 1 time: 7411.2997
+ Iter: 593 Obj: 216.9883 Marker cost: 191.5566 Tilt cost: 24.5955 Socket cost: 0.83621 Flexion cost: 0.81018 Piston cost: 0.02603 Avg RMS: 4.3091 Marker coordinate: L_HEEL_SUP y Steps from IC (mm): -1 time: 7423.4584
+L_HEEL_SUP y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 594 Obj: 217.5397 Marker cost: 191.8797 Tilt cost: 24.6685 Socket cost: 0.99157 Flexion cost: 0.94474 Piston cost: 0.046827 Avg RMS: 4.3129 Marker coordinate: L_HEEL_SUP z Steps from IC (mm): 1 time: 7435.7144
+ Iter: 595 Obj: 216.6589 Marker cost: 191.0598 Tilt cost: 24.7875 Socket cost: 0.81163 Flexion cost: 0.71678 Piston cost: 0.094848 Avg RMS: 4.3114 Marker coordinate: L_HEEL_SUP z Steps from IC (mm): -1 time: 7447.8682
+L_HEEL_SUP z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 596 Obj: 219.6588 Marker cost: 192.1248 Tilt cost: 24.8853 Socket cost: 2.6487 Flexion cost: 2.5901 Piston cost: 0.058553 Avg RMS: 4.3175 Marker coordinate: L_HEEL_MED x Steps from IC (mm): 1 time: 7460.2381
+ Iter: 597 Obj: 249.3138 Marker cost: 191.3677 Tilt cost: 24.971 Socket cost: 32.9751 Flexion cost: 32.7703 Piston cost: 0.20475 Avg RMS: 4.3098 Marker coordinate: L_HEEL_MED x Steps from IC (mm): -1 time: 7472.2817
+L_HEEL_MED x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 598 Obj: 216.658 Marker cost: 191.7843 Tilt cost: 24.604 Socket cost: 0.26966 Flexion cost: 0.049674 Piston cost: 0.21999 Avg RMS: 4.3163 Marker coordinate: L_HEEL_MED y Steps from IC (mm): 1 time: 7484.3234
+ Iter: 599 Obj: 215.0121 Marker cost: 190.7217 Tilt cost: 24.1911 Socket cost: 0.099396 Flexion cost: 0.080941 Piston cost: 0.018456 Avg RMS: 4.3088 Marker coordinate: L_HEEL_MED y Steps from IC (mm): -1 time: 7496.4816
+L_HEEL_MED y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 600 Obj: 227.8917 Marker cost: 191.6997 Tilt cost: 24.6227 Socket cost: 11.5693 Flexion cost: 11.4787 Piston cost: 0.090611 Avg RMS: 4.3121 Marker coordinate: L_HEEL_MED z Steps from IC (mm): 1 time: 7508.5194
+ Iter: 601 Obj: 216.295 Marker cost: 191.4855 Tilt cost: 24.5952 Socket cost: 0.21425 Flexion cost: 0.14377 Piston cost: 0.070476 Avg RMS: 4.3112 Marker coordinate: L_HEEL_MED z Steps from IC (mm): -1 time: 7520.8883
+L_HEEL_MED z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 602 Obj: 215.7765 Marker cost: 191.0747 Tilt cost: 24.4475 Socket cost: 0.25427 Flexion cost: 0.24315 Piston cost: 0.011122 Avg RMS: 4.3076 Marker coordinate: L_HEEL_LAT x Steps from IC (mm): 1 time: 7533.2697
+ Iter: 603 Obj: 217.8181 Marker cost: 192.0289 Tilt cost: 24.7186 Socket cost: 1.0706 Flexion cost: 0.81803 Piston cost: 0.25259 Avg RMS: 4.3166 Marker coordinate: L_HEEL_LAT x Steps from IC (mm): -1 time: 7545.536
+L_HEEL_LAT x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 604 Obj: 215.2475 Marker cost: 190.5558 Tilt cost: 24.4996 Socket cost: 0.19211 Flexion cost: 0.00037441 Piston cost: 0.19174 Avg RMS: 4.306 Marker coordinate: L_HEEL_LAT y Steps from IC (mm): 1 time: 7557.7982
+ Iter: 605 Obj: 218.3404 Marker cost: 193.0235 Tilt cost: 24.6048 Socket cost: 0.71204 Flexion cost: 0.64751 Piston cost: 0.064529 Avg RMS: 4.3212 Marker coordinate: L_HEEL_LAT y Steps from IC (mm): -1 time: 7569.8417
+L_HEEL_LAT y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 606 Obj: 222.372 Marker cost: 190.5797 Tilt cost: 24.8321 Socket cost: 6.9602 Flexion cost: 6.763 Piston cost: 0.19721 Avg RMS: 4.3071 Marker coordinate: L_HEEL_LAT z Steps from IC (mm): 1 time: 7582.1078
+ Iter: 607 Obj: 225.143 Marker cost: 191.9274 Tilt cost: 24.5295 Socket cost: 8.686 Flexion cost: 8.6692 Piston cost: 0.016826 Avg RMS: 4.3147 Marker coordinate: L_HEEL_LAT z Steps from IC (mm): -1 time: 7594.4762
+L_HEEL_LAT z converged at 0 mm from IC. Min obj: 214.7176
+Marker coordinate L_TOE x is locked.
+Marker coordinate L_TOE y is locked.
+Marker coordinate L_TOE z is locked.
+ Iter: 608 Obj: 218.6229 Marker cost: 191.9532 Tilt cost: 24.6145 Socket cost: 2.0552 Flexion cost: 1.9406 Piston cost: 0.11458 Avg RMS: 4.3171 Marker coordinate: L_1ST_MET x Steps from IC (mm): 1 time: 7606.4059
+ Iter: 609 Obj: 216.2565 Marker cost: 190.5197 Tilt cost: 24.7456 Socket cost: 0.99125 Flexion cost: 0.98615 Piston cost: 0.0051076 Avg RMS: 4.3087 Marker coordinate: L_1ST_MET x Steps from IC (mm): -1 time: 7618.8942
+L_1ST_MET x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 610 Obj: 217.6131 Marker cost: 192.2709 Tilt cost: 24.6688 Socket cost: 0.6733 Flexion cost: 0.63991 Piston cost: 0.033397 Avg RMS: 4.3166 Marker coordinate: L_1ST_MET y Steps from IC (mm): 1 time: 7631.1646
+ Iter: 611 Obj: 219.276 Marker cost: 191.159 Tilt cost: 25.0074 Socket cost: 3.1096 Flexion cost: 3.0774 Piston cost: 0.032262 Avg RMS: 4.3093 Marker coordinate: L_1ST_MET y Steps from IC (mm): -1 time: 7643.2106
+L_1ST_MET y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 612 Obj: 218.9299 Marker cost: 190.2823 Tilt cost: 24.7168 Socket cost: 3.9308 Flexion cost: 3.7656 Piston cost: 0.1652 Avg RMS: 4.3053 Marker coordinate: L_1ST_MET z Steps from IC (mm): 1 time: 7655.2547
+ Iter: 613 Obj: 219.5163 Marker cost: 191.2619 Tilt cost: 24.7542 Socket cost: 3.5002 Flexion cost: 3.4999 Piston cost: 0.0002809 Avg RMS: 4.3137 Marker coordinate: L_1ST_MET z Steps from IC (mm): -1 time: 7667.402
+L_1ST_MET z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 614 Obj: 216.0686 Marker cost: 190.699 Tilt cost: 24.4485 Socket cost: 0.9211 Flexion cost: 0.89092 Piston cost: 0.030184 Avg RMS: 4.3087 Marker coordinate: L_5TH_MET x Steps from IC (mm): 1 time: 7679.7722
+ Iter: 615 Obj: 218.3602 Marker cost: 191.294 Tilt cost: 24.8119 Socket cost: 2.2543 Flexion cost: 2.1959 Piston cost: 0.05837 Avg RMS: 4.3126 Marker coordinate: L_5TH_MET x Steps from IC (mm): -1 time: 7692.0381
+L_5TH_MET x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 616 Obj: 217.4801 Marker cost: 192.472 Tilt cost: 24.2754 Socket cost: 0.73274 Flexion cost: 0.73015 Piston cost: 0.0025889 Avg RMS: 4.319 Marker coordinate: L_5TH_MET y Steps from IC (mm): 1 time: 7704.1854
+ Iter: 617 Obj: 214.8121 Marker cost: 190.2815 Tilt cost: 24.2613 Socket cost: 0.2693 Flexion cost: 1.2087e-05 Piston cost: 0.26929 Avg RMS: 4.3043 Marker coordinate: L_5TH_MET y Steps from IC (mm): -1 time: 7716.2273
+L_5TH_MET y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 618 Obj: 216.7007 Marker cost: 191.4833 Tilt cost: 24.7987 Socket cost: 0.41871 Flexion cost: 0.3819 Piston cost: 0.036808 Avg RMS: 4.3135 Marker coordinate: L_5TH_MET z Steps from IC (mm): 1 time: 7728.601
+ Iter: 619 Obj: 223.7062 Marker cost: 190.6705 Tilt cost: 24.6416 Socket cost: 8.3941 Flexion cost: 8.3939 Piston cost: 0.00020885 Avg RMS: 4.3078 Marker coordinate: L_5TH_MET z Steps from IC (mm): -1 time: 7740.8666
+L_5TH_MET z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 620 Obj: 216.4833 Marker cost: 191.4456 Tilt cost: 24.6162 Socket cost: 0.42147 Flexion cost: 0.21666 Piston cost: 0.2048 Avg RMS: 4.3128 Marker coordinate: L_THIGH_PROX_POST x Steps from IC (mm): 1 time: 7753.1236
+ Iter: 621 Obj: 222.8058 Marker cost: 190.3395 Tilt cost: 25.0407 Socket cost: 7.4255 Flexion cost: 7.2416 Piston cost: 0.18395 Avg RMS: 4.3055 Marker coordinate: L_THIGH_PROX_POST x Steps from IC (mm): -1 time: 7765.3857
+L_THIGH_PROX_POST x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 622 Obj: 216.1694 Marker cost: 191.6919 Tilt cost: 24.4427 Socket cost: 0.034803 Flexion cost: 0.03449 Piston cost: 0.00031248 Avg RMS: 4.3179 Marker coordinate: L_THIGH_PROX_POST y Steps from IC (mm): 1 time: 7777.5429
+ Iter: 623 Obj: 218.091 Marker cost: 189.6989 Tilt cost: 25.0167 Socket cost: 3.3753 Flexion cost: 2.7029 Piston cost: 0.67236 Avg RMS: 4.2983 Marker coordinate: L_THIGH_PROX_POST y Steps from IC (mm): -1 time: 7789.9211
+L_THIGH_PROX_POST y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 624 Obj: 219.7434 Marker cost: 191.3873 Tilt cost: 24.8196 Socket cost: 3.5364 Flexion cost: 3.2986 Piston cost: 0.23778 Avg RMS: 4.3138 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): 1 time: 7802.4015
+ Iter: 625 Obj: 216.0058 Marker cost: 191.3409 Tilt cost: 24.6442 Socket cost: 0.020748 Flexion cost: 0.020592 Piston cost: 0.00015603 Avg RMS: 4.3099 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): -1 time: 7814.5519
+L_THIGH_PROX_POST z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 626 Obj: 236.8434 Marker cost: 191.2902 Tilt cost: 24.2877 Socket cost: 21.2655 Flexion cost: 21.264 Piston cost: 0.0014933 Avg RMS: 4.3122 Marker coordinate: L_THIGH_PROX_ANT x Steps from IC (mm): 1 time: 7826.708
+ Iter: 627 Obj: 217.7308 Marker cost: 191.6956 Tilt cost: 25.3752 Socket cost: 0.66005 Flexion cost: 0.61311 Piston cost: 0.046936 Avg RMS: 4.3121 Marker coordinate: L_THIGH_PROX_ANT x Steps from IC (mm): -1 time: 7839.0816
+L_THIGH_PROX_ANT x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 628 Obj: 230.478 Marker cost: 191.6562 Tilt cost: 24.5713 Socket cost: 14.2504 Flexion cost: 14.0332 Piston cost: 0.21724 Avg RMS: 4.3141 Marker coordinate: L_THIGH_PROX_ANT y Steps from IC (mm): 1 time: 7851.4512
+ Iter: 629 Obj: 217.3202 Marker cost: 191.5239 Tilt cost: 24.9522 Socket cost: 0.84404 Flexion cost: 0.37536 Piston cost: 0.46868 Avg RMS: 4.3124 Marker coordinate: L_THIGH_PROX_ANT y Steps from IC (mm): -1 time: 7864.0399
+L_THIGH_PROX_ANT y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 630 Obj: 216.2697 Marker cost: 191.1513 Tilt cost: 24.8373 Socket cost: 0.28107 Flexion cost: 0.080993 Piston cost: 0.20008 Avg RMS: 4.3122 Marker coordinate: L_THIGH_PROX_ANT z Steps from IC (mm): 1 time: 7876.4041
+ Iter: 631 Obj: 216.4103 Marker cost: 191.425 Tilt cost: 24.6109 Socket cost: 0.37441 Flexion cost: 0.24967 Piston cost: 0.12475 Avg RMS: 4.3104 Marker coordinate: L_THIGH_PROX_ANT z Steps from IC (mm): -1 time: 7888.4535
+L_THIGH_PROX_ANT z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 632 Obj: 221.32 Marker cost: 191.0119 Tilt cost: 24.5014 Socket cost: 5.8067 Flexion cost: 5.8026 Piston cost: 0.0041047 Avg RMS: 4.3094 Marker coordinate: L_THIGH_DIST_POST x Steps from IC (mm): 1 time: 7900.8221
+ Iter: 633 Obj: 217.5633 Marker cost: 191.2739 Tilt cost: 24.8762 Socket cost: 1.4133 Flexion cost: 1.3164 Piston cost: 0.096924 Avg RMS: 4.3107 Marker coordinate: L_THIGH_DIST_POST x Steps from IC (mm): -1 time: 7913.3016
+L_THIGH_DIST_POST x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 634 Obj: 216.6487 Marker cost: 192.188 Tilt cost: 24.3754 Socket cost: 0.085268 Flexion cost: 0.016627 Piston cost: 0.068641 Avg RMS: 4.3199 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): 1 time: 7925.7798
+ Iter: 635 Obj: 216.554 Marker cost: 190.1884 Tilt cost: 24.9112 Socket cost: 1.4544 Flexion cost: 1.1453 Piston cost: 0.30909 Avg RMS: 4.3023 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): -1 time: 7937.8195
+L_THIGH_DIST_POST y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 636 Obj: 225.3328 Marker cost: 190.2018 Tilt cost: 24.9305 Socket cost: 10.2006 Flexion cost: 9.9438 Piston cost: 0.25677 Avg RMS: 4.3095 Marker coordinate: L_THIGH_DIST_POST z Steps from IC (mm): 1 time: 7950.3019
+ Iter: 637 Obj: 216.4826 Marker cost: 191.7939 Tilt cost: 24.4876 Socket cost: 0.20113 Flexion cost: 0.19828 Piston cost: 0.0028527 Avg RMS: 4.3093 Marker coordinate: L_THIGH_DIST_POST z Steps from IC (mm): -1 time: 7962.5639
+L_THIGH_DIST_POST z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 638 Obj: 233.6233 Marker cost: 190.9615 Tilt cost: 24.4814 Socket cost: 18.1804 Flexion cost: 18.0173 Piston cost: 0.16305 Avg RMS: 4.3099 Marker coordinate: L_THIGH_DIST_ANT x Steps from IC (mm): 1 time: 7974.9326
+ Iter: 639 Obj: 215.8669 Marker cost: 191.1107 Tilt cost: 24.6247 Socket cost: 0.1315 Flexion cost: 0.029123 Piston cost: 0.10237 Avg RMS: 4.3112 Marker coordinate: L_THIGH_DIST_ANT x Steps from IC (mm): -1 time: 7987.2025
+L_THIGH_DIST_ANT x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 640 Obj: 219.9951 Marker cost: 191.6747 Tilt cost: 24.6296 Socket cost: 3.6908 Flexion cost: 3.6549 Piston cost: 0.03588 Avg RMS: 4.3138 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): 1 time: 7999.1331
+ Iter: 641 Obj: 219.0492 Marker cost: 191.9237 Tilt cost: 25.0321 Socket cost: 2.0934 Flexion cost: 1.1616 Piston cost: 0.93178 Avg RMS: 4.3137 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): -1 time: 8011.6121
+L_THIGH_DIST_ANT y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 642 Obj: 217.0744 Marker cost: 191.462 Tilt cost: 24.9758 Socket cost: 0.63668 Flexion cost: 0.63457 Piston cost: 0.0021112 Avg RMS: 4.3177 Marker coordinate: L_THIGH_DIST_ANT z Steps from IC (mm): 1 time: 8023.9944
+ Iter: 643 Obj: 224.6821 Marker cost: 190.6226 Tilt cost: 24.6401 Socket cost: 9.4194 Flexion cost: 9.3937 Piston cost: 0.025685 Avg RMS: 4.3041 Marker coordinate: L_THIGH_DIST_ANT z Steps from IC (mm): -1 time: 8036.5828
+L_THIGH_DIST_ANT z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 644 Obj: 224.7288 Marker cost: 190.8028 Tilt cost: 24.4587 Socket cost: 9.4674 Flexion cost: 9.3488 Piston cost: 0.11861 Avg RMS: 4.3069 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD x Steps from IC (mm): 1 time: 8048.8465
+ Iter: 645 Obj: 217.2018 Marker cost: 191.5549 Tilt cost: 25.2146 Socket cost: 0.43231 Flexion cost: 0.39293 Piston cost: 0.039376 Avg RMS: 4.315 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD x Steps from IC (mm): -1 time: 8061.2213
+SOCKET_JOINT_LOC_IN_CHILD x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 646 Obj: 225.3411 Marker cost: 191.0099 Tilt cost: 24.8665 Socket cost: 9.4647 Flexion cost: 1.5739 Piston cost: 7.8908 Avg RMS: 4.3098 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): 1 time: 8073.2615
+ Iter: 647 Obj: 236.9476 Marker cost: 191.6515 Tilt cost: 24.7856 Socket cost: 20.5105 Flexion cost: 9.6049 Piston cost: 10.9056 Avg RMS: 4.3132 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -1 time: 8085.4124
+SOCKET_JOINT_LOC_IN_CHILD y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 648 Obj: 216.6147 Marker cost: 191.5457 Tilt cost: 24.6939 Socket cost: 0.37512 Flexion cost: 0.0019007 Piston cost: 0.37322 Avg RMS: 4.3148 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD z Steps from IC (mm): 1 time: 8097.4573
+ Iter: 649 Obj: 215.763 Marker cost: 190.7026 Tilt cost: 24.3356 Socket cost: 0.72478 Flexion cost: 0.71934 Piston cost: 0.0054382 Avg RMS: 4.3061 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD z Steps from IC (mm): -1 time: 8109.7182
+SOCKET_JOINT_LOC_IN_CHILD z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 650 Obj: 226.4279 Marker cost: 191.9206 Tilt cost: 25.1011 Socket cost: 9.4062 Flexion cost: 9.1817 Piston cost: 0.22452 Avg RMS: 4.3153 Marker coordinate: L_SHANK_PROX_POST x Steps from IC (mm): 1 time: 8121.9794
+ Iter: 651 Obj: 218.268 Marker cost: 191.6235 Tilt cost: 24.6037 Socket cost: 2.0408 Flexion cost: 2.0378 Piston cost: 0.0029894 Avg RMS: 4.3124 Marker coordinate: L_SHANK_PROX_POST x Steps from IC (mm): -1 time: 8134.3496
+L_SHANK_PROX_POST x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 652 Obj: 217.7281 Marker cost: 192.1306 Tilt cost: 25.0574 Socket cost: 0.5401 Flexion cost: 0.01335 Piston cost: 0.52675 Avg RMS: 4.3155 Marker coordinate: L_SHANK_PROX_POST y Steps from IC (mm): 1 time: 8146.6234
+ Iter: 653 Obj: 215.7284 Marker cost: 191.067 Tilt cost: 24.5306 Socket cost: 0.13082 Flexion cost: 0.12908 Piston cost: 0.001745 Avg RMS: 4.3103 Marker coordinate: L_SHANK_PROX_POST y Steps from IC (mm): -1 time: 8159.0016
+L_SHANK_PROX_POST y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 654 Obj: 217.2947 Marker cost: 191.8163 Tilt cost: 24.7011 Socket cost: 0.77719 Flexion cost: 0.65401 Piston cost: 0.12319 Avg RMS: 4.3145 Marker coordinate: L_SHANK_PROX_POST z Steps from IC (mm): 1 time: 8171.3653
+ Iter: 655 Obj: 217.202 Marker cost: 190.9432 Tilt cost: 24.8669 Socket cost: 1.3918 Flexion cost: 0.91022 Piston cost: 0.48163 Avg RMS: 4.3097 Marker coordinate: L_SHANK_PROX_POST z Steps from IC (mm): -1 time: 8183.7349
+L_SHANK_PROX_POST z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 656 Obj: 218.8874 Marker cost: 191.5346 Tilt cost: 24.7961 Socket cost: 2.5566 Flexion cost: 2.4122 Piston cost: 0.14446 Avg RMS: 4.312 Marker coordinate: L_SHANK_PROX_ANT x Steps from IC (mm): 1 time: 8195.8898
+ Iter: 657 Obj: 218.5406 Marker cost: 190.6426 Tilt cost: 24.4676 Socket cost: 3.4305 Flexion cost: 3.3992 Piston cost: 0.031304 Avg RMS: 4.3077 Marker coordinate: L_SHANK_PROX_ANT x Steps from IC (mm): -1 time: 8208.1481
+L_SHANK_PROX_ANT x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 658 Obj: 220.8411 Marker cost: 192.0533 Tilt cost: 24.3556 Socket cost: 4.4322 Flexion cost: 4.0147 Piston cost: 0.41743 Avg RMS: 4.3142 Marker coordinate: L_SHANK_PROX_ANT y Steps from IC (mm): 1 time: 8220.0846
+ Iter: 659 Obj: 226.049 Marker cost: 190.8471 Tilt cost: 24.8845 Socket cost: 10.3175 Flexion cost: 10.3172 Piston cost: 0.00031923 Avg RMS: 4.3098 Marker coordinate: L_SHANK_PROX_ANT y Steps from IC (mm): -1 time: 8232.4525
+L_SHANK_PROX_ANT y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 660 Obj: 217.5114 Marker cost: 192.2583 Tilt cost: 24.6779 Socket cost: 0.57528 Flexion cost: 0.55983 Piston cost: 0.015453 Avg RMS: 4.319 Marker coordinate: L_SHANK_PROX_ANT z Steps from IC (mm): 1 time: 8244.6104
+ Iter: 661 Obj: 217.5379 Marker cost: 190.7969 Tilt cost: 24.8995 Socket cost: 1.8415 Flexion cost: 1.8289 Piston cost: 0.012603 Avg RMS: 4.3074 Marker coordinate: L_SHANK_PROX_ANT z Steps from IC (mm): -1 time: 8256.8639
+L_SHANK_PROX_ANT z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 662 Obj: 219.28 Marker cost: 191.69 Tilt cost: 24.6552 Socket cost: 2.9348 Flexion cost: 2.8639 Piston cost: 0.070863 Avg RMS: 4.3126 Marker coordinate: L_SHANK_DIST_ANT x Steps from IC (mm): 1 time: 8269.2412
+ Iter: 663 Obj: 216.1086 Marker cost: 191.1641 Tilt cost: 24.6388 Socket cost: 0.30571 Flexion cost: 0.13855 Piston cost: 0.16716 Avg RMS: 4.3105 Marker coordinate: L_SHANK_DIST_ANT x Steps from IC (mm): -1 time: 8281.4987
+L_SHANK_DIST_ANT x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 664 Obj: 222.9487 Marker cost: 191.7018 Tilt cost: 24.8214 Socket cost: 6.4255 Flexion cost: 6.0028 Piston cost: 0.42267 Avg RMS: 4.3133 Marker coordinate: L_SHANK_DIST_ANT y Steps from IC (mm): 1 time: 8293.8691
+ Iter: 665 Obj: 216.6904 Marker cost: 191.7917 Tilt cost: 24.8868 Socket cost: 0.01189 Flexion cost: 0.00030246 Piston cost: 0.011587 Avg RMS: 4.3135 Marker coordinate: L_SHANK_DIST_ANT y Steps from IC (mm): -1 time: 8306.2387
+L_SHANK_DIST_ANT y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 666 Obj: 218.1789 Marker cost: 192.695 Tilt cost: 24.615 Socket cost: 0.86885 Flexion cost: 0.80274 Piston cost: 0.066113 Avg RMS: 4.3187 Marker coordinate: L_SHANK_DIST_ANT z Steps from IC (mm): 1 time: 8319.0494
+ Iter: 667 Obj: 216.4739 Marker cost: 191.3673 Tilt cost: 24.9507 Socket cost: 0.15598 Flexion cost: 0.036235 Piston cost: 0.11975 Avg RMS: 4.3115 Marker coordinate: L_SHANK_DIST_ANT z Steps from IC (mm): -1 time: 8331.3087
+L_SHANK_DIST_ANT z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 668 Obj: 218.391 Marker cost: 191.4822 Tilt cost: 24.8054 Socket cost: 2.1034 Flexion cost: 2.0033 Piston cost: 0.10012 Avg RMS: 4.3121 Marker coordinate: L_SHANK_DIST_POST x Steps from IC (mm): 1 time: 8343.4616
+ Iter: 669 Obj: 217.962 Marker cost: 191.5702 Tilt cost: 24.6832 Socket cost: 1.7086 Flexion cost: 1.6533 Piston cost: 0.055294 Avg RMS: 4.3129 Marker coordinate: L_SHANK_DIST_POST x Steps from IC (mm): -1 time: 8355.7243
+L_SHANK_DIST_POST x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 670 Obj: 233.4277 Marker cost: 190.4455 Tilt cost: 24.6582 Socket cost: 18.3239 Flexion cost: 17.7003 Piston cost: 0.6236 Avg RMS: 4.3055 Marker coordinate: L_SHANK_DIST_POST y Steps from IC (mm): 1 time: 8367.9857
+ Iter: 671 Obj: 229.5315 Marker cost: 191.3777 Tilt cost: 24.8813 Socket cost: 13.2724 Flexion cost: 13.272 Piston cost: 0.0004096 Avg RMS: 4.3137 Marker coordinate: L_SHANK_DIST_POST y Steps from IC (mm): -1 time: 8380.2445
+L_SHANK_DIST_POST y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 672 Obj: 217.004 Marker cost: 192.1263 Tilt cost: 24.6626 Socket cost: 0.21503 Flexion cost: 0.074587 Piston cost: 0.14045 Avg RMS: 4.3153 Marker coordinate: L_SHANK_DIST_POST z Steps from IC (mm): 1 time: 8392.7242
+ Iter: 673 Obj: 216.0372 Marker cost: 191.3988 Tilt cost: 24.4074 Socket cost: 0.23104 Flexion cost: 0.13488 Piston cost: 0.096158 Avg RMS: 4.313 Marker coordinate: L_SHANK_DIST_POST z Steps from IC (mm): -1 time: 8405.2034
+L_SHANK_DIST_POST z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 674 Obj: 217.2642 Marker cost: 192.2785 Tilt cost: 24.8446 Socket cost: 0.14103 Flexion cost: 0.1405 Piston cost: 0.00053144 Avg RMS: 4.3172 Marker coordinate: L_HEEL_SUP x Steps from IC (mm): 1 time: 8417.5764
+ Iter: 675 Obj: 215.4075 Marker cost: 190.321 Tilt cost: 24.9443 Socket cost: 0.14218 Flexion cost: 0.10029 Piston cost: 0.041887 Avg RMS: 4.3063 Marker coordinate: L_HEEL_SUP x Steps from IC (mm): -1 time: 8430.0772
+L_HEEL_SUP x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 676 Obj: 218.3483 Marker cost: 191.7306 Tilt cost: 24.6774 Socket cost: 1.9403 Flexion cost: 1.9172 Piston cost: 0.023165 Avg RMS: 4.3159 Marker coordinate: L_HEEL_SUP y Steps from IC (mm): 1 time: 8442.5715
+ Iter: 677 Obj: 216.9883 Marker cost: 191.5566 Tilt cost: 24.5955 Socket cost: 0.83621 Flexion cost: 0.81018 Piston cost: 0.02603 Avg RMS: 4.3091 Marker coordinate: L_HEEL_SUP y Steps from IC (mm): -1 time: 8454.7175
+L_HEEL_SUP y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 678 Obj: 217.5397 Marker cost: 191.8797 Tilt cost: 24.6685 Socket cost: 0.99157 Flexion cost: 0.94474 Piston cost: 0.046827 Avg RMS: 4.3129 Marker coordinate: L_HEEL_SUP z Steps from IC (mm): 1 time: 8466.979
+ Iter: 679 Obj: 216.6589 Marker cost: 191.0598 Tilt cost: 24.7875 Socket cost: 0.81163 Flexion cost: 0.71678 Piston cost: 0.094848 Avg RMS: 4.3114 Marker coordinate: L_HEEL_SUP z Steps from IC (mm): -1 time: 8479.135
+L_HEEL_SUP z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 680 Obj: 219.6588 Marker cost: 192.1248 Tilt cost: 24.8853 Socket cost: 2.6487 Flexion cost: 2.5901 Piston cost: 0.058553 Avg RMS: 4.3175 Marker coordinate: L_HEEL_MED x Steps from IC (mm): 1 time: 8491.5042
+ Iter: 681 Obj: 249.3138 Marker cost: 191.3677 Tilt cost: 24.971 Socket cost: 32.9751 Flexion cost: 32.7703 Piston cost: 0.20475 Avg RMS: 4.3098 Marker coordinate: L_HEEL_MED x Steps from IC (mm): -1 time: 8503.5552
+L_HEEL_MED x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 682 Obj: 216.658 Marker cost: 191.7843 Tilt cost: 24.604 Socket cost: 0.26966 Flexion cost: 0.049674 Piston cost: 0.21999 Avg RMS: 4.3163 Marker coordinate: L_HEEL_MED y Steps from IC (mm): 1 time: 8515.4964
+ Iter: 683 Obj: 215.0121 Marker cost: 190.7217 Tilt cost: 24.1911 Socket cost: 0.099396 Flexion cost: 0.080941 Piston cost: 0.018456 Avg RMS: 4.3088 Marker coordinate: L_HEEL_MED y Steps from IC (mm): -1 time: 8527.6485
+L_HEEL_MED y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 684 Obj: 227.8917 Marker cost: 191.6997 Tilt cost: 24.6227 Socket cost: 11.5693 Flexion cost: 11.4787 Piston cost: 0.090611 Avg RMS: 4.3121 Marker coordinate: L_HEEL_MED z Steps from IC (mm): 1 time: 8539.6924
+ Iter: 685 Obj: 216.295 Marker cost: 191.4855 Tilt cost: 24.5952 Socket cost: 0.21425 Flexion cost: 0.14377 Piston cost: 0.070476 Avg RMS: 4.3112 Marker coordinate: L_HEEL_MED z Steps from IC (mm): -1 time: 8552.1729
+L_HEEL_MED z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 686 Obj: 215.7765 Marker cost: 191.0747 Tilt cost: 24.4475 Socket cost: 0.25427 Flexion cost: 0.24315 Piston cost: 0.011122 Avg RMS: 4.3076 Marker coordinate: L_HEEL_LAT x Steps from IC (mm): 1 time: 8564.6453
+ Iter: 687 Obj: 217.8181 Marker cost: 192.0289 Tilt cost: 24.7186 Socket cost: 1.0706 Flexion cost: 0.81803 Piston cost: 0.25259 Avg RMS: 4.3166 Marker coordinate: L_HEEL_LAT x Steps from IC (mm): -1 time: 8576.8084
+L_HEEL_LAT x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 688 Obj: 215.2475 Marker cost: 190.5558 Tilt cost: 24.4996 Socket cost: 0.19211 Flexion cost: 0.00037441 Piston cost: 0.19174 Avg RMS: 4.306 Marker coordinate: L_HEEL_LAT y Steps from IC (mm): 1 time: 8589.0792
+ Iter: 689 Obj: 218.3404 Marker cost: 193.0235 Tilt cost: 24.6048 Socket cost: 0.71204 Flexion cost: 0.64751 Piston cost: 0.064529 Avg RMS: 4.3212 Marker coordinate: L_HEEL_LAT y Steps from IC (mm): -1 time: 8601.1232
+L_HEEL_LAT y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 690 Obj: 222.372 Marker cost: 190.5797 Tilt cost: 24.8321 Socket cost: 6.9602 Flexion cost: 6.763 Piston cost: 0.19721 Avg RMS: 4.3071 Marker coordinate: L_HEEL_LAT z Steps from IC (mm): 1 time: 8613.4923
+ Iter: 691 Obj: 225.143 Marker cost: 191.9274 Tilt cost: 24.5295 Socket cost: 8.686 Flexion cost: 8.6692 Piston cost: 0.016826 Avg RMS: 4.3147 Marker coordinate: L_HEEL_LAT z Steps from IC (mm): -1 time: 8626.0787
+L_HEEL_LAT z converged at 0 mm from IC. Min obj: 214.7176
+Marker coordinate L_TOE x is locked.
+Marker coordinate L_TOE y is locked.
+Marker coordinate L_TOE z is locked.
+ Iter: 692 Obj: 218.6229 Marker cost: 191.9532 Tilt cost: 24.6145 Socket cost: 2.0552 Flexion cost: 1.9406 Piston cost: 0.11458 Avg RMS: 4.3171 Marker coordinate: L_1ST_MET x Steps from IC (mm): 1 time: 8638.0175
+ Iter: 693 Obj: 216.2565 Marker cost: 190.5197 Tilt cost: 24.7456 Socket cost: 0.99125 Flexion cost: 0.98615 Piston cost: 0.0051076 Avg RMS: 4.3087 Marker coordinate: L_1ST_MET x Steps from IC (mm): -1 time: 8650.5005
+L_1ST_MET x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 694 Obj: 217.6131 Marker cost: 192.2709 Tilt cost: 24.6688 Socket cost: 0.6733 Flexion cost: 0.63991 Piston cost: 0.033397 Avg RMS: 4.3166 Marker coordinate: L_1ST_MET y Steps from IC (mm): 1 time: 8662.7554
+ Iter: 695 Obj: 219.276 Marker cost: 191.159 Tilt cost: 25.0074 Socket cost: 3.1096 Flexion cost: 3.0774 Piston cost: 0.032262 Avg RMS: 4.3093 Marker coordinate: L_1ST_MET y Steps from IC (mm): -1 time: 8674.912
+L_1ST_MET y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 696 Obj: 218.9299 Marker cost: 190.2823 Tilt cost: 24.7168 Socket cost: 3.9308 Flexion cost: 3.7656 Piston cost: 0.1652 Avg RMS: 4.3053 Marker coordinate: L_1ST_MET z Steps from IC (mm): 1 time: 8687.0601
+ Iter: 697 Obj: 219.5163 Marker cost: 191.2619 Tilt cost: 24.7542 Socket cost: 3.5002 Flexion cost: 3.4999 Piston cost: 0.0002809 Avg RMS: 4.3137 Marker coordinate: L_1ST_MET z Steps from IC (mm): -1 time: 8699.2117
+L_1ST_MET z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 698 Obj: 216.0686 Marker cost: 190.699 Tilt cost: 24.4485 Socket cost: 0.9211 Flexion cost: 0.89092 Piston cost: 0.030184 Avg RMS: 4.3087 Marker coordinate: L_5TH_MET x Steps from IC (mm): 1 time: 8711.5811
+ Iter: 699 Obj: 218.3602 Marker cost: 191.294 Tilt cost: 24.8119 Socket cost: 2.2543 Flexion cost: 2.1959 Piston cost: 0.05837 Avg RMS: 4.3126 Marker coordinate: L_5TH_MET x Steps from IC (mm): -1 time: 8723.848
+L_5TH_MET x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 700 Obj: 217.4801 Marker cost: 192.472 Tilt cost: 24.2754 Socket cost: 0.73274 Flexion cost: 0.73015 Piston cost: 0.0025889 Avg RMS: 4.319 Marker coordinate: L_5TH_MET y Steps from IC (mm): 1 time: 8736.0093
+ Iter: 701 Obj: 214.8121 Marker cost: 190.2815 Tilt cost: 24.2613 Socket cost: 0.2693 Flexion cost: 1.2087e-05 Piston cost: 0.26929 Avg RMS: 4.3043 Marker coordinate: L_5TH_MET y Steps from IC (mm): -1 time: 8748.1644
+L_5TH_MET y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 702 Obj: 216.7007 Marker cost: 191.4833 Tilt cost: 24.7987 Socket cost: 0.41871 Flexion cost: 0.3819 Piston cost: 0.036808 Avg RMS: 4.3135 Marker coordinate: L_5TH_MET z Steps from IC (mm): 1 time: 8760.5368
+ Iter: 703 Obj: 223.7062 Marker cost: 190.6705 Tilt cost: 24.6416 Socket cost: 8.3941 Flexion cost: 8.3939 Piston cost: 0.00020885 Avg RMS: 4.3078 Marker coordinate: L_5TH_MET z Steps from IC (mm): -1 time: 8772.9064
+L_5TH_MET z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 704 Obj: 216.4833 Marker cost: 191.4456 Tilt cost: 24.6162 Socket cost: 0.42147 Flexion cost: 0.21666 Piston cost: 0.2048 Avg RMS: 4.3128 Marker coordinate: L_THIGH_PROX_POST x Steps from IC (mm): 1 time: 8785.1666
+ Iter: 705 Obj: 222.8058 Marker cost: 190.3395 Tilt cost: 25.0407 Socket cost: 7.4255 Flexion cost: 7.2416 Piston cost: 0.18395 Avg RMS: 4.3055 Marker coordinate: L_THIGH_PROX_POST x Steps from IC (mm): -1 time: 8797.4326
+L_THIGH_PROX_POST x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 706 Obj: 216.1694 Marker cost: 191.6919 Tilt cost: 24.4427 Socket cost: 0.034803 Flexion cost: 0.03449 Piston cost: 0.00031248 Avg RMS: 4.3179 Marker coordinate: L_THIGH_PROX_POST y Steps from IC (mm): 1 time: 8809.5765
+ Iter: 707 Obj: 218.091 Marker cost: 189.6989 Tilt cost: 25.0167 Socket cost: 3.3753 Flexion cost: 2.7029 Piston cost: 0.67236 Avg RMS: 4.2983 Marker coordinate: L_THIGH_PROX_POST y Steps from IC (mm): -1 time: 8821.8406
+L_THIGH_PROX_POST y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 708 Obj: 219.7434 Marker cost: 191.3873 Tilt cost: 24.8196 Socket cost: 3.5364 Flexion cost: 3.2986 Piston cost: 0.23778 Avg RMS: 4.3138 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): 1 time: 8834.2108
+ Iter: 709 Obj: 216.0058 Marker cost: 191.3409 Tilt cost: 24.6442 Socket cost: 0.020748 Flexion cost: 0.020592 Piston cost: 0.00015603 Avg RMS: 4.3099 Marker coordinate: L_THIGH_PROX_POST z Steps from IC (mm): -1 time: 8846.4768
+L_THIGH_PROX_POST z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 710 Obj: 236.8434 Marker cost: 191.2902 Tilt cost: 24.2877 Socket cost: 21.2655 Flexion cost: 21.264 Piston cost: 0.0014933 Avg RMS: 4.3122 Marker coordinate: L_THIGH_PROX_ANT x Steps from IC (mm): 1 time: 8858.6233
+ Iter: 711 Obj: 217.7308 Marker cost: 191.6956 Tilt cost: 25.3752 Socket cost: 0.66005 Flexion cost: 0.61311 Piston cost: 0.046936 Avg RMS: 4.3121 Marker coordinate: L_THIGH_PROX_ANT x Steps from IC (mm): -1 time: 8870.9985
+L_THIGH_PROX_ANT x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 712 Obj: 230.478 Marker cost: 191.6562 Tilt cost: 24.5713 Socket cost: 14.2504 Flexion cost: 14.0332 Piston cost: 0.21724 Avg RMS: 4.3141 Marker coordinate: L_THIGH_PROX_ANT y Steps from IC (mm): 1 time: 8883.3705
+ Iter: 713 Obj: 217.3202 Marker cost: 191.5239 Tilt cost: 24.9522 Socket cost: 0.84404 Flexion cost: 0.37536 Piston cost: 0.46868 Avg RMS: 4.3124 Marker coordinate: L_THIGH_PROX_ANT y Steps from IC (mm): -1 time: 8895.8052
+L_THIGH_PROX_ANT y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 714 Obj: 216.2697 Marker cost: 191.1513 Tilt cost: 24.8373 Socket cost: 0.28107 Flexion cost: 0.080993 Piston cost: 0.20008 Avg RMS: 4.3122 Marker coordinate: L_THIGH_PROX_ANT z Steps from IC (mm): 1 time: 8908.0769
+ Iter: 715 Obj: 216.4103 Marker cost: 191.425 Tilt cost: 24.6109 Socket cost: 0.37441 Flexion cost: 0.24967 Piston cost: 0.12475 Avg RMS: 4.3104 Marker coordinate: L_THIGH_PROX_ANT z Steps from IC (mm): -1 time: 8920.2359
+L_THIGH_PROX_ANT z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 716 Obj: 221.32 Marker cost: 191.0119 Tilt cost: 24.5014 Socket cost: 5.8067 Flexion cost: 5.8026 Piston cost: 0.0041047 Avg RMS: 4.3094 Marker coordinate: L_THIGH_DIST_POST x Steps from IC (mm): 1 time: 8932.7213
+ Iter: 717 Obj: 217.5633 Marker cost: 191.2739 Tilt cost: 24.8762 Socket cost: 1.4133 Flexion cost: 1.3164 Piston cost: 0.096924 Avg RMS: 4.3107 Marker coordinate: L_THIGH_DIST_POST x Steps from IC (mm): -1 time: 8945.3121
+L_THIGH_DIST_POST x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 718 Obj: 216.6487 Marker cost: 192.188 Tilt cost: 24.3754 Socket cost: 0.085268 Flexion cost: 0.016627 Piston cost: 0.068641 Avg RMS: 4.3199 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): 1 time: 8957.8016
+ Iter: 719 Obj: 216.554 Marker cost: 190.1884 Tilt cost: 24.9112 Socket cost: 1.4544 Flexion cost: 1.1453 Piston cost: 0.30909 Avg RMS: 4.3023 Marker coordinate: L_THIGH_DIST_POST y Steps from IC (mm): -1 time: 8969.9626
+L_THIGH_DIST_POST y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 720 Obj: 225.3328 Marker cost: 190.2018 Tilt cost: 24.9305 Socket cost: 10.2006 Flexion cost: 9.9438 Piston cost: 0.25677 Avg RMS: 4.3095 Marker coordinate: L_THIGH_DIST_POST z Steps from IC (mm): 1 time: 8982.3367
+ Iter: 721 Obj: 216.4826 Marker cost: 191.7939 Tilt cost: 24.4876 Socket cost: 0.20113 Flexion cost: 0.19828 Piston cost: 0.0028527 Avg RMS: 4.3093 Marker coordinate: L_THIGH_DIST_POST z Steps from IC (mm): -1 time: 8994.6095
+L_THIGH_DIST_POST z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 722 Obj: 233.6233 Marker cost: 190.9615 Tilt cost: 24.4814 Socket cost: 18.1804 Flexion cost: 18.0173 Piston cost: 0.16305 Avg RMS: 4.3099 Marker coordinate: L_THIGH_DIST_ANT x Steps from IC (mm): 1 time: 9007.0226
+ Iter: 723 Obj: 215.8669 Marker cost: 191.1107 Tilt cost: 24.6247 Socket cost: 0.1315 Flexion cost: 0.029123 Piston cost: 0.10237 Avg RMS: 4.3112 Marker coordinate: L_THIGH_DIST_ANT x Steps from IC (mm): -1 time: 9019.2914
+L_THIGH_DIST_ANT x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 724 Obj: 219.9951 Marker cost: 191.6747 Tilt cost: 24.6296 Socket cost: 3.6908 Flexion cost: 3.6549 Piston cost: 0.03588 Avg RMS: 4.3138 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): 1 time: 9031.3329
+ Iter: 725 Obj: 219.0492 Marker cost: 191.9237 Tilt cost: 25.0321 Socket cost: 2.0934 Flexion cost: 1.1616 Piston cost: 0.93178 Avg RMS: 4.3137 Marker coordinate: L_THIGH_DIST_ANT y Steps from IC (mm): -1 time: 9043.8128
+L_THIGH_DIST_ANT y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 726 Obj: 217.0744 Marker cost: 191.462 Tilt cost: 24.9758 Socket cost: 0.63668 Flexion cost: 0.63457 Piston cost: 0.0021112 Avg RMS: 4.3177 Marker coordinate: L_THIGH_DIST_ANT z Steps from IC (mm): 1 time: 9056.1796
+ Iter: 727 Obj: 224.6821 Marker cost: 190.6226 Tilt cost: 24.6401 Socket cost: 9.4194 Flexion cost: 9.3937 Piston cost: 0.025685 Avg RMS: 4.3041 Marker coordinate: L_THIGH_DIST_ANT z Steps from IC (mm): -1 time: 9068.7699
+L_THIGH_DIST_ANT z converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 728 Obj: 224.7288 Marker cost: 190.8028 Tilt cost: 24.4587 Socket cost: 9.4674 Flexion cost: 9.3488 Piston cost: 0.11861 Avg RMS: 4.3069 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD x Steps from IC (mm): 1 time: 9080.9234
+ Iter: 729 Obj: 217.2018 Marker cost: 191.5549 Tilt cost: 25.2146 Socket cost: 0.43231 Flexion cost: 0.39293 Piston cost: 0.039376 Avg RMS: 4.315 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD x Steps from IC (mm): -1 time: 9093.2968
+SOCKET_JOINT_LOC_IN_CHILD x converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 730 Obj: 225.3411 Marker cost: 191.0099 Tilt cost: 24.8665 Socket cost: 9.4647 Flexion cost: 1.5739 Piston cost: 7.8908 Avg RMS: 4.3098 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): 1 time: 9105.354
+ Iter: 731 Obj: 236.9476 Marker cost: 191.6515 Tilt cost: 24.7856 Socket cost: 20.5105 Flexion cost: 9.6049 Piston cost: 10.9056 Avg RMS: 4.3132 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD y Steps from IC (mm): -1 time: 9117.3925
+SOCKET_JOINT_LOC_IN_CHILD y converged at 0 mm from IC. Min obj: 214.7176
+ Iter: 732 Obj: 216.6147 Marker cost: 191.5457 Tilt cost: 24.6939 Socket cost: 0.37512 Flexion cost: 0.0019007 Piston cost: 0.37322 Avg RMS: 4.3148 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD z Steps from IC (mm): 1 time: 9129.4354
+ Iter: 733 Obj: 215.763 Marker cost: 190.7026 Tilt cost: 24.3356 Socket cost: 0.72478 Flexion cost: 0.71934 Piston cost: 0.0054382 Avg RMS: 4.3061 Marker coordinate: SOCKET_JOINT_LOC_IN_CHILD z Steps from IC (mm): -1 time: 9141.6959
+SOCKET_JOINT_LOC_IN_CHILD z converged at 0 mm from IC. Min obj: 214.7176
+Marker search complete.
