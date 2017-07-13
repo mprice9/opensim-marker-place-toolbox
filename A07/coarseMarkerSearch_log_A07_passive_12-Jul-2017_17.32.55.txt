@@ -1,0 +1,2 @@
+ Iter: 1 Obj: 20685.9318 Marker cost: 20685.9318 Tilt cost: 0 Avg RMS: 14.0759 Marker coordinate:  Steps from IC (mm):  time: 12.1021
+R_AC x:

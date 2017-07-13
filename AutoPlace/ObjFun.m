@@ -48,32 +48,35 @@ catch
     TSEcost = 10000000;
 end
 
-IKresults = 'Chopped_ik.mot';
-data = dlmread(IKresults,'\t',11,0);
+IKresults = 'IKResults\autoPlaceWorker.mot';
+% data = dlmread(IKresults,'\t',11,0);
+data = importdata(IKresults,'\t',11);
+tags = data.colheaders;
 % frames = round(302/divisor*.1);
 
 
 % penalize the average pelvis tilt
-TILTcost = abs(mean(data(1:end,2).^2))*10;
+% TILTcost = abs(mean(data(1:end,2).^2))*10;
+TILTcost = abs(mean(data.data(1:end,strcmp('pelvis_tilt',tags)).^2))*10;
 
 % penalize non-zero socket coordinates at the zero position
 % data = importdata('Chopped_ik.mot','\t',11);
 % tags = data.colheaders;
-% flexionTag = find(strcmp('socket_flexion',tags));
-% pistonTag = find(strcmp('socket_ty',tags));
-% socketFlexion = data.data(1,flexionTag);
-% socketPiston = data.data(1,pistonTag);
+
 
 if strcmp(options.bodySet, 'prosThigh')
 
-socketCostWeight = 100;
+%     flexionTag = find(strcmp('socket_flexion',tags));
+%     pistonTag = find(strcmp('socket_ty',tags));
+    socketFlexion = data.data(options.flexionZero,strcmp('socket_flexion',tags));
+    socketPiston = data.data(1,strcmp('socket_ty',tags));
 
     % socketFlexion = data(1,19);
-    socketFlexion = data(options.flexionZero,19); % Trying 0 flexion at mid-stance when horiz GRF crosses 0.
+%     socketFlexion = data(options.flexionZero,19); % Trying 0 flexion at mid-stance when horiz GRF crosses 0.
     socketFlexion = socketFlexion.^2 * 100;
-    socketAdduction = data(1,20);
-    socketRotation = data(1,21);
-    socketPiston = data(1,23);
+%     socketAdduction = data(1,20);
+%     socketRotation = data(1,21);
+%     socketPiston = data(1,23);
     socketPiston = (socketPiston*1000).^2 * 10;
     % SOCKETcost = (socketFlexion.^2 + socketPiston.^2) .* 50;
     SOCKETcost = socketFlexion + socketPiston;

@@ -1,0 +1,80 @@
+ Iter: 1 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate:  Steps from IC (mm):  time: 1.2296
+R_AC x:
+ Iter: 2 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: R_AC x Steps from IC (mm): 1 time: 1.72
+Marker coordinate has no effect on IK
+R_AC y:
+ Iter: 3 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: R_AC y Steps from IC (mm): 1 time: 2.1956
+Marker coordinate has no effect on IK
+R_AC z:
+ Iter: 4 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: R_AC z Steps from IC (mm): 1 time: 2.6753
+Marker coordinate has no effect on IK
+L_AC x:
+ Iter: 5 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: L_AC x Steps from IC (mm): 1 time: 3.1531
+Marker coordinate has no effect on IK
+L_AC y:
+ Iter: 6 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: L_AC y Steps from IC (mm): 1 time: 3.6093
+Marker coordinate has no effect on IK
+L_AC z:
+ Iter: 7 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: L_AC z Steps from IC (mm): 1 time: 4.0834
+Marker coordinate has no effect on IK
+R_ASIS x:
+ Iter: 8 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: R_ASIS x Steps from IC (mm): 1 time: 4.5669
+Marker coordinate has no effect on IK
+R_ASIS y:
+ Iter: 9 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: R_ASIS y Steps from IC (mm): 1 time: 5.0275
+Marker coordinate has no effect on IK
+R_ASIS z:
+ Iter: 10 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: R_ASIS z Steps from IC (mm): 1 time: 5.5209
+Marker coordinate has no effect on IK
+L_ASIS x:
+ Iter: 11 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: L_ASIS x Steps from IC (mm): 1 time: 5.9911
+Marker coordinate has no effect on IK
+L_ASIS y:
+ Iter: 12 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: L_ASIS y Steps from IC (mm): 1 time: 6.4661
+Marker coordinate has no effect on IK
+L_ASIS z:
+ Iter: 13 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: L_ASIS z Steps from IC (mm): 1 time: 6.9439
+Marker coordinate has no effect on IK
+R_PSIS x:
+ Iter: 14 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: R_PSIS x Steps from IC (mm): 1 time: 7.4115
+Marker coordinate has no effect on IK
+R_PSIS y:
+ Iter: 15 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: R_PSIS y Steps from IC (mm): 1 time: 7.8639
+Marker coordinate has no effect on IK
+R_PSIS z:
+ Iter: 16 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: R_PSIS z Steps from IC (mm): 1 time: 8.3553
+Marker coordinate has no effect on IK
+L_PSIS x:
+ Iter: 17 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: L_PSIS x Steps from IC (mm): 1 time: 8.8112
+Marker coordinate has no effect on IK
+L_PSIS y:
+ Iter: 18 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: L_PSIS y Steps from IC (mm): 1 time: 9.2758
+Marker coordinate has no effect on IK
+L_PSIS z:
+ Iter: 19 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: L_PSIS z Steps from IC (mm): 1 time: 9.726
+Marker coordinate has no effect on IK
+R_THIGH_PROX_POST x:
+ Iter: 20 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: R_THIGH_PROX_POST x Steps from IC (mm): 1 time: 10.2181
+Marker coordinate has no effect on IK
+R_THIGH_PROX_POST y:
+ Iter: 21 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: R_THIGH_PROX_POST y Steps from IC (mm): 1 time: 10.788
+Marker coordinate has no effect on IK
+R_THIGH_PROX_POST z:
+ Iter: 22 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: R_THIGH_PROX_POST z Steps from IC (mm): 1 time: 11.2837
+Marker coordinate has no effect on IK
+R_THIGH_PROX_ANT x:
+ Iter: 23 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: R_THIGH_PROX_ANT x Steps from IC (mm): 1 time: 11.7391
+Marker coordinate has no effect on IK
+R_THIGH_PROX_ANT y:
+ Iter: 24 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: R_THIGH_PROX_ANT y Steps from IC (mm): 1 time: 12.2108
+Marker coordinate has no effect on IK
+R_THIGH_PROX_ANT z:
+ Iter: 25 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: R_THIGH_PROX_ANT z Steps from IC (mm): 1 time: 12.6637
+Marker coordinate has no effect on IK
+R_THIGH_DIST_POST x:
+ Iter: 26 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: R_THIGH_DIST_POST x Steps from IC (mm): 1 time: 13.1689
+Marker coordinate has no effect on IK
+R_THIGH_DIST_POST y:
+ Iter: 27 Obj: 248.6063 Marker cost: 0 Tilt cost: 248.6063 Avg RMS: NaN Marker coordinate: R_THIGH_DIST_POST y Steps from IC (mm): 1 time: 13.644
+Marker coordinate has no effect on IK
+R_THIGH_DIST_POST z:
