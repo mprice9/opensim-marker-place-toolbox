@@ -59,6 +59,24 @@ genericSetupForIK = 'A07_Setup_IK.xml';
 % Pull in the modeling classes straight from the OpenSim distribution
 import org.opensim.modeling.*
 
+% Ensure that 6DoF model exists based on 4DoF model
+if ~exist([model_dir models{6}], 'file')
+    modelFile6 = [model_dir models{5}];
+    model6 = Model(modelFile6);
+    coords = model6.getCoordinateSet();
+    coords.get('mtp_angle_r').setDefaultLocked(false);
+    coords.get('foot_flex').setDefaultLocked(false);
+    coords.get('socket_tx').setDefaultLocked(false);
+    coords.get('socket_ty').setDefaultLocked(false);
+    coords.get('socket_tz').setDefaultLocked(false);
+    coords.get('socket_flexion').setDefaultLocked(false);
+    coords.get('socket_adduction').setDefaultLocked(false);
+    coords.get('socket_rotation').setDefaultLocked(false);
+    model6.initSystem();
+    model6.print([model_dir models{6}]);
+end
+
+
 % specify where results will be printed.
 results_dir = ([pwd '\IKResults']);
 if ~exist('IKResults', 'dir')
@@ -211,7 +229,14 @@ ikTool = InverseKinematicsTool([genericSetupPath genericSetupForIK]);
 
             % Save the settings in a setup file
             outfile = ['Setup_IK_' name '.xml'];
-%             ikTool.print([genericSetupPath outfile]);
+            
+            % Edit setup .xml with model path
+            factorProp  = ikTool.getPropertyByName('model_file');
+            % Set the value for this string to the model path
+            PropertyHelper.setValueString(modelFile,factorProp);
+            
+            
+            ikTool.print([genericSetupPath outfile]);
 
             % print progress to command window
             setupStr = (['IKSetup\' outfile]);

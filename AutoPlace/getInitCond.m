@@ -144,20 +144,22 @@ end
 if strcmp(options.bodySet, 'prosThigh')
 
     sc = Vec3(); % create empty OpenSim vector for socket loc in parent 
+    sp = Vec3();
     joints = model.getJointSet();
     joints.get('socket').getLocation(sc);
+    joints.get('socket').getOrientation(sp);
     x0(end+1) = sc.get(0);
     testCoords{end+1} = 'SOCKET_JOINT_LOC_IN_BODY x';
     x0(end+1) = sc.get(1);
     testCoords{end+1} = 'SOCKET_JOINT_LOC_IN_BODY y';
     x0(end+1) = sc.get(2);
     testCoords{end+1} = 'SOCKET_JOINT_LOC_IN_BODY z';
-    % x0(end+1) = sp.get(0);
-    % testCoords{end+1} = 'SOCKET_JOINT_ORIENT_IN_PARENT x';
-    % x0(end+1) = sp.get(1);
-    % testCoords{end+1} = 'SOCKET_JOINT_ORIENT_IN_PARENT y';
-    % x0(end+1) = sp.get(2);
-    % testCoords{end+1} = 'SOCKET_JOINT_ORIENT_IN_PARENT z';
+    x0(end+1) = sp.get(0);
+    testCoords{end+1} = 'SOCKET_JOINT_ORIENT x';
+    x0(end+1) = sp.get(1);
+    testCoords{end+1} = 'SOCKET_JOINT_ORIENT y';
+    x0(end+1) = sp.get(2);
+    testCoords{end+1} = 'SOCKET_JOINT_ORIENT z';
 
 end
 

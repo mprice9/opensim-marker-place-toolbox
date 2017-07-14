@@ -1,0 +1,58 @@
+Constructing tool from setup file F:\Mark\AutoPlaceGit\A07\IKSetup\A07_Setup_IK.xml.
+
+Loaded model A07_passive_autoScaled from file autoScaleWorker.osim
+               MODEL: A07_passive_autoScaled
+         coordinates: 27
+              forces: 51
+           actuators: 51
+             muscles: 51
+            analyses: 0
+              probes: 0
+              bodies: 13
+              joints: 12
+         constraints: 0
+             markers: 50
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+Running tool PassiveChopped.
+Loaded marker file F:\Mark\AutoPlaceGit\A07\MarkerData\PREF\A07_Pref_0002.trc (50 markers, 303 frames)
+Frame 0 (t=0):	total squared error = 0.00174541, marker error: RMS=0.00652464, max=0.0129321 (L_5TH_MET)
+Frame 1 (t=0.00416667):	total squared error = 0.0017316, marker error: RMS=0.00649878, max=0.0130287 (L_5TH_MET)
+Frame 2 (t=0.00833333):	total squared error = 0.00172448, marker error: RMS=0.00648541, max=0.0128954 (R_ASIS)
+Frame 3 (t=0.0125):	total squared error = 0.00172481, marker error: RMS=0.00648603, max=0.0129545 (L_5TH_MET)
+Frame 4 (t=0.0166667):	total squared error = 0.00171672, marker error: RMS=0.00647079, max=0.0133487 (R_ASIS)
+Frame 5 (t=0.0208333):	total squared error = 0.00172156, marker error: RMS=0.00647991, max=0.0134514 (R_ASIS)
+Frame 6 (t=0.025):	total squared error = 0.00172924, marker error: RMS=0.00649435, max=0.013583 (R_ASIS)
+Frame 7 (t=0.0291667):	total squared error = 0.00175371, marker error: RMS=0.00654013, max=0.0137878 (R_ASIS)
+Frame 8 (t=0.0333333):	total squared error = 0.00176916, marker error: RMS=0.00656888, max=0.0139209 (R_ASIS)
+Frame 9 (t=0.0375):	total squared error = 0.00175794, marker error: RMS=0.00654802, max=0.0140901 (R_ASIS)
+Frame 10 (t=0.0416667):	total squared error = 0.00177782, marker error: RMS=0.00658495, max=0.0142163 (R_ASIS)
+Frame 11 (t=0.0458333):	total squared error = 0.001803, marker error: RMS=0.00663142, max=0.0144223 (R_ASIS)
+Frame 12 (t=0.05):	total squared error = 0.00182568, marker error: RMS=0.00667299, max=0.0145536 (R_ASIS)
+Frame 13 (t=0.0541667):	total squared error = 0.0018507, marker error: RMS=0.00671856, max=0.0142327 (R_ASIS)
+Frame 14 (t=0.0583333):	total squared error = 0.00187484, marker error: RMS=0.00676223, max=0.0145419 (R_ASIS)
+Frame 15 (t=0.0625):	total squared error = 0.00189998, marker error: RMS=0.00680742, max=0.0147468 (R_ASIS)
+Frame 16 (t=0.0666667):	total squared error = 0.00191698, marker error: RMS=0.0068378, max=0.0147098 (R_ASIS)
+Frame 17 (t=0.0708333):	total squared error = 0.00193853, marker error: RMS=0.00687613, max=0.0148065 (R_ASIS)
+Frame 18 (t=0.075):	total squared error = 0.0019061, marker error: RMS=0.00681837, max=0.0139487 (R_ASIS)
+Frame 19 (t=0.0791667):	total squared error = 0.00191527, marker error: RMS=0.00683476, max=0.0141166 (R_ASIS)
+Frame 20 (t=0.0833333):	total squared error = 0.0019261, marker error: RMS=0.00685405, max=0.0144036 (R_ASIS)
+Frame 21 (t=0.0875):	total squared error = 0.00192313, marker error: RMS=0.00684876, max=0.0138127 (R_ASIS)
+Frame 22 (t=0.0916667):	total squared error = 0.00192249, marker error: RMS=0.00684762, max=0.0138838 (R_ASIS)
+Frame 23 (t=0.0958333):	total squared error = 0.00190896, marker error: RMS=0.00682349, max=0.0134937 (L_HEEL_SUP)
+Frame 24 (t=0.1):	total squared error = 0.00190433, marker error: RMS=0.00681522, max=0.0135108 (L_HEEL_SUP)
+Frame 25 (t=0.104167):	total squared error = 0.00189972, marker error: RMS=0.00680696, max=0.0135394 (L_HEEL_SUP)
+Frame 26 (t=0.108333):	total squared error = 0.00187429, marker error: RMS=0.00676124, max=0.0134657 (L_HEEL_SUP)
+Frame 27 (t=0.1125):	total squared error = 0.00182668, marker error: RMS=0.00667481, max=0.0133822 (L_HEEL_SUP)
+Frame 28 (t=0.116667):	total squared error = 0.00180866, marker error: RMS=0.00664181, max=0.0133254 (L_HEEL_SUP)
+Frame 29 (t=0.120833):	total squared error = 0.0017868, marker error: RMS=0.00660155, max=0.0132858 (L_HEEL_SUP)
+Frame 30 (t=0.125):	total squared error = 0.00176372, marker error: RMS=0.00655878, max=0.0131744 (L_HEEL_SUP)
+Frame 31 (t=0.129167):	total squared error = 0.00173903, marker error: RMS=0.0065127, max=0.0130661 (L_HEEL_SUP)
+Frame 32 (t=0.133333):	total squared error = 0.00172642, marker error: RMS=0.00648906, max=0.0130094 (L_HEEL_SUP)
+Frame 33 (t=0.1375):	total squared error = 0.00171224, marker error: RMS=0.00646235, max=0.012898 (L_HEEL_SUP)
+Frame 34 (t=0.141667):	total squared error = 0.0017082, marker error: RMS=0.00645472, max=0.0128264 (L_HEEL_SUP)
+Frame 35 (t=0.145833):	total squared error = 0.00170896, marker error: RMS=0.00645615, max=0.0129207 (R_1ST_MET)
+Frame 36 (t=0.15):	total squared error = 0.00170872, marker error: RMS=0.00645571, max=0.0131874 (R_1ST_MET)
+Frame 37 (t=0.154167):	total squared error = 0.00172718, marker error: RMS=0.00649049, max=0.0142499 (R_1ST_MET)
+Frame 38 (t=0.158333):	total squared error = 0.00172895, marker error: RMS=0.00649381, max=0.0145762 (R_1ST_MET)

@@ -61,7 +61,12 @@ function X = coarseMarkerSearch(options)
                 end
                 
                 % markerCoord + 1mm
-                X(i-coordSkip) = X(i-coordSkip) + 0.001*searchDir;
+                if strfind(coord,'ORIENT')
+                    X(i-coordSkip) = X(i-coordSkip) + 0.01*searchDir;
+                else
+                    X(i-coordSkip) = X(i-coordSkip) + 0.001*searchDir;
+                end
+                
                 
                 convScore(i-coordSkip) = convScore(i-coordSkip) + searchDir;
                 stepCount = convScore(i-coordSkip);

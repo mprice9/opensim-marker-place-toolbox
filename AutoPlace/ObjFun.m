@@ -48,7 +48,7 @@ catch
     TSEcost = 10000000;
 end
 
-IKresults = 'IKResults\autoPlaceWorker.mot';
+IKresults = 'autoPlaceWorker.mot';
 % data = dlmread(IKresults,'\t',11,0);
 data = importdata(IKresults,'\t',11);
 tags = data.colheaders;
@@ -73,7 +73,7 @@ if strcmp(options.bodySet, 'prosThigh')
 
     % socketFlexion = data(1,19);
 %     socketFlexion = data(options.flexionZero,19); % Trying 0 flexion at mid-stance when horiz GRF crosses 0.
-    socketFlexion = socketFlexion.^2 * 100;
+    socketFlexion = socketFlexion.^2 * 20;
 %     socketAdduction = data(1,20);
 %     socketRotation = data(1,21);
 %     socketPiston = data(1,23);

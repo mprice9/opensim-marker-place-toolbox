@@ -63,11 +63,11 @@ options.bodySet = 'ROB';
 options.markerNames = robMarkerNames;
 
 options.txLock = true;
-options.tyLock = true;
+options.tyLock = false;
 options.tzLock = true;
-options.flexLock = true;
-options.adducLock = true;
-options.rotLock = true;
+options.flexLock = false;
+options.adducLock = false;
+options.rotLock = false;
 
 % List marker coordinates to be locked - algorithm cannot move them from
 % hand-picked location:
@@ -99,13 +99,19 @@ model.initSystem();
 model.print(newModelName);
 
 
-preSocketJointModel = [modelDir 'A03_passive_PROS_auto_marker_place_5-Jul-2017_21.55.30.osim'];
-% preSocketJointModel = newModelName;
+% preSocketJointModel = [modelDir 'A03_passive_PROS_auto_marker_place_5-Jul-2017_21.55.30.osim'];
+preSocketJointModel = newModelName;
 
 myModel = preSocketJointModel;
 newName = [subject '_' prosType '_FULL_auto_marker_place_RIGID_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
 newModelName = [modelDir newName];
 options.bodySet = 'prosThigh';
+options.txLock = true;
+options.tyLock = true;
+options.tzLock = true;
+options.flexLock = true;
+options.adducLock = true;
+options.rotLock = true;
 options.markerNames = prosThighMarkerNames;
 options.fixedMarkerCoords = {'L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z','SOCKET_JOINT_LOC_IN_BODY z'};
 X_prosThigh = coarseMarkerSearch(options);

@@ -138,7 +138,7 @@ if strcmp(options.bodySet, 'prosThigh')
     socketNewC = Vec3(X(end-5),X(end-4),X(end-3));
     joints.get('socket').setLocation(socketNewC);
     socketNewO = Vec3(X(end-2),X(end-1),X(end));
-    joints.get('socket').setOrientation(socketNewO);
+    joints.get('socket').setOrientation(socketNewC);
 end
     
 %     socketNewO = Vec3(X(end-2),X(end-1),X(end));
