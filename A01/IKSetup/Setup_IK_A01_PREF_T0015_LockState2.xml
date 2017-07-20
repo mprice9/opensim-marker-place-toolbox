@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <OpenSimDocument Version="30000">
-	<InverseKinematicsTool>
+	<InverseKinematicsTool name="A01_PREF_T0015_LockState2">
 		<!--Directory used for writing results.-->
 		<results_directory>./</results_directory>
 		<!--Directory for input files-->
 		<input_directory />
 		<!--Name of the .osim file used to construct a model.-->
-		<model_file>autoScaleWorker.osim</model_file>
+		<model_file>C:\Users\Mark\Documents\AutoPlaceGit\opensim-marker-place-toolbox\A01\Models\AutoPlaced\A01_passive_FULL_auto_marker_place_FLEXION_ONLY_4dof_base.osim</model_file>
 		<!--A positive scalar that is used to weight the importance of satisfying constraints.A weighting of 'Infinity' or if it is unassigned results in the constraints being strictly enforced.-->
 		<constraint_weight>Inf</constraint_weight>
 		<!--The accuracy of the solution in absolute terms. I.e. the number of significantdigits to which the solution can be trusted.-->
@@ -308,7 +308,7 @@
 		<!--Flag (true or false) indicating whether or not to report marker errors from the inverse kinematics solution.-->
 		<report_errors>true</report_errors>
 		<!--Name of the motion file (.mot) to which the results should be written.-->
-		<output_motion_file>C:\Users\Mark\Documents\AutoPlaceGit\opensim-marker-place-toolbox\A01\autoPlaceWorker.mot</output_motion_file>
+		<output_motion_file>C:\Users\Mark\Documents\AutoPlaceGit\opensim-marker-place-toolbox\A01\IKResults\A01_PREF_T0015_LockState2_ik.mot</output_motion_file>
 		<!--Flag indicating whether or not to report model marker locations in ground.-->
 		<report_marker_locations>false</report_marker_locations>
 	</InverseKinematicsTool>

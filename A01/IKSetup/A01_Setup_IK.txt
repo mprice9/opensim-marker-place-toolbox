@@ -1,0 +1,27 @@
+totalBytesRead = 0;
+msgEnd = 0;
+
+while !msgEnd
+	tag = bytesIn[totalBytesRead]
+	bytesOut[totalBytesRead] = tag
+	if tag == 1
+		getenc
+		bytesOut[totalBytesRead + 1] = enclowbytes
+		bytesOut[totalBytesRead + 2] = enchibytes
+		msgLength = 3;
+	if tag == 2
+		pwmduty = bytesIn[totalBytesRead + 1,2]
+		bytesOut[totalBytesRead+1,2] = bytesIn[totalBytesRead+1,2]
+		msgLength = 3;
+	if (tag>>4 && 1) 
+		anChannel = tag & 0x0FFF
+		bytesOut[totalBytesRead + 1] = anBuff[anChannel][0]
+		...
+		bytesOut[totalBytesRead + 8] = anBuff[anChannel][7]
+		msgLength = 9;
+	if tag == 0xF0
+		msgEnd = 1
+		msgLength = 1;
+		
+		
+	totalBytesRead += msgLength
