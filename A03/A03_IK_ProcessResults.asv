@@ -19,12 +19,12 @@
 % File names used for IK must be in format of
 % SUBJECT_SPEED_TRIAL_SOCKETREF_LOCKSTATE_DATA.mot
 
-% Written by Andrew LaPre 2/2016
-% Last modified 2/24/2016
+% Written by Andrew LaPre, Mark Price 2/2016
+% Last modified 7/11/2017
 %
 %-------------------------------------------------------------------------%
 
-% close all 
+close all 
 clear all
 clc
 
@@ -191,8 +191,8 @@ for speed = spFirst:spLast
 %         for model = 1:3
             for var = 1:size(normData{speed,2}{lockstate,1},2)
                 for samp = 1:101
-                    h = zeros(size(normData{speed,2},3),1);
-                    nTrials = size(normData{speed,2},3);
+                    h = zeros(size(normData{speed,2},2),1);
+                    nTrials = size(normData{speed,2},2);
                     for trial = 1:nTrials 
                         h(trial) = normData{speed,2}{lockstate,trial}(samp,var);
                     end 
@@ -237,8 +237,15 @@ for speed = spFirst:spLast
                 errData{speed,4}{lockstate}(1,var) = mean(A);   % average
                 errData{speed,4}{lockstate}(2,var) = std(A);    % standard deviation
                 errData{speed,4}{lockstate}(3,var) = max(A);    % max
-                
+
                 clear A
+
+                % StdDev of error between trials
+                A = errData{speed,3}{lockstate,1:nTrials}(2,var)
+                errData{speed,5}{lockstate}(2,var) = std(A);    % standard deviation
+                
+
+                
                 
             end
 %         end
@@ -251,6 +258,7 @@ fprintf('complete\n')
 
 %% Error comparison setup
 fprintf('parsing error statistics\n')
+
 if FAST_flag == 1
     speed=1;
     errFast = zeros(6,1);
@@ -264,9 +272,12 @@ end
 if PREF_flag == 1
     speed=2;
     errPref = zeros(6,1);
+    errStd = zeros(6,1);
+    errStdMat = errData{speed,3}{lockstate,trial}(2,3);
     for lockstate = 1:6;
 %         for model = 1:3
             errPref(lockstate) = errData{speed,4}{lockstate}(1,3);
+            errStd(lockstate) = errData{speed,3}{lockstate,trial}(2,3);
 %         end
     end
 end
@@ -522,14 +533,16 @@ if SComp==6; axes1 = axes('Parent',figure1,...
 'XTick',[1 2 3 4 5 6],...
 'FontSize',12); 
 end
-if IK_tasks == 1; ylim(axes1,[0.002 0.008]); end
+if IK_tasks == 1; ylim(axes1,[0.005 0.012]); end
 if SComp==5;xlim(axes1,[0.5 5.5]);end
 if SComp==6;xlim(axes1,[0.5 6.5]);end
 box(axes1,'on');
 hold(axes1,'all');
  
 % Create multiple lines using matrix input to bar
+hold on
 bar1 = bar(errPref,'Parent',axes1);
+errbar1 = errorbar(errPref,errStd,'.');
 % set(bar1(1),'DisplayName','SR1');
 % set(bar1(2),'DisplayName','SR2');
 % set(bar1(3),'DisplayName','SR3');
@@ -577,7 +590,7 @@ if SComp==6; axes1 = axes('Parent',figure2,...
 'XTick',[1 2 3 4 5 6],...
 'FontSize',12); 
 end
-if IK_tasks == 1; ylim(axes1,[.7 1.02]); end
+if IK_tasks == 1; ylim(axes1,[.5 1.02]); end
 if SComp==5;xlim(axes1,[0.5 5.5]);end
 if SComp==6;xlim(axes1,[0.5 6.5]);end
 box(axes1,'on');
@@ -654,7 +667,9 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
         if speed==1;stringTemp = ['Avg ',tag,' for Fast Trials'];end
         if speed==2;stringTemp = ['Avg ',tag,' for Pref Trials'];end
         if speed==3;stringTemp = ['Avg ',tag,' for Slow Trials'];end
-%         if model==1;title(stringTemp);end
+%         if model==1;
+        title(stringTemp);
+%     end
         % plot standard deviation
         subplot(1,2,2);
             for lockstate = 1:5;
@@ -667,9 +682,9 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
                 hold on
                 plot(stance,dataTemp,color)
             end
-%         if model==1;
+%         if model==1
             title('  Standard Deviation'); 
-%     end
+%         end
 
 
 
@@ -735,7 +750,7 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
                 if model == 1; color = 'k'; end
                 if model == 2; color = 'b'; end
                 if model == 3; color = 'r'; end
-                dataTemp = normData{speed,3}{model, lockstate,1}(:,state);
+                dataTemp = normData{speed,3}{lockstate,1}(:,state);
                 hold on
                 plot(stance,dataTemp.*1000,color)
                 clear dataTemp
@@ -769,7 +784,7 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
 
         % Create legend
         if plots ==1;
-            ylim([-30 5])
+            ylim([-30 20])
 %             legend('SR-0','SR-25','SR-50');
 %             set(legend,'Orientation','horizontal',...
 %             'Position',[0.129689174705252 0.0212 0.77491961414791 0.02]);

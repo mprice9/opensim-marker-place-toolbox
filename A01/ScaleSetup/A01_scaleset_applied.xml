@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSimDocument Version="30000">
+	<ScaleSet name="ScaleSet">
+		<objects>
+			<Scale>
+				<scales> 1 1 1</scales>
+				<segment>ground</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1.14955 1.14955 1.14955</scales>
+				<segment>pelvis</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1.03615 1.03615 1.03615</scales>
+				<segment>femur_r</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1.15858 1.15858 1.15858</scales>
+				<segment>tibia_r</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1.16968 1.16968 1.16968</scales>
+				<segment>talus_r</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1.16968 1.16968 1.16968</scales>
+				<segment>calcn_r</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1.16968 1.16968 1.16968</scales>
+				<segment>toes_r</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1.03615 1.03615 1.03615</scales>
+				<segment>femur_l</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1.15858 1.15858 1.15858</scales>
+				<segment>tibia_l_amputated</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1.15858 1.15858 1.15858</scales>
+				<segment>pylon_socket</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1.16968 1.16968 1.16968</scales>
+				<segment>foot1</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1.16968 1.16968 1.16968</scales>
+				<segment>foot2</segment>
+				<apply>true</apply>
+			</Scale>
+			<Scale>
+				<scales> 1.07844 1.07844 1.07844</scales>
+				<segment>torso</segment>
+				<apply>true</apply>
+			</Scale>
+		</objects>
+		<groups />
+	</ScaleSet>
+</OpenSimDocument>

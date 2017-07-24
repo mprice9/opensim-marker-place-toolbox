@@ -239,6 +239,12 @@ for speed = spFirst:spLast
                 errData{speed,4}{lockstate}(3,var) = max(A);    % max
                 
                 clear A
+
+                % combined across trials using individual trial averages
+                for trial = 1:nTrials
+                    A(trial) = errData{speed,3}{lockstate,trial}(2,var);                   
+                end
+                errData{speed,5}{lockstate}(2,var) = std(A);    % standard deviation
                 
             end
 %         end
@@ -267,6 +273,7 @@ if PREF_flag == 1
     for lockstate = 1:6;
 %         for model = 1:3
             errPref(lockstate) = errData{speed,4}{lockstate}(1,3);
+            errStd(lockstate) = errData{speed,5}{lockstate}(2,3);
 %         end
     end
 end

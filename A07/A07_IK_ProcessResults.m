@@ -239,6 +239,12 @@ for speed = spFirst:spLast
                 errData{speed,4}{lockstate}(3,var) = max(A);    % max
                 
                 clear A
+
+                % combined across trials using individual trial averages
+                for trial = 1:nTrials
+                    A(trial) = errData{speed,3}{lockstate,trial}(2,var);                   
+                end
+                errData{speed,5}{lockstate}(2,var) = std(A);    % standard deviation
                 
             end
 %         end
@@ -264,9 +270,11 @@ end
 if PREF_flag == 1
     speed=2;
     errPref = zeros(6,1);
+    errStd = zeros(6,1);
     for lockstate = 1:6;
 %         for model = 1:3
             errPref(lockstate) = errData{speed,4}{lockstate}(1,3);
+            errStd(lockstate) = errData{speed,5}{lockstate}(2,3);
 %         end
     end
 end
@@ -522,21 +530,22 @@ if SComp==6; axes1 = axes('Parent',figure1,...
 'XTick',[1 2 3 4 5 6],...
 'FontSize',12); 
 end
-if IK_tasks == 1; ylim(axes1,[0.005 0.012]); end
+if IK_tasks == 1; ylim(axes1,[0.004 0.010]); end
 if SComp==5;xlim(axes1,[0.5 5.5]);end
 if SComp==6;xlim(axes1,[0.5 6.5]);end
 box(axes1,'on');
 hold(axes1,'all');
  
 % Create multiple lines using matrix input to bar
-bar1 = bar(errPref,'Parent',axes1);
+bar1 = bar(errPref,'Parent',axes1,'FaceColor',[.5 .5 1]);
+errbar1 = errorbar(errPref,errStd,'k.');
 % set(bar1(1),'DisplayName','SR1');
 % set(bar1(2),'DisplayName','SR2');
 % set(bar1(3),'DisplayName','SR3');
  
 % Create ylabel
 ylabel('Avg. RMS (m)','FontSize',13);
-if IK_tasks==1;daspect([600 1 1]);end
+if IK_tasks==1;daspect([800 1 1]);end
 if IK_tasks==2;daspect([250 1 1]);end
  
 % Create title

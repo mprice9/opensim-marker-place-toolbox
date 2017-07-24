@@ -318,7 +318,7 @@
 			<groups />
 		</IKTaskSet>
 		<!--TRC file (.trc) containing the time history of observations of marker positions.-->
-		<marker_file>Chopped.trc</marker_file>
+		<marker_file>F:\Mark\AutoPlaceGit\A03\MarkerData\PREF\A03_Pref_0007.trc</marker_file>
 		<!--The name of the storage (.sto or .mot) file containing coordinate observations.Coordinate values from this file are included if there is a corresponding coordinate task. -->
 		<coordinate_file>Unassigned</coordinate_file>
 		<!--Time range over which the inverse kinematics problem is solved.-->
@@ -326,7 +326,7 @@
 		<!--Flag (true or false) indicating whether or not to report marker errors from the inverse kinematics solution.-->
 		<report_errors>true</report_errors>
 		<!--Name of the motion file (.mot) to which the results should be written.-->
-		<output_motion_file>Chopped_ik.mot</output_motion_file>
+		<output_motion_file>F:\Mark\AutoPlaceGit\A03\autoPlaceWorker.mot</output_motion_file>
 		<!--Flag indicating whether or not to report model marker locations in ground.-->
 		<report_marker_locations>false</report_marker_locations>
 	</InverseKinematicsTool>

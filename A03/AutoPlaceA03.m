@@ -22,9 +22,9 @@ markerScale = 1;
 divisor = 1;
 
 % downSample the passive .trc file for speed
-file_input = [trcDataDir 'A03_Pref_0007.trc'];
-file_output = 'Chopped.trc';
-downSampleTRC(divisor,file_input,file_output)
+% file_input = [trcDataDir 'A03_Pref_0007.trc'];
+% file_output = 'Chopped.trc';
+% downSampleTRC(divisor,file_input,file_output)
 
 % create new file for log of marker search
 fileID = fopen(['coarseMarkerSearch_log_' subject '_' prosType '_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.txt'], 'w'); 
@@ -71,7 +71,7 @@ options.rotLock = false;
 
 % List marker coordinates to be locked - algorithm cannot move them from
 % hand-picked location:
-options.fixedMarkerCoords = {'L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z'};
+options.fixedMarkerCoords = {'STERN x','STERN y','STERN z','L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z'};
 
 % Specify frame from .trc file at which socket flexion should be minimized:
 options.flexionZero = 94; 
@@ -113,7 +113,7 @@ options.flexLock = true;
 options.adducLock = true;
 options.rotLock = true;
 options.markerNames = prosThighMarkerNames;
-options.fixedMarkerCoords = {'L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z','SOCKET_JOINT_LOC_IN_BODY z'};
+options.fixedMarkerCoords = {'STERN x','STERN y','STERN z','L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z','SOCKET_JOINT_LOC_IN_BODY z','SOCKET_JOINT_ORIENT y','SOCKET_JOINT_ORIENT z'};
 X_prosThigh = coarseMarkerSearch(options);
 model = Model('autoScaleWorker.osim');
 model.initSystem();
@@ -151,6 +151,7 @@ model.print(newModelName);
 myModel = preSocketJointModel;
 newName = [subject '_' prosType '_FULL_auto_marker_place_4DOF_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
 newModelName = [modelDir newName];
+options.fixedMarkerCoords = {'STERN x','STERN y','STERN z','L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z','SOCKET_JOINT_ORIENT x','SOCKET_JOINT_ORIENT y','SOCKET_JOINT_ORIENT z'};
 options.flexLock = false;
 options.adducLock = false;
 options.rotLock = false;
