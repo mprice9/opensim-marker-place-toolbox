@@ -146,7 +146,7 @@ options.tzLock = true;
 options.flexLock = true;
 options.adducLock = true;
 options.rotLock = true;
-options.fixedMarkerCoords = {'L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z','SOCKET_JOINT_LOC_IN_BODY z'};
+options.fixedMarkerCoords = {'L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z','SOCKET_JOINT_LOC_IN_BODY z','SOCKET_JOINT_ORIENT z'};
 X_prosThigh = coarseMarkerSearch(options);
 model = Model('autoScaleWorker.osim');
 model.initSystem();

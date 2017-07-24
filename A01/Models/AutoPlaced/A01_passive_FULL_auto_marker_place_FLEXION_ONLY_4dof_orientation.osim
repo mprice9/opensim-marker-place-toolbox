@@ -1755,9 +1755,9 @@
 							<!--Orientation of the joint in the parent body specified in the parent reference frame. Euler XYZ body-fixed rotation angles are used to express the orientation. Default is (0,0,0).-->
 							<orientation_in_parent>0 0 0</orientation_in_parent>
 							<!--Location of the joint in the child body specified in the child reference frame. For SIMM models, this vector is always the zero vector (i.e., the body reference frame coincides with the joint). -->
-							<location>-0.007 -0.003 0.011</location>
+							<location>0.008 -0.01 0</location>
 							<!--Orientation of the joint in the owing body specified in the owning body reference frame.  Euler XYZ body-fixed rotation angles are used to express the orientation. -->
-							<orientation>-0.02 0 0</orientation>
+							<orientation>0.02 -0.06 0</orientation>
 							<!--Set holding the generalized coordinates (q's) that parmeterize this joint.-->
 							<CoordinateSet>
 								<objects>
@@ -1791,7 +1791,7 @@
 										<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 										<clamped>false</clamped>
 										<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
-										<locked>false</locked>
+										<locked>true</locked>
 										<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
 										<prescribed_function />
 										<!--Flag indicating whether or not the values of the coordinates should be prescribed according to the function above. It is ignored if the no prescribed function is specified.-->
@@ -1809,7 +1809,7 @@
 										<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 										<clamped>false</clamped>
 										<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
-										<locked>false</locked>
+										<locked>true</locked>
 										<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
 										<prescribed_function />
 										<!--Flag indicating whether or not the values of the coordinates should be prescribed according to the function above. It is ignored if the no prescribed function is specified.-->
@@ -1845,7 +1845,7 @@
 										<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 										<clamped>false</clamped>
 										<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
-										<locked>false</locked>
+										<locked>true</locked>
 										<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
 										<prescribed_function />
 										<!--Flag indicating whether or not the values of the coordinates should be prescribed according to the function above. It is ignored if the no prescribed function is specified.-->
@@ -7309,7 +7309,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_l</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.00270669 -0.146569 -0.112336</location>
+					<location> -0.0132933 -0.149569 -0.110336</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7317,7 +7317,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_l</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0681696 -0.156738 -0.0824474</location>
+					<location> 0.0551696 -0.157738 -0.0904474</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7325,7 +7325,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_l</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0672521 -0.229742 -0.0716697</location>
+					<location> 0.0562521 -0.230742 -0.0786697</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7333,7 +7333,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_l</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0071497 -0.222497 -0.0968838</location>
+					<location> -0.0058503 -0.224497 -0.0968838</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>

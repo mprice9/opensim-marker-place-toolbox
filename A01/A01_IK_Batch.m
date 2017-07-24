@@ -47,12 +47,29 @@ model_dir = ([pwd '\Models\AutoPlaced\']);
 % models{4} = 'A01_passive_FULL_auto_marker_place_FLEXION_PISTON_rigid_base.osim';
 % models{5} = 'A01_passive_FULL_auto_marker_place_4DOF_rigid_base.osim';
 % models{6} = 'A01_passive_FULL_auto_marker_place_6DOF_rigid_base.osim';
-models{1} = 'A01_passive_FULL_auto_marker_place_RIGID_4dof_base.osim';
-models{2} = 'A01_passive_FULL_auto_marker_place_FLEXION_ONLY_4dof_base.osim';
-models{3} = 'A01_passive_FULL_auto_marker_place_PISTON_ONLY_4dof_base.osim';
-models{4} = 'A01_passive_FULL_auto_marker_place_FLEXION_PISTON_4dof_base.osim';
-models{5} = 'A01_passive_FULL_auto_marker_place_4DOF_4dof_base.osim';
-models{6} = 'A01_passive_FULL_auto_marker_place_6DOF_4dof_base.osim';
+
+% models{1} = 'A01_passive_FULL_auto_marker_place_RIGID_4dof_base.osim';
+% models{2} = 'A01_passive_FULL_auto_marker_place_FLEXION_ONLY_4dof_base.osim';
+% models{3} = 'A01_passive_FULL_auto_marker_place_PISTON_ONLY_4dof_base.osim';
+% models{4} = 'A01_passive_FULL_auto_marker_place_FLEXION_PISTON_4dof_base.osim';
+% models{5} = 'A01_passive_FULL_auto_marker_place_4DOF_4dof_base.osim';
+% models{6} = 'A01_passive_FULL_auto_marker_place_6DOF_4dof_base.osim';
+
+% models{1} = 'A01_passive_FULL_auto_marker_place_RIGID_4dof_base_no_anchor.osim';
+% models{2} = 'A01_passive_FULL_auto_marker_place_FLEXION_ONLY_4dof_base_no_anchor.osim';
+% models{3} = 'A01_passive_FULL_auto_marker_place_PISTON_ONLY_4dof_base_no_anchor.osim';
+% models{4} = 'A01_passive_FULL_auto_marker_place_FLEXION_PISTON_4dof_base_no_anchor.osim';
+% models{5} = 'A01_passive_FULL_auto_marker_place_4DOF_4dof_base_no_anchor.osim';
+% models{6} = 'A01_passive_FULL_auto_marker_place_6DOF_4dof_base_no_anchor.osim';
+
+models{1} = 'A01_passive_FULL_auto_marker_place_RIGID_4dof_orientation.osim';
+models{2} = 'A01_passive_FULL_auto_marker_place_FLEXION_ONLY_4dof_orientation.osim';
+models{3} = 'A01_passive_FULL_auto_marker_place_PISTON_ONLY_4dof_orientation.osim';
+models{4} = 'A01_passive_FULL_auto_marker_place_FLEXION_PISTON_4dof_orientation.osim';
+models{5} = 'A01_passive_FULL_auto_marker_place_4DOF_4dof_orientation.osim';
+models{6} = 'A01_passive_FULL_auto_marker_place_6DOF_4dof_orientation.osim';
+
+
 
 
 % specify .trc marker file repository 
