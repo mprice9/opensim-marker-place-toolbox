@@ -26,6 +26,9 @@ divisor = 1;
 % file_output = 'Chopped.trc';
 % downSampleTRC(divisor,file_input,file_output)
 
+
+
+
 % create new file for log of marker search
 fileID = fopen(['coarseMarkerSearch_log_' subject '_' prosType '_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.txt'], 'w'); 
 

@@ -47,12 +47,20 @@ model_dir = ([pwd '\Models\AutoPlaced\']);
 % models{4} = 'A03_passive_FULL_auto_marker_place_FLEXION_PISTON_rigid_base.osim';
 % models{5} = 'A03_passive_FULL_auto_marker_place_4DOF_rigid_base.osim';
 % models{6} = 'A03_passive_FULL_auto_marker_place_6DOF_rigid_base.osim';
-models{1} = 'A03_passive_FULL_auto_marker_place_RIGID_4dof_base.osim';
-models{2} = 'A03_passive_FULL_auto_marker_place_FLEXION_ONLY_4dof_base.osim';
-models{3} = 'A03_passive_FULL_auto_marker_place_PISTON_ONLY_4dof_base.osim';
-models{4} = 'A03_passive_FULL_auto_marker_place_FLEXION_PISTON_4dof_base.osim';
-models{5} = 'A03_passive_FULL_auto_marker_place_4DOF_4dof_base.osim';
-models{6} = 'A03_passive_FULL_auto_marker_place_6DOF_4dof_base.osim';
+
+% models{1} = 'A03_passive_FULL_auto_marker_place_RIGID_4dof_base.osim';
+% models{2} = 'A03_passive_FULL_auto_marker_place_FLEXION_ONLY_4dof_base.osim';
+% models{3} = 'A03_passive_FULL_auto_marker_place_PISTON_ONLY_4dof_base.osim';
+% models{4} = 'A03_passive_FULL_auto_marker_place_FLEXION_PISTON_4dof_base.osim';
+% models{5} = 'A03_passive_FULL_auto_marker_place_4DOF_4dof_base.osim';
+% models{6} = 'A03_passive_FULL_auto_marker_place_6DOF_4dof_base.osim';
+
+models{1} = 'A03_passive_FULL_auto_marker_place_RIGID_4dof_base_orientation.osim';
+models{2} = 'A03_passive_FULL_auto_marker_place_FLEXION_ONLY_4dof_base_orientation.osim';
+models{3} = 'A03_passive_FULL_auto_marker_place_PISTON_ONLY_4dof_base_orientation.osim';
+models{4} = 'A03_passive_FULL_auto_marker_place_FLEXION_PISTON_4dof_base_orientation.osim';
+models{5} = 'A03_passive_FULL_auto_marker_place_4DOF_4dof_base_orientation.osim';
+models{6} = 'A03_passive_FULL_auto_marker_place_6DOF_4dof_base_orientation.osim';
 
 % model1 = 'A01_SocRef1_scaled.osim';
 % model2 = 'A01_SocRef2_scaled.osim';
