@@ -13,18 +13,34 @@ prosType = 'passive';
 import org.opensim.modeling.*
 
 ikSetupPath = ([pwd '\IKSetup\']);
+genericSetupForIK = 'A07_Setup_IK.xml';
 trcDataDir = ([pwd '\MarkerData\PREF\']);
 inputModelDir = ([pwd '\Models\Scaled\']);
 modelDir = ([pwd '\Models\AutoPlaced\']);
 
+modelFile = [pwd '\autoPlaceWorker.osim'];
+markerFile = [trcDataDir '\A07_Pref_0002.trc'];
+outputMotionFile = [pwd '\autoPlaceWorker.mot'];
+
+ikTool = InverseKinematicsTool([ikSetupPath genericSetupForIK]);
+% Edit setup .xml with model path
+factorProp  = ikTool.getPropertyByName('model_file');
+% Set the value for this string to the model path
+PropertyHelper.setValueString(modelFile,factorProp);
+factorProp  = ikTool.getPropertyByName('marker_file');
+PropertyHelper.setValueString(markerFile,factorProp);
+factorProp  = ikTool.getPropertyByName('output_motion_file');
+PropertyHelper.setValueString(outputMotionFile,factorProp);
+ikTool.print([ikSetupPath genericSetupForIK]);
+
 iteration = 1;
-markerScale = 1;
-divisor = 1;
+% markerScale = 1;
+% divisor = 1;
 
 % downSample the passive .trc file for speed
-file_input = [trcDataDir 'A07_Pref_0002.trc']; 	% Your marker tracking .trc file
-file_output = 'Chopped.trc';                    % Leave this, used in other functions
-downSampleTRC(divisor,file_input,file_output)
+% file_input = [trcDataDir 'A07_Pref_0002.trc']; 	% Your marker tracking .trc file
+% file_output = 'Chopped.trc';                    % Leave this, used in other functions
+% downSampleTRC(divisor,file_input,file_output)
 
 
 
@@ -55,22 +71,24 @@ prosMarkerNames = {'L_SHANK_PROX_POST', ...
             'L_TOE','L_1ST_MET','L_5TH_MET'};
 prosThighMarkerNames = {'L_THIGH_PROX_POST','L_THIGH_PROX_ANT', ...
             'L_THIGH_DIST_POST','L_THIGH_DIST_ANT'};
+% prosThighMarkerNames = {};
 
 % Set model and algorithm options:
-ikSetupFile = 'A07_Setup_IK.xml';
-options.IKsetup = [ikSetupPath ikSetupFile];
+options.IKsetup = [ikSetupPath genericSetupForIK];
 options.model = myModel;                    % generic model name
 options.subjectMass = 67.3046;
 options.newName = newModelName;
+options.modelWorker = modelFile;
+options.motionWorker = outputMotionFile;
 
 % Choose which set of bodies/markers is being placed. 'ROB' = Rest of
 % body, 'pros' = Markers on the prosthesis, 'prosThigh' = Thigh markers on
 % the prosthesis side and the socket joint center of rotation:
 options.bodySet = 'ROB';
 
-options.txLock = true;
+options.txLock = false;
 options.tyLock = false;
-options.tzLock = true;
+options.tzLock = false;
 options.flexLock = false;
 options.adducLock = false;
 options.rotLock = false;
@@ -91,42 +109,42 @@ options.convThresh = 1;
 
 tic
 
-% X_ROB = coarseMarkerSearch(options);
-% model = Model('autoScaleWorker.osim');
-% model.initSystem();
-% model.print(newModelName);
-% 
-% % myModel = [modelDir 'A07_passive_ROB_auto_marker_place_11-Jul-2017_19.16.56.osim'];
-% myModel = newModelName;
-% newName = [subject '_' prosType '_PROS_auto_marker_place_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
-% newModelName = [modelDir newName];
-% options.bodySet = 'pros';
-% options.markerNames = prosMarkerNames;
-% X_pros = coarseMarkerSearch(options);
-% model = Model('autoScaleWorker.osim');
-% model.initSystem();
-% model.print(newModelName);
+X_ROB = coarseMarkerSearch(options);
+model = Model('autoScaleWorker.osim');
+model.initSystem();
+model.print(newModelName);
+
+% myModel = [modelDir 'A07_passive_ROB_auto_marker_place_11-Jul-2017_19.16.56.osim'];
+myModel = newModelName;
+newName = [subject '_' prosType '_PROS_auto_marker_place_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
+newModelName = [modelDir newName];
+options.bodySet = 'pros';
+options.markerNames = prosMarkerNames;
+X_pros = coarseMarkerSearch(options);
+model = Model('autoScaleWorker.osim');
+model.initSystem();
+model.print(newModelName);
 
 
-preSocketJointModel = [modelDir 'A07_passive_PROS_auto_marker_place_4dof_base.osim'];
-% preSocketJointModel = newModelName;
+% preSocketJointModel = [modelDir 'A07_passive_PROS_auto_marker_place_4dof_base.osim'];
+preSocketJointModel = newModelName;
 
-% myModel = preSocketJointModel;
-% newName = [subject '_' prosType '_FULL_auto_marker_place_RIGID_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
-% newModelName = [modelDir newName];
-% options.txLock = true;
-% options.tyLock = true;
-% options.tzLock = true;
-% options.flexLock = true;
-% options.adducLock = true;
-% options.rotLock = true;
-% options.bodySet = 'prosThigh';
-% options.markerNames = prosThighMarkerNames;
-% options.fixedMarkerCoords = {'STERN x','STERN y','STERN z','L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z','SOCKET_JOINT_LOC_IN_BODY z'};
-% X_prosThigh = coarseMarkerSearch(options);
-% model = Model('autoScaleWorker.osim');
-% model.initSystem();
-% model.print(newModelName);
+myModel = preSocketJointModel;
+newName = [subject '_' prosType '_FULL_auto_marker_place_RIGID_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
+newModelName = [modelDir newName];
+options.txLock = true;
+options.tyLock = true;
+options.tzLock = true;
+options.flexLock = true;
+options.adducLock = true;
+options.rotLock = true;
+options.bodySet = 'prosThigh';
+options.markerNames = prosThighMarkerNames;
+options.fixedMarkerCoords = {'STERN x','STERN y','STERN z','L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z','SOCKET_JOINT_LOC_IN_BODY z'};
+X_prosThigh = coarseMarkerSearch(options);
+model = Model('autoScaleWorker.osim');
+model.initSystem();
+model.print(newModelName);
 
 myModel = preSocketJointModel;
 newName = [subject '_' prosType '_FULL_auto_marker_place_FLEXION_ONLY_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
@@ -145,55 +163,55 @@ model = Model('autoScaleWorker.osim');
 model.initSystem();
 model.print(newModelName);
 
-% myModel = preSocketJointModel;
-% newName = [subject '_' prosType '_FULL_auto_marker_place_PISTON_ONLY_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
-% newModelName = [modelDir newName];
-% options.txLock = true;
-% options.tyLock = false;
-% options.tzLock = true;
-% options.flexLock = true;
-% options.adducLock = true;
-% options.rotLock = true;
-% options.bodySet = 'prosThigh';
-% options.markerNames = prosThighMarkerNames;
-% options.fixedMarkerCoords = {'L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z','SOCKET_JOINT_LOC_IN_BODY z'};
-% X_prosThigh = coarseMarkerSearch(options);
-% model = Model('autoScaleWorker.osim');
-% model.initSystem();
-% model.print(newModelName);
-% 
-% myModel = preSocketJointModel;
-% newName = [subject '_' prosType '_FULL_auto_marker_place_FLEXION_PISTON_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
-% newModelName = [modelDir newName];
-% options.txLock = true;
-% options.tyLock = false;
-% options.tzLock = true;
-% options.flexLock = false;
-% options.adducLock = true;
-% options.rotLock = true;
-% options.bodySet = 'prosThigh';
-% options.markerNames = prosThighMarkerNames;
-% X_prosThigh = coarseMarkerSearch(options);
-% model = Model('autoScaleWorker.osim');
-% model.initSystem();
-% model.print(newModelName);
-% 
-% myModel = preSocketJointModel;
-% newName = [subject '_' prosType '_FULL_auto_marker_place_4DOF_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
-% newModelName = [modelDir newName];
-% options.fixedMarkerCoords = {'L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z','SOCKET_JOINT_ORIENT x','SOCKET_JOINT_ORIENT y'};
-% options.txLock = true;
-% options.tyLock = false;
-% options.tzLock = true;
-% options.flexLock = false;
-% options.adducLock = false;
-% options.rotLock = false;
-% options.bodySet = 'prosThigh';
-% options.markerNames = prosThighMarkerNames;
-% X_prosThigh = coarseMarkerSearch(options);
-% model = Model('autoScaleWorker.osim');
-% model.initSystem();
-% model.print(newModelName);
+myModel = preSocketJointModel;
+newName = [subject '_' prosType '_FULL_auto_marker_place_PISTON_ONLY_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
+newModelName = [modelDir newName];
+options.txLock = true;
+options.tyLock = false;
+options.tzLock = true;
+options.flexLock = true;
+options.adducLock = true;
+options.rotLock = true;
+options.bodySet = 'prosThigh';
+options.markerNames = prosThighMarkerNames;
+options.fixedMarkerCoords = {'L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z','SOCKET_JOINT_LOC_IN_BODY z'};
+X_prosThigh = coarseMarkerSearch(options);
+model = Model('autoScaleWorker.osim');
+model.initSystem();
+model.print(newModelName);
+
+myModel = preSocketJointModel;
+newName = [subject '_' prosType '_FULL_auto_marker_place_FLEXION_PISTON_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
+newModelName = [modelDir newName];
+options.txLock = true;
+options.tyLock = false;
+options.tzLock = true;
+options.flexLock = false;
+options.adducLock = true;
+options.rotLock = true;
+options.bodySet = 'prosThigh';
+options.markerNames = prosThighMarkerNames;
+X_prosThigh = coarseMarkerSearch(options);
+model = Model('autoScaleWorker.osim');
+model.initSystem();
+model.print(newModelName);
+
+myModel = preSocketJointModel;
+newName = [subject '_' prosType '_FULL_auto_marker_place_4DOF_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
+newModelName = [modelDir newName];
+options.fixedMarkerCoords = {'L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z','SOCKET_JOINT_ORIENT x','SOCKET_JOINT_ORIENT y'};
+options.txLock = true;
+options.tyLock = false;
+options.tzLock = true;
+options.flexLock = false;
+options.adducLock = false;
+options.rotLock = false;
+options.bodySet = 'prosThigh';
+options.markerNames = prosThighMarkerNames;
+X_prosThigh = coarseMarkerSearch(options);
+model = Model('autoScaleWorker.osim');
+model.initSystem();
+model.print(newModelName);
 
 
 fclose(fileID);

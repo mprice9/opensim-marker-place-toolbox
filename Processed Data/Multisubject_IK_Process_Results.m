@@ -119,7 +119,7 @@ if SComp==6; axes1 = axes('Parent',figure1,...
 'XTick',[1 2 3 4 5 6],...
 'FontSize',12); 
 end
-if IK_tasks == 1; ylim(axes1,[0.004 0.010]); end
+if IK_tasks == 1; ylim(axes1,[0.000 0.0085]); end
 if SComp==5;xlim(axes1,[0.5 5.5]);end
 if SComp==6;xlim(axes1,[0.5 6.5]);end
 
@@ -145,9 +145,9 @@ for i = 1:numbars
 
 % Create ylabel
 ylabel('Avg. RMS (m)','FontSize',13);
-if IK_tasks==1;daspect([800 1 1]);end
-if IK_tasks==2;daspect([250 1 1]);end
- 
+% if IK_tasks==1;daspect([800 1 1]);end
+% if IK_tasks==2;daspect([250 1 1]);end
+%  
 % Create title
 if IK_tasks ==1;
     title('Preferred Speed Marker Error RMS','FontSize',14);
@@ -187,7 +187,7 @@ if SComp==6; axes1 = axes('Parent',figure2,...
 'XTick',[1 2 3 4 5 6],...
 'FontSize',12); 
 end
-if IK_tasks == 1; ylim(axes1,[.5 1.1]); end
+if IK_tasks == 1; ylim(axes1,[0 1.05]); end
 if SComp==5;xlim(axes1,[0.5 5.5]);end
 if SComp==6;xlim(axes1,[0.5 6.5]);end
 box(axes1,'on');
@@ -212,8 +212,8 @@ for i = 1:numbars
  
 % Create ylabel
 ylabel('Normalized Avg. RMS','FontSize',13);
-if IK_tasks==1;daspect([8 1 1]);end
-if IK_tasks==2;daspect([250 1 1]);end
+% if IK_tasks==1;daspect([8 1 1]);end
+% if IK_tasks==2;daspect([250 1 1]);end
  
 % Create title
 if IK_tasks ==1;
@@ -226,4 +226,106 @@ end
 % Create legend
 legend1 = legend(axes1,bar1);
 
+end
+
+%% PREF SPEED Plot Coordinates for each model with 4 DoF socket
+
+if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
+
+    for subj = 1:numSubj
+
+        figure
+
+        lockstate = 5;
+
+        if lockstate ==1;LTag = 'Rigid';end
+        if lockstate ==2;LTag = 'Flexion';end
+        if lockstate ==3;LTag = 'Pistoning';end
+        if lockstate ==4;LTag = 'Flex/Pist';end
+        if lockstate ==5;LTag = '4-DOF';end
+
+        for plots = 1:4
+
+            if plots == 1;tag = 'socket_ty';end
+            if plots == 2;tag = 'socket_flexion';end
+            if plots == 3;tag = 'socket_rotation';end
+            if plots == 4;tag = 'socket_adduction';end
+
+
+            % tag = foot_flex; % change to coordinate you want to plot
+
+            % find state 
+            for t = 1:size(tags,2)
+                if strcmp(tag, tags(t))
+                    state = t;
+                end
+            end
+
+            clear t
+
+            stance = 0:1:100;
+
+            speed = 2;
+
+            % fake plot to correct legend contents
+            if plots ==1;
+                for model = 1:3;
+                    subplot(4,1,plots);
+                    if model == 1; color = 'k'; end
+                    if model == 2; color = 'b'; end
+                    if model == 3; color = 'r'; end
+                    dataTemp = fullNormData{subj}{speed,3}{lockstate,1}(:,state);
+                    hold on
+                    plot(stance,dataTemp.*1000,color)
+                    clear dataTemp
+                end
+            end
+
+            % Plot coordinate averages for speed and model
+    %         for model = 1:3;
+                subplot(4,1,plots);
+                if model == 1; color = 'k'; end
+                if model == 2; color = 'b'; end
+                if model == 3; color = 'r'; end
+                dataTemp = fullNormData{subj}{speed,3}{lockstate,1}(:,state);
+                SDTemp = fullNormData{subj}{speed,3}{lockstate,2}(:,state);
+                hold on
+                if plots ==1;boundedline(stance,dataTemp.*1000,SDTemp.*1000,color,'alpha');end
+                if plots ==2;boundedline(stance,-dataTemp,SDTemp,color,'alpha');end
+                if plots >2;boundedline(stance,dataTemp,SDTemp,color,'alpha');end
+                if plots ==1; ylabel(['Pistoning',sprintf('\n'),'(mm)'],'FontSize',12);end
+                if plots ==2; ylabel(['Flexion/',sprintf('\n'),'Extension (deg)'],'FontSize',12);end
+                if plots ==3; ylabel(['Axial',sprintf('\n'),'Rotation (deg)'],'FontSize',12);end
+                if plots ==4; ylabel(['Abduction/',sprintf('\n'),'Adduction (deg)'],'FontSize',12);end
+                box off
+
+                if plots==1&&IK_tasks==1;title([subjLabels{subj} ' ' LTag ' Socket Motion'],'FontSize',14);end
+                if plots==1&&IK_tasks==2;title(['Pref. Speed ' LTag ' Socket Motion (socket/thigh tracking)'],'FontSize',14);end
+
+                clear dataTemp
+    %         end
+
+
+            % Create legend
+            if plots ==1;
+                ylim([-30 50])
+    %             legend('SR-0','SR-25','SR-50');
+    %             set(legend,'Orientation','horizontal',...
+    %             'Position',[0.129689174705252 0.0212 0.77491961414791 0.02]);
+            end
+            if plots ==2;
+                ylim([-10 15])
+            end
+            if plots ==3;
+                ylim([-30 30])
+            end
+            if plots ==4;
+                ylim([-10 10])
+                xlabel('% Gait')
+            end
+        end
+    box off
+    end
+
+    clear dataTemp color legend1 lockstate Marker_Error Marker_ErrorSR
 end

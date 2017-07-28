@@ -8,21 +8,37 @@ global myModel fileID markerScale divisor iteration
 subject = 'A01';
 prosType = 'passive';
 
-
 import org.opensim.modeling.*
 
 ikSetupPath = ([pwd '\IKSetup\']);
+genericSetupForIK = 'A01_PREF_T0015.trc';
 trcDataDir = ([pwd '\MarkerData\PREF']);
 inputModelDir = ([pwd '\Models\Scaled\']);
 modelDir = ([pwd '\Models\AutoPlaced\']);
 
+modelFile = [pwd '\autoPlaceWorker.osim'];
+markerFile = [trcDataDir '\A03_Pref_0007.trc'];
+outputMotionFile = [pwd '\autoPlaceWorker.mot'];
+
+
+ikTool = InverseKinematicsTool([ikSetupPath genericSetupForIK]);
+% Edit setup .xml with model path
+factorProp  = ikTool.getPropertyByName('model_file');
+% Set the value for this string to the model path
+PropertyHelper.setValueString(modelFile,factorProp);
+factorProp  = ikTool.getPropertyByName('marker_file');
+PropertyHelper.setValueString(markerFile,factorProp);
+factorProp  = ikTool.getPropertyByName('output_motion_file');
+PropertyHelper.setValueString(outputMotionFile,factorProp);
+ikTool.print([ikSetupPath genericSetupForIK]);
+
 iteration = 1;
-markerScale = 1;
-divisor = 1;
+% markerScale = 1;
+% divisor = 1;
 
 % downSample the passive .trc file for speed
-file_input = [trcDataDir 'A01_PREF_T0015.trc'];
-file_output = 'Chopped.trc';
+% file_input = [trcDataDir 'A01_PREF_T0015.trc'];
+% file_output = 'Chopped.trc';
 % downSampleTRC(divisor,file_input,file_output)
 
 % create new file for log of marker search
@@ -49,20 +65,20 @@ prosThighMarkerNames = {'L_THIGH_PROX_POST','L_THIGH_PROX_ANT', ...
             'L_THIGH_DIST_POST','L_THIGH_DIST_ANT'};
         
 % Set model and algorithm options:
-ikSetupFile = 'A01_Setup_IK.xml';
-options.IKsetup = [ikSetupPath ikSetupFile];
+options.IKsetup = [ikSetupPath genericSetupForIK];
 options.model = myModel;                    % generic model name
 options.subjectMass = 67.3046;
 options.newName = newModelName;
+options.modelWorker = modelFile;
+options.motionWorker = outputMotionFile;
 
 % Choose which set of bodies/markers is being placed. 'ROB' = Rest of
 % body, 'pros' = Markers on the prosthesis, 'prosThigh' = Thigh markers on
 % the prosthesis side and the socket joint center of rotation:
-% options.bodySet = 'ROB';
 
-options.txLock = true;
+options.txLock = false;
 options.tyLock = false;
-options.tzLock = true;
+options.tzLock = false;
 options.flexLock = false;
 options.adducLock = false;
 options.rotLock = false;
@@ -86,24 +102,24 @@ options.convThresh = 1;
 
 tic     %Start timer
 
-% X_ROB = coarseMarkerSearch(options);
-% model = Model('autoScaleWorker.osim');
-% model.initSystem();
-% model.print(newModelName);
-% 
-% myModel = newModelName;
-% newName = [subject '_' prosType '_PROS_auto_marker_place_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
-% newModelName = [modelDir newName];
-% options.bodySet = 'pros';
-% options.markerNames = prosMarkerNames;
-% X_pros = coarseMarkerSearch(options);
-% model = Model('autoScaleWorker.osim');
-% model.initSystem();
-% model.print(newModelName);
+X_ROB = coarseMarkerSearch(options);
+model = Model('autoScaleWorker.osim');
+model.initSystem();
+model.print(newModelName);
+
+myModel = newModelName;
+newName = [subject '_' prosType '_PROS_auto_marker_place_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
+newModelName = [modelDir newName];
+options.bodySet = 'pros';
+options.markerNames = prosMarkerNames;
+X_pros = coarseMarkerSearch(options);
+model = Model('autoScaleWorker.osim');
+model.initSystem();
+model.print(newModelName);
 
 
-preSocketJointModel = [modelDir 'A01_passive_PROS_auto_marker_place_4dof_base.osim'];
-% preSocketJointModel = newModelName;
+% preSocketJointModel = [modelDir 'A01_passive_PROS_auto_marker_place_4dof_base.osim'];
+preSocketJointModel = newModelName;
 
 myModel = preSocketJointModel;
 newName = [subject '_' prosType '_FULL_auto_marker_place_RIGID_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];

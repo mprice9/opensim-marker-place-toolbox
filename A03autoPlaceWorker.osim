@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <OpenSimDocument Version="30000">
-	<Model name="A07_passive_autoScaled">
+	<Model name="A03_passive_scaled">
 		<credits>Delp S.L., Loan J.P., Hoy M.G., Zajac F.E., Topp E.L., Rosen J.M., Thelen D.G., Anderson F.C., Seth A. Notes: 3D, 23 DOF gait model created by D.G. Thelen, Univ. of Wisconsin-Madison, and Ajay Seth, Frank C. Anderson, and Scott L. Delp, Stanford University. Lower extremity joint defintions based on Delp et al. (1990). Low back joint and anthropometry based on Anderson and Pandy (1999, 2001). Planar knee model of Yamaguchi and Zajac (1989). Seth replaced tibia translation constraints with a CustomJoint for the knee and removed the patella to eliminate all kinematic constraints; insertions of the quadrucepts are handled with moving points in the tibia frame as defined by Delp 1990. Number of muscles was reduced by Anderson to improve simulation speed for demonstrations and is not intended to be used in research. License: Creative Commons (CCBY 3.0). You are free to distribute, remix, tweak, and build upon this work, even commercially, as long as you credit us for the original creation. http://creativecommons.org/licenses/by/3.0/ More Information: http://simtk-confluence.stanford.edu:8080/display/OpenSim/Gait+2392+and+2354+Models</credits>
 		<publications>Delp, S.L., Loan, J.P., Hoy, M.G., Zajac, F.E., Topp E.L., Rosen, J.M.: An interactive graphics-based model of the lower extremity to study orthopaedic surgical procedures, IEEE Transactions on Biomedical Engineering, vol. 37, pp. 757-767, 1990. Yamaguchi G.T., Zajac F.E.: A planar model of the knee joint to characterize the knee extensor mechanism." J . Biomech. vol. 22. pp. 1-10. 1989. Anderson F.C., Pandy M.G.: A dynamic optimization solution for vertical jumping in three dimensions. Computer Methods in Biomechanics and Biomedical Engineering 2:201-231, 1999. Anderson F.C., Pandy M.G.: Dynamic optimization of human walking. Journal of Biomechanical Engineering 123:381-390, 2001.</publications>
 		<length_units>meters</length_units>
@@ -42,11 +42,11 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="pelvis">
-					<mass>11.8231809550011</mass>
-					<mass_center> -0.0740773 0 0</mass_center>
-					<inertia_xx>0.113298573568013</inertia_xx>
-					<inertia_yy>0.0959951921962449</inertia_yy>
-					<inertia_zz>0.0638131070971593</inertia_zz>
+					<mass>10.9536266283852</mass>
+					<mass_center> -0.075307 0 0</mass_center>
+					<inertia_xx>0.108479715574416</inertia_xx>
+					<inertia_yy>0.091912288195833</inertia_yy>
+					<inertia_zz>0.0610989837719717</inertia_zz>
 					<inertia_xy>0</inertia_xy>
 					<inertia_xz>0</inertia_xz>
 					<inertia_yz>0</inertia_yz>
@@ -314,7 +314,7 @@
 							<groups />
 						</GeometrySet>
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
-						<scale_factors> 1.04777 1.04777 1.04777</scale_factors>
+						<scale_factors> 1.06517 1.06517 1.06517</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
 						<transform> 0 0 0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
@@ -328,11 +328,11 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="femur_r">
-					<mass>9.33787342573214</mass>
-					<mass_center> 0 -0.177407 0</mass_center>
-					<inertia_xx>0.146394239031864</inertia_xx>
-					<inertia_yy>0.0383751888724302</inertia_yy>
-					<inertia_zz>0.154375403669149</inertia_zz>
+					<mass>8.65110492665897</mass>
+					<mass_center> 0 -0.158872 0</mass_center>
+					<inertia_xx>0.108768224363084</inertia_xx>
+					<inertia_yy>0.0285120588136239</inertia_yy>
+					<inertia_zz>0.114698082748823</inertia_zz>
 					<inertia_xy>0</inertia_xy>
 					<inertia_xz>0</inertia_xz>
 					<inertia_yz>0</inertia_yz>
@@ -342,7 +342,7 @@
 							<!--Name of the parent body to which this joint connects its owner body.-->
 							<parent_body>pelvis</parent_body>
 							<!--Location of the joint in the parent body specified in the parent reference frame. Default is (0,0,0).-->
-							<location_in_parent>-0.0740773174248594 -0.0692575768286168 0.087488769518752</location_in_parent>
+							<location_in_parent>-0.0753070258906298 -0.0704072759741248 0.0889411126148173</location_in_parent>
 							<!--Orientation of the joint in the parent body specified in the parent reference frame. Euler XYZ body-fixed rotation angles are used to express the orientation. Default is (0,0,0).-->
 							<orientation_in_parent>0 0 0</orientation_in_parent>
 							<!--Location of the joint in the child body specified in the child reference frame. For SIMM models, this vector is always the zero vector (i.e., the body reference frame coincides with the joint). -->
@@ -464,7 +464,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>1.04776969483535</scale>
+											<scale>1.06516302532715</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -481,7 +481,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>1.04776969483535</scale>
+											<scale>1.06516302532715</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -498,7 +498,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>1.04776969483535</scale>
+											<scale>1.06516302532715</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -529,7 +529,7 @@
 							<groups />
 						</GeometrySet>
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
-						<scale_factors> 1.04357 1.04357 1.04357</scale_factors>
+						<scale_factors> 0.934543 0.934543 0.934543</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
 						<transform> 0 0 0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
@@ -543,11 +543,11 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="tibia_r">
-					<mass>3.72203815833121</mass>
-					<mass_center> 0 -0.214348 0</mass_center>
-					<inertia_xx>0.0666929976525943</inertia_xx>
-					<inertia_yy>0.00674869619103632</inertia_yy>
-					<inertia_zz>0.0676192892866581</inertia_zz>
+					<mass>3.44829504328253</mass>
+					<mass_center> 0 -0.211782 0</mass_center>
+					<inertia_xx>0.0603172313351683</inertia_xx>
+					<inertia_yy>0.0061035293612968</inertia_yy>
+					<inertia_zz>0.0611549706592679</inertia_zz>
 					<inertia_xy>0</inertia_xy>
 					<inertia_xz>0</inertia_xz>
 					<inertia_yz>0</inertia_yz>
@@ -644,7 +644,7 @@
 													<y> -0.0032 0.00179 0.00411 0.0041 0.00212 -0.001 -0.0031 -0.005227 -0.005435 -0.005574 -0.005435 -0.00525</y>
 												</SimmSpline>
 											</function>
-											<scale>1.04357069266823</scale>
+											<scale>0.93454259746513</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -662,7 +662,7 @@
 													<y> -0.4226 -0.4082 -0.399 -0.3976 -0.3966 -0.395264 -0.396</y>
 												</SimmSpline>
 											</function>
-											<scale>1.04357069266823</scale>
+											<scale>0.93454259746513</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -679,7 +679,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>1.04357069266823</scale>
+											<scale>0.93454259746513</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -726,7 +726,7 @@
 							<groups />
 						</GeometrySet>
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
-						<scale_factors> 1.14809 1.14809 1.14809</scale_factors>
+						<scale_factors> 1.13435 1.13435 1.13435</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
 						<transform> 0 0 0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
@@ -740,11 +740,11 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="talus_r">
-					<mass>0.100392128343391</mass>
+					<mass>0.0930086323204999</mass>
 					<mass_center> 0 0 0</mass_center>
-					<inertia_xx>0.000923175539490548</inertia_xx>
-					<inertia_yy>0.000923175539490548</inertia_yy>
-					<inertia_zz>0.000923175539490548</inertia_zz>
+					<inertia_xx>0.00083626526068768</inertia_xx>
+					<inertia_yy>0.00083626526068768</inertia_yy>
+					<inertia_zz>0.00083626526068768</inertia_zz>
 					<inertia_xy>0</inertia_xy>
 					<inertia_xz>0</inertia_xz>
 					<inertia_yz>0</inertia_yz>
@@ -754,7 +754,7 @@
 							<!--Name of the parent body to which this joint connects its owner body.-->
 							<parent_body>tibia_r</parent_body>
 							<!--Location of the joint in the parent body specified in the parent reference frame. Default is (0,0,0).-->
-							<location_in_parent>0 -0.493677660880947 0</location_in_parent>
+							<location_in_parent>0 -0.48776682347382 0</location_in_parent>
 							<!--Orientation of the joint in the parent body specified in the parent reference frame. Euler XYZ body-fixed rotation angles are used to express the orientation. Default is (0,0,0).-->
 							<orientation_in_parent>0 0 0</orientation_in_parent>
 							<!--Location of the joint in the child body specified in the child reference frame. For SIMM models, this vector is always the zero vector (i.e., the body reference frame coincides with the joint). -->
@@ -840,7 +840,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>1.14808758344406</scale>
+											<scale>1.13434144993912</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -857,7 +857,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>1.14808758344406</scale>
+											<scale>1.13434144993912</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -874,7 +874,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>1.14808758344406</scale>
+											<scale>1.13434144993912</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -905,7 +905,7 @@
 							<groups />
 						</GeometrySet>
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
-						<scale_factors> 0.958942 0.958942 0.958942</scale_factors>
+						<scale_factors> 0.948222 0.948222 0.948222</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
 						<transform> 0 0 0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
@@ -919,11 +919,11 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="calcn_r">
-					<mass>1.25490160429238</mass>
-					<mass_center> 0.0958942 0.0287682 0</mass_center>
-					<inertia_xx>0.00129244575528676</inertia_xx>
-					<inertia_yy>0.00360038460401314</inertia_yy>
-					<inertia_zz>0.00378501971191125</inertia_zz>
+					<mass>1.16260790400625</mass>
+					<mass_center> 0.0948222 0.0284466 0</mass_center>
+					<inertia_xx>0.00117077136496276</inertia_xx>
+					<inertia_yy>0.00326143451668195</inertia_yy>
+					<inertia_zz>0.00342868756881949</inertia_zz>
 					<inertia_xy>0</inertia_xy>
 					<inertia_xz>0</inertia_xz>
 					<inertia_yz>0</inertia_yz>
@@ -933,7 +933,7 @@
 							<!--Name of the parent body to which this joint connects its owner body.-->
 							<parent_body>talus_r</parent_body>
 							<!--Location of the joint in the parent body specified in the parent reference frame. Default is (0,0,0).-->
-							<location_in_parent>-0.0467675984641328 -0.0402276144262942 0.00759482017297379</location_in_parent>
+							<location_in_parent>-0.0462448265161622 -0.0397779469418291 0.00750992466696749</location_in_parent>
 							<!--Orientation of the joint in the parent body specified in the parent reference frame. Euler XYZ body-fixed rotation angles are used to express the orientation. Default is (0,0,0).-->
 							<orientation_in_parent>0 0 0</orientation_in_parent>
 							<!--Location of the joint in the child body specified in the child reference frame. For SIMM models, this vector is always the zero vector (i.e., the body reference frame coincides with the joint). -->
@@ -1019,7 +1019,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>0.958941941032044</scale>
+											<scale>0.948222811485794</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -1036,7 +1036,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>0.958941941032044</scale>
+											<scale>0.948222811485794</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -1053,7 +1053,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>0.958941941032044</scale>
+											<scale>0.948222811485794</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -1084,7 +1084,7 @@
 							<groups />
 						</GeometrySet>
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
-						<scale_factors> 0.958942 0.958942 0.958942</scale_factors>
+						<scale_factors> 0.948222 0.948222 0.948222</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
 						<transform> 0 0 0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
@@ -1098,11 +1098,11 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="toes_r">
-					<mass>0.217449349991785</mass>
-					<mass_center> 0.0331794 0.00575365 -0.0167815</mass_center>
-					<inertia_xx>9.23175539490548e-005</inertia_xx>
-					<inertia_yy>0.00018463510789811</inertia_yy>
-					<inertia_zz>9.23175539490548e-005</inertia_zz>
+					<mass>0.201456697606202</mass>
+					<mass_center> 0.0328086 0.00568934 -0.0165939</mass_center>
+					<inertia_xx>8.3626526068768e-005</inertia_xx>
+					<inertia_yy>0.000167253052137536</inertia_yy>
+					<inertia_zz>8.3626526068768e-005</inertia_zz>
 					<inertia_xy>0</inertia_xy>
 					<inertia_xz>0</inertia_xz>
 					<inertia_yz>0</inertia_yz>
@@ -1112,7 +1112,7 @@
 							<!--Name of the parent body to which this joint connects its owner body.-->
 							<parent_body>calcn_r</parent_body>
 							<!--Location of the joint in the parent body specified in the parent reference frame. Default is (0,0,0).-->
-							<location_in_parent>0.17145881905653 -0.00191788388206409 0.0010356572963146</location_in_parent>
+							<location_in_parent>0.16954223869366 -0.00189644562297159 0.00102408063640466</location_in_parent>
 							<!--Orientation of the joint in the parent body specified in the parent reference frame. Euler XYZ body-fixed rotation angles are used to express the orientation. Default is (0,0,0).-->
 							<orientation_in_parent>0 0 0</orientation_in_parent>
 							<!--Location of the joint in the child body specified in the child reference frame. For SIMM models, this vector is always the zero vector (i.e., the body reference frame coincides with the joint). -->
@@ -1198,7 +1198,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>0.958941941032044</scale>
+											<scale>0.948222811485794</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -1215,7 +1215,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>0.958941941032044</scale>
+											<scale>0.948222811485794</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -1232,7 +1232,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>0.958941941032044</scale>
+											<scale>0.948222811485794</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -1263,7 +1263,7 @@
 							<groups />
 						</GeometrySet>
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
-						<scale_factors> 0.958942 0.958942 0.958942</scale_factors>
+						<scale_factors> 0.948222 0.948222 0.948222</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
 						<transform> 0 0 0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
@@ -1277,11 +1277,11 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="femur_l">
-					<mass>9.33787342573214</mass>
-					<mass_center> 0 -0.177407 0</mass_center>
-					<inertia_xx>0.146394239031864</inertia_xx>
-					<inertia_yy>0.0383751888724302</inertia_yy>
-					<inertia_zz>0.154375403669149</inertia_zz>
+					<mass>8.65110492665897</mass>
+					<mass_center> 0 -0.158872 0</mass_center>
+					<inertia_xx>0.108768224363084</inertia_xx>
+					<inertia_yy>0.0285120588136239</inertia_yy>
+					<inertia_zz>0.114698082748823</inertia_zz>
 					<inertia_xy>0</inertia_xy>
 					<inertia_xz>0</inertia_xz>
 					<inertia_yz>0</inertia_yz>
@@ -1291,7 +1291,7 @@
 							<!--Name of the parent body to which this joint connects its owner body.-->
 							<parent_body>pelvis</parent_body>
 							<!--Location of the joint in the parent body specified in the parent reference frame. Default is (0,0,0).-->
-							<location_in_parent>-0.0740773174248594 -0.0692575768286168 -0.087488769518752</location_in_parent>
+							<location_in_parent>-0.0753070258906298 -0.0704072759741248 -0.0889411126148173</location_in_parent>
 							<!--Orientation of the joint in the parent body specified in the parent reference frame. Euler XYZ body-fixed rotation angles are used to express the orientation. Default is (0,0,0).-->
 							<orientation_in_parent>0 0 0</orientation_in_parent>
 							<!--Location of the joint in the child body specified in the child reference frame. For SIMM models, this vector is always the zero vector (i.e., the body reference frame coincides with the joint). -->
@@ -1413,7 +1413,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>1.04776969483535</scale>
+											<scale>1.06516302532715</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -1430,7 +1430,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>1.04776969483535</scale>
+											<scale>1.06516302532715</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -1447,7 +1447,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>1.04776969483535</scale>
+											<scale>1.06516302532715</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -1478,7 +1478,7 @@
 							<groups />
 						</GeometrySet>
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
-						<scale_factors> 1.04357 1.04357 1.04357</scale_factors>
+						<scale_factors> 0.934543 0.934543 0.934543</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
 						<transform> 0 0 0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
@@ -1492,11 +1492,11 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="tibia_l_amputated">
-					<mass>2.19600251341542</mass>
-					<mass_center> 0 -0.126465 0</mass_center>
-					<inertia_xx>0.0393488686150306</inertia_xx>
-					<inertia_yy>0.00674869619103632</inertia_yy>
-					<inertia_zz>0.0398953806791282</inertia_zz>
+					<mass>1.55173276947713</mass>
+					<mass_center> 0 -0.0953017 0</mass_center>
+					<inertia_xx>0.0271427541008258</inertia_xx>
+					<inertia_yy>0.0061035293612968</inertia_yy>
+					<inertia_zz>0.0275197367966706</inertia_zz>
 					<inertia_xy>0</inertia_xy>
 					<inertia_xz>0</inertia_xz>
 					<inertia_yz>0</inertia_yz>
@@ -1524,7 +1524,7 @@
 										<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
 										<default_speed_value>0</default_speed_value>
 										<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
-										<range>-2.0943951 0.0872664626</range>
+										<range>-2.0943951 0.17453293</range>
 										<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 										<clamped>true</clamped>
 										<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
@@ -1593,7 +1593,7 @@
 													<y> -0.0032 0.00179 0.00411 0.0041 0.00212 -0.001 -0.0031 -0.005227 -0.005435 -0.005574 -0.005435 -0.00525</y>
 												</SimmSpline>
 											</function>
-											<scale>1.04357069266823</scale>
+											<scale>0.93454259746513</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -1611,7 +1611,7 @@
 													<y> -0.4226 -0.4082 -0.399 -0.3976 -0.3966 -0.395264 -0.396</y>
 												</SimmSpline>
 											</function>
-											<scale>1.04357069266823</scale>
+											<scale>0.93454259746513</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -1628,7 +1628,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>1.04357069266823</scale>
+											<scale>0.93454259746513</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -1671,11 +1671,59 @@
 									<!--Display opacity between 0.0 and 1.0-->
 									<opacity>0.4</opacity>
 								</DisplayGeometry>
+								<DisplayGeometry>
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file>coordarrow.stl</geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color> 0 1 0</color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file />
+									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
+									<transform> 1.57 0 0 -0 0 -0</transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors> 0.001 0.001 0.001</scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference>4</display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>1</opacity>
+								</DisplayGeometry>
+								<DisplayGeometry>
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file>coordarrow.stl</geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color> 1 0 0</color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file />
+									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
+									<transform> 0 0 -1.57 -0 0 -0</transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors> 0.001 0.001 0.001</scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference>4</display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>1</opacity>
+								</DisplayGeometry>
+								<DisplayGeometry>
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file>coordarrow.stl</geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color> 1 1 0</color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file />
+									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
+									<transform> 0 0 0 -0 0 -0</transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors> 0.001 0.001 0.001</scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference>4</display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>1</opacity>
+								</DisplayGeometry>
 							</objects>
 							<groups />
 						</GeometrySet>
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
-						<scale_factors> 1.14809 1.14809 1.14809</scale_factors>
+						<scale_factors> 1.13435 1.13435 1.13435</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
 						<transform> 0 0 0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
@@ -1689,11 +1737,11 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="pylon_socket">
-					<mass>0.301176385030171</mass>
-					<mass_center> 0 -0.0563711 0</mass_center>
-					<inertia_xx>0.0179965231760969</inertia_xx>
-					<inertia_yy>0.00277887490219142</inertia_yy>
-					<inertia_zz>0.0179965231760969</inertia_zz>
+					<mass>0.2790258969615</mass>
+					<mass_center> 0 -0.0556962 0</mass_center>
+					<inertia_xx>0.0162760782967915</inertia_xx>
+					<inertia_yy>0.00251321797229868</inertia_yy>
+					<inertia_zz>0.0162760782967915</inertia_zz>
 					<inertia_xy>0</inertia_xy>
 					<inertia_xz>0</inertia_xz>
 					<inertia_yz>0</inertia_yz>
@@ -1703,13 +1751,13 @@
 							<!--Name of the parent body to which this joint connects its owner body.-->
 							<parent_body>tibia_l_amputated</parent_body>
 							<!--Location of the joint in the parent body specified in the parent reference frame. Default is (0,0,0).-->
-							<location_in_parent>0.00574043791722032 -0.218452364939819 0</location_in_parent>
+							<location_in_parent>0.00567170724969559 -0.164621302922414 0</location_in_parent>
 							<!--Orientation of the joint in the parent body specified in the parent reference frame. Euler XYZ body-fixed rotation angles are used to express the orientation. Default is (0,0,0).-->
 							<orientation_in_parent>0 0 0</orientation_in_parent>
 							<!--Location of the joint in the child body specified in the child reference frame. For SIMM models, this vector is always the zero vector (i.e., the body reference frame coincides with the joint). -->
-							<location>0 0.0283864655006545 0</location>
+							<location>0 0.0792621088144959 0</location>
 							<!--Orientation of the joint in the owing body specified in the owning body reference frame.  Euler XYZ body-fixed rotation angles are used to express the orientation. -->
-							<orientation>0 0 0.01</orientation>
+							<orientation>0 0 0</orientation>
 							<!--Set holding the generalized coordinates (q's) that parmeterize this joint.-->
 							<CoordinateSet>
 								<objects>
@@ -1743,7 +1791,7 @@
 										<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 										<clamped>true</clamped>
 										<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
-										<locked>true</locked>
+										<locked>false</locked>
 										<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
 										<prescribed_function />
 										<!--Flag indicating whether or not the values of the coordinates should be prescribed according to the function above. It is ignored if the no prescribed function is specified.-->
@@ -1761,7 +1809,7 @@
 										<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 										<clamped>true</clamped>
 										<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
-										<locked>true</locked>
+										<locked>false</locked>
 										<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
 										<prescribed_function />
 										<!--Flag indicating whether or not the values of the coordinates should be prescribed according to the function above. It is ignored if the no prescribed function is specified.-->
@@ -1777,9 +1825,9 @@
 										<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 										<range>-0.02 0.02</range>
 										<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
-										<clamped>false</clamped>
+										<clamped>true</clamped>
 										<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
-										<locked>true</locked>
+										<locked>false</locked>
 										<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
 										<prescribed_function />
 										<!--Flag indicating whether or not the values of the coordinates should be prescribed according to the function above. It is ignored if the no prescribed function is specified.-->
@@ -1797,7 +1845,7 @@
 										<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 										<clamped>true</clamped>
 										<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
-										<locked>true</locked>
+										<locked>false</locked>
 										<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
 										<prescribed_function />
 										<!--Flag indicating whether or not the values of the coordinates should be prescribed according to the function above. It is ignored if the no prescribed function is specified.-->
@@ -1813,9 +1861,9 @@
 										<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
 										<range>-0.02 0.02</range>
 										<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
-										<clamped>false</clamped>
+										<clamped>true</clamped>
 										<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
-										<locked>true</locked>
+										<locked>false</locked>
 										<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
 										<prescribed_function />
 										<!--Flag indicating whether or not the values of the coordinates should be prescribed according to the function above. It is ignored if the no prescribed function is specified.-->
@@ -1929,7 +1977,7 @@
 							<groups />
 						</GeometrySet>
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
-						<scale_factors> 1.14809 1.14809 1.14809</scale_factors>
+						<scale_factors> 1.13435 1.13435 1.13435</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
 						<transform> 0 0 0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
@@ -1943,11 +1991,11 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="foot1">
-					<mass>0.301176385030171</mass>
-					<mass_center> 0.00402756 -0.0225351 0.000191788</mass_center>
-					<inertia_xx>0.00018463510789811</inertia_xx>
-					<inertia_yy>9.23175539490548e-005</inertia_yy>
-					<inertia_zz>0.000276952661847164</inertia_zz>
+					<mass>0.2790258969615</mass>
+					<mass_center> 0.00398253 -0.0222833 0.000189645</mass_center>
+					<inertia_xx>0.000167253052137536</inertia_xx>
+					<inertia_yy>8.3626526068768e-005</inertia_yy>
+					<inertia_zz>0.000250879578206304</inertia_zz>
 					<inertia_xy>0</inertia_xy>
 					<inertia_xz>0</inertia_xz>
 					<inertia_yz>0</inertia_yz>
@@ -1957,7 +2005,7 @@
 							<!--Name of the parent body to which this joint connects its owner body.-->
 							<parent_body>pylon_socket</parent_body>
 							<!--Location of the joint in the parent body specified in the parent reference frame. Default is (0,0,0).-->
-							<location_in_parent>0 -0.22043281602126 0</location_in_parent>
+							<location_in_parent>0 -0.21779355838831 0</location_in_parent>
 							<!--Orientation of the joint in the parent body specified in the parent reference frame. Euler XYZ body-fixed rotation angles are used to express the orientation. Default is (0,0,0).-->
 							<orientation_in_parent>0 0.06 -0.015</orientation_in_parent>
 							<!--Location of the joint in the child body specified in the child reference frame. For SIMM models, this vector is always the zero vector (i.e., the body reference frame coincides with the joint). -->
@@ -1993,11 +2041,59 @@
 									<!--Display opacity between 0.0 and 1.0-->
 									<opacity>0.5</opacity>
 								</DisplayGeometry>
+								<DisplayGeometry>
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file>coordarrow.stl</geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color> 0 1 0</color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file />
+									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
+									<transform> 1.57 0 0 -0 0 -0</transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors> 0.001 0.001 0.001</scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference>4</display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>1</opacity>
+								</DisplayGeometry>
+								<DisplayGeometry>
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file>coordarrow.stl</geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color> 1 0 0</color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file />
+									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
+									<transform> 0 0 -1.57 -0 0 -0</transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors> 0.001 0.001 0.001</scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference>4</display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>1</opacity>
+								</DisplayGeometry>
+								<DisplayGeometry>
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file>coordarrow.stl</geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color> 1 1 0</color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file />
+									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
+									<transform> 0 0 0 -0 0 -0</transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors> 0.001 0.001 0.001</scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference>4</display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>1</opacity>
+								</DisplayGeometry>
 							</objects>
 							<groups />
 						</GeometrySet>
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
-						<scale_factors> 0.958942 0.958942 0.958942</scale_factors>
+						<scale_factors> 0.948222 0.948222 0.948222</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
 						<transform> 0 0 0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
@@ -2011,11 +2107,11 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="foot2">
-					<mass>0.200784256686781</mass>
-					<mass_center> 0.0151278 -0.00673936 -0.00101371</mass_center>
-					<inertia_xx>9.23175539490548e-005</inertia_xx>
-					<inertia_yy>0.00018463510789811</inertia_yy>
-					<inertia_zz>9.23175539490548e-005</inertia_zz>
+					<mass>0.186017264641</mass>
+					<mass_center> 0.0149588 -0.00666402 -0.00100238</mass_center>
+					<inertia_xx>8.3626526068768e-005</inertia_xx>
+					<inertia_yy>0.000167253052137536</inertia_yy>
+					<inertia_zz>8.3626526068768e-005</inertia_zz>
 					<inertia_xy>0</inertia_xy>
 					<inertia_xz>0</inertia_xz>
 					<inertia_yz>0</inertia_yz>
@@ -2025,7 +2121,7 @@
 							<!--Name of the parent body to which this joint connects its owner body.-->
 							<parent_body>foot1</parent_body>
 							<!--Location of the joint in the parent body specified in the parent reference frame. Default is (0,0,0).-->
-							<location_in_parent>0.0306861421130254 -0.0402755615233458 0</location_in_parent>
+							<location_in_parent>0.0303431299675454 -0.0398253580824034 0</location_in_parent>
 							<!--Orientation of the joint in the parent body specified in the parent reference frame. Euler XYZ body-fixed rotation angles are used to express the orientation. Default is (0,0,0).-->
 							<orientation_in_parent>0 0 0</orientation_in_parent>
 							<!--Location of the joint in the child body specified in the child reference frame. For SIMM models, this vector is always the zero vector (i.e., the body reference frame coincides with the joint). -->
@@ -2043,7 +2139,7 @@
 										<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
 										<default_speed_value>0</default_speed_value>
 										<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
-										<range>-1.57 1.57</range>
+										<range>-0.26 0.26</range>
 										<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 										<clamped>true</clamped>
 										<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
@@ -2080,11 +2176,59 @@
 									<!--Display opacity between 0.0 and 1.0-->
 									<opacity>0.5</opacity>
 								</DisplayGeometry>
+								<DisplayGeometry>
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file>coordarrow.stl</geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color> 0 1 0</color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file />
+									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
+									<transform> 1.57 0 0 -0 0 -0</transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors> 0.0005 0.0005 0.0005</scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference>4</display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>1</opacity>
+								</DisplayGeometry>
+								<DisplayGeometry>
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file>coordarrow.stl</geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color> 1 0 0</color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file />
+									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
+									<transform> 0 0 -1.57 -0 0 -0</transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors> 0.0005 0.0005 0.0005</scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference>4</display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>1</opacity>
+								</DisplayGeometry>
+								<DisplayGeometry>
+									<!--Name of geometry file .vtp, .stl, .obj-->
+									<geometry_file>coordarrow.stl</geometry_file>
+									<!--Color used to display the geometry when visible-->
+									<color> 1 1 0</color>
+									<!--Name of texture file .jpg, .bmp-->
+									<texture_file />
+									<!--in body transform specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
+									<transform> 0 0 0 -0 0 -0</transform>
+									<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
+									<scale_factors> 0.0005 0.0005 0.0005</scale_factors>
+									<!--Display Pref. 0:Hide 1:Wire 3:Flat 4:Shaded-->
+									<display_preference>4</display_preference>
+									<!--Display opacity between 0.0 and 1.0-->
+									<opacity>1</opacity>
+								</DisplayGeometry>
 							</objects>
 							<groups />
 						</GeometrySet>
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
-						<scale_factors> 0.958942 0.958942 0.958942</scale_factors>
+						<scale_factors> 0.948222 0.948222 0.948222</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
 						<transform> 0 0 0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
@@ -2098,11 +2242,11 @@
 					</WrapObjectSet>
 				</Body>
 				<Body name="torso">
-					<mass>34.3708514124133</mass>
-					<mass_center> -0.033362 0.355861 0</mass_center>
-					<inertia_xx>1.83064784892277</inertia_xx>
-					<inertia_yy>0.937981993802072</inertia_yy>
-					<inertia_zz>1.77713755913737</inertia_zz>
+					<mass>31.8429934130402</mass>
+					<mass_center> -0.0328809 0.35073 0</mass_center>
+					<inertia_xx>1.64744951333392</inertia_xx>
+					<inertia_yy>0.844115366106326</inertia_yy>
+					<inertia_zz>1.59929415624699</inertia_zz>
 					<inertia_xy>0</inertia_xy>
 					<inertia_xz>0</inertia_xz>
 					<inertia_yz>0</inertia_yz>
@@ -2112,7 +2256,7 @@
 							<!--Name of the parent body to which this joint connects its owner body.-->
 							<parent_body>pelvis</parent_body>
 							<!--Location of the joint in the parent body specified in the parent reference frame. Default is (0,0,0).-->
-							<location_in_parent>-0.10551040826992 0.0853932301290812 0</location_in_parent>
+							<location_in_parent>-0.107261916650444 0.0868107865641631 0</location_in_parent>
 							<!--Orientation of the joint in the parent body specified in the parent reference frame. Euler XYZ body-fixed rotation angles are used to express the orientation. Default is (0,0,0).-->
 							<orientation_in_parent>0 0 0</orientation_in_parent>
 							<!--Location of the joint in the child body specified in the child reference frame. For SIMM models, this vector is always the zero vector (i.e., the body reference frame coincides with the joint). -->
@@ -2234,7 +2378,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>1.04776969483535</scale>
+											<scale>1.06516302532715</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -2251,7 +2395,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>1.04776969483535</scale>
+											<scale>1.06516302532715</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -2268,7 +2412,7 @@
 													<value>0</value>
 												</Constant>
 											</function>
-											<scale>1.04776969483535</scale>
+											<scale>1.06516302532715</scale>
 										</MultiplierFunction>
 									</function>
 								</TransformAxis>
@@ -2347,7 +2491,7 @@
 							<groups />
 						</GeometrySet>
 						<!--Three scale factors for display purposes: scaleX scaleY scaleZ-->
-						<scale_factors> 1.11207 1.11207 1.11207</scale_factors>
+						<scale_factors> 1.09603 1.09603 1.09603</scale_factors>
 						<!--transform relative to owner specified as 3 rotations (rad) followed by 3 translations rX rY rZ tx ty tz-->
 						<transform> 0 0 0 0 0 0</transform>
 						<!--Whether to show a coordinate frame-->
@@ -2384,11 +2528,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="glut_med1_r-P1">
-									<location> -0.042749 0.0318522 0.126675</location>
+									<location> -0.0434586 0.032381 0.128778</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="glut_med1_r-P2">
-									<location> -0.0227499 -0.0122098 0.0579182</location>
+									<location> -0.0203731 -0.0109342 0.0518671</location>
 									<body>femur_r</body>
 								</PathPoint>
 							</objects>
@@ -2421,9 +2565,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1119</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.0560038732848241</optimal_fiber_length>
+					<optimal_fiber_length>0.0554590260510417</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.0816505068451641</tendon_slack_length>
+					<tendon_slack_length>0.0808561501304907</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.13962634</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -2458,11 +2602,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="glut_med2_r-P1">
-									<location> -0.0895843 0.0466258 0.0802592</location>
+									<location> -0.0910714 0.0473997 0.0815915</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="glut_med2_r-P2">
-									<location> -0.0269241 -0.00605271 0.0549961</location>
+									<location> -0.0241112 -0.00542035 0.0492504</location>
 									<body>femur_r</body>
 								</PathPoint>
 							</objects>
@@ -2495,9 +2639,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>873</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.0884521763224805</optimal_fiber_length>
+					<optimal_fiber_length>0.0874799013860548</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.0554788798235677</tendon_slack_length>
+					<tendon_slack_length>0.0548690505735018</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -2532,11 +2676,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="glut_med3_r-P1">
-									<location> -0.128142 0.0110016 0.0678954</location>
+									<location> -0.13027 0.0111842 0.0690225</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="glut_med3_r-P2">
-									<location> -0.0322464 -0.00490478 0.054057</location>
+									<location> -0.0288774 -0.00439235 0.0484093</location>
 									<body>femur_r</body>
 								</PathPoint>
 							</objects>
@@ -2569,9 +2713,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1000</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.0676093696261533</optimal_fiber_length>
+					<optimal_fiber_length>0.0665447954540338</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.0554689874641815</tendon_slack_length>
+					<tendon_slack_length>0.0545955752177057</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.33161256</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -2606,15 +2750,15 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="bifemlh_r-P1">
-									<location> -0.131977 -0.10747 0.0727572</location>
+									<location> -0.134168 -0.109254 0.0739649</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="bifemlh_r-P2">
-									<location> -0.0345574 -0.0413312 0.0337883</location>
+									<location> -0.0341436 -0.0408363 0.0333837</location>
 									<body>tibia_r</body>
 								</PathPoint>
 								<PathPoint name="bifemlh_r-P3">
-									<location> -0.0268653 -0.0646374 0.0393794</location>
+									<location> -0.0265436 -0.0638635 0.038908</location>
 									<body>tibia_r</body>
 								</PathPoint>
 							</objects>
@@ -2647,9 +2791,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>2700</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.115327946369921</optimal_fiber_length>
+					<optimal_fiber_length>0.103881033457061</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.344925784555912</tendon_slack_length>
+					<tendon_slack_length>0.310690063366991</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -2684,15 +2828,15 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="bifemsh_r-P1">
-									<location> 0.00521785 -0.220298 0.0244196</location>
+									<location> 0.00467271 -0.197282 0.0218683</location>
 									<body>femur_r</body>
 								</PathPoint>
 								<PathPoint name="bifemsh_r-P2">
-									<location> -0.0345574 -0.0413312 0.0337883</location>
+									<location> -0.0341436 -0.0408363 0.0333837</location>
 									<body>tibia_r</body>
 								</PathPoint>
 								<PathPoint name="bifemsh_r-P3">
-									<location> -0.0268653 -0.0646374 0.0393794</location>
+									<location> -0.0265436 -0.0638635 0.038908</location>
 									<body>tibia_r</body>
 								</PathPoint>
 							</objects>
@@ -2725,9 +2869,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>804</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.185218347802988</optimal_fiber_length>
+					<optimal_fiber_length>0.170668632870097</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.0952857396211904</tendon_slack_length>
+					<tendon_slack_length>0.0878006261586049</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.40142573</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -2762,23 +2906,23 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="sar_r-P1">
-									<location> -0.0160309 -0.0013621 0.130133</location>
+									<location> -0.016297 -0.00138471 0.132293</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="sar_r-P2">
-									<location> -0.00313071 -0.372346 -0.0439344</location>
+									<location> -0.00280363 -0.333444 -0.0393442</location>
 									<body>femur_r</body>
 								</PathPoint>
 								<PathPoint name="sar_r-P3">
-									<location> -0.00642929 -0.0481048 -0.0458087</location>
+									<location> -0.00635231 -0.0475289 -0.0452602</location>
 									<body>tibia_r</body>
 								</PathPoint>
 								<PathPoint name="sar_r-P4">
-									<location> 0.00688853 -0.0676224 -0.0439718</location>
+									<location> 0.00680605 -0.0668127 -0.0434452</location>
 									<body>tibia_r</body>
 								</PathPoint>
 								<PathPoint name="sar_r-P5">
-									<location> 0.0278985 -0.0964394 -0.0289318</location>
+									<location> 0.0275645 -0.0952847 -0.0285854</location>
 									<body>tibia_r</body>
 								</PathPoint>
 							</objects>
@@ -2811,9 +2955,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>156</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.552168494611344</optimal_fiber_length>
+					<optimal_fiber_length>0.513144064994414</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.10618624896372</tendon_slack_length>
+					<tendon_slack_length>0.0986815509604643</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -2848,11 +2992,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="add_mag2_r-P1">
-									<location> -0.0870697 -0.124894 0.0322713</location>
+									<location> -0.0885151 -0.126967 0.032807</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="add_mag2_r-P2">
-									<location> 0.00563528 -0.238456 0.023689</location>
+									<location> 0.00504653 -0.213543 0.0212141</location>
 									<body>femur_r</body>
 								</PathPoint>
 							</objects>
@@ -2885,9 +3029,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>2343</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.126201449301061</optimal_fiber_length>
+					<optimal_fiber_length>0.11103320418931</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.125158462116754</tendon_slack_length>
+					<tendon_slack_length>0.110115574402621</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.05235988</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -2922,19 +3066,19 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="tfl_r-P1">
-									<location> -0.0325856 0.0224223 0.130029</location>
+									<location> -0.0331265 0.0227945 0.132187</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="tfl_r-P2">
-									<location> 0.030681 -0.103836 0.0623012</location>
+									<location> 0.0274755 -0.092987 0.0557922</location>
 									<body>femur_r</body>
 								</PathPoint>
 								<PathPoint name="tfl_r-P3">
-									<location> 0.00563528 -0.422542 0.0372555</location>
+									<location> 0.00504653 -0.378397 0.0333631</location>
 									<body>femur_r</body>
 								</PathPoint>
 								<PathPoint name="tfl_r-P4">
-									<location> 0.00688853 -0.0559118 0.0340982</location>
+									<location> 0.00680605 -0.0552424 0.0336899</location>
 									<body>tibia_r</body>
 								</PathPoint>
 							</objects>
@@ -2967,9 +3111,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>233</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.100027916849171</optimal_fiber_length>
+					<optimal_fiber_length>0.092409005683954</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.447493312219977</tendon_slack_length>
+					<tendon_slack_length>0.413408709638742</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.05235988</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -3004,11 +3148,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="pect_r-P1">
-									<location> -0.0451589 -0.0804687 0.0472544</location>
+									<location> -0.0459086 -0.0818045 0.0480389</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="pect_r-P2">
-									<location> -0.0127316 -0.0857815 0.0264023</location>
+									<location> -0.0114014 -0.0768194 0.0236439</location>
 									<body>femur_r</body>
 								</PathPoint>
 							</objects>
@@ -3041,9 +3185,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>266</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.104465726227853</optimal_fiber_length>
+					<optimal_fiber_length>0.0969639610587502</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.0344736896551913</tendon_slack_length>
+					<tendon_slack_length>0.0319981071493876</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -3078,21 +3222,21 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="grac_r-P1">
-									<location> -0.0775454 -0.12437 0.0292747</location>
+									<location> -0.0788327 -0.126435 0.0297607</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<ConditionalPathPoint name="grac_r-P2">
-									<location> -0.0305046 -0.036624 -0.0433288</location>
+									<location> -0.0301395 -0.0361855 -0.04281</location>
 									<body>tibia_r</body>
 									<range> -0.436332 0.174533</range>
 									<coordinate>knee_angle_r</coordinate>
 								</ConditionalPathPoint>
 								<PathPoint name="grac_r-P3">
-									<location> -0.0223073 -0.059161 -0.0411016</location>
+									<location> -0.0220402 -0.0584526 -0.0406094</location>
 									<body>tibia_r</body>
 								</PathPoint>
 								<PathPoint name="grac_r-P4">
-									<location> 0.00688853 -0.0959801 -0.0261764</location>
+									<location> 0.00680605 -0.094831 -0.025863</location>
 									<body>tibia_r</body>
 								</PathPoint>
 							</objects>
@@ -3125,9 +3269,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>162</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.375197834543205</optimal_fiber_length>
+					<optimal_fiber_length>0.339073068046961</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.134303770319443</tendon_slack_length>
+					<tendon_slack_length>0.121372745948628</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.05235988</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -3162,19 +3306,19 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="glut_max1_r-P1">
-									<location> -0.125208 0.0641235 0.0733439</location>
+									<location> -0.127287 0.065188 0.0745614</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="glut_max1_r-P2">
-									<location> -0.135267 0.00125732 0.0928324</location>
+									<location> -0.137512 0.00127819 0.0943734</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="glut_max1_r-P3">
-									<location> -0.0476911 -0.0258805 0.0409079</location>
+									<location> -0.0427086 -0.0231767 0.0366341</location>
 									<body>femur_r</body>
 								</PathPoint>
 								<PathPoint name="glut_max1_r-P4">
-									<location> -0.0289069 -0.0590661 0.0490478</location>
+									<location> -0.0258868 -0.0528952 0.0439235</location>
 									<body>femur_r</body>
 								</PathPoint>
 							</objects>
@@ -3207,9 +3351,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>573</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.148580506463433</optimal_fiber_length>
+					<optimal_fiber_length>0.14513528180247</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.130792699351614</tendon_slack_length>
+					<tendon_slack_length>0.127759931164146</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.08726646</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -3244,19 +3388,19 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="glut_max2_r-P1">
-									<location> -0.141345 0.0184407 0.0589895</location>
+									<location> -0.143691 0.0187469 0.0599686</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="glut_max2_r-P2">
-									<location> -0.144173 -0.054484 0.0957662</location>
+									<location> -0.146567 -0.0553884 0.0973559</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="glut_max2_r-P3">
-									<location> -0.0444562 -0.0553092 0.0305766</location>
+									<location> -0.0398115 -0.0495308 0.0273821</location>
 									<body>femur_r</body>
 								</PathPoint>
 								<PathPoint name="glut_max2_r-P4">
-									<location> -0.0162797 -0.106027 0.0437256</location>
+									<location> -0.0145789 -0.0949495 0.0391573</location>
 									<body>femur_r</body>
 								</PathPoint>
 							</objects>
@@ -3289,9 +3433,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>819</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.153729994501748</optimal_fiber_length>
+					<optimal_fiber_length>0.1477805635856</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.132814348991307</tendon_slack_length>
+					<tendon_slack_length>0.127674364458308</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -3326,19 +3470,19 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="glut_max3_r-P1">
-									<location> -0.163033 -0.0329 0.00607706</location>
+									<location> -0.165739 -0.0334461 0.00617795</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="glut_max3_r-P2">
-									<location> -0.160204 -0.110225 0.0422251</location>
+									<location> -0.162863 -0.112055 0.0429261</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="glut_max3_r-P3">
-									<location> -0.0312028 -0.108635 0.0140882</location>
+									<location> -0.0279429 -0.0972859 0.0126164</location>
 									<body>femur_r</body>
 								</PathPoint>
 								<PathPoint name="glut_max3_r-P4">
-									<location> -0.00626142 -0.148083 0.0428908</location>
+									<location> -0.00560725 -0.132612 0.0384097</location>
 									<body>femur_r</body>
 								</PathPoint>
 							</objects>
@@ -3371,9 +3515,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>552</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.150591735616172</optimal_fiber_length>
+					<optimal_fiber_length>0.144878631464553</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.151637511557952</tendon_slack_length>
+					<tendon_slack_length>0.145884733071946</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.08726646</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -3408,25 +3552,25 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="iliacus_r-P1">
-									<location> -0.0706197 0.0382436 0.0894796</location>
+									<location> -0.071792 0.0388784 0.0909649</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="iliacus_r-P2">
-									<location> -0.0270324 -0.0576273 0.0849741</location>
+									<location> -0.0274812 -0.058584 0.0863847</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<ConditionalPathPoint name="iliacus_r-P3">
-									<location> -0.0301757 -0.0843455 0.0854981</location>
+									<location> -0.0306767 -0.0857456 0.0869173</location>
 									<body>pelvis</body>
 									<range> -1.5708 0.785398</range>
 									<coordinate>hip_flexion_r</coordinate>
 								</ConditionalPathPoint>
 								<PathPoint name="iliacus_r-P4">
-									<location> 0.00177407 -0.0566658 0.00594836</location>
+									<location> 0.00158872 -0.0507456 0.0053269</location>
 									<body>femur_r</body>
 								</PathPoint>
 								<PathPoint name="iliacus_r-P5">
-									<location> -0.0201409 -0.0648057 0.0134621</location>
+									<location> -0.0180366 -0.0580351 0.0120556</location>
 									<body>femur_r</body>
 								</PathPoint>
 							</objects>
@@ -3459,9 +3603,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1073</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.104653311993271</optimal_fiber_length>
+					<optimal_fiber_length>0.102782186146632</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.104653311993271</tendon_slack_length>
+					<tendon_slack_length>0.102782186146632</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.12217305</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -3496,25 +3640,25 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="psoas_r-P1">
-									<location> -0.0677907 0.0929371 0.0302805</location>
+									<location> -0.068916 0.0944799 0.0307832</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="psoas_r-P2">
-									<location> -0.0249369 -0.0597229 0.0795257</location>
+									<location> -0.0253509 -0.0607143 0.0808459</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<ConditionalPathPoint name="psoas_r-P3">
-									<location> -0.0301757 -0.0843455 0.0854981</location>
+									<location> -0.0306767 -0.0857456 0.0869173</location>
 									<body>pelvis</body>
 									<range> -1.5708 0.785398</range>
 									<coordinate>hip_flexion_r</coordinate>
 								</ConditionalPathPoint>
 								<PathPoint name="psoas_r-P4">
-									<location> 0.00166971 -0.0529091 0.00396557</location>
+									<location> 0.00149527 -0.0473813 0.00355126</location>
 									<body>femur_r</body>
 								</PathPoint>
 								<PathPoint name="psoas_r-P5">
-									<location> -0.0196191 -0.0623012 0.0108531</location>
+									<location> -0.0175694 -0.0557922 0.00971925</location>
 									<body>femur_r</body>
 								</PathPoint>
 							</objects>
@@ -3547,9 +3691,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1113</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.104686601102819</optimal_fiber_length>
+					<optimal_fiber_length>0.103793438532259</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.167498561764511</tendon_slack_length>
+					<tendon_slack_length>0.166069501651615</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.13962634</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -3584,11 +3728,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="quad_fem_r-P1">
-									<location> -0.11976 -0.120599 0.054484</location>
+									<location> -0.121748 -0.1226 0.0553884</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="quad_fem_r-P2">
-									<location> -0.03976 -0.0374642 0.0381946</location>
+									<location> -0.0356061 -0.03355 0.0342043</location>
 									<body>femur_r</body>
 								</PathPoint>
 							</objects>
@@ -3621,9 +3765,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>381</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.0564949555653342</optimal_fiber_length>
+					<optimal_fiber_length>0.0551945716007922</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.0251088691401486</tendon_slack_length>
+					<tendon_slack_length>0.0245309207114632</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -3658,11 +3802,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="gem_r-P1">
-									<location> -0.118713 -0.0859171 0.0748108</location>
+									<location> -0.120683 -0.0873434 0.0760527</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="gem_r-P2">
-									<location> -0.0148188 -0.00344379 0.0462302</location>
+									<location> -0.0132705 -0.00308399 0.0414003</location>
 									<body>femur_r</body>
 								</PathPoint>
 							</objects>
@@ -3695,9 +3839,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>164</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.0250966147616371</optimal_fiber_length>
+					<optimal_fiber_length>0.0240682747092718</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.0407819989876603</tendon_slack_length>
+					<tendon_slack_length>0.0391109464025666</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -3732,15 +3876,15 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="peri_r-P1">
-									<location> -0.146269 0.000314331 0.0246226</location>
+									<location> -0.148697 0.000319549 0.0250313</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="peri_r-P2">
-									<location> -0.124999 -0.0289184 0.0688384</location>
+									<location> -0.127074 -0.0293985 0.0699812</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="peri_r-P3">
-									<location> -0.0154449 -0.00375685 0.0456041</location>
+									<location> -0.0138312 -0.00336436 0.0408395</location>
 									<body>femur_r</body>
 								</PathPoint>
 							</objects>
@@ -3773,9 +3917,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>444</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.0272191536533671</optimal_fiber_length>
+					<optimal_fiber_length>0.0270081715850724</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.120392410389893</tendon_slack_length>
+					<tendon_slack_length>0.119459220472436</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.17453293</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -3810,17 +3954,17 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="rect_fem_r-P1">
-									<location> -0.0309093 -0.0325856 0.101424</location>
+									<location> -0.0314223 -0.0331265 0.103108</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<ConditionalPathPoint name="rect_fem_r-P2">
-									<location> 0.0348552 -0.420559 0.00198279</location>
+									<location> 0.0312137 -0.376621 0.00177563</location>
 									<body>femur_r</body>
 									<range> -2.61799 -1.45997</range>
 									<coordinate>knee_angle_r</coordinate>
 								</ConditionalPathPoint>
 								<MovingPathPoint name="rect_fem_r-P3">
-									<location> 0.0670232 0.0250615 0.00160732</location>
+									<location> 0.0700542 0.023803 0.00158808</location>
 									<body>tibia_r</body>
 									<x_location>
 										<MultiplierFunction>
@@ -3830,7 +3974,7 @@
 													<y> 0.0155805 0.0179938 0.0275081 0.0296564 0.0307615 0.0365695 0.0422074 0.0450902 0.048391 0.0534299 0.0617576 0.0617669 0.0617762 0.0633083 0.066994 0.0733035 0.0573481</y>
 												</SimmSpline>
 											</function>
-											<scale>1.14808758344406</scale>
+											<scale>1.13434144993912</scale>
 										</MultiplierFunction>
 									</x_location>
 									<x_coordinate>knee_angle_r</x_coordinate>
@@ -3842,7 +3986,7 @@
 													<y> 0.0234116 0.0237613 0.0251141 0.0252795 0.0253146 0.0249184 0.0242373 0.0238447 0.0234197 0.0227644 0.020984 0.0209814 0.0209788 0.0205225 0.0191754 0.0159554 -0.0673774</y>
 												</SimmSpline>
 											</function>
-											<scale>1.14808758344406</scale>
+											<scale>1.13434144993912</scale>
 										</MultiplierFunction>
 									</y_location>
 									<y_coordinate>knee_angle_r</y_coordinate>
@@ -3854,7 +3998,7 @@
 													<y> 0.0014 0.0014</y>
 												</SimmSpline>
 											</function>
-											<scale>1.14808758344406</scale>
+											<scale>1.13434144993912</scale>
 										</MultiplierFunction>
 									</z_location>
 									<z_coordinate>knee_angle_r</z_coordinate>
@@ -3889,9 +4033,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1169</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.118479969602584</optimal_fiber_length>
+					<optimal_fiber_length>0.106748606356996</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.322182373480711</tendon_slack_length>
+					<tendon_slack_length>0.290281297988321</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.08726646</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -3926,21 +4070,21 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="vas_int_r-P1">
-									<location> 0.0302635 -0.200783 0.0323507</location>
+									<location> 0.0271017 -0.179806 0.0289708</location>
 									<body>femur_r</body>
 								</PathPoint>
 								<PathPoint name="vas_int_r-P2">
-									<location> 0.0349597 -0.21748 0.0297417</location>
+									<location> 0.0313071 -0.194759 0.0266345</location>
 									<body>femur_r</body>
 								</PathPoint>
 								<ConditionalPathPoint name="vas_int_r-P3">
-									<location> 0.0357945 -0.420559 0.00573964</location>
+									<location> 0.0320548 -0.376621 0.00513999</location>
 									<body>femur_r</body>
 									<range> -2.61799 -1.42</range>
 									<coordinate>knee_angle_r</coordinate>
 								</ConditionalPathPoint>
 								<MovingPathPoint name="vas_int_r-P4">
-									<location> 0.0594402 0.0294636 0.00206656</location>
+									<location> 0.0629142 0.0286901 0.00204181</location>
 									<body>tibia_r</body>
 									<x_location>
 										<MultiplierFunction>
@@ -3950,7 +4094,7 @@
 													<y> 0.0082733 0.0106866 0.0202042 0.022353 0.0234583 0.0292715 0.0349465 0.037871 0.0412569 0.0465287 0.0554632 0.0554735 0.0554837 0.0571717 0.061272 0.0684368 0.0648818</y>
 												</SimmSpline>
 											</function>
-											<scale>1.14808758344406</scale>
+											<scale>1.13434144993912</scale>
 										</MultiplierFunction>
 									</x_location>
 									<x_coordinate>knee_angle_r</x_coordinate>
@@ -3962,7 +4106,7 @@
 													<y> 0.025599 0.0259487 0.0273124 0.0274796 0.0275151 0.0271363 0.0265737 0.0263073 0.0261187 0.0260129 0.0252923 0.0252911 0.0252898 0.0250526 0.0242191 0.0218288 -0.0685706</y>
 												</SimmSpline>
 											</function>
-											<scale>1.14808758344406</scale>
+											<scale>1.13434144993912</scale>
 										</MultiplierFunction>
 									</y_location>
 									<y_coordinate>knee_angle_r</y_coordinate>
@@ -3974,7 +4118,7 @@
 													<y> 0.0018 0.0018</y>
 												</SimmSpline>
 											</function>
-											<scale>1.14808758344406</scale>
+											<scale>1.13434144993912</scale>
 										</MultiplierFunction>
 									</z_location>
 									<z_coordinate>knee_angle_r</z_coordinate>
@@ -4009,9 +4153,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>5000</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.110542843152862</optimal_fiber_length>
+					<optimal_fiber_length>0.0979964818178821</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.119840839305906</tendon_slack_length>
+					<tendon_slack_length>0.106239176550227</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.05235988</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -4046,17 +4190,17 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="med_gas_r-P1">
-									<location> -0.0198279 -0.410019 -0.0245239</location>
+									<location> -0.0177563 -0.367182 -0.0219617</location>
 									<body>femur_r</body>
 								</PathPoint>
 								<ConditionalPathPoint name="med_gas_r-P2">
-									<location> -0.0313071 -0.419724 -0.0269241</location>
+									<location> -0.0280363 -0.375873 -0.0241112</location>
 									<body>femur_r</body>
 									<range> -0.785398 0.174533</range>
 									<coordinate>knee_angle_r</coordinate>
 								</ConditionalPathPoint>
 								<PathPoint name="med_gas_r-P3">
-									<location> 0 0.0297272 -0.0050824</location>
+									<location> 0 0.0293949 -0.00502558</location>
 									<body>calcn_r</body>
 								</PathPoint>
 							</objects>
@@ -4089,9 +4233,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>2500</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.102642855802595</optimal_fiber_length>
+					<optimal_fiber_length>0.101250404934766</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.41057142321038</tendon_slack_length>
+					<tendon_slack_length>0.405001619739063</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.29670597</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -4126,11 +4270,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="soleus_r-P1">
-									<location> -0.00275541 -0.176002 0.00815142</location>
+									<location> -0.00272242 -0.173895 0.00805382</location>
 									<body>tibia_r</body>
 								</PathPoint>
 								<PathPoint name="soleus_r-P2">
-									<location> 0 0.0297272 -0.0050824</location>
+									<location> 0 0.0293949 -0.00502558</location>
 									<body>calcn_r</body>
 								</PathPoint>
 							</objects>
@@ -4163,9 +4307,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>4000</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.0568230438545399</optimal_fiber_length>
+					<optimal_fiber_length>0.0561449594048201</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.284115219272699</tendon_slack_length>
+					<tendon_slack_length>0.2807247970241</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.43633231</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -4200,19 +4344,19 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="tib_post_r-P1">
-									<location> -0.0107921 -0.154762 0.00218137</location>
+									<location> -0.0106628 -0.152909 0.00215525</location>
 									<body>tibia_r</body>
 								</PathPoint>
 								<PathPoint name="tib_post_r-P2">
-									<location> -0.0165324 -0.46509 -0.0262912</location>
+									<location> -0.0163345 -0.459522 -0.0259765</location>
 									<body>tibia_r</body>
 								</PathPoint>
 								<PathPoint name="tib_post_r-P3">
-									<location> 0.0399879 0.0320287 -0.0274257</location>
+									<location> 0.0395409 0.0316706 -0.0271191</location>
 									<body>calcn_r</body>
 								</PathPoint>
 								<PathPoint name="tib_post_r-P4">
-									<location> 0.0740303 0.0152472 -0.0269463</location>
+									<location> 0.0732028 0.0150767 -0.0266451</location>
 									<body>calcn_r</body>
 								</PathPoint>
 							</objects>
@@ -4245,9 +4389,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>3600</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.0348473096068684</optimal_fiber_length>
+					<optimal_fiber_length>0.0344329875885794</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.348473096068684</tendon_slack_length>
+					<tendon_slack_length>0.344329875885794</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.20943951</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -4282,15 +4426,15 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="tib_ant_r-P1">
-									<location> 0.0205507 -0.186449 0.013203</location>
+									<location> 0.0203047 -0.184217 0.013045</location>
 									<body>tibia_r</body>
 								</PathPoint>
 								<PathPoint name="tib_ant_r-P2">
-									<location> 0.0377721 -0.45361 -0.0203211</location>
+									<location> 0.0373198 -0.448178 -0.0200779</location>
 									<body>tibia_r</body>
 								</PathPoint>
 								<PathPoint name="tib_ant_r-P3">
-									<location> 0.111812 0.0170691 -0.0292478</location>
+									<location> 0.110562 0.0168784 -0.0289208</location>
 									<body>calcn_r</body>
 								</PathPoint>
 							</objects>
@@ -4323,9 +4467,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>3000</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.109255759800195</optimal_fiber_length>
+					<optimal_fiber_length>0.107959801741013</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.248612596280035</tendon_slack_length>
+					<tendon_slack_length>0.245663630492307</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.08726646</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -4360,11 +4504,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="glut_med1_l-P1">
-									<location> -0.042749 0.0318522 -0.126675</location>
+									<location> -0.0434586 0.032381 -0.128778</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="glut_med1_l-P2">
-									<location> -0.0227499 -0.0122098 -0.0579182</location>
+									<location> -0.0203731 -0.0109342 -0.0518671</location>
 									<body>femur_l</body>
 								</PathPoint>
 							</objects>
@@ -4397,9 +4541,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1119</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.0560038732848241</optimal_fiber_length>
+					<optimal_fiber_length>0.0554590260510417</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.0816505068451641</tendon_slack_length>
+					<tendon_slack_length>0.0808561501304907</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.13962634</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -4434,11 +4578,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="glut_med2_l-P1">
-									<location> -0.0895843 0.0466258 -0.0802592</location>
+									<location> -0.0910714 0.0473997 -0.0815915</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="glut_med2_l-P2">
-									<location> -0.0269241 -0.00605271 -0.0549961</location>
+									<location> -0.0241112 -0.00542035 -0.0492504</location>
 									<body>femur_l</body>
 								</PathPoint>
 							</objects>
@@ -4471,9 +4615,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>873</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.0884521763224805</optimal_fiber_length>
+					<optimal_fiber_length>0.0874799013860548</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.0554788798235677</tendon_slack_length>
+					<tendon_slack_length>0.0548690505735018</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -4508,11 +4652,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="glut_med3_l-P1">
-									<location> -0.128142 0.0110016 -0.0678954</location>
+									<location> -0.13027 0.0111842 -0.0690225</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="glut_med3_l-P2">
-									<location> -0.0322464 -0.00490478 -0.054057</location>
+									<location> -0.0288774 -0.00439235 -0.0484093</location>
 									<body>femur_l</body>
 								</PathPoint>
 							</objects>
@@ -4545,9 +4689,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1000</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.0676093696261533</optimal_fiber_length>
+					<optimal_fiber_length>0.0665447954540338</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.0554689874641815</tendon_slack_length>
+					<tendon_slack_length>0.0545955752177057</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.33161256</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -4582,15 +4726,15 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="bifemlh_l-P1">
-									<location> -0.131977 -0.10747 -0.0727572</location>
+									<location> -0.134168 -0.109254 -0.0739649</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="bifemlh_l-P2">
-									<location> -0.0345574 -0.0413312 -0.0337883</location>
+									<location> -0.0341436 -0.0408363 -0.0333837</location>
 									<body>tibia_l_amputated</body>
 								</PathPoint>
 								<PathPoint name="bifemlh_l-P3">
-									<location> -0.0268653 -0.0646374 -0.0393794</location>
+									<location> -0.0265436 -0.0638635 -0.038908</location>
 									<body>tibia_l_amputated</body>
 								</PathPoint>
 							</objects>
@@ -4623,9 +4767,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>2700</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.115327946369921</optimal_fiber_length>
+					<optimal_fiber_length>0.103881033457061</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.344925784555912</tendon_slack_length>
+					<tendon_slack_length>0.310690063366991</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -4660,15 +4804,15 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="bifemsh_l-P1">
-									<location> 0.00521785 -0.220298 -0.0244196</location>
+									<location> 0.00467271 -0.197282 -0.0218683</location>
 									<body>femur_l</body>
 								</PathPoint>
 								<PathPoint name="bifemsh_l-P2">
-									<location> -0.0345574 -0.0413312 -0.0337883</location>
+									<location> -0.0341436 -0.0408363 -0.0333837</location>
 									<body>tibia_l_amputated</body>
 								</PathPoint>
 								<PathPoint name="bifemsh_l-P3">
-									<location> -0.0268653 -0.0646374 -0.0393794</location>
+									<location> -0.0265436 -0.0638635 -0.038908</location>
 									<body>tibia_l_amputated</body>
 								</PathPoint>
 							</objects>
@@ -4701,9 +4845,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>804</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.185218347802988</optimal_fiber_length>
+					<optimal_fiber_length>0.170668632870097</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.0952857396211904</tendon_slack_length>
+					<tendon_slack_length>0.0878006261586049</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.40142573</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -4738,23 +4882,23 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="sar_l-P1">
-									<location> -0.0160309 -0.0013621 -0.130133</location>
+									<location> -0.016297 -0.00138471 -0.132293</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="sar_l-P2">
-									<location> -0.00313071 -0.372346 0.0439344</location>
+									<location> -0.00280363 -0.333444 0.0393442</location>
 									<body>femur_l</body>
 								</PathPoint>
 								<PathPoint name="sar_l-P3">
-									<location> -0.00642929 -0.0481048 0.0458087</location>
+									<location> -0.00635231 -0.0475289 0.0452602</location>
 									<body>tibia_l_amputated</body>
 								</PathPoint>
 								<PathPoint name="sar_l-P4">
-									<location> 0.00688853 -0.0676224 0.0439718</location>
+									<location> 0.00680605 -0.0668127 0.0434452</location>
 									<body>tibia_l_amputated</body>
 								</PathPoint>
 								<PathPoint name="sar_l-P5">
-									<location> 0.0278985 -0.0964394 0.0289318</location>
+									<location> 0.0275645 -0.0952847 0.0285854</location>
 									<body>tibia_l_amputated</body>
 								</PathPoint>
 							</objects>
@@ -4787,9 +4931,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>156</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.552168494611344</optimal_fiber_length>
+					<optimal_fiber_length>0.513144064994414</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.10618624896372</tendon_slack_length>
+					<tendon_slack_length>0.0986815509604643</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -4824,11 +4968,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="add_mag2_l-P1">
-									<location> -0.0870697 -0.124894 -0.0322713</location>
+									<location> -0.0885151 -0.126967 -0.032807</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="add_mag2_l-P2">
-									<location> 0.00563528 -0.238456 -0.023689</location>
+									<location> 0.00504653 -0.213543 -0.0212141</location>
 									<body>femur_l</body>
 								</PathPoint>
 							</objects>
@@ -4861,9 +5005,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>2343</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.126201449301061</optimal_fiber_length>
+					<optimal_fiber_length>0.11103320418931</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.125158462116754</tendon_slack_length>
+					<tendon_slack_length>0.110115574402621</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.05235988</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -4898,19 +5042,19 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="tfl_l-P1">
-									<location> -0.0325856 0.0224223 -0.130029</location>
+									<location> -0.0331265 0.0227945 -0.132187</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="tfl_l-P2">
-									<location> 0.030681 -0.103836 -0.0623012</location>
+									<location> 0.0274755 -0.092987 -0.0557922</location>
 									<body>femur_l</body>
 								</PathPoint>
 								<PathPoint name="tfl_l-P3">
-									<location> 0.00563528 -0.422542 -0.0372555</location>
+									<location> 0.00504653 -0.378397 -0.0333631</location>
 									<body>femur_l</body>
 								</PathPoint>
 								<PathPoint name="tfl_l-P4">
-									<location> 0.00688853 -0.0559118 -0.0340982</location>
+									<location> 0.00680605 -0.0552424 -0.0336899</location>
 									<body>tibia_l_amputated</body>
 								</PathPoint>
 							</objects>
@@ -4943,9 +5087,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>233</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.100027916849171</optimal_fiber_length>
+					<optimal_fiber_length>0.092409005683954</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.447493312219977</tendon_slack_length>
+					<tendon_slack_length>0.413408709638742</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.05235988</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -4980,11 +5124,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="pect_l-P1">
-									<location> -0.0451589 -0.0804687 -0.0472544</location>
+									<location> -0.0459086 -0.0818045 -0.0480389</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="pect_l-P2">
-									<location> -0.0127316 -0.0857815 -0.0264023</location>
+									<location> -0.0114014 -0.0768194 -0.0236439</location>
 									<body>femur_l</body>
 								</PathPoint>
 							</objects>
@@ -5017,9 +5161,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>266</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.104465726227853</optimal_fiber_length>
+					<optimal_fiber_length>0.0969639610587502</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.0344736896551913</tendon_slack_length>
+					<tendon_slack_length>0.0319981071493876</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -5054,21 +5198,21 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="grac_l-P1">
-									<location> -0.0775454 -0.12437 -0.0292747</location>
+									<location> -0.0788327 -0.126435 -0.0297607</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<ConditionalPathPoint name="grac_l-P2">
-									<location> -0.0305046 -0.036624 0.0433288</location>
+									<location> -0.0301395 -0.0361855 0.04281</location>
 									<body>tibia_l_amputated</body>
 									<range> -0.436332 0.174533</range>
 									<coordinate>knee_angle_l</coordinate>
 								</ConditionalPathPoint>
 								<PathPoint name="grac_l-P3">
-									<location> -0.0223073 -0.059161 0.0411016</location>
+									<location> -0.0220402 -0.0584526 0.0406094</location>
 									<body>tibia_l_amputated</body>
 								</PathPoint>
 								<PathPoint name="grac_l-P4">
-									<location> 0.00688853 -0.0959801 0.0261764</location>
+									<location> 0.00680605 -0.094831 0.025863</location>
 									<body>tibia_l_amputated</body>
 								</PathPoint>
 							</objects>
@@ -5101,9 +5245,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>162</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.375197834543205</optimal_fiber_length>
+					<optimal_fiber_length>0.339073068046961</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.134303770319443</tendon_slack_length>
+					<tendon_slack_length>0.121372745948628</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.05235988</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -5138,19 +5282,19 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="glut_max1_l-P1">
-									<location> -0.125208 0.0641235 -0.0733439</location>
+									<location> -0.127287 0.065188 -0.0745614</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="glut_max1_l-P2">
-									<location> -0.135267 0.00125732 -0.0928324</location>
+									<location> -0.137512 0.00127819 -0.0943734</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="glut_max1_l-P3">
-									<location> -0.0476911 -0.0258805 -0.0409079</location>
+									<location> -0.0427086 -0.0231767 -0.0366341</location>
 									<body>femur_l</body>
 								</PathPoint>
 								<PathPoint name="glut_max1_l-P4">
-									<location> -0.0289069 -0.0590661 -0.0490478</location>
+									<location> -0.0258868 -0.0528952 -0.0439235</location>
 									<body>femur_l</body>
 								</PathPoint>
 							</objects>
@@ -5183,9 +5327,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>573</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.148580506463433</optimal_fiber_length>
+					<optimal_fiber_length>0.14513528180247</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.130792699351614</tendon_slack_length>
+					<tendon_slack_length>0.127759931164146</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.08726646</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -5220,19 +5364,19 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="glut_max2_l-P1">
-									<location> -0.141345 0.0184407 -0.0589895</location>
+									<location> -0.143691 0.0187469 -0.0599686</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="glut_max2_l-P2">
-									<location> -0.144173 -0.054484 -0.0957662</location>
+									<location> -0.146567 -0.0553884 -0.0973559</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="glut_max2_l-P3">
-									<location> -0.0444562 -0.0553092 -0.0305766</location>
+									<location> -0.0398115 -0.0495308 -0.0273821</location>
 									<body>femur_l</body>
 								</PathPoint>
 								<PathPoint name="glut_max2_l-P4">
-									<location> -0.0162797 -0.106027 -0.0437256</location>
+									<location> -0.0145789 -0.0949495 -0.0391573</location>
 									<body>femur_l</body>
 								</PathPoint>
 							</objects>
@@ -5265,9 +5409,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>819</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.153729994501748</optimal_fiber_length>
+					<optimal_fiber_length>0.1477805635856</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.132814348991307</tendon_slack_length>
+					<tendon_slack_length>0.127674364458308</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -5302,19 +5446,19 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="glut_max3_l-P1">
-									<location> -0.163033 -0.0329 -0.00607706</location>
+									<location> -0.165739 -0.0334461 -0.00617795</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="glut_max3_l-P2">
-									<location> -0.160204 -0.110225 -0.0422251</location>
+									<location> -0.162863 -0.112055 -0.0429261</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="glut_max3_l-P3">
-									<location> -0.0312028 -0.108635 -0.0140882</location>
+									<location> -0.0279429 -0.0972859 -0.0126164</location>
 									<body>femur_l</body>
 								</PathPoint>
 								<PathPoint name="glut_max3_l-P4">
-									<location> -0.00626142 -0.148083 -0.0428908</location>
+									<location> -0.00560725 -0.132612 -0.0384097</location>
 									<body>femur_l</body>
 								</PathPoint>
 							</objects>
@@ -5347,9 +5491,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>552</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.150591735616172</optimal_fiber_length>
+					<optimal_fiber_length>0.144878631464553</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.151637511557952</tendon_slack_length>
+					<tendon_slack_length>0.145884733071946</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.08726646</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -5384,25 +5528,25 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="iliacus_l-P1">
-									<location> -0.0706197 0.0382436 -0.0894796</location>
+									<location> -0.071792 0.0388784 -0.0909649</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="iliacus_l-P2">
-									<location> -0.0270324 -0.0576273 -0.0849741</location>
+									<location> -0.0274812 -0.058584 -0.0863847</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<ConditionalPathPoint name="iliacus_l-P3">
-									<location> -0.0301757 -0.0843455 -0.0854981</location>
+									<location> -0.0306767 -0.0857456 -0.0869173</location>
 									<body>pelvis</body>
 									<range> -1.5708 0.785398</range>
 									<coordinate>hip_flexion_l</coordinate>
 								</ConditionalPathPoint>
 								<PathPoint name="iliacus_l-P4">
-									<location> 0.00177407 -0.0566658 -0.00594836</location>
+									<location> 0.00158872 -0.0507456 -0.0053269</location>
 									<body>femur_l</body>
 								</PathPoint>
 								<PathPoint name="iliacus_l-P5">
-									<location> -0.0201409 -0.0648057 -0.0134621</location>
+									<location> -0.0180366 -0.0580351 -0.0120556</location>
 									<body>femur_l</body>
 								</PathPoint>
 							</objects>
@@ -5435,9 +5579,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1073</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.104653311993271</optimal_fiber_length>
+					<optimal_fiber_length>0.102782186146632</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.104653311993271</tendon_slack_length>
+					<tendon_slack_length>0.102782186146632</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.12217305</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -5472,25 +5616,25 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="psoas_l-P1">
-									<location> -0.0677907 0.0929371 -0.0302805</location>
+									<location> -0.068916 0.0944799 -0.0307832</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="psoas_l-P2">
-									<location> -0.0249369 -0.0597229 -0.0795257</location>
+									<location> -0.0253509 -0.0607143 -0.0808459</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<ConditionalPathPoint name="psoas_l-P3">
-									<location> -0.0301757 -0.0843455 -0.0854981</location>
+									<location> -0.0306767 -0.0857456 -0.0869173</location>
 									<body>pelvis</body>
 									<range> -1.5708 0.785398</range>
 									<coordinate>hip_flexion_l</coordinate>
 								</ConditionalPathPoint>
 								<PathPoint name="psoas_l-P4">
-									<location> 0.00166971 -0.0529091 -0.00396557</location>
+									<location> 0.00149527 -0.0473813 -0.00355126</location>
 									<body>femur_l</body>
 								</PathPoint>
 								<PathPoint name="psoas_l-P5">
-									<location> -0.0196191 -0.0623012 -0.0108531</location>
+									<location> -0.0175694 -0.0557922 -0.00971925</location>
 									<body>femur_l</body>
 								</PathPoint>
 							</objects>
@@ -5523,9 +5667,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1113</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.104686601102819</optimal_fiber_length>
+					<optimal_fiber_length>0.103793438532259</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.167498561764511</tendon_slack_length>
+					<tendon_slack_length>0.166069501651615</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.13962634</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -5560,11 +5704,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="quad_fem_l-P1">
-									<location> -0.11976 -0.120599 -0.054484</location>
+									<location> -0.121748 -0.1226 -0.0553884</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="quad_fem_l-P2">
-									<location> -0.03976 -0.0374642 -0.0381946</location>
+									<location> -0.0356061 -0.03355 -0.0342043</location>
 									<body>femur_l</body>
 								</PathPoint>
 							</objects>
@@ -5597,9 +5741,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>381</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.0564949555653342</optimal_fiber_length>
+					<optimal_fiber_length>0.0551945716007922</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.0251088691401486</tendon_slack_length>
+					<tendon_slack_length>0.0245309207114632</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -5634,11 +5778,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="gem_l-P1">
-									<location> -0.118713 -0.0859171 -0.0748108</location>
+									<location> -0.120683 -0.0873434 -0.0760527</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="gem_l-P2">
-									<location> -0.0148188 -0.00344379 -0.0462302</location>
+									<location> -0.0132705 -0.00308399 -0.0414003</location>
 									<body>femur_l</body>
 								</PathPoint>
 							</objects>
@@ -5671,9 +5815,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>164</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.0250966147616371</optimal_fiber_length>
+					<optimal_fiber_length>0.0240682747092718</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.0407819989876603</tendon_slack_length>
+					<tendon_slack_length>0.0391109464025666</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -5708,15 +5852,15 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="peri_l-P1">
-									<location> -0.146269 0.000314331 -0.0246226</location>
+									<location> -0.148697 0.000319549 -0.0250313</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="peri_l-P2">
-									<location> -0.124999 -0.0289184 -0.0688384</location>
+									<location> -0.127074 -0.0293985 -0.0699812</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="peri_l-P3">
-									<location> -0.0154449 -0.00375685 -0.0456041</location>
+									<location> -0.0138312 -0.00336436 -0.0408395</location>
 									<body>femur_l</body>
 								</PathPoint>
 							</objects>
@@ -5749,9 +5893,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>444</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.0272191536533671</optimal_fiber_length>
+					<optimal_fiber_length>0.0270081715850724</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.120392410389893</tendon_slack_length>
+					<tendon_slack_length>0.119459220472436</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.17453293</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -5786,17 +5930,17 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="rect_fem_l-P1">
-									<location> -0.0309093 -0.0325856 -0.101424</location>
+									<location> -0.0314223 -0.0331265 -0.103108</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<ConditionalPathPoint name="rect_fem_l-P2">
-									<location> 0.0348552 -0.420559 -0.00198279</location>
+									<location> 0.0312137 -0.376621 -0.00177563</location>
 									<body>femur_l</body>
 									<range> -2.61799 -1.45997</range>
 									<coordinate>knee_angle_l</coordinate>
 								</ConditionalPathPoint>
 								<MovingPathPoint name="rect_fem_l-P3">
-									<location> 0.068032 0.02483 -0.00160732</location>
+									<location> 0.0700542 0.023803 -0.00158808</location>
 									<body>tibia_l_amputated</body>
 									<x_location>
 										<MultiplierFunction>
@@ -5806,7 +5950,7 @@
 													<y> 0.0155805 0.0179938 0.0275081 0.0296564 0.0307615 0.0365695 0.0422074 0.0450902 0.048391 0.0534299 0.0617576 0.0617669 0.0617762 0.0633083 0.066994 0.0733035 0.0573481</y>
 												</SimmSpline>
 											</function>
-											<scale>1.14808758344406</scale>
+											<scale>1.13434144993912</scale>
 										</MultiplierFunction>
 									</x_location>
 									<x_coordinate>knee_angle_l</x_coordinate>
@@ -5818,7 +5962,7 @@
 													<y> 0.0234116 0.0237613 0.0251141 0.0252795 0.0253146 0.0249184 0.0242373 0.0238447 0.0234197 0.0227644 0.020984 0.0209814 0.0209788 0.0205225 0.0191754 0.0159554 -0.0673774</y>
 												</SimmSpline>
 											</function>
-											<scale>1.14808758344406</scale>
+											<scale>1.13434144993912</scale>
 										</MultiplierFunction>
 									</y_location>
 									<y_coordinate>knee_angle_l</y_coordinate>
@@ -5830,7 +5974,7 @@
 													<y> -0.0014 -0.0014</y>
 												</SimmSpline>
 											</function>
-											<scale>1.14808758344406</scale>
+											<scale>1.13434144993912</scale>
 										</MultiplierFunction>
 									</z_location>
 									<z_coordinate>knee_angle_l</z_coordinate>
@@ -5865,9 +6009,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>1169</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.118479969602584</optimal_fiber_length>
+					<optimal_fiber_length>0.106748606356996</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.322182373480711</tendon_slack_length>
+					<tendon_slack_length>0.290281297988321</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.08726646</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -5902,21 +6046,21 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="vas_int_l-P1">
-									<location> 0.0302635 -0.200783 -0.0323507</location>
+									<location> 0.0271017 -0.179806 -0.0289708</location>
 									<body>femur_l</body>
 								</PathPoint>
 								<PathPoint name="vas_int_l-P2">
-									<location> 0.0349597 -0.21748 -0.0297417</location>
+									<location> 0.0313071 -0.194759 -0.0266345</location>
 									<body>femur_l</body>
 								</PathPoint>
 								<ConditionalPathPoint name="vas_int_l-P3">
-									<location> 0.0357945 -0.420559 -0.00573964</location>
+									<location> 0.0320548 -0.376621 -0.00513999</location>
 									<body>femur_l</body>
 									<range> -2.61799 -1.42</range>
 									<coordinate>knee_angle_l</coordinate>
 								</ConditionalPathPoint>
 								<MovingPathPoint name="vas_int_l-P4">
-									<location> 0.0605292 0.0293648 -0.00206656</location>
+									<location> 0.0629142 0.0286901 -0.00204181</location>
 									<body>tibia_l_amputated</body>
 									<x_location>
 										<MultiplierFunction>
@@ -5926,7 +6070,7 @@
 													<y> 0.0082733 0.0106866 0.0202042 0.022353 0.0234583 0.0292715 0.0349465 0.037871 0.0412569 0.0465287 0.0554632 0.0554735 0.0554837 0.0571717 0.061272 0.0684368 0.0648818</y>
 												</SimmSpline>
 											</function>
-											<scale>1.14808758344406</scale>
+											<scale>1.13434144993912</scale>
 										</MultiplierFunction>
 									</x_location>
 									<x_coordinate>knee_angle_l</x_coordinate>
@@ -5938,7 +6082,7 @@
 													<y> 0.025599 0.0259487 0.0273124 0.0274796 0.0275151 0.0271363 0.0265737 0.0263073 0.0261187 0.0260129 0.0252923 0.0252911 0.0252898 0.0250526 0.0242191 0.0218288 -0.0685706</y>
 												</SimmSpline>
 											</function>
-											<scale>1.14808758344406</scale>
+											<scale>1.13434144993912</scale>
 										</MultiplierFunction>
 									</y_location>
 									<y_coordinate>knee_angle_l</y_coordinate>
@@ -5950,7 +6094,7 @@
 													<y> -0.0018 -0.0018</y>
 												</SimmSpline>
 											</function>
-											<scale>1.14808758344406</scale>
+											<scale>1.13434144993912</scale>
 										</MultiplierFunction>
 									</z_location>
 									<z_coordinate>knee_angle_l</z_coordinate>
@@ -5985,9 +6129,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>5000</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.110542843152862</optimal_fiber_length>
+					<optimal_fiber_length>0.0979964818178821</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.119840839305906</tendon_slack_length>
+					<tendon_slack_length>0.106239176550227</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.05235988</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -6022,17 +6166,17 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="med_gas_l-P1">
-									<location> -0.0198279 -0.410019 0.0245239</location>
+									<location> -0.0177563 -0.367182 0.0219617</location>
 									<body>femur_l</body>
 								</PathPoint>
 								<ConditionalPathPoint name="med_gas_l-P2">
-									<location> -0.0313071 -0.419724 0.0269241</location>
+									<location> -0.0280363 -0.375873 0.0241112</location>
 									<body>femur_l</body>
 									<range> -0.785398 0.174533</range>
 									<coordinate>knee_angle_l</coordinate>
 								</ConditionalPathPoint>
 								<PathPoint name="med_gas_l-P3">
-									<location> -0.0287022 -0.172213 0.0175657</location>
+									<location> -0.0283585 -0.170151 0.0173554</location>
 									<body>tibia_l_amputated</body>
 								</PathPoint>
 							</objects>
@@ -6065,9 +6209,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>2500</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.102748220315852</optimal_fiber_length>
+					<optimal_fiber_length>0.101027026361587</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.410992881263409</tendon_slack_length>
+					<tendon_slack_length>0.404108105446348</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0.29670597</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -6102,11 +6246,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="ercspn_r-P1">
-									<location> -0.146688 0.0459971 0.0456827</location>
+									<location> -0.149123 0.0467606 0.0464411</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="ercspn_r-P2">
-									<location> -0.0611636 0.122327 0.0268008</location>
+									<location> -0.0602816 0.120563 0.0264143</location>
 									<body>torso</body>
 								</PathPoint>
 							</objects>
@@ -6139,9 +6283,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>2500</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.131491049666576</optimal_fiber_length>
+					<optimal_fiber_length>0.130575671662632</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.032872762416644</tendon_slack_length>
+					<tendon_slack_length>0.0326439179156581</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -6176,11 +6320,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="ercspn_l-P1">
-									<location> -0.146688 0.0459971 -0.0456827</location>
+									<location> -0.149123 0.0467606 -0.0464411</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="ercspn_l-P2">
-									<location> -0.0611636 0.122327 -0.0268008</location>
+									<location> -0.0602816 0.120563 -0.0264143</location>
 									<body>torso</body>
 								</PathPoint>
 							</objects>
@@ -6213,9 +6357,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>2500</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.131491049666576</optimal_fiber_length>
+					<optimal_fiber_length>0.130575671662632</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.032872762416644</tendon_slack_length>
+					<tendon_slack_length>0.0326439179156581</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -6250,11 +6394,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="intobl_r-P1">
-									<location> -0.0419108 0.0733439 0.121227</location>
+									<location> -0.0426065 0.0745614 0.12324</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="intobl_r-P2">
-									<location> 0.0778446 0.17793 0.0166809</location>
+									<location> 0.076722 0.175364 0.0164404</location>
 									<body>torso</body>
 								</PathPoint>
 							</objects>
@@ -6287,9 +6431,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>900</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.109150008680153</optimal_fiber_length>
+					<optimal_fiber_length>0.10860031984161</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.109150008680153</tendon_slack_length>
+					<tendon_slack_length>0.10860031984161</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -6324,11 +6468,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="intobl_l-P1">
-									<location> -0.0419108 0.0733439 -0.121227</location>
+									<location> -0.0426065 0.0745614 -0.12324</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="intobl_l-P2">
-									<location> 0.0778446 0.17793 -0.0166809</location>
+									<location> 0.076722 0.175364 -0.0164404</location>
 									<body>torso</body>
 								</PathPoint>
 							</objects>
@@ -6361,9 +6505,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>900</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.109150008680153</optimal_fiber_length>
+					<optimal_fiber_length>0.10860031984161</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.109150008680153</tendon_slack_length>
+					<tendon_slack_length>0.10860031984161</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -6398,11 +6542,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="extobl_r-P1">
-									<location> -0.0314331 -0.0666381 0.0104777</location>
+									<location> -0.0319549 -0.0677444 0.0106517</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="extobl_r-P2">
-									<location> 0.0722843 0.122327 0.122327</location>
+									<location> 0.0712419 0.120563 0.120563</location>
 									<body>torso</body>
 								</PathPoint>
 							</objects>
@@ -6435,9 +6579,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>900</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.129732752790542</optimal_fiber_length>
+					<optimal_fiber_length>0.12973352915314</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.151354878255632</tendon_slack_length>
+					<tendon_slack_length>0.151355784011997</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -6472,11 +6616,11 @@
 						<PathPointSet>
 							<objects>
 								<PathPoint name="extobl_l-P1">
-									<location> -0.0314331 -0.0666381 -0.0104777</location>
+									<location> -0.0319549 -0.0677444 -0.0106517</location>
 									<body>pelvis</body>
 								</PathPoint>
 								<PathPoint name="extobl_l-P2">
-									<location> 0.0722843 0.122327 -0.122327</location>
+									<location> 0.0712419 0.120563 -0.120563</location>
 									<body>torso</body>
 								</PathPoint>
 							</objects>
@@ -6509,9 +6653,9 @@
 					<!--Maximum isometric force that the fibers can generate-->
 					<max_isometric_force>900</max_isometric_force>
 					<!--Optimal length of the muscle fibers-->
-					<optimal_fiber_length>0.129732752790542</optimal_fiber_length>
+					<optimal_fiber_length>0.12973352915314</optimal_fiber_length>
 					<!--Resting length of the tendon-->
-					<tendon_slack_length>0.151354878255632</tendon_slack_length>
+					<tendon_slack_length>0.151355784011997</tendon_slack_length>
 					<!--Angle between tendon and fibers at optimal fiber length expressed in radians-->
 					<pennation_angle_at_optimal>0</pennation_angle_at_optimal>
 					<!--Maximum contraction velocity of the fibers, in optimal fiberlengths/second-->
@@ -6619,7 +6763,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>torso</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0258969 0.423282 0.192277</location>
+					<location> 0.02337 0.436354 0.163948</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6627,7 +6771,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>torso</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0347553 0.450422 -0.198179</location>
+					<location> -0.0132425 0.468012 -0.160218</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6635,7 +6779,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pelvis</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.00618701 0.0075206 0.120781</location>
+					<location> 0.010002 0.0361303 0.138847</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6643,7 +6787,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pelvis</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0146306 0.0252538 -0.146554</location>
+					<location> 0.0168575 0.031449 -0.137766</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6651,7 +6795,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pelvis</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.199574 0.0399015 0.062634</location>
+					<location> -0.194712 0.0882567 0.0450159</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6659,7 +6803,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pelvis</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.214689 0.0442694 -0.0434737</location>
+					<location> -0.182023 0.0832334 -0.046903</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6667,7 +6811,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.049924 0.0243733 0.0680471</location>
+					<location> -0.0189939 0.0161614 0.0964474</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6675,7 +6819,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_l</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0355664 0.0351093 -0.115487</location>
+					<location> -0.0225809 0.00317551 -0.104915</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6683,7 +6827,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pelvis</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0627594 0.0767244 0.176696</location>
+					<location> -0.0796868 0.108764 0.159308</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6691,7 +6835,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pelvis</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0918771 0.115371 -0.15688</location>
+					<location> -0.0788263 0.104505 -0.155818</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6699,7 +6843,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pelvis</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.218172 0.00812837 0.0155218</location>
+					<location> -0.205183 0.0356934 -0.00200726</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6707,7 +6851,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0226192 -0.164464 0.089411</location>
+					<location> -0.0447407 -0.188132 0.0744882</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6715,7 +6859,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0449042 -0.162556 0.0895121</location>
+					<location> 0.0136334 -0.180011 0.0963946</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6723,7 +6867,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0404372 -0.236605 0.0859639</location>
+					<location> 0.0122909 -0.261323 0.0903424</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6731,7 +6875,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0274092 -0.238984 0.0809587</location>
+					<location> -0.0602451 -0.248164 0.0693038</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6739,7 +6883,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.00934003 -0.412179 0.0739988</location>
+					<location> -0.0178128 -0.393679 0.07189</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6747,7 +6891,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.010714 -0.423915 -0.0521974</location>
+					<location> -0.0147712 -0.387531 -0.0593602</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6755,7 +6899,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>tibia_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.00662737 -0.144643 0.0923996</location>
+					<location> -0.000948638 -0.193898 0.075246</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6763,7 +6907,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>tibia_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0610149 -0.160176 0.0731958</location>
+					<location> -0.0680633 -0.207069 0.0682922</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6771,7 +6915,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>tibia_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0446507 -0.235709 0.0681164</location>
+					<location> -0.0719346 -0.271971 0.0564791</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6779,7 +6923,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>tibia_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0206106 -0.217954 0.0854736</location>
+					<location> 0.00306301 -0.268033 0.0559073</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6787,7 +6931,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>tibia_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.00202116 -0.461964 0.0512184</location>
+					<location> -0.012561 -0.46469 0.0497286</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6795,7 +6939,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>tibia_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0101475 -0.435231 -0.0461768</location>
+					<location> 0.0118488 -0.444954 -0.0392424</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6803,7 +6947,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>calcn_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0125574 0.0470569 -0.0085445</location>
+					<location> -0.0177605 0.0333642 -0.0191338</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6811,7 +6955,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>calcn_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.00092434 0.024092 -0.0440517</location>
+					<location> -0.0164327 0.0190841 -0.0603447</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6819,7 +6963,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>calcn_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.00299436 0.0155871 0.0231784</location>
+					<location> -0.0211933 -0.00273777 0.0016209</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6827,7 +6971,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>toes_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.104806 0.0174687 -0.0120933</location>
+					<location> 0.0831798 0.00937315 0.0107999</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6835,7 +6979,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_l</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.043326 -0.143686 -0.0924781</location>
+					<location> -0.0191282 -0.167629 -0.0727966</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6843,7 +6987,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_l</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0205161 -0.150774 -0.101734</location>
+					<location> 0.0441169 -0.174377 -0.0591395</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6851,7 +6995,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_l</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0196446 -0.225547 -0.0905683</location>
+					<location> 0.0391859 -0.24808 -0.0400756</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6859,7 +7003,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_l</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0430717 -0.217345 -0.0818637</location>
+					<location> -0.0277113 -0.235655 -0.0609961</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6867,7 +7011,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pylon_socket</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0116117 0.237213 -0.0628188</location>
+					<location> -0.00498401 0.211246 -0.0671602</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6875,7 +7019,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pylon_socket</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0308735 0.244639 0.0656702</location>
+					<location> -0.0186824 0.201115 0.0657366</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6883,7 +7027,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pylon_socket</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.00352076 0.185089 -0.0570128</location>
+					<location> -0.0180661 0.11802 -0.0618116</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6891,7 +7035,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pylon_socket</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0399288 0.201817 -0.0531345</location>
+					<location> 0.0330327 0.136489 -0.0391787</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6899,7 +7043,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pylon_socket</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0446984 0.1518 -0.0475883</location>
+					<location> 0.0236697 0.0723406 -0.0406174</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6907,7 +7051,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pylon_socket</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.00392461 0.130969 -0.0512594</location>
+					<location> -0.0368994 0.0617972 -0.0414906</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6915,7 +7059,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pylon_socket</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0457881 -0.21379 -0.0493803</location>
+					<location> -0.0173794 -0.207541 -0.0396334</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6923,7 +7067,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>pylon_socket</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0378646 -0.208758 0.0277762</location>
+					<location> -0.00264787 -0.202358 0.0297402</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6931,7 +7075,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>foot2</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.125599 -0.00756292 0.00220327</location>
+					<location> -0.114884 0.00131606 0.00594529</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6939,7 +7083,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>foot2</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.109159 -0.0397237 0.0310484</location>
+					<location> -0.104031 -0.0217491 0.0246531</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6947,7 +7091,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>foot2</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.116973 -0.0328654 -0.0353967</location>
+					<location> -0.10979 -0.0211833 -0.0319243</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6955,7 +7099,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>foot2</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.163619 0.0115566 0.00018396</location>
+					<location> 0.160011 0.0153076 0.00503569</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6963,7 +7107,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>toes_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0573484 0.0156296 -0.0608271</location>
+					<location> 0.0300784 0.0315427 -0.0517251</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6971,7 +7115,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>toes_r</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.031323 -0.0113344 0.0466765</location>
+					<location> 0.00325928 0.00969614 0.0351002</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6979,7 +7123,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>foot2</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.114062 -0.00724875 0.0293685</location>
+					<location> 0.100476 0.00451613 0.0406171</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6987,7 +7131,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>foot2</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0859516 -0.0117062 -0.0735837</location>
+					<location> 0.0564272 -0.0267946 -0.0645257</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -6995,7 +7139,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>torso</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.043236 0.742956 -0.00482971</location>
+					<location> 0.0129864 0.74607 0.00202743</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7003,7 +7147,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>torso</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.076246 0.420533 0.00108312</location>
+					<location> 0.0568242 0.39313 0</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7011,7 +7155,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>torso</body>
 					<!--Location of a marker on the body segment.-->
-					<location> -0.0819994 0.475526 0.00141622</location>
+					<location> -0.084801 0.498222 -0.000776568</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>

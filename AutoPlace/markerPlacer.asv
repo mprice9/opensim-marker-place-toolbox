@@ -141,52 +141,55 @@ if strcmp(options.bodySet, 'prosThigh')
     joints.get('socket').getLocation(sc);
     joints.get('socket').getOrientation(sp);
 
-%     for j=1:6
-%         switch j
-%             case 1
+    for j=1:6
+        switch j
+            case 1
                 if max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_LOC_IN_BODY x'))
                     jx = sc.get(0);                
                 else
                     jx = X(index);
                     index = index+1;
                 end
-%             case 2
+            case 2
                 if max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_LOC_IN_BODY y'))
                     jy = sc.get(1);                
                 else
                     jy = X(index);
                     index = index+1;
                 end
-%             case 3
+            case 3
                 if max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_LOC_IN_BODY z'))
-                    jz = sc.get(2);                
+                    jz = m.get(2);                
                 else
                     jz = X(index);
                     index = index+1;
                 end
-%             case 4
+            case 4
                 if max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_ORIENT x'))
-                    jrx = sp.get(2);                
+                    jrx = m.get(2);                
                 else
                     jrx = X(index);
                     index = index+1;
                 end
-%             case 5
+            case 5
                 if max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_ORIENT y'))
-                    jry = sp.get(2);                
+                    jry = m.get(2);                
                 else
                     jry = X(index);
                     index = index+1;
                 end
-%             case 6
+            case 6
                 if max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_ORIENT z'))
-                    jrz = sp.get(2);                
+                    jrz = m.get(2);                
                 else
                     jrz = X(index);
                     index = index+1;
                 end
-%         end
-%     end
+        end
+    end
+
+
+    joints = model.getJointSet();
 
     socketNewC = Vec3(jx,jy,jz);
     socketNewO = Vec3(jrx,jry,jrz);

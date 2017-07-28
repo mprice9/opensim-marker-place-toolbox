@@ -1,0 +1,14 @@
+ Iter: 1 Obj: 52.1904 Marker cost: 0 Tilt cost: 52.1573 Socket cost: 0.033112 Flexion cost: 0.033112 Piston cost: 0 Avg RMS: NaN Marker coordinate:  Steps from IC (mm):  time: 119.2267
+SOCKET_JOINT_LOC_IN_BODY x:
+ Iter: 2 Obj: 52.1904 Marker cost: 0 Tilt cost: 52.1573 Socket cost: 0.033112 Flexion cost: 0.033112 Piston cost: 0 Avg RMS: NaN Marker coordinate: SOCKET_JOINT_LOC_IN_BODY x Steps from IC (mm): 1 time: 143.4814
+Marker coordinate has no effect on IK
+SOCKET_JOINT_LOC_IN_BODY y:
+ Iter: 3 Obj: 52.1904 Marker cost: 0 Tilt cost: 52.1573 Socket cost: 0.033112 Flexion cost: 0.033112 Piston cost: 0 Avg RMS: NaN Marker coordinate: SOCKET_JOINT_LOC_IN_BODY y Steps from IC (mm): 1 time: 151.6812
+Marker coordinate has no effect on IK
+SOCKET_JOINT_ORIENT x:
+ Iter: 4 Obj: 52.1904 Marker cost: 0 Tilt cost: 52.1573 Socket cost: 0.033112 Flexion cost: 0.033112 Piston cost: 0 Avg RMS: NaN Marker coordinate: SOCKET_JOINT_ORIENT x Steps from IC (mm): 1 time: 153.3109
+Marker coordinate has no effect on IK
+SOCKET_JOINT_ORIENT y:
+ Iter: 5 Obj: 52.1904 Marker cost: 0 Tilt cost: 52.1573 Socket cost: 0.033112 Flexion cost: 0.033112 Piston cost: 0 Avg RMS: NaN Marker coordinate: SOCKET_JOINT_ORIENT y Steps from IC (mm): 1 time: 161.4383
+Marker coordinate has no effect on IK
+SOCKET_JOINT_ORIENT z:

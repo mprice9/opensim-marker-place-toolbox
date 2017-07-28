@@ -11,7 +11,8 @@ genericSetupForIK = options.IKsetup;
 % X = x0;
 X = x;
 % disp(x)
-newName = 'autoScaleWorker.osim';
+% newName = 'autoScaleWorker.osim';
+newName = options.modelWorker;
 % newName = newPassiveModel;
 
 % markerScale
@@ -48,7 +49,7 @@ catch
     TSEcost = 10000000;
 end
 
-IKresults = 'autoPlaceWorker.mot';
+IKresults = options.motionWorker;
 % data = dlmread(IKresults,'\t',11,0);
 data = importdata(IKresults,'\t',11);
 tags = data.colheaders;
