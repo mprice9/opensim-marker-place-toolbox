@@ -110,18 +110,17 @@ options.convThresh = 1;
 tic
 
 X_ROB = coarseMarkerSearch(options);
-model = Model('autoScaleWorker.osim');
+model = Model('autoPlaceWorker.osim');
 model.initSystem();
 model.print(newModelName);
 
-% myModel = [modelDir 'A07_passive_ROB_auto_marker_place_11-Jul-2017_19.16.56.osim'];
 myModel = newModelName;
 newName = [subject '_' prosType '_PROS_auto_marker_place_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
 newModelName = [modelDir newName];
 options.bodySet = 'pros';
 options.markerNames = prosMarkerNames;
 X_pros = coarseMarkerSearch(options);
-model = Model('autoScaleWorker.osim');
+model = Model('auoPlaceWorker.osim');
 model.initSystem();
 model.print(newModelName);
 
@@ -132,17 +131,17 @@ preSocketJointModel = newModelName;
 myModel = preSocketJointModel;
 newName = [subject '_' prosType '_FULL_auto_marker_place_RIGID_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
 newModelName = [modelDir newName];
+options.bodySet = 'prosThigh';
 options.txLock = true;
 options.tyLock = true;
 options.tzLock = true;
 options.flexLock = true;
 options.adducLock = true;
 options.rotLock = true;
-options.bodySet = 'prosThigh';
 options.markerNames = prosThighMarkerNames;
 options.fixedMarkerCoords = {'STERN x','STERN y','STERN z','L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z','SOCKET_JOINT_LOC_IN_BODY z'};
 X_prosThigh = coarseMarkerSearch(options);
-model = Model('autoScaleWorker.osim');
+model = Model('autoPlaceWorker.osim');
 model.initSystem();
 model.print(newModelName);
 
@@ -155,11 +154,9 @@ options.tzLock = true;
 options.flexLock = false;
 options.adducLock = true;
 options.rotLock = true;
-options.bodySet = 'prosThigh';
-options.markerNames = prosThighMarkerNames;
 options.fixedMarkerCoords = {'L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z','SOCKET_JOINT_LOC_IN_BODY z'};
 X_prosThigh = coarseMarkerSearch(options);
-model = Model('autoScaleWorker.osim');
+model = Model('autoPlaceWorker.osim');
 model.initSystem();
 model.print(newModelName);
 
@@ -172,11 +169,9 @@ options.tzLock = true;
 options.flexLock = true;
 options.adducLock = true;
 options.rotLock = true;
-options.bodySet = 'prosThigh';
-options.markerNames = prosThighMarkerNames;
 options.fixedMarkerCoords = {'L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z','SOCKET_JOINT_LOC_IN_BODY z'};
 X_prosThigh = coarseMarkerSearch(options);
-model = Model('autoScaleWorker.osim');
+model = Model('autoPlaceWorker.osim');
 model.initSystem();
 model.print(newModelName);
 
@@ -189,10 +184,8 @@ options.tzLock = true;
 options.flexLock = false;
 options.adducLock = true;
 options.rotLock = true;
-options.bodySet = 'prosThigh';
-options.markerNames = prosThighMarkerNames;
 X_prosThigh = coarseMarkerSearch(options);
-model = Model('autoScaleWorker.osim');
+model = Model('autoPlaceWorker.osim');
 model.initSystem();
 model.print(newModelName);
 
@@ -206,10 +199,8 @@ options.tzLock = true;
 options.flexLock = false;
 options.adducLock = false;
 options.rotLock = false;
-options.bodySet = 'prosThigh';
-options.markerNames = prosThighMarkerNames;
 X_prosThigh = coarseMarkerSearch(options);
-model = Model('autoScaleWorker.osim');
+model = Model('autoPlaceWorker.osim');
 model.initSystem();
 model.print(newModelName);
 
