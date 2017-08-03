@@ -110,6 +110,53 @@ for i = 1:length(markerNames)
     end
 end
 
+for i = 1:length(jointNames)
+    sc = Vec3(0,0,0);
+    sp = Vec3();
+    joints = model.getJointSet();
+    joints.get(jointNames(i)).getLocation(sc);
+    joints.get(jointNames(i)).getOrientation(sp);
+%     for j=1:6
+%         switch j
+%             case 1
+                testCoords{3*(i-1) + 1} = [jointNames{i} '_JOINT_CENTER x'];
+                if ~max(strcmp(fixedMarkerCoords,[jointNames{i} '_JOINT_CENTER x']))
+                    x0(index) = sc.get(0);
+                    index = index+1;
+                end
+%             case 2
+                testCoords{3*(i-1) + 2} = [jointNames{i} '_JOINT_CENTER y'];
+                if ~max(strcmp(fixedMarkerCoords,[jointNames{i} '_JOINT_CENTER y']))
+                    x0(index) = sc.get(1);
+                    index = index+1;
+                end                
+%             case 3
+                testCoords{3*(i-1) + 3} = [jointNames{i} '_JOINT_CENTER z'];
+                if ~max(strcmp(fixedMarkerCoords,[jointNames{i} '_JOINT_CENTER z']))
+                    x0(index) = sc.get(2);
+                    index = index+1;
+                end
+                testCoords{3*(i-1) + 4} = [jointNames{i} '_JOINT_ORIENT x'];
+                if ~max(strcmp(fixedMarkerCoords,[jointNames{i} '_JOINT_ORIENT x']))
+                    x0(index) = sc.get(0);
+                    index = index+1;
+                end
+%             case 2
+                testCoords{3*(i-1) + 5} = [jointNames{i} '_JOINT_ORIENT y'];
+                if ~max(strcmp(fixedMarkerCoords,[jointNames{i} '_JOINT_ORIENT y']))
+                    x0(index) = sc.get(1);
+                    index = index+1;
+                end                
+%             case 3
+                testCoords{3*(i-1) + 6} = [jointNames{i} '_JOINT_ORIENT z'];
+                if ~max(strcmp(fixedMarkerCoords,[jointNames{i} '_JOINT_ORIENT z']))
+                    x0(index) = sc.get(2);
+                    index = index+1;
+                end                
+%         end
+%     end
+end
+
 % for i = 1:length(markerNames)
 %     markers.get(markerNames(i)).getOffset(m)
 %     

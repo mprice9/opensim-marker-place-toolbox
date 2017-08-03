@@ -1,0 +1,20 @@
+ Iter: 1 Obj: 129.0641 Marker cost: 0 Tilt cost: 129.0641 Avg RMS: NaN Marker coordinate:  Steps from IC (mm):  time: 0.9499
+socket_JOINT_CENTER x:
+ Iter: 2 Obj: 129.0641 Marker cost: 0 Tilt cost: 129.0641 Avg RMS: NaN Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 1 time: 1.4114
+Marker coordinate has no effect on IK
+socket_JOINT_CENTER y:
+ Iter: 3 Obj: 129.0641 Marker cost: 0 Tilt cost: 129.0641 Avg RMS: NaN Marker coordinate: socket_JOINT_CENTER y Steps from IC (mm): 1 time: 1.8805
+Marker coordinate has no effect on IK
+socket_JOINT_CENTER z:
+ Iter: 4 Obj: 129.0641 Marker cost: 0 Tilt cost: 129.0641 Avg RMS: NaN Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): 1 time: 2.3542
+Marker coordinate has no effect on IK
+socket_JOINT_ORIENT x:
+ Iter: 5 Obj: 129.0641 Marker cost: 0 Tilt cost: 129.0641 Avg RMS: NaN Marker coordinate: socket_JOINT_ORIENT x Steps from IC (mm): 1 time: 2.8108
+Marker coordinate has no effect on IK
+socket_JOINT_ORIENT y:
+ Iter: 6 Obj: 129.0641 Marker cost: 0 Tilt cost: 129.0641 Avg RMS: NaN Marker coordinate: socket_JOINT_ORIENT y Steps from IC (mm): 1 time: 3.2586
+Marker coordinate has no effect on IK
+socket_JOINT_ORIENT z:
+ Iter: 7 Obj: 129.0641 Marker cost: 0 Tilt cost: 129.0641 Avg RMS: NaN Marker coordinate: socket_JOINT_ORIENT z Steps from IC (mm): 1 time: 3.9352
+Marker coordinate has no effect on IK
+Marker search complete.

@@ -1,0 +1,169 @@
+ Iter: 1 Obj: 18533.626 Marker cost: 18470.6777 Tilt cost: 62.9483 Avg RMS: 14.6293 Marker coordinate:  Steps from IC (mm):  time: 30.7021
+socket_JOINT_CENTER x:
+ Iter: 2 Obj: 18447.7399 Marker cost: 18381.1397 Tilt cost: 66.6002 Avg RMS: 14.6116 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 1 time: 40.6364
+ Iter: 3 Obj: 18366.8499 Marker cost: 18295.9521 Tilt cost: 70.8977 Avg RMS: 14.5946 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 2 time: 50.439
+ Iter: 4 Obj: 18301.9709 Marker cost: 18228.1104 Tilt cost: 73.8606 Avg RMS: 14.581 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 3 time: 60.2561
+ Iter: 5 Obj: 18239.7357 Marker cost: 18161.3104 Tilt cost: 78.4253 Avg RMS: 14.5676 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 4 time: 69.9209
+ Iter: 6 Obj: 18187.4243 Marker cost: 18105.7138 Tilt cost: 81.7105 Avg RMS: 14.5565 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 5 time: 79.5346
+ Iter: 7 Obj: 18140.9511 Marker cost: 18054.6664 Tilt cost: 86.2848 Avg RMS: 14.5462 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 6 time: 89.2498
+ Iter: 8 Obj: 18105.4457 Marker cost: 18013.2741 Tilt cost: 92.1716 Avg RMS: 14.5379 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 7 time: 99.1169
+ Iter: 9 Obj: 18080.0756 Marker cost: 17983.7729 Tilt cost: 96.3027 Avg RMS: 14.5319 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 8 time: 108.962
+ Iter: 10 Obj: 18061.2129 Marker cost: 17960.4459 Tilt cost: 100.767 Avg RMS: 14.5272 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 9 time: 118.6845
+ Iter: 11 Obj: 18049.1918 Marker cost: 17943.2202 Tilt cost: 105.9716 Avg RMS: 14.5237 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 10 time: 128.1834
+ Iter: 12 Obj: 18036.1244 Marker cost: 17924.6612 Tilt cost: 111.4632 Avg RMS: 14.5199 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 11 time: 137.4705
+ Iter: 13 Obj: 18038.654 Marker cost: 17921.8759 Tilt cost: 116.7781 Avg RMS: 14.5194 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 12 time: 146.7929
+socket_JOINT_CENTER x converged at 11 mm from IC. Min obj: 18036.1244
+socket_JOINT_CENTER y:
+ Iter: 14 Obj: 18142.0846 Marker cost: 18034.7164 Tilt cost: 107.3682 Avg RMS: 14.5422 Marker coordinate: socket_JOINT_CENTER y Steps from IC (mm): 1 time: 155.9038
+ Iter: 15 Obj: 17986.4465 Marker cost: 17869.7214 Tilt cost: 116.725 Avg RMS: 14.5088 Marker coordinate: socket_JOINT_CENTER y Steps from IC (mm): -1 time: 165.6884
+ Iter: 16 Obj: 17989.918 Marker cost: 17866.5924 Tilt cost: 123.3255 Avg RMS: 14.5082 Marker coordinate: socket_JOINT_CENTER y Steps from IC (mm): -2 time: 175.1861
+socket_JOINT_CENTER y converged at -1 mm from IC. Min obj: 17986.4465
+socket_JOINT_CENTER z:
+ Iter: 17 Obj: 18312.9714 Marker cost: 18198.0024 Tilt cost: 114.969 Avg RMS: 14.575 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): 1 time: 184.5378
+ Iter: 18 Obj: 17685.487 Marker cost: 17567.7989 Tilt cost: 117.6881 Avg RMS: 14.4471 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -1 time: 193.9237
+ Iter: 19 Obj: 17393.6168 Marker cost: 17273.7669 Tilt cost: 119.8499 Avg RMS: 14.3863 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -2 time: 202.9536
+ Iter: 20 Obj: 17116.2574 Marker cost: 16996.5472 Tilt cost: 119.7102 Avg RMS: 14.3282 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -3 time: 212.5604
+ Iter: 21 Obj: 16855.9241 Marker cost: 16735.2263 Tilt cost: 120.6978 Avg RMS: 14.2729 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -4 time: 221.5056
+ Iter: 22 Obj: 16606.8021 Marker cost: 16485.6437 Tilt cost: 121.1584 Avg RMS: 14.2194 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -5 time: 230.8636
+ Iter: 23 Obj: 16370.5035 Marker cost: 16248.1342 Tilt cost: 122.3692 Avg RMS: 14.1679 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -6 time: 240.0247
+ Iter: 24 Obj: 16153.5964 Marker cost: 16030.8018 Tilt cost: 122.7946 Avg RMS: 14.1203 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -7 time: 249.5336
+ Iter: 25 Obj: 15941.7329 Marker cost: 15817.8546 Tilt cost: 123.8782 Avg RMS: 14.0731 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -8 time: 259.021
+ Iter: 26 Obj: 15747.8272 Marker cost: 15623.4565 Tilt cost: 124.3708 Avg RMS: 14.0297 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -9 time: 268.384
+ Iter: 27 Obj: 15563.384 Marker cost: 15436.6289 Tilt cost: 126.7551 Avg RMS: 13.9876 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -10 time: 277.3448
+ Iter: 28 Obj: 15396.8678 Marker cost: 15270.1175 Tilt cost: 126.7504 Avg RMS: 13.9497 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -11 time: 286.6419
+ Iter: 29 Obj: 15232.9082 Marker cost: 15106.6465 Tilt cost: 126.2617 Avg RMS: 13.9122 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -12 time: 295.9986
+ Iter: 30 Obj: 15090.2981 Marker cost: 14961.6951 Tilt cost: 128.603 Avg RMS: 13.8787 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -13 time: 305.567
+ Iter: 31 Obj: 14948.2947 Marker cost: 14821.0019 Tilt cost: 127.2929 Avg RMS: 13.846 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -14 time: 314.6271
+ Iter: 32 Obj: 14827.2544 Marker cost: 14697.6324 Tilt cost: 129.622 Avg RMS: 13.8171 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -15 time: 323.5833
+ Iter: 33 Obj: 14719.6811 Marker cost: 14589.1794 Tilt cost: 130.5017 Avg RMS: 13.7915 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -16 time: 332.7219
+ Iter: 34 Obj: 14615.0716 Marker cost: 14482.5687 Tilt cost: 132.5029 Avg RMS: 13.7663 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -17 time: 342.0168
+ Iter: 35 Obj: 14526.6937 Marker cost: 14396.1085 Tilt cost: 130.5853 Avg RMS: 13.7457 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -18 time: 351.5386
+ Iter: 36 Obj: 14446.9095 Marker cost: 14315.2169 Tilt cost: 131.6926 Avg RMS: 13.7263 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -19 time: 361.0512
+ Iter: 37 Obj: 14381.2626 Marker cost: 14248.8662 Tilt cost: 132.3964 Avg RMS: 13.7104 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -20 time: 370.3874
+ Iter: 38 Obj: 14326.9062 Marker cost: 14193.9049 Tilt cost: 133.0013 Avg RMS: 13.6972 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -21 time: 379.5224
+ Iter: 39 Obj: 14282.8943 Marker cost: 14149.0038 Tilt cost: 133.8905 Avg RMS: 13.6863 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -22 time: 388.8901
+ Iter: 40 Obj: 14247.8934 Marker cost: 14113.9574 Tilt cost: 133.936 Avg RMS: 13.6778 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -23 time: 398.1187
+ Iter: 41 Obj: 14226.1399 Marker cost: 14089.7148 Tilt cost: 136.425 Avg RMS: 13.672 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -24 time: 407.4054
+ Iter: 42 Obj: 14211.3309 Marker cost: 14076.6625 Tilt cost: 134.6683 Avg RMS: 13.6688 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -25 time: 416.366
+ Iter: 43 Obj: 14211.2352 Marker cost: 14075.6017 Tilt cost: 135.6335 Avg RMS: 13.6686 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -26 time: 425.324
+ Iter: 44 Obj: 14220.4195 Marker cost: 14082.7564 Tilt cost: 137.6631 Avg RMS: 13.6703 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -27 time: 434.1653
+socket_JOINT_CENTER z converged at -26 mm from IC. Min obj: 14211.2352
+socket_JOINT_ORIENT x:
+ Iter: 45 Obj: 14515.3223 Marker cost: 14379.5278 Tilt cost: 135.7945 Avg RMS: 13.7417 Marker coordinate: socket_JOINT_ORIENT x Steps from IC (mm): 1 time: 443.087
+ Iter: 46 Obj: 14110.8859 Marker cost: 13973.6276 Tilt cost: 137.2583 Avg RMS: 13.6438 Marker coordinate: socket_JOINT_ORIENT x Steps from IC (mm): -1 time: 452.2614
+ Iter: 47 Obj: 14211.4758 Marker cost: 14074.1942 Tilt cost: 137.2815 Avg RMS: 13.6683 Marker coordinate: socket_JOINT_ORIENT x Steps from IC (mm): -2 time: 461.3236
+socket_JOINT_ORIENT x converged at -1 mm from IC. Min obj: 14110.8859
+socket_JOINT_ORIENT y:
+ Iter: 48 Obj: 14092.0815 Marker cost: 13963.1908 Tilt cost: 128.8907 Avg RMS: 13.6412 Marker coordinate: socket_JOINT_ORIENT y Steps from IC (mm): 1 time: 470.5067
+ Iter: 49 Obj: 14087.5403 Marker cost: 13965.5105 Tilt cost: 122.0297 Avg RMS: 13.6418 Marker coordinate: socket_JOINT_ORIENT y Steps from IC (mm): 2 time: 479.6428
+ Iter: 50 Obj: 14090.8408 Marker cost: 13973.9071 Tilt cost: 116.9337 Avg RMS: 13.6439 Marker coordinate: socket_JOINT_ORIENT y Steps from IC (mm): 3 time: 488.8957
+socket_JOINT_ORIENT y converged at 2 mm from IC. Min obj: 14087.5403
+socket_JOINT_ORIENT z:
+ Iter: 51 Obj: 14104.2518 Marker cost: 13988.8189 Tilt cost: 115.4329 Avg RMS: 13.6475 Marker coordinate: socket_JOINT_ORIENT z Steps from IC (mm): 1 time: 498.2822
+ Iter: 52 Obj: 14090.3057 Marker cost: 13959.4395 Tilt cost: 130.8662 Avg RMS: 13.6403 Marker coordinate: socket_JOINT_ORIENT z Steps from IC (mm): -1 time: 507.1679
+socket_JOINT_ORIENT z converged at 0 mm from IC. Min obj: 14087.5403
+socket_JOINT_CENTER x:
+ Iter: 53 Obj: 14085.1925 Marker cost: 13956.7707 Tilt cost: 128.4218 Avg RMS: 13.6397 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 1 time: 516.237
+ Iter: 54 Obj: 14086.152 Marker cost: 13951.2751 Tilt cost: 134.8769 Avg RMS: 13.6383 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 2 time: 525.3414
+socket_JOINT_CENTER x converged at 1 mm from IC. Min obj: 14085.1925
+socket_JOINT_CENTER y:
+ Iter: 55 Obj: 14122.742 Marker cost: 13999.1048 Tilt cost: 123.6372 Avg RMS: 13.65 Marker coordinate: socket_JOINT_CENTER y Steps from IC (mm): 1 time: 534.7059
+ Iter: 56 Obj: 14091.9458 Marker cost: 13956.7139 Tilt cost: 135.2319 Avg RMS: 13.6396 Marker coordinate: socket_JOINT_CENTER y Steps from IC (mm): -1 time: 543.5529
+socket_JOINT_CENTER y converged at 0 mm from IC. Min obj: 14085.1925
+socket_JOINT_CENTER z:
+ Iter: 57 Obj: 14046.0343 Marker cost: 13917.4254 Tilt cost: 128.6089 Avg RMS: 13.63 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): 1 time: 552.591
+ Iter: 58 Obj: 14019.7376 Marker cost: 13892.1947 Tilt cost: 127.5428 Avg RMS: 13.6239 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): 2 time: 561.6647
+ Iter: 59 Obj: 14001.199 Marker cost: 13873.629 Tilt cost: 127.5699 Avg RMS: 13.6193 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): 3 time: 570.7478
+ Iter: 60 Obj: 13994.1304 Marker cost: 13867.268 Tilt cost: 126.8624 Avg RMS: 13.6177 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): 4 time: 580.0271
+ Iter: 61 Obj: 14005.4082 Marker cost: 13881.1142 Tilt cost: 124.294 Avg RMS: 13.6211 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): 5 time: 589.0058
+socket_JOINT_CENTER z converged at 4 mm from IC. Min obj: 13994.1304
+socket_JOINT_ORIENT x:
+ Iter: 62 Obj: 14239.4653 Marker cost: 14114.7094 Tilt cost: 124.7559 Avg RMS: 13.678 Marker coordinate: socket_JOINT_ORIENT x Steps from IC (mm): 1 time: 598.1095
+ Iter: 63 Obj: 13962.2235 Marker cost: 13835.6092 Tilt cost: 126.6143 Avg RMS: 13.61 Marker coordinate: socket_JOINT_ORIENT x Steps from IC (mm): -1 time: 607.3488
+ Iter: 64 Obj: 14130.5193 Marker cost: 14002.822 Tilt cost: 127.6973 Avg RMS: 13.6509 Marker coordinate: socket_JOINT_ORIENT x Steps from IC (mm): -2 time: 616.6084
+socket_JOINT_ORIENT x converged at -1 mm from IC. Min obj: 13962.2235
+socket_JOINT_ORIENT y:
+ Iter: 65 Obj: 13955.6938 Marker cost: 13834.9825 Tilt cost: 120.7113 Avg RMS: 13.6098 Marker coordinate: socket_JOINT_ORIENT y Steps from IC (mm): 1 time: 625.9157
+ Iter: 66 Obj: 13964.5245 Marker cost: 13849.5894 Tilt cost: 114.9351 Avg RMS: 13.6134 Marker coordinate: socket_JOINT_ORIENT y Steps from IC (mm): 2 time: 635.1004
+socket_JOINT_ORIENT y converged at 1 mm from IC. Min obj: 13955.6938
+socket_JOINT_ORIENT z:
+ Iter: 67 Obj: 13979.6686 Marker cost: 13867.4106 Tilt cost: 112.258 Avg RMS: 13.6178 Marker coordinate: socket_JOINT_ORIENT z Steps from IC (mm): 1 time: 644.3172
+ Iter: 68 Obj: 13958.531 Marker cost: 13830.3503 Tilt cost: 128.1807 Avg RMS: 13.6087 Marker coordinate: socket_JOINT_ORIENT z Steps from IC (mm): -1 time: 653.5738
+socket_JOINT_ORIENT z converged at 0 mm from IC. Min obj: 13955.6938
+socket_JOINT_CENTER x:
+ Iter: 69 Obj: 13953.9868 Marker cost: 13828.0812 Tilt cost: 125.9057 Avg RMS: 13.6081 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 1 time: 663.2422
+ Iter: 70 Obj: 13957.2688 Marker cost: 13825.267 Tilt cost: 132.0019 Avg RMS: 13.6074 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 2 time: 672.4263
+socket_JOINT_CENTER x converged at 1 mm from IC. Min obj: 13953.9868
+socket_JOINT_CENTER y:
+ Iter: 71 Obj: 13980.3188 Marker cost: 13858.8714 Tilt cost: 121.4474 Avg RMS: 13.6157 Marker coordinate: socket_JOINT_CENTER y Steps from IC (mm): 1 time: 681.3169
+ Iter: 72 Obj: 13978.3061 Marker cost: 13846.3021 Tilt cost: 132.004 Avg RMS: 13.6126 Marker coordinate: socket_JOINT_CENTER y Steps from IC (mm): -1 time: 690.265
+socket_JOINT_CENTER y converged at 0 mm from IC. Min obj: 13953.9868
+socket_JOINT_CENTER z:
+ Iter: 73 Obj: 13924.3351 Marker cost: 13798.7111 Tilt cost: 125.624 Avg RMS: 13.6009 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): 1 time: 699.2657
+ Iter: 74 Obj: 13899.5671 Marker cost: 13774.3708 Tilt cost: 125.1963 Avg RMS: 13.5949 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): 2 time: 708.2284
+ Iter: 75 Obj: 13885.4461 Marker cost: 13760.5576 Tilt cost: 124.8885 Avg RMS: 13.5915 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): 3 time: 717.2338
+ Iter: 76 Obj: 13889.075 Marker cost: 13764.3791 Tilt cost: 124.696 Avg RMS: 13.5924 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): 4 time: 726.4998
+socket_JOINT_CENTER z converged at 3 mm from IC. Min obj: 13885.4461
+socket_JOINT_ORIENT x:
+ Iter: 77 Obj: 14027.3851 Marker cost: 13903.9627 Tilt cost: 123.4224 Avg RMS: 13.6267 Marker coordinate: socket_JOINT_ORIENT x Steps from IC (mm): 1 time: 735.6395
+ Iter: 78 Obj: 13947.4191 Marker cost: 13820.3667 Tilt cost: 127.0524 Avg RMS: 13.6062 Marker coordinate: socket_JOINT_ORIENT x Steps from IC (mm): -1 time: 744.825
+socket_JOINT_ORIENT x converged at 0 mm from IC. Min obj: 13885.4461
+socket_JOINT_ORIENT y:
+ Iter: 79 Obj: 13884.1238 Marker cost: 13765.7836 Tilt cost: 118.3402 Avg RMS: 13.5927 Marker coordinate: socket_JOINT_ORIENT y Steps from IC (mm): 1 time: 754.1723
+ Iter: 80 Obj: 13890.6967 Marker cost: 13779.0094 Tilt cost: 111.6873 Avg RMS: 13.596 Marker coordinate: socket_JOINT_ORIENT y Steps from IC (mm): 2 time: 763.279
+socket_JOINT_ORIENT y converged at 1 mm from IC. Min obj: 13884.1238
+socket_JOINT_ORIENT z:
+ Iter: 81 Obj: 13908.7139 Marker cost: 13797.2857 Tilt cost: 111.4282 Avg RMS: 13.6005 Marker coordinate: socket_JOINT_ORIENT z Steps from IC (mm): 1 time: 772.5975
+ Iter: 82 Obj: 13883.8986 Marker cost: 13758.2142 Tilt cost: 125.6845 Avg RMS: 13.5909 Marker coordinate: socket_JOINT_ORIENT z Steps from IC (mm): -1 time: 781.7878
+ Iter: 83 Obj: 13897.831 Marker cost: 13764.1855 Tilt cost: 133.6455 Avg RMS: 13.5924 Marker coordinate: socket_JOINT_ORIENT z Steps from IC (mm): -2 time: 791.0665
+socket_JOINT_ORIENT z converged at -1 mm from IC. Min obj: 13883.8986
+socket_JOINT_CENTER x:
+ Iter: 84 Obj: 13891.9407 Marker cost: 13760.7156 Tilt cost: 131.2251 Avg RMS: 13.5915 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 1 time: 800.2191
+ Iter: 85 Obj: 13882.9058 Marker cost: 13761.316 Tilt cost: 121.5898 Avg RMS: 13.5917 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): -1 time: 809.0099
+ Iter: 86 Obj: 13891.0938 Marker cost: 13776.5987 Tilt cost: 114.4951 Avg RMS: 13.5954 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): -2 time: 817.8612
+socket_JOINT_CENTER x converged at -1 mm from IC. Min obj: 13882.9058
+socket_JOINT_CENTER y:
+ Iter: 87 Obj: 13910.341 Marker cost: 13796.8952 Tilt cost: 113.4458 Avg RMS: 13.6004 Marker coordinate: socket_JOINT_CENTER y Steps from IC (mm): 1 time: 826.9245
+ Iter: 88 Obj: 13902.4607 Marker cost: 13777.2861 Tilt cost: 125.1747 Avg RMS: 13.5956 Marker coordinate: socket_JOINT_CENTER y Steps from IC (mm): -1 time: 836.2322
+socket_JOINT_CENTER y converged at 0 mm from IC. Min obj: 13882.9058
+socket_JOINT_CENTER z:
+ Iter: 89 Obj: 13878.6647 Marker cost: 13758.9287 Tilt cost: 119.736 Avg RMS: 13.5911 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): 1 time: 845.4071
+ Iter: 90 Obj: 13889.6895 Marker cost: 13770.5893 Tilt cost: 119.1002 Avg RMS: 13.5939 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): 2 time: 854.8834
+socket_JOINT_CENTER z converged at 1 mm from IC. Min obj: 13878.6647
+socket_JOINT_ORIENT x:
+ Iter: 91 Obj: 14058.8857 Marker cost: 13941.7252 Tilt cost: 117.1605 Avg RMS: 13.6359 Marker coordinate: socket_JOINT_ORIENT x Steps from IC (mm): 1 time: 864.1234
+ Iter: 92 Obj: 13907.6411 Marker cost: 13787.1239 Tilt cost: 120.5172 Avg RMS: 13.598 Marker coordinate: socket_JOINT_ORIENT x Steps from IC (mm): -1 time: 873.6146
+socket_JOINT_ORIENT x converged at 0 mm from IC. Min obj: 13878.6647
+socket_JOINT_ORIENT y:
+ Iter: 93 Obj: 13882.1163 Marker cost: 13769.8346 Tilt cost: 112.2817 Avg RMS: 13.5937 Marker coordinate: socket_JOINT_ORIENT y Steps from IC (mm): 1 time: 882.6392
+ Iter: 94 Obj: 13890.0515 Marker cost: 13764.1205 Tilt cost: 125.931 Avg RMS: 13.5923 Marker coordinate: socket_JOINT_ORIENT y Steps from IC (mm): -1 time: 892.3994
+socket_JOINT_ORIENT y converged at 0 mm from IC. Min obj: 13878.6647
+socket_JOINT_ORIENT z:
+ Iter: 95 Obj: 13891.7205 Marker cost: 13780.9322 Tilt cost: 110.7883 Avg RMS: 13.5965 Marker coordinate: socket_JOINT_ORIENT z Steps from IC (mm): 1 time: 902.4532
+ Iter: 96 Obj: 13886.9769 Marker cost: 13759.2261 Tilt cost: 127.7508 Avg RMS: 13.5911 Marker coordinate: socket_JOINT_ORIENT z Steps from IC (mm): -1 time: 911.7604
+socket_JOINT_ORIENT z converged at 0 mm from IC. Min obj: 13878.6647
+socket_JOINT_CENTER x:
+ Iter: 97 Obj: 13879.4256 Marker cost: 13754.0339 Tilt cost: 125.3917 Avg RMS: 13.5899 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 1 time: 921.1026
+ Iter: 98 Obj: 13889.4813 Marker cost: 13776.7057 Tilt cost: 112.7756 Avg RMS: 13.5954 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): -1 time: 930.3842
+socket_JOINT_CENTER x converged at 0 mm from IC. Min obj: 13878.6647
+socket_JOINT_CENTER y:
+ Iter: 99 Obj: 13903.9778 Marker cost: 13790.3266 Tilt cost: 113.6511 Avg RMS: 13.5988 Marker coordinate: socket_JOINT_CENTER y Steps from IC (mm): 1 time: 939.8305
+ Iter: 100 Obj: 13902.321 Marker cost: 13777.4139 Tilt cost: 124.9071 Avg RMS: 13.5956 Marker coordinate: socket_JOINT_CENTER y Steps from IC (mm): -1 time: 949.2519
+socket_JOINT_CENTER y converged at 0 mm from IC. Min obj: 13878.6647
+socket_JOINT_CENTER z:
+ Iter: 101 Obj: 13889.6895 Marker cost: 13770.5893 Tilt cost: 119.1002 Avg RMS: 13.5939 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): 1 time: 958.4946
+ Iter: 102 Obj: 13882.9058 Marker cost: 13761.316 Tilt cost: 121.5898 Avg RMS: 13.5917 Marker coordinate: socket_JOINT_CENTER z Steps from IC (mm): -1 time: 967.288
+socket_JOINT_CENTER z converged at 0 mm from IC. Min obj: 13878.6647
+socket_JOINT_ORIENT x:
+ Iter: 103 Obj: 14058.8857 Marker cost: 13941.7252 Tilt cost: 117.1605 Avg RMS: 13.6359 Marker coordinate: socket_JOINT_ORIENT x Steps from IC (mm): 1 time: 976.7159
+ Iter: 104 Obj: 13907.6411 Marker cost: 13787.1239 Tilt cost: 120.5172 Avg RMS: 13.598 Marker coordinate: socket_JOINT_ORIENT x Steps from IC (mm): -1 time: 986.036
+socket_JOINT_ORIENT x converged at 0 mm from IC. Min obj: 13878.6647
+socket_JOINT_ORIENT y:
+ Iter: 105 Obj: 13882.1163 Marker cost: 13769.8346 Tilt cost: 112.2817 Avg RMS: 13.5937 Marker coordinate: socket_JOINT_ORIENT y Steps from IC (mm): 1 time: 995.0371
+ Iter: 106 Obj: 13890.0515 Marker cost: 13764.1205 Tilt cost: 125.931 Avg RMS: 13.5923 Marker coordinate: socket_JOINT_ORIENT y Steps from IC (mm): -1 time: 1004.3868
+socket_JOINT_ORIENT y converged at 0 mm from IC. Min obj: 13878.6647
+socket_JOINT_ORIENT z:
+ Iter: 107 Obj: 13891.7205 Marker cost: 13780.9322 Tilt cost: 110.7883 Avg RMS: 13.5965 Marker coordinate: socket_JOINT_ORIENT z Steps from IC (mm): 1 time: 1013.8758
+ Iter: 108 Obj: 13886.9769 Marker cost: 13759.2261 Tilt cost: 127.7508 Avg RMS: 13.5911 Marker coordinate: socket_JOINT_ORIENT z Steps from IC (mm): -1 time: 1022.8774
+socket_JOINT_ORIENT z converged at 0 mm from IC. Min obj: 13878.6647
+Marker search complete.

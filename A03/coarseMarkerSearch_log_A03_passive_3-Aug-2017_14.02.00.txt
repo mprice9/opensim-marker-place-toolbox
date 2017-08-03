@@ -1,0 +1,1 @@
+ Iter: 1 Obj: 10861.7377 Marker cost: 10734.3379 Tilt cost: 127.3998 Socket cost: 0 Flexion cost: 0 Piston cost: 0 Avg RMS: 10.9245 Marker coordinate:  Steps from IC (mm):  time: 13.1746

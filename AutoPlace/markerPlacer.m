@@ -20,6 +20,7 @@ fixedMarkerCoords = options.fixedMarkerCoords;
 % socketParent = joints.get('socket').getParentBody();
 
 markerNames = options.markerNames;
+jointNames = options.jointNames;
 
 % if strcmp(options.bodySet, 'ROB') % Note sternum not included - constrained to initial position
 %     if strcmp(char(socketParent),'tibia_l_amputated')
@@ -108,6 +109,56 @@ for i = 1:length(markerNames)
     markers.get(markerNames(i)).setOffset(M);
 end
 
+for i = 1:length(jointNames)
+    sc = Vec3(0,0,0);
+    sp = Vec3(0,0,0);
+    joints = model.getJointSet();
+    joints.get(jointNames(i)).getLocation(sc);
+    joints.get(jointNames(i)).getOrientation(sp);
+    
+    if max(strcmp(fixedMarkerCoords,[jointNames{i} '_JOINT_CENTER x']))
+        jx = sc.get(0);                
+    else
+        jx = X(index);
+        index = index+1;
+    end
+    if max(strcmp(fixedMarkerCoords,[jointNames{i} '_JOINT_CENTER y']))
+        jy = sc.get(1);                
+    else
+        jy = X(index);
+        index = index+1;
+    end
+    if max(strcmp(fixedMarkerCoords,[jointNames{i} '_JOINT_CENTER z']))
+        jz = sc.get(2);                
+    else
+        jz = X(index);
+        index = index+1;
+    end
+    if max(strcmp(fixedMarkerCoords,[jointNames{i} '_JOINT_ORIENT x']))
+        jrx = sp.get(2);                
+    else
+        jrx = X(index);
+        index = index+1;
+    end
+    if max(strcmp(fixedMarkerCoords,[jointNames{i} '_JOINT_ORIENT y']))
+        jry = sp.get(2);                
+    else
+        jry = X(index);
+        index = index+1;
+    end
+    if max(strcmp(fixedMarkerCoords,[jointNames{i} '_JOINT_ORIENT z']))
+        jrz = sp.get(2);                
+    else
+        jrz = X(index);
+        index = index+1;
+    end             
+    jointNewC = Vec3(jx,jy,jz);
+    jointNewO = Vec3(jrx,jry,jrz);
+    joints.get(jointNames(i)).setLocation(jointNewC);
+    joints.get(jointNames(i)).setOrientation(jointNewO);
+end
+
+
 % for i = 1:length(markerNames) % change to for length of total coords minus fixed coords, change in IC function
 %         
 %     if strcmp(markerNames{i},'L_HEEL_SUP')
@@ -133,68 +184,68 @@ end
 %     sp = Vec3(); % create empty OpenSim vector for socket loc in parent 
 %     joints.get('socket').getLocationInParent(sp);
 
-if strcmp(options.bodySet, 'prosThigh')
-
-    joints = model.getJointSet();
-    sc = Vec3(0,0,0);
-    sp = Vec3(0,0,0);
-    joints.get('socket').getLocation(sc);
-    joints.get('socket').getOrientation(sp);
-
-%     for j=1:6
-%         switch j
-%             case 1
-                if max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_LOC_IN_BODY x'))
-                    jx = sc.get(0);                
-                else
-                    jx = X(index);
-                    index = index+1;
-                end
-%             case 2
-                if max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_LOC_IN_BODY y'))
-                    jy = sc.get(1);                
-                else
-                    jy = X(index);
-                    index = index+1;
-                end
-%             case 3
-                if max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_LOC_IN_BODY z'))
-                    jz = sc.get(2);                
-                else
-                    jz = X(index);
-                    index = index+1;
-                end
-%             case 4
-                if max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_ORIENT x'))
-                    jrx = sp.get(2);                
-                else
-                    jrx = X(index);
-                    index = index+1;
-                end
-%             case 5
-                if max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_ORIENT y'))
-                    jry = sp.get(2);                
-                else
-                    jry = X(index);
-                    index = index+1;
-                end
-%             case 6
-                if max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_ORIENT z'))
-                    jrz = sp.get(2);                
-                else
-                    jrz = X(index);
-                    index = index+1;
-                end
-%         end
-%     end
-
-    socketNewC = Vec3(jx,jy,jz);
-    socketNewO = Vec3(jrx,jry,jrz);
-%     socketNewC = Vec3(X(end-5),X(end-4),X(end-3));
-    joints.get('socket').setLocation(socketNewC);
-%     socketNewO = Vec3(X(end-2),X(end-1),X(end));
-    joints.get('socket').setOrientation(socketNewO);
-end
+% if strcmp(options.bodySet, 'prosThigh')
+% 
+%     joints = model.getJointSet();
+%     sc = Vec3(0,0,0);
+%     sp = Vec3(0,0,0);
+%     joints.get('socket').getLocation(sc);
+%     joints.get('socket').getOrientation(sp);
+% 
+% %     for j=1:6
+% %         switch j
+% %             case 1
+%                 if max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_LOC_IN_BODY x'))
+%                     jx = sc.get(0);                
+%                 else
+%                     jx = X(index);
+%                     index = index+1;
+%                 end
+% %             case 2
+%                 if max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_LOC_IN_BODY y'))
+%                     jy = sc.get(1);                
+%                 else
+%                     jy = X(index);
+%                     index = index+1;
+%                 end
+% %             case 3
+%                 if max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_LOC_IN_BODY z'))
+%                     jz = sc.get(2);                
+%                 else
+%                     jz = X(index);
+%                     index = index+1;
+%                 end
+% %             case 4
+%                 if max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_ORIENT x'))
+%                     jrx = sp.get(2);                
+%                 else
+%                     jrx = X(index);
+%                     index = index+1;
+%                 end
+% %             case 5
+%                 if max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_ORIENT y'))
+%                     jry = sp.get(2);                
+%                 else
+%                     jry = X(index);
+%                     index = index+1;
+%                 end
+% %             case 6
+%                 if max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_ORIENT z'))
+%                     jrz = sp.get(2);                
+%                 else
+%                     jrz = X(index);
+%                     index = index+1;
+%                 end
+% %         end
+% %     end
+% 
+%     socketNewC = Vec3(jx,jy,jz);
+%     socketNewO = Vec3(jrx,jry,jrz);
+% %     socketNewC = Vec3(X(end-5),X(end-4),X(end-3));
+%     joints.get('socket').setLocation(socketNewC);
+% %     socketNewO = Vec3(X(end-2),X(end-1),X(end));
+%     joints.get('socket').setOrientation(socketNewO);
+% end
     
 %     socketNewO = Vec3(X(end-2),X(end-1),X(end));
 %     joints.get('socket').setOrientationInParent(socketNewO);

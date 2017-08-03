@@ -24,6 +24,7 @@ m = Vec3(0,0,0);
 % socketParent = joints.get('socket').getParentBody();
 
 markerNames = options.markerNames;
+jointNames = options.jointNames;
 
 % if strcmp(options.bodySet, 'ROB') % Note sternum not included - constrained to initial position
 % %     if strcmp(char(socketParent),'tibia_l_amputated')
@@ -79,8 +80,8 @@ markerNames = options.markerNames;
 % end
     
 % x0 = zeros(1,length(markerNames)*3);
-x0 = zeros(1,length(markerNames)*3 - length(fixedMarkerCoords));
-testCoords = cell(1,length(markerNames)*3);
+x0 = zeros(1,length(markerNames)*3 + length(jointNames)*6 - length(fixedMarkerCoords));
+testCoords = cell(1,length(markerNames)*3 + length(jointNames)*6);
 
 index = 1;
 for i = 1:length(markerNames)
@@ -108,6 +109,51 @@ for i = 1:length(markerNames)
                 end
         end
     end
+end
+
+for i = 1:length(jointNames)
+    sc = Vec3(0,0,0);
+    sp = Vec3(0,0,0);
+    joints = model.getJointSet();
+    joints.get(jointNames(i)).getLocation(sc);
+    joints.get(jointNames(i)).getOrientation(sp);
+
+    testCoords{3*(i-1) + 1 + length(markerNames)*3} = [jointNames{i} '_JOINT_CENTER x'];
+    if ~max(strcmp(fixedMarkerCoords,[jointNames{i} '_JOINT_CENTER x']))
+        x0(index) = sc.get(0);
+        index = index+1;
+    end
+
+    testCoords{3*(i-1) + 2 + length(markerNames)*3} = [jointNames{i} '_JOINT_CENTER y'];
+    if ~max(strcmp(fixedMarkerCoords,[jointNames{i} '_JOINT_CENTER y']))
+        x0(index) = sc.get(1);
+        index = index+1;
+    end                
+
+    testCoords{3*(i-1) + 3 + length(markerNames)*3} = [jointNames{i} '_JOINT_CENTER z'];
+    if ~max(strcmp(fixedMarkerCoords,[jointNames{i} '_JOINT_CENTER z']))
+        x0(index) = sc.get(2);
+        index = index+1;
+    end
+    
+    testCoords{3*(i-1) + 4 + length(markerNames)*3} = [jointNames{i} '_JOINT_ORIENT x'];
+    if ~max(strcmp(fixedMarkerCoords,[jointNames{i} '_JOINT_ORIENT x']))
+        x0(index) = sp.get(0);
+        index = index+1;
+    end
+
+    testCoords{3*(i-1) + 5 + length(markerNames)*3} = [jointNames{i} '_JOINT_ORIENT y'];
+    if ~max(strcmp(fixedMarkerCoords,[jointNames{i} '_JOINT_ORIENT y']))
+        x0(index) = sp.get(1);
+        index = index+1;
+    end                
+
+    testCoords{3*(i-1) + 6 + length(markerNames)*3} = [jointNames{i} '_JOINT_ORIENT z'];
+    if ~max(strcmp(fixedMarkerCoords,[jointNames{i} '_JOINT_ORIENT z']))
+        x0(index) = sp.get(2);
+        index = index+1;
+    end                
+
 end
 
 % for i = 1:length(markerNames)
@@ -141,43 +187,43 @@ end
 %       
 % end
 
-if strcmp(options.bodySet, 'prosThigh')
-
-    sc = Vec3(); % create empty OpenSim vector for socket loc in parent 
-    sp = Vec3();
-    joints = model.getJointSet();
-    joints.get('socket').getLocation(sc);
-    joints.get('socket').getOrientation(sp);
-
-                testCoords{end+1} = 'SOCKET_JOINT_LOC_IN_BODY x';
-                if ~max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_LOC_IN_BODY x'))
-                    x0(end+1) = sc.get(0);
-                end
-%             case 2
-                testCoords{end+1} = 'SOCKET_JOINT_LOC_IN_BODY y';
-                if ~max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_LOC_IN_BODY y'))
-                    x0(end+1) = sc.get(1); 
-                end
-%             case 3
-                testCoords{end+1} = 'SOCKET_JOINT_LOC_IN_BODY z';
-                if ~max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_LOC_IN_BODY z'))
-                    x0(end+1) = sc.get(2);
-                end
-%             case 4
-                testCoords{end+1} = 'SOCKET_JOINT_ORIENT x';
-                if ~max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_ORIENT x'))
-                    x0(end+1) = sp.get(0);
-                end
-%             case 5
-                testCoords{end+1} = 'SOCKET_JOINT_ORIENT y';
-                if ~max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_ORIENT y'))
-                    x0(end+1) = sp.get(1);
-                end
-%             case 6
-                testCoords{end+1} = 'SOCKET_JOINT_ORIENT z';
-                if ~max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_ORIENT z'))
-                    x0(end+1) = sp.get(2);
-                end
+% if strcmp(options.bodySet, 'prosThigh')
+% 
+%     sc = Vec3(); % create empty OpenSim vector for socket loc in parent 
+%     sp = Vec3();
+%     joints = model.getJointSet();
+%     joints.get('socket').getLocation(sc);
+%     joints.get('socket').getOrientation(sp);
+% 
+%                 testCoords{end+1} = 'SOCKET_JOINT_LOC_IN_BODY x';
+%                 if ~max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_LOC_IN_BODY x'))
+%                     x0(end+1) = sc.get(0);
+%                 end
+% %             case 2
+%                 testCoords{end+1} = 'SOCKET_JOINT_LOC_IN_BODY y';
+%                 if ~max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_LOC_IN_BODY y'))
+%                     x0(end+1) = sc.get(1); 
+%                 end
+% %             case 3
+%                 testCoords{end+1} = 'SOCKET_JOINT_LOC_IN_BODY z';
+%                 if ~max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_LOC_IN_BODY z'))
+%                     x0(end+1) = sc.get(2);
+%                 end
+% %             case 4
+%                 testCoords{end+1} = 'SOCKET_JOINT_ORIENT x';
+%                 if ~max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_ORIENT x'))
+%                     x0(end+1) = sp.get(0);
+%                 end
+% %             case 5
+%                 testCoords{end+1} = 'SOCKET_JOINT_ORIENT y';
+%                 if ~max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_ORIENT y'))
+%                     x0(end+1) = sp.get(1);
+%                 end
+% %             case 6
+%                 testCoords{end+1} = 'SOCKET_JOINT_ORIENT z';
+%                 if ~max(strcmp(fixedMarkerCoords,'SOCKET_JOINT_ORIENT z'))
+%                     x0(end+1) = sp.get(2);
+%                 end
 
 %     x0(end+1) = sc.get(0);
 %     testCoords{end+1} = 'SOCKET_JOINT_LOC_IN_BODY x';
@@ -192,6 +238,6 @@ if strcmp(options.bodySet, 'prosThigh')
 %     x0(end+1) = sp.get(2);
 %     testCoords{end+1} = 'SOCKET_JOINT_ORIENT z';
 
-end
+% end
 
 end

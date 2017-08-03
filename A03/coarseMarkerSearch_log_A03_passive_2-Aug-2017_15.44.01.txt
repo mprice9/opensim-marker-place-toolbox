@@ -1,0 +1,3 @@
+ Iter: 1 Obj: 11291.9747 Marker cost: 11158.8921 Tilt cost: 133.0825 Avg RMS: 11.1383 Marker coordinate:  Steps from IC (mm):  time: 12.006
+socket_JOINT_CENTER x:
+ Iter: 2 Obj: 11367.791 Marker cost: 11231.3651 Tilt cost: 136.426 Avg RMS: 11.1488 Marker coordinate: socket_JOINT_CENTER x Steps from IC (mm): 1 time: 23.5142

@@ -66,8 +66,7 @@ TILTcost = abs(mean(data.data(1:end,strcmp('pelvis_tilt',tags)).^2))*10;
 
 
 % if strfind(char(options.markerNames{:}),'R_THIGH')
-% if strcmp(options.bodySet, 'prosThigh')
-if options.optZerosFlag
+if strcmp(options.bodySet, 'prosThigh')
 
 %     flexionTag = find(strcmp('socket_flexion',tags));
 %     pistonTag = find(strcmp('socket_ty',tags));
