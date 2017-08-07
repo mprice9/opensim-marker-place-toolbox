@@ -35,7 +35,7 @@ clc
 % appear in the file name
 % don't delete an array if you don't want the data, it will be detected
 FAST = {'T0021', 'T0022', 'T0024'};
-PREF = {'0002', '0003', '0005'};
+PREF = {'0002', '0003', '0005','00005','00006','00011'};
 SLOW = {'T0026', 'T0027', 'T0029'};
 
 % specify if IK is on full body(1) or just the effected thigh and socket(2)
@@ -59,8 +59,8 @@ spLast = 2;
 fprintf('loading data\n');
 
 % point to folders where data is located
-ik_data_folder = ([pwd '\IKResults']);
-ik_error_folder = ([pwd '\IKErrors']);
+ik_data_folder = ([pwd '\IKResults\6DoFBaseRoB 4DoF opt model used for all states']);
+ik_error_folder = ([pwd '\IKErrors\6DoFBaseRoB 4DoF opt model used for all states']);
 
 IKtrials = dir(fullfile(ik_data_folder, '*.mot'));
 IKerrors = dir(fullfile(ik_error_folder, '*.sto'));
