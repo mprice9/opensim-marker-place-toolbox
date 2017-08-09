@@ -62,7 +62,7 @@ function X = coarseMarkerSearch(options)
                 
                 % markerCoord + 1mm
                 if strfind(coord,'ORIENT')
-                    X(i-coordSkip) = X(i-coordSkip) + 0.01*searchDir;
+                    X(i-coordSkip) = X(i-coordSkip) + 0.005*searchDir;
                 else
                     X(i-coordSkip) = X(i-coordSkip) + 0.001*searchDir;
                 end
