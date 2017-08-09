@@ -69,12 +69,19 @@ model_dir = ([pwd '\Models\AutoPlaced\']);
 % models{5} = 'A07_passive_FULL_auto_marker_place_4DOF_6dof_base_static_align.osim';
 % models{6} = 'A07_passive_FULL_auto_marker_place_6DOF_6dof_base_static_align.osim';
 
-models{1} = 'A07_passive_FULL_auto_marker_place_RIGID_test.osim';
-models{2} = 'A07_passive_FULL_auto_marker_place_FLEXION_ONLY_test.osim';
-models{3} = 'A07_passive_FULL_auto_marker_place_PISTON_ONLY_test.osim';
-models{4} = 'A07_passive_FULL_auto_marker_place_FLEXION_PISTON_test.osim';
-models{5} = 'A07_passive_FULL_auto_marker_place_4DOF_6dof_base_orient.osim';
-models{6} = 'A07_passive_FULL_auto_marker_place_6DOF_6dof_base_orient.osim';
+% models{1} = 'A07_passive_FULL_auto_marker_place_RIGID_test.osim';
+% models{2} = 'A07_passive_FULL_auto_marker_place_FLEXION_ONLY_test.osim';
+% models{3} = 'A07_passive_FULL_auto_marker_place_PISTON_ONLY_test.osim';
+% models{4} = 'A07_passive_FULL_auto_marker_place_FLEXION_PISTON_test.osim';
+% models{5} = 'A07_passive_FULL_auto_marker_place_4DOF_6dof_base_orient.osim';
+% models{6} = 'A07_passive_FULL_auto_marker_place_6DOF_6dof_base_orient.osim';
+
+models{1} = 'A07_passive_FULL_auto_marker_place_RIGID_6dof_base_locked_z.osim';
+models{2} = 'A07_passive_FULL_auto_marker_place_FLEXION_ONLY_6dof_base_locked_z.osim';
+models{3} = 'A07_passive_FULL_auto_marker_place_PISTON_ONLY_6dof_base_locked_z.osim';
+models{4} = 'A07_passive_FULL_auto_marker_place_FLEXION_PISTON_6dof_base_locked_z.osim';
+models{5} = 'A07_passive_FULL_auto_marker_place_4DOF_6dof_base_locked_z.osim';
+models{6} = 'A07_passive_FULL_auto_marker_place_6DOF_6dof_base_locked_z.osim';
 
 % specify .trc marker file repository 
 trc_data_dir = ([pwd '\MarkerData\PREF']);
@@ -87,22 +94,22 @@ genericSetupForIK = 'A07_Setup_IK.xml';
 % Pull in the modeling classes straight from the OpenSim distribution
 import org.opensim.modeling.*
 
-% Ensure that 6DoF model exists based on 4DoF model
-if ~exist([model_dir models{6}], 'file')
-    modelFile6 = [model_dir models{5}];
-    model6 = Model(modelFile6);
-    coords = model6.getCoordinateSet();
-    coords.get('mtp_angle_r').setDefaultLocked(false);
-    coords.get('foot_flex').setDefaultLocked(false);
-    coords.get('socket_tx').setDefaultLocked(false);
-    coords.get('socket_ty').setDefaultLocked(false);
-    coords.get('socket_tz').setDefaultLocked(false);
-    coords.get('socket_flexion').setDefaultLocked(false);
-    coords.get('socket_adduction').setDefaultLocked(false);
-    coords.get('socket_rotation').setDefaultLocked(false);
-    model6.initSystem();
-    model6.print([model_dir models{6}]);
-end
+% % Ensure that 6DoF model exists based on 4DoF model
+% if ~exist([model_dir models{6}], 'file')
+%     modelFile6 = [model_dir models{5}];
+%     model6 = Model(modelFile6);
+%     coords = model6.getCoordinateSet();
+%     coords.get('mtp_angle_r').setDefaultLocked(false);
+%     coords.get('foot_flex').setDefaultLocked(false);
+%     coords.get('socket_tx').setDefaultLocked(false);
+%     coords.get('socket_ty').setDefaultLocked(false);
+%     coords.get('socket_tz').setDefaultLocked(false);
+%     coords.get('socket_flexion').setDefaultLocked(false);
+%     coords.get('socket_adduction').setDefaultLocked(false);
+%     coords.get('socket_rotation').setDefaultLocked(false);
+%     model6.initSystem();
+%     model6.print([model_dir models{6}]);
+% end
 
 
 % specify where results will be printed.
@@ -124,6 +131,13 @@ ikTool = InverseKinematicsTool([genericSetupPath genericSetupForIK]);
     for LockState = LockStateBegin:LockStateEnd % 6 socket states are defined
         
         %% load the model and initialize
+        if ~exist([model_dir models{LockState}], 'file')
+            modelFile = [model_dir models{5}];
+            model = Model(modelFile);
+            model.initSystem();
+            model.print([model_dir models{LockState}]);
+        end
+        
         modelFile = [model_dir models{LockState}];
         model = Model(modelFile);
 
@@ -221,6 +235,7 @@ ikTool = InverseKinematicsTool([genericSetupPath genericSetupForIK]);
         nameMod = ['_LockState' num2str(LockState)];
         
         model.initSystem();
+        model.print([model_dir models{LockState}]);
             
         %% Tell Tool to use the loaded model
         

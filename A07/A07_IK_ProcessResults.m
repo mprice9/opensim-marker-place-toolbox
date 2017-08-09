@@ -35,7 +35,7 @@ clc
 % appear in the file name
 % don't delete an array if you don't want the data, it will be detected
 FAST = {'T0021', 'T0022', 'T0024'};
-PREF = {'0002', '0003', '0005','00005','00006','00011'};
+PREF = {'0002', '0003', '0005','00005','00006','00011','0000001','0000006','0000007'};
 SLOW = {'T0026', 'T0027', 'T0029'};
 
 % specify if IK is on full body(1) or just the effected thigh and socket(2)
@@ -59,8 +59,8 @@ spLast = 2;
 fprintf('loading data\n');
 
 % point to folders where data is located
-ik_data_folder = ([pwd '\IKResults\6DoFBaseRoB 4DoF opt model used for all states']);
-ik_error_folder = ([pwd '\IKErrors\6DoFBaseRoB 4DoF opt model used for all states']);
+ik_data_folder = ([pwd '\IKResults']);
+ik_error_folder = ([pwd '\IKErrors']);
 
 IKtrials = dir(fullfile(ik_data_folder, '*.mot'));
 IKerrors = dir(fullfile(ik_error_folder, '*.sto'));
@@ -210,7 +210,7 @@ clear speed lockstate model var samp  trial
 
 %% calculate marker error averages, stdevs and maximums for each speed
 fprintf('calculating marker error statistics\n')
-nTrials = size(errData{1,2},2);
+nTrials = size(errData{2,2},2);
 error = cell(nTrials,3);
 
 for speed = spFirst:spLast
@@ -801,7 +801,112 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
     clear dataTemp color legend1 lockstate Marker_Error Marker_ErrorSR
 end
 
+%% PREF SPEED Plot socket kinematics for each trial and socket type
 
+if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
+    
+    for lockstate = 2:5;
+        
+    figure
+    
+    if lockstate ==1;LTag = 'Rigid';end
+    if lockstate ==2;LTag = 'Flexion';end
+    if lockstate ==3;LTag = 'Pistoning';end
+    if lockstate ==4;LTag = 'Flex/Pist';end
+    if lockstate ==5;LTag = '4-DOF';end
+
+    for plots = 1:4
+
+        if plots == 1;tag = 'socket_ty';end
+        if plots == 2;tag = 'socket_flexion';end
+        if plots == 3;tag = 'socket_rotation';end
+        if plots == 4;tag = 'socket_adduction';end
+        
+
+        % tag = foot_flex; % change to coordinate you want to plot
+
+        % find state 
+        for t = 1:size(tags,2)
+            if strcmp(tag, tags(t))
+                state = t;
+            end
+        end
+
+        clear t
+
+        stance = 0:1:100;
+
+        speed = 2;
+        
+        % fake plot to correct legend contents
+%         if plots ==1;
+%             for model = 1:3;
+%                 subplot(4,1,plots);
+%                 if model == 1; color = 'k'; end
+%                 if model == 2; color = 'b'; end
+%                 if model == 3; color = 'r'; end
+%                 dataTemp = normData{speed,3}{lockstate,1}(:,state);
+%                 hold on
+%                 plot(stance,dataTemp.*1000,color)
+%                 clear dataTemp
+%             end
+%         end
+
+        % Plot coordinate averages for speed and model
+%         for model = 1:3;
+            subplot(4,1,plots);
+            
+            color = 'b';
+
+            for tr = 1:nTrials
+                dataTemp(:,tr) = normData{speed,2}{lockstate,tr}(:,state);
+            end
+
+            hold on
+            
+            if plots ==1;plot(stance,dataTemp, color);end
+%             if plots ==1;boundedline(stance,dataTemp.*1000,SDTemp.*1000,color,'alpha');end
+            if plots ==2;plot(stance,-dataTemp,color);end
+%             if plots ==2;boundedline(stance,-dataTemp,SDTemp,color,'alpha');end
+            if plots >2;plot(stance,dataTemp,color);end
+            if plots ==1; ylabel(['Pistoning',sprintf('\n'),'(mm)'],'FontSize',12);end
+            if plots ==2; ylabel(['Flexion/',sprintf('\n'),'Extension (deg)'],'FontSize',12);end
+            if plots ==3; ylabel(['Axial',sprintf('\n'),'Rotation (deg)'],'FontSize',12);end
+            if plots ==4; ylabel(['Abduction/',sprintf('\n'),'Adduction (deg)'],'FontSize',12);end
+            box off
+            
+            if plots==1&&IK_tasks==1;title([LTag ' Socket Motion'],'FontSize',14);end
+            if plots==1&&IK_tasks==2;title(['Pref. Speed ' LTag ' Socket Motion (socket/thigh tracking)'],'FontSize',14);end
+            
+            clear dataTemp
+%         end
+        
+
+        % Create legend
+        if plots ==1;
+%             ylim([-30 20])
+%             legend('SR-0','SR-25','SR-50');
+%             set(legend,'Orientation','horizontal',...
+%             'Position',[0.129689174705252 0.0212 0.77491961414791 0.02]);
+        end
+        if plots ==2;
+%             ylim([-20 20])
+        end
+        if plots ==3;
+%             ylim([-20 20])
+        end
+        if plots ==4;
+%             ylim([-20 20])
+            xlabel('% Gait')
+        end
+    end
+    box off
+    
+    end
+    
+    clear dataTemp color legend1 lockstate Marker_Error Marker_ErrorSR
+
+end
 
 % fprintf('saving results \n')
 % save IK_analysis.mat
