@@ -114,8 +114,8 @@ options.jointNames = {};
 
 % List marker coordinates to be locked - algorithm cannot move them from
 % hand-picked location:
-options.fixedMarkerCoords = {'R_AC x','L_AC x','L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z'};
-% options.fixedMarkerCoords = {'L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z'};
+% options.fixedMarkerCoords = {'R_AC x','L_AC x','L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z'};
+options.fixedMarkerCoords = {'L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z'};
 
 % Specify frame from .trc file at which socket flexion should be minimized:
 options.flexionZero = 40; 
@@ -182,7 +182,7 @@ tic     %Start timer
 % Place thigh cluster and socket joint center for different socket models
 % using walking trials
 % options.IKsetup = [ikSetupPath genericSetupForIK];
-preSocketJointModel = [modelDir 'A01_passive_PROS_auto_marker_place_4dof_base.osim'];
+preSocketJointModel = [modelDir 'A01_passive_ROBPROS_auto_marker_place_6dof_base_locked_z.osim'];
 % preSocketJointModel = newModelName;
 
 % myModel = preSocketJointModel;

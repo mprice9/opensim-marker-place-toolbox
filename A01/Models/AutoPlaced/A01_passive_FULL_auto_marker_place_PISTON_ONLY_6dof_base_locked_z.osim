@@ -575,9 +575,9 @@
 										<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
 										<default_speed_value>0</default_speed_value>
 										<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
-										<range>-2.0943951 0.087266</range>
+										<range>-2.0943951 0.17453293</range>
 										<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
-										<clamped>true</clamped>
+										<clamped>false</clamped>
 										<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
 										<locked>false</locked>
 										<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
@@ -1524,9 +1524,9 @@
 										<!--The speed value of this coordinate before any value has been set. Rotational coordinate value is in rad/s and Translational in m/s.-->
 										<default_speed_value>0</default_speed_value>
 										<!--The minimum and maximum values that the coordinate can range between. Rotational coordinate range in radians and Translational in meters.-->
-										<range>-2.0943951 0.087266</range>
+										<range>-2.0943951 0.17453293</range>
 										<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
-										<clamped>true</clamped>
+										<clamped>false</clamped>
 										<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
 										<locked>false</locked>
 										<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
@@ -1755,7 +1755,7 @@
 							<!--Orientation of the joint in the parent body specified in the parent reference frame. Euler XYZ body-fixed rotation angles are used to express the orientation. Default is (0,0,0).-->
 							<orientation_in_parent>0 0 0</orientation_in_parent>
 							<!--Location of the joint in the child body specified in the child reference frame. For SIMM models, this vector is always the zero vector (i.e., the body reference frame coincides with the joint). -->
-							<location>0 -0.002 0</location>
+							<location>-0.001 0.001 0</location>
 							<!--Orientation of the joint in the owing body specified in the owning body reference frame.  Euler XYZ body-fixed rotation angles are used to express the orientation. -->
 							<orientation>0 0 0</orientation>
 							<!--Set holding the generalized coordinates (q's) that parmeterize this joint.-->
@@ -1773,7 +1773,7 @@
 										<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 										<clamped>true</clamped>
 										<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
-										<locked>false</locked>
+										<locked>true</locked>
 										<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
 										<prescribed_function />
 										<!--Flag indicating whether or not the values of the coordinates should be prescribed according to the function above. It is ignored if the no prescribed function is specified.-->
@@ -1791,7 +1791,7 @@
 										<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 										<clamped>false</clamped>
 										<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
-										<locked>false</locked>
+										<locked>true</locked>
 										<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
 										<prescribed_function />
 										<!--Flag indicating whether or not the values of the coordinates should be prescribed according to the function above. It is ignored if the no prescribed function is specified.-->
@@ -1809,7 +1809,7 @@
 										<!--Flag indicating whether or not the values of the coordinates should be limited to the range, above.-->
 										<clamped>false</clamped>
 										<!--Flag indicating whether or not the values of the coordinates should be constrained to the current (e.g. default) value, above.-->
-										<locked>false</locked>
+										<locked>true</locked>
 										<!--If specified, the coordinate can be prescribed by a function of time. It can be any OpenSim Function with valid second order derivatives.-->
 										<prescribed_function />
 										<!--Flag indicating whether or not the values of the coordinates should be prescribed according to the function above. It is ignored if the no prescribed function is specified.-->
@@ -4294,7 +4294,7 @@
 									<coordinate>knee_angle_r</coordinate>
 								</ConditionalPathPoint>
 								<MovingPathPoint name="rect_fem_r-P3">
-									<location> 0.0681287 0.025179 0.00162201</location>
+									<location> 0.071551 0.0243116 0.00162201</location>
 									<body>tibia_r</body>
 									<x_location>
 										<MultiplierFunction>
@@ -4414,7 +4414,7 @@
 									<coordinate>knee_angle_r</coordinate>
 								</ConditionalPathPoint>
 								<MovingPathPoint name="vas_int_r-P4">
-									<location> 0.0605146 0.0296855 0.00208544</location>
+									<location> 0.0642584 0.0293031 0.00208544</location>
 									<body>tibia_r</body>
 									<x_location>
 										<MultiplierFunction>
@@ -6270,7 +6270,7 @@
 									<coordinate>knee_angle_l</coordinate>
 								</ConditionalPathPoint>
 								<MovingPathPoint name="rect_fem_l-P3">
-									<location> 0.0776177 0.0222162 -0.00162201</location>
+									<location> 0.071551 0.0243116 -0.00162201</location>
 									<body>tibia_l_amputated</body>
 									<x_location>
 										<MultiplierFunction>
@@ -6390,7 +6390,7 @@
 									<coordinate>knee_angle_l</coordinate>
 								</ConditionalPathPoint>
 								<MovingPathPoint name="vas_int_l-P4">
-									<location> 0.0709883 0.0280597 -0.00208544</location>
+									<location> 0.0642584 0.0293031 -0.00208544</location>
 									<body>tibia_l_amputated</body>
 									<x_location>
 										<MultiplierFunction>
@@ -7309,7 +7309,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_l</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.00970669 -0.145569 -0.109336</location>
+					<location> 0.00770669 -0.146569 -0.108336</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7317,7 +7317,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_l</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0741696 -0.157738 -0.0874474</location>
+					<location> 0.0741696 -0.156738 -0.0874474</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7325,7 +7325,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_l</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0692521 -0.229742 -0.0696697</location>
+					<location> 0.0722521 -0.229742 -0.0736697</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
@@ -7333,7 +7333,7 @@
 					<!--Body segment in the model on which the marker resides.-->
 					<body>femur_l</body>
 					<!--Location of a marker on the body segment.-->
-					<location> 0.0091497 -0.221497 -0.0928838</location>
+					<location> 0.0101497 -0.221497 -0.0928838</location>
 					<!--Flag (true or false) specifying whether or not a marker should be kept fixed in the marker placement step.  i.e. If false, the marker is allowed to move.-->
 					<fixed>false</fixed>
 				</Marker>
