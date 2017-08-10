@@ -119,7 +119,7 @@ if SComp==6; axes1 = axes('Parent',figure1,...
 'XTick',[1 2 3 4 5 6],...
 'FontSize',12); 
 end
-if IK_tasks == 1; ylim(axes1,[0.000 0.0085]); end
+if IK_tasks == 1; ylim(axes1,[0.000 0.012]); end
 if SComp==5;xlim(axes1,[0.5 5.5]);end
 if SComp==6;xlim(axes1,[0.5 6.5]);end
 
@@ -308,19 +308,19 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
 
             % Create legend
             if plots ==1;
-                ylim([-30 50])
+                ylim([-40 50])
     %             legend('SR-0','SR-25','SR-50');
     %             set(legend,'Orientation','horizontal',...
     %             'Position',[0.129689174705252 0.0212 0.77491961414791 0.02]);
             end
             if plots ==2;
-                ylim([-10 15])
+                ylim([-15 15])
             end
             if plots ==3;
                 ylim([-30 30])
             end
             if plots ==4;
-                ylim([-10 10])
+                ylim([-15 10])
                 xlabel('% Gait')
             end
         end

@@ -16,8 +16,8 @@
 %
 % Before running, modify script options cell appropriately.
 % 
-% Written by Andrew LaPre 12/2015
-% Last modified 07/10/2017
+% Written by Andrew LaPre, Mark Price 12/2015
+% Last modified 08/10/2017
 %
 %-------------------------------------------------------------------------%
 

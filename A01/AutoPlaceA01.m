@@ -281,5 +281,24 @@ model = Model('autoPlaceWorker.osim');
 model.initSystem();
 model.print(newModelName);
 
+myModel = preSocketJointModel;
+newName = [subject '_' prosType '_FULL_auto_marker_place_4DOF_free_z_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
+newModelName = [modelDir newName];
+options.fixedMarkerCoords = {'socket_JOINT_ORIENT x','socket_JOINT_ORIENT y'};
+% options.fixedMarkerCoords = {'socket_JOINT_CENTER x','socket_JOINT_CENTER z','socket_JOINT_ORIENT x','socket_JOINT_ORIENT y'};
+% options.bodySet = 'prosThigh';
+options.txLock = true;
+options.tyLock = false;
+options.tzLock = true;
+options.flexLock = false;
+options.adducLock = false;
+options.rotLock = false;
+options.optZerosFlag = true;
+options.markerNames = prosThighMarkerNames;
+options.jointNames = jointNames;
+X_prosThigh = coarseMarkerSearch(options);
+model = Model('autoPlaceWorker.osim');
+model.initSystem();
+model.print(newModelName);
 
 fclose(fileID);

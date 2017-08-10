@@ -76,7 +76,7 @@ if options.optZerosFlag
 
     % socketFlexion = data(1,19);
 %     socketFlexion = data(options.flexionZero,19); % Trying 0 flexion at mid-stance when horiz GRF crosses 0.
-    socketFlexion = socketFlexion.^2 * 20;
+    socketFlexion = socketFlexion.^2 * 30;
 %     socketAdduction = data(1,20);
 %     socketRotation = data(1,21);
 %     socketPiston = data(1,23);
