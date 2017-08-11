@@ -4943,3 +4943,27 @@ Data source being set to Passive_09_3plates.mot_transformedP
 InverseDynamicsTool: 263 time frames in 0.236s
 
 Storage: file=F:\Mark\AutoPlaceGit\A03\IKResults\A03_Pref_0009_LockState6_ik.mot (nr=263 nc=28)
+Loaded model A01_Left_TTAmp_SR1_scaled from file F:\Mark\AutoPlaceGit\A01\Models\AutoPlaced\A01_passive_FULL_auto_marker_place_RIGID_6dof_base_locked_z.osim
+Loaded marker file F:\Mark\AutoPlaceGit\A01\MarkerData\PREF\A01_PREF_T0015.trc (48 markers, 288 frames)
+Loaded marker file F:\Mark\AutoPlaceGit\A01\MarkerData\PREF\A01_PREF_T0017.trc (48 markers, 289 frames)
+Loaded marker file F:\Mark\AutoPlaceGit\A01\MarkerData\PREF\A01_PREF_T0018.trc (48 markers, 285 frames)
+Loaded model A01_Left_TTAmp_SR1_scaled from file F:\Mark\AutoPlaceGit\A01\Models\AutoPlaced\A01_passive_FULL_auto_marker_place_FLEXION_ONLY_6dof_base_locked_z.osim
+Loaded marker file F:\Mark\AutoPlaceGit\A01\MarkerData\PREF\A01_PREF_T0015.trc (48 markers, 288 frames)
+Loaded marker file F:\Mark\AutoPlaceGit\A01\MarkerData\PREF\A01_PREF_T0017.trc (48 markers, 289 frames)
+Loaded marker file F:\Mark\AutoPlaceGit\A01\MarkerData\PREF\A01_PREF_T0018.trc (48 markers, 285 frames)
+Loaded model A01_Left_TTAmp_SR1_scaled from file F:\Mark\AutoPlaceGit\A01\Models\AutoPlaced\A01_passive_FULL_auto_marker_place_PISTON_ONLY_6dof_base_locked_z.osim
+Loaded marker file F:\Mark\AutoPlaceGit\A01\MarkerData\PREF\A01_PREF_T0015.trc (48 markers, 288 frames)
+Loaded marker file F:\Mark\AutoPlaceGit\A01\MarkerData\PREF\A01_PREF_T0017.trc (48 markers, 289 frames)
+Loaded marker file F:\Mark\AutoPlaceGit\A01\MarkerData\PREF\A01_PREF_T0018.trc (48 markers, 285 frames)
+Loaded model A01_Left_TTAmp_SR1_scaled from file F:\Mark\AutoPlaceGit\A01\Models\AutoPlaced\A01_passive_FULL_auto_marker_place_FLEXION_PISTON_6dof_base_locked_z.osim
+Loaded marker file F:\Mark\AutoPlaceGit\A01\MarkerData\PREF\A01_PREF_T0015.trc (48 markers, 288 frames)
+Loaded marker file F:\Mark\AutoPlaceGit\A01\MarkerData\PREF\A01_PREF_T0017.trc (48 markers, 289 frames)
+Loaded marker file F:\Mark\AutoPlaceGit\A01\MarkerData\PREF\A01_PREF_T0018.trc (48 markers, 285 frames)
+Loaded model A01_Left_TTAmp_SR1_scaled from file F:\Mark\AutoPlaceGit\A01\Models\AutoPlaced\A01_passive_FULL_auto_marker_place_4DOF_6dof_base_locked_z.osim
+Loaded marker file F:\Mark\AutoPlaceGit\A01\MarkerData\PREF\A01_PREF_T0015.trc (48 markers, 288 frames)
+Loaded marker file F:\Mark\AutoPlaceGit\A01\MarkerData\PREF\A01_PREF_T0017.trc (48 markers, 289 frames)
+Loaded marker file F:\Mark\AutoPlaceGit\A01\MarkerData\PREF\A01_PREF_T0018.trc (48 markers, 285 frames)
+Loaded model A01_Left_TTAmp_SR1_scaled from file F:\Mark\AutoPlaceGit\A01\Models\AutoPlaced\A01_passive_FULL_auto_marker_place_6DOF_6dof_base_locked_z.osim
+Loaded marker file F:\Mark\AutoPlaceGit\A01\MarkerData\PREF\A01_PREF_T0015.trc (48 markers, 288 frames)
+Loaded marker file F:\Mark\AutoPlaceGit\A01\MarkerData\PREF\A01_PREF_T0017.trc (48 markers, 289 frames)
+Loaded marker file F:\Mark\AutoPlaceGit\A01\MarkerData\PREF\A01_PREF_T0018.trc (48 markers, 285 frames)

@@ -36,7 +36,7 @@ close all
 % subjLabels = {'A03', 'A07'};
 % subjLabels = {'A07'};
 subjLabels = {'A01', 'A03', 'A07'};
-subjLabelsPlots = {'Subject 1', 'Subject 2', 'Subject 3'};
+subjLabelsPlots = {'Subj 1', 'Subj 2', 'Subj 3');
 
 numSubj = size(subjLabels,2);
 
@@ -144,7 +144,7 @@ hold(axes1,'all');
 % Create multiple lines using matrix input to bar
 bar1 = bar(errPref,'Parent',axes1);
 for i = 1:numSubj
-    set(bar1(i),'DisplayName',subjLabelsPlots{i});
+    set(bar1(i),'DisplayName',subjLabels{i});
 end
 set(bar1,'BarWidth',1);    % The bars will now touch each other
 set(bar1(1),'FaceColor',[.5 .5 1]);
@@ -211,7 +211,7 @@ hold(axes1,'all');
 % Create multiple lines using matrix input to bar
 bar1 = bar(normErrPref,'Parent',axes1);
 for i = 1:numSubj
-    set(bar1(i),'DisplayName',subjLabelsPlots{i});
+    set(bar1(i),'DisplayName',subjLabels{i});
 end
 set(bar1,'BarWidth',1);    % The bars will now touch each other
 set(bar1(1),'FaceColor',[.5 .5 1]);
@@ -270,7 +270,7 @@ hold(axes1,'all');
 % Create multiple lines using matrix input to bar
 bar1 = bar(errMax,'Parent',axes1);
 for i = 1:numSubj
-    set(bar1(i),'DisplayName',subjLabelsPlots{i});
+    set(bar1(i),'DisplayName',subjLabels{i});
 end
 set(bar1,'BarWidth',1);    % The bars will now touch each other
 set(bar1(1),'FaceColor',[.5 .5 1]);
@@ -373,7 +373,7 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
                 if plots ==4; ylabel(['Abduction/',sprintf('\n'),'Adduction (deg)'],'FontSize',12);end
                 box off
 
-                if plots==1&&IK_tasks==1;title([subjLabelsPlots{subj} ' ' LTag ' Socket Motion'],'FontSize',14);end
+                if plots==1&&IK_tasks==1;title([subjLabels{subj} ' ' LTag ' Socket Motion'],'FontSize',14);end
                 if plots==1&&IK_tasks==2;title(['Pref. Speed ' LTag ' Socket Motion (socket/thigh tracking)'],'FontSize',14);end
 
                 clear dataTemp

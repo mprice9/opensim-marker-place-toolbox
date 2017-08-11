@@ -303,6 +303,6 @@ Frame 282 (t=1.175):	total squared error = 0.00174849, marker error: RMS=0.00696
 Frame 283 (t=1.17917):	total squared error = 0.00175275, marker error: RMS=0.00697764, max=0.0218443 (R_AC)
 Frame 284 (t=1.18333):	total squared error = 0.00175598, marker error: RMS=0.00698406, max=0.0217295 (R_AC)
 Frame 285 (t=1.1875):	total squared error = 0.00175132, marker error: RMS=0.0069748, max=0.0216377 (R_AC)
-InverseKinematicsTool completed 285 frames in 12.428s
+InverseKinematicsTool completed 285 frames in 12.586s
 
-IK compute time = 12709ms
+IK compute time = 12879ms
