@@ -64,6 +64,13 @@ for i = 1:numSubj
     load(subjFile);
     fullNormData{i} = normData;
     fullErrData{i} = errData;
+    fullTags{i} = tags;
+    
+    subjFile = [subjLabels{i} '_processed_kinetics.mat'];
+    load(subjFile);
+    fullNormIDData{i} = normData;
+    fullErrIDData{i} = errData;
+    fullIDTags{i} = tags;
 end
 
 %% Error comparison setup
@@ -114,8 +121,13 @@ for subj = 1:numSubj
             tempMax(lockstate,trial) = fullErrData{subj}{speed,3}{lockstate,trial}(3,4);
         end
     end
-    errMax(:,subj) = max(tempMax,[],2);
+    errMax(:,:,subj) = tempMax;
 end
+
+errMeanMax = mean(errMax,2);
+errMeanMax = reshape(errMeanMax,6,3);
+errStdMax = std(errMax,0,2);
+errStdMax = reshape(errStdMax,6,3);
 
 %% PREF SPEED Plot Marker error RMS comparing socket reference and lock state for each speed
 if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
@@ -165,7 +177,7 @@ ylabel('Avg. RMS (m)','FontSize',13);
 %  
 % Create title
 if IK_tasks ==1;
-    title('Preferred Speed Marker Error RMS','FontSize',14);
+    title('IK Marker Error RMS','FontSize',14);
 end
 if IK_tasks ==2;
     title('Pref. Speed Marker Error RMS (socket/thigh tracking)','FontSize',14);
@@ -232,7 +244,7 @@ ylabel('Normalized Avg. RMS','FontSize',13);
  
 % Create title
 if IK_tasks ==1;
-    title('Normalized Preferred Speed Marker Error RMS','FontSize',14);
+    title('Normalized IK Marker Error RMS','FontSize',14);
 end
 if IK_tasks ==2;
     title('Pref. Speed Marker Error (socket/thigh tracking)','FontSize',14);
@@ -268,21 +280,21 @@ box(axes1,'on');
 hold(axes1,'all');
  
 % Create multiple lines using matrix input to bar
-bar1 = bar(errMax,'Parent',axes1);
+bar1 = bar(errMeanMax,'Parent',axes1);
 for i = 1:numSubj
     set(bar1(i),'DisplayName',subjLabelsPlots{i});
 end
 set(bar1,'BarWidth',1);    % The bars will now touch each other
 set(bar1(1),'FaceColor',[.5 .5 1]);
 
-% numgroups = size(errPref, 1); 
-% numbars = size(errPref, 2); 
-% groupwidth = min(0.8, numbars/(numbars+1.5));
-% for i = 1:numbars
-%       % Based on barweb.m by Bolu Ajiboye from MATLAB File Exchange
-%       x = (1:numgroups) - groupwidth/2 + (2*i-1) * groupwidth / (2*numbars);  % Aligning error bar with individual bar
-%       errorbar(x, errPref(:,i), errStd(:,i), 'k', 'linestyle', 'none');
-%  end
+numgroups = size(errMeanMax, 1); 
+numbars = size(errMeanMax, 2); 
+groupwidth = min(0.8, numbars/(numbars+1.5));
+for i = 1:numbars
+      % Based on barweb.m by Bolu Ajiboye from MATLAB File Exchange
+      x = (1:numgroups) - groupwidth/2 + (2*i-1) * groupwidth / (2*numbars);  % Aligning error bar with individual bar
+      errorbar(x, errMeanMax(:,i), errStdMax(:,i), 'k', 'linestyle', 'none');
+ end
 
 % Create ylabel
 ylabel('Max error (m)','FontSize',13);
@@ -291,7 +303,7 @@ ylabel('Max error (m)','FontSize',13);
 %  
 % Create title
 if IK_tasks ==1;
-    title('Preferred Speed Marker Error Max','FontSize',14);
+    title('IK Marker Error Max','FontSize',14);
 end
 if IK_tasks ==2;
     title('Pref. Speed Marker Error Max (socket/thigh tracking)','FontSize',14);
@@ -306,10 +318,10 @@ end
 
 if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
 
+    figure('OuterPosition',[20 20 850 850])
+    
     for subj = 1:numSubj
-
-        figure
-
+        
         lockstate = 5;
 
         if lockstate ==1;LTag = 'Rigid';end
@@ -329,8 +341,8 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
             % tag = foot_flex; % change to coordinate you want to plot
 
             % find state 
-            for t = 1:size(tags,2)
-                if strcmp(tag, tags(t))
+            for t = 1:size(fullTags{subj},2)
+                if strcmp(tag, fullTags{subj}(t))
                     state = t;
                 end
             end
@@ -340,44 +352,32 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
             stance = 0:1:100;
 
             speed = 2;
+            
+            absPlotNum = subj + ((plots-1) * 3);
 
-            % fake plot to correct legend contents
-            if plots ==1;
-                for model = 1:3;
-                    subplot(4,1,plots);
-                    if model == 1; color = 'k'; end
-                    if model == 2; color = 'b'; end
-                    if model == 3; color = 'r'; end
-                    dataTemp = fullNormData{subj}{speed,3}{lockstate,1}(:,state);
-                    hold on
-                    plot(stance,dataTemp.*1000,color)
-                    clear dataTemp
-                end
-            end
+
 
             % Plot coordinate averages for speed and model
-    %         for model = 1:3;
-                subplot(4,1,plots);
-                if model == 1; color = 'k'; end
-                if model == 2; color = 'b'; end
-                if model == 3; color = 'r'; end
-                dataTemp = fullNormData{subj}{speed,3}{lockstate,1}(:,state);
-                SDTemp = fullNormData{subj}{speed,3}{lockstate,2}(:,state);
-                hold on
-                if plots ==1;boundedline(stance,dataTemp.*1000,SDTemp.*1000,color,'alpha');end
-                if plots ==2;boundedline(stance,-dataTemp,SDTemp,color,'alpha');end
-                if plots >2;boundedline(stance,dataTemp,SDTemp,color,'alpha');end
-                if plots ==1; ylabel(['Pistoning',sprintf('\n'),'(mm)'],'FontSize',12);end
-                if plots ==2; ylabel(['Flexion/',sprintf('\n'),'Extension (deg)'],'FontSize',12);end
-                if plots ==3; ylabel(['Axial',sprintf('\n'),'Rotation (deg)'],'FontSize',12);end
-                if plots ==4; ylabel(['Abduction/',sprintf('\n'),'Adduction (deg)'],'FontSize',12);end
-                box off
 
-                if plots==1&&IK_tasks==1;title([subjLabelsPlots{subj} ' ' LTag ' Socket Motion'],'FontSize',14);end
-                if plots==1&&IK_tasks==2;title(['Pref. Speed ' LTag ' Socket Motion (socket/thigh tracking)'],'FontSize',14);end
+            subplot(4,3,absPlotNum)
+            color = 'k';
+            dataTemp = fullNormData{subj}{speed,3}{lockstate,1}(:,state);
+            SDTemp = fullNormData{subj}{speed,3}{lockstate,2}(:,state);
+            hold on
+            if plots ==1;boundedline(stance,dataTemp.*1000,SDTemp.*1000,color,'alpha');end
+            if plots ==2;boundedline(stance,-dataTemp,SDTemp,color,'alpha');end
+            if plots >2;boundedline(stance,dataTemp,SDTemp,color,'alpha');end
+            if plots ==1 && subj == 1; ylabel(['Pistoning',sprintf('\n'),'(mm)'],'FontSize',12);end
+            if plots ==2 && subj == 1; ylabel(['Flexion/',sprintf('\n'),'Extension (deg)'],'FontSize',12);end
+            if plots ==3 && subj == 1; ylabel(['Axial',sprintf('\n'),'Rotation (deg)'],'FontSize',12);end
+            if plots ==4 && subj == 1; ylabel(['Abduction/',sprintf('\n'),'Adduction (deg)'],'FontSize',12);end
+            box off
 
-                clear dataTemp
-    %         end
+            if plots==1&&IK_tasks==1;title([subjLabelsPlots{subj}],'FontSize',14);end
+            if plots==1&&IK_tasks==2;title(['Pref. Speed ' LTag ' Socket Motion (socket/thigh tracking)'],'FontSize',14);end
+
+            clear dataTemp
+
 
 
             % Create legend
@@ -395,6 +395,10 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
             end
             if plots ==4;
                 ylim([-15 10])
+%                 xlabel('% Gait')
+            end
+            
+            if absPlotNum > 9 && absPlotNum < 13;
                 xlabel('% Gait')
             end
         end
@@ -402,4 +406,123 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
     end
 
     clear dataTemp color legend1 lockstate Marker_Error Marker_ErrorSR
-end
+end    
+%% Hip/knee/ankle kinematics both sides
+
+figure('OuterPosition',[20 20 850 850])
+
+for subj = 1:numSubj
+
+
+    for plots = 1:3
+
+        if plots == 1;p_tag = 'foot_flex';i_tag = 'ankle_angle_r';end
+        if plots == 2;p_tag = 'knee_angle_l';i_tag = 'knee_angle_r';end
+        if plots == 3;p_tag = 'hip_angle_l';i_tag = 'hip_angle_r';end
+
+
+        % tag = foot_flex; % change to coordinate you want to plot
+
+        % find state 
+        for t = 1:size(fullTags{subj},2)
+            if strcmp(p_tag, fullTags{subj}(t))
+                p_state = t;
+            end
+            if strcmp(i_tag, fullTags{subj}(t))
+                i_state = t;
+            end
+        end
+
+        clear t
+
+        stance = 0:1:100;
+
+        speed = 2;
+        
+        absPlotNum = subj + ((plots-1) * 3);
+
+        subplot(3,3,absPlotNum)
+            
+            % Plot coordinate averages for speed and model
+        if plots == 2    
+            dataProsRigid = -fullNormData{subj}{speed,3}{1,1}(:,p_state);
+            dataIntactRigid = -fullNormData{subj}{speed,3}{1,1}(:,i_state);
+            dataPros4dof = -fullNormData{subj}{speed,3}{5,1}(:,p_state);
+            dataIntact4dof = -fullNormData{subj}{speed,3}{5,1}(:,i_state);
+        
+        else
+            dataProsRigid = fullNormData{subj}{speed,3}{1,1}(:,p_state);
+            dataIntactRigid = fullNormData{subj}{speed,3}{1,1}(:,i_state);
+            dataPros4dof = fullNormData{subj}{speed,3}{5,1}(:,p_state);
+            dataIntact4dof = fullNormData{subj}{speed,3}{5,1}(:,i_state);
+        end
+%                 SDTemp = fullNormData{subj}{speed,3}{lockstate,2}(:,state);
+        hold on
+        plot(stance,dataProsRigid,'LineWidth',2,'Color',[0 0 0],'LineStyle','--')
+        plot(stance,dataIntactRigid,'LineWidth',2,'Color',[0.5, 0.5, 0.5],'LineStyle','--')
+        plot(stance,dataPros4dof,'LineWidth',2,'Color',[0 0 0])
+        plot(stance,dataIntact4dof,'LineWidth',2,'Color',[0.5, 0.5, 0.5])
+%         ylabel('Angle (deg)', 'FontSize',14)
+        if plots == 1; title([subjLabelsPlots{subj}], 'FontSize',14);end
+%         if plots == 2; title(['Subj ' num2str(subj) ' Knee'], 'FontSize',14);end
+%         if plots == 3; title(['Subj ' num2str(subj) ' Hip'], 'FontSize',14);end
+        
+        if plots ==1 && subj == 1; ylabel(['Ankle/Pros Foot',sprintf('\n'),'Angle (deg)'],'FontSize',12);end
+        if plots ==2 && subj == 1; ylabel(['Knee Angle',sprintf('\n'),'(deg)'],'FontSize',12);end
+        if plots ==3 && subj == 1; ylabel(['Hip Angle',sprintf('\n'),'(deg)'],'FontSize',12);end
+        
+        if plots ==1;
+            ylim([-40 20])
+        end       
+        if plots ==2;
+            ylim([-50 100])
+        end
+        if plots ==3;
+            ylim([-100 50])
+        end
+
+        
+        % Create legend
+        if absPlotNum ==9;
+            legend('ESR Rigid','Intact Rigid','ESR 4-DOF','Intact 4-DOF');
+            set(legend,'Orientation','horizontal',...
+            'Position',[0.129689174705252 0.0212 0.77491961414791 0.02]);
+        end
+        if absPlotNum > 6 && absPlotNum < 10;
+            xlabel('% Gait')
+        end
+        
+    end
+    box off
+ end
+
+    clear dataTemp color legend1 lockstate Marker_Error Marker_ErrorSR
+
+% stance = 0:1:100;
+% 
+% figure('OuterPosition',[20 20 1500 850])
+% % ankle/foot IK
+% 
+% hold on
+% plot(stance,data.IK.ProsFootFlex{2,3}(:,1),'LineWidth',3,'Color',[0 0 0],'LineStyle',':')
+% plot(stance,data.IK.AnkleFlex{2,3}(:,1),'LineWidth',3,'Color',[0.5, 0.5, 0.5],'LineStyle',':')
+% plot(stance,data.IK.ProsFootFlex{3,3}(:,1),'LineWidth',3,'Color',[0 0 0])
+% plot(stance,data.IK.AnkleFlex{3,3}(:,1),'LineWidth',3,'Color',[0.5, 0.5, 0.5])
+% title('Ankle/Prosthetic Foot', 'FontSize',20)
+% ylabel('Angle (deg)', 'FontSize',18)
+% % knee IK
+% subplot(2,3,2)
+% hold on
+% plot(stance,data.IK.KneeFlexionL{2,3}(:,1),'LineWidth',3,'Color',[0 0 0],'LineStyle',':')
+% plot(stance,data.IK.KneeFlexionR{2,3}(:,1),'LineWidth',3,'Color',[0.5, 0.5, 0.5],'LineStyle',':')
+% plot(stance,data.IK.KneeFlexionL{3,3}(:,1),'LineWidth',3,'Color',[0 0 0])
+% plot(stance,data.IK.KneeFlexionR{3,3}(:,1),'LineWidth',3,'Color',[0.5, 0.5, 0.5])
+% title('Knee', 'FontSize',20)
+% % hip IK
+% subplot(2,3,3)
+% hold on
+% plot(stance,data.IK.HipFlexionL{2,3}(:,1),'LineWidth',3,'Color',[0 0 0],'LineStyle',':')
+% plot(stance,data.IK.HipFlexionR{2,3}(:,1),'LineWidth',3,'Color',[0.5, 0.5, 0.5],'LineStyle',':')
+% plot(stance,data.IK.HipFlexionL{3,3}(:,1),'LineWidth',3,'Color',[0 0 0])
+% plot(stance,data.IK.HipFlexionR{3,3}(:,1),'LineWidth',3,'Color',[0.5, 0.5, 0.5])
+% title('Hip', 'FontSize',20)
