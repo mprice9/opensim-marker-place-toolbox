@@ -35,6 +35,7 @@ FAST = {'T0021', 'T0022', 'T0024'};
 PREF = {'T0015', 'T0017', 'T0018'};
 SLOW = {'T0026', 'T0027', 'T0029'};
 
+mass = 104.3;
 
 % set flags for trials to evaluate
 % currently only works for PREF

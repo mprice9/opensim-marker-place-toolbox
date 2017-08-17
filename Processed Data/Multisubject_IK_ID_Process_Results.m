@@ -37,6 +37,9 @@ close all
 % subjLabels = {'A07'};
 subjLabels = {'A01', 'A03', 'A07'};
 subjLabelsPlots = {'Subject 1', 'Subject 2', 'Subject 3'};
+subjFolders = {'C:\Users\Mark\Documents\opensim-marker-place-toolbox\A01', ...
+    'C:\Users\Mark\Documents\opensim-marker-place-toolbox\A03', ...
+    'C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07'};
 
 numSubj = size(subjLabels,2);
 
@@ -70,6 +73,11 @@ for i = 1:numSubj
     load(subjFile);
     fullNormIDData{i} = normData;
     fullIDTags{i} = tags;
+    subjMasses(i) = mass;
+    
+    forceFolder = [subjFolders{i} '\TrialData\Passive\GRF_Analog\'];
+    frames{i} = frameFinder(forceFolder);
+    startSwing(i) = mean(frames{i}(:,5) - frames{i}(:,2))/mean(frames{i}(:,6) - frames{i}(:,2)) * 100;
 end
 
 %% Error comparison setup
@@ -136,12 +144,12 @@ figure1 = figure;
  
 % Create axes
 if SComp==5;axes1 = axes('Parent',figure1,...
-'XTickLabel',{'Rigid','Flexion','Pistoning','Flex/Pist','4-DOF'},...
+'XTickLabel',{'Rigid','Flex','Pist','Flex/Pist','4-DOF'},...
 'XTick',[1 2 3 4 5],...
 'FontSize',14);
 end
 if SComp==6; axes1 = axes('Parent',figure1,...
-'XTickLabel',{'Rigid','Flexion','Pistoning','Flex/Pist','4-DOF', '6-DOF'},...
+'XTickLabel',{'Rigid','Flex','Pist','Flex/Pist','4-DOF', '6-DOF'},...
 'XTick',[1 2 3 4 5 6],...
 'FontSize',12); 
 end
@@ -370,6 +378,9 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
             if plots ==2 && subj == 1; ylabel(['Flexion/',sprintf('\n'),'Extension (deg)'],'FontSize',12);end
             if plots ==3 && subj == 1; ylabel(['Axial',sprintf('\n'),'Rotation (deg)'],'FontSize',12);end
             if plots ==4 && subj == 1; ylabel(['Abduction/',sprintf('\n'),'Adduction (deg)'],'FontSize',12);end
+            
+            plot([startSwing(subj) startSwing(subj)],[-100000 100000],'k--')
+            
             box off
 
             if plots==1&&IK_tasks==1;title([subjLabelsPlots{subj}],'FontSize',14);end
@@ -381,19 +392,19 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
 
             % Create legend
             if plots ==1;
-                ylim([-40 50])
+                ylim([-30 40])
     %             legend('SR-0','SR-25','SR-50');
     %             set(legend,'Orientation','horizontal',...
     %             'Position',[0.129689174705252 0.0212 0.77491961414791 0.02]);
             end
             if plots ==2;
-                ylim([-15 15])
+                ylim([-10 15])
             end
             if plots ==3;
-                ylim([-30 30])
+                ylim([-20 25])
             end
             if plots ==4;
-                ylim([-15 10])
+                ylim([-10 5])
 %                 xlabel('% Gait')
             end
             
@@ -411,13 +422,27 @@ end
 figure('OuterPosition',[20 20 850 850])
 
 for subj = 1:numSubj
+    
+    options.datasets{1} = [subjFolders{subj} '\IKResults\Rigid\'];
+    options.datasets{2} = [subjFolders{subj} '\IKResults\4DOF\'];
+    % load frames.mat
+    options.frames{1} = frames{subj};
+    options.frames{2} = frames{subj};
+    options.label{1} = 'Rigid';
+    options.label{2} = '4-DOF';
+    options.filter = 10;  % filter window size
+    options.outputLevel = 0;
+    options.dataType = 'IK';        
+    options.stitchData = 'n';   
+    options.norm2mass = 'no';
 
 
     for plots = 1:3
 
+        
         if plots == 1;p_tag = 'foot_flex';i_tag = 'ankle_angle_r';end
         if plots == 2;p_tag = 'knee_angle_l';i_tag = 'knee_angle_r';end
-        if plots == 3;p_tag = 'hip_angle_l';i_tag = 'hip_angle_r';end
+        if plots == 3;p_tag = 'hip_flexion_l';i_tag = 'hip_flexion_r';end
 
 
         % tag = foot_flex; % change to coordinate you want to plot
@@ -441,26 +466,51 @@ for subj = 1:numSubj
         absPlotNum = subj + ((plots-1) * 3);
 
         subplot(3,3,absPlotNum)
+        
+        
+        options.removeOffset = 'no';
+        options.stitchData = 'y';
+        if plots == 2  
+            options.mirror = 'y';  
+        else
+            options.mirror = 'n';
+        end
+        options.tag = i_tag;
+        compareResults(options)
+        load compResults.mat
+        dataIntact = compResults;
+        options.removeOffset = 'n';
+        options.stitchData = 'n';
+        if plots == 2  
+            options.mirror = 'y';  
+        else
+            options.mirror = 'n';
+        end
+        options.tag = p_tag;  
+        compareResults(options)
+        load compResults.mat
+        dataPros = compResults;
             
             % Plot coordinate averages for speed and model
-        if plots == 2    
-            dataProsRigid = -fullNormData{subj}{speed,3}{1,1}(:,p_state);
-            dataIntactRigid = -fullNormData{subj}{speed,3}{1,1}(:,i_state);
-            dataPros4dof = -fullNormData{subj}{speed,3}{5,1}(:,p_state);
-            dataIntact4dof = -fullNormData{subj}{speed,3}{5,1}(:,i_state);
-        
-        else
-            dataProsRigid = fullNormData{subj}{speed,3}{1,1}(:,p_state);
-            dataIntactRigid = fullNormData{subj}{speed,3}{1,1}(:,i_state);
-            dataPros4dof = fullNormData{subj}{speed,3}{5,1}(:,p_state);
-            dataIntact4dof = fullNormData{subj}{speed,3}{5,1}(:,i_state);
-        end
+%         if plots == 2    
+%             dataProsRigid = -fullNormData{subj}{speed,3}{1,1}(:,p_state);
+%             dataIntactRigid = -fullNormData{subj}{speed,3}{1,1}(:,i_state);
+%             dataPros4dof = -fullNormData{subj}{speed,3}{5,1}(:,p_state);
+%             dataIntact4dof = -fullNormData{subj}{speed,3}{5,1}(:,i_state);
+%         
+%         else
+%             dataProsRigid = fullNormData{subj}{speed,3}{1,1}(:,p_state);
+%             dataIntactRigid = fullNormData{subj}{speed,3}{1,1}(:,i_state);
+%             dataPros4dof = fullNormData{subj}{speed,3}{5,1}(:,p_state);
+%             dataIntact4dof = fullNormData{subj}{speed,3}{5,1}(:,i_state);
+%         end
 %                 SDTemp = fullNormData{subj}{speed,3}{lockstate,2}(:,state);
         hold on
-        plot(stance,dataProsRigid,'LineWidth',2,'Color',[0 0 0],'LineStyle','--')
-        plot(stance,dataIntactRigid,'LineWidth',2,'Color',[0.5, 0.5, 0.5],'LineStyle','--')
-        plot(stance,dataPros4dof,'LineWidth',2,'Color',[0 0 0])
-        plot(stance,dataIntact4dof,'LineWidth',2,'Color',[0.5, 0.5, 0.5])
+        plot(stance,dataPros{2,3}(:,1),'LineWidth',1.5,'Color',[0 0 0],'LineStyle',':')
+        plot(stance,dataIntact{2,3}(:,1),'LineWidth',1.5,'Color',[0.5, 0.5, 0.5],'LineStyle',':')
+        plot(stance,dataPros{3,3}(:,1),'LineWidth',1.5,'Color',[0 0 0])
+        plot(stance,dataIntact{3,3}(:,1),'LineWidth',1.5,'Color',[0.5, 0.5, 0.5])
+        plot([startSwing(subj) startSwing(subj)],[-100000 100000],'k--')
 %         ylabel('Angle (deg)', 'FontSize',14)
         if plots == 1; title([subjLabelsPlots{subj}], 'FontSize',14);end
 %         if plots == 2; title(['Subj ' num2str(subj) ' Knee'], 'FontSize',14);end
@@ -471,13 +521,13 @@ for subj = 1:numSubj
         if plots ==3 && subj == 1; ylabel(['Hip Angle',sprintf('\n'),'(deg)'],'FontSize',12);end
         
         if plots ==1;
-            ylim([-40 20])
+            ylim([-40 25])
         end       
         if plots ==2;
-            ylim([-50 100])
+            ylim([-10 80])
         end
         if plots ==3;
-            ylim([-100 50])
+            ylim([-40 40])
         end
 
         
@@ -547,6 +597,7 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
             SDTemp = fullNormIDData{subj}{speed,3}{lockstate,2}(:,state);
             hold on
             boundedline(stance,dataTemp,SDTemp,color,'alpha');
+            plot([startSwing(subj) startSwing(subj)],[-100000 100000],'k--')
 
             if plots ==1 && subj == 1; 
                 ylabel(['Pistoning Force',sprintf('\n'),'(N)'],'FontSize',12);
@@ -584,10 +635,10 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
                 ylim([-40 100])
             end
             if plots ==3;
-                ylim([-20 20])
+                ylim([-15 15])
             end
             if plots ==4;
-                ylim([-20 20])
+                ylim([-25 5])
             end
             
             if absPlotNum > 9 && absPlotNum < 13;
@@ -604,13 +655,30 @@ end
 figure('OuterPosition',[20 20 850 850])
 
 for subj = 1:numSubj
-
+    
+    
+    
+    % ID
+    options.datasets{1} = [subjFolders{subj} '\IDResults\Rigid\'];
+    options.datasets{2} = [subjFolders{subj} '\IDResults\4DOF\'];
+    % load frames.mat
+    options.frames{1} = frames{subj};
+    options.frames{2} = frames{subj};
+    options.label{1} = 'Rigid';
+    options.label{2} = '4-DOF';
+    options.filter = 20;  % filter window size
+    options.outputLevel = 1; 
+    options.dataType = 'ID';         
+    options.stitchData = 'n';
+    options.norm2mass = 'y';
+    options.subjectMass{1} = subjMasses(subj);
+    options.subjectMass{2} = subjMasses(subj);
 
     for plots = 1:3
 
         if plots == 1;p_tag = 'foot_flex_moment';i_tag = 'ankle_angle_r_moment';end
         if plots == 2;p_tag = 'knee_angle_l_moment';i_tag = 'knee_angle_r_moment';end
-        if plots == 3;p_tag = 'hip_angle_l_moment';i_tag = 'hip_angle_r_moment';end
+        if plots == 3;p_tag = 'hip_flexion_l_moment';i_tag = 'hip_flexion_r_moment';end
 
 
         % tag = foot_flex; % change to coordinate you want to plot
@@ -627,7 +695,7 @@ for subj = 1:numSubj
 
         clear t
 
-        stance = 0:0.5:100;
+        stance = 0:1:100;
 
         speed = 2;
         
@@ -635,6 +703,37 @@ for subj = 1:numSubj
 
         subplot(3,3,absPlotNum)
             
+        % ankle and foot prosthesis dynamics
+        if plots == 2
+            options.mirror = 'n';
+            options.removeOffset = 'no';
+            options.stitchData = 'y';
+            options.tag = i_tag;
+            compareResults(options)
+            load compResults.mat
+            dataIntact = compResults;
+            options.removeOffset = 'no';
+            options.stitchData = 'n';
+            options.tag = p_tag;  
+            compareResults(options)
+            load compResults.mat
+            dataPros = compResults;            
+        else
+            options.mirror = 'y';
+            options.removeOffset = 'no';
+            options.stitchData = 'y';
+            options.tag = i_tag;
+            compareResults(options)
+            load compResults.mat
+            dataIntact = compResults;
+            options.removeOffset = 'no';
+            options.stitchData = 'n';
+            options.tag = p_tag;  
+            compareResults(options)
+            load compResults.mat
+            dataPros = compResults;
+        end
+
             % Plot coordinate averages for speed and model
 %         if plots == 2    
 %             dataProsRigid = -fullNormIDData{subj}{speed,3}{1,1}(:,p_state);
@@ -643,17 +742,19 @@ for subj = 1:numSubj
 %             dataIntact4dof = -fullNormIDData{subj}{speed,3}{5,1}(:,i_state);
 %         
 %         else
-            dataProsRigid = fullNormIDData{subj}{speed,3}{1,1}(:,p_state);
-            dataIntactRigid = fullNormIDData{subj}{speed,3}{1,1}(:,i_state);
-            dataPros4dof = fullNormIDData{subj}{speed,3}{5,1}(:,p_state);
-            dataIntact4dof = fullNormIDData{subj}{speed,3}{5,1}(:,i_state);
+%             dataProsRigid = fullNormIDData{subj}{speed,3}{1,1}(:,p_state);
+%             dataIntactRigid = fullNormIDData{subj}{speed,3}{1,1}(:,i_state);
+%             dataPros4dof = fullNormIDData{subj}{speed,3}{5,1}(:,p_state);
+%             dataIntact4dof = fullNormIDData{subj}{speed,3}{5,1}(:,i_state);
 %         end
 %                 SDTemp = fullNormData{subj}{speed,3}{lockstate,2}(:,state);
         hold on
-        plot(stance,dataProsRigid,'LineWidth',2,'Color',[0 0 0],'LineStyle','--')
-        plot(stance,dataIntactRigid,'LineWidth',2,'Color',[0.5, 0.5, 0.5],'LineStyle','--')
-        plot(stance,dataPros4dof,'LineWidth',2,'Color',[0 0 0])
-        plot(stance,dataIntact4dof,'LineWidth',2,'Color',[0.5, 0.5, 0.5])
+        plot(stance,dataPros{2,3}(:,1),'LineWidth',1.5,'Color',[0 0 0],'LineStyle',':')
+        plot(stance,dataIntact{2,3}(:,1),'LineWidth',1.5,'Color',[0.5, 0.5, 0.5],'LineStyle',':')
+        plot(stance,dataPros{3,3}(:,1),'LineWidth',1.5,'Color',[0 0 0])
+        plot(stance,dataIntact{3,3}(:,1),'LineWidth',1.5,'Color',[0.5, 0.5, 0.5])
+        plot([startSwing(subj) startSwing(subj)],[-100000 100000],'k--')
+
 %         ylabel('Angle (deg)', 'FontSize',14)
         if plots == 1; title([subjLabelsPlots{subj}], 'FontSize',14);end
 %         if plots == 2; title(['Subj ' num2str(subj) ' Knee'], 'FontSize',14);end
@@ -663,15 +764,15 @@ for subj = 1:numSubj
         if plots ==2 && subj == 1; ylabel(['Knee Moment',sprintf('\n'),'(N-m)'],'FontSize',12);end
         if plots ==3 && subj == 1; ylabel(['Hip Moment',sprintf('\n'),'(N-m)'],'FontSize',12);end
         
-%         if plots ==1;
-%             ylim([-40 20])
-%         end       
-%         if plots ==2;
-%             ylim([-50 100])
-%         end
-%         if plots ==3;
-%             ylim([-100 50])
-%         end
+        if plots ==1;
+            ylim([-1 2])
+        end       
+        if plots ==2;
+            ylim([-1 1.5])
+        end
+        if plots ==3;
+            ylim([-1 1.5])
+        end
 
         
         % Create legend

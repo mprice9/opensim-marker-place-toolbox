@@ -90,8 +90,8 @@ data.IK.HipFlexionL = compResults;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% ID
-options.datasets{1} = 'IDResults\Rigid_SR2\';
-options.datasets{2} = 'IDResults\4DOF_SR2\';
+options.datasets{1} = 'IDResults\Rigid\';
+options.datasets{2} = 'IDResults\4DOF\';
 % load frames.mat
 options.frames{1} = frames;
 options.frames{2} = frames;

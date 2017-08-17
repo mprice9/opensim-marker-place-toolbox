@@ -101,7 +101,7 @@ socketAlignment = {'SOCKET_JOINT_LOC_IN_BODY','SOCKET_JOINT_ORIENT'};
 % Set model and algorithm options:
 options.IKsetup = [ikSetupPath genericSetupForIK];
 options.model = myModel;                    % generic model name
-options.subjectMass = 67.3046;
+options.subjectMass = 73.1637;
 options.newName = newModelName;
 options.modelWorker = modelFile;
 options.motionWorker = outputMotionFile;
