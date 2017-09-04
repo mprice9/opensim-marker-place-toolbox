@@ -128,7 +128,7 @@ for trial = 1:nTrials
 %             plot(data.data(:,row))
 %         end
         temp = data.data(:,row);
-        temp = dynWindFilt(10,temp);
+%         temp = dynWindFilt(10,temp);
         P = 201;
         Q = size(temp,1);
         x = resample(temp,P,Q);

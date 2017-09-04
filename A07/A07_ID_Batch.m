@@ -27,12 +27,19 @@ clc
 %% script options
 
 % specify model names in folder ModelsScaled\4.0Models\
-models{1} = 'A07_passive_FULL_auto_marker_place_RIGID_6dof_base_locked_z.osim';
-models{2} = 'A07_passive_FULL_auto_marker_place_FLEXION_ONLY_6dof_base_locked_z.osim';
-models{3} = 'A07_passive_FULL_auto_marker_place_PISTON_ONLY_6dof_base_locked_z.osim';
-models{4} = 'A07_passive_FULL_auto_marker_place_FLEXION_PISTON_6dof_base_locked_z.osim';
-models{5} = 'A07_passive_FULL_auto_marker_place_4DOF_6dof_base_locked_z.osim';
-models{6} = 'A07_passive_FULL_auto_marker_place_6DOF_6dof_base_locked_z.osim';
+% models{1} = 'A07_passive_FULL_auto_marker_place_RIGID_6dof_base_locked_z.osim';
+% models{2} = 'A07_passive_FULL_auto_marker_place_FLEXION_ONLY_6dof_base_locked_z.osim';
+% models{3} = 'A07_passive_FULL_auto_marker_place_PISTON_ONLY_6dof_base_locked_z.osim';
+% models{4} = 'A07_passive_FULL_auto_marker_place_FLEXION_PISTON_6dof_base_locked_z.osim';
+% models{5} = 'A07_passive_FULL_auto_marker_place_4DOF_6dof_base_locked_z.osim';
+% models{6} = 'A07_passive_FULL_auto_marker_place_6DOF_6dof_base_locked_z.osim';
+
+models{1} = 'A07_passive_FULL_auto_marker_place_RIGID_6dof_base_locked_z_mod_foot.osim';
+models{2} = 'A07_passive_FULL_auto_marker_place_FLEXION_ONLY_6dof_base_locked_z_mod_foot.osim';
+models{3} = 'A07_passive_FULL_auto_marker_place_PISTON_ONLY_6dof_base_locked_z_mod_foot.osim';
+models{4} = 'A07_passive_FULL_auto_marker_place_FLEXION_PISTON_6dof_base_locked_z_mod_foot.osim';
+models{5} = 'A07_passive_FULL_auto_marker_place_4DOF_6dof_base_locked_z_mod_foot.osim';
+models{6} = 'A07_passive_FULL_auto_marker_place_6DOF_6dof_base_locked_z_mod_foot.osim';
 
 % specify the original trials
 PREF = {'0002', '0003', '0005'};

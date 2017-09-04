@@ -157,7 +157,7 @@ for trial = 1:nTrials
 %         P = 101;
 %         Q = size(temp,1);
 %         x = resample(temp,P,Q);
-        temp = dynWindFilt(20,temp);
+%         temp = dynWindFilt(20,temp);
         x = norm2stance(temp);
         
         % store in appropriate cell

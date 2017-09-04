@@ -67,12 +67,14 @@ iteration = 1;
 fileID = fopen(['coarseMarkerSearch_log_' subject '_' prosType '_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.txt'], 'w'); % myModel = 'A07_passive_manual_foot_markers.osim';
 
 % model = [subject '_' prosType '_pre_auto_marker_place.osim'];
-model = 'A07_passive_manual_foot_markers.osim';
+model = 'A07_passive_FULL_auto_marker_place_4DOF_6dof_base_locked_z_mod_foot.osim';
 myModel = [inputModelDir model];    % define .osim model used as the starting point
 
 newName = [subject '_' prosType '_ROB_auto_marker_place_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
 newModelName = [modelDir newName];  % set name for new .osim model created after placing ROB markers
 
+footMarkerNames = {'R_HEEL_SUP','R_HEEL_MED','R_HEEL_LAT','R_TOE','R_1ST_MET', ...
+            'R_5TH_MET'};
 robMarkerNames = {'R_AC','L_AC','R_ASIS','L_ASIS','R_PSIS', ...
             'L_PSIS','R_THIGH_PROX_POST','R_THIGH_PROX_ANT', ...
             'R_THIGH_DIST_POST','R_THIGH_DIST_ANT','R_SHANK_PROX_ANT', ...
@@ -135,6 +137,16 @@ options.flexionZero = 51;
 options.convThresh = 1; 
 
 tic
+
+newName = [subject '_' prosType '_FULL_auto_marker_place_4DOF_fixed_ankle.osim'];
+newModelName = [modelDir newName];
+options.jointNames = {};
+options.markerNames = footMarkerNames;
+options.fixedMarkerCoords = {'R_HEEL_SUP y','R_TOE x','R_TOE y','R_TOE z'};
+X_newFoot = coarseMarkerSearch(options);
+model = Model('autoPlaceWorker.osim');
+model.initSystem();
+model.print(newModelName);
 % 
 % X_ROB = coarseMarkerSearch(options);
 % model = Model('autoPlaceWorker.osim');
@@ -191,7 +203,7 @@ tic
 % Place thigh cluster and socket joint center for different socket models
 % using walking trials
 % options.IKsetup = [ikSetupPath genericSetupForIK];
-preSocketJointModel = [modelDir 'A07_passive_ROBPROS_auto_marker_place_6dof_base_orient.osim'];
+% preSocketJointModel = [modelDir 'A07_passive_ROBPROS_auto_marker_place_6dof_base_orient.osim'];
 % preSocketJointModel = newModelName;
 
 % myModel = preSocketJointModel;
@@ -270,25 +282,25 @@ preSocketJointModel = [modelDir 'A07_passive_ROBPROS_auto_marker_place_6dof_base
 % model.initSystem();
 % model.print(newModelName);
 
-myModel = preSocketJointModel;
-newName = [subject '_' prosType '_FULL_auto_marker_place_4DOF_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
-newModelName = [modelDir newName];
-options.fixedMarkerCoords = {'socket_JOINT_CENTER z'};
-% options.fixedMarkerCoords = {'socket_JOINT_CENTER x','socket_JOINT_CENTER z','socket_JOINT_ORIENT x','socket_JOINT_ORIENT y'};
-% options.bodySet = 'prosThigh';
-options.txLock = true;
-options.tyLock = false;
-options.tzLock = true;
-options.flexLock = false;
-options.adducLock = false;
-options.rotLock = false;
-options.optZerosFlag = true;
-options.markerNames = prosThighMarkerNames;
-options.jointNames = jointNames;
-X_prosThigh = coarseMarkerSearch(options);
-model = Model('autoPlaceWorker.osim');
-model.initSystem();
-model.print(newModelName);
+% myModel = preSocketJointModel;
+% newName = [subject '_' prosType '_FULL_auto_marker_place_4DOF_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
+% newModelName = [modelDir newName];
+% options.fixedMarkerCoords = {'socket_JOINT_CENTER z'};
+% % options.fixedMarkerCoords = {'socket_JOINT_CENTER x','socket_JOINT_CENTER z','socket_JOINT_ORIENT x','socket_JOINT_ORIENT y'};
+% % options.bodySet = 'prosThigh';
+% options.txLock = true;
+% options.tyLock = false;
+% options.tzLock = true;
+% options.flexLock = false;
+% options.adducLock = false;
+% options.rotLock = false;
+% options.optZerosFlag = true;
+% options.markerNames = prosThighMarkerNames;
+% options.jointNames = jointNames;
+% X_prosThigh = coarseMarkerSearch(options);
+% model = Model('autoPlaceWorker.osim');
+% model.initSystem();
+% model.print(newModelName);
 
 
 fclose(fileID);

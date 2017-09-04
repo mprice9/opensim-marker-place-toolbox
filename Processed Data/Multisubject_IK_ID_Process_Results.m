@@ -270,12 +270,12 @@ figure1 = figure;
  
 % Create axes
 if SComp==5;axes1 = axes('Parent',figure1,...
-'XTickLabel',{'Rigid','Flexion','Pistoning','Flex/Pist','4-DOF'},...
+'XTickLabel',{'Rigid','Flex','Pist','Flex/Pist','4-DOF'},...
 'XTick',[1 2 3 4 5],...
 'FontSize',14);
 end
 if SComp==6; axes1 = axes('Parent',figure1,...
-'XTickLabel',{'Rigid','Flexion','Pistoning','Flex/Pist','4-DOF', '6-DOF'},...
+'XTickLabel',{'Rigid','Flex','Pist','Flex/Pist','4-DOF', '6-DOF'},...
 'XTick',[1 2 3 4 5 6],...
 'FontSize',12); 
 end
@@ -325,6 +325,7 @@ end
 
 if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
 
+    labels = {'A)','B)','C)','D)','E)','F)','G)','H)','I)','J)','K)','L)'};
     figure('OuterPosition',[20 20 850 850])
     
     for subj = 1:numSubj
@@ -380,6 +381,8 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
             if plots ==4 && subj == 1; ylabel(['Abduction/',sprintf('\n'),'Adduction (deg)'],'FontSize',12);end
             
             plot([startSwing(subj) startSwing(subj)],[-100000 100000],'k--')
+            label = labels{absPlotNum};            
+            text(.05,.9,label,'Units','Normalized','FontSize',12)
             
             box off
 
@@ -401,7 +404,7 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
                 ylim([-10 15])
             end
             if plots ==3;
-                ylim([-20 25])
+                ylim([-25 25])
             end
             if plots ==4;
                 ylim([-10 5])
@@ -420,6 +423,7 @@ end
 %% Hip/knee/ankle kinematics both sides
 
 figure('OuterPosition',[20 20 850 850])
+labels = {'A)','B)','C)','D)','E)','F)','G)','H)','I)'};
 
 for subj = 1:numSubj
     
@@ -505,12 +509,18 @@ for subj = 1:numSubj
 %             dataIntact4dof = fullNormData{subj}{speed,3}{5,1}(:,i_state);
 %         end
 %                 SDTemp = fullNormData{subj}{speed,3}{lockstate,2}(:,state);
+
+        maxDiffPros(plots,subj) = max(dataPros{2,3}(:,1)-dataPros{3,3}(:,1));
+        maxDiffIntact(plots,subj) = max(dataIntact{2,3}(:,1)-dataIntact{3,3}(:,1));
+
         hold on
         plot(stance,dataPros{2,3}(:,1),'LineWidth',1.5,'Color',[0 0 0],'LineStyle',':')
         plot(stance,dataIntact{2,3}(:,1),'LineWidth',1.5,'Color',[0.5, 0.5, 0.5],'LineStyle',':')
         plot(stance,dataPros{3,3}(:,1),'LineWidth',1.5,'Color',[0 0 0])
         plot(stance,dataIntact{3,3}(:,1),'LineWidth',1.5,'Color',[0.5, 0.5, 0.5])
         plot([startSwing(subj) startSwing(subj)],[-100000 100000],'k--')
+        label = labels{absPlotNum};            
+        text(.05,.9,label,'Units','Normalized','FontSize',12)
 %         ylabel('Angle (deg)', 'FontSize',14)
         if plots == 1; title([subjLabelsPlots{subj}], 'FontSize',14);end
 %         if plots == 2; title(['Subj ' num2str(subj) ' Knee'], 'FontSize',14);end
@@ -527,7 +537,7 @@ for subj = 1:numSubj
             ylim([-10 80])
         end
         if plots ==3;
-            ylim([-40 40])
+            ylim([-30 50])
         end
 
         
@@ -551,6 +561,7 @@ for subj = 1:numSubj
 if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
 
     figure('OuterPosition',[20 20 850 850])
+    labels = {'A)','B)','C)','D)','E)','F)','G)','H)','I)','J)','K)','L)'};
     
     for subj = 1:numSubj
         
@@ -598,6 +609,8 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
             hold on
             boundedline(stance,dataTemp,SDTemp,color,'alpha');
             plot([startSwing(subj) startSwing(subj)],[-100000 100000],'k--')
+            label = labels{absPlotNum};            
+            text(.05,.9,label,'Units','Normalized','FontSize',12)
 
             if plots ==1 && subj == 1; 
                 ylabel(['Pistoning Force',sprintf('\n'),'(N)'],'FontSize',12);
@@ -626,7 +639,7 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
 
             % Create legend
             if plots ==1;
-                ylim([-100 1200]);
+                ylim([-100 1500]);
     %             legend('SR-0','SR-25','SR-50');
     %             set(legend,'Orientation','horizontal',...
     %             'Position',[0.129689174705252 0.0212 0.77491961414791 0.02]);
@@ -638,7 +651,7 @@ if FAST_flag==0&&PREF_flag==1&&SLOW_flag==0
                 ylim([-15 15])
             end
             if plots ==4;
-                ylim([-25 5])
+                ylim([-25 10])
             end
             
             if absPlotNum > 9 && absPlotNum < 13;
@@ -653,6 +666,7 @@ end
 %% Hip/knee/ankle kinetics both sides
 
 figure('OuterPosition',[20 20 850 850])
+labels = {'A)','B)','C)','D)','E)','F)','G)','H)','I)'};
 
 for subj = 1:numSubj
     
@@ -748,30 +762,35 @@ for subj = 1:numSubj
 %             dataIntact4dof = fullNormIDData{subj}{speed,3}{5,1}(:,i_state);
 %         end
 %                 SDTemp = fullNormData{subj}{speed,3}{lockstate,2}(:,state);
+        maxDiffProsForce(plots,subj) = max(dataPros{2,3}(:,1)-dataPros{3,3}(:,1));
+        maxDiffIntactForce(plots,subj) = max(dataIntact{2,3}(:,1)-dataIntact{3,3}(:,1));
+
         hold on
         plot(stance,dataPros{2,3}(:,1),'LineWidth',1.5,'Color',[0 0 0],'LineStyle',':')
         plot(stance,dataIntact{2,3}(:,1),'LineWidth',1.5,'Color',[0.5, 0.5, 0.5],'LineStyle',':')
         plot(stance,dataPros{3,3}(:,1),'LineWidth',1.5,'Color',[0 0 0])
         plot(stance,dataIntact{3,3}(:,1),'LineWidth',1.5,'Color',[0.5, 0.5, 0.5])
         plot([startSwing(subj) startSwing(subj)],[-100000 100000],'k--')
+        label = labels{absPlotNum};            
+        text(.05,.9,label,'Units','Normalized','FontSize',12)
 
 %         ylabel('Angle (deg)', 'FontSize',14)
         if plots == 1; title([subjLabelsPlots{subj}], 'FontSize',14);end
 %         if plots == 2; title(['Subj ' num2str(subj) ' Knee'], 'FontSize',14);end
 %         if plots == 3; title(['Subj ' num2str(subj) ' Hip'], 'FontSize',14);end
         
-        if plots ==1 && subj == 1; ylabel(['Ankle/Pros Foot',sprintf('\n'),'Moment (N-m)'],'FontSize',12);end
-        if plots ==2 && subj == 1; ylabel(['Knee Moment',sprintf('\n'),'(N-m)'],'FontSize',12);end
-        if plots ==3 && subj == 1; ylabel(['Hip Moment',sprintf('\n'),'(N-m)'],'FontSize',12);end
+        if plots ==1 && subj == 1; ylabel(['Ankle/Pros Foot',sprintf('\n'),'Moment (N-m/kg)'],'FontSize',12);end
+        if plots ==2 && subj == 1; ylabel(['Knee Moment',sprintf('\n'),'(N-m/kg)'],'FontSize',12);end
+        if plots ==3 && subj == 1; ylabel(['Hip Moment',sprintf('\n'),'(N-m/kg)'],'FontSize',12);end
         
         if plots ==1;
             ylim([-1 2])
         end       
         if plots ==2;
-            ylim([-1 1.5])
+            ylim([-1 2])
         end
         if plots ==3;
-            ylim([-1 1.5])
+            ylim([-1 2])
         end
 
         

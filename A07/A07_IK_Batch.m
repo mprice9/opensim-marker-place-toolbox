@@ -76,12 +76,19 @@ model_dir = ([pwd '\Models\AutoPlaced\']);
 % models{5} = 'A07_passive_FULL_auto_marker_place_4DOF_6dof_base_orient.osim';
 % models{6} = 'A07_passive_FULL_auto_marker_place_6DOF_6dof_base_orient.osim';
 
-models{1} = 'A07_passive_FULL_auto_marker_place_RIGID_6dof_base_locked_z.osim';
-models{2} = 'A07_passive_FULL_auto_marker_place_FLEXION_ONLY_6dof_base_locked_z.osim';
-models{3} = 'A07_passive_FULL_auto_marker_place_PISTON_ONLY_6dof_base_locked_z.osim';
-models{4} = 'A07_passive_FULL_auto_marker_place_FLEXION_PISTON_6dof_base_locked_z.osim';
-models{5} = 'A07_passive_FULL_auto_marker_place_4DOF_6dof_base_locked_z.osim';
-models{6} = 'A07_passive_FULL_auto_marker_place_6DOF_6dof_base_locked_z.osim';
+% models{1} = 'A07_passive_FULL_auto_marker_place_RIGID_6dof_base_locked_z.osim';
+% models{2} = 'A07_passive_FULL_auto_marker_place_FLEXION_ONLY_6dof_base_locked_z.osim';
+% models{3} = 'A07_passive_FULL_auto_marker_place_PISTON_ONLY_6dof_base_locked_z.osim';
+% models{4} = 'A07_passive_FULL_auto_marker_place_FLEXION_PISTON_6dof_base_locked_z.osim';
+% models{5} = 'A07_passive_FULL_auto_marker_place_4DOF_6dof_base_locked_z.osim';
+% models{6} = 'A07_passive_FULL_auto_marker_place_6DOF_6dof_base_locked_z.osim';
+
+models{1} = 'A07_passive_FULL_auto_marker_place_RIGID_fixed_ankle.osim';
+models{2} = 'A07_passive_FULL_auto_marker_place_FLEXION_ONLY_fixed_ankle.osim';
+models{3} = 'A07_passive_FULL_auto_marker_place_PISTON_ONLY_fixed_ankle.osim';
+models{4} = 'A07_passive_FULL_auto_marker_place_FLEXION_PISTON_fixed_ankle.osim';
+models{5} = 'A07_passive_FULL_auto_marker_place_4DOF_fixed_ankle.osim';
+models{6} = 'A07_passive_FULL_auto_marker_place_6DOF__fixed_ankle.osim';
 
 % specify .trc marker file repository 
 trc_data_dir = ([pwd '\MarkerData\PREF']);
