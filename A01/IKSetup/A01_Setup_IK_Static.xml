@@ -10,7 +10,7 @@
 		<!--A positive scalar that is used to weight the importance of satisfying constraints.A weighting of 'Infinity' or if it is unassigned results in the constraints being strictly enforced.-->
 		<constraint_weight>Inf</constraint_weight>
 		<!--The accuracy of the solution in absolute terms. I.e. the number of significantdigits to which the solution can be trusted.-->
-		<accuracy>1e-005</accuracy>
+		<accuracy>1e-05</accuracy>
 		<!--Markers and coordinates to be considered (tasks) and their weightings.-->
 		<IKTaskSet>
 			<objects>

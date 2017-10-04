@@ -117,7 +117,7 @@ prosThighMarkerNames = {'L_THIGH_PROX_POST','L_THIGH_PROX_ANT', ...
 jointNames = {'socket'};
 socketAlignment = {'SOCKET_JOINT_LOC_IN_BODY','SOCKET_JOINT_ORIENT'};
 
-%% Setup and run initial RoB marker placement
+%% Setup options for initial RoB marker placement
 
 iteration = 1;
 
@@ -135,7 +135,9 @@ options.newName = newModelName;                     % Output model name
 options.modelWorker = modelFile;                    % Worker model name
 options.motionWorker = outputMotionFile;            % Output motion name
 
-% Choose the lock state of each coordinate in the socket joint
+
+% Choose the lock state of each coordinate in the socket joint for the RoB
+% marker placement.
 options.txLock = false;
 options.tyLock = false;
 options.tzLock = false;
@@ -154,8 +156,7 @@ options.jointNames = {};
 % options.fixedMarkerCoords = {'R_AC x','L_AC x','L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z'};
 options.fixedMarkerCoords = {'L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z'};
 
-% Specify frame from .trc file at which socket flexion should be minimized
-% (only applies for prosthesis-side thigh markers and socket joint placement)
+% Specify frame from .trc file at which socket flexion should be minimized:
 options.flexionZero = 40; 
 
 % Specify marker search convergence threshold. All markers must move less 
@@ -166,12 +167,10 @@ options.convThresh = 1;
 
 tic     %Start timer
 
-X_ROB = coarseMarkerSearch(options);
-model = Model('autoPlaceWorker.osim');
-model.initSystem();
-model.print(newModelName);
-
-%% Setup and run thigh cluster and socket joint placement
+% X_ROB = coarseMarkerSearch(options);
+% model = Model('autoPlaceWorker.osim');
+% model.initSystem();
+% model.print(newModelName);
 % 
 % myModel = newModelName;
 % newName = [subject '_' prosType '_PROS_auto_marker_place_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
