@@ -121,7 +121,8 @@ function X = coarseMarkerSearch(options)
         
     end
     
-    message = 'Marker search complete.';
+    tFinal = toc;
+    message = ['Marker search complete. Time elapsed: ' num2str(tFinal) 's.'];
 
     disp(message)
 

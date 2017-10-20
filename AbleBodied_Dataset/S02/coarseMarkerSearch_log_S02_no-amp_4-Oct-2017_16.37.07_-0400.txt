@@ -1,0 +1,40 @@
+ Iter: 1 Obj: 8305.1791 Marker cost: 8139.9456 Tilt cost: 165.2335 Avg RMS: 11.075 Marker coordinate:  Steps from IC (mm):  time: 32.1446
+Sternum x:
+ Iter: 2 Obj: 8348.3814 Marker cost: 8183.5157 Tilt cost: 164.8657 Avg RMS: 11.0901 Marker coordinate: Sternum x Steps from IC (mm): 1 time: 34.5157
+ Iter: 3 Obj: 8267.8431 Marker cost: 8102.3025 Tilt cost: 165.5406 Avg RMS: 11.0619 Marker coordinate: Sternum x Steps from IC (mm): -1 time: 36.816
+ Iter: 4 Obj: 8233.2365 Marker cost: 8067.1995 Tilt cost: 166.037 Avg RMS: 11.0498 Marker coordinate: Sternum x Steps from IC (mm): -2 time: 39.1502
+ Iter: 5 Obj: 8207.9051 Marker cost: 8041.4467 Tilt cost: 166.4584 Avg RMS: 11.0412 Marker coordinate: Sternum x Steps from IC (mm): -3 time: 41.5583
+ Iter: 6 Obj: 8184.5081 Marker cost: 8017.7237 Tilt cost: 166.7845 Avg RMS: 11.0335 Marker coordinate: Sternum x Steps from IC (mm): -4 time: 43.9554
+ Iter: 7 Obj: 8165.9086 Marker cost: 7998.8391 Tilt cost: 167.0695 Avg RMS: 11.0277 Marker coordinate: Sternum x Steps from IC (mm): -5 time: 46.3397
+ Iter: 8 Obj: 8155.026 Marker cost: 7987.5049 Tilt cost: 167.5211 Avg RMS: 11.0247 Marker coordinate: Sternum x Steps from IC (mm): -6 time: 48.7336
+ Iter: 9 Obj: 8146.1561 Marker cost: 7978.2453 Tilt cost: 167.9108 Avg RMS: 11.0223 Marker coordinate: Sternum x Steps from IC (mm): -7 time: 51.0849
+ Iter: 10 Obj: 8146.838 Marker cost: 7978.5299 Tilt cost: 168.3081 Avg RMS: 11.0237 Marker coordinate: Sternum x Steps from IC (mm): -8 time: 53.4241
+Sternum x converged at -7 mm from IC. Min obj: 8146.1561
+Sternum y:
+ Iter: 11 Obj: 8263.4392 Marker cost: 8095.8138 Tilt cost: 167.6254 Avg RMS: 11.0658 Marker coordinate: Sternum y Steps from IC (mm): 1 time: 55.7492
+ Iter: 12 Obj: 8036.8176 Marker cost: 7868.6649 Tilt cost: 168.1528 Avg RMS: 10.9818 Marker coordinate: Sternum y Steps from IC (mm): -1 time: 58.0558
+ Iter: 13 Obj: 7933.8761 Marker cost: 7765.45 Tilt cost: 168.4262 Avg RMS: 10.943 Marker coordinate: Sternum y Steps from IC (mm): -2 time: 60.355
+ Iter: 14 Obj: 7834.6223 Marker cost: 7665.9064 Tilt cost: 168.7158 Avg RMS: 10.9053 Marker coordinate: Sternum y Steps from IC (mm): -3 time: 62.6827
+ Iter: 15 Obj: 7742.6602 Marker cost: 7573.5509 Tilt cost: 169.1094 Avg RMS: 10.87 Marker coordinate: Sternum y Steps from IC (mm): -4 time: 65.0447
+ Iter: 16 Obj: 7656.2103 Marker cost: 7486.8456 Tilt cost: 169.3646 Avg RMS: 10.8368 Marker coordinate: Sternum y Steps from IC (mm): -5 time: 67.3881
+ Iter: 17 Obj: 7573.1029 Marker cost: 7403.4959 Tilt cost: 169.607 Avg RMS: 10.8047 Marker coordinate: Sternum y Steps from IC (mm): -6 time: 69.7216
+ Iter: 18 Obj: 7498.5285 Marker cost: 7328.6027 Tilt cost: 169.9258 Avg RMS: 10.7755 Marker coordinate: Sternum y Steps from IC (mm): -7 time: 72.0205
+ Iter: 19 Obj: 7427.2153 Marker cost: 7257.0498 Tilt cost: 170.1655 Avg RMS: 10.7477 Marker coordinate: Sternum y Steps from IC (mm): -8 time: 74.3709
+ Iter: 20 Obj: 7361.0376 Marker cost: 7190.5657 Tilt cost: 170.4719 Avg RMS: 10.7216 Marker coordinate: Sternum y Steps from IC (mm): -9 time: 76.7359
+ Iter: 21 Obj: 7300.7028 Marker cost: 7129.8229 Tilt cost: 170.8799 Avg RMS: 10.6978 Marker coordinate: Sternum y Steps from IC (mm): -10 time: 79.0905
+ Iter: 22 Obj: 7243.9096 Marker cost: 7072.7112 Tilt cost: 171.1984 Avg RMS: 10.6754 Marker coordinate: Sternum y Steps from IC (mm): -11 time: 81.4837
+ Iter: 23 Obj: 7194.2956 Marker cost: 7022.8109 Tilt cost: 171.4847 Avg RMS: 10.6559 Marker coordinate: Sternum y Steps from IC (mm): -12 time: 83.7572
+ Iter: 24 Obj: 7147.5867 Marker cost: 6975.9443 Tilt cost: 171.6423 Avg RMS: 10.6374 Marker coordinate: Sternum y Steps from IC (mm): -13 time: 86.0883
+ Iter: 25 Obj: 7105.2742 Marker cost: 6933.2196 Tilt cost: 172.0546 Avg RMS: 10.6208 Marker coordinate: Sternum y Steps from IC (mm): -14 time: 88.4145
+ Iter: 26 Obj: 7071.7642 Marker cost: 6899.4296 Tilt cost: 172.3346 Avg RMS: 10.6076 Marker coordinate: Sternum y Steps from IC (mm): -15 time: 90.8138
+ Iter: 27 Obj: 7041.251 Marker cost: 6868.708 Tilt cost: 172.543 Avg RMS: 10.596 Marker coordinate: Sternum y Steps from IC (mm): -16 time: 93.2103
+ Iter: 28 Obj: 7012.6527 Marker cost: 6839.6679 Tilt cost: 172.9848 Avg RMS: 10.5852 Marker coordinate: Sternum y Steps from IC (mm): -17 time: 95.5168
+ Iter: 29 Obj: 6994.1336 Marker cost: 6820.9029 Tilt cost: 173.2307 Avg RMS: 10.5786 Marker coordinate: Sternum y Steps from IC (mm): -18 time: 97.9533
+ Iter: 30 Obj: 6975.7984 Marker cost: 6802.2076 Tilt cost: 173.5909 Avg RMS: 10.5719 Marker coordinate: Sternum y Steps from IC (mm): -19 time: 100.1762
+ Iter: 31 Obj: 6963.7741 Marker cost: 6789.8674 Tilt cost: 173.9068 Avg RMS: 10.5681 Marker coordinate: Sternum y Steps from IC (mm): -20 time: 102.3929
+ Iter: 32 Obj: 6956.9042 Marker cost: 6782.8441 Tilt cost: 174.0601 Avg RMS: 10.5664 Marker coordinate: Sternum y Steps from IC (mm): -21 time: 104.6245
+ Iter: 33 Obj: 6952.1889 Marker cost: 6777.7386 Tilt cost: 174.4503 Avg RMS: 10.5655 Marker coordinate: Sternum y Steps from IC (mm): -22 time: 106.8373
+ Iter: 34 Obj: 6953.4569 Marker cost: 6778.6759 Tilt cost: 174.781 Avg RMS: 10.5675 Marker coordinate: Sternum y Steps from IC (mm): -23 time: 109.1248
+Sternum y converged at -22 mm from IC. Min obj: 6952.1889
+Sternum z:
+ Iter: 35 Obj: 6946.0452 Marker cost: 6771.618 Tilt cost: 174.4272 Avg RMS: 10.5685 Marker coordinate: Sternum z Steps from IC (mm): 1 time: 111.4891

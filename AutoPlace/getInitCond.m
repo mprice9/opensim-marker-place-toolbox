@@ -3,7 +3,7 @@ function x0 = getInitCond(options)
 global testCoords
 
 % modelFile = [options.modelFolder options.newName];
-modelFile = options.model;
+% modelFile = options.model;
 fixedMarkerCoords = options.fixedMarkerCoords;
 
 % these guesses must have accompanying calculations in ModScaler.m
@@ -13,7 +13,8 @@ fixedMarkerCoords = options.fixedMarkerCoords;
 % Pull in the modeling classes straight from the OpenSim distribution
 import org.opensim.modeling.*
    
-model = Model(modelFile);
+% model = Model(modelFile);
+model = options.inputModel;
 model.initSystem();
 
 markers = model.getMarkerSet;

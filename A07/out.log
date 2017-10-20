@@ -1,6 +1,6 @@
-Constructing tool from setup file IKSetup\Setup_IK_A07_Pref_0005_LockState6.xml.
+Constructing tool from setup file F:\Mark\AutoPlaceGit\A07\IKSetup\A07_Setup_IK.xml.
 
-Loaded model A07_passive_autoScaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\Models\AutoPlaced\A07_passive_FULL_auto_marker_place_6DOF__fixed_ankle.osim
+Loaded model A07_passive_autoScaled from file F:\Mark\AutoPlaceGit\A07\autoPlaceWorker.osim
                MODEL: A07_passive_autoScaled
          coordinates: 27
               forces: 51
@@ -15,529 +15,166 @@ Loaded model A07_passive_autoScaled from file C:\Users\Mark\Documents\opensim-ma
          controllers: 0
   contact geometries: 0
 misc modelcomponents: 0
-Running tool A07_Pref_0005_LockState6.
-Loaded marker file C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\MarkerData\PREF\A07_Pref_0005.trc (50 markers, 304 frames)
-Frame 0 (t=0):	total squared error = 0.00105044, marker error: RMS=0.00506167, max=0.0147661 (R_ASIS)
-Frame 1 (t=0.00416667):	total squared error = 0.000857746, marker error: RMS=0.00457391, max=0.01442 (R_ASIS)
-Frame 2 (t=0.00833333):	total squared error = 0.000835219, marker error: RMS=0.00451345, max=0.0141808 (R_ASIS)
-Frame 3 (t=0.0125):	total squared error = 0.000835166, marker error: RMS=0.0045133, max=0.0144486 (R_ASIS)
-Frame 4 (t=0.0166667):	total squared error = 0.000827749, marker error: RMS=0.00449322, max=0.0142173 (R_ASIS)
-Frame 5 (t=0.0208333):	total squared error = 0.000836935, marker error: RMS=0.00451808, max=0.014549 (R_ASIS)
-Frame 6 (t=0.025):	total squared error = 0.000843809, marker error: RMS=0.0045366, max=0.0142859 (R_ASIS)
-Frame 7 (t=0.0291667):	total squared error = 0.000845408, marker error: RMS=0.00454089, max=0.0139449 (R_ASIS)
-Frame 8 (t=0.0333333):	total squared error = 0.000866645, marker error: RMS=0.00459757, max=0.0137303 (R_ASIS)
-Frame 9 (t=0.0375):	total squared error = 0.000875872, marker error: RMS=0.00462198, max=0.0142638 (R_ASIS)
-Frame 10 (t=0.0416667):	total squared error = 0.000899048, marker error: RMS=0.00468273, max=0.0143096 (R_ASIS)
-Frame 11 (t=0.0458333):	total squared error = 0.000925955, marker error: RMS=0.00475229, max=0.014306 (R_ASIS)
-Frame 12 (t=0.05):	total squared error = 0.000956367, marker error: RMS=0.0048297, max=0.0143377 (R_ASIS)
-Frame 13 (t=0.0541667):	total squared error = 0.000985427, marker error: RMS=0.00490253, max=0.0143139 (R_ASIS)
-Frame 14 (t=0.0583333):	total squared error = 0.00101741, marker error: RMS=0.00498146, max=0.0142657 (R_ASIS)
-Frame 15 (t=0.0625):	total squared error = 0.00104631, marker error: RMS=0.00505171, max=0.0142276 (R_ASIS)
-Frame 16 (t=0.0666667):	total squared error = 0.00108292, marker error: RMS=0.00513934, max=0.014166 (R_ASIS)
-Frame 17 (t=0.0708333):	total squared error = 0.00111362, marker error: RMS=0.00521167, max=0.012952 (R_ASIS)
-Frame 18 (t=0.075):	total squared error = 0.0011248, marker error: RMS=0.00523777, max=0.0134073 (R_ASIS)
-Frame 19 (t=0.0791667):	total squared error = 0.00115223, marker error: RMS=0.00530124, max=0.0134984 (R_ASIS)
-Frame 20 (t=0.0833333):	total squared error = 0.00117976, marker error: RMS=0.0053642, max=0.013462 (R_ASIS)
-Frame 21 (t=0.0875):	total squared error = 0.00120488, marker error: RMS=0.00542101, max=0.013317 (R_ASIS)
-Frame 22 (t=0.0916667):	total squared error = 0.00124091, marker error: RMS=0.00550147, max=0.0126125 (R_TOE)
-Frame 23 (t=0.0958333):	total squared error = 0.00123837, marker error: RMS=0.00549584, max=0.0128946 (R_TOE)
-Frame 24 (t=0.1):	total squared error = 0.00124768, marker error: RMS=0.00551644, max=0.0132628 (R_TOE)
-Frame 25 (t=0.104167):	total squared error = 0.00128178, marker error: RMS=0.00559133, max=0.0134407 (R_TOE)
-Frame 26 (t=0.108333):	total squared error = 0.00125568, marker error: RMS=0.0055341, max=0.0131845 (R_TOE)
-Frame 27 (t=0.1125):	total squared error = 0.00125032, marker error: RMS=0.00552229, max=0.0131424 (R_TOE)
-Frame 28 (t=0.116667):	total squared error = 0.00128091, marker error: RMS=0.00558943, max=0.0131941 (R_TOE)
-Frame 29 (t=0.120833):	total squared error = 0.00124057, marker error: RMS=0.00550071, max=0.0124305 (R_TOE)
-Frame 30 (t=0.125):	total squared error = 0.00127012, marker error: RMS=0.00556584, max=0.01236 (R_TOE)
-Frame 31 (t=0.129167):	total squared error = 0.00122924, marker error: RMS=0.00547553, max=0.0114502 (R_TOE)
-Frame 32 (t=0.133333):	total squared error = 0.00125616, marker error: RMS=0.00553515, max=0.0112077 (R_TOE)
-Frame 33 (t=0.1375):	total squared error = 0.00122449, marker error: RMS=0.00546495, max=0.0108645 (R_1ST_MET)
-Frame 34 (t=0.141667):	total squared error = 0.00125471, marker error: RMS=0.00553198, max=0.0121442 (R_1ST_MET)
-Frame 35 (t=0.145833):	total squared error = 0.00125023, marker error: RMS=0.00552209, max=0.0124698 (R_1ST_MET)
-Frame 36 (t=0.15):	total squared error = 0.00124519, marker error: RMS=0.00551094, max=0.0124901 (R_1ST_MET)
-Frame 37 (t=0.154167):	total squared error = 0.0012706, marker error: RMS=0.00556688, max=0.0131803 (R_1ST_MET)
-Frame 38 (t=0.158333):	total squared error = 0.00126927, marker error: RMS=0.00556398, max=0.0133133 (R_1ST_MET)
-Frame 39 (t=0.1625):	total squared error = 0.00128775, marker error: RMS=0.00560433, max=0.0135164 (R_1ST_MET)
-Frame 40 (t=0.166667):	total squared error = 0.00129862, marker error: RMS=0.00562793, max=0.0137382 (R_1ST_MET)
-Frame 41 (t=0.170833):	total squared error = 0.00130951, marker error: RMS=0.00565147, max=0.0136907 (R_1ST_MET)
-Frame 42 (t=0.175):	total squared error = 0.00130235, marker error: RMS=0.00563602, max=0.013907 (R_1ST_MET)
-Frame 43 (t=0.179167):	total squared error = 0.00130598, marker error: RMS=0.00564387, max=0.0134253 (R_1ST_MET)
-Frame 44 (t=0.183333):	total squared error = 0.00123108, marker error: RMS=0.00547963, max=0.0129853 (R_HEEL_SUP)
-Frame 45 (t=0.1875):	total squared error = 0.00121682, marker error: RMS=0.0054478, max=0.0127331 (R_HEEL_SUP)
-Frame 46 (t=0.191667):	total squared error = 0.00121444, marker error: RMS=0.00544248, max=0.0128585 (R_HEEL_SUP)
-Frame 47 (t=0.195833):	total squared error = 0.00122308, marker error: RMS=0.00546181, max=0.0121798 (R_1ST_MET)
-Frame 48 (t=0.2):	total squared error = 0.00117788, marker error: RMS=0.00535992, max=0.0122986 (R_HEEL_SUP)
-Frame 49 (t=0.204167):	total squared error = 0.00119237, marker error: RMS=0.0053928, max=0.0120592 (R_1ST_MET)
-Frame 50 (t=0.208333):	total squared error = 0.00114932, marker error: RMS=0.00529453, max=0.011985 (R_HEEL_SUP)
-Frame 51 (t=0.2125):	total squared error = 0.00113315, marker error: RMS=0.00525718, max=0.0118536 (R_HEEL_SUP)
-Frame 52 (t=0.216667):	total squared error = 0.00112668, marker error: RMS=0.00524215, max=0.0113439 (L_ASIS)
-Frame 53 (t=0.220833):	total squared error = 0.00109666, marker error: RMS=0.00517184, max=0.0115232 (L_ASIS)
-Frame 54 (t=0.225):	total squared error = 0.00107923, marker error: RMS=0.00513056, max=0.0114638 (L_ASIS)
-Frame 55 (t=0.229167):	total squared error = 0.00101054, marker error: RMS=0.0049646, max=0.011483 (L_ASIS)
-Frame 56 (t=0.233333):	total squared error = 0.000975854, marker error: RMS=0.00487866, max=0.0114962 (L_ASIS)
-Frame 57 (t=0.2375):	total squared error = 0.000954598, marker error: RMS=0.00482523, max=0.0114755 (L_ASIS)
-Frame 58 (t=0.241667):	total squared error = 0.000931618, marker error: RMS=0.0047668, max=0.0113929 (L_ASIS)
-Frame 59 (t=0.245833):	total squared error = 0.000927847, marker error: RMS=0.00475714, max=0.0115026 (L_ASIS)
-Frame 60 (t=0.25):	total squared error = 0.000895822, marker error: RMS=0.00467433, max=0.0113482 (L_ASIS)
-Frame 61 (t=0.254167):	total squared error = 0.000889348, marker error: RMS=0.0046574, max=0.011367 (L_ASIS)
-Frame 62 (t=0.258333):	total squared error = 0.000857982, marker error: RMS=0.00457454, max=0.0111087 (L_ASIS)
-Frame 63 (t=0.2625):	total squared error = 0.000817156, marker error: RMS=0.00446437, max=0.010725 (L_ASIS)
-Frame 64 (t=0.266667):	total squared error = 0.000804944, marker error: RMS=0.00443089, max=0.0107336 (L_ASIS)
-Frame 65 (t=0.270833):	total squared error = 0.000784925, marker error: RMS=0.00437545, max=0.0106905 (L_ASIS)
-Frame 66 (t=0.275):	total squared error = 0.000766388, marker error: RMS=0.00432347, max=0.010421 (L_ASIS)
-Frame 67 (t=0.279167):	total squared error = 0.000751843, marker error: RMS=0.00428225, max=0.010268 (L_ASIS)
-Frame 68 (t=0.283333):	total squared error = 0.000750547, marker error: RMS=0.00427855, max=0.0101783 (L_ASIS)
-Frame 69 (t=0.2875):	total squared error = 0.000767689, marker error: RMS=0.00432714, max=0.0105907 (L_ASIS)
-Frame 70 (t=0.291667):	total squared error = 0.000726516, marker error: RMS=0.0042095, max=0.00945591 (L_ASIS)
-Frame 71 (t=0.295833):	total squared error = 0.000731159, marker error: RMS=0.00422293, max=0.00971821 (L_ASIS)
-Frame 72 (t=0.3):	total squared error = 0.000734917, marker error: RMS=0.00423377, max=0.00934861 (L_ASIS)
-Frame 73 (t=0.304167):	total squared error = 0.000758402, marker error: RMS=0.00430088, max=0.00965992 (L_ASIS)
-Frame 74 (t=0.308333):	total squared error = 0.000735285, marker error: RMS=0.00423483, max=0.00826229 (R_THIGH_PROX_ANT)
-Frame 75 (t=0.3125):	total squared error = 0.000749772, marker error: RMS=0.00427634, max=0.00853472 (R_THIGH_PROX_ANT)
-Frame 76 (t=0.316667):	total squared error = 0.000766512, marker error: RMS=0.00432382, max=0.00854781 (L_ASIS)
-Frame 77 (t=0.320833):	total squared error = 0.000769175, marker error: RMS=0.00433132, max=0.00864537 (R_THIGH_PROX_ANT)
-Frame 78 (t=0.325):	total squared error = 0.00079261, marker error: RMS=0.00439681, max=0.0089866 (R_THIGH_PROX_ANT)
-Frame 79 (t=0.329167):	total squared error = 0.000817052, marker error: RMS=0.00446409, max=0.00894963 (R_THIGH_PROX_ANT)
-Frame 80 (t=0.333333):	total squared error = 0.000847178, marker error: RMS=0.00454564, max=0.00903075 (R_THIGH_PROX_ANT)
-Frame 81 (t=0.3375):	total squared error = 0.000879721, marker error: RMS=0.00463213, max=0.00909322 (R_THIGH_PROX_ANT)
-Frame 82 (t=0.341667):	total squared error = 0.000887744, marker error: RMS=0.0046532, max=0.00957785 (R_ASIS)
-Frame 83 (t=0.345833):	total squared error = 0.000912083, marker error: RMS=0.00471656, max=0.00961487 (R_ASIS)
-Frame 84 (t=0.35):	total squared error = 0.000942204, marker error: RMS=0.00479381, max=0.00979197 (R_ASIS)
-Frame 85 (t=0.354167):	total squared error = 0.000972953, marker error: RMS=0.0048714, max=0.00995875 (R_ASIS)
-Frame 86 (t=0.358333):	total squared error = 0.00100672, marker error: RMS=0.00495522, max=0.0101798 (R_ASIS)
-Frame 87 (t=0.3625):	total squared error = 0.00103516, marker error: RMS=0.00502472, max=0.0103355 (R_ASIS)
-Frame 88 (t=0.366667):	total squared error = 0.00106511, marker error: RMS=0.00509688, max=0.0104291 (R_ASIS)
-Frame 89 (t=0.370833):	total squared error = 0.00109309, marker error: RMS=0.00516341, max=0.0106019 (R_ASIS)
-Frame 90 (t=0.375):	total squared error = 0.00111866, marker error: RMS=0.00522345, max=0.0106725 (R_ASIS)
-Frame 91 (t=0.379167):	total squared error = 0.00114003, marker error: RMS=0.0052731, max=0.0107913 (R_ASIS)
-Frame 92 (t=0.383333):	total squared error = 0.00116175, marker error: RMS=0.0053231, max=0.0108598 (R_ASIS)
-Frame 93 (t=0.3875):	total squared error = 0.00115558, marker error: RMS=0.00530894, max=0.0125752 (R_ASIS)
-Frame 94 (t=0.391667):	total squared error = 0.00116098, marker error: RMS=0.00532133, max=0.0120565 (R_ASIS)
-Frame 95 (t=0.395833):	total squared error = 0.00117117, marker error: RMS=0.00534464, max=0.0118193 (R_ASIS)
-Frame 96 (t=0.4):	total squared error = 0.0011777, marker error: RMS=0.00535951, max=0.0115727 (R_ASIS)
-Frame 97 (t=0.404167):	total squared error = 0.00118197, marker error: RMS=0.00536922, max=0.0113381 (R_ASIS)
-Frame 98 (t=0.408333):	total squared error = 0.00118261, marker error: RMS=0.00537067, max=0.0111483 (R_ASIS)
-Frame 99 (t=0.4125):	total squared error = 0.00117944, marker error: RMS=0.00536346, max=0.0109638 (R_ASIS)
-Frame 100 (t=0.416667):	total squared error = 0.00117367, marker error: RMS=0.00535033, max=0.0107634 (R_ASIS)
-Frame 101 (t=0.420833):	total squared error = 0.00114973, marker error: RMS=0.00529549, max=0.012073 (R_ASIS)
-Frame 102 (t=0.425):	total squared error = 0.00113573, marker error: RMS=0.00526315, max=0.0113846 (R_ASIS)
-Frame 103 (t=0.429167):	total squared error = 0.00112098, marker error: RMS=0.00522887, max=0.0110068 (R_ASIS)
-Frame 104 (t=0.433333):	total squared error = 0.00110577, marker error: RMS=0.00519326, max=0.0106969 (R_ASIS)
-Frame 105 (t=0.4375):	total squared error = 0.0010835, marker error: RMS=0.00514069, max=0.0102778 (R_ASIS)
-Frame 106 (t=0.441667):	total squared error = 0.00105764, marker error: RMS=0.00507897, max=0.0101906 (R_ASIS)
-Frame 107 (t=0.445833):	total squared error = 0.00103143, marker error: RMS=0.00501567, max=0.00993892 (R_ASIS)
-Frame 108 (t=0.45):	total squared error = 0.00100719, marker error: RMS=0.00495638, max=0.00972934 (R_ASIS)
-Frame 109 (t=0.454167):	total squared error = 0.000979132, marker error: RMS=0.00488685, max=0.00942498 (R_ASIS)
-Frame 110 (t=0.458333):	total squared error = 0.00095482, marker error: RMS=0.00482579, max=0.00917758 (R_ASIS)
-Frame 111 (t=0.4625):	total squared error = 0.000928703, marker error: RMS=0.00475934, max=0.00887512 (R_ASIS)
-Frame 112 (t=0.466667):	total squared error = 0.000904451, marker error: RMS=0.00469678, max=0.00860435 (R_ASIS)
-Frame 113 (t=0.470833):	total squared error = 0.000885788, marker error: RMS=0.00464807, max=0.00841007 (L_AC)
-Frame 114 (t=0.475):	total squared error = 0.000866988, marker error: RMS=0.00459848, max=0.00854165 (L_AC)
-Frame 115 (t=0.479167):	total squared error = 0.000852936, marker error: RMS=0.00456106, max=0.00863893 (L_AC)
-Frame 116 (t=0.483333):	total squared error = 0.000842066, marker error: RMS=0.00453191, max=0.00874929 (L_AC)
-Frame 117 (t=0.4875):	total squared error = 0.000839402, marker error: RMS=0.00452473, max=0.00888822 (L_AC)
-Frame 118 (t=0.491667):	total squared error = 0.00083859, marker error: RMS=0.00452254, max=0.00901734 (L_AC)
-Frame 119 (t=0.495833):	total squared error = 0.000847206, marker error: RMS=0.00454572, max=0.00923567 (L_AC)
-Frame 120 (t=0.5):	total squared error = 0.000857774, marker error: RMS=0.00457398, max=0.00937898 (L_AC)
-Frame 121 (t=0.504167):	total squared error = 0.000870373, marker error: RMS=0.00460745, max=0.00934238 (L_AC)
-Frame 122 (t=0.508333):	total squared error = 0.0008924, marker error: RMS=0.00466539, max=0.00970867 (L_AC)
-Frame 123 (t=0.5125):	total squared error = 0.000925562, marker error: RMS=0.00475128, max=0.00988889 (L_AC)
-Frame 124 (t=0.516667):	total squared error = 0.000957038, marker error: RMS=0.0048314, max=0.0100772 (L_AC)
-Frame 125 (t=0.520833):	total squared error = 0.00099198, marker error: RMS=0.00491881, max=0.0100859 (L_AC)
-Frame 126 (t=0.525):	total squared error = 0.00102638, marker error: RMS=0.00500337, max=0.0106182 (L_AC)
-Frame 127 (t=0.529167):	total squared error = 0.00107683, marker error: RMS=0.00512485, max=0.0108192 (L_AC)
-Frame 128 (t=0.533333):	total squared error = 0.00111557, marker error: RMS=0.00521623, max=0.0109858 (R_HEEL_LAT)
-Frame 129 (t=0.5375):	total squared error = 0.00116608, marker error: RMS=0.00533301, max=0.0111224 (L_AC)
-Frame 130 (t=0.541667):	total squared error = 0.00120914, marker error: RMS=0.00543058, max=0.0115902 (R_HEEL_LAT)
-Frame 131 (t=0.545833):	total squared error = 0.00125908, marker error: RMS=0.00554159, max=0.0116155 (R_HEEL_LAT)
-Frame 132 (t=0.55):	total squared error = 0.00129107, marker error: RMS=0.00561155, max=0.012134 (R_HEEL_LAT)
-Frame 133 (t=0.554167):	total squared error = 0.00132797, marker error: RMS=0.00569118, max=0.0125132 (R_HEEL_LAT)
-Frame 134 (t=0.558333):	total squared error = 0.00133773, marker error: RMS=0.00571206, max=0.0123101 (R_HEEL_LAT)
-Frame 135 (t=0.5625):	total squared error = 0.0013404, marker error: RMS=0.00571775, max=0.012498 (R_HEEL_LAT)
-Frame 136 (t=0.566667):	total squared error = 0.00135173, marker error: RMS=0.00574186, max=0.012447 (R_HEEL_LAT)
-Frame 137 (t=0.570833):	total squared error = 0.00134657, marker error: RMS=0.00573091, max=0.0125484 (R_HEEL_LAT)
-Frame 138 (t=0.575):	total squared error = 0.00135105, marker error: RMS=0.00574041, max=0.0124619 (R_HEEL_LAT)
-Frame 139 (t=0.579167):	total squared error = 0.00132609, marker error: RMS=0.00568716, max=0.0122973 (R_HEEL_LAT)
-Frame 140 (t=0.583333):	total squared error = 0.00130521, marker error: RMS=0.00564219, max=0.0120047 (R_HEEL_LAT)
-Frame 141 (t=0.5875):	total squared error = 0.0012777, marker error: RMS=0.00558243, max=0.0116478 (R_HEEL_LAT)
-Frame 142 (t=0.591667):	total squared error = 0.00124539, marker error: RMS=0.00551139, max=0.0111859 (R_HEEL_LAT)
-Frame 143 (t=0.595833):	total squared error = 0.00120307, marker error: RMS=0.00541692, max=0.0105456 (R_HEEL_LAT)
-Frame 144 (t=0.6):	total squared error = 0.00117066, marker error: RMS=0.00534348, max=0.00986466 (R_HEEL_LAT)
-Frame 145 (t=0.604167):	total squared error = 0.00113045, marker error: RMS=0.00525089, max=0.0092615 (R_ASIS)
-Frame 146 (t=0.608333):	total squared error = 0.00107881, marker error: RMS=0.00512956, max=0.00887687 (L_AC)
-Frame 147 (t=0.6125):	total squared error = 0.00104718, marker error: RMS=0.0050538, max=0.00880923 (R_ASIS)
-Frame 148 (t=0.616667):	total squared error = 0.00100079, marker error: RMS=0.0049406, max=0.00855487 (STERN)
-Frame 149 (t=0.620833):	total squared error = 0.000979602, marker error: RMS=0.00488802, max=0.00865347 (STERN)
-Frame 150 (t=0.625):	total squared error = 0.000942287, marker error: RMS=0.00479402, max=0.0085381 (STERN)
-Frame 151 (t=0.629167):	total squared error = 0.00093186, marker error: RMS=0.00476742, max=0.00854628 (STERN)
-Frame 152 (t=0.633333):	total squared error = 0.000911683, marker error: RMS=0.00471552, max=0.00844081 (STERN)
-Frame 153 (t=0.6375):	total squared error = 0.000911506, marker error: RMS=0.00471507, max=0.00843907 (STERN)
-Frame 154 (t=0.641667):	total squared error = 0.000923517, marker error: RMS=0.00474603, max=0.00896817 (R_HEEL_SUP)
-Frame 155 (t=0.645833):	total squared error = 0.000915273, marker error: RMS=0.0047248, max=0.00943616 (R_HEEL_SUP)
-Frame 156 (t=0.65):	total squared error = 0.000938574, marker error: RMS=0.00478456, max=0.0105409 (R_HEEL_SUP)
-Frame 157 (t=0.654167):	total squared error = 0.00094543, marker error: RMS=0.00480201, max=0.0108466 (R_HEEL_SUP)
-Frame 158 (t=0.658333):	total squared error = 0.000829706, marker error: RMS=0.00449852, max=0.0095384 (R_HEEL_SUP)
-Frame 159 (t=0.6625):	total squared error = 0.000844734, marker error: RMS=0.00453908, max=0.0103787 (R_HEEL_SUP)
-Frame 160 (t=0.666667):	total squared error = 0.000857796, marker error: RMS=0.00457404, max=0.0108932 (R_HEEL_SUP)
-Frame 161 (t=0.670833):	total squared error = 0.000874549, marker error: RMS=0.00461849, max=0.0113953 (R_HEEL_SUP)
-Frame 162 (t=0.675):	total squared error = 0.000892995, marker error: RMS=0.00466694, max=0.0117933 (R_HEEL_SUP)
-Frame 163 (t=0.679167):	total squared error = 0.000904588, marker error: RMS=0.00469714, max=0.0120456 (R_HEEL_SUP)
-Frame 164 (t=0.683333):	total squared error = 0.000916477, marker error: RMS=0.00472791, max=0.012333 (R_HEEL_SUP)
-Frame 165 (t=0.6875):	total squared error = 0.000915877, marker error: RMS=0.00472636, max=0.0122605 (R_HEEL_SUP)
-Frame 166 (t=0.691667):	total squared error = 0.000924728, marker error: RMS=0.00474914, max=0.0126848 (R_HEEL_SUP)
-Frame 167 (t=0.695833):	total squared error = 0.00093052, marker error: RMS=0.00476399, max=0.0127548 (R_HEEL_SUP)
-Frame 168 (t=0.7):	total squared error = 0.000906571, marker error: RMS=0.00470229, max=0.0121854 (R_HEEL_SUP)
-Frame 169 (t=0.704167):	total squared error = 0.000902349, marker error: RMS=0.00469132, max=0.0121714 (R_HEEL_SUP)
-Frame 170 (t=0.708333):	total squared error = 0.00090679, marker error: RMS=0.00470285, max=0.0122255 (R_HEEL_SUP)
-Frame 171 (t=0.7125):	total squared error = 0.000900236, marker error: RMS=0.00468583, max=0.0120232 (R_HEEL_SUP)
-Frame 172 (t=0.716667):	total squared error = 0.000891365, marker error: RMS=0.00466268, max=0.0117702 (R_HEEL_SUP)
-Frame 173 (t=0.720833):	total squared error = 0.000885664, marker error: RMS=0.00464775, max=0.0116092 (R_HEEL_SUP)
-Frame 174 (t=0.725):	total squared error = 0.00088229, marker error: RMS=0.00463889, max=0.0114245 (R_HEEL_SUP)
-Frame 175 (t=0.729167):	total squared error = 0.000873092, marker error: RMS=0.00461464, max=0.0112583 (R_HEEL_SUP)
-Frame 176 (t=0.733333):	total squared error = 0.000866894, marker error: RMS=0.00459823, max=0.0108762 (R_HEEL_SUP)
-Frame 177 (t=0.7375):	total squared error = 0.000858858, marker error: RMS=0.00457687, max=0.0104675 (R_HEEL_SUP)
-Frame 178 (t=0.741667):	total squared error = 0.000858455, marker error: RMS=0.0045758, max=0.0106725 (R_HEEL_SUP)
-Frame 179 (t=0.745833):	total squared error = 0.000849021, marker error: RMS=0.00455059, max=0.0102116 (R_HEEL_SUP)
-Frame 180 (t=0.75):	total squared error = 0.000844297, marker error: RMS=0.00453791, max=0.00983919 (R_HEEL_SUP)
-Frame 181 (t=0.754167):	total squared error = 0.000823274, marker error: RMS=0.00448105, max=0.0095298 (R_HEEL_SUP)
-Frame 182 (t=0.758333):	total squared error = 0.000823588, marker error: RMS=0.00448191, max=0.00976333 (R_HEEL_SUP)
-Frame 183 (t=0.7625):	total squared error = 0.000814078, marker error: RMS=0.00445596, max=0.00951193 (R_HEEL_SUP)
-Frame 184 (t=0.766667):	total squared error = 0.00080518, marker error: RMS=0.00443154, max=0.00959891 (R_HEEL_SUP)
-Frame 185 (t=0.770833):	total squared error = 0.000793661, marker error: RMS=0.00439973, max=0.00942962 (R_HEEL_SUP)
-Frame 186 (t=0.775):	total squared error = 0.000787643, marker error: RMS=0.00438301, max=0.00918659 (R_HEEL_SUP)
-Frame 187 (t=0.779167):	total squared error = 0.000778174, marker error: RMS=0.00435659, max=0.0089248 (R_HEEL_SUP)
-Frame 188 (t=0.783333):	total squared error = 0.000770253, marker error: RMS=0.00433436, max=0.00897944 (R_HEEL_SUP)
-Frame 189 (t=0.7875):	total squared error = 0.00075345, marker error: RMS=0.00428682, max=0.00871285 (R_HEEL_SUP)
-Frame 190 (t=0.791667):	total squared error = 0.000750502, marker error: RMS=0.00427843, max=0.00888452 (R_HEEL_SUP)
-Frame 191 (t=0.795833):	total squared error = 0.000742225, marker error: RMS=0.00425477, max=0.00881587 (R_HEEL_SUP)
-Frame 192 (t=0.8):	total squared error = 0.000732919, marker error: RMS=0.00422801, max=0.00879336 (R_HEEL_SUP)
-Frame 193 (t=0.804167):	total squared error = 0.000719858, marker error: RMS=0.00419017, max=0.00871646 (R_HEEL_SUP)
-Frame 194 (t=0.808333):	total squared error = 0.000713265, marker error: RMS=0.00417094, max=0.00848817 (R_HEEL_SUP)
-Frame 195 (t=0.8125):	total squared error = 0.000701612, marker error: RMS=0.00413672, max=0.00862613 (R_HEEL_SUP)
-Frame 196 (t=0.816667):	total squared error = 0.000690049, marker error: RMS=0.00410249, max=0.00859431 (R_HEEL_SUP)
-Frame 197 (t=0.820833):	total squared error = 0.000679707, marker error: RMS=0.00407163, max=0.00852988 (R_HEEL_SUP)
-Frame 198 (t=0.825):	total squared error = 0.000671092, marker error: RMS=0.00404575, max=0.0084328 (R_HEEL_SUP)
-Frame 199 (t=0.829167):	total squared error = 0.000662783, marker error: RMS=0.00402063, max=0.00841039 (R_HEEL_SUP)
-Frame 200 (t=0.833333):	total squared error = 0.000652483, marker error: RMS=0.00398926, max=0.00833652 (R_HEEL_SUP)
-Frame 201 (t=0.8375):	total squared error = 0.000645835, marker error: RMS=0.00396889, max=0.00826267 (R_HEEL_SUP)
-Frame 202 (t=0.841667):	total squared error = 0.00063582, marker error: RMS=0.00393799, max=0.00815992 (R_HEEL_SUP)
-Frame 203 (t=0.845833):	total squared error = 0.00062905, marker error: RMS=0.00391697, max=0.00806958 (R_HEEL_SUP)
-Frame 204 (t=0.85):	total squared error = 0.000618414, marker error: RMS=0.00388372, max=0.00790084 (R_HEEL_SUP)
-Frame 205 (t=0.854167):	total squared error = 0.000613003, marker error: RMS=0.00386669, max=0.00787698 (R_HEEL_SUP)
-Frame 206 (t=0.858333):	total squared error = 0.00060434, marker error: RMS=0.00383927, max=0.00775279 (R_HEEL_SUP)
-Frame 207 (t=0.8625):	total squared error = 0.000594892, marker error: RMS=0.00380914, max=0.00762417 (R_HEEL_SUP)
-Frame 208 (t=0.866667):	total squared error = 0.000595194, marker error: RMS=0.00381011, max=0.00751898 (R_AC)
-Frame 209 (t=0.870833):	total squared error = 0.000581229, marker error: RMS=0.00376514, max=0.0077445 (R_AC)
-Frame 210 (t=0.875):	total squared error = 0.000569877, marker error: RMS=0.00372819, max=0.00744267 (R_AC)
-Frame 211 (t=0.879167):	total squared error = 0.000585383, marker error: RMS=0.00377858, max=0.00775356 (R_AC)
-Frame 212 (t=0.883333):	total squared error = 0.000551939, marker error: RMS=0.00366905, max=0.0074678 (R_AC)
-Frame 213 (t=0.8875):	total squared error = 0.0005435, marker error: RMS=0.00364089, max=0.00785279 (R_AC)
-Frame 214 (t=0.891667):	total squared error = 0.000536728, marker error: RMS=0.00361814, max=0.00798168 (R_AC)
-Frame 215 (t=0.895833):	total squared error = 0.000532466, marker error: RMS=0.00360374, max=0.00776994 (R_AC)
-Frame 216 (t=0.9):	total squared error = 0.000527409, marker error: RMS=0.00358659, max=0.00780857 (R_AC)
-Frame 217 (t=0.904167):	total squared error = 0.000512106, marker error: RMS=0.00353417, max=0.00756742 (R_AC)
-Frame 218 (t=0.908333):	total squared error = 0.000502164, marker error: RMS=0.0034997, max=0.00781352 (R_AC)
-Frame 219 (t=0.9125):	total squared error = 0.000491961, marker error: RMS=0.00346396, max=0.00753098 (R_AC)
-Frame 220 (t=0.916667):	total squared error = 0.000489064, marker error: RMS=0.00345375, max=0.00780761 (R_AC)
-Frame 221 (t=0.920833):	total squared error = 0.000481525, marker error: RMS=0.00342703, max=0.00759 (R_AC)
-Frame 222 (t=0.925):	total squared error = 0.000478901, marker error: RMS=0.00341768, max=0.00759834 (R_AC)
-Frame 223 (t=0.929167):	total squared error = 0.00047334, marker error: RMS=0.00339778, max=0.00754124 (R_AC)
-Frame 224 (t=0.933333):	total squared error = 0.000469608, marker error: RMS=0.00338436, max=0.00723953 (R_AC)
-Frame 225 (t=0.9375):	total squared error = 0.000468214, marker error: RMS=0.00337933, max=0.00716423 (R_AC)
-Frame 226 (t=0.941667):	total squared error = 0.000466902, marker error: RMS=0.00337459, max=0.00725739 (R_AC)
-Frame 227 (t=0.945833):	total squared error = 0.000468107, marker error: RMS=0.00337894, max=0.00728439 (R_AC)
-Frame 228 (t=0.95):	total squared error = 0.000469078, marker error: RMS=0.00338244, max=0.00712103 (R_5TH_MET)
-Frame 229 (t=0.954167):	total squared error = 0.000471463, marker error: RMS=0.00339103, max=0.00723565 (R_5TH_MET)
-Frame 230 (t=0.958333):	total squared error = 0.000470023, marker error: RMS=0.00338585, max=0.00738358 (R_5TH_MET)
-Frame 231 (t=0.9625):	total squared error = 0.000472829, marker error: RMS=0.00339594, max=0.00752197 (R_5TH_MET)
-Frame 232 (t=0.966667):	total squared error = 0.000474641, marker error: RMS=0.00340244, max=0.00760825 (R_5TH_MET)
-Frame 233 (t=0.970833):	total squared error = 0.000485472, marker error: RMS=0.00344104, max=0.00770946 (R_5TH_MET)
-Frame 234 (t=0.975):	total squared error = 0.000485548, marker error: RMS=0.00344131, max=0.00775058 (R_5TH_MET)
-Frame 235 (t=0.979167):	total squared error = 0.000506223, marker error: RMS=0.00351381, max=0.00769327 (R_5TH_MET)
-Frame 236 (t=0.983333):	total squared error = 0.000492091, marker error: RMS=0.00346442, max=0.00834325 (R_5TH_MET)
-Frame 237 (t=0.9875):	total squared error = 0.00050998, marker error: RMS=0.00352683, max=0.00822272 (R_5TH_MET)
-Frame 238 (t=0.991667):	total squared error = 0.00049654, marker error: RMS=0.00348005, max=0.00823706 (R_5TH_MET)
-Frame 239 (t=0.995833):	total squared error = 0.000517392, marker error: RMS=0.00355237, max=0.00821929 (R_5TH_MET)
-Frame 240 (t=1):	total squared error = 0.000504768, marker error: RMS=0.00350876, max=0.00829677 (R_5TH_MET)
-Frame 241 (t=1.00417):	total squared error = 0.00052422, marker error: RMS=0.00357573, max=0.00833515 (R_5TH_MET)
-Frame 242 (t=1.00833):	total squared error = 0.00051532, marker error: RMS=0.00354525, max=0.00836859 (R_5TH_MET)
-Frame 243 (t=1.0125):	total squared error = 0.000530795, marker error: RMS=0.00359808, max=0.00845521 (R_5TH_MET)
-Frame 244 (t=1.01667):	total squared error = 0.000517149, marker error: RMS=0.00355153, max=0.00852209 (R_5TH_MET)
-Frame 245 (t=1.02083):	total squared error = 0.000532766, marker error: RMS=0.00360476, max=0.00861756 (R_5TH_MET)
-Frame 246 (t=1.025):	total squared error = 0.000522149, marker error: RMS=0.00356866, max=0.00905548 (R_5TH_MET)
-Frame 247 (t=1.02917):	total squared error = 0.000535948, marker error: RMS=0.00361551, max=0.00903728 (R_5TH_MET)
-Frame 248 (t=1.03333):	total squared error = 0.000521311, marker error: RMS=0.0035658, max=0.00844332 (R_5TH_MET)
-Frame 249 (t=1.0375):	total squared error = 0.000540049, marker error: RMS=0.00362932, max=0.00850789 (R_5TH_MET)
-Frame 250 (t=1.04167):	total squared error = 0.00052973, marker error: RMS=0.00359447, max=0.00853108 (R_5TH_MET)
-Frame 251 (t=1.04583):	total squared error = 0.000536921, marker error: RMS=0.00361879, max=0.00852587 (R_5TH_MET)
-Frame 252 (t=1.05):	total squared error = 0.000541427, marker error: RMS=0.00363394, max=0.00836909 (R_5TH_MET)
-Frame 253 (t=1.05417):	total squared error = 0.00053844, marker error: RMS=0.0036239, max=0.00862419 (R_5TH_MET)
-Frame 254 (t=1.05833):	total squared error = 0.00054778, marker error: RMS=0.0036552, max=0.00850364 (R_5TH_MET)
-Frame 255 (t=1.0625):	total squared error = 0.000556325, marker error: RMS=0.0036836, max=0.00830301 (R_5TH_MET)
-Frame 256 (t=1.06667):	total squared error = 0.000561699, marker error: RMS=0.00370135, max=0.00824339 (R_5TH_MET)
-Frame 257 (t=1.07083):	total squared error = 0.000567825, marker error: RMS=0.00372148, max=0.00818746 (R_5TH_MET)
-Frame 258 (t=1.075):	total squared error = 0.000573624, marker error: RMS=0.00374043, max=0.00813543 (R_5TH_MET)
-Frame 259 (t=1.07917):	total squared error = 0.000580495, marker error: RMS=0.00376277, max=0.00805975 (R_5TH_MET)
-Frame 260 (t=1.08333):	total squared error = 0.000589312, marker error: RMS=0.00379123, max=0.00798219 (R_5TH_MET)
-Frame 261 (t=1.0875):	total squared error = 0.000596133, marker error: RMS=0.00381311, max=0.00792391 (R_5TH_MET)
-Frame 262 (t=1.09167):	total squared error = 0.000605336, marker error: RMS=0.00384243, max=0.00782304 (R_5TH_MET)
-Frame 263 (t=1.09583):	total squared error = 0.00061287, marker error: RMS=0.00386627, max=0.00772116 (R_5TH_MET)
-Frame 264 (t=1.1):	total squared error = 0.000620134, marker error: RMS=0.00388912, max=0.00769939 (STERN)
-Frame 265 (t=1.10417):	total squared error = 0.000626402, marker error: RMS=0.00390872, max=0.00770463 (STERN)
-Frame 266 (t=1.10833):	total squared error = 0.000634256, marker error: RMS=0.00393315, max=0.007832 (STERN)
-Frame 267 (t=1.1125):	total squared error = 0.00063972, marker error: RMS=0.00395006, max=0.00787992 (STERN)
-Frame 268 (t=1.11667):	total squared error = 0.000609318, marker error: RMS=0.00385505, max=0.00835804 (R_ASIS)
-Frame 269 (t=1.12083):	total squared error = 0.000616406, marker error: RMS=0.00387741, max=0.00857774 (R_ASIS)
-Frame 270 (t=1.125):	total squared error = 0.000625358, marker error: RMS=0.00390546, max=0.00872688 (R_ASIS)
-Frame 271 (t=1.12917):	total squared error = 0.00063422, marker error: RMS=0.00393304, max=0.00881533 (R_ASIS)
-Frame 272 (t=1.13333):	total squared error = 0.000646496, marker error: RMS=0.00397092, max=0.00897705 (R_ASIS)
-Frame 273 (t=1.1375):	total squared error = 0.000655007, marker error: RMS=0.00399697, max=0.00906167 (R_ASIS)
-Frame 274 (t=1.14167):	total squared error = 0.000667075, marker error: RMS=0.00403362, max=0.00919532 (R_ASIS)
-Frame 275 (t=1.14583):	total squared error = 0.000678172, marker error: RMS=0.00406704, max=0.0092702 (R_ASIS)
-Frame 276 (t=1.15):	total squared error = 0.000693815, marker error: RMS=0.00411367, max=0.00949386 (R_ASIS)
-Frame 277 (t=1.15417):	total squared error = 0.000704412, marker error: RMS=0.00414497, max=0.0095437 (R_ASIS)
-Frame 278 (t=1.15833):	total squared error = 0.000710571, marker error: RMS=0.00416305, max=0.00963633 (R_ASIS)
-Frame 279 (t=1.1625):	total squared error = 0.000723712, marker error: RMS=0.00420137, max=0.00983749 (R_ASIS)
-Frame 280 (t=1.16667):	total squared error = 0.000734098, marker error: RMS=0.00423141, max=0.00993856 (R_ASIS)
-Frame 281 (t=1.17083):	total squared error = 0.000743919, marker error: RMS=0.00425962, max=0.0100493 (R_ASIS)
-Frame 282 (t=1.175):	total squared error = 0.000750604, marker error: RMS=0.00427872, max=0.0102555 (R_ASIS)
-Frame 283 (t=1.17917):	total squared error = 0.000767782, marker error: RMS=0.0043274, max=0.0103881 (R_ASIS)
-Frame 284 (t=1.18333):	total squared error = 0.000775779, marker error: RMS=0.00434988, max=0.0106021 (R_ASIS)
-Frame 285 (t=1.1875):	total squared error = 0.000780279, marker error: RMS=0.00436248, max=0.0105239 (R_ASIS)
-Frame 286 (t=1.19167):	total squared error = 0.000786078, marker error: RMS=0.00437866, max=0.0107538 (R_ASIS)
-Frame 287 (t=1.19583):	total squared error = 0.000793804, marker error: RMS=0.00440012, max=0.010963 (R_ASIS)
-Frame 288 (t=1.2):	total squared error = 0.000801451, marker error: RMS=0.00442126, max=0.01117 (R_ASIS)
-Frame 289 (t=1.20417):	total squared error = 0.000808728, marker error: RMS=0.00444129, max=0.0113639 (R_ASIS)
-Frame 290 (t=1.20833):	total squared error = 0.000817493, marker error: RMS=0.00446529, max=0.0115091 (R_ASIS)
-Frame 291 (t=1.2125):	total squared error = 0.000825277, marker error: RMS=0.0044865, max=0.0117508 (R_ASIS)
-Frame 292 (t=1.21667):	total squared error = 0.000798578, marker error: RMS=0.00441333, max=0.0113017 (R_ASIS)
-Frame 293 (t=1.22083):	total squared error = 0.000805059, marker error: RMS=0.00443121, max=0.0114624 (R_ASIS)
-Frame 294 (t=1.225):	total squared error = 0.000803171, marker error: RMS=0.00442601, max=0.0116243 (R_ASIS)
-Frame 295 (t=1.22917):	total squared error = 0.000820327, marker error: RMS=0.00447303, max=0.0117181 (R_ASIS)
-Frame 296 (t=1.23333):	total squared error = 0.000795744, marker error: RMS=0.0044055, max=0.0128287 (R_ASIS)
-Frame 297 (t=1.2375):	total squared error = 0.000794926, marker error: RMS=0.00440323, max=0.0129277 (R_ASIS)
-Frame 298 (t=1.24167):	total squared error = 0.000795742, marker error: RMS=0.00440549, max=0.0128795 (R_ASIS)
-Frame 299 (t=1.24583):	total squared error = 0.000799476, marker error: RMS=0.00441581, max=0.0129003 (R_ASIS)
-Frame 300 (t=1.25):	total squared error = 0.000806245, marker error: RMS=0.00443447, max=0.0129248 (R_ASIS)
-Frame 301 (t=1.25417):	total squared error = 0.000808405, marker error: RMS=0.00444041, max=0.0129451 (R_ASIS)
-Frame 302 (t=1.25833):	total squared error = 0.00082978, marker error: RMS=0.00449873, max=0.0129153 (R_ASIS)
-Frame 303 (t=1.2625):	total squared error = 0.000824687, marker error: RMS=0.0044849, max=0.0129734 (R_ASIS)
-Frame 304 (t=1.26667):	total squared error = 0.000834525, marker error: RMS=0.00451157, max=0.0129277 (R_ASIS)
-InverseKinematicsTool completed 304 frames in 1.925s
-
-IK compute time = 2096ms
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0002_LockState1_ik.mot (nr=304 nc=28)
-Loaded model A07_passive_autoScaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\Models\AutoPlaced\A07_passive_FULL_auto_marker_place_RIGID_6dof_base_locked_z_mod_foot.osim
-               MODEL: A07_passive_autoScaled
-         coordinates: 27
-              forces: 51
-           actuators: 51
-             muscles: 51
-            analyses: 0
-              probes: 0
-              bodies: 13
-              joints: 12
-         constraints: 0
-             markers: 50
-         controllers: 0
-  contact geometries: 0
-misc modelcomponents: 0
-Running tool A01_SocRef1_scaled.
-
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0002_LockState1_ik.mot (nr=304 nc=28)
-
-
-Low-pass filtering coordinates data with a cutoff frequency of 6...
-
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\ExtForces\Passive_0001_3plates.mot (nr=3019 nc=19)
-ExternalForce::Right_GRF
-Data source being set to Passive_0001_3plates.mot
-ExternalForce::Left_GRF
-Data source being set to Passive_0001_3plates.mot
-ExternalForce::Right_GRF_transformedP
-Data source being set to Passive_0001_3plates.mot_transformedP
-ExternalForce::Left_GRF_transformedP
-Data source being set to Passive_0001_3plates.mot_transformedP
-InverseDynamicsTool: 304 time frames in 0.318s
-
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0002_LockState2_ik.mot (nr=304 nc=28)
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0002_LockState3_ik.mot (nr=304 nc=28)
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0002_LockState4_ik.mot (nr=304 nc=28)
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0002_LockState5_ik.mot (nr=304 nc=28)
-Loaded model A07_passive_autoScaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\Models\AutoPlaced\A07_passive_FULL_auto_marker_place_4DOF_6dof_base_locked_z_mod_foot.osim
-               MODEL: A07_passive_autoScaled
-         coordinates: 27
-              forces: 51
-           actuators: 51
-             muscles: 51
-            analyses: 0
-              probes: 0
-              bodies: 13
-              joints: 12
-         constraints: 0
-             markers: 50
-         controllers: 0
-  contact geometries: 0
-misc modelcomponents: 0
-Running tool A01_SocRef1_scaled.
-
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0002_LockState5_ik.mot (nr=304 nc=28)
-
-
-Low-pass filtering coordinates data with a cutoff frequency of 6...
-
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\ExtForces\Passive_0001_3plates.mot (nr=3019 nc=19)
-ExternalForce::Right_GRF
-Data source being set to Passive_0001_3plates.mot
-ExternalForce::Left_GRF
-Data source being set to Passive_0001_3plates.mot
-ExternalForce::Right_GRF_transformedP
-Data source being set to Passive_0001_3plates.mot_transformedP
-ExternalForce::Left_GRF_transformedP
-Data source being set to Passive_0001_3plates.mot_transformedP
-InverseDynamicsTool: 304 time frames in 0.368s
-
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0002_LockState6_ik.mot (nr=304 nc=28)
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0003_LockState1_ik.mot (nr=301 nc=28)
-Loaded model A07_passive_autoScaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\Models\AutoPlaced\A07_passive_FULL_auto_marker_place_RIGID_6dof_base_locked_z_mod_foot.osim
-               MODEL: A07_passive_autoScaled
-         coordinates: 27
-              forces: 51
-           actuators: 51
-             muscles: 51
-            analyses: 0
-              probes: 0
-              bodies: 13
-              joints: 12
-         constraints: 0
-             markers: 50
-         controllers: 0
-  contact geometries: 0
-misc modelcomponents: 0
-Running tool A01_SocRef1_scaled.
-
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0003_LockState1_ik.mot (nr=301 nc=28)
-
-
-Low-pass filtering coordinates data with a cutoff frequency of 6...
-
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\ExtForces\Passive_0002_3plates.mot (nr=2987 nc=19)
-ExternalForce::Right_GRF
-Data source being set to Passive_0002_3plates.mot
-ExternalForce::Left_GRF
-Data source being set to Passive_0002_3plates.mot
-ExternalForce::Right_GRF_transformedP
-Data source being set to Passive_0002_3plates.mot_transformedP
-ExternalForce::Left_GRF_transformedP
-Data source being set to Passive_0002_3plates.mot_transformedP
-InverseDynamicsTool: 301 time frames in 0.28s
-
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0003_LockState2_ik.mot (nr=301 nc=28)
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0003_LockState3_ik.mot (nr=301 nc=28)
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0003_LockState4_ik.mot (nr=301 nc=28)
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0003_LockState5_ik.mot (nr=301 nc=28)
-Loaded model A07_passive_autoScaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\Models\AutoPlaced\A07_passive_FULL_auto_marker_place_4DOF_6dof_base_locked_z_mod_foot.osim
-               MODEL: A07_passive_autoScaled
-         coordinates: 27
-              forces: 51
-           actuators: 51
-             muscles: 51
-            analyses: 0
-              probes: 0
-              bodies: 13
-              joints: 12
-         constraints: 0
-             markers: 50
-         controllers: 0
-  contact geometries: 0
-misc modelcomponents: 0
-Running tool A01_SocRef1_scaled.
-
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0003_LockState5_ik.mot (nr=301 nc=28)
-
-
-Low-pass filtering coordinates data with a cutoff frequency of 6...
-
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\ExtForces\Passive_0002_3plates.mot (nr=2987 nc=19)
-ExternalForce::Right_GRF
-Data source being set to Passive_0002_3plates.mot
-ExternalForce::Left_GRF
-Data source being set to Passive_0002_3plates.mot
-ExternalForce::Right_GRF_transformedP
-Data source being set to Passive_0002_3plates.mot_transformedP
-ExternalForce::Left_GRF_transformedP
-Data source being set to Passive_0002_3plates.mot_transformedP
-InverseDynamicsTool: 301 time frames in 0.41s
-
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0003_LockState6_ik.mot (nr=301 nc=28)
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0005_LockState1_ik.mot (nr=305 nc=28)
-Loaded model A07_passive_autoScaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\Models\AutoPlaced\A07_passive_FULL_auto_marker_place_RIGID_6dof_base_locked_z_mod_foot.osim
-               MODEL: A07_passive_autoScaled
-         coordinates: 27
-              forces: 51
-           actuators: 51
-             muscles: 51
-            analyses: 0
-              probes: 0
-              bodies: 13
-              joints: 12
-         constraints: 0
-             markers: 50
-         controllers: 0
-  contact geometries: 0
-misc modelcomponents: 0
-Running tool A01_SocRef1_scaled.
-
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0005_LockState1_ik.mot (nr=305 nc=28)
-
-
-Low-pass filtering coordinates data with a cutoff frequency of 6...
-
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\ExtForces\Passive_0003_3plates.mot (nr=3029 nc=19)
-ExternalForce::Right_GRF
-Data source being set to Passive_0003_3plates.mot
-ExternalForce::Left_GRF
-Data source being set to Passive_0003_3plates.mot
-ExternalForce::Right_GRF_transformedP
-Data source being set to Passive_0003_3plates.mot_transformedP
-ExternalForce::Left_GRF_transformedP
-Data source being set to Passive_0003_3plates.mot_transformedP
-InverseDynamicsTool: 305 time frames in 0.272s
-
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0005_LockState2_ik.mot (nr=305 nc=28)
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0005_LockState3_ik.mot (nr=305 nc=28)
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0005_LockState4_ik.mot (nr=305 nc=28)
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0005_LockState5_ik.mot (nr=305 nc=28)
-Loaded model A07_passive_autoScaled from file C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\Models\AutoPlaced\A07_passive_FULL_auto_marker_place_4DOF_6dof_base_locked_z_mod_foot.osim
-               MODEL: A07_passive_autoScaled
-         coordinates: 27
-              forces: 51
-           actuators: 51
-             muscles: 51
-            analyses: 0
-              probes: 0
-              bodies: 13
-              joints: 12
-         constraints: 0
-             markers: 50
-         controllers: 0
-  contact geometries: 0
-misc modelcomponents: 0
-Running tool A01_SocRef1_scaled.
-
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0005_LockState5_ik.mot (nr=305 nc=28)
-
-
-Low-pass filtering coordinates data with a cutoff frequency of 6...
-
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\ExtForces\Passive_0003_3plates.mot (nr=3029 nc=19)
-ExternalForce::Right_GRF
-Data source being set to Passive_0003_3plates.mot
-ExternalForce::Left_GRF
-Data source being set to Passive_0003_3plates.mot
-ExternalForce::Right_GRF_transformedP
-Data source being set to Passive_0003_3plates.mot_transformedP
-ExternalForce::Left_GRF_transformedP
-Data source being set to Passive_0003_3plates.mot_transformedP
-InverseDynamicsTool: 305 time frames in 0.239s
-
-Storage: file=C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07\IKResults\A07_Pref_0005_LockState6_ik.mot (nr=305 nc=28)
+Running tool PassiveChopped.
+Loaded marker file F:\Mark\AutoPlaceGit\A07\MarkerData\PREF\A07_Pref_0002.trc (50 markers, 303 frames)
+Frame 0 (t=0):	total squared error = 0.0018226, marker error: RMS=0.00666736, max=0.0134942 (R_ASIS)
+Frame 1 (t=0.00416667):	total squared error = 0.00180671, marker error: RMS=0.00663823, max=0.0133687 (R_ASIS)
+Frame 2 (t=0.00833333):	total squared error = 0.00177631, marker error: RMS=0.00658214, max=0.0134848 (R_ASIS)
+Frame 3 (t=0.0125):	total squared error = 0.00176341, marker error: RMS=0.00655821, max=0.0133236 (R_ASIS)
+Frame 4 (t=0.0166667):	total squared error = 0.00177584, marker error: RMS=0.00658128, max=0.0132768 (R_ASIS)
+Frame 5 (t=0.0208333):	total squared error = 0.00175324, marker error: RMS=0.00653927, max=0.0136893 (R_ASIS)
+Frame 6 (t=0.025):	total squared error = 0.00176879, marker error: RMS=0.0065682, max=0.0141638 (R_ASIS)
+Frame 7 (t=0.0291667):	total squared error = 0.00177122, marker error: RMS=0.00657271, max=0.0138354 (R_ASIS)
+Frame 8 (t=0.0333333):	total squared error = 0.00178051, marker error: RMS=0.00658993, max=0.0143101 (R_ASIS)
+Frame 9 (t=0.0375):	total squared error = 0.0017966, marker error: RMS=0.00661963, max=0.0145866 (R_ASIS)
+Frame 10 (t=0.0416667):	total squared error = 0.00182076, marker error: RMS=0.006664, max=0.0148407 (R_ASIS)
+Frame 11 (t=0.0458333):	total squared error = 0.00183999, marker error: RMS=0.00669909, max=0.0150085 (R_ASIS)
+Frame 12 (t=0.05):	total squared error = 0.00184392, marker error: RMS=0.00670624, max=0.0140899 (R_ASIS)
+Frame 13 (t=0.0541667):	total squared error = 0.00186474, marker error: RMS=0.00674399, max=0.0146401 (R_ASIS)
+Frame 14 (t=0.0583333):	total squared error = 0.00188766, marker error: RMS=0.00678532, max=0.0148815 (R_ASIS)
+Frame 15 (t=0.0625):	total squared error = 0.00191432, marker error: RMS=0.00683305, max=0.0148107 (R_ASIS)
+Frame 16 (t=0.0666667):	total squared error = 0.00193207, marker error: RMS=0.00686468, max=0.0151703 (R_ASIS)
+Frame 17 (t=0.0708333):	total squared error = 0.00195248, marker error: RMS=0.00690083, max=0.0150895 (R_ASIS)
+Frame 18 (t=0.075):	total squared error = 0.00196459, marker error: RMS=0.00692219, max=0.0150164 (R_ASIS)
+Frame 19 (t=0.0791667):	total squared error = 0.00197679, marker error: RMS=0.00694366, max=0.0148536 (R_ASIS)
+Frame 20 (t=0.0833333):	total squared error = 0.00191106, marker error: RMS=0.00682725, max=0.0133105 (L_HEEL_SUP)
+Frame 21 (t=0.0875):	total squared error = 0.00190556, marker error: RMS=0.00681741, max=0.0133918 (L_HEEL_SUP)
+Frame 22 (t=0.0916667):	total squared error = 0.00189946, marker error: RMS=0.00680649, max=0.0134526 (L_HEEL_SUP)
+Frame 23 (t=0.0958333):	total squared error = 0.00189976, marker error: RMS=0.00680703, max=0.0134977 (L_HEEL_SUP)
+Frame 24 (t=0.1):	total squared error = 0.00190239, marker error: RMS=0.00681173, max=0.0135491 (L_HEEL_SUP)
+Frame 25 (t=0.104167):	total squared error = 0.00187212, marker error: RMS=0.00675732, max=0.0134392 (L_HEEL_SUP)
+Frame 26 (t=0.108333):	total squared error = 0.00185223, marker error: RMS=0.00672134, max=0.0134264 (L_HEEL_SUP)
+Frame 27 (t=0.1125):	total squared error = 0.00185202, marker error: RMS=0.00672096, max=0.0134194 (L_HEEL_SUP)
+Frame 28 (t=0.116667):	total squared error = 0.00180541, marker error: RMS=0.00663585, max=0.0133404 (L_HEEL_SUP)
+Frame 29 (t=0.120833):	total squared error = 0.00177183, marker error: RMS=0.00657385, max=0.0132473 (L_HEEL_SUP)
+Frame 30 (t=0.125):	total squared error = 0.00178229, marker error: RMS=0.00659321, max=0.0132149 (L_HEEL_SUP)
+Frame 31 (t=0.129167):	total squared error = 0.00172534, marker error: RMS=0.00648702, max=0.0130855 (L_HEEL_SUP)
+Frame 32 (t=0.133333):	total squared error = 0.00174128, marker error: RMS=0.00651693, max=0.0130654 (L_HEEL_SUP)
+Frame 33 (t=0.1375):	total squared error = 0.00171221, marker error: RMS=0.00646229, max=0.0129178 (L_HEEL_SUP)
+Frame 34 (t=0.141667):	total squared error = 0.00170718, marker error: RMS=0.00645279, max=0.0128526 (L_HEEL_SUP)
+Frame 35 (t=0.145833):	total squared error = 0.00168943, marker error: RMS=0.00641915, max=0.0127772 (L_HEEL_SUP)
+Frame 36 (t=0.15):	total squared error = 0.00171584, marker error: RMS=0.00646914, max=0.0134868 (R_1ST_MET)
+Frame 37 (t=0.154167):	total squared error = 0.00171746, marker error: RMS=0.0064722, max=0.0139662 (R_1ST_MET)
+Frame 38 (t=0.158333):	total squared error = 0.00171337, marker error: RMS=0.00646447, max=0.0140786 (R_1ST_MET)
+Frame 39 (t=0.1625):	total squared error = 0.00174197, marker error: RMS=0.00651822, max=0.0148671 (R_1ST_MET)
+Frame 40 (t=0.166667):	total squared error = 0.00176757, marker error: RMS=0.00656593, max=0.0151192 (R_1ST_MET)
+Frame 41 (t=0.170833):	total squared error = 0.00176444, marker error: RMS=0.00656011, max=0.0154457 (R_1ST_MET)
+Frame 42 (t=0.175):	total squared error = 0.00176055, marker error: RMS=0.00655288, max=0.0152874 (R_1ST_MET)
+Frame 43 (t=0.179167):	total squared error = 0.00175291, marker error: RMS=0.00653864, max=0.0155841 (R_1ST_MET)
+Frame 44 (t=0.183333):	total squared error = 0.00176882, marker error: RMS=0.00656826, max=0.0153704 (R_1ST_MET)
+Frame 45 (t=0.1875):	total squared error = 0.00176159, marker error: RMS=0.00655481, max=0.0152336 (R_1ST_MET)
+Frame 46 (t=0.191667):	total squared error = 0.00175798, marker error: RMS=0.00654809, max=0.0160469 (R_1ST_MET)
+Frame 47 (t=0.195833):	total squared error = 0.0017782, marker error: RMS=0.00658564, max=0.0164501 (R_1ST_MET)
+Frame 48 (t=0.2):	total squared error = 0.0016237, marker error: RMS=0.00629305, max=0.0118246 (L_1ST_MET)
+Frame 49 (t=0.204167):	total squared error = 0.00163873, marker error: RMS=0.00632211, max=0.012795 (R_1ST_MET)
+Frame 50 (t=0.208333):	total squared error = 0.00159114, marker error: RMS=0.00622962, max=0.0118718 (L_1ST_MET)
+Frame 51 (t=0.2125):	total squared error = 0.00160365, marker error: RMS=0.00625406, max=0.012423 (R_1ST_MET)
+Frame 52 (t=0.216667):	total squared error = 0.0015725, marker error: RMS=0.00619304, max=0.0119261 (L_1ST_MET)
+Frame 53 (t=0.220833):	total squared error = 0.00155425, marker error: RMS=0.00615698, max=0.0119134 (L_1ST_MET)
+Frame 54 (t=0.225):	total squared error = 0.00156665, marker error: RMS=0.0061815, max=0.0120268 (L_1ST_MET)
+Frame 55 (t=0.229167):	total squared error = 0.00153282, marker error: RMS=0.0061144, max=0.0119413 (L_1ST_MET)
+Frame 56 (t=0.233333):	total squared error = 0.00151312, marker error: RMS=0.00607497, max=0.0119269 (L_1ST_MET)
+Frame 57 (t=0.2375):	total squared error = 0.00151434, marker error: RMS=0.00607743, max=0.012032 (L_1ST_MET)
+Frame 58 (t=0.241667):	total squared error = 0.00148586, marker error: RMS=0.00602001, max=0.0119758 (L_1ST_MET)
+Frame 59 (t=0.245833):	total squared error = 0.0014772, marker error: RMS=0.00600243, max=0.0120576 (L_1ST_MET)
+Frame 60 (t=0.25):	total squared error = 0.00135927, marker error: RMS=0.00575786, max=0.0120044 (L_1ST_MET)
+Frame 61 (t=0.254167):	total squared error = 0.0013491, marker error: RMS=0.00573627, max=0.0120272 (L_1ST_MET)
+Frame 62 (t=0.258333):	total squared error = 0.00133609, marker error: RMS=0.00570854, max=0.0120734 (L_1ST_MET)
+Frame 63 (t=0.2625):	total squared error = 0.00130674, marker error: RMS=0.00564551, max=0.012032 (L_1ST_MET)
+Frame 64 (t=0.266667):	total squared error = 0.00129298, marker error: RMS=0.00561571, max=0.0121083 (L_1ST_MET)
+Frame 65 (t=0.270833):	total squared error = 0.00126664, marker error: RMS=0.00555821, max=0.0120561 (L_1ST_MET)
+Frame 66 (t=0.275):	total squared error = 0.00125034, marker error: RMS=0.00552232, max=0.0121531 (L_1ST_MET)
+Frame 67 (t=0.279167):	total squared error = 0.00121047, marker error: RMS=0.00543357, max=0.0121084 (L_1ST_MET)
+Frame 68 (t=0.283333):	total squared error = 0.00119433, marker error: RMS=0.00539722, max=0.0121647 (L_1ST_MET)
+Frame 69 (t=0.2875):	total squared error = 0.00117228, marker error: RMS=0.00534717, max=0.0121388 (L_1ST_MET)
+Frame 70 (t=0.291667):	total squared error = 0.00116242, marker error: RMS=0.00532464, max=0.0122035 (L_1ST_MET)
+Frame 71 (t=0.295833):	total squared error = 0.00113074, marker error: RMS=0.00525158, max=0.0121798 (L_1ST_MET)
+Frame 72 (t=0.3):	total squared error = 0.00111491, marker error: RMS=0.00521469, max=0.0121711 (L_1ST_MET)
+Frame 73 (t=0.304167):	total squared error = 0.00109322, marker error: RMS=0.0051637, max=0.0121501 (L_1ST_MET)
+Frame 74 (t=0.308333):	total squared error = 0.00108695, marker error: RMS=0.00514888, max=0.0120679 (L_1ST_MET)
+Frame 75 (t=0.3125):	total squared error = 0.00108784, marker error: RMS=0.00515099, max=0.0121614 (L_1ST_MET)
+Frame 76 (t=0.316667):	total squared error = 0.00109371, marker error: RMS=0.00516487, max=0.0120752 (L_1ST_MET)
+Frame 77 (t=0.320833):	total squared error = 0.00107388, marker error: RMS=0.00511783, max=0.0121602 (L_1ST_MET)
+Frame 78 (t=0.325):	total squared error = 0.00107938, marker error: RMS=0.00513093, max=0.0120726 (L_1ST_MET)
+Frame 79 (t=0.329167):	total squared error = 0.00111061, marker error: RMS=0.00520461, max=0.0121929 (L_1ST_MET)
+Frame 80 (t=0.333333):	total squared error = 0.00112806, marker error: RMS=0.00524534, max=0.0120876 (L_1ST_MET)
+Frame 81 (t=0.3375):	total squared error = 0.0011142, marker error: RMS=0.00521302, max=0.012088 (L_1ST_MET)
+Frame 82 (t=0.341667):	total squared error = 0.00113185, marker error: RMS=0.00525416, max=0.0120165 (L_1ST_MET)
+Frame 83 (t=0.345833):	total squared error = 0.00115243, marker error: RMS=0.0053017, max=0.0120691 (L_1ST_MET)
+Frame 84 (t=0.35):	total squared error = 0.00118223, marker error: RMS=0.00536982, max=0.0120697 (L_1ST_MET)
+Frame 85 (t=0.354167):	total squared error = 0.00121446, marker error: RMS=0.00544252, max=0.0120691 (L_1ST_MET)
+Frame 86 (t=0.358333):	total squared error = 0.001249, marker error: RMS=0.00551936, max=0.0120207 (L_1ST_MET)
+Frame 87 (t=0.3625):	total squared error = 0.0012718, marker error: RMS=0.00556953, max=0.0120681 (L_1ST_MET)
+Frame 88 (t=0.366667):	total squared error = 0.0012963, marker error: RMS=0.0056229, max=0.011982 (L_1ST_MET)
+Frame 89 (t=0.370833):	total squared error = 0.00132999, marker error: RMS=0.00569551, max=0.0119836 (L_1ST_MET)
+Frame 90 (t=0.375):	total squared error = 0.00136373, marker error: RMS=0.00576729, max=0.0119798 (L_1ST_MET)
+Frame 91 (t=0.379167):	total squared error = 0.00139908, marker error: RMS=0.00584156, max=0.0119785 (L_1ST_MET)
+Frame 92 (t=0.383333):	total squared error = 0.00143257, marker error: RMS=0.00591108, max=0.0119707 (L_1ST_MET)
+Frame 93 (t=0.3875):	total squared error = 0.00144368, marker error: RMS=0.00593395, max=0.0120106 (L_1ST_MET)
+Frame 94 (t=0.391667):	total squared error = 0.00146848, marker error: RMS=0.0059847, max=0.0119726 (L_5TH_MET)
+Frame 95 (t=0.395833):	total squared error = 0.00149485, marker error: RMS=0.00603818, max=0.0120366 (L_5TH_MET)
+Frame 96 (t=0.4):	total squared error = 0.00152131, marker error: RMS=0.00609139, max=0.0120894 (L_5TH_MET)
+Frame 97 (t=0.404167):	total squared error = 0.00154418, marker error: RMS=0.00613702, max=0.012132 (L_5TH_MET)
+Frame 98 (t=0.408333):	total squared error = 0.00156495, marker error: RMS=0.00617814, max=0.0121824 (L_5TH_MET)
+Frame 99 (t=0.4125):	total squared error = 0.00158439, marker error: RMS=0.0062164, max=0.0122129 (L_5TH_MET)
+Frame 100 (t=0.416667):	total squared error = 0.00160057, marker error: RMS=0.00624807, max=0.0122247 (L_5TH_MET)
+Frame 101 (t=0.420833):	total squared error = 0.00157587, marker error: RMS=0.00619966, max=0.0120635 (L_1ST_MET)
+Frame 102 (t=0.425):	total squared error = 0.00158063, marker error: RMS=0.00620902, max=0.012092 (L_5TH_MET)
+Frame 103 (t=0.429167):	total squared error = 0.00158581, marker error: RMS=0.00621919, max=0.0122973 (L_5TH_MET)
+Frame 104 (t=0.433333):	total squared error = 0.00158788, marker error: RMS=0.00622324, max=0.012248 (L_5TH_MET)
+Frame 105 (t=0.4375):	total squared error = 0.00158353, marker error: RMS=0.00621472, max=0.0122411 (L_5TH_MET)
+Frame 106 (t=0.441667):	total squared error = 0.00157117, marker error: RMS=0.00619041, max=0.0121126 (L_1ST_MET)
+Frame 107 (t=0.445833):	total squared error = 0.00156269, marker error: RMS=0.00617368, max=0.0122545 (L_5TH_MET)
+Frame 108 (t=0.45):	total squared error = 0.00155289, marker error: RMS=0.00615431, max=0.012213 (L_5TH_MET)
+Frame 109 (t=0.454167):	total squared error = 0.00152729, marker error: RMS=0.00610335, max=0.0120997 (L_1ST_MET)
+Frame 110 (t=0.458333):	total squared error = 0.00150673, marker error: RMS=0.00606214, max=0.0120871 (L_1ST_MET)
+Frame 111 (t=0.4625):	total squared error = 0.00147428, marker error: RMS=0.0059965, max=0.0120633 (L_5TH_MET)
+Frame 112 (t=0.466667):	total squared error = 0.00145868, marker error: RMS=0.00596469, max=0.0120469 (L_1ST_MET)
+Frame 113 (t=0.470833):	total squared error = 0.00143848, marker error: RMS=0.00592325, max=0.0120342 (L_1ST_MET)
+Frame 114 (t=0.475):	total squared error = 0.00141936, marker error: RMS=0.00588375, max=0.0120281 (L_1ST_MET)
+Frame 115 (t=0.479167):	total squared error = 0.00140367, marker error: RMS=0.00585115, max=0.0120221 (L_1ST_MET)
+Frame 116 (t=0.483333):	total squared error = 0.00138822, marker error: RMS=0.00581885, max=0.0120718 (L_1ST_MET)
+Frame 117 (t=0.4875):	total squared error = 0.00137844, marker error: RMS=0.00579832, max=0.0120628 (L_1ST_MET)
+Frame 118 (t=0.491667):	total squared error = 0.00136298, marker error: RMS=0.00576572, max=0.0120267 (L_1ST_MET)
+Frame 119 (t=0.495833):	total squared error = 0.00136201, marker error: RMS=0.00576366, max=0.011958 (L_1ST_MET)
+Frame 120 (t=0.5):	total squared error = 0.00136526, marker error: RMS=0.00577053, max=0.0120202 (L_1ST_MET)
+Frame 121 (t=0.504167):	total squared error = 0.00136867, marker error: RMS=0.00577772, max=0.0119617 (L_1ST_MET)
+Frame 122 (t=0.508333):	total squared error = 0.0013819, marker error: RMS=0.00580559, max=0.0119803 (L_1ST_MET)
+Frame 123 (t=0.5125):	total squared error = 0.00139883, marker error: RMS=0.00584104, max=0.0120326 (L_1ST_MET)
+Frame 124 (t=0.516667):	total squared error = 0.00141804, marker error: RMS=0.00588101, max=0.0120217 (L_1ST_MET)
+Frame 125 (t=0.520833):	total squared error = 0.00143848, marker error: RMS=0.00592325, max=0.0119769 (L_1ST_MET)
+Frame 126 (t=0.525):	total squared error = 0.00146637, marker error: RMS=0.0059804, max=0.0119324 (L_1ST_MET)
+Frame 127 (t=0.529167):	total squared error = 0.00150399, marker error: RMS=0.00605663, max=0.0120098 (L_1ST_MET)
+Frame 128 (t=0.533333):	total squared error = 0.0015315, marker error: RMS=0.00611177, max=0.0119214 (L_1ST_MET)
+Frame 129 (t=0.5375):	total squared error = 0.00156698, marker error: RMS=0.00618215, max=0.0119188 (L_1ST_MET)
+Frame 130 (t=0.541667):	total squared error = 0.00159995, marker error: RMS=0.00624684, max=0.0119399 (L_1ST_MET)
+Frame 131 (t=0.545833):	total squared error = 0.00162627, marker error: RMS=0.00629802, max=0.0118215 (L_1ST_MET)
+Frame 132 (t=0.55):	total squared error = 0.00167497, marker error: RMS=0.00639164, max=0.0118532 (L_1ST_MET)
+Frame 133 (t=0.554167):	total squared error = 0.00172161, marker error: RMS=0.00648, max=0.0118851 (L_1ST_MET)
+Frame 134 (t=0.558333):	total squared error = 0.00174959, marker error: RMS=0.00653245, max=0.0118818 (L_1ST_MET)
+Frame 135 (t=0.5625):	total squared error = 0.00178387, marker error: RMS=0.00659613, max=0.0119965 (R_HEEL_LAT)
+Frame 136 (t=0.566667):	total squared error = 0.00181562, marker error: RMS=0.00665457, max=0.0122375 (R_HEEL_LAT)
+Frame 137 (t=0.570833):	total squared error = 0.00181413, marker error: RMS=0.00665184, max=0.0122428 (R_HEEL_LAT)
+Frame 138 (t=0.575):	total squared error = 0.00182032, marker error: RMS=0.00666318, max=0.0122725 (R_HEEL_LAT)
+Frame 139 (t=0.579167):	total squared error = 0.001805, marker error: RMS=0.00663508, max=0.0121163 (R_HEEL_LAT)
+Frame 140 (t=0.583333):	total squared error = 0.00179629, marker error: RMS=0.00661906, max=0.0118879 (R_HEEL_LAT)
+Frame 141 (t=0.5875):	total squared error = 0.00177387, marker error: RMS=0.00657762, max=0.011814 (L_1ST_MET)
+Frame 142 (t=0.591667):	total squared error = 0.00174513, marker error: RMS=0.00652412, max=0.0117866 (L_1ST_MET)
+Frame 143 (t=0.595833):	total squared error = 0.00171648, marker error: RMS=0.00647034, max=0.0117838 (L_1ST_MET)
+Frame 144 (t=0.6):	total squared error = 0.00168199, marker error: RMS=0.006405, max=0.0117926 (L_1ST_MET)
+Frame 145 (t=0.604167):	total squared error = 0.00163241, marker error: RMS=0.0063099, max=0.0117111 (L_1ST_MET)
+Frame 146 (t=0.608333):	total squared error = 0.00159889, marker error: RMS=0.00624479, max=0.0117992 (L_HEEL_MED)
+Frame 147 (t=0.6125):	total squared error = 0.00155097, marker error: RMS=0.00615049, max=0.0117856 (L_HEEL_MED)
+Frame 148 (t=0.616667):	total squared error = 0.00151744, marker error: RMS=0.00608364, max=0.011918 (L_HEEL_MED)
+Frame 149 (t=0.620833):	total squared error = 0.00149695, marker error: RMS=0.00604244, max=0.0118603 (L_HEEL_MED)
+Frame 150 (t=0.625):	total squared error = 0.00144994, marker error: RMS=0.0059468, max=0.0119391 (L_HEEL_MED)
+Frame 151 (t=0.629167):	total squared error = 0.00145205, marker error: RMS=0.00595112, max=0.0120758 (L_HEEL_MED)
+Frame 152 (t=0.633333):	total squared error = 0.00144964, marker error: RMS=0.00594618, max=0.0120518 (L_HEEL_MED)
+Frame 153 (t=0.6375):	total squared error = 0.00142278, marker error: RMS=0.00589084, max=0.0120237 (L_HEEL_MED)
+Frame 154 (t=0.641667):	total squared error = 0.00142038, marker error: RMS=0.00588586, max=0.0121144 (L_HEEL_MED)
+Frame 155 (t=0.645833):	total squared error = 0.00144541, marker error: RMS=0.00593751, max=0.0121831 (L_HEEL_MED)
+Frame 156 (t=0.65):	total squared error = 0.00144408, marker error: RMS=0.00593477, max=0.0122873 (L_HEEL_MED)
+Frame 157 (t=0.654167):	total squared error = 0.00145146, marker error: RMS=0.00594991, max=0.0122824 (L_HEEL_MED)
+Frame 158 (t=0.658333):	total squared error = 0.00141301, marker error: RMS=0.00587058, max=0.0123165 (L_HEEL_MED)
+Frame 159 (t=0.6625):	total squared error = 0.00142683, marker error: RMS=0.00589922, max=0.0126273 (L_HEEL_SUP)
+Frame 160 (t=0.666667):	total squared error = 0.00145598, marker error: RMS=0.00595917, max=0.0128409 (L_HEEL_SUP)

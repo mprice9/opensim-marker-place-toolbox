@@ -1,90 +1,92 @@
+%-------------------------------------------------------------------------% 
+% AutoPlace.m
+% 
+% This file is a wrapper script which performs an automated marker 
+% placement algorithm on a scaled OpenSim musculoskeletal walking model. 
+% This wrapper is used for subjects with unilateral transtibial amputation.
+% It requires a starting .osim model with markers, .trc marker data from one 
+% walking trial (single stride), and an inverse kinematics setup .xml.
+% Modify the fields in this template for the specific subject model being 
+% used.
+% 
+% Before running, ensure the following folders are in the parent working
+% directory:
+%     IKSetup         Contains generic setup file and trial specific setup 
+%                     files are written
+%     MarkerData      Contains marker trajectory files for each trial
+%     -  PREF         Preferred walking speed trials
+%     Models          Contains the models used in IK
+%     -  AutoPlaced   Where output models will be written
+%     -  Scaled       Where input model is stored
+%
+% Before running, modify script options cell appropriately.
+% 
+% Written by Mark Price 07/2017
+% Last modified 10/2/2017
+%
+%-------------------------------------------------------------------------%
 
 close all
 clear all
 clc
 
-global myModel fileID markerScale divisor iteration
+global myModel fileID iteration
+
+import org.opensim.modeling.*
 
 % Create strings for the subject name and type of prosthesis. For file naming and labeling only.
 subject = 'A07';
 prosType = 'passive';
 
+% Input files:
+genericSetupForIK = 'A07_Setup_IK.xml'; % Name of the IK setup XML file for the given trial (to be modified)
+markerFile = 'A07_Pref_0002.trc'; % Name of the experimental walking marker data .trc file (single trial)
+inputModel = 'A07_passive_manual_foot_markers.osim'; % Filename of input model (scaled, standard marker placement) 
 
-import org.opensim.modeling.*
-
-ikSetupPath = ([pwd '\IKSetup\']);
-genericSetupForIK = 'A07_Setup_IK.xml';
-genericSetupForIKStatic = 'A07_Setup_IK_Static.xml';
-trcDataDir = ([pwd '\MarkerData\PREF']);
-trcDataDirStatic = ([pwd '\MarkerData\CAL']);
+% Setup folder paths for organization and use between machines
+ikSetupDir = ([pwd '\IKSetup\']);
+trcDataDir = ([pwd '\MarkerData\PREF\']);
 inputModelDir = ([pwd '\Models\Scaled\']);
 modelDir = ([pwd '\Models\AutoPlaced\']);
 
-modelFile = [pwd '\autoPlaceWorker.osim'];
-markerFile = [trcDataDir '\A07_Pref_0002.trc'];
-markerFileStatic = [trcDataDirStatic '\Standing_Cal_SL_Passive0001.trc'];
-outputMotionFile = [pwd '\autoPlaceWorker.mot'];
+markerFile = [trcDataDir markerFile];
+inputModel = [inputModelDir inputModel];
+genericSetupForIK = [ikSetupDir genericSetupForIK];
 
-ikTool = InverseKinematicsTool([ikSetupPath genericSetupForIK]);
-% Edit setup .xml with model path
+% Specify input and worker filenames
+modelFile = [pwd '\autoPlaceWorker.osim']; % Name of the 'worker' model file which is updated with each iteration
+outputMotionFile = [pwd '\autoPlaceWorker.mot']; % Name of the 'worker' output motion file which is updated with each iteration
+
+% Update IK setup file to reflect current file paths for walking trial
+ikTool = InverseKinematicsTool(genericSetupForIK);
 factorProp  = ikTool.getPropertyByName('model_file');
-% Set the value for this string to the model path
-PropertyHelper.setValueString(modelFile,factorProp);
+PropertyHelper.setValueString(modelFile,factorProp); % Set the .osim model file path in the setup .xml
 factorProp  = ikTool.getPropertyByName('marker_file');
-PropertyHelper.setValueString(markerFile,factorProp);
+PropertyHelper.setValueString(markerFile,factorProp); % Set the .trc marker file path in the setup .xml
 factorProp  = ikTool.getPropertyByName('output_motion_file');
-PropertyHelper.setValueString(outputMotionFile,factorProp);
-ikTool.print([ikSetupPath genericSetupForIK]);
+PropertyHelper.setValueString(outputMotionFile,factorProp); % Set the model path in the setup .xml
+ikTool.print(genericSetupForIK);
 
-ikToolStatic = InverseKinematicsTool([ikSetupPath genericSetupForIKStatic]);
-% Edit setup .xml with model path
-factorProp  = ikToolStatic.getPropertyByName('model_file');
-% Set the value for this string to the model path
-PropertyHelper.setValueString(modelFile,factorProp);
-factorProp  = ikToolStatic.getPropertyByName('marker_file');
-PropertyHelper.setValueString(markerFileStatic,factorProp);
-factorProp  = ikToolStatic.getPropertyByName('output_motion_file');
-PropertyHelper.setValueString(outputMotionFile,factorProp);
-ikToolStatic.print([ikSetupPath genericSetupForIKStatic]);
+% Store names of the model markers in cell arrays. Each run of the
+% algorithm will require one cell array of marker names to adjust. Store
+% sets of markers to be placed separately or under different conditions in 
+% separate arrays.
 
-iteration = 1;
-% markerScale = 1;
-% divisor = 1;
-
-% downSample the passive .trc file for speed
-% file_input = [trcDataDir 'A07_Pref_0002.trc']; 	% Your marker tracking .trc file
-% file_output = 'Chopped.trc';                    % Leave this, used in other functions
-% downSampleTRC(divisor,file_input,file_output)
-
-
-
-% create new file for log - ROB search
-% fileID = fopen('coarseMarkerSearch_log_passive_ROB_unchopped.txt', 'w'); 
-% myModel = 'A07_passive_coarseSearch_chopped.osim';
-% newName = 'A07_passive_coarse_marker_search.osim';
-
-% create new file for log of marker search
-fileID = fopen(['coarseMarkerSearch_log_' subject '_' prosType '_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.txt'], 'w'); % myModel = 'A07_passive_manual_foot_markers.osim';
-
-% model = [subject '_' prosType '_pre_auto_marker_place.osim'];
-model = 'A07_passive_FULL_auto_marker_place_4DOF_6dof_base_locked_z_mod_foot.osim';
-myModel = [inputModelDir model];    % define .osim model used as the starting point
-
-newName = [subject '_' prosType '_ROB_auto_marker_place_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
-newModelName = [modelDir newName];  % set name for new .osim model created after placing ROB markers
-
-footMarkerNames = {'R_HEEL_SUP','R_HEEL_MED','R_HEEL_LAT','R_TOE','R_1ST_MET', ...
-            'R_5TH_MET'};
+% rob = "rest of body". All markers not attached to affected limb.
 robMarkerNames = {'R_AC','L_AC','R_ASIS','L_ASIS','R_PSIS', ...
             'L_PSIS','R_THIGH_PROX_POST','R_THIGH_PROX_ANT', ...
             'R_THIGH_DIST_POST','R_THIGH_DIST_ANT','R_SHANK_PROX_ANT', ...
             'R_SHANK_PROX_POST','R_SHANK_DIST_POST','R_SHANK_DIST_ANT', ...
             'R_HEEL_SUP','R_HEEL_MED','R_HEEL_LAT','R_TOE','R_1ST_MET', ...
-            'R_5TH_MET','STERN','C7'};
+            'R_5TH_MET','C7'};
+        
+% Markers attached to the prosthesis             
 prosMarkerNames = {'L_SHANK_PROX_POST', ...
             'L_SHANK_PROX_ANT','L_SHANK_DIST_ANT','L_SHANK_DIST_POST', ...
             'L_HEEL_SUP','L_HEEL_MED','L_HEEL_LAT', ...
             'L_TOE','L_1ST_MET','L_5TH_MET'};
+        
+% RoB markers and prosthesis markers in one set.        
 robProsMarkerNames = {'R_AC','L_AC','R_ASIS','L_ASIS','R_PSIS', ...
             'L_PSIS','R_THIGH_PROX_POST','R_THIGH_PROX_ANT', ...
             'R_THIGH_DIST_POST','R_THIGH_DIST_ANT','R_SHANK_PROX_ANT', ...
@@ -94,35 +96,44 @@ robProsMarkerNames = {'R_AC','L_AC','R_ASIS','L_ASIS','R_PSIS', ...
             'L_SHANK_PROX_ANT','L_SHANK_DIST_ANT','L_SHANK_DIST_POST', ...
             'L_HEEL_SUP','L_HEEL_MED','L_HEEL_LAT', ...
             'L_TOE','L_1ST_MET','L_5TH_MET','C7'};
+
+% Thigh markers on the prosthesis side         
 prosThighMarkerNames = {'L_THIGH_PROX_POST','L_THIGH_PROX_ANT', ...
-            'L_THIGH_DIST_POST','L_THIGH_DIST_ANT'};
+            'L_THIGH_DIST_POST','L_THIGH_DIST_ANT'};       
+        
+% Names of model joints whose placements (location and orientation) in the 
+% parent segment are also to be optimized
 jointNames = {'socket'};
-socketAlignment = {'SOCKET_JOINT_LOC_IN_BODY','SOCKET_JOINT_ORIENT'};
-% prosThighMarkerNames = {};
+% socketAlignment = {'SOCKET_JOINT_LOC_IN_BODY','SOCKET_JOINT_ORIENT'};
 
-% Set model and algorithm options:
-options.IKsetup = [ikSetupPath genericSetupForIK];
-options.model = myModel;                    % generic model name
-options.subjectMass = 73.1637;
-options.newName = newModelName;
-options.modelWorker = modelFile;
-options.motionWorker = outputMotionFile;
+%% Setup and run initial RoB marker placement
 
-% Choose which set of bodies/markers is being placed. 'ROB' = Rest of
-% body, 'pros' = Markers on the prosthesis, 'prosThigh' = Thigh markers on
-% the prosthesis side and the socket joint center of rotation:
-options.bodySet = 'ROB';
-options.markerNames = robMarkerNames;
+iteration = 1;
+
+% create new file for log of marker search
+fileID = fopen(['coarseMarkerSearch_log_' subject '_' prosType '_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.txt'], 'w'); % myModel = 'A07_passive_manual_foot_markers.osim';
+
+newName = [subject '_' prosType '_ROB_auto_marker_place_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
+newModelName = [modelDir newName];  % set name for new .osim model created after placing ROB markers
+
+
+% Set model and algorithm options:        
+options.IKsetup = genericSetupForIK;  % IK setup file
+options.inputModel = Model(inputModel);             % Input model
+options.subjectMass = 73.1637;                      % Subject mass in kg
+options.newName = newModelName;                     % Output model name
+options.modelWorker = modelFile;                    % Worker model name
+options.motionWorker = outputMotionFile;            % Output motion name
+
+% Choose the lock state of each coordinate in the socket joint
+options.coordLockNames = {'socket_tx','socket_ty','socket_tz','socket_flexion','socket_adduction','socket_rotation'};
+options.coordLockStates = [false,false,false,false,false,false];
+
+% Choose which set of markers is being placed.
+options.markerNames = robProsMarkerNames;
+
+% Choose which model joints are being placed.
 options.jointNames = {};
-
-options.optZerosFlag = false;
-
-options.txLock = false;
-options.tyLock = false;
-options.tzLock = false;
-options.flexLock = false;
-options.adducLock = false;
-options.rotLock = false;
 
 % List marker coordinates to be locked - algorithm cannot move them from
 % hand-picked location:
@@ -131,6 +142,20 @@ options.fixedMarkerCoords = {'STERN x','STERN y','STERN z','L_HEEL_SUP y','L_TOE
 % Specify frame from .trc file at which socket flexion should be minimized:
 options.flexionZero = 51; 
 
+% Flag to tell algorithm to minimize socket flexion and pistoning at
+% specific points during stride in addition to marker error.
+options.optZerosFlag = false;
+
+% Specify marker search convergence threshold. All markers must move less 
+% than convThresh mm from start position at each markerset iteration to 
+% converge. If 1, a full pass with no marker changes must take place:
+options.convThresh = 1; 
+
+% List marker coordinates to be locked - algorithm cannot move them from
+% hand-picked location:
+options.fixedMarkerCoords = {'STERN x','STERN y','STERN z','L_HEEL_SUP y','L_TOE x','L_TOE y','L_TOE z'};
+
+
 % Specify marker search convergence threshold. All markers must move less 
 % than convThresh mm from start position at each markerset iteration to 
 % converge. If 1, a full pass with no marker changes must take place:
@@ -138,170 +163,67 @@ options.convThresh = 1;
 
 tic
 
-newName = [subject '_' prosType '_FULL_auto_marker_place_4DOF_fixed_ankle.osim'];
-newModelName = [modelDir newName];
-options.jointNames = {};
-options.markerNames = footMarkerNames;
-options.fixedMarkerCoords = {'R_HEEL_SUP y','R_TOE x','R_TOE y','R_TOE z'};
-X_newFoot = coarseMarkerSearch(options);
+X_robpros = coarseMarkerSearch(options);    % Run autoplace algorithm
+
+% Save output model to specified name.
 model = Model('autoPlaceWorker.osim');
 model.initSystem();
 model.print(newModelName);
-% 
-% X_ROB = coarseMarkerSearch(options);
-% model = Model('autoPlaceWorker.osim');
-% model.initSystem();
-% model.print(newModelName);
-% 
-% myModel = newModelName;
-% newName = [subject '_' prosType '_PROS_auto_marker_place_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
-% newModelName = [modelDir newName];
-% options.bodySet = 'pros';
-% options.jointNames = {};
-% options.markerNames = prosMarkerNames;
-% X_pros = coarseMarkerSearch(options);
-% model = Model('autoPlaceWorker.osim');
-% model.initSystem();
-% model.print(newModelName);
 
-% % myModel = newModelName;
-% newName = [subject '_' prosType '_ROBPROS_auto_marker_place_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
-% newModelName = [modelDir newName];
-% % options.bodySet = 'pros';
-% options.jointNames = {};
-% options.markerNames = robProsMarkerNames;
-% options.optZerosFlag = false;
-% X_robpros = coarseMarkerSearch(options);
-% model = Model('autoPlaceWorker.osim');
-% model.initSystem();
-% model.print(newModelName);
+% Set name of input model for next phase as output model of this phase
+preSocketJointModel = newModelName; 
 
-% % preSocketAlignModel = [modelDir 'A03_passive_PROS_auto_marker_place_31-Jul-2017_15.26.01.osim'];
-% preSocketAlignModel = newModelName;
+%% Setup and run thigh cluster and socket joint placement
 
-% % Set static socket alignment using static pose
-% options.IKsetup = [ikSetupPath genericSetupForIKStatic];
-% myModel = preSocketAlignModel;
-% newName = [subject '_' prosType '_ALIGN_auto_marker_place_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
-% newModelName = [modelDir newName];
-% % options.bodySet = 'socketAlignment';
-% options.markerNames = {};
-% options.jointNames = jointNames;
-% options.txLock = true;
-% options.tyLock = true;
-% options.tzLock = true;
-% options.flexLock = true;
-% options.adducLock = true;
-% options.rotLock = true;
-% options.fixedMarkerCoords = {'null'};
-% options.optZerosFlag = false;
-% X_socketAlign = coarseMarkerSearch(options);
-% model = Model('autoPlaceWorker.osim');
-% model.initSystem();
-% model.print(newModelName);
+% % Set this to desired input model if running this section independently
+% preSocketJointModel = [modelDir 'A07_passive_ROBPROS_auto_marker_place.osim'];
 
-% Place thigh cluster and socket joint center for different socket models
-% using walking trials
-% options.IKsetup = [ikSetupPath genericSetupForIK];
-% preSocketJointModel = [modelDir 'A07_passive_ROBPROS_auto_marker_place_6dof_base_orient.osim'];
-% preSocketJointModel = newModelName;
+inputModel = preSocketJointModel;
+newName = [subject '_' prosType '_FULL_auto_marker_place_4DOF' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
+newModelName = [modelDir newName];  % set name for new .osim model created after placing markers
 
-% myModel = preSocketJointModel;
-% newName = [subject '_' prosType '_FULL_auto_marker_place_RIGID_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
-% newModelName = [modelDir newName];
-% % options.bodySet = 'prosThigh';
-% options.txLock = true;
-% options.tyLock = true;
-% options.tzLock = true;
-% options.flexLock = true;
-% options.adducLock = true;
-% options.rotLock = true;
-% options.optZerosFlag = true;
-% options.markerNames = prosThighMarkerNames;
-% options.jointNames = jointNames;
-% options.fixedMarkerCoords = {'socket_JOINT_CENTER x','socket_JOINT_CENTER y','socket_JOINT_CENTER z','socket_JOINT_ORIENT x','socket_JOINT_ORIENT y','socket_JOINT_ORIENT z'};
-% X_prosThigh = coarseMarkerSearch(options);
-% model = Model('autoPlaceWorker.osim');
-% model.initSystem();
-% model.print(newModelName);
-% 
-% myModel = preSocketJointModel;
-% newName = [subject '_' prosType '_FULL_auto_marker_place_FLEXION_ONLY_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
-% newModelName = [modelDir newName];
-% % options.bodySet = 'prosThigh';
-% options.txLock = true;
-% options.tyLock = true;
-% options.tzLock = true;
-% options.flexLock = false;
-% options.adducLock = true;
-% options.rotLock = true;
-% options.optZerosFlag = true;
-% options.markerNames = prosThighMarkerNames;
-% options.jointNames = jointNames;
-% options.fixedMarkerCoords = {'socket_JOINT_CENTER x','socket_JOINT_CENTER y','socket_JOINT_CENTER z','socket_JOINT_ORIENT x','socket_JOINT_ORIENT y'};
-% X_prosThigh = coarseMarkerSearch(options);
-% model = Model('autoPlaceWorker.osim');
-% model.initSystem();
-% model.print(newModelName);
-% 
-% myModel = preSocketJointModel;
-% newName = [subject '_' prosType '_FULL_auto_marker_place_PISTON_ONLY_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
-% newModelName = [modelDir newName];
-% % options.bodySet = 'prosThigh';
-% options.txLock = true;
-% options.tyLock = false;
-% options.tzLock = true;
-% options.flexLock = true;
-% options.adducLock = true;
-% options.rotLock = true;
-% options.optZerosFlag = true;
-% options.markerNames = prosThighMarkerNames;
-% options.jointNames = jointNames;
-% options.fixedMarkerCoords = {'socket_JOINT_CENTER x','socket_JOINT_CENTER z','socket_JOINT_ORIENT x','socket_JOINT_ORIENT y','socket_JOINT_ORIENT z'};
-% X_prosThigh = coarseMarkerSearch(options);
-% model = Model('autoPlaceWorker.osim');
-% model.initSystem();
-% model.print(newModelName);
-% 
-% myModel = preSocketJointModel;
-% newName = [subject '_' prosType '_FULL_auto_marker_place_FLEXION_PISTON_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
-% newModelName = [modelDir newName];
-% % options.bodySet = 'prosThigh';
-% options.txLock = true;
-% options.tyLock = false;
-% options.tzLock = true;
-% options.flexLock = false;
-% options.adducLock = true;
-% options.rotLock = true;
-% options.optZerosFlag = true;
-% options.markerNames = prosThighMarkerNames;
-% options.jointNames = jointNames;
-% options.fixedMarkerCoords = {'socket_JOINT_CENTER x','socket_JOINT_CENTER z','socket_JOINT_ORIENT x','socket_JOINT_ORIENT y'};
-% X_prosThigh = coarseMarkerSearch(options);
-% model = Model('autoPlaceWorker.osim');
-% model.initSystem();
-% model.print(newModelName);
 
-% myModel = preSocketJointModel;
-% newName = [subject '_' prosType '_FULL_auto_marker_place_4DOF_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
-% newModelName = [modelDir newName];
+% Set model and algorithm options:
+options.IKsetup = genericSetupForIK;  % IK setup file
+options.inputModel = Model(inputModel);             % Input model
+options.subjectMass = 73.1637;                      % Subject mass in kg
+options.newName = newModelName;                     % Output model name
+options.modelWorker = modelFile;                    % Worker model name
+options.motionWorker = outputMotionFile;            % Output motion name
+
+% Choose the lock state of each coordinate in the socket joint
+options.coordLockNames = {'socket_tx','socket_ty','socket_tz','socket_flexion','socket_adduction','socket_rotation'};
+options.coordLockStates = [true,false,true,false,false,false];
+
+% Choose which set of markers is being placed.
+options.markerNames = prosThighMarkerNames;
+
+% Choose which model joints are being placed.
+options.jointNames = jointNames;
+
+% List marker coordinates to be locked - algorithm cannot move them from
+% hand-picked location:
 % options.fixedMarkerCoords = {'socket_JOINT_CENTER z'};
-% % options.fixedMarkerCoords = {'socket_JOINT_CENTER x','socket_JOINT_CENTER z','socket_JOINT_ORIENT x','socket_JOINT_ORIENT y'};
-% % options.bodySet = 'prosThigh';
-% options.txLock = true;
-% options.tyLock = false;
-% options.tzLock = true;
-% options.flexLock = false;
-% options.adducLock = false;
-% options.rotLock = false;
-% options.optZerosFlag = true;
-% options.markerNames = prosThighMarkerNames;
-% options.jointNames = jointNames;
-% X_prosThigh = coarseMarkerSearch(options);
-% model = Model('autoPlaceWorker.osim');
-% model.initSystem();
-% model.print(newModelName);
+options.fixedMarkerCoords = {'socket_JOINT_CENTER z','socket_JOINT_ORIENT x','socket_JOINT_ORIENT y'};
 
+% Specify frame from .trc file at which socket flexion should be minimized
+% (only applies for prosthesis-side thigh markers and socket joint placement)
+options.flexionZero = 51; 
 
-fclose(fileID);
+% Flag to tell algorithm to minimize socket flexion and pistoning at
+% specific points during stride in addition to marker error.
+options.optZerosFlag = true;
 
+% Specify marker search convergence threshold. All markers must move less 
+% than convThresh mm from start position at each markerset iteration to 
+% converge. If 1, a full pass with no marker changes must take place:
+options.convThresh = 1; 
+
+X_prosThigh = coarseMarkerSearch(options);
+
+% Save output model to specified name.
+model = Model('autoPlaceWorker.osim');
+model.initSystem();
+model.print(newModelName);
+
+fclose(fileID);     % Close log.

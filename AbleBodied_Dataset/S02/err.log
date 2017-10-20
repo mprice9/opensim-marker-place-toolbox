@@ -1,0 +1,6 @@
+
+MATLAB killed because the Java VM could not be terminated for 30 seconds.
+This could be due to a thread or timer that started right before shutdown,
+or a finalizer or shutdown hook that took too long to run.
+
+

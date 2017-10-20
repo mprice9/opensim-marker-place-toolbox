@@ -4,7 +4,8 @@ global myModel markerScale
 
 import org.opensim.modeling.*
    
-model = Model(myModel);
+% model = Model(myModel);
+model = options.inputModel;
 model.initSystem();
 % disp(myModel)
 % move markers
@@ -253,18 +254,31 @@ end
 % get coordinates and set defaults that may be altered from scaling
 coords = model.getCoordinateSet();
 
+try
+    coords.get('mtp_angle_r').setDefaultLocked(false);
+catch
+    coords.get('foot_flex').setDefaultLocked(false);
+end
 
-coords.get('mtp_angle_r').setDefaultLocked(false);
+try
+    coords.get('mtp_angle_l').setDefaultLocked(false);
+catch
+    coords.get('foot_flex').setDefaultLocked(false);
+end
+
 coords.get('knee_angle_l').setDefaultLocked(false);
-coords.get('foot_flex').setDefaultLocked(false);
 
-% socket coordinates
-coords.get('socket_tx').setDefaultLocked(options.txLock);
-coords.get('socket_ty').setDefaultLocked(options.tyLock);
-coords.get('socket_tz').setDefaultLocked(options.tzLock);
-coords.get('socket_flexion').setDefaultLocked(options.flexLock);
-coords.get('socket_adduction').setDefaultLocked(options.adducLock);
-coords.get('socket_rotation').setDefaultLocked(options.rotLock);
+% lock selected coordinates
+for i = 1:size(options.coordLockStates,2)
+    coords.get(options.coordLockNames{i}).setDefaultLocked(options.coordLockStates(i));
+end
+
+% coords.get('socket_tx').setDefaultLocked(options.txLock);
+% coords.get('socket_ty').setDefaultLocked(options.tyLock);
+% coords.get('socket_tz').setDefaultLocked(options.tzLock);
+% coords.get('socket_flexion').setDefaultLocked(options.flexLock);
+% coords.get('socket_adduction').setDefaultLocked(options.adducLock);
+% coords.get('socket_rotation').setDefaultLocked(options.rotLock);
 
 % model.setName('A07_passive_femurLengthStudy')
 

@@ -65,16 +65,16 @@ PropertyHelper.setValueString(markerFile,factorProp); % Set the .trc marker file
 factorProp  = ikTool.getPropertyByName('output_motion_file');
 PropertyHelper.setValueString(outputMotionFile,factorProp); % Set the model path in the setup .xml
 ikTool.print([ikSetupPath genericSetupForIK]);
-
-% Update IK setup file to reflect current file paths for standing calibration
-ikToolStatic = InverseKinematicsTool([ikSetupPath genericSetupForIKStatic]);
-factorProp  = ikToolStatic.getPropertyByName('model_file');
-PropertyHelper.setValueString(modelFile,factorProp); % Set the .osim model file path in the setup .xml
-factorProp  = ikToolStatic.getPropertyByName('marker_file');
-PropertyHelper.setValueString(markerFileStatic,factorProp); % Set the .trc marker file path in the setup .xml
-factorProp  = ikToolStatic.getPropertyByName('output_motion_file');
-PropertyHelper.setValueString(outputMotionFile,factorProp); % Set the model path in the setup .xml
-ikToolStatic.print([ikSetupPath genericSetupForIKStatic]);
+% 
+% % Update IK setup file to reflect current file paths for standing calibration
+% ikToolStatic = InverseKinematicsTool([ikSetupPath genericSetupForIKStatic]);
+% factorProp  = ikToolStatic.getPropertyByName('model_file');
+% PropertyHelper.setValueString(modelFile,factorProp); % Set the .osim model file path in the setup .xml
+% factorProp  = ikToolStatic.getPropertyByName('marker_file');
+% PropertyHelper.setValueString(markerFileStatic,factorProp); % Set the .trc marker file path in the setup .xml
+% factorProp  = ikToolStatic.getPropertyByName('output_motion_file');
+% PropertyHelper.setValueString(outputMotionFile,factorProp); % Set the model path in the setup .xml
+% ikToolStatic.print([ikSetupPath genericSetupForIKStatic]);
 
 % Store names of the model markers in cell arrays. Each run of the
 % algorithm will require one cell array of marker names to adjust. Store
@@ -113,7 +113,7 @@ prosThighMarkerNames = {'L_THIGH_PROX_POST','L_THIGH_PROX_ANT', ...
 % Names of model joints whose placements (location and orientation) in the 
 % parent segment are also to be optimized
 jointNames = {'socket'};
-socketAlignment = {'SOCKET_JOINT_LOC_IN_BODY','SOCKET_JOINT_ORIENT'};
+% socketAlignment = {'SOCKET_JOINT_LOC_IN_BODY','SOCKET_JOINT_ORIENT'};
 
 %% Setup and run initial RoB marker placement
 
@@ -126,23 +126,26 @@ newName = [subject '_' prosType '_ROBPROS_auto_marker_place_' char(datetime('now
 newModelName = [modelDir newName];  % set name for new .osim model created after placing markers
 
 model = 'A01_Left_TTAmp_SR1_scaled.osim'; % Provide name of input model (scaled, standard marker placement) 
-myModel = [inputModelDir model];
+inputModel = [inputModelDir model];
 
 % Set model and algorithm options:
 options.IKsetup = [ikSetupPath genericSetupForIK];  % IK setup file
-options.model = myModel;                            % Input model
+options.inputModel = Model(inputModel);                            % Input model
 options.subjectMass = 67.3046;                      % Subject mass in kg
 options.newName = newModelName;                     % Output model name
 options.modelWorker = modelFile;                    % Worker model name
 options.motionWorker = outputMotionFile;            % Output motion name
 
 % Choose the lock state of each coordinate in the socket joint
-options.txLock = false;
-options.tyLock = false;
-options.tzLock = false;
-options.flexLock = false;
-options.adducLock = false;
-options.rotLock = false;
+options.coordLockNames = {'socket_tx','socket_ty','socket_tz','socket_flexion','socket_adduction','socket_rotation'};
+options.coordLockStates = [false,false,false,false,false,false];
+
+% options.txLock = false;
+% options.tyLock = false;
+% options.tzLock = false;
+% options.flexLock = false;
+% options.adducLock = false;
+% options.rotLock = false;
 
 % Choose which set of markers is being placed.
 options.markerNames = robProsMarkerNames;
@@ -186,25 +189,29 @@ preSocketJointModel = newModelName;
 % % Set this to desired input model if running this section independently
 % preSocketJointModel = [modelDir 'A01_passive_ROBPROS_auto_marker_place.osim'];
 
-myModel = preSocketJointModel;
+inputModel = preSocketJointModel;
 newName = [subject '_' prosType '_FULL_auto_marker_place_4DOF' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
 newModelName = [modelDir newName];  % set name for new .osim model created after placing markers
 
+
 % Set model and algorithm options:
 options.IKsetup = [ikSetupPath genericSetupForIK];  % IK setup file
-options.model = myModel;                            % Input model
+options.inputModel = Model(inputModel);                            % Input model
 options.subjectMass = 67.3046;                      % Subject mass in kg
 options.newName = newModelName;                     % Output model name
 options.modelWorker = modelFile;                    % Worker model name
 options.motionWorker = outputMotionFile;            % Output motion name
 
 % Choose the lock state of each coordinate in the socket joint
-options.txLock = true;
-options.tyLock = false;
-options.tzLock = true;
-options.flexLock = false;
-options.adducLock = false;
-options.rotLock = false;
+options.coordLockNames = {'socket_tx','socket_ty','socket_tz','socket_flexion','socket_adduction','socket_rotation'};
+options.coordLockStates = [true,false,true,false,false,false];
+
+% options.txLock = true;
+% options.tyLock = false;
+% options.tzLock = true;
+% options.flexLock = false;
+% options.adducLock = false;
+% options.rotLock = false;
 
 % Choose which set of markers is being placed.
 options.markerNames = prosThighMarkerNames;

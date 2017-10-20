@@ -37,9 +37,9 @@ close all
 % subjLabels = {'A07'};
 subjLabels = {'A01', 'A03', 'A07'};
 subjLabelsPlots = {'Subject 1', 'Subject 2', 'Subject 3'};
-subjFolders = {'C:\Users\Mark\Documents\opensim-marker-place-toolbox\A01', ...
-    'C:\Users\Mark\Documents\opensim-marker-place-toolbox\A03', ...
-    'C:\Users\Mark\Documents\opensim-marker-place-toolbox\A07'};
+subjFolders = {'F:\Mark\AutoPlaceGit\A01', ...
+    'F:\Mark\AutoPlaceGit\A03', ...
+    'F:\Mark\AutoPlaceGit\A07'};
 
 numSubj = size(subjLabels,2);
 
@@ -76,8 +76,8 @@ for i = 1:numSubj
     subjMasses(i) = mass;
     
     forceFolder = [subjFolders{i} '\TrialData\Passive\GRF_Analog\'];
-    frames{i} = frameFinder(forceFolder);
-    startSwing(i) = mean(frames{i}(:,5) - frames{i}(:,2))/mean(frames{i}(:,6) - frames{i}(:,2)) * 100;
+%     frames{i} = frameFinder(forceFolder);
+%     startSwing(i) = mean(frames{i}(:,5) - frames{i}(:,2))/mean(frames{i}(:,6) - frames{i}(:,2)) * 100;
 end
 
 %% Error comparison setup
