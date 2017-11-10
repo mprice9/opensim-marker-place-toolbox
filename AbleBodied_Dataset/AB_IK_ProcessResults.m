@@ -49,8 +49,10 @@ for i = 1:numSubj
     genericSetupDir{i} = [subjDir{i} 'IKSetup\'];
     
     % specify where autoplace results are stored.
-    resultsDir{i} = [subjDir{i} 'IKResults\AutoPlace\'];
-    errorDir{i} = [subjDir{i} 'IKErrors\AutoPlace'];
+%     resultsDir{i} = [subjDir{i} 'IKResults\AutoPlace\'];
+%     errorDir{i} = [subjDir{i} 'IKErrors\AutoPlace'];
+    resultsDir{i} = [subjDir{i} 'IKResults\AutoPlaceNoTilt\'];
+    errorDir{i} = [subjDir{i} 'IKErrors\AutoPlaceNoTilt'];
     
     % specify where standard marker placement results are stored.
     resultsManualDir{i} = [subjDir{i} 'IKResults\StdMarkerPlaceMe\'];

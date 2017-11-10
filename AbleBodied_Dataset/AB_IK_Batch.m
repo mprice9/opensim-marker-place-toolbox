@@ -45,8 +45,8 @@ for i = 1:numSubj
     genericSetupDir{i} = [subjDir{i} 'IKSetup\'];
     
     % specify where results will be printed.
-    resultsDir{i} = [subjDir{i} 'IKResults\AutoPlace\'];
-    errorDir{i} = [subjDir{i} 'IKErrors\AutoPlace\'];
+    resultsDir{i} = [subjDir{i} 'IKResults\AutoPlaceNoTilt\'];
+    errorDir{i} = [subjDir{i} 'IKErrors\AutoPlaceNoTilt\'];
 %     resultsDir{i} = [subjDir{i} 'IKResults\StdMarkerPlaceMe\'];
 %     errorDir{i} = [subjDir{i} 'IKErrors\StdMarkerPlaceMe\'];
     
@@ -64,14 +64,24 @@ runFast = true;
 runSlow = true;
 
 % specify model names in folder model_dir
-inputModels{1} = 'S01_no-amp_ALLBODY_auto_marker_place_PSF.osim';
-inputModels{2} = 'S02_no-amp_ALLBODY_auto_marker_place_PSF.osim';
-inputModels{3} = 'S04_no-amp_ALLBODY_auto_marker_place_PSF.osim';
-inputModels{4} = 'S05_no-amp_ALLBODY_auto_marker_place_PSF.osim';
-inputModels{5} = 'S06_no-amp_ALLBODY_auto_marker_place_PSF.osim';
-inputModels{6} = 'S08_no-amp_ALLBODY_auto_marker_place_PSF.osim';
-inputModels{7} = 'S09_no-amp_ALLBODY_auto_marker_place_PSF.osim';
-inputModels{8} = 'S10_no-amp_ALLBODY_auto_marker_place_PSF.osim';
+% inputModels{1} = 'S01_no-amp_ALLBODY_auto_marker_place_PSF.osim';
+% inputModels{2} = 'S02_no-amp_ALLBODY_auto_marker_place_PSF.osim';
+% inputModels{3} = 'S04_no-amp_ALLBODY_auto_marker_place_PSF.osim';
+% inputModels{4} = 'S05_no-amp_ALLBODY_auto_marker_place_PSF.osim';
+% inputModels{5} = 'S06_no-amp_ALLBODY_auto_marker_place_PSF.osim';
+% inputModels{6} = 'S08_no-amp_ALLBODY_auto_marker_place_PSF.osim';
+% inputModels{7} = 'S09_no-amp_ALLBODY_auto_marker_place_PSF.osim';
+% inputModels{8} = 'S10_no-amp_ALLBODY_auto_marker_place_PSF.osim';
+
+inputModels{1} = 'S01_no-amp_ALLBODY_auto_marker_place_PSF_notilt.osim';
+inputModels{2} = 'S02_no-amp_ALLBODY_auto_marker_place_PSF_notilt.osim';
+inputModels{3} = 'S04_no-amp_ALLBODY_auto_marker_place_PSF_notilt.osim';
+inputModels{4} = 'S05_no-amp_ALLBODY_auto_marker_place_PSF_notilt.osim';
+inputModels{5} = 'S06_no-amp_ALLBODY_auto_marker_place_PSF_notilt.osim';
+inputModels{6} = 'S08_no-amp_ALLBODY_auto_marker_place_PSF_notilt.osim';
+inputModels{7} = 'S09_no-amp_ALLBODY_auto_marker_place_PSF_notilt.osim';
+inputModels{8} = 'S10_no-amp_ALLBODY_auto_marker_place_PSF_notilt.osim';
+
 % inputModels = {'S01_RRA_Model_PSF_newmass.osim',...
 %     'S02_RRA_Model_PSF_newmass.osim','S04_RRA_Model_newmass.osim',...
 %     'S05_Scaled_BK_5.osim','S06_RRA_Model_newmass.osim',...

@@ -8,10 +8,13 @@ close all
 
 %% Load data
 
-load('fullNormData.mat');
-load('fullErrData.mat');
+% load('fullNormData.mat');
+% load('fullErrData.mat');
 % load('fullNormDataFiltered.mat');
 % load('fullErrDataFiltered.mat');
+
+load('fullNormDataNoTilt.mat');
+load('fullErrDataNoTilt.mat');
 load('fullTags.mat');
 load('subjNames.mat');
 

@@ -1,0 +1,1770 @@
+ Iter: 1 Obj: 148.0582 Marker cost: 144.7216 Tilt cost: 3.3366 Avg RMS: 4.1072 Marker coordinate:  Steps from IC (mm):  time: 7.1485
+Sternum x:
+Marker coordinate Sternum x is locked.
+Sternum y:
+Marker coordinate Sternum y is locked.
+Sternum z:
+Marker coordinate Sternum z is locked.
+R.Acromium x:
+ Iter: 2 Obj: 147.8255 Marker cost: 144.489 Tilt cost: 3.3365 Avg RMS: 4.1049 Marker coordinate: R.Acromium x Steps from IC (mm): 1 time: 9.3671
+ Iter: 3 Obj: 148.2387 Marker cost: 144.9006 Tilt cost: 3.3381 Avg RMS: 4.1088 Marker coordinate: R.Acromium x Steps from IC (mm): 2 time: 11.5831
+R.Acromium x converged at 1 mm from IC. Min obj: 147.8255
+R.Acromium y:
+ Iter: 4 Obj: 148.254 Marker cost: 144.9132 Tilt cost: 3.3409 Avg RMS: 4.1071 Marker coordinate: R.Acromium y Steps from IC (mm): 1 time: 13.8175
+ Iter: 5 Obj: 148.6629 Marker cost: 145.3306 Tilt cost: 3.3324 Avg RMS: 4.1122 Marker coordinate: R.Acromium y Steps from IC (mm): -1 time: 16.0634
+R.Acromium y converged at 0 mm from IC. Min obj: 147.8255
+R.Acromium z:
+ Iter: 6 Obj: 148.0839 Marker cost: 144.7483 Tilt cost: 3.3356 Avg RMS: 4.107 Marker coordinate: R.Acromium z Steps from IC (mm): 1 time: 18.3497
+ Iter: 7 Obj: 148.3457 Marker cost: 145.0112 Tilt cost: 3.3345 Avg RMS: 4.1093 Marker coordinate: R.Acromium z Steps from IC (mm): -1 time: 20.522
+R.Acromium z converged at 0 mm from IC. Min obj: 147.8255
+L.Acromium x:
+ Iter: 8 Obj: 147.8996 Marker cost: 144.5605 Tilt cost: 3.3391 Avg RMS: 4.1059 Marker coordinate: L.Acromium x Steps from IC (mm): 1 time: 22.6811
+ Iter: 9 Obj: 148.3289 Marker cost: 144.9957 Tilt cost: 3.3332 Avg RMS: 4.1082 Marker coordinate: L.Acromium x Steps from IC (mm): -1 time: 24.8698
+L.Acromium x converged at 0 mm from IC. Min obj: 147.8255
+L.Acromium y:
+ Iter: 10 Obj: 148.7585 Marker cost: 145.4162 Tilt cost: 3.3424 Avg RMS: 4.1125 Marker coordinate: L.Acromium y Steps from IC (mm): 1 time: 27.0231
+ Iter: 11 Obj: 148.3684 Marker cost: 145.0369 Tilt cost: 3.3315 Avg RMS: 4.109 Marker coordinate: L.Acromium y Steps from IC (mm): -1 time: 29.1863
+L.Acromium y converged at 0 mm from IC. Min obj: 147.8255
+L.Acromium z:
+ Iter: 12 Obj: 148.5028 Marker cost: 145.1661 Tilt cost: 3.3367 Avg RMS: 4.1105 Marker coordinate: L.Acromium z Steps from IC (mm): 1 time: 31.3558
+ Iter: 13 Obj: 148.1531 Marker cost: 144.8164 Tilt cost: 3.3367 Avg RMS: 4.1077 Marker coordinate: L.Acromium z Steps from IC (mm): -1 time: 33.5095
+L.Acromium z converged at 0 mm from IC. Min obj: 147.8255
+Top.Head x:
+ Iter: 14 Obj: 148.0418 Marker cost: 144.7075 Tilt cost: 3.3343 Avg RMS: 4.1064 Marker coordinate: Top.Head x Steps from IC (mm): 1 time: 35.6681
+ Iter: 15 Obj: 148.456 Marker cost: 145.1157 Tilt cost: 3.3402 Avg RMS: 4.1104 Marker coordinate: Top.Head x Steps from IC (mm): -1 time: 37.8261
+Top.Head x converged at 0 mm from IC. Min obj: 147.8255
+Top.Head y:
+ Iter: 16 Obj: 148.1549 Marker cost: 144.8149 Tilt cost: 3.34 Avg RMS: 4.107 Marker coordinate: Top.Head y Steps from IC (mm): 1 time: 39.9934
+ Iter: 17 Obj: 148.1872 Marker cost: 144.8522 Tilt cost: 3.335 Avg RMS: 4.108 Marker coordinate: Top.Head y Steps from IC (mm): -1 time: 42.1529
+Top.Head y converged at 0 mm from IC. Min obj: 147.8255
+Top.Head z:
+ Iter: 18 Obj: 148.2005 Marker cost: 144.8628 Tilt cost: 3.3377 Avg RMS: 4.1089 Marker coordinate: Top.Head z Steps from IC (mm): 1 time: 44.3062
+ Iter: 19 Obj: 148.5834 Marker cost: 145.246 Tilt cost: 3.3374 Avg RMS: 4.11 Marker coordinate: Top.Head z Steps from IC (mm): -1 time: 46.4947
+Top.Head z converged at 0 mm from IC. Min obj: 147.8255
+R.ASIS x:
+ Iter: 20 Obj: 149.3174 Marker cost: 145.989 Tilt cost: 3.3284 Avg RMS: 4.1177 Marker coordinate: R.ASIS x Steps from IC (mm): 1 time: 48.6482
+ Iter: 21 Obj: 147.6885 Marker cost: 144.3441 Tilt cost: 3.3444 Avg RMS: 4.1028 Marker coordinate: R.ASIS x Steps from IC (mm): -1 time: 50.8064
+ Iter: 22 Obj: 148.473 Marker cost: 145.1219 Tilt cost: 3.3511 Avg RMS: 4.1079 Marker coordinate: R.ASIS x Steps from IC (mm): -2 time: 52.9825
+R.ASIS x converged at -1 mm from IC. Min obj: 147.6885
+R.ASIS y:
+ Iter: 23 Obj: 149.019 Marker cost: 145.825 Tilt cost: 3.1939 Avg RMS: 4.1137 Marker coordinate: R.ASIS y Steps from IC (mm): 1 time: 55.1335
+ Iter: 24 Obj: 147.8918 Marker cost: 144.3932 Tilt cost: 3.4987 Avg RMS: 4.1032 Marker coordinate: R.ASIS y Steps from IC (mm): -1 time: 57.2944
+R.ASIS y converged at 0 mm from IC. Min obj: 147.6885
+R.ASIS z:
+ Iter: 25 Obj: 147.6146 Marker cost: 144.2727 Tilt cost: 3.3419 Avg RMS: 4.1023 Marker coordinate: R.ASIS z Steps from IC (mm): 1 time: 59.4617
+ Iter: 26 Obj: 148.919 Marker cost: 145.5808 Tilt cost: 3.3382 Avg RMS: 4.1119 Marker coordinate: R.ASIS z Steps from IC (mm): 2 time: 61.6163
+R.ASIS z converged at 1 mm from IC. Min obj: 147.6146
+L.ASIS x:
+ Iter: 27 Obj: 148.2397 Marker cost: 144.9018 Tilt cost: 3.3379 Avg RMS: 4.1075 Marker coordinate: L.ASIS x Steps from IC (mm): 1 time: 63.7763
+ Iter: 28 Obj: 148.2606 Marker cost: 144.9163 Tilt cost: 3.3443 Avg RMS: 4.1061 Marker coordinate: L.ASIS x Steps from IC (mm): -1 time: 65.9339
+L.ASIS x converged at 0 mm from IC. Min obj: 147.6146
+L.ASIS y:
+ Iter: 29 Obj: 148.4354 Marker cost: 145.2473 Tilt cost: 3.1881 Avg RMS: 4.1093 Marker coordinate: L.ASIS y Steps from IC (mm): 1 time: 68.103
+ Iter: 30 Obj: 148.1183 Marker cost: 144.6198 Tilt cost: 3.4985 Avg RMS: 4.1054 Marker coordinate: L.ASIS y Steps from IC (mm): -1 time: 70.26
+L.ASIS y converged at 0 mm from IC. Min obj: 147.6146
+L.ASIS z:
+ Iter: 31 Obj: 148.1477 Marker cost: 144.8085 Tilt cost: 3.3393 Avg RMS: 4.1054 Marker coordinate: L.ASIS z Steps from IC (mm): 1 time: 72.4183
+ Iter: 32 Obj: 148.1562 Marker cost: 144.8126 Tilt cost: 3.3435 Avg RMS: 4.107 Marker coordinate: L.ASIS z Steps from IC (mm): -1 time: 74.6193
+L.ASIS z converged at 0 mm from IC. Min obj: 147.6146
+R.PSIS x:
+ Iter: 33 Obj: 148.551 Marker cost: 145.1751 Tilt cost: 3.3759 Avg RMS: 4.1097 Marker coordinate: R.PSIS x Steps from IC (mm): 1 time: 76.7903
+ Iter: 34 Obj: 148.0287 Marker cost: 144.7235 Tilt cost: 3.3052 Avg RMS: 4.1058 Marker coordinate: R.PSIS x Steps from IC (mm): -1 time: 78.9491
+R.PSIS x converged at 0 mm from IC. Min obj: 147.6146
+R.PSIS y:
+ Iter: 35 Obj: 148.2976 Marker cost: 144.8447 Tilt cost: 3.4529 Avg RMS: 4.1057 Marker coordinate: R.PSIS y Steps from IC (mm): 1 time: 81.1028
+ Iter: 36 Obj: 148.1322 Marker cost: 144.9009 Tilt cost: 3.2313 Avg RMS: 4.1081 Marker coordinate: R.PSIS y Steps from IC (mm): -1 time: 83.2595
+R.PSIS y converged at 0 mm from IC. Min obj: 147.6146
+R.PSIS z:
+ Iter: 37 Obj: 148.1786 Marker cost: 144.8357 Tilt cost: 3.3429 Avg RMS: 4.1079 Marker coordinate: R.PSIS z Steps from IC (mm): 1 time: 85.4134
+ Iter: 38 Obj: 148.0472 Marker cost: 144.7079 Tilt cost: 3.3393 Avg RMS: 4.1046 Marker coordinate: R.PSIS z Steps from IC (mm): -1 time: 87.5725
+R.PSIS z converged at 0 mm from IC. Min obj: 147.6146
+L.PSIS x:
+ Iter: 39 Obj: 148.1587 Marker cost: 144.7759 Tilt cost: 3.3828 Avg RMS: 4.107 Marker coordinate: L.PSIS x Steps from IC (mm): 1 time: 89.7386
+ Iter: 40 Obj: 148.985 Marker cost: 145.6832 Tilt cost: 3.3018 Avg RMS: 4.1118 Marker coordinate: L.PSIS x Steps from IC (mm): -1 time: 91.8809
+L.PSIS x converged at 0 mm from IC. Min obj: 147.6146
+L.PSIS y:
+ Iter: 41 Obj: 147.6583 Marker cost: 144.2098 Tilt cost: 3.4485 Avg RMS: 4.1019 Marker coordinate: L.PSIS y Steps from IC (mm): 1 time: 94.0404
+ Iter: 42 Obj: 148.5513 Marker cost: 145.3163 Tilt cost: 3.2351 Avg RMS: 4.1102 Marker coordinate: L.PSIS y Steps from IC (mm): -1 time: 96.2169
+L.PSIS y converged at 0 mm from IC. Min obj: 147.6146
+L.PSIS z:
+ Iter: 43 Obj: 148.3561 Marker cost: 145.0133 Tilt cost: 3.3427 Avg RMS: 4.1091 Marker coordinate: L.PSIS z Steps from IC (mm): 1 time: 98.3643
+ Iter: 44 Obj: 148.328 Marker cost: 144.9862 Tilt cost: 3.3418 Avg RMS: 4.1061 Marker coordinate: L.PSIS z Steps from IC (mm): -1 time: 100.5054
+L.PSIS z converged at 0 mm from IC. Min obj: 147.6146
+R.Great.Tro x:
+ Iter: 45 Obj: 147.6146 Marker cost: 144.2727 Tilt cost: 3.3419 Avg RMS: 4.1023 Marker coordinate: R.Great.Tro x Steps from IC (mm): 1 time: 102.6655
+Marker coordinate has no effect on IK
+R.Great.Tro y:
+ Iter: 46 Obj: 147.6146 Marker cost: 144.2727 Tilt cost: 3.3419 Avg RMS: 4.1023 Marker coordinate: R.Great.Tro y Steps from IC (mm): 1 time: 104.8302
+Marker coordinate has no effect on IK
+R.Great.Tro z:
+ Iter: 47 Obj: 147.6146 Marker cost: 144.2727 Tilt cost: 3.3419 Avg RMS: 4.1023 Marker coordinate: R.Great.Tro z Steps from IC (mm): 1 time: 106.9806
+Marker coordinate has no effect on IK
+L.Great.Tro x:
+ Iter: 48 Obj: 147.6146 Marker cost: 144.2727 Tilt cost: 3.3419 Avg RMS: 4.1023 Marker coordinate: L.Great.Tro x Steps from IC (mm): 1 time: 109.1355
+Marker coordinate has no effect on IK
+L.Great.Tro y:
+ Iter: 49 Obj: 147.6146 Marker cost: 144.2727 Tilt cost: 3.3419 Avg RMS: 4.1023 Marker coordinate: L.Great.Tro y Steps from IC (mm): 1 time: 111.3027
+Marker coordinate has no effect on IK
+L.Great.Tro z:
+ Iter: 50 Obj: 147.6146 Marker cost: 144.2727 Tilt cost: 3.3419 Avg RMS: 4.1023 Marker coordinate: L.Great.Tro z Steps from IC (mm): 1 time: 113.4611
+Marker coordinate has no effect on IK
+R.Iliac.Crest x:
+ Iter: 51 Obj: 148.7049 Marker cost: 145.3575 Tilt cost: 3.3474 Avg RMS: 4.1099 Marker coordinate: R.Iliac.Crest x Steps from IC (mm): 1 time: 115.6203
+ Iter: 52 Obj: 147.7689 Marker cost: 144.4346 Tilt cost: 3.3343 Avg RMS: 4.1041 Marker coordinate: R.Iliac.Crest x Steps from IC (mm): -1 time: 117.7778
+R.Iliac.Crest x converged at 0 mm from IC. Min obj: 147.6146
+R.Iliac.Crest y:
+ Iter: 53 Obj: 148.3128 Marker cost: 144.9689 Tilt cost: 3.3439 Avg RMS: 4.1053 Marker coordinate: R.Iliac.Crest y Steps from IC (mm): 1 time: 119.936
+ Iter: 54 Obj: 148.3198 Marker cost: 144.9799 Tilt cost: 3.34 Avg RMS: 4.1102 Marker coordinate: R.Iliac.Crest y Steps from IC (mm): -1 time: 122.1026
+R.Iliac.Crest y converged at 0 mm from IC. Min obj: 147.6146
+R.Iliac.Crest z:
+ Iter: 55 Obj: 148.0783 Marker cost: 144.7364 Tilt cost: 3.3419 Avg RMS: 4.1072 Marker coordinate: R.Iliac.Crest z Steps from IC (mm): 1 time: 124.2564
+ Iter: 56 Obj: 148.1767 Marker cost: 144.8365 Tilt cost: 3.3402 Avg RMS: 4.1054 Marker coordinate: R.Iliac.Crest z Steps from IC (mm): -1 time: 126.399
+R.Iliac.Crest z converged at 0 mm from IC. Min obj: 147.6146
+L.Iliac.Crest x:
+ Iter: 57 Obj: 148.4103 Marker cost: 145.0592 Tilt cost: 3.3512 Avg RMS: 4.1088 Marker coordinate: L.Iliac.Crest x Steps from IC (mm): 1 time: 128.5893
+ Iter: 58 Obj: 148.2141 Marker cost: 144.8793 Tilt cost: 3.3348 Avg RMS: 4.1062 Marker coordinate: L.Iliac.Crest x Steps from IC (mm): -1 time: 130.7413
+L.Iliac.Crest x converged at 0 mm from IC. Min obj: 147.6146
+L.Iliac.Crest y:
+ Iter: 59 Obj: 148.1146 Marker cost: 144.7744 Tilt cost: 3.3402 Avg RMS: 4.1063 Marker coordinate: L.Iliac.Crest y Steps from IC (mm): 1 time: 132.8811
+ Iter: 60 Obj: 148.3852 Marker cost: 145.0444 Tilt cost: 3.3408 Avg RMS: 4.1075 Marker coordinate: L.Iliac.Crest y Steps from IC (mm): -1 time: 135.1445
+L.Iliac.Crest y converged at 0 mm from IC. Min obj: 147.6146
+L.Iliac.Crest z:
+ Iter: 61 Obj: 148.4797 Marker cost: 145.1383 Tilt cost: 3.3414 Avg RMS: 4.1102 Marker coordinate: L.Iliac.Crest z Steps from IC (mm): 1 time: 137.2896
+ Iter: 62 Obj: 148.313 Marker cost: 144.9729 Tilt cost: 3.3401 Avg RMS: 4.1062 Marker coordinate: L.Iliac.Crest z Steps from IC (mm): -1 time: 139.4494
+L.Iliac.Crest z converged at 0 mm from IC. Min obj: 147.6146
+V.Sacral x:
+ Iter: 63 Obj: 148.5412 Marker cost: 145.2013 Tilt cost: 3.3399 Avg RMS: 4.1092 Marker coordinate: V.Sacral x Steps from IC (mm): 1 time: 141.6054
+ Iter: 64 Obj: 148.1161 Marker cost: 144.7737 Tilt cost: 3.3424 Avg RMS: 4.1059 Marker coordinate: V.Sacral x Steps from IC (mm): -1 time: 143.7602
+V.Sacral x converged at 0 mm from IC. Min obj: 147.6146
+V.Sacral y:
+ Iter: 65 Obj: 148.8981 Marker cost: 145.5438 Tilt cost: 3.3543 Avg RMS: 4.1105 Marker coordinate: V.Sacral y Steps from IC (mm): 1 time: 145.9281
+ Iter: 66 Obj: 147.8955 Marker cost: 144.5664 Tilt cost: 3.3291 Avg RMS: 4.1054 Marker coordinate: V.Sacral y Steps from IC (mm): -1 time: 148.0852
+V.Sacral y converged at 0 mm from IC. Min obj: 147.6146
+V.Sacral z:
+ Iter: 67 Obj: 148.2242 Marker cost: 144.8831 Tilt cost: 3.3412 Avg RMS: 4.1074 Marker coordinate: V.Sacral z Steps from IC (mm): 1 time: 150.2394
+ Iter: 68 Obj: 148.3265 Marker cost: 144.9845 Tilt cost: 3.342 Avg RMS: 4.1074 Marker coordinate: V.Sacral z Steps from IC (mm): -1 time: 152.4168
+V.Sacral z converged at 0 mm from IC. Min obj: 147.6146
+R.Thigh.Upper.Post x:
+ Iter: 69 Obj: 149.1948 Marker cost: 145.8798 Tilt cost: 3.315 Avg RMS: 4.1141 Marker coordinate: R.Thigh.Upper.Post x Steps from IC (mm): 1 time: 154.5715
+ Iter: 70 Obj: 147.7871 Marker cost: 144.4216 Tilt cost: 3.3654 Avg RMS: 4.1045 Marker coordinate: R.Thigh.Upper.Post x Steps from IC (mm): -1 time: 156.7258
+R.Thigh.Upper.Post x converged at 0 mm from IC. Min obj: 147.6146
+R.Thigh.Upper.Post y:
+ Iter: 71 Obj: 148.2473 Marker cost: 144.9112 Tilt cost: 3.3361 Avg RMS: 4.1078 Marker coordinate: R.Thigh.Upper.Post y Steps from IC (mm): 1 time: 158.8827
+ Iter: 72 Obj: 148.1405 Marker cost: 144.7958 Tilt cost: 3.3447 Avg RMS: 4.1053 Marker coordinate: R.Thigh.Upper.Post y Steps from IC (mm): -1 time: 161.0399
+R.Thigh.Upper.Post y converged at 0 mm from IC. Min obj: 147.6146
+R.Thigh.Upper.Post z:
+ Iter: 73 Obj: 148.5316 Marker cost: 145.1909 Tilt cost: 3.3408 Avg RMS: 4.1105 Marker coordinate: R.Thigh.Upper.Post z Steps from IC (mm): 1 time: 163.198
+ Iter: 74 Obj: 148.0051 Marker cost: 144.664 Tilt cost: 3.3411 Avg RMS: 4.1039 Marker coordinate: R.Thigh.Upper.Post z Steps from IC (mm): -1 time: 165.3611
+R.Thigh.Upper.Post z converged at 0 mm from IC. Min obj: 147.6146
+R.Thigh.Upper.Ant x:
+ Iter: 75 Obj: 148.6714 Marker cost: 145.3519 Tilt cost: 3.3195 Avg RMS: 4.1092 Marker coordinate: R.Thigh.Upper.Ant x Steps from IC (mm): 1 time: 167.5372
+ Iter: 76 Obj: 147.9454 Marker cost: 144.5796 Tilt cost: 3.3658 Avg RMS: 4.1061 Marker coordinate: R.Thigh.Upper.Ant x Steps from IC (mm): -1 time: 169.6767
+R.Thigh.Upper.Ant x converged at 0 mm from IC. Min obj: 147.6146
+R.Thigh.Upper.Ant y:
+ Iter: 77 Obj: 148.5458 Marker cost: 145.1914 Tilt cost: 3.3544 Avg RMS: 4.1099 Marker coordinate: R.Thigh.Upper.Ant y Steps from IC (mm): 1 time: 171.8371
+ Iter: 78 Obj: 147.9761 Marker cost: 144.6471 Tilt cost: 3.329 Avg RMS: 4.1042 Marker coordinate: R.Thigh.Upper.Ant y Steps from IC (mm): -1 time: 173.9946
+R.Thigh.Upper.Ant y converged at 0 mm from IC. Min obj: 147.6146
+R.Thigh.Upper.Ant z:
+ Iter: 79 Obj: 148.3006 Marker cost: 144.964 Tilt cost: 3.3366 Avg RMS: 4.1074 Marker coordinate: R.Thigh.Upper.Ant z Steps from IC (mm): 1 time: 176.1584
+ Iter: 80 Obj: 148.171 Marker cost: 144.8244 Tilt cost: 3.3466 Avg RMS: 4.1068 Marker coordinate: R.Thigh.Upper.Ant z Steps from IC (mm): -1 time: 178.3235
+R.Thigh.Upper.Ant z converged at 0 mm from IC. Min obj: 147.6146
+R.Thigh.Lower.Ant x:
+ Iter: 81 Obj: 148.4597 Marker cost: 145.1255 Tilt cost: 3.3343 Avg RMS: 4.1067 Marker coordinate: R.Thigh.Lower.Ant x Steps from IC (mm): 1 time: 180.476
+ Iter: 82 Obj: 148.1617 Marker cost: 144.8128 Tilt cost: 3.3489 Avg RMS: 4.1085 Marker coordinate: R.Thigh.Lower.Ant x Steps from IC (mm): -1 time: 182.6362
+R.Thigh.Lower.Ant x converged at 0 mm from IC. Min obj: 147.6146
+R.Thigh.Lower.Ant y:
+ Iter: 83 Obj: 147.9186 Marker cost: 144.5647 Tilt cost: 3.3539 Avg RMS: 4.1052 Marker coordinate: R.Thigh.Lower.Ant y Steps from IC (mm): 1 time: 184.8052
+ Iter: 84 Obj: 148.6796 Marker cost: 145.3486 Tilt cost: 3.331 Avg RMS: 4.1096 Marker coordinate: R.Thigh.Lower.Ant y Steps from IC (mm): -1 time: 186.9871
+R.Thigh.Lower.Ant y converged at 0 mm from IC. Min obj: 147.6146
+R.Thigh.Lower.Ant z:
+ Iter: 85 Obj: 147.9733 Marker cost: 144.6388 Tilt cost: 3.3346 Avg RMS: 4.1042 Marker coordinate: R.Thigh.Lower.Ant z Steps from IC (mm): 1 time: 189.1369
+ Iter: 86 Obj: 148.3286 Marker cost: 144.9813 Tilt cost: 3.3473 Avg RMS: 4.1089 Marker coordinate: R.Thigh.Lower.Ant z Steps from IC (mm): -1 time: 191.2875
+R.Thigh.Lower.Ant z converged at 0 mm from IC. Min obj: 147.6146
+R.Thigh.Lower.Post x:
+ Iter: 87 Obj: 148.0876 Marker cost: 144.7539 Tilt cost: 3.3338 Avg RMS: 4.1038 Marker coordinate: R.Thigh.Lower.Post x Steps from IC (mm): 1 time: 193.539
+ Iter: 88 Obj: 148.1887 Marker cost: 144.8396 Tilt cost: 3.3491 Avg RMS: 4.1085 Marker coordinate: R.Thigh.Lower.Post x Steps from IC (mm): -1 time: 195.6987
+R.Thigh.Lower.Post x converged at 0 mm from IC. Min obj: 147.6146
+R.Thigh.Lower.Post y:
+ Iter: 89 Obj: 148.5553 Marker cost: 145.2168 Tilt cost: 3.3385 Avg RMS: 4.1105 Marker coordinate: R.Thigh.Lower.Post y Steps from IC (mm): 1 time: 197.8547
+ Iter: 90 Obj: 148.3173 Marker cost: 144.9726 Tilt cost: 3.3447 Avg RMS: 4.1058 Marker coordinate: R.Thigh.Lower.Post y Steps from IC (mm): -1 time: 200.0096
+R.Thigh.Lower.Post y converged at 0 mm from IC. Min obj: 147.6146
+R.Thigh.Lower.Post z:
+ Iter: 91 Obj: 148.1097 Marker cost: 144.7669 Tilt cost: 3.3427 Avg RMS: 4.107 Marker coordinate: R.Thigh.Lower.Post z Steps from IC (mm): 1 time: 202.1679
+ Iter: 92 Obj: 148.5612 Marker cost: 145.2192 Tilt cost: 3.342 Avg RMS: 4.1089 Marker coordinate: R.Thigh.Lower.Post z Steps from IC (mm): -1 time: 204.3218
+R.Thigh.Lower.Post z converged at 0 mm from IC. Min obj: 147.6146
+R.Knee.Lat x:
+ Iter: 93 Obj: 148.8791 Marker cost: 145.5368 Tilt cost: 3.3423 Avg RMS: 4.1144 Marker coordinate: R.Knee.Lat x Steps from IC (mm): 1 time: 206.4814
+ Iter: 94 Obj: 147.5685 Marker cost: 144.2292 Tilt cost: 3.3392 Avg RMS: 4.0994 Marker coordinate: R.Knee.Lat x Steps from IC (mm): -1 time: 208.6351
+ Iter: 95 Obj: 148.08 Marker cost: 144.7423 Tilt cost: 3.3377 Avg RMS: 4.0993 Marker coordinate: R.Knee.Lat x Steps from IC (mm): -2 time: 210.8287
+R.Knee.Lat x converged at -1 mm from IC. Min obj: 147.5685
+R.Knee.Lat y:
+ Iter: 96 Obj: 148.1 Marker cost: 144.759 Tilt cost: 3.341 Avg RMS: 4.1044 Marker coordinate: R.Knee.Lat y Steps from IC (mm): 1 time: 212.977
+ Iter: 97 Obj: 147.9279 Marker cost: 144.5872 Tilt cost: 3.3407 Avg RMS: 4.1008 Marker coordinate: R.Knee.Lat y Steps from IC (mm): -1 time: 215.1322
+R.Knee.Lat y converged at 0 mm from IC. Min obj: 147.5685
+R.Knee.Lat z:
+ Iter: 98 Obj: 148.2441 Marker cost: 144.908 Tilt cost: 3.3361 Avg RMS: 4.1032 Marker coordinate: R.Knee.Lat z Steps from IC (mm): 1 time: 217.2899
+ Iter: 99 Obj: 147.6789 Marker cost: 144.3385 Tilt cost: 3.3404 Avg RMS: 4.101 Marker coordinate: R.Knee.Lat z Steps from IC (mm): -1 time: 219.4488
+R.Knee.Lat z converged at 0 mm from IC. Min obj: 147.5685
+R.Knee.Med x:
+ Iter: 100 Obj: 147.5685 Marker cost: 144.2292 Tilt cost: 3.3392 Avg RMS: 4.0994 Marker coordinate: R.Knee.Med x Steps from IC (mm): 1 time: 221.6367
+Marker coordinate has no effect on IK
+R.Knee.Med y:
+ Iter: 101 Obj: 147.5685 Marker cost: 144.2292 Tilt cost: 3.3392 Avg RMS: 4.0994 Marker coordinate: R.Knee.Med y Steps from IC (mm): 1 time: 223.7913
+Marker coordinate has no effect on IK
+R.Knee.Med z:
+ Iter: 102 Obj: 147.5685 Marker cost: 144.2292 Tilt cost: 3.3392 Avg RMS: 4.0994 Marker coordinate: R.Knee.Med z Steps from IC (mm): 1 time: 225.9479
+Marker coordinate has no effect on IK
+R.Shank.Upper.Post x:
+ Iter: 103 Obj: 148.2387 Marker cost: 144.8894 Tilt cost: 3.3493 Avg RMS: 4.1048 Marker coordinate: R.Shank.Upper.Post x Steps from IC (mm): 1 time: 228.1069
+ Iter: 104 Obj: 147.7856 Marker cost: 144.4555 Tilt cost: 3.3301 Avg RMS: 4.0997 Marker coordinate: R.Shank.Upper.Post x Steps from IC (mm): -1 time: 230.2593
+R.Shank.Upper.Post x converged at 0 mm from IC. Min obj: 147.5685
+R.Shank.Upper.Post y:
+ Iter: 105 Obj: 148.0065 Marker cost: 144.6617 Tilt cost: 3.3447 Avg RMS: 4.1034 Marker coordinate: R.Shank.Upper.Post y Steps from IC (mm): 1 time: 232.4154
+ Iter: 106 Obj: 148.0147 Marker cost: 144.6827 Tilt cost: 3.332 Avg RMS: 4.1013 Marker coordinate: R.Shank.Upper.Post y Steps from IC (mm): -1 time: 234.5742
+R.Shank.Upper.Post y converged at 0 mm from IC. Min obj: 147.5685
+R.Shank.Upper.Post z:
+ Iter: 107 Obj: 147.9597 Marker cost: 144.6192 Tilt cost: 3.3405 Avg RMS: 4.1045 Marker coordinate: R.Shank.Upper.Post z Steps from IC (mm): 1 time: 236.7326
+ Iter: 108 Obj: 147.9593 Marker cost: 144.6194 Tilt cost: 3.3399 Avg RMS: 4.1003 Marker coordinate: R.Shank.Upper.Post z Steps from IC (mm): -1 time: 238.893
+R.Shank.Upper.Post z converged at 0 mm from IC. Min obj: 147.5685
+R.Shank.Upper.Ant x:
+ Iter: 109 Obj: 148.1377 Marker cost: 144.7866 Tilt cost: 3.3511 Avg RMS: 4.1041 Marker coordinate: R.Shank.Upper.Ant x Steps from IC (mm): 1 time: 241.0372
+ Iter: 110 Obj: 147.6359 Marker cost: 144.3083 Tilt cost: 3.3276 Avg RMS: 4.0985 Marker coordinate: R.Shank.Upper.Ant x Steps from IC (mm): -1 time: 243.1966
+R.Shank.Upper.Ant x converged at 0 mm from IC. Min obj: 147.5685
+R.Shank.Upper.Ant y:
+ Iter: 111 Obj: 147.9786 Marker cost: 144.6341 Tilt cost: 3.3445 Avg RMS: 4.1026 Marker coordinate: R.Shank.Upper.Ant y Steps from IC (mm): 1 time: 245.3693
+ Iter: 112 Obj: 147.8865 Marker cost: 144.5476 Tilt cost: 3.3389 Avg RMS: 4.101 Marker coordinate: R.Shank.Upper.Ant y Steps from IC (mm): -1 time: 247.5392
+R.Shank.Upper.Ant y converged at 0 mm from IC. Min obj: 147.5685
+R.Shank.Upper.Ant z:
+ Iter: 113 Obj: 148.3412 Marker cost: 145.0054 Tilt cost: 3.3357 Avg RMS: 4.105 Marker coordinate: R.Shank.Upper.Ant z Steps from IC (mm): 1 time: 249.6935
+ Iter: 114 Obj: 147.889 Marker cost: 144.5448 Tilt cost: 3.3441 Avg RMS: 4.102 Marker coordinate: R.Shank.Upper.Ant z Steps from IC (mm): -1 time: 251.8466
+R.Shank.Upper.Ant z converged at 0 mm from IC. Min obj: 147.5685
+R.Shank.Lower.Ant x:
+ Iter: 115 Obj: 148.0547 Marker cost: 144.7102 Tilt cost: 3.3445 Avg RMS: 4.1026 Marker coordinate: R.Shank.Lower.Ant x Steps from IC (mm): 1 time: 254.0046
+ Iter: 116 Obj: 147.8392 Marker cost: 144.506 Tilt cost: 3.3332 Avg RMS: 4.1016 Marker coordinate: R.Shank.Lower.Ant x Steps from IC (mm): -1 time: 256.1499
+R.Shank.Lower.Ant x converged at 0 mm from IC. Min obj: 147.5685
+R.Shank.Lower.Ant y:
+ Iter: 117 Obj: 148.1801 Marker cost: 144.8388 Tilt cost: 3.3412 Avg RMS: 4.104 Marker coordinate: R.Shank.Lower.Ant y Steps from IC (mm): 1 time: 258.3044
+ Iter: 118 Obj: 147.6362 Marker cost: 144.2975 Tilt cost: 3.3387 Avg RMS: 4.0995 Marker coordinate: R.Shank.Lower.Ant y Steps from IC (mm): -1 time: 260.6007
+R.Shank.Lower.Ant y converged at 0 mm from IC. Min obj: 147.5685
+R.Shank.Lower.Ant z:
+ Iter: 119 Obj: 147.799 Marker cost: 144.464 Tilt cost: 3.335 Avg RMS: 4.1007 Marker coordinate: R.Shank.Lower.Ant z Steps from IC (mm): 1 time: 262.7466
+ Iter: 120 Obj: 148.3068 Marker cost: 144.9637 Tilt cost: 3.3431 Avg RMS: 4.1054 Marker coordinate: R.Shank.Lower.Ant z Steps from IC (mm): -1 time: 264.899
+R.Shank.Lower.Ant z converged at 0 mm from IC. Min obj: 147.5685
+R.Shank.Lower.Post x:
+ Iter: 121 Obj: 147.806 Marker cost: 144.4599 Tilt cost: 3.3461 Avg RMS: 4.1008 Marker coordinate: R.Shank.Lower.Post x Steps from IC (mm): 1 time: 267.0519
+ Iter: 122 Obj: 148.0835 Marker cost: 144.7505 Tilt cost: 3.333 Avg RMS: 4.1027 Marker coordinate: R.Shank.Lower.Post x Steps from IC (mm): -1 time: 269.1971
+R.Shank.Lower.Post x converged at 0 mm from IC. Min obj: 147.5685
+R.Shank.Lower.Post y:
+ Iter: 123 Obj: 148.1936 Marker cost: 144.8516 Tilt cost: 3.342 Avg RMS: 4.1045 Marker coordinate: R.Shank.Lower.Post y Steps from IC (mm): 1 time: 271.3494
+ Iter: 124 Obj: 147.7112 Marker cost: 144.3762 Tilt cost: 3.335 Avg RMS: 4.0995 Marker coordinate: R.Shank.Lower.Post y Steps from IC (mm): -1 time: 273.5572
+R.Shank.Lower.Post y converged at 0 mm from IC. Min obj: 147.5685
+R.Shank.Lower.Post z:
+ Iter: 125 Obj: 147.8422 Marker cost: 144.5003 Tilt cost: 3.342 Avg RMS: 4.1025 Marker coordinate: R.Shank.Lower.Post z Steps from IC (mm): 1 time: 275.7867
+ Iter: 126 Obj: 148.2213 Marker cost: 144.8822 Tilt cost: 3.3391 Avg RMS: 4.1028 Marker coordinate: R.Shank.Lower.Post z Steps from IC (mm): -1 time: 277.9731
+R.Shank.Lower.Post z converged at 0 mm from IC. Min obj: 147.5685
+R.Ankle.Lat x:
+ Iter: 127 Obj: 147.9023 Marker cost: 144.5624 Tilt cost: 3.3399 Avg RMS: 4.1006 Marker coordinate: R.Ankle.Lat x Steps from IC (mm): 1 time: 280.1544
+ Iter: 128 Obj: 148.1556 Marker cost: 144.8172 Tilt cost: 3.3384 Avg RMS: 4.1044 Marker coordinate: R.Ankle.Lat x Steps from IC (mm): -1 time: 282.302
+R.Ankle.Lat x converged at 0 mm from IC. Min obj: 147.5685
+R.Ankle.Lat y:
+ Iter: 129 Obj: 148.2122 Marker cost: 144.8724 Tilt cost: 3.3398 Avg RMS: 4.1035 Marker coordinate: R.Ankle.Lat y Steps from IC (mm): 1 time: 284.4629
+ Iter: 130 Obj: 147.6707 Marker cost: 144.332 Tilt cost: 3.3387 Avg RMS: 4.1006 Marker coordinate: R.Ankle.Lat y Steps from IC (mm): -1 time: 286.6175
+R.Ankle.Lat y converged at 0 mm from IC. Min obj: 147.5685
+R.Ankle.Lat z:
+ Iter: 131 Obj: 148.2642 Marker cost: 144.9246 Tilt cost: 3.3397 Avg RMS: 4.1037 Marker coordinate: R.Ankle.Lat z Steps from IC (mm): 1 time: 288.7775
+ Iter: 132 Obj: 147.9581 Marker cost: 144.6168 Tilt cost: 3.3412 Avg RMS: 4.1025 Marker coordinate: R.Ankle.Lat z Steps from IC (mm): -1 time: 290.9347
+R.Ankle.Lat z converged at 0 mm from IC. Min obj: 147.5685
+R.Ankle.Med x:
+ Iter: 133 Obj: 147.5685 Marker cost: 144.2292 Tilt cost: 3.3392 Avg RMS: 4.0994 Marker coordinate: R.Ankle.Med x Steps from IC (mm): 1 time: 293.0848
+Marker coordinate has no effect on IK
+R.Ankle.Med y:
+ Iter: 134 Obj: 147.5685 Marker cost: 144.2292 Tilt cost: 3.3392 Avg RMS: 4.0994 Marker coordinate: R.Ankle.Med y Steps from IC (mm): 1 time: 295.2399
+Marker coordinate has no effect on IK
+R.Ankle.Med z:
+ Iter: 135 Obj: 147.5685 Marker cost: 144.2292 Tilt cost: 3.3392 Avg RMS: 4.0994 Marker coordinate: R.Ankle.Med z Steps from IC (mm): 1 time: 297.3852
+Marker coordinate has no effect on IK
+R.Heel.Upper x:
+ Iter: 136 Obj: 148.1188 Marker cost: 144.7799 Tilt cost: 3.3389 Avg RMS: 4.1022 Marker coordinate: R.Heel.Upper x Steps from IC (mm): 1 time: 299.5535
+ Iter: 137 Obj: 147.8062 Marker cost: 144.4668 Tilt cost: 3.3394 Avg RMS: 4.1021 Marker coordinate: R.Heel.Upper x Steps from IC (mm): -1 time: 301.7127
+R.Heel.Upper x converged at 0 mm from IC. Min obj: 147.5685
+R.Heel.Upper y:
+ Iter: 138 Obj: 147.7083 Marker cost: 144.3679 Tilt cost: 3.3403 Avg RMS: 4.1004 Marker coordinate: R.Heel.Upper y Steps from IC (mm): 1 time: 303.8701
+ Iter: 139 Obj: 147.9647 Marker cost: 144.6244 Tilt cost: 3.3403 Avg RMS: 4.1018 Marker coordinate: R.Heel.Upper y Steps from IC (mm): -1 time: 306.0359
+R.Heel.Upper y converged at 0 mm from IC. Min obj: 147.5685
+R.Heel.Upper z:
+ Iter: 140 Obj: 147.9554 Marker cost: 144.6148 Tilt cost: 3.3406 Avg RMS: 4.1016 Marker coordinate: R.Heel.Upper z Steps from IC (mm): 1 time: 308.1779
+ Iter: 141 Obj: 147.5637 Marker cost: 144.223 Tilt cost: 3.3407 Avg RMS: 4.0994 Marker coordinate: R.Heel.Upper z Steps from IC (mm): -1 time: 310.3221
+ Iter: 142 Obj: 148.4298 Marker cost: 145.0897 Tilt cost: 3.3401 Avg RMS: 4.1061 Marker coordinate: R.Heel.Upper z Steps from IC (mm): -2 time: 312.4718
+R.Heel.Upper z converged at -1 mm from IC. Min obj: 147.5637
+R.Heel.Med x:
+ Iter: 143 Obj: 148.3024 Marker cost: 144.969 Tilt cost: 3.3334 Avg RMS: 4.1052 Marker coordinate: R.Heel.Med x Steps from IC (mm): 1 time: 314.6192
+ Iter: 144 Obj: 147.8916 Marker cost: 144.5476 Tilt cost: 3.344 Avg RMS: 4.1015 Marker coordinate: R.Heel.Med x Steps from IC (mm): -1 time: 316.7757
+R.Heel.Med x converged at 0 mm from IC. Min obj: 147.5637
+R.Heel.Med y:
+ Iter: 145 Obj: 147.8754 Marker cost: 144.5374 Tilt cost: 3.3379 Avg RMS: 4.1015 Marker coordinate: R.Heel.Med y Steps from IC (mm): 1 time: 318.9482
+ Iter: 146 Obj: 148.4457 Marker cost: 145.1035 Tilt cost: 3.3421 Avg RMS: 4.1058 Marker coordinate: R.Heel.Med y Steps from IC (mm): -1 time: 321.2257
+R.Heel.Med y converged at 0 mm from IC. Min obj: 147.5637
+R.Heel.Med z:
+ Iter: 147 Obj: 148.314 Marker cost: 144.9706 Tilt cost: 3.3434 Avg RMS: 4.1052 Marker coordinate: R.Heel.Med z Steps from IC (mm): 1 time: 323.4035
+ Iter: 148 Obj: 147.8622 Marker cost: 144.5255 Tilt cost: 3.3367 Avg RMS: 4.1008 Marker coordinate: R.Heel.Med z Steps from IC (mm): -1 time: 325.5618
+R.Heel.Med z converged at 0 mm from IC. Min obj: 147.5637
+R.Heel.Lat x:
+ Iter: 149 Obj: 147.8765 Marker cost: 144.5394 Tilt cost: 3.3371 Avg RMS: 4.1022 Marker coordinate: R.Heel.Lat x Steps from IC (mm): 1 time: 327.7126
+ Iter: 150 Obj: 148.442 Marker cost: 145.0985 Tilt cost: 3.3435 Avg RMS: 4.1059 Marker coordinate: R.Heel.Lat x Steps from IC (mm): -1 time: 329.8972
+R.Heel.Lat x converged at 0 mm from IC. Min obj: 147.5637
+R.Heel.Lat y:
+ Iter: 151 Obj: 147.8336 Marker cost: 144.4886 Tilt cost: 3.345 Avg RMS: 4.1023 Marker coordinate: R.Heel.Lat y Steps from IC (mm): 1 time: 332.0721
+ Iter: 152 Obj: 148.2495 Marker cost: 144.9132 Tilt cost: 3.3363 Avg RMS: 4.1039 Marker coordinate: R.Heel.Lat y Steps from IC (mm): -1 time: 334.2289
+R.Heel.Lat y converged at 0 mm from IC. Min obj: 147.5637
+R.Heel.Lat z:
+ Iter: 153 Obj: 148.1374 Marker cost: 144.7923 Tilt cost: 3.3451 Avg RMS: 4.1039 Marker coordinate: R.Heel.Lat z Steps from IC (mm): 1 time: 336.3807
+ Iter: 154 Obj: 147.9774 Marker cost: 144.6417 Tilt cost: 3.3357 Avg RMS: 4.1018 Marker coordinate: R.Heel.Lat z Steps from IC (mm): -1 time: 338.5289
+R.Heel.Lat z converged at 0 mm from IC. Min obj: 147.5637
+R.Toe.Lat x:
+ Iter: 155 Obj: 147.5637 Marker cost: 144.223 Tilt cost: 3.3407 Avg RMS: 4.0994 Marker coordinate: R.Toe.Lat x Steps from IC (mm): 1 time: 340.6835
+Marker coordinate has no effect on IK
+R.Toe.Lat y:
+ Iter: 156 Obj: 147.5637 Marker cost: 144.223 Tilt cost: 3.3407 Avg RMS: 4.0994 Marker coordinate: R.Toe.Lat y Steps from IC (mm): 1 time: 342.834
+Marker coordinate has no effect on IK
+R.Toe.Lat z:
+ Iter: 157 Obj: 147.5637 Marker cost: 144.223 Tilt cost: 3.3407 Avg RMS: 4.0994 Marker coordinate: R.Toe.Lat z Steps from IC (mm): 1 time: 345.0147
+Marker coordinate has no effect on IK
+R.Toe.Med x:
+ Iter: 158 Obj: 148.1698 Marker cost: 144.8358 Tilt cost: 3.334 Avg RMS: 4.1039 Marker coordinate: R.Toe.Med x Steps from IC (mm): 1 time: 347.165
+ Iter: 159 Obj: 147.8938 Marker cost: 144.5487 Tilt cost: 3.3451 Avg RMS: 4.1018 Marker coordinate: R.Toe.Med x Steps from IC (mm): -1 time: 349.3226
+R.Toe.Med x converged at 0 mm from IC. Min obj: 147.5637
+R.Toe.Med y:
+ Iter: 160 Obj: 148.0786 Marker cost: 144.7357 Tilt cost: 3.3429 Avg RMS: 4.1028 Marker coordinate: R.Toe.Med y Steps from IC (mm): 1 time: 351.4793
+ Iter: 161 Obj: 147.9828 Marker cost: 144.6474 Tilt cost: 3.3354 Avg RMS: 4.1028 Marker coordinate: R.Toe.Med y Steps from IC (mm): -1 time: 353.6316
+R.Toe.Med y converged at 0 mm from IC. Min obj: 147.5637
+R.Toe.Med z:
+ Iter: 162 Obj: 148.0325 Marker cost: 144.6924 Tilt cost: 3.3401 Avg RMS: 4.1021 Marker coordinate: R.Toe.Med z Steps from IC (mm): 1 time: 355.792
+ Iter: 163 Obj: 148.108 Marker cost: 144.7704 Tilt cost: 3.3375 Avg RMS: 4.1039 Marker coordinate: R.Toe.Med z Steps from IC (mm): -1 time: 357.9488
+R.Toe.Med z converged at 0 mm from IC. Min obj: 147.5637
+R.Toe.Tip x:
+ Iter: 164 Obj: 147.6478 Marker cost: 144.308 Tilt cost: 3.3398 Avg RMS: 4.1005 Marker coordinate: R.Toe.Tip x Steps from IC (mm): 1 time: 360.1006
+ Iter: 165 Obj: 148.3446 Marker cost: 145.0038 Tilt cost: 3.3408 Avg RMS: 4.1048 Marker coordinate: R.Toe.Tip x Steps from IC (mm): -1 time: 362.2661
+R.Toe.Tip x converged at 0 mm from IC. Min obj: 147.5637
+R.Toe.Tip y:
+ Iter: 166 Obj: 147.5103 Marker cost: 144.1701 Tilt cost: 3.3402 Avg RMS: 4.0999 Marker coordinate: R.Toe.Tip y Steps from IC (mm): 1 time: 364.43
+ Iter: 167 Obj: 148.0723 Marker cost: 144.7308 Tilt cost: 3.3415 Avg RMS: 4.1046 Marker coordinate: R.Toe.Tip y Steps from IC (mm): 2 time: 366.591
+R.Toe.Tip y converged at 1 mm from IC. Min obj: 147.5103
+R.Toe.Tip z:
+ Iter: 168 Obj: 147.6765 Marker cost: 144.3367 Tilt cost: 3.3398 Avg RMS: 4.101 Marker coordinate: R.Toe.Tip z Steps from IC (mm): 1 time: 368.7459
+ Iter: 169 Obj: 147.8946 Marker cost: 144.556 Tilt cost: 3.3386 Avg RMS: 4.1028 Marker coordinate: R.Toe.Tip z Steps from IC (mm): -1 time: 370.9993
+R.Toe.Tip z converged at 0 mm from IC. Min obj: 147.5103
+L.Thigh.Upper.Post x:
+ Iter: 170 Obj: 148.5314 Marker cost: 145.2167 Tilt cost: 3.3147 Avg RMS: 4.1066 Marker coordinate: L.Thigh.Upper.Post x Steps from IC (mm): 1 time: 373.1503
+ Iter: 171 Obj: 147.3938 Marker cost: 144.0262 Tilt cost: 3.3676 Avg RMS: 4.0998 Marker coordinate: L.Thigh.Upper.Post x Steps from IC (mm): -1 time: 375.3024
+ Iter: 172 Obj: 147.8445 Marker cost: 144.4519 Tilt cost: 3.3926 Avg RMS: 4.1037 Marker coordinate: L.Thigh.Upper.Post x Steps from IC (mm): -2 time: 377.4526
+L.Thigh.Upper.Post x converged at -1 mm from IC. Min obj: 147.3938
+L.Thigh.Upper.Post y:
+ Iter: 173 Obj: 148.2402 Marker cost: 144.8779 Tilt cost: 3.3623 Avg RMS: 4.1075 Marker coordinate: L.Thigh.Upper.Post y Steps from IC (mm): 1 time: 379.6026
+ Iter: 174 Obj: 147.5774 Marker cost: 144.2025 Tilt cost: 3.3749 Avg RMS: 4.0994 Marker coordinate: L.Thigh.Upper.Post y Steps from IC (mm): -1 time: 381.8402
+L.Thigh.Upper.Post y converged at 0 mm from IC. Min obj: 147.3938
+L.Thigh.Upper.Post z:
+ Iter: 175 Obj: 147.7243 Marker cost: 144.3545 Tilt cost: 3.3699 Avg RMS: 4.1014 Marker coordinate: L.Thigh.Upper.Post z Steps from IC (mm): 1 time: 383.9952
+ Iter: 176 Obj: 147.9873 Marker cost: 144.6213 Tilt cost: 3.366 Avg RMS: 4.104 Marker coordinate: L.Thigh.Upper.Post z Steps from IC (mm): -1 time: 386.1525
+L.Thigh.Upper.Post z converged at 0 mm from IC. Min obj: 147.3938
+L.Thigh.Upper.Ant x:
+ Iter: 177 Obj: 148.1018 Marker cost: 144.7612 Tilt cost: 3.3406 Avg RMS: 4.1034 Marker coordinate: L.Thigh.Upper.Ant x Steps from IC (mm): 1 time: 388.3022
+ Iter: 178 Obj: 147.4239 Marker cost: 144.0306 Tilt cost: 3.3934 Avg RMS: 4.1002 Marker coordinate: L.Thigh.Upper.Ant x Steps from IC (mm): -1 time: 390.4467
+L.Thigh.Upper.Ant x converged at 0 mm from IC. Min obj: 147.3938
+L.Thigh.Upper.Ant y:
+ Iter: 179 Obj: 147.9619 Marker cost: 144.5868 Tilt cost: 3.3751 Avg RMS: 4.1047 Marker coordinate: L.Thigh.Upper.Ant y Steps from IC (mm): 1 time: 392.626
+ Iter: 180 Obj: 147.9041 Marker cost: 144.5487 Tilt cost: 3.3555 Avg RMS: 4.1006 Marker coordinate: L.Thigh.Upper.Ant y Steps from IC (mm): -1 time: 394.7786
+L.Thigh.Upper.Ant y converged at 0 mm from IC. Min obj: 147.3938
+L.Thigh.Upper.Ant z:
+ Iter: 181 Obj: 147.5779 Marker cost: 144.206 Tilt cost: 3.3719 Avg RMS: 4.1008 Marker coordinate: L.Thigh.Upper.Ant z Steps from IC (mm): 1 time: 396.9496
+ Iter: 182 Obj: 148.0606 Marker cost: 144.7006 Tilt cost: 3.36 Avg RMS: 4.1046 Marker coordinate: L.Thigh.Upper.Ant z Steps from IC (mm): -1 time: 399.1218
+L.Thigh.Upper.Ant z converged at 0 mm from IC. Min obj: 147.3938
+L.Thigh.Lower.Ant x:
+ Iter: 183 Obj: 148.4982 Marker cost: 145.1399 Tilt cost: 3.3583 Avg RMS: 4.1083 Marker coordinate: L.Thigh.Lower.Ant x Steps from IC (mm): 1 time: 401.272
+ Iter: 184 Obj: 147.1825 Marker cost: 143.8083 Tilt cost: 3.3742 Avg RMS: 4.0975 Marker coordinate: L.Thigh.Lower.Ant x Steps from IC (mm): -1 time: 403.426
+ Iter: 185 Obj: 147.8325 Marker cost: 144.449 Tilt cost: 3.3835 Avg RMS: 4.1019 Marker coordinate: L.Thigh.Lower.Ant x Steps from IC (mm): -2 time: 405.5852
+L.Thigh.Lower.Ant x converged at -1 mm from IC. Min obj: 147.1825
+L.Thigh.Lower.Ant y:
+ Iter: 186 Obj: 148.163 Marker cost: 144.7755 Tilt cost: 3.3875 Avg RMS: 4.1067 Marker coordinate: L.Thigh.Lower.Ant y Steps from IC (mm): 1 time: 407.7552
+ Iter: 187 Obj: 147.0846 Marker cost: 143.7228 Tilt cost: 3.3619 Avg RMS: 4.0938 Marker coordinate: L.Thigh.Lower.Ant y Steps from IC (mm): -1 time: 409.901
+ Iter: 188 Obj: 147.9443 Marker cost: 144.5955 Tilt cost: 3.3488 Avg RMS: 4.0967 Marker coordinate: L.Thigh.Lower.Ant y Steps from IC (mm): -2 time: 412.0619
+L.Thigh.Lower.Ant y converged at -1 mm from IC. Min obj: 147.0846
+L.Thigh.Lower.Ant z:
+ Iter: 189 Obj: 147.3807 Marker cost: 144.01 Tilt cost: 3.3707 Avg RMS: 4.0954 Marker coordinate: L.Thigh.Lower.Ant z Steps from IC (mm): 1 time: 414.2192
+ Iter: 190 Obj: 147.6393 Marker cost: 144.2847 Tilt cost: 3.3547 Avg RMS: 4.0983 Marker coordinate: L.Thigh.Lower.Ant z Steps from IC (mm): -1 time: 416.3858
+L.Thigh.Lower.Ant z converged at 0 mm from IC. Min obj: 147.0846
+L.Thigh.Lower.Post x:
+ Iter: 191 Obj: 148.0154 Marker cost: 144.6619 Tilt cost: 3.3535 Avg RMS: 4.1015 Marker coordinate: L.Thigh.Lower.Post x Steps from IC (mm): 1 time: 418.5565
+ Iter: 192 Obj: 146.9646 Marker cost: 143.5932 Tilt cost: 3.3714 Avg RMS: 4.0918 Marker coordinate: L.Thigh.Lower.Post x Steps from IC (mm): -1 time: 420.8508
+ Iter: 193 Obj: 147.701 Marker cost: 144.3218 Tilt cost: 3.3792 Avg RMS: 4.0968 Marker coordinate: L.Thigh.Lower.Post x Steps from IC (mm): -2 time: 423.0108
+L.Thigh.Lower.Post x converged at -1 mm from IC. Min obj: 146.9646
+L.Thigh.Lower.Post y:
+ Iter: 194 Obj: 147.2291 Marker cost: 143.8601 Tilt cost: 3.369 Avg RMS: 4.0959 Marker coordinate: L.Thigh.Lower.Post y Steps from IC (mm): 1 time: 425.1675
+ Iter: 195 Obj: 147.3861 Marker cost: 144.0121 Tilt cost: 3.374 Avg RMS: 4.093 Marker coordinate: L.Thigh.Lower.Post y Steps from IC (mm): -1 time: 427.3265
+L.Thigh.Lower.Post y converged at 0 mm from IC. Min obj: 146.9646
+L.Thigh.Lower.Post z:
+ Iter: 196 Obj: 147.7456 Marker cost: 144.3705 Tilt cost: 3.3752 Avg RMS: 4.098 Marker coordinate: L.Thigh.Lower.Post z Steps from IC (mm): 1 time: 429.4793
+ Iter: 197 Obj: 147.0461 Marker cost: 143.6783 Tilt cost: 3.3677 Avg RMS: 4.093 Marker coordinate: L.Thigh.Lower.Post z Steps from IC (mm): -1 time: 431.6477
+L.Thigh.Lower.Post z converged at 0 mm from IC. Min obj: 146.9646
+L.Knee.Lat x:
+ Iter: 198 Obj: 147.9638 Marker cost: 144.5901 Tilt cost: 3.3737 Avg RMS: 4.1 Marker coordinate: L.Knee.Lat x Steps from IC (mm): 1 time: 433.8334
+ Iter: 199 Obj: 146.5845 Marker cost: 143.2122 Tilt cost: 3.3723 Avg RMS: 4.0885 Marker coordinate: L.Knee.Lat x Steps from IC (mm): -1 time: 435.9939
+ Iter: 200 Obj: 146.9289 Marker cost: 143.5601 Tilt cost: 3.3688 Avg RMS: 4.0901 Marker coordinate: L.Knee.Lat x Steps from IC (mm): -2 time: 438.162
+L.Knee.Lat x converged at -1 mm from IC. Min obj: 146.5845
+L.Knee.Lat y:
+ Iter: 201 Obj: 146.961 Marker cost: 143.5904 Tilt cost: 3.3706 Avg RMS: 4.0913 Marker coordinate: L.Knee.Lat y Steps from IC (mm): 1 time: 440.3099
+ Iter: 202 Obj: 147.2387 Marker cost: 143.8691 Tilt cost: 3.3696 Avg RMS: 4.0928 Marker coordinate: L.Knee.Lat y Steps from IC (mm): -1 time: 442.4655
+L.Knee.Lat y converged at 0 mm from IC. Min obj: 146.5845
+L.Knee.Lat z:
+ Iter: 203 Obj: 146.5864 Marker cost: 143.2164 Tilt cost: 3.37 Avg RMS: 4.0871 Marker coordinate: L.Knee.Lat z Steps from IC (mm): 1 time: 444.6162
+ Iter: 204 Obj: 147.2017 Marker cost: 143.831 Tilt cost: 3.3707 Avg RMS: 4.0941 Marker coordinate: L.Knee.Lat z Steps from IC (mm): -1 time: 446.7573
+L.Knee.Lat z converged at 0 mm from IC. Min obj: 146.5845
+L.Knee.Med x:
+ Iter: 205 Obj: 146.5845 Marker cost: 143.2122 Tilt cost: 3.3723 Avg RMS: 4.0885 Marker coordinate: L.Knee.Med x Steps from IC (mm): 1 time: 448.9267
+Marker coordinate has no effect on IK
+L.Knee.Med y:
+ Iter: 206 Obj: 146.5845 Marker cost: 143.2122 Tilt cost: 3.3723 Avg RMS: 4.0885 Marker coordinate: L.Knee.Med y Steps from IC (mm): 1 time: 451.0875
+Marker coordinate has no effect on IK
+L.Knee.Med z:
+ Iter: 207 Obj: 146.5845 Marker cost: 143.2122 Tilt cost: 3.3723 Avg RMS: 4.0885 Marker coordinate: L.Knee.Med z Steps from IC (mm): 1 time: 453.2446
+Marker coordinate has no effect on IK
+L.Shank.Upper.Post x:
+ Iter: 208 Obj: 146.9493 Marker cost: 143.5702 Tilt cost: 3.3791 Avg RMS: 4.0919 Marker coordinate: L.Shank.Upper.Post x Steps from IC (mm): 1 time: 455.4066
+ Iter: 209 Obj: 146.8868 Marker cost: 143.5249 Tilt cost: 3.3619 Avg RMS: 4.0907 Marker coordinate: L.Shank.Upper.Post x Steps from IC (mm): -1 time: 457.5551
+L.Shank.Upper.Post x converged at 0 mm from IC. Min obj: 146.5845
+L.Shank.Upper.Post y:
+ Iter: 210 Obj: 146.8663 Marker cost: 143.487 Tilt cost: 3.3793 Avg RMS: 4.0914 Marker coordinate: L.Shank.Upper.Post y Steps from IC (mm): 1 time: 459.7062
+ Iter: 211 Obj: 147.2001 Marker cost: 143.8351 Tilt cost: 3.365 Avg RMS: 4.0929 Marker coordinate: L.Shank.Upper.Post y Steps from IC (mm): -1 time: 461.8529
+L.Shank.Upper.Post y converged at 0 mm from IC. Min obj: 146.5845
+L.Shank.Upper.Post z:
+ Iter: 212 Obj: 147.2097 Marker cost: 143.8404 Tilt cost: 3.3694 Avg RMS: 4.0922 Marker coordinate: L.Shank.Upper.Post z Steps from IC (mm): 1 time: 464.0094
+ Iter: 213 Obj: 146.8959 Marker cost: 143.5232 Tilt cost: 3.3726 Avg RMS: 4.092 Marker coordinate: L.Shank.Upper.Post z Steps from IC (mm): -1 time: 466.1805
+L.Shank.Upper.Post z converged at 0 mm from IC. Min obj: 146.5845
+L.Shank.Upper.Ant x:
+ Iter: 214 Obj: 147.1196 Marker cost: 143.7407 Tilt cost: 3.3789 Avg RMS: 4.0929 Marker coordinate: L.Shank.Upper.Ant x Steps from IC (mm): 1 time: 468.3498
+ Iter: 215 Obj: 146.5692 Marker cost: 143.2051 Tilt cost: 3.3641 Avg RMS: 4.0873 Marker coordinate: L.Shank.Upper.Ant x Steps from IC (mm): -1 time: 470.4929
+ Iter: 216 Obj: 147.4943 Marker cost: 144.141 Tilt cost: 3.3533 Avg RMS: 4.0938 Marker coordinate: L.Shank.Upper.Ant x Steps from IC (mm): -2 time: 472.6503
+L.Shank.Upper.Ant x converged at -1 mm from IC. Min obj: 146.5692
+L.Shank.Upper.Ant y:
+ Iter: 217 Obj: 147.2077 Marker cost: 143.8409 Tilt cost: 3.3668 Avg RMS: 4.0925 Marker coordinate: L.Shank.Upper.Ant y Steps from IC (mm): 1 time: 474.8083
+ Iter: 218 Obj: 147.1179 Marker cost: 143.7596 Tilt cost: 3.3584 Avg RMS: 4.0915 Marker coordinate: L.Shank.Upper.Ant y Steps from IC (mm): -1 time: 477.0724
+L.Shank.Upper.Ant y converged at 0 mm from IC. Min obj: 146.5692
+L.Shank.Upper.Ant z:
+ Iter: 219 Obj: 147.324 Marker cost: 143.9601 Tilt cost: 3.3639 Avg RMS: 4.0918 Marker coordinate: L.Shank.Upper.Ant z Steps from IC (mm): 1 time: 479.2271
+ Iter: 220 Obj: 146.5639 Marker cost: 143.2051 Tilt cost: 3.3588 Avg RMS: 4.0889 Marker coordinate: L.Shank.Upper.Ant z Steps from IC (mm): -1 time: 481.386
+ Iter: 221 Obj: 147.4909 Marker cost: 144.1377 Tilt cost: 3.3531 Avg RMS: 4.0966 Marker coordinate: L.Shank.Upper.Ant z Steps from IC (mm): -2 time: 483.5994
+L.Shank.Upper.Ant z converged at -1 mm from IC. Min obj: 146.5639
+L.Shank.Lower.Ant x:
+ Iter: 222 Obj: 147.2899 Marker cost: 143.9277 Tilt cost: 3.3622 Avg RMS: 4.0939 Marker coordinate: L.Shank.Lower.Ant x Steps from IC (mm): 1 time: 485.7507
+ Iter: 223 Obj: 146.7325 Marker cost: 143.3802 Tilt cost: 3.3523 Avg RMS: 4.0895 Marker coordinate: L.Shank.Lower.Ant x Steps from IC (mm): -1 time: 487.8988
+L.Shank.Lower.Ant x converged at 0 mm from IC. Min obj: 146.5639
+L.Shank.Lower.Ant y:
+ Iter: 224 Obj: 147.1589 Marker cost: 143.7968 Tilt cost: 3.3621 Avg RMS: 4.093 Marker coordinate: L.Shank.Lower.Ant y Steps from IC (mm): 1 time: 490.0547
+ Iter: 225 Obj: 146.8895 Marker cost: 143.5341 Tilt cost: 3.3554 Avg RMS: 4.0909 Marker coordinate: L.Shank.Lower.Ant y Steps from IC (mm): -1 time: 492.1955
+L.Shank.Lower.Ant y converged at 0 mm from IC. Min obj: 146.5639
+L.Shank.Lower.Ant z:
+ Iter: 226 Obj: 146.871 Marker cost: 143.5101 Tilt cost: 3.3609 Avg RMS: 4.0897 Marker coordinate: L.Shank.Lower.Ant z Steps from IC (mm): 1 time: 494.3519
+ Iter: 227 Obj: 147.1151 Marker cost: 143.7591 Tilt cost: 3.3561 Avg RMS: 4.0938 Marker coordinate: L.Shank.Lower.Ant z Steps from IC (mm): -1 time: 496.5142
+L.Shank.Lower.Ant z converged at 0 mm from IC. Min obj: 146.5639
+L.Shank.Lower.Post x:
+ Iter: 228 Obj: 146.9825 Marker cost: 143.62 Tilt cost: 3.3626 Avg RMS: 4.0918 Marker coordinate: L.Shank.Lower.Post x Steps from IC (mm): 1 time: 498.6623
+ Iter: 229 Obj: 147.0233 Marker cost: 143.6723 Tilt cost: 3.351 Avg RMS: 4.0913 Marker coordinate: L.Shank.Lower.Post x Steps from IC (mm): -1 time: 500.8394
+L.Shank.Lower.Post x converged at 0 mm from IC. Min obj: 146.5639
+L.Shank.Lower.Post y:
+ Iter: 230 Obj: 146.8596 Marker cost: 143.4971 Tilt cost: 3.3625 Avg RMS: 4.0922 Marker coordinate: L.Shank.Lower.Post y Steps from IC (mm): 1 time: 502.9911
+ Iter: 231 Obj: 147.3332 Marker cost: 143.9813 Tilt cost: 3.3518 Avg RMS: 4.0936 Marker coordinate: L.Shank.Lower.Post y Steps from IC (mm): -1 time: 505.1461
+L.Shank.Lower.Post y converged at 0 mm from IC. Min obj: 146.5639
+L.Shank.Lower.Post z:
+ Iter: 232 Obj: 146.9738 Marker cost: 143.6188 Tilt cost: 3.355 Avg RMS: 4.0898 Marker coordinate: L.Shank.Lower.Post z Steps from IC (mm): 1 time: 507.2923
+ Iter: 233 Obj: 147.2868 Marker cost: 143.9269 Tilt cost: 3.3599 Avg RMS: 4.0957 Marker coordinate: L.Shank.Lower.Post z Steps from IC (mm): -1 time: 509.4462
+L.Shank.Lower.Post z converged at 0 mm from IC. Min obj: 146.5639
+L.Ankle.Lat x:
+ Iter: 234 Obj: 146.9929 Marker cost: 143.6363 Tilt cost: 3.3566 Avg RMS: 4.0936 Marker coordinate: L.Ankle.Lat x Steps from IC (mm): 1 time: 511.6016
+ Iter: 235 Obj: 147.0341 Marker cost: 143.6776 Tilt cost: 3.3565 Avg RMS: 4.0896 Marker coordinate: L.Ankle.Lat x Steps from IC (mm): -1 time: 513.7592
+L.Ankle.Lat x converged at 0 mm from IC. Min obj: 146.5639
+L.Ankle.Lat y:
+ Iter: 236 Obj: 147.4716 Marker cost: 144.1135 Tilt cost: 3.3582 Avg RMS: 4.0934 Marker coordinate: L.Ankle.Lat y Steps from IC (mm): 1 time: 515.9125
+ Iter: 237 Obj: 146.7842 Marker cost: 143.427 Tilt cost: 3.3572 Avg RMS: 4.0925 Marker coordinate: L.Ankle.Lat y Steps from IC (mm): -1 time: 518.0737
+L.Ankle.Lat y converged at 0 mm from IC. Min obj: 146.5639
+L.Ankle.Lat z:
+ Iter: 238 Obj: 147.6111 Marker cost: 144.2534 Tilt cost: 3.3577 Avg RMS: 4.0968 Marker coordinate: L.Ankle.Lat z Steps from IC (mm): 1 time: 520.2256
+ Iter: 239 Obj: 146.6108 Marker cost: 143.2524 Tilt cost: 3.3584 Avg RMS: 4.0888 Marker coordinate: L.Ankle.Lat z Steps from IC (mm): -1 time: 522.3804
+L.Ankle.Lat z converged at 0 mm from IC. Min obj: 146.5639
+L.Ankle.Med x:
+ Iter: 240 Obj: 146.5639 Marker cost: 143.2051 Tilt cost: 3.3588 Avg RMS: 4.0889 Marker coordinate: L.Ankle.Med x Steps from IC (mm): 1 time: 524.5732
+Marker coordinate has no effect on IK
+L.Ankle.Med y:
+ Iter: 241 Obj: 146.5639 Marker cost: 143.2051 Tilt cost: 3.3588 Avg RMS: 4.0889 Marker coordinate: L.Ankle.Med y Steps from IC (mm): 1 time: 526.7289
+Marker coordinate has no effect on IK
+L.Ankle.Med z:
+ Iter: 242 Obj: 146.5639 Marker cost: 143.2051 Tilt cost: 3.3588 Avg RMS: 4.0889 Marker coordinate: L.Ankle.Med z Steps from IC (mm): 1 time: 529.0584
+Marker coordinate has no effect on IK
+L.Heel.Upper x:
+ Iter: 243 Obj: 147.4976 Marker cost: 144.1386 Tilt cost: 3.359 Avg RMS: 4.095 Marker coordinate: L.Heel.Upper x Steps from IC (mm): 1 time: 531.2136
+ Iter: 244 Obj: 146.7423 Marker cost: 143.3807 Tilt cost: 3.3616 Avg RMS: 4.0912 Marker coordinate: L.Heel.Upper x Steps from IC (mm): -1 time: 533.37
+L.Heel.Upper x converged at 0 mm from IC. Min obj: 146.5639
+L.Heel.Upper y:
+ Iter: 245 Obj: 148.0095 Marker cost: 144.6519 Tilt cost: 3.3577 Avg RMS: 4.0971 Marker coordinate: L.Heel.Upper y Steps from IC (mm): 1 time: 535.524
+ Iter: 246 Obj: 146.3787 Marker cost: 143.02 Tilt cost: 3.3587 Avg RMS: 4.0898 Marker coordinate: L.Heel.Upper y Steps from IC (mm): -1 time: 537.6762
+ Iter: 247 Obj: 147.1189 Marker cost: 143.7615 Tilt cost: 3.3574 Avg RMS: 4.098 Marker coordinate: L.Heel.Upper y Steps from IC (mm): -2 time: 539.8339
+L.Heel.Upper y converged at -1 mm from IC. Min obj: 146.3787
+L.Heel.Upper z:
+ Iter: 248 Obj: 146.247 Marker cost: 142.8887 Tilt cost: 3.3583 Avg RMS: 4.0902 Marker coordinate: L.Heel.Upper z Steps from IC (mm): 1 time: 542.0013
+ Iter: 249 Obj: 147.1056 Marker cost: 143.7505 Tilt cost: 3.3551 Avg RMS: 4.0984 Marker coordinate: L.Heel.Upper z Steps from IC (mm): 2 time: 544.1605
+L.Heel.Upper z converged at 1 mm from IC. Min obj: 146.247
+L.Heel.Med x:
+ Iter: 250 Obj: 146.6549 Marker cost: 143.304 Tilt cost: 3.3509 Avg RMS: 4.0931 Marker coordinate: L.Heel.Med x Steps from IC (mm): 1 time: 546.3046
+ Iter: 251 Obj: 146.6714 Marker cost: 143.3109 Tilt cost: 3.3604 Avg RMS: 4.094 Marker coordinate: L.Heel.Med x Steps from IC (mm): -1 time: 548.4803
+L.Heel.Med x converged at 0 mm from IC. Min obj: 146.247
+L.Heel.Med y:
+ Iter: 252 Obj: 146.8368 Marker cost: 143.4802 Tilt cost: 3.3565 Avg RMS: 4.0917 Marker coordinate: L.Heel.Med y Steps from IC (mm): 1 time: 550.6316
+ Iter: 253 Obj: 147.1595 Marker cost: 143.8039 Tilt cost: 3.3556 Avg RMS: 4.1006 Marker coordinate: L.Heel.Med y Steps from IC (mm): -1 time: 552.7896
+L.Heel.Med y converged at 0 mm from IC. Min obj: 146.247
+L.Heel.Med z:
+ Iter: 254 Obj: 146.433 Marker cost: 143.0827 Tilt cost: 3.3503 Avg RMS: 4.0922 Marker coordinate: L.Heel.Med z Steps from IC (mm): 1 time: 554.9485
+ Iter: 255 Obj: 146.865 Marker cost: 143.4999 Tilt cost: 3.3651 Avg RMS: 4.0946 Marker coordinate: L.Heel.Med z Steps from IC (mm): -1 time: 557.1008
+L.Heel.Med z converged at 0 mm from IC. Min obj: 146.247
+L.Heel.Lat x:
+ Iter: 256 Obj: 146.5523 Marker cost: 143.1972 Tilt cost: 3.3551 Avg RMS: 4.0922 Marker coordinate: L.Heel.Lat x Steps from IC (mm): 1 time: 559.2608
+ Iter: 257 Obj: 147.1454 Marker cost: 143.7868 Tilt cost: 3.3586 Avg RMS: 4.0976 Marker coordinate: L.Heel.Lat x Steps from IC (mm): -1 time: 561.4133
+L.Heel.Lat x converged at 0 mm from IC. Min obj: 146.247
+L.Heel.Lat y:
+ Iter: 258 Obj: 146.7393 Marker cost: 143.3781 Tilt cost: 3.3612 Avg RMS: 4.0928 Marker coordinate: L.Heel.Lat y Steps from IC (mm): 1 time: 563.5705
+ Iter: 259 Obj: 146.3828 Marker cost: 143.0293 Tilt cost: 3.3535 Avg RMS: 4.092 Marker coordinate: L.Heel.Lat y Steps from IC (mm): -1 time: 565.7267
+L.Heel.Lat y converged at 0 mm from IC. Min obj: 146.247
+L.Heel.Lat z:
+ Iter: 260 Obj: 146.679 Marker cost: 143.3266 Tilt cost: 3.3525 Avg RMS: 4.0944 Marker coordinate: L.Heel.Lat z Steps from IC (mm): 1 time: 567.8812
+ Iter: 261 Obj: 146.5912 Marker cost: 143.2264 Tilt cost: 3.3648 Avg RMS: 4.0921 Marker coordinate: L.Heel.Lat z Steps from IC (mm): -1 time: 570.0212
+L.Heel.Lat z converged at 0 mm from IC. Min obj: 146.247
+L.Toe.Lat x:
+ Iter: 262 Obj: 146.376 Marker cost: 143.0201 Tilt cost: 3.356 Avg RMS: 4.09 Marker coordinate: L.Toe.Lat x Steps from IC (mm): 1 time: 572.1837
+ Iter: 263 Obj: 146.6152 Marker cost: 143.258 Tilt cost: 3.3573 Avg RMS: 4.0942 Marker coordinate: L.Toe.Lat x Steps from IC (mm): -1 time: 574.3387
+L.Toe.Lat x converged at 0 mm from IC. Min obj: 146.247
+L.Toe.Lat y:
+ Iter: 264 Obj: 146.8716 Marker cost: 143.5054 Tilt cost: 3.3662 Avg RMS: 4.0962 Marker coordinate: L.Toe.Lat y Steps from IC (mm): 1 time: 576.6006
+ Iter: 265 Obj: 146.2058 Marker cost: 142.8554 Tilt cost: 3.3503 Avg RMS: 4.0894 Marker coordinate: L.Toe.Lat y Steps from IC (mm): -1 time: 578.756
+ Iter: 266 Obj: 146.6973 Marker cost: 143.3501 Tilt cost: 3.3472 Avg RMS: 4.0925 Marker coordinate: L.Toe.Lat y Steps from IC (mm): -2 time: 580.9193
+L.Toe.Lat y converged at -1 mm from IC. Min obj: 146.2058
+L.Toe.Lat z:
+ Iter: 267 Obj: 146.3805 Marker cost: 143.0304 Tilt cost: 3.3501 Avg RMS: 4.0914 Marker coordinate: L.Toe.Lat z Steps from IC (mm): 1 time: 583.0714
+ Iter: 268 Obj: 146.7959 Marker cost: 143.4455 Tilt cost: 3.3503 Avg RMS: 4.093 Marker coordinate: L.Toe.Lat z Steps from IC (mm): -1 time: 585.2287
+L.Toe.Lat z converged at 0 mm from IC. Min obj: 146.2058
+L.Toe.Med x:
+ Iter: 269 Obj: 146.4336 Marker cost: 143.0893 Tilt cost: 3.3443 Avg RMS: 4.0893 Marker coordinate: L.Toe.Med x Steps from IC (mm): 1 time: 587.3865
+ Iter: 270 Obj: 146.5479 Marker cost: 143.1907 Tilt cost: 3.3572 Avg RMS: 4.0931 Marker coordinate: L.Toe.Med x Steps from IC (mm): -1 time: 589.5392
+L.Toe.Med x converged at 0 mm from IC. Min obj: 146.2058
+L.Toe.Med y:
+ Iter: 271 Obj: 146.6803 Marker cost: 143.3278 Tilt cost: 3.3525 Avg RMS: 4.0918 Marker coordinate: L.Toe.Med y Steps from IC (mm): 1 time: 591.7487
+ Iter: 272 Obj: 146.4527 Marker cost: 143.1048 Tilt cost: 3.3479 Avg RMS: 4.093 Marker coordinate: L.Toe.Med y Steps from IC (mm): -1 time: 593.8991
+L.Toe.Med y converged at 0 mm from IC. Min obj: 146.2058
+L.Toe.Med z:
+ Iter: 273 Obj: 146.386 Marker cost: 143.0352 Tilt cost: 3.3508 Avg RMS: 4.0923 Marker coordinate: L.Toe.Med z Steps from IC (mm): 1 time: 596.1116
+ Iter: 274 Obj: 146.8032 Marker cost: 143.4552 Tilt cost: 3.3481 Avg RMS: 4.0927 Marker coordinate: L.Toe.Med z Steps from IC (mm): -1 time: 598.2573
+L.Toe.Med z converged at 0 mm from IC. Min obj: 146.2058
+L.Toe.Tip x:
+ Iter: 275 Obj: 147.0258 Marker cost: 143.6726 Tilt cost: 3.3532 Avg RMS: 4.0949 Marker coordinate: L.Toe.Tip x Steps from IC (mm): 1 time: 600.4125
+ Iter: 276 Obj: 145.8138 Marker cost: 142.4651 Tilt cost: 3.3487 Avg RMS: 4.0864 Marker coordinate: L.Toe.Tip x Steps from IC (mm): -1 time: 602.563
+ Iter: 277 Obj: 146.3794 Marker cost: 143.0287 Tilt cost: 3.3507 Avg RMS: 4.0911 Marker coordinate: L.Toe.Tip x Steps from IC (mm): -2 time: 604.7102
+L.Toe.Tip x converged at -1 mm from IC. Min obj: 145.8138
+L.Toe.Tip y:
+ Iter: 278 Obj: 146.1126 Marker cost: 142.7618 Tilt cost: 3.3508 Avg RMS: 4.0884 Marker coordinate: L.Toe.Tip y Steps from IC (mm): 1 time: 606.867
+ Iter: 279 Obj: 146.2451 Marker cost: 142.8956 Tilt cost: 3.3495 Avg RMS: 4.0908 Marker coordinate: L.Toe.Tip y Steps from IC (mm): -1 time: 609.0348
+L.Toe.Tip y converged at 0 mm from IC. Min obj: 145.8138
+L.Toe.Tip z:
+ Iter: 280 Obj: 146.4948 Marker cost: 143.1426 Tilt cost: 3.3522 Avg RMS: 4.0929 Marker coordinate: L.Toe.Tip z Steps from IC (mm): 1 time: 611.1834
+ Iter: 281 Obj: 146.0097 Marker cost: 142.6601 Tilt cost: 3.3496 Avg RMS: 4.0875 Marker coordinate: L.Toe.Tip z Steps from IC (mm): -1 time: 613.3343
+L.Toe.Tip z converged at 0 mm from IC. Min obj: 145.8138
+Cervical.Spine x:
+ Iter: 282 Obj: 146.147 Marker cost: 142.7945 Tilt cost: 3.3525 Avg RMS: 4.0892 Marker coordinate: Cervical.Spine x Steps from IC (mm): 1 time: 615.5031
+ Iter: 283 Obj: 146.6245 Marker cost: 143.2749 Tilt cost: 3.3496 Avg RMS: 4.0925 Marker coordinate: Cervical.Spine x Steps from IC (mm): -1 time: 617.6498
+Cervical.Spine x converged at 0 mm from IC. Min obj: 145.8138
+Cervical.Spine y:
+ Iter: 284 Obj: 145.8012 Marker cost: 142.4498 Tilt cost: 3.3514 Avg RMS: 4.0864 Marker coordinate: Cervical.Spine y Steps from IC (mm): 1 time: 619.8075
+ Iter: 285 Obj: 146.8636 Marker cost: 143.5071 Tilt cost: 3.3565 Avg RMS: 4.0937 Marker coordinate: Cervical.Spine y Steps from IC (mm): 2 time: 621.9571
+Cervical.Spine y converged at 1 mm from IC. Min obj: 145.8012
+Cervical.Spine z:
+ Iter: 286 Obj: 146.0768 Marker cost: 142.7223 Tilt cost: 3.3545 Avg RMS: 4.0874 Marker coordinate: Cervical.Spine z Steps from IC (mm): 1 time: 624.1016
+ Iter: 287 Obj: 146.4952 Marker cost: 143.1421 Tilt cost: 3.3531 Avg RMS: 4.0921 Marker coordinate: Cervical.Spine z Steps from IC (mm): -1 time: 626.2481
+Cervical.Spine z converged at 0 mm from IC. Min obj: 145.8012
+Back x:
+ Iter: 288 Obj: 145.9216 Marker cost: 142.5629 Tilt cost: 3.3587 Avg RMS: 4.0876 Marker coordinate: Back x Steps from IC (mm): 1 time: 628.3998
+ Iter: 289 Obj: 146.5261 Marker cost: 143.1766 Tilt cost: 3.3495 Avg RMS: 4.0914 Marker coordinate: Back x Steps from IC (mm): -1 time: 630.5513
+Back x converged at 0 mm from IC. Min obj: 145.8012
+Back y:
+ Iter: 290 Obj: 146.4206 Marker cost: 143.0677 Tilt cost: 3.3529 Avg RMS: 4.0893 Marker coordinate: Back y Steps from IC (mm): 1 time: 632.694
+ Iter: 291 Obj: 146.2933 Marker cost: 142.9419 Tilt cost: 3.3515 Avg RMS: 4.0909 Marker coordinate: Back y Steps from IC (mm): -1 time: 634.8358
+Back y converged at 0 mm from IC. Min obj: 145.8012
+Back z:
+ Iter: 292 Obj: 145.952 Marker cost: 142.5993 Tilt cost: 3.3528 Avg RMS: 4.0861 Marker coordinate: Back z Steps from IC (mm): 1 time: 636.9941
+ Iter: 293 Obj: 146.3235 Marker cost: 142.9688 Tilt cost: 3.3547 Avg RMS: 4.0912 Marker coordinate: Back z Steps from IC (mm): -1 time: 639.1494
+Back z converged at 0 mm from IC. Min obj: 145.8012
+Sternum x:
+Marker coordinate Sternum x is locked.
+Sternum y:
+Marker coordinate Sternum y is locked.
+Sternum z:
+Marker coordinate Sternum z is locked.
+R.Acromium x:
+ Iter: 294 Obj: 146.2556 Marker cost: 142.9011 Tilt cost: 3.3546 Avg RMS: 4.0899 Marker coordinate: R.Acromium x Steps from IC (mm): 1 time: 641.3064
+ Iter: 295 Obj: 146.1939 Marker cost: 142.8407 Tilt cost: 3.3532 Avg RMS: 4.0892 Marker coordinate: R.Acromium x Steps from IC (mm): -1 time: 643.4626
+R.Acromium x converged at 0 mm from IC. Min obj: 145.8012
+R.Acromium y:
+ Iter: 296 Obj: 146.0797 Marker cost: 142.7192 Tilt cost: 3.3606 Avg RMS: 4.0867 Marker coordinate: R.Acromium y Steps from IC (mm): 1 time: 645.6197
+ Iter: 297 Obj: 146.6859 Marker cost: 143.3388 Tilt cost: 3.3471 Avg RMS: 4.0947 Marker coordinate: R.Acromium y Steps from IC (mm): -1 time: 647.7757
+R.Acromium y converged at 0 mm from IC. Min obj: 145.8012
+R.Acromium z:
+ Iter: 298 Obj: 146.1648 Marker cost: 142.8095 Tilt cost: 3.3554 Avg RMS: 4.0886 Marker coordinate: R.Acromium z Steps from IC (mm): 1 time: 649.9344
+ Iter: 299 Obj: 146.3743 Marker cost: 143.0195 Tilt cost: 3.3549 Avg RMS: 4.0915 Marker coordinate: R.Acromium z Steps from IC (mm): -1 time: 652.1207
+R.Acromium z converged at 0 mm from IC. Min obj: 145.8012
+L.Acromium x:
+ Iter: 300 Obj: 145.8234 Marker cost: 142.4677 Tilt cost: 3.3557 Avg RMS: 4.0866 Marker coordinate: L.Acromium x Steps from IC (mm): 1 time: 654.2734
+ Iter: 301 Obj: 146.3653 Marker cost: 143.011 Tilt cost: 3.3543 Avg RMS: 4.0903 Marker coordinate: L.Acromium x Steps from IC (mm): -1 time: 656.4268
+L.Acromium x converged at 0 mm from IC. Min obj: 145.8012
+L.Acromium y:
+ Iter: 302 Obj: 146.4522 Marker cost: 143.0951 Tilt cost: 3.3571 Avg RMS: 4.091 Marker coordinate: L.Acromium y Steps from IC (mm): 1 time: 658.5724
+ Iter: 303 Obj: 146.3204 Marker cost: 142.9717 Tilt cost: 3.3488 Avg RMS: 4.0896 Marker coordinate: L.Acromium y Steps from IC (mm): -1 time: 660.7337
+L.Acromium y converged at 0 mm from IC. Min obj: 145.8012
+L.Acromium z:
+ Iter: 304 Obj: 146.5194 Marker cost: 143.1661 Tilt cost: 3.3533 Avg RMS: 4.0922 Marker coordinate: L.Acromium z Steps from IC (mm): 1 time: 662.8837
+ Iter: 305 Obj: 146.0903 Marker cost: 142.7348 Tilt cost: 3.3554 Avg RMS: 4.0885 Marker coordinate: L.Acromium z Steps from IC (mm): -1 time: 665.0451
+L.Acromium z converged at 0 mm from IC. Min obj: 145.8012
+Top.Head x:
+ Iter: 306 Obj: 145.847 Marker cost: 142.4978 Tilt cost: 3.3493 Avg RMS: 4.086 Marker coordinate: Top.Head x Steps from IC (mm): 1 time: 667.1953
+ Iter: 307 Obj: 146.5776 Marker cost: 143.2187 Tilt cost: 3.3589 Avg RMS: 4.0925 Marker coordinate: Top.Head x Steps from IC (mm): -1 time: 669.3398
+Top.Head x converged at 0 mm from IC. Min obj: 145.8012
+Top.Head y:
+ Iter: 308 Obj: 146.3999 Marker cost: 143.0408 Tilt cost: 3.3591 Avg RMS: 4.09 Marker coordinate: Top.Head y Steps from IC (mm): 1 time: 671.4916
+ Iter: 309 Obj: 146.3591 Marker cost: 143.0092 Tilt cost: 3.3499 Avg RMS: 4.0918 Marker coordinate: Top.Head y Steps from IC (mm): -1 time: 673.6674
+Top.Head y converged at 0 mm from IC. Min obj: 145.8012
+Top.Head z:
+ Iter: 310 Obj: 145.9833 Marker cost: 142.629 Tilt cost: 3.3543 Avg RMS: 4.0883 Marker coordinate: Top.Head z Steps from IC (mm): 1 time: 675.8675
+ Iter: 311 Obj: 146.2022 Marker cost: 142.8473 Tilt cost: 3.3549 Avg RMS: 4.0882 Marker coordinate: Top.Head z Steps from IC (mm): -1 time: 678.0227
+Top.Head z converged at 0 mm from IC. Min obj: 145.8012
+R.ASIS x:
+ Iter: 312 Obj: 146.2009 Marker cost: 142.8536 Tilt cost: 3.3473 Avg RMS: 4.0899 Marker coordinate: R.ASIS x Steps from IC (mm): 1 time: 680.1683
+ Iter: 313 Obj: 146.6791 Marker cost: 143.3189 Tilt cost: 3.3602 Avg RMS: 4.0919 Marker coordinate: R.ASIS x Steps from IC (mm): -1 time: 682.406
+R.ASIS x converged at 0 mm from IC. Min obj: 145.8012
+R.ASIS y:
+ Iter: 314 Obj: 147.0484 Marker cost: 143.8466 Tilt cost: 3.2018 Avg RMS: 4.0967 Marker coordinate: R.ASIS y Steps from IC (mm): 1 time: 684.5709
+ Iter: 315 Obj: 145.6969 Marker cost: 142.1914 Tilt cost: 3.5055 Avg RMS: 4.0841 Marker coordinate: R.ASIS y Steps from IC (mm): -1 time: 686.7283
+ Iter: 316 Obj: 146.5863 Marker cost: 142.9166 Tilt cost: 3.6697 Avg RMS: 4.0901 Marker coordinate: R.ASIS y Steps from IC (mm): -2 time: 688.8883
+R.ASIS y converged at -1 mm from IC. Min obj: 145.6969
+R.ASIS z:
+ Iter: 317 Obj: 146.4904 Marker cost: 142.9829 Tilt cost: 3.5075 Avg RMS: 4.0906 Marker coordinate: R.ASIS z Steps from IC (mm): 1 time: 691.0391
+ Iter: 318 Obj: 145.8095 Marker cost: 142.2975 Tilt cost: 3.5121 Avg RMS: 4.0853 Marker coordinate: R.ASIS z Steps from IC (mm): -1 time: 693.1827
+R.ASIS z converged at 0 mm from IC. Min obj: 145.6969
+L.ASIS x:
+ Iter: 319 Obj: 146.4927 Marker cost: 142.9875 Tilt cost: 3.5051 Avg RMS: 4.0912 Marker coordinate: L.ASIS x Steps from IC (mm): 1 time: 695.3434
+ Iter: 320 Obj: 145.9691 Marker cost: 142.4574 Tilt cost: 3.5117 Avg RMS: 4.085 Marker coordinate: L.ASIS x Steps from IC (mm): -1 time: 697.5115
+L.ASIS x converged at 0 mm from IC. Min obj: 145.6969
+L.ASIS y:
+ Iter: 321 Obj: 146.8703 Marker cost: 143.5194 Tilt cost: 3.3509 Avg RMS: 4.0936 Marker coordinate: L.ASIS y Steps from IC (mm): 1 time: 699.663
+ Iter: 322 Obj: 146.1386 Marker cost: 142.4693 Tilt cost: 3.6693 Avg RMS: 4.0871 Marker coordinate: L.ASIS y Steps from IC (mm): -1 time: 701.8063
+L.ASIS y converged at 0 mm from IC. Min obj: 145.6969
+L.ASIS z:
+ Iter: 323 Obj: 146.1423 Marker cost: 142.638 Tilt cost: 3.5043 Avg RMS: 4.0876 Marker coordinate: L.ASIS z Steps from IC (mm): 1 time: 703.9592
+ Iter: 324 Obj: 146.2558 Marker cost: 142.7423 Tilt cost: 3.5134 Avg RMS: 4.0889 Marker coordinate: L.ASIS z Steps from IC (mm): -1 time: 706.1474
+L.ASIS z converged at 0 mm from IC. Min obj: 145.6969
+R.PSIS x:
+ Iter: 325 Obj: 146.4102 Marker cost: 142.8652 Tilt cost: 3.545 Avg RMS: 4.0896 Marker coordinate: R.PSIS x Steps from IC (mm): 1 time: 708.3098
+ Iter: 326 Obj: 145.9913 Marker cost: 142.5195 Tilt cost: 3.4717 Avg RMS: 4.0869 Marker coordinate: R.PSIS x Steps from IC (mm): -1 time: 710.4562
+R.PSIS x converged at 0 mm from IC. Min obj: 145.6969
+R.PSIS y:
+ Iter: 327 Obj: 145.9696 Marker cost: 142.3443 Tilt cost: 3.6253 Avg RMS: 4.0858 Marker coordinate: R.PSIS y Steps from IC (mm): 1 time: 712.6067
+ Iter: 328 Obj: 146.2104 Marker cost: 142.8164 Tilt cost: 3.3941 Avg RMS: 4.0891 Marker coordinate: R.PSIS y Steps from IC (mm): -1 time: 714.7617
+R.PSIS y converged at 0 mm from IC. Min obj: 145.6969
+R.PSIS z:
+ Iter: 329 Obj: 146.2991 Marker cost: 142.7908 Tilt cost: 3.5083 Avg RMS: 4.0901 Marker coordinate: R.PSIS z Steps from IC (mm): 1 time: 716.913
+ Iter: 330 Obj: 146.0409 Marker cost: 142.5328 Tilt cost: 3.5081 Avg RMS: 4.0853 Marker coordinate: R.PSIS z Steps from IC (mm): -1 time: 719.0535
+R.PSIS z converged at 0 mm from IC. Min obj: 145.6969
+L.PSIS x:
+ Iter: 331 Obj: 145.6721 Marker cost: 142.1216 Tilt cost: 3.5505 Avg RMS: 4.0847 Marker coordinate: L.PSIS x Steps from IC (mm): 1 time: 721.2099
+ Iter: 332 Obj: 146.5445 Marker cost: 142.9505 Tilt cost: 3.594 Avg RMS: 4.0917 Marker coordinate: L.PSIS x Steps from IC (mm): 2 time: 723.354
+L.PSIS x converged at 1 mm from IC. Min obj: 145.6721
+L.PSIS y:
+ Iter: 333 Obj: 145.9967 Marker cost: 142.3367 Tilt cost: 3.66 Avg RMS: 4.0865 Marker coordinate: L.PSIS y Steps from IC (mm): 1 time: 725.5064
+ Iter: 334 Obj: 146.7163 Marker cost: 143.2779 Tilt cost: 3.4384 Avg RMS: 4.0929 Marker coordinate: L.PSIS y Steps from IC (mm): -1 time: 727.6508
+L.PSIS y converged at 0 mm from IC. Min obj: 145.6721
+L.PSIS z:
+ Iter: 335 Obj: 146.0713 Marker cost: 142.5216 Tilt cost: 3.5497 Avg RMS: 4.0892 Marker coordinate: L.PSIS z Steps from IC (mm): 1 time: 729.9704
+ Iter: 336 Obj: 146.1597 Marker cost: 142.6115 Tilt cost: 3.5482 Avg RMS: 4.0864 Marker coordinate: L.PSIS z Steps from IC (mm): -1 time: 732.1233
+L.PSIS z converged at 0 mm from IC. Min obj: 145.6721
+R.Great.Tro x:
+ Iter: 337 Obj: 145.6721 Marker cost: 142.1216 Tilt cost: 3.5505 Avg RMS: 4.0847 Marker coordinate: R.Great.Tro x Steps from IC (mm): 1 time: 734.2699
+Marker coordinate has no effect on IK
+R.Great.Tro y:
+ Iter: 338 Obj: 145.6721 Marker cost: 142.1216 Tilt cost: 3.5505 Avg RMS: 4.0847 Marker coordinate: R.Great.Tro y Steps from IC (mm): 1 time: 736.4131
+Marker coordinate has no effect on IK
+R.Great.Tro z:
+ Iter: 339 Obj: 145.6721 Marker cost: 142.1216 Tilt cost: 3.5505 Avg RMS: 4.0847 Marker coordinate: R.Great.Tro z Steps from IC (mm): 1 time: 738.5541
+Marker coordinate has no effect on IK
+L.Great.Tro x:
+ Iter: 340 Obj: 145.6721 Marker cost: 142.1216 Tilt cost: 3.5505 Avg RMS: 4.0847 Marker coordinate: L.Great.Tro x Steps from IC (mm): 1 time: 740.7058
+Marker coordinate has no effect on IK
+L.Great.Tro y:
+ Iter: 341 Obj: 145.6721 Marker cost: 142.1216 Tilt cost: 3.5505 Avg RMS: 4.0847 Marker coordinate: L.Great.Tro y Steps from IC (mm): 1 time: 742.8567
+Marker coordinate has no effect on IK
+L.Great.Tro z:
+ Iter: 342 Obj: 145.6721 Marker cost: 142.1216 Tilt cost: 3.5505 Avg RMS: 4.0847 Marker coordinate: L.Great.Tro z Steps from IC (mm): 1 time: 745.0067
+Marker coordinate has no effect on IK
+R.Iliac.Crest x:
+ Iter: 343 Obj: 146.5412 Marker cost: 142.9839 Tilt cost: 3.5573 Avg RMS: 4.0903 Marker coordinate: R.Iliac.Crest x Steps from IC (mm): 1 time: 747.1498
+ Iter: 344 Obj: 145.9909 Marker cost: 142.4485 Tilt cost: 3.5424 Avg RMS: 4.0875 Marker coordinate: R.Iliac.Crest x Steps from IC (mm): -1 time: 749.3064
+R.Iliac.Crest x converged at 0 mm from IC. Min obj: 145.6721
+R.Iliac.Crest y:
+ Iter: 345 Obj: 146.1698 Marker cost: 142.6195 Tilt cost: 3.5503 Avg RMS: 4.0866 Marker coordinate: R.Iliac.Crest y Steps from IC (mm): 1 time: 751.4613
+ Iter: 346 Obj: 146.3857 Marker cost: 142.8357 Tilt cost: 3.55 Avg RMS: 4.0919 Marker coordinate: R.Iliac.Crest y Steps from IC (mm): -1 time: 753.6152
+R.Iliac.Crest y converged at 0 mm from IC. Min obj: 145.6721
+R.Iliac.Crest z:
+ Iter: 347 Obj: 146.1613 Marker cost: 142.6116 Tilt cost: 3.5497 Avg RMS: 4.0893 Marker coordinate: R.Iliac.Crest z Steps from IC (mm): 1 time: 755.7772
+ Iter: 348 Obj: 146.0872 Marker cost: 142.5397 Tilt cost: 3.5474 Avg RMS: 4.0864 Marker coordinate: R.Iliac.Crest z Steps from IC (mm): -1 time: 757.9325
+R.Iliac.Crest z converged at 0 mm from IC. Min obj: 145.6721
+L.Iliac.Crest x:
+ Iter: 349 Obj: 145.9235 Marker cost: 142.3638 Tilt cost: 3.5597 Avg RMS: 4.0877 Marker coordinate: L.Iliac.Crest x Steps from IC (mm): 1 time: 760.1171
+ Iter: 350 Obj: 146.4692 Marker cost: 142.9283 Tilt cost: 3.5409 Avg RMS: 4.0897 Marker coordinate: L.Iliac.Crest x Steps from IC (mm): -1 time: 762.2641
+L.Iliac.Crest x converged at 0 mm from IC. Min obj: 145.6721
+L.Iliac.Crest y:
+ Iter: 351 Obj: 146.3234 Marker cost: 142.7737 Tilt cost: 3.5497 Avg RMS: 4.0895 Marker coordinate: L.Iliac.Crest y Steps from IC (mm): 1 time: 764.416
+ Iter: 352 Obj: 146.2403 Marker cost: 142.6914 Tilt cost: 3.5489 Avg RMS: 4.0885 Marker coordinate: L.Iliac.Crest y Steps from IC (mm): -1 time: 766.5715
+L.Iliac.Crest y converged at 0 mm from IC. Min obj: 145.6721
+L.Iliac.Crest z:
+ Iter: 353 Obj: 146.3293 Marker cost: 142.7812 Tilt cost: 3.548 Avg RMS: 4.0903 Marker coordinate: L.Iliac.Crest z Steps from IC (mm): 1 time: 768.7251
+ Iter: 354 Obj: 146.2228 Marker cost: 142.6723 Tilt cost: 3.5505 Avg RMS: 4.0884 Marker coordinate: L.Iliac.Crest z Steps from IC (mm): -1 time: 770.8663
+L.Iliac.Crest z converged at 0 mm from IC. Min obj: 145.6721
+V.Sacral x:
+ Iter: 355 Obj: 146.0397 Marker cost: 142.4901 Tilt cost: 3.5496 Avg RMS: 4.0873 Marker coordinate: V.Sacral x Steps from IC (mm): 1 time: 773.037
+ Iter: 356 Obj: 146.1931 Marker cost: 142.6434 Tilt cost: 3.5498 Avg RMS: 4.0883 Marker coordinate: V.Sacral x Steps from IC (mm): -1 time: 775.1824
+V.Sacral x converged at 0 mm from IC. Min obj: 145.6721
+V.Sacral y:
+ Iter: 357 Obj: 146.6713 Marker cost: 143.1077 Tilt cost: 3.5636 Avg RMS: 4.0909 Marker coordinate: V.Sacral y Steps from IC (mm): 1 time: 777.4761
+ Iter: 358 Obj: 145.6794 Marker cost: 142.1416 Tilt cost: 3.5378 Avg RMS: 4.0857 Marker coordinate: V.Sacral y Steps from IC (mm): -1 time: 779.6399
+V.Sacral y converged at 0 mm from IC. Min obj: 145.6721
+V.Sacral z:
+ Iter: 359 Obj: 146.0416 Marker cost: 142.4918 Tilt cost: 3.5498 Avg RMS: 4.0878 Marker coordinate: V.Sacral z Steps from IC (mm): 1 time: 781.7907
+ Iter: 360 Obj: 146.1504 Marker cost: 142.6016 Tilt cost: 3.5488 Avg RMS: 4.0875 Marker coordinate: V.Sacral z Steps from IC (mm): -1 time: 783.9474
+V.Sacral z converged at 0 mm from IC. Min obj: 145.6721
+R.Thigh.Upper.Post x:
+ Iter: 361 Obj: 146.5958 Marker cost: 143.0717 Tilt cost: 3.524 Avg RMS: 4.0913 Marker coordinate: R.Thigh.Upper.Post x Steps from IC (mm): 1 time: 786.0963
+ Iter: 362 Obj: 145.4035 Marker cost: 141.8271 Tilt cost: 3.5764 Avg RMS: 4.0826 Marker coordinate: R.Thigh.Upper.Post x Steps from IC (mm): -1 time: 788.2402
+ Iter: 363 Obj: 145.704 Marker cost: 142.1047 Tilt cost: 3.5993 Avg RMS: 4.0852 Marker coordinate: R.Thigh.Upper.Post x Steps from IC (mm): -2 time: 790.3832
+R.Thigh.Upper.Post x converged at -1 mm from IC. Min obj: 145.4035
+R.Thigh.Upper.Post y:
+ Iter: 364 Obj: 145.8865 Marker cost: 142.3151 Tilt cost: 3.5715 Avg RMS: 4.0868 Marker coordinate: R.Thigh.Upper.Post y Steps from IC (mm): 1 time: 792.5378
+ Iter: 365 Obj: 145.6802 Marker cost: 142.1019 Tilt cost: 3.5783 Avg RMS: 4.084 Marker coordinate: R.Thigh.Upper.Post y Steps from IC (mm): -1 time: 794.6985
+R.Thigh.Upper.Post y converged at 0 mm from IC. Min obj: 145.4035
+R.Thigh.Upper.Post z:
+ Iter: 366 Obj: 146.0292 Marker cost: 142.451 Tilt cost: 3.5782 Avg RMS: 4.0887 Marker coordinate: R.Thigh.Upper.Post z Steps from IC (mm): 1 time: 796.9034
+ Iter: 367 Obj: 145.6907 Marker cost: 142.1157 Tilt cost: 3.5749 Avg RMS: 4.084 Marker coordinate: R.Thigh.Upper.Post z Steps from IC (mm): -1 time: 799.0591
+R.Thigh.Upper.Post z converged at 0 mm from IC. Min obj: 145.4035
+R.Thigh.Upper.Ant x:
+ Iter: 368 Obj: 146.025 Marker cost: 142.4768 Tilt cost: 3.5482 Avg RMS: 4.0866 Marker coordinate: R.Thigh.Upper.Ant x Steps from IC (mm): 1 time: 801.2133
+ Iter: 369 Obj: 145.653 Marker cost: 142.0527 Tilt cost: 3.6003 Avg RMS: 4.086 Marker coordinate: R.Thigh.Upper.Ant x Steps from IC (mm): -1 time: 803.3681
+R.Thigh.Upper.Ant x converged at 0 mm from IC. Min obj: 145.4035
+R.Thigh.Upper.Ant y:
+ Iter: 370 Obj: 146.3339 Marker cost: 142.7444 Tilt cost: 3.5895 Avg RMS: 4.0899 Marker coordinate: R.Thigh.Upper.Ant y Steps from IC (mm): 1 time: 805.5327
+ Iter: 371 Obj: 145.4291 Marker cost: 141.867 Tilt cost: 3.5621 Avg RMS: 4.0828 Marker coordinate: R.Thigh.Upper.Ant y Steps from IC (mm): -1 time: 807.6795
+R.Thigh.Upper.Ant y converged at 0 mm from IC. Min obj: 145.4035
+R.Thigh.Upper.Ant z:
+ Iter: 372 Obj: 145.7596 Marker cost: 142.1917 Tilt cost: 3.5678 Avg RMS: 4.085 Marker coordinate: R.Thigh.Upper.Ant z Steps from IC (mm): 1 time: 809.8361
+ Iter: 373 Obj: 145.6782 Marker cost: 142.0985 Tilt cost: 3.5797 Avg RMS: 4.0847 Marker coordinate: R.Thigh.Upper.Ant z Steps from IC (mm): -1 time: 811.9813
+R.Thigh.Upper.Ant z converged at 0 mm from IC. Min obj: 145.4035
+R.Thigh.Lower.Ant x:
+ Iter: 374 Obj: 146.3288 Marker cost: 142.7582 Tilt cost: 3.5706 Avg RMS: 4.0882 Marker coordinate: R.Thigh.Lower.Ant x Steps from IC (mm): 1 time: 814.1342
+ Iter: 375 Obj: 145.764 Marker cost: 142.1822 Tilt cost: 3.5819 Avg RMS: 4.0882 Marker coordinate: R.Thigh.Lower.Ant x Steps from IC (mm): -1 time: 816.2876
+R.Thigh.Lower.Ant x converged at 0 mm from IC. Min obj: 145.4035
+R.Thigh.Lower.Ant y:
+ Iter: 376 Obj: 145.3219 Marker cost: 141.7346 Tilt cost: 3.5873 Avg RMS: 4.0818 Marker coordinate: R.Thigh.Lower.Ant y Steps from IC (mm): 1 time: 818.4258
+ Iter: 377 Obj: 146.5409 Marker cost: 142.9421 Tilt cost: 3.5988 Avg RMS: 4.0897 Marker coordinate: R.Thigh.Lower.Ant y Steps from IC (mm): 2 time: 820.5873
+R.Thigh.Lower.Ant y converged at 1 mm from IC. Min obj: 145.3219
+R.Thigh.Lower.Ant z:
+ Iter: 378 Obj: 145.6884 Marker cost: 142.1045 Tilt cost: 3.5839 Avg RMS: 4.0836 Marker coordinate: R.Thigh.Lower.Ant z Steps from IC (mm): 1 time: 822.7487
+ Iter: 379 Obj: 146.0185 Marker cost: 142.4225 Tilt cost: 3.596 Avg RMS: 4.0878 Marker coordinate: R.Thigh.Lower.Ant z Steps from IC (mm): -1 time: 824.9132
+R.Thigh.Lower.Ant z converged at 0 mm from IC. Min obj: 145.3219
+R.Thigh.Lower.Post x:
+ Iter: 380 Obj: 146.1613 Marker cost: 142.5828 Tilt cost: 3.5785 Avg RMS: 4.0864 Marker coordinate: R.Thigh.Lower.Post x Steps from IC (mm): 1 time: 827.2168
+ Iter: 381 Obj: 145.8826 Marker cost: 142.2865 Tilt cost: 3.5961 Avg RMS: 4.0876 Marker coordinate: R.Thigh.Lower.Post x Steps from IC (mm): -1 time: 829.3705
+R.Thigh.Lower.Post x converged at 0 mm from IC. Min obj: 145.3219
+R.Thigh.Lower.Post y:
+ Iter: 382 Obj: 146.0603 Marker cost: 142.4771 Tilt cost: 3.5831 Avg RMS: 4.0871 Marker coordinate: R.Thigh.Lower.Post y Steps from IC (mm): 1 time: 831.5226
+ Iter: 383 Obj: 145.8333 Marker cost: 142.2421 Tilt cost: 3.5912 Avg RMS: 4.0853 Marker coordinate: R.Thigh.Lower.Post y Steps from IC (mm): -1 time: 833.6803
+R.Thigh.Lower.Post y converged at 0 mm from IC. Min obj: 145.3219
+R.Thigh.Lower.Post z:
+ Iter: 384 Obj: 145.4651 Marker cost: 141.8798 Tilt cost: 3.5853 Avg RMS: 4.0831 Marker coordinate: R.Thigh.Lower.Post z Steps from IC (mm): 1 time: 835.8328
+ Iter: 385 Obj: 146.2845 Marker cost: 142.6957 Tilt cost: 3.5888 Avg RMS: 4.0886 Marker coordinate: R.Thigh.Lower.Post z Steps from IC (mm): -1 time: 837.9808
+R.Thigh.Lower.Post z converged at 0 mm from IC. Min obj: 145.3219
+R.Knee.Lat x:
+ Iter: 386 Obj: 145.8387 Marker cost: 142.2496 Tilt cost: 3.5891 Avg RMS: 4.0877 Marker coordinate: R.Knee.Lat x Steps from IC (mm): 1 time: 840.1358
+ Iter: 387 Obj: 146.0344 Marker cost: 142.4472 Tilt cost: 3.5873 Avg RMS: 4.0845 Marker coordinate: R.Knee.Lat x Steps from IC (mm): -1 time: 842.2926
+R.Knee.Lat x converged at 0 mm from IC. Min obj: 145.3219
+R.Knee.Lat y:
+ Iter: 388 Obj: 146.0426 Marker cost: 142.4567 Tilt cost: 3.5859 Avg RMS: 4.0878 Marker coordinate: R.Knee.Lat y Steps from IC (mm): 1 time: 844.4455
+ Iter: 389 Obj: 145.9287 Marker cost: 142.3415 Tilt cost: 3.5872 Avg RMS: 4.0853 Marker coordinate: R.Knee.Lat y Steps from IC (mm): -1 time: 846.6009
+R.Knee.Lat y converged at 0 mm from IC. Min obj: 145.3219
+R.Knee.Lat z:
+ Iter: 390 Obj: 146.0994 Marker cost: 142.5123 Tilt cost: 3.5871 Avg RMS: 4.0869 Marker coordinate: R.Knee.Lat z Steps from IC (mm): 1 time: 848.7596
+ Iter: 391 Obj: 145.8319 Marker cost: 142.2422 Tilt cost: 3.5897 Avg RMS: 4.0864 Marker coordinate: R.Knee.Lat z Steps from IC (mm): -1 time: 850.9164
+R.Knee.Lat z converged at 0 mm from IC. Min obj: 145.3219
+R.Knee.Med x:
+ Iter: 392 Obj: 145.3219 Marker cost: 141.7346 Tilt cost: 3.5873 Avg RMS: 4.0818 Marker coordinate: R.Knee.Med x Steps from IC (mm): 1 time: 853.0698
+Marker coordinate has no effect on IK
+R.Knee.Med y:
+ Iter: 393 Obj: 145.3219 Marker cost: 141.7346 Tilt cost: 3.5873 Avg RMS: 4.0818 Marker coordinate: R.Knee.Med y Steps from IC (mm): 1 time: 855.2355
+Marker coordinate has no effect on IK
+R.Knee.Med z:
+ Iter: 394 Obj: 145.3219 Marker cost: 141.7346 Tilt cost: 3.5873 Avg RMS: 4.0818 Marker coordinate: R.Knee.Med z Steps from IC (mm): 1 time: 857.3815
+Marker coordinate has no effect on IK
+R.Shank.Upper.Post x:
+ Iter: 395 Obj: 146.1646 Marker cost: 142.566 Tilt cost: 3.5986 Avg RMS: 4.0888 Marker coordinate: R.Shank.Upper.Post x Steps from IC (mm): 1 time: 859.524
+ Iter: 396 Obj: 145.7981 Marker cost: 142.2208 Tilt cost: 3.5773 Avg RMS: 4.084 Marker coordinate: R.Shank.Upper.Post x Steps from IC (mm): -1 time: 861.6845
+R.Shank.Upper.Post x converged at 0 mm from IC. Min obj: 145.3219
+R.Shank.Upper.Post y:
+ Iter: 397 Obj: 146.074 Marker cost: 142.4809 Tilt cost: 3.5931 Avg RMS: 4.089 Marker coordinate: R.Shank.Upper.Post y Steps from IC (mm): 1 time: 863.8402
+ Iter: 398 Obj: 145.8514 Marker cost: 142.27 Tilt cost: 3.5814 Avg RMS: 4.0844 Marker coordinate: R.Shank.Upper.Post y Steps from IC (mm): -1 time: 866.0148
+R.Shank.Upper.Post y converged at 0 mm from IC. Min obj: 145.3219
+R.Shank.Upper.Post z:
+ Iter: 399 Obj: 145.9577 Marker cost: 142.3707 Tilt cost: 3.587 Avg RMS: 4.0878 Marker coordinate: R.Shank.Upper.Post z Steps from IC (mm): 1 time: 868.2457
+ Iter: 400 Obj: 146.0405 Marker cost: 142.4541 Tilt cost: 3.5864 Avg RMS: 4.0859 Marker coordinate: R.Shank.Upper.Post z Steps from IC (mm): -1 time: 870.4022
+R.Shank.Upper.Post z converged at 0 mm from IC. Min obj: 145.3219
+R.Shank.Upper.Ant x:
+ Iter: 401 Obj: 146.21 Marker cost: 142.6124 Tilt cost: 3.5976 Avg RMS: 4.089 Marker coordinate: R.Shank.Upper.Ant x Steps from IC (mm): 1 time: 872.5592
+ Iter: 402 Obj: 145.9178 Marker cost: 142.339 Tilt cost: 3.5787 Avg RMS: 4.0858 Marker coordinate: R.Shank.Upper.Ant x Steps from IC (mm): -1 time: 874.7111
+R.Shank.Upper.Ant x converged at 0 mm from IC. Min obj: 145.3219
+R.Shank.Upper.Ant y:
+ Iter: 403 Obj: 146.223 Marker cost: 142.6346 Tilt cost: 3.5885 Avg RMS: 4.0889 Marker coordinate: R.Shank.Upper.Ant y Steps from IC (mm): 1 time: 876.8699
+ Iter: 404 Obj: 145.7577 Marker cost: 142.1738 Tilt cost: 3.5839 Avg RMS: 4.0841 Marker coordinate: R.Shank.Upper.Ant y Steps from IC (mm): -1 time: 879.0233
+R.Shank.Upper.Ant y converged at 0 mm from IC. Min obj: 145.3219
+R.Shank.Upper.Ant z:
+ Iter: 405 Obj: 146.1881 Marker cost: 142.6052 Tilt cost: 3.5829 Avg RMS: 4.0877 Marker coordinate: R.Shank.Upper.Ant z Steps from IC (mm): 1 time: 881.1823
+ Iter: 406 Obj: 145.5906 Marker cost: 141.9996 Tilt cost: 3.591 Avg RMS: 4.0841 Marker coordinate: R.Shank.Upper.Ant z Steps from IC (mm): -1 time: 883.3343
+R.Shank.Upper.Ant z converged at 0 mm from IC. Min obj: 145.3219
+R.Shank.Lower.Ant x:
+ Iter: 407 Obj: 146.0619 Marker cost: 142.4677 Tilt cost: 3.5943 Avg RMS: 4.0872 Marker coordinate: R.Shank.Lower.Ant x Steps from IC (mm): 1 time: 885.4799
+ Iter: 408 Obj: 145.6456 Marker cost: 142.066 Tilt cost: 3.5795 Avg RMS: 4.0848 Marker coordinate: R.Shank.Lower.Ant x Steps from IC (mm): -1 time: 887.6357
+R.Shank.Lower.Ant x converged at 0 mm from IC. Min obj: 145.3219
+R.Shank.Lower.Ant y:
+ Iter: 409 Obj: 146.062 Marker cost: 142.4714 Tilt cost: 3.5906 Avg RMS: 4.0877 Marker coordinate: R.Shank.Lower.Ant y Steps from IC (mm): 1 time: 889.852
+ Iter: 410 Obj: 145.7361 Marker cost: 142.152 Tilt cost: 3.5841 Avg RMS: 4.0845 Marker coordinate: R.Shank.Lower.Ant y Steps from IC (mm): -1 time: 892.012
+R.Shank.Lower.Ant y converged at 0 mm from IC. Min obj: 145.3219
+R.Shank.Lower.Ant z:
+ Iter: 411 Obj: 145.5571 Marker cost: 141.9737 Tilt cost: 3.5833 Avg RMS: 4.0825 Marker coordinate: R.Shank.Lower.Ant z Steps from IC (mm): 1 time: 894.1644
+ Iter: 412 Obj: 146.1986 Marker cost: 142.6072 Tilt cost: 3.5914 Avg RMS: 4.0892 Marker coordinate: R.Shank.Lower.Ant z Steps from IC (mm): -1 time: 896.3392
+R.Shank.Lower.Ant z converged at 0 mm from IC. Min obj: 145.3219
+R.Shank.Lower.Post x:
+ Iter: 413 Obj: 146.0731 Marker cost: 142.4769 Tilt cost: 3.5962 Avg RMS: 4.0875 Marker coordinate: R.Shank.Lower.Post x Steps from IC (mm): 1 time: 898.4926
+ Iter: 414 Obj: 145.9476 Marker cost: 142.368 Tilt cost: 3.5797 Avg RMS: 4.0862 Marker coordinate: R.Shank.Lower.Post x Steps from IC (mm): -1 time: 900.6935
+R.Shank.Lower.Post x converged at 0 mm from IC. Min obj: 145.3219
+R.Shank.Lower.Post y:
+ Iter: 415 Obj: 146.2332 Marker cost: 142.6409 Tilt cost: 3.5922 Avg RMS: 4.0894 Marker coordinate: R.Shank.Lower.Post y Steps from IC (mm): 1 time: 902.8343
+ Iter: 416 Obj: 145.831 Marker cost: 142.2492 Tilt cost: 3.5819 Avg RMS: 4.0845 Marker coordinate: R.Shank.Lower.Post y Steps from IC (mm): -1 time: 905.0189
+R.Shank.Lower.Post y converged at 0 mm from IC. Min obj: 145.3219
+R.Shank.Lower.Post z:
+ Iter: 417 Obj: 145.8924 Marker cost: 142.3045 Tilt cost: 3.5878 Avg RMS: 4.0868 Marker coordinate: R.Shank.Lower.Post z Steps from IC (mm): 1 time: 907.1683
+ Iter: 418 Obj: 145.95 Marker cost: 142.363 Tilt cost: 3.5871 Avg RMS: 4.0852 Marker coordinate: R.Shank.Lower.Post z Steps from IC (mm): -1 time: 909.3234
+R.Shank.Lower.Post z converged at 0 mm from IC. Min obj: 145.3219
+R.Ankle.Lat x:
+ Iter: 419 Obj: 146.3231 Marker cost: 142.7364 Tilt cost: 3.5867 Avg RMS: 4.0881 Marker coordinate: R.Ankle.Lat x Steps from IC (mm): 1 time: 911.4806
+ Iter: 420 Obj: 146.0833 Marker cost: 142.4958 Tilt cost: 3.5876 Avg RMS: 4.0886 Marker coordinate: R.Ankle.Lat x Steps from IC (mm): -1 time: 913.6327
+R.Ankle.Lat x converged at 0 mm from IC. Min obj: 145.3219
+R.Ankle.Lat y:
+ Iter: 421 Obj: 145.9769 Marker cost: 142.3902 Tilt cost: 3.5867 Avg RMS: 4.0868 Marker coordinate: R.Ankle.Lat y Steps from IC (mm): 1 time: 915.7922
+ Iter: 422 Obj: 145.7752 Marker cost: 142.1885 Tilt cost: 3.5867 Avg RMS: 4.0851 Marker coordinate: R.Ankle.Lat y Steps from IC (mm): -1 time: 918.0297
+R.Ankle.Lat y converged at 0 mm from IC. Min obj: 145.3219
+R.Ankle.Lat z:
+ Iter: 423 Obj: 146.0765 Marker cost: 142.4892 Tilt cost: 3.5873 Avg RMS: 4.087 Marker coordinate: R.Ankle.Lat z Steps from IC (mm): 1 time: 920.1954
+ Iter: 424 Obj: 146.0728 Marker cost: 142.4851 Tilt cost: 3.5876 Avg RMS: 4.0875 Marker coordinate: R.Ankle.Lat z Steps from IC (mm): -1 time: 922.3374
+R.Ankle.Lat z converged at 0 mm from IC. Min obj: 145.3219
+R.Ankle.Med x:
+ Iter: 425 Obj: 145.3219 Marker cost: 141.7346 Tilt cost: 3.5873 Avg RMS: 4.0818 Marker coordinate: R.Ankle.Med x Steps from IC (mm): 1 time: 924.49
+Marker coordinate has no effect on IK
+R.Ankle.Med y:
+ Iter: 426 Obj: 145.3219 Marker cost: 141.7346 Tilt cost: 3.5873 Avg RMS: 4.0818 Marker coordinate: R.Ankle.Med y Steps from IC (mm): 1 time: 926.6457
+Marker coordinate has no effect on IK
+R.Ankle.Med z:
+ Iter: 427 Obj: 145.3219 Marker cost: 141.7346 Tilt cost: 3.5873 Avg RMS: 4.0818 Marker coordinate: R.Ankle.Med z Steps from IC (mm): 1 time: 928.8058
+Marker coordinate has no effect on IK
+R.Heel.Upper x:
+ Iter: 428 Obj: 145.8734 Marker cost: 142.2885 Tilt cost: 3.585 Avg RMS: 4.0851 Marker coordinate: R.Heel.Upper x Steps from IC (mm): 1 time: 930.9758
+ Iter: 429 Obj: 145.7619 Marker cost: 142.1743 Tilt cost: 3.5875 Avg RMS: 4.0858 Marker coordinate: R.Heel.Upper x Steps from IC (mm): -1 time: 933.1217
+R.Heel.Upper x converged at 0 mm from IC. Min obj: 145.3219
+R.Heel.Upper y:
+ Iter: 430 Obj: 145.9249 Marker cost: 142.3382 Tilt cost: 3.5867 Avg RMS: 4.0866 Marker coordinate: R.Heel.Upper y Steps from IC (mm): 1 time: 935.2814
+ Iter: 431 Obj: 146.0987 Marker cost: 142.5112 Tilt cost: 3.5875 Avg RMS: 4.0865 Marker coordinate: R.Heel.Upper y Steps from IC (mm): -1 time: 937.4322
+R.Heel.Upper y converged at 0 mm from IC. Min obj: 145.3219
+R.Heel.Upper z:
+ Iter: 432 Obj: 145.5341 Marker cost: 141.9457 Tilt cost: 3.5883 Avg RMS: 4.0833 Marker coordinate: R.Heel.Upper z Steps from IC (mm): 1 time: 939.5855
+ Iter: 433 Obj: 146.6151 Marker cost: 143.0264 Tilt cost: 3.5888 Avg RMS: 4.0915 Marker coordinate: R.Heel.Upper z Steps from IC (mm): -1 time: 941.7256
+R.Heel.Upper z converged at 0 mm from IC. Min obj: 145.3219
+R.Heel.Med x:
+ Iter: 434 Obj: 146.3364 Marker cost: 142.7503 Tilt cost: 3.5862 Avg RMS: 4.0901 Marker coordinate: R.Heel.Med x Steps from IC (mm): 1 time: 943.8684
+ Iter: 435 Obj: 145.9553 Marker cost: 142.3643 Tilt cost: 3.591 Avg RMS: 4.0859 Marker coordinate: R.Heel.Med x Steps from IC (mm): -1 time: 946.0235
+R.Heel.Med x converged at 0 mm from IC. Min obj: 145.3219
+R.Heel.Med y:
+ Iter: 436 Obj: 145.8662 Marker cost: 142.2802 Tilt cost: 3.5861 Avg RMS: 4.086 Marker coordinate: R.Heel.Med y Steps from IC (mm): 1 time: 948.1848
+ Iter: 437 Obj: 146.2477 Marker cost: 142.6563 Tilt cost: 3.5913 Avg RMS: 4.0887 Marker coordinate: R.Heel.Med y Steps from IC (mm): -1 time: 950.3828
+R.Heel.Med y converged at 0 mm from IC. Min obj: 145.3219
+R.Heel.Med z:
+ Iter: 438 Obj: 146.2069 Marker cost: 142.6173 Tilt cost: 3.5896 Avg RMS: 4.0882 Marker coordinate: R.Heel.Med z Steps from IC (mm): 1 time: 952.538
+ Iter: 439 Obj: 145.4846 Marker cost: 141.9029 Tilt cost: 3.5817 Avg RMS: 4.0828 Marker coordinate: R.Heel.Med z Steps from IC (mm): -1 time: 954.6785
+R.Heel.Med z converged at 0 mm from IC. Min obj: 145.3219
+R.Heel.Lat x:
+ Iter: 440 Obj: 145.8456 Marker cost: 142.2628 Tilt cost: 3.5828 Avg RMS: 4.086 Marker coordinate: R.Heel.Lat x Steps from IC (mm): 1 time: 956.8356
+ Iter: 441 Obj: 146.1824 Marker cost: 142.5895 Tilt cost: 3.5929 Avg RMS: 4.0884 Marker coordinate: R.Heel.Lat x Steps from IC (mm): -1 time: 958.9949
+R.Heel.Lat x converged at 0 mm from IC. Min obj: 145.3219
+R.Heel.Lat y:
+ Iter: 442 Obj: 145.7652 Marker cost: 142.1744 Tilt cost: 3.5908 Avg RMS: 4.0848 Marker coordinate: R.Heel.Lat y Steps from IC (mm): 1 time: 961.1514
+ Iter: 443 Obj: 146.2382 Marker cost: 142.656 Tilt cost: 3.5822 Avg RMS: 4.0882 Marker coordinate: R.Heel.Lat y Steps from IC (mm): -1 time: 963.307
+R.Heel.Lat y converged at 0 mm from IC. Min obj: 145.3219
+R.Heel.Lat z:
+ Iter: 444 Obj: 146.3416 Marker cost: 142.7505 Tilt cost: 3.591 Avg RMS: 4.0897 Marker coordinate: R.Heel.Lat z Steps from IC (mm): 1 time: 965.4583
+ Iter: 445 Obj: 145.9372 Marker cost: 142.3549 Tilt cost: 3.5824 Avg RMS: 4.0864 Marker coordinate: R.Heel.Lat z Steps from IC (mm): -1 time: 967.6066
+R.Heel.Lat z converged at 0 mm from IC. Min obj: 145.3219
+R.Toe.Lat x:
+ Iter: 446 Obj: 145.3219 Marker cost: 141.7346 Tilt cost: 3.5873 Avg RMS: 4.0818 Marker coordinate: R.Toe.Lat x Steps from IC (mm): 1 time: 969.9176
+Marker coordinate has no effect on IK
+R.Toe.Lat y:
+ Iter: 447 Obj: 145.3219 Marker cost: 141.7346 Tilt cost: 3.5873 Avg RMS: 4.0818 Marker coordinate: R.Toe.Lat y Steps from IC (mm): 1 time: 972.0731
+Marker coordinate has no effect on IK
+R.Toe.Lat z:
+ Iter: 448 Obj: 145.3219 Marker cost: 141.7346 Tilt cost: 3.5873 Avg RMS: 4.0818 Marker coordinate: R.Toe.Lat z Steps from IC (mm): 1 time: 974.2332
+Marker coordinate has no effect on IK
+R.Toe.Med x:
+ Iter: 449 Obj: 145.9689 Marker cost: 142.3859 Tilt cost: 3.5831 Avg RMS: 4.0869 Marker coordinate: R.Toe.Med x Steps from IC (mm): 1 time: 976.3819
+ Iter: 450 Obj: 145.9748 Marker cost: 142.3832 Tilt cost: 3.5916 Avg RMS: 4.0863 Marker coordinate: R.Toe.Med x Steps from IC (mm): -1 time: 978.5605
+R.Toe.Med x converged at 0 mm from IC. Min obj: 145.3219
+R.Toe.Med y:
+ Iter: 451 Obj: 145.9637 Marker cost: 142.373 Tilt cost: 3.5906 Avg RMS: 4.0866 Marker coordinate: R.Toe.Med y Steps from IC (mm): 1 time: 980.7097
+ Iter: 452 Obj: 146.2487 Marker cost: 142.6627 Tilt cost: 3.5859 Avg RMS: 4.0887 Marker coordinate: R.Toe.Med y Steps from IC (mm): -1 time: 982.8482
+R.Toe.Med y converged at 0 mm from IC. Min obj: 145.3219
+R.Toe.Med z:
+ Iter: 453 Obj: 145.7645 Marker cost: 142.1755 Tilt cost: 3.589 Avg RMS: 4.0847 Marker coordinate: R.Toe.Med z Steps from IC (mm): 1 time: 985.0116
+ Iter: 454 Obj: 146.485 Marker cost: 142.9004 Tilt cost: 3.5847 Avg RMS: 4.0903 Marker coordinate: R.Toe.Med z Steps from IC (mm): -1 time: 987.1639
+R.Toe.Med z converged at 0 mm from IC. Min obj: 145.3219
+R.Toe.Tip x:
+ Iter: 455 Obj: 145.8807 Marker cost: 142.2941 Tilt cost: 3.5866 Avg RMS: 4.0867 Marker coordinate: R.Toe.Tip x Steps from IC (mm): 1 time: 989.3229
+ Iter: 456 Obj: 145.5935 Marker cost: 142.0077 Tilt cost: 3.5858 Avg RMS: 4.0835 Marker coordinate: R.Toe.Tip x Steps from IC (mm): -1 time: 991.4777
+R.Toe.Tip x converged at 0 mm from IC. Min obj: 145.3219
+R.Toe.Tip y:
+ Iter: 457 Obj: 145.9298 Marker cost: 142.343 Tilt cost: 3.5868 Avg RMS: 4.0864 Marker coordinate: R.Toe.Tip y Steps from IC (mm): 1 time: 993.9652
+ Iter: 458 Obj: 145.6543 Marker cost: 142.0659 Tilt cost: 3.5884 Avg RMS: 4.0841 Marker coordinate: R.Toe.Tip y Steps from IC (mm): -1 time: 996.1821
+R.Toe.Tip y converged at 0 mm from IC. Min obj: 145.3219
+R.Toe.Tip z:
+ Iter: 459 Obj: 145.794 Marker cost: 142.2048 Tilt cost: 3.5893 Avg RMS: 4.0849 Marker coordinate: R.Toe.Tip z Steps from IC (mm): 1 time: 998.3384
+ Iter: 460 Obj: 146.1903 Marker cost: 142.6008 Tilt cost: 3.5894 Avg RMS: 4.0885 Marker coordinate: R.Toe.Tip z Steps from IC (mm): -1 time: 1000.532
+R.Toe.Tip z converged at 0 mm from IC. Min obj: 145.3219
+L.Thigh.Upper.Post x:
+ Iter: 461 Obj: 146.3348 Marker cost: 142.7742 Tilt cost: 3.5606 Avg RMS: 4.0885 Marker coordinate: L.Thigh.Upper.Post x Steps from IC (mm): 1 time: 1002.683
+ Iter: 462 Obj: 146.0265 Marker cost: 142.4147 Tilt cost: 3.6119 Avg RMS: 4.0878 Marker coordinate: L.Thigh.Upper.Post x Steps from IC (mm): -1 time: 1004.8385
+L.Thigh.Upper.Post x converged at 0 mm from IC. Min obj: 145.3219
+L.Thigh.Upper.Post y:
+ Iter: 463 Obj: 146.4347 Marker cost: 142.8537 Tilt cost: 3.581 Avg RMS: 4.0927 Marker coordinate: L.Thigh.Upper.Post y Steps from IC (mm): 1 time: 1006.995
+ Iter: 464 Obj: 145.541 Marker cost: 141.9491 Tilt cost: 3.5919 Avg RMS: 4.0801 Marker coordinate: L.Thigh.Upper.Post y Steps from IC (mm): -1 time: 1009.155
+L.Thigh.Upper.Post y converged at 0 mm from IC. Min obj: 145.3219
+L.Thigh.Upper.Post z:
+ Iter: 465 Obj: 145.5671 Marker cost: 141.9791 Tilt cost: 3.588 Avg RMS: 4.0835 Marker coordinate: L.Thigh.Upper.Post z Steps from IC (mm): 1 time: 1011.3043
+ Iter: 466 Obj: 146.0097 Marker cost: 142.4226 Tilt cost: 3.587 Avg RMS: 4.0873 Marker coordinate: L.Thigh.Upper.Post z Steps from IC (mm): -1 time: 1013.4612
+L.Thigh.Upper.Post z converged at 0 mm from IC. Min obj: 145.3219
+L.Thigh.Upper.Ant x:
+ Iter: 467 Obj: 146.5748 Marker cost: 143.0139 Tilt cost: 3.561 Avg RMS: 4.0897 Marker coordinate: L.Thigh.Upper.Ant x Steps from IC (mm): 1 time: 1015.7231
+ Iter: 468 Obj: 145.2938 Marker cost: 141.6808 Tilt cost: 3.613 Avg RMS: 4.0829 Marker coordinate: L.Thigh.Upper.Ant x Steps from IC (mm): -1 time: 1017.8882
+ Iter: 469 Obj: 145.5153 Marker cost: 141.8731 Tilt cost: 3.6422 Avg RMS: 4.0857 Marker coordinate: L.Thigh.Upper.Ant x Steps from IC (mm): -2 time: 1020.0381
+L.Thigh.Upper.Ant x converged at -1 mm from IC. Min obj: 145.2938
+L.Thigh.Upper.Ant y:
+ Iter: 470 Obj: 145.3503 Marker cost: 141.7281 Tilt cost: 3.6222 Avg RMS: 4.0866 Marker coordinate: L.Thigh.Upper.Ant y Steps from IC (mm): 1 time: 1022.1957
+ Iter: 471 Obj: 145.7703 Marker cost: 142.1652 Tilt cost: 3.6051 Avg RMS: 4.0822 Marker coordinate: L.Thigh.Upper.Ant y Steps from IC (mm): -1 time: 1024.3991
+L.Thigh.Upper.Ant y converged at 0 mm from IC. Min obj: 145.2938
+L.Thigh.Upper.Ant z:
+ Iter: 472 Obj: 145.5517 Marker cost: 141.93 Tilt cost: 3.6217 Avg RMS: 4.0853 Marker coordinate: L.Thigh.Upper.Ant z Steps from IC (mm): 1 time: 1026.5561
+ Iter: 473 Obj: 145.8558 Marker cost: 142.2491 Tilt cost: 3.6067 Avg RMS: 4.0866 Marker coordinate: L.Thigh.Upper.Ant z Steps from IC (mm): -1 time: 1028.7082
+L.Thigh.Upper.Ant z converged at 0 mm from IC. Min obj: 145.2938
+L.Thigh.Lower.Ant x:
+ Iter: 474 Obj: 146.0155 Marker cost: 142.4128 Tilt cost: 3.6027 Avg RMS: 4.0889 Marker coordinate: L.Thigh.Lower.Ant x Steps from IC (mm): 1 time: 1030.8744
+ Iter: 475 Obj: 145.2774 Marker cost: 141.6551 Tilt cost: 3.6223 Avg RMS: 4.082 Marker coordinate: L.Thigh.Lower.Ant x Steps from IC (mm): -1 time: 1033.0725
+ Iter: 476 Obj: 145.7895 Marker cost: 142.1587 Tilt cost: 3.6308 Avg RMS: 4.085 Marker coordinate: L.Thigh.Lower.Ant x Steps from IC (mm): -2 time: 1035.2313
+L.Thigh.Lower.Ant x converged at -1 mm from IC. Min obj: 145.2774
+L.Thigh.Lower.Ant y:
+ Iter: 477 Obj: 145.1174 Marker cost: 141.4834 Tilt cost: 3.634 Avg RMS: 4.0846 Marker coordinate: L.Thigh.Lower.Ant y Steps from IC (mm): 1 time: 1037.3836
+ Iter: 478 Obj: 146.0535 Marker cost: 142.4058 Tilt cost: 3.6477 Avg RMS: 4.0948 Marker coordinate: L.Thigh.Lower.Ant y Steps from IC (mm): 2 time: 1039.5357
+L.Thigh.Lower.Ant y converged at 1 mm from IC. Min obj: 145.1174
+L.Thigh.Lower.Ant z:
+ Iter: 479 Obj: 145.4885 Marker cost: 141.8472 Tilt cost: 3.6413 Avg RMS: 4.087 Marker coordinate: L.Thigh.Lower.Ant z Steps from IC (mm): 1 time: 1041.6775
+ Iter: 480 Obj: 145.5803 Marker cost: 141.9543 Tilt cost: 3.6259 Avg RMS: 4.0884 Marker coordinate: L.Thigh.Lower.Ant z Steps from IC (mm): -1 time: 1043.8207
+L.Thigh.Lower.Ant z converged at 0 mm from IC. Min obj: 145.1174
+L.Thigh.Lower.Post x:
+ Iter: 481 Obj: 145.9356 Marker cost: 142.309 Tilt cost: 3.6266 Avg RMS: 4.092 Marker coordinate: L.Thigh.Lower.Post x Steps from IC (mm): 1 time: 1045.9776
+ Iter: 482 Obj: 145.4585 Marker cost: 141.8156 Tilt cost: 3.6429 Avg RMS: 4.087 Marker coordinate: L.Thigh.Lower.Post x Steps from IC (mm): -1 time: 1048.1341
+L.Thigh.Lower.Post x converged at 0 mm from IC. Min obj: 145.1174
+L.Thigh.Lower.Post y:
+ Iter: 483 Obj: 145.6088 Marker cost: 141.9766 Tilt cost: 3.6322 Avg RMS: 4.0902 Marker coordinate: L.Thigh.Lower.Post y Steps from IC (mm): 1 time: 1050.3243
+ Iter: 484 Obj: 145.6125 Marker cost: 141.976 Tilt cost: 3.6365 Avg RMS: 4.0863 Marker coordinate: L.Thigh.Lower.Post y Steps from IC (mm): -1 time: 1052.4782
+L.Thigh.Lower.Post y converged at 0 mm from IC. Min obj: 145.1174
+L.Thigh.Lower.Post z:
+ Iter: 485 Obj: 145.8484 Marker cost: 142.2103 Tilt cost: 3.6381 Avg RMS: 4.0902 Marker coordinate: L.Thigh.Lower.Post z Steps from IC (mm): 1 time: 1054.6356
+ Iter: 486 Obj: 145.2693 Marker cost: 141.6398 Tilt cost: 3.6295 Avg RMS: 4.086 Marker coordinate: L.Thigh.Lower.Post z Steps from IC (mm): -1 time: 1056.7861
+L.Thigh.Lower.Post z converged at 0 mm from IC. Min obj: 145.1174
+L.Knee.Lat x:
+ Iter: 487 Obj: 146.0368 Marker cost: 142.3999 Tilt cost: 3.6369 Avg RMS: 4.0922 Marker coordinate: L.Knee.Lat x Steps from IC (mm): 1 time: 1058.9268
+ Iter: 488 Obj: 145.4188 Marker cost: 141.7872 Tilt cost: 3.6316 Avg RMS: 4.0864 Marker coordinate: L.Knee.Lat x Steps from IC (mm): -1 time: 1061.0651
+L.Knee.Lat x converged at 0 mm from IC. Min obj: 145.1174
+L.Knee.Lat y:
+ Iter: 489 Obj: 145.3994 Marker cost: 141.766 Tilt cost: 3.6333 Avg RMS: 4.0872 Marker coordinate: L.Knee.Lat y Steps from IC (mm): 1 time: 1063.2083
+ Iter: 490 Obj: 146.011 Marker cost: 142.3763 Tilt cost: 3.6347 Avg RMS: 4.0918 Marker coordinate: L.Knee.Lat y Steps from IC (mm): -1 time: 1065.4501
+L.Knee.Lat y converged at 0 mm from IC. Min obj: 145.1174
+L.Knee.Lat z:
+ Iter: 491 Obj: 145.3877 Marker cost: 141.7508 Tilt cost: 3.6368 Avg RMS: 4.0862 Marker coordinate: L.Knee.Lat z Steps from IC (mm): 1 time: 1067.6385
+ Iter: 492 Obj: 145.7356 Marker cost: 142.1007 Tilt cost: 3.6349 Avg RMS: 4.0906 Marker coordinate: L.Knee.Lat z Steps from IC (mm): -1 time: 1069.7893
+L.Knee.Lat z converged at 0 mm from IC. Min obj: 145.1174
+L.Knee.Med x:
+ Iter: 493 Obj: 145.1174 Marker cost: 141.4834 Tilt cost: 3.634 Avg RMS: 4.0846 Marker coordinate: L.Knee.Med x Steps from IC (mm): 1 time: 1071.9456
+Marker coordinate has no effect on IK
+L.Knee.Med y:
+ Iter: 494 Obj: 145.1174 Marker cost: 141.4834 Tilt cost: 3.634 Avg RMS: 4.0846 Marker coordinate: L.Knee.Med y Steps from IC (mm): 1 time: 1074.0886
+Marker coordinate has no effect on IK
+L.Knee.Med z:
+ Iter: 495 Obj: 145.1174 Marker cost: 141.4834 Tilt cost: 3.634 Avg RMS: 4.0846 Marker coordinate: L.Knee.Med z Steps from IC (mm): 1 time: 1076.242
+Marker coordinate has no effect on IK
+L.Shank.Upper.Post x:
+ Iter: 496 Obj: 145.9375 Marker cost: 142.2949 Tilt cost: 3.6426 Avg RMS: 4.0919 Marker coordinate: L.Shank.Upper.Post x Steps from IC (mm): 1 time: 1078.4028
+ Iter: 497 Obj: 145.3542 Marker cost: 141.7287 Tilt cost: 3.6254 Avg RMS: 4.0854 Marker coordinate: L.Shank.Upper.Post x Steps from IC (mm): -1 time: 1080.5595
+L.Shank.Upper.Post x converged at 0 mm from IC. Min obj: 145.1174
+L.Shank.Upper.Post y:
+ Iter: 498 Obj: 145.6744 Marker cost: 142.035 Tilt cost: 3.6394 Avg RMS: 4.0895 Marker coordinate: L.Shank.Upper.Post y Steps from IC (mm): 1 time: 1082.7125
+ Iter: 499 Obj: 145.8191 Marker cost: 142.1907 Tilt cost: 3.6284 Avg RMS: 4.0896 Marker coordinate: L.Shank.Upper.Post y Steps from IC (mm): -1 time: 1084.8701
+L.Shank.Upper.Post y converged at 0 mm from IC. Min obj: 145.1174
+L.Shank.Upper.Post z:
+ Iter: 500 Obj: 145.6423 Marker cost: 142.0057 Tilt cost: 3.6366 Avg RMS: 4.0883 Marker coordinate: L.Shank.Upper.Post z Steps from IC (mm): 1 time: 1087.0259
+ Iter: 501 Obj: 145.4705 Marker cost: 141.8348 Tilt cost: 3.6357 Avg RMS: 4.0884 Marker coordinate: L.Shank.Upper.Post z Steps from IC (mm): -1 time: 1089.197
+L.Shank.Upper.Post z converged at 0 mm from IC. Min obj: 145.1174
+L.Shank.Upper.Ant x:
+ Iter: 502 Obj: 145.1436 Marker cost: 141.5009 Tilt cost: 3.6427 Avg RMS: 4.0857 Marker coordinate: L.Shank.Upper.Ant x Steps from IC (mm): 1 time: 1091.3627
+ Iter: 503 Obj: 146.0165 Marker cost: 142.3919 Tilt cost: 3.6246 Avg RMS: 4.0911 Marker coordinate: L.Shank.Upper.Ant x Steps from IC (mm): -1 time: 1093.5093
+L.Shank.Upper.Ant x converged at 0 mm from IC. Min obj: 145.1174
+L.Shank.Upper.Ant y:
+ Iter: 504 Obj: 146.2868 Marker cost: 142.648 Tilt cost: 3.6388 Avg RMS: 4.0938 Marker coordinate: L.Shank.Upper.Ant y Steps from IC (mm): 1 time: 1095.6624
+ Iter: 505 Obj: 145.5343 Marker cost: 141.9027 Tilt cost: 3.6316 Avg RMS: 4.0883 Marker coordinate: L.Shank.Upper.Ant y Steps from IC (mm): -1 time: 1097.803
+L.Shank.Upper.Ant y converged at 0 mm from IC. Min obj: 145.1174
+L.Shank.Upper.Ant z:
+ Iter: 506 Obj: 145.2574 Marker cost: 141.6215 Tilt cost: 3.6359 Avg RMS: 4.0847 Marker coordinate: L.Shank.Upper.Ant z Steps from IC (mm): 1 time: 1099.9493
+ Iter: 507 Obj: 146.3107 Marker cost: 142.6809 Tilt cost: 3.6298 Avg RMS: 4.0944 Marker coordinate: L.Shank.Upper.Ant z Steps from IC (mm): -1 time: 1102.1017
+L.Shank.Upper.Ant z converged at 0 mm from IC. Min obj: 145.1174
+L.Shank.Lower.Ant x:
+ Iter: 508 Obj: 146.1086 Marker cost: 142.4678 Tilt cost: 3.6408 Avg RMS: 4.0926 Marker coordinate: L.Shank.Lower.Ant x Steps from IC (mm): 1 time: 1104.2615
+ Iter: 509 Obj: 145.2693 Marker cost: 141.6405 Tilt cost: 3.6288 Avg RMS: 4.0856 Marker coordinate: L.Shank.Lower.Ant x Steps from IC (mm): -1 time: 1106.4174
+L.Shank.Lower.Ant x converged at 0 mm from IC. Min obj: 145.1174
+L.Shank.Lower.Ant y:
+ Iter: 510 Obj: 146.0692 Marker cost: 142.4313 Tilt cost: 3.6379 Avg RMS: 4.0915 Marker coordinate: L.Shank.Lower.Ant y Steps from IC (mm): 1 time: 1108.6747
+ Iter: 511 Obj: 145.4477 Marker cost: 141.815 Tilt cost: 3.6327 Avg RMS: 4.0876 Marker coordinate: L.Shank.Lower.Ant y Steps from IC (mm): -1 time: 1110.8362
+L.Shank.Lower.Ant y converged at 0 mm from IC. Min obj: 145.1174
+L.Shank.Lower.Ant z:
+ Iter: 512 Obj: 145.255 Marker cost: 141.6185 Tilt cost: 3.6365 Avg RMS: 4.0847 Marker coordinate: L.Shank.Lower.Ant z Steps from IC (mm): 1 time: 1113.061
+ Iter: 513 Obj: 145.9497 Marker cost: 142.3184 Tilt cost: 3.6313 Avg RMS: 4.0919 Marker coordinate: L.Shank.Lower.Ant z Steps from IC (mm): -1 time: 1115.2223
+L.Shank.Lower.Ant z converged at 0 mm from IC. Min obj: 145.1174
+L.Shank.Lower.Post x:
+ Iter: 514 Obj: 145.6585 Marker cost: 142.0194 Tilt cost: 3.6391 Avg RMS: 4.0894 Marker coordinate: L.Shank.Lower.Post x Steps from IC (mm): 1 time: 1117.3846
+ Iter: 515 Obj: 145.5557 Marker cost: 141.927 Tilt cost: 3.6287 Avg RMS: 4.0873 Marker coordinate: L.Shank.Lower.Post x Steps from IC (mm): -1 time: 1119.5423
+L.Shank.Lower.Post x converged at 0 mm from IC. Min obj: 145.1174
+L.Shank.Lower.Post y:
+ Iter: 516 Obj: 145.6354 Marker cost: 141.9948 Tilt cost: 3.6406 Avg RMS: 4.0894 Marker coordinate: L.Shank.Lower.Post y Steps from IC (mm): 1 time: 1121.6993
+ Iter: 517 Obj: 145.4998 Marker cost: 141.8693 Tilt cost: 3.6304 Avg RMS: 4.0868 Marker coordinate: L.Shank.Lower.Post y Steps from IC (mm): -1 time: 1123.8548
+L.Shank.Lower.Post y converged at 0 mm from IC. Min obj: 145.1174
+L.Shank.Lower.Post z:
+ Iter: 518 Obj: 145.4418 Marker cost: 141.8087 Tilt cost: 3.6331 Avg RMS: 4.0861 Marker coordinate: L.Shank.Lower.Post z Steps from IC (mm): 1 time: 1126.0093
+ Iter: 519 Obj: 146.1594 Marker cost: 142.5246 Tilt cost: 3.6348 Avg RMS: 4.0941 Marker coordinate: L.Shank.Lower.Post z Steps from IC (mm): -1 time: 1128.1807
+L.Shank.Lower.Post z converged at 0 mm from IC. Min obj: 145.1174
+L.Ankle.Lat x:
+ Iter: 520 Obj: 145.6574 Marker cost: 142.022 Tilt cost: 3.6354 Avg RMS: 4.0905 Marker coordinate: L.Ankle.Lat x Steps from IC (mm): 1 time: 1130.334
+ Iter: 521 Obj: 145.8805 Marker cost: 142.245 Tilt cost: 3.6355 Avg RMS: 4.0882 Marker coordinate: L.Ankle.Lat x Steps from IC (mm): -1 time: 1132.4904
+L.Ankle.Lat x converged at 0 mm from IC. Min obj: 145.1174
+L.Ankle.Lat y:
+ Iter: 522 Obj: 146.1288 Marker cost: 142.4955 Tilt cost: 3.6333 Avg RMS: 4.0905 Marker coordinate: L.Ankle.Lat y Steps from IC (mm): 1 time: 1134.6329
+ Iter: 523 Obj: 145.0626 Marker cost: 141.4279 Tilt cost: 3.6347 Avg RMS: 4.086 Marker coordinate: L.Ankle.Lat y Steps from IC (mm): -1 time: 1136.7883
+ Iter: 524 Obj: 145.7307 Marker cost: 142.0989 Tilt cost: 3.6318 Avg RMS: 4.0924 Marker coordinate: L.Ankle.Lat y Steps from IC (mm): -2 time: 1138.9466
+L.Ankle.Lat y converged at -1 mm from IC. Min obj: 145.0626
+L.Ankle.Lat z:
+ Iter: 525 Obj: 145.9806 Marker cost: 142.3457 Tilt cost: 3.6349 Avg RMS: 4.0929 Marker coordinate: L.Ankle.Lat z Steps from IC (mm): 1 time: 1141.1035
+ Iter: 526 Obj: 144.9354 Marker cost: 141.3019 Tilt cost: 3.6335 Avg RMS: 4.0851 Marker coordinate: L.Ankle.Lat z Steps from IC (mm): -1 time: 1143.2605
+ Iter: 527 Obj: 145.7913 Marker cost: 142.1559 Tilt cost: 3.6354 Avg RMS: 4.0913 Marker coordinate: L.Ankle.Lat z Steps from IC (mm): -2 time: 1145.4138
+L.Ankle.Lat z converged at -1 mm from IC. Min obj: 144.9354
+L.Ankle.Med x:
+ Iter: 528 Obj: 144.9354 Marker cost: 141.3019 Tilt cost: 3.6335 Avg RMS: 4.0851 Marker coordinate: L.Ankle.Med x Steps from IC (mm): 1 time: 1147.5677
+Marker coordinate has no effect on IK
+L.Ankle.Med y:
+ Iter: 529 Obj: 144.9354 Marker cost: 141.3019 Tilt cost: 3.6335 Avg RMS: 4.0851 Marker coordinate: L.Ankle.Med y Steps from IC (mm): 1 time: 1149.7112
+Marker coordinate has no effect on IK
+L.Ankle.Med z:
+ Iter: 530 Obj: 144.9354 Marker cost: 141.3019 Tilt cost: 3.6335 Avg RMS: 4.0851 Marker coordinate: L.Ankle.Med z Steps from IC (mm): 1 time: 1151.8708
+Marker coordinate has no effect on IK
+L.Heel.Upper x:
+ Iter: 531 Obj: 145.8187 Marker cost: 142.1841 Tilt cost: 3.6346 Avg RMS: 4.0912 Marker coordinate: L.Heel.Upper x Steps from IC (mm): 1 time: 1154.0335
+ Iter: 532 Obj: 145.5149 Marker cost: 141.8803 Tilt cost: 3.6345 Avg RMS: 4.0898 Marker coordinate: L.Heel.Upper x Steps from IC (mm): -1 time: 1156.303
+L.Heel.Upper x converged at 0 mm from IC. Min obj: 144.9354
+L.Heel.Upper y:
+ Iter: 533 Obj: 145.4571 Marker cost: 141.8222 Tilt cost: 3.6349 Avg RMS: 4.0872 Marker coordinate: L.Heel.Upper y Steps from IC (mm): 1 time: 1158.4507
+ Iter: 534 Obj: 145.794 Marker cost: 142.1613 Tilt cost: 3.6327 Avg RMS: 4.0938 Marker coordinate: L.Heel.Upper y Steps from IC (mm): -1 time: 1160.607
+L.Heel.Upper y converged at 0 mm from IC. Min obj: 144.9354
+L.Heel.Upper z:
+ Iter: 535 Obj: 145.851 Marker cost: 142.217 Tilt cost: 3.634 Avg RMS: 4.0936 Marker coordinate: L.Heel.Upper z Steps from IC (mm): 1 time: 1162.7573
+ Iter: 536 Obj: 144.9842 Marker cost: 141.3495 Tilt cost: 3.6346 Avg RMS: 4.0837 Marker coordinate: L.Heel.Upper z Steps from IC (mm): -1 time: 1164.9097
+L.Heel.Upper z converged at 0 mm from IC. Min obj: 144.9354
+L.Heel.Med x:
+ Iter: 537 Obj: 145.6755 Marker cost: 142.0464 Tilt cost: 3.6291 Avg RMS: 4.0904 Marker coordinate: L.Heel.Med x Steps from IC (mm): 1 time: 1167.0558
+ Iter: 538 Obj: 145.4687 Marker cost: 141.8303 Tilt cost: 3.6385 Avg RMS: 4.0892 Marker coordinate: L.Heel.Med x Steps from IC (mm): -1 time: 1169.2151
+L.Heel.Med x converged at 0 mm from IC. Min obj: 144.9354
+L.Heel.Med y:
+ Iter: 539 Obj: 145.5718 Marker cost: 141.9365 Tilt cost: 3.6353 Avg RMS: 4.0865 Marker coordinate: L.Heel.Med y Steps from IC (mm): 1 time: 1171.3709
+ Iter: 540 Obj: 145.7189 Marker cost: 142.0837 Tilt cost: 3.6352 Avg RMS: 4.0941 Marker coordinate: L.Heel.Med y Steps from IC (mm): -1 time: 1173.5259
+L.Heel.Med y converged at 0 mm from IC. Min obj: 144.9354
+L.Heel.Med z:
+ Iter: 541 Obj: 145.0159 Marker cost: 141.3876 Tilt cost: 3.6283 Avg RMS: 4.0857 Marker coordinate: L.Heel.Med z Steps from IC (mm): 1 time: 1175.6788
+ Iter: 542 Obj: 145.7184 Marker cost: 142.0802 Tilt cost: 3.6382 Avg RMS: 4.0907 Marker coordinate: L.Heel.Med z Steps from IC (mm): -1 time: 1177.8376
+L.Heel.Med z converged at 0 mm from IC. Min obj: 144.9354
+L.Heel.Lat x:
+ Iter: 543 Obj: 145.2713 Marker cost: 141.6392 Tilt cost: 3.6321 Avg RMS: 4.0871 Marker coordinate: L.Heel.Lat x Steps from IC (mm): 1 time: 1180.0359
+ Iter: 544 Obj: 145.8196 Marker cost: 142.1817 Tilt cost: 3.6379 Avg RMS: 4.0922 Marker coordinate: L.Heel.Lat x Steps from IC (mm): -1 time: 1182.1842
+L.Heel.Lat x converged at 0 mm from IC. Min obj: 144.9354
+L.Heel.Lat y:
+ Iter: 545 Obj: 146.164 Marker cost: 142.5246 Tilt cost: 3.6394 Avg RMS: 4.0934 Marker coordinate: L.Heel.Lat y Steps from IC (mm): 1 time: 1184.3364
+ Iter: 546 Obj: 144.8458 Marker cost: 141.2166 Tilt cost: 3.6292 Avg RMS: 4.0851 Marker coordinate: L.Heel.Lat y Steps from IC (mm): -1 time: 1186.4913
+ Iter: 547 Obj: 145.8572 Marker cost: 142.2305 Tilt cost: 3.6267 Avg RMS: 4.0934 Marker coordinate: L.Heel.Lat y Steps from IC (mm): -2 time: 1188.6336
+L.Heel.Lat y converged at -1 mm from IC. Min obj: 144.8458
+L.Heel.Lat z:
+ Iter: 548 Obj: 145.5779 Marker cost: 141.9525 Tilt cost: 3.6253 Avg RMS: 4.0915 Marker coordinate: L.Heel.Lat z Steps from IC (mm): 1 time: 1190.7883
+ Iter: 549 Obj: 145.0419 Marker cost: 141.4062 Tilt cost: 3.6357 Avg RMS: 4.0859 Marker coordinate: L.Heel.Lat z Steps from IC (mm): -1 time: 1192.9355
+L.Heel.Lat z converged at 0 mm from IC. Min obj: 144.8458
+L.Toe.Lat x:
+ Iter: 550 Obj: 145.2333 Marker cost: 141.6059 Tilt cost: 3.6275 Avg RMS: 4.0868 Marker coordinate: L.Toe.Lat x Steps from IC (mm): 1 time: 1195.0873
+ Iter: 551 Obj: 145.3793 Marker cost: 141.7471 Tilt cost: 3.6322 Avg RMS: 4.0903 Marker coordinate: L.Toe.Lat x Steps from IC (mm): -1 time: 1197.2421
+L.Toe.Lat x converged at 0 mm from IC. Min obj: 144.8458
+L.Toe.Lat y:
+ Iter: 552 Obj: 145.4984 Marker cost: 141.86 Tilt cost: 3.6384 Avg RMS: 4.0915 Marker coordinate: L.Toe.Lat y Steps from IC (mm): 1 time: 1199.4007
+ Iter: 553 Obj: 145.3292 Marker cost: 141.7064 Tilt cost: 3.6228 Avg RMS: 4.0878 Marker coordinate: L.Toe.Lat y Steps from IC (mm): -1 time: 1201.5511
+L.Toe.Lat y converged at 0 mm from IC. Min obj: 144.8458
+L.Toe.Lat z:
+ Iter: 554 Obj: 145.4269 Marker cost: 141.7937 Tilt cost: 3.6332 Avg RMS: 4.0905 Marker coordinate: L.Toe.Lat z Steps from IC (mm): 1 time: 1203.6968
+ Iter: 555 Obj: 144.9422 Marker cost: 141.3117 Tilt cost: 3.6305 Avg RMS: 4.0853 Marker coordinate: L.Toe.Lat z Steps from IC (mm): -1 time: 1205.9916
+L.Toe.Lat z converged at 0 mm from IC. Min obj: 144.8458
+L.Toe.Med x:
+ Iter: 556 Obj: 145.636 Marker cost: 142.0103 Tilt cost: 3.6256 Avg RMS: 4.0899 Marker coordinate: L.Toe.Med x Steps from IC (mm): 1 time: 1208.1354
+ Iter: 557 Obj: 145.3904 Marker cost: 141.7544 Tilt cost: 3.636 Avg RMS: 4.0908 Marker coordinate: L.Toe.Med x Steps from IC (mm): -1 time: 1210.2881
+L.Toe.Med x converged at 0 mm from IC. Min obj: 144.8458
+L.Toe.Med y:
+ Iter: 558 Obj: 145.6165 Marker cost: 141.9853 Tilt cost: 3.6312 Avg RMS: 4.0894 Marker coordinate: L.Toe.Med y Steps from IC (mm): 1 time: 1212.4443
+ Iter: 559 Obj: 145.0373 Marker cost: 141.4068 Tilt cost: 3.6305 Avg RMS: 4.088 Marker coordinate: L.Toe.Med y Steps from IC (mm): -1 time: 1214.6033
+L.Toe.Med y converged at 0 mm from IC. Min obj: 144.8458
+L.Toe.Med z:
+ Iter: 560 Obj: 144.9971 Marker cost: 141.3668 Tilt cost: 3.6303 Avg RMS: 4.0877 Marker coordinate: L.Toe.Med z Steps from IC (mm): 1 time: 1216.7595
+ Iter: 561 Obj: 145.196 Marker cost: 141.5674 Tilt cost: 3.6286 Avg RMS: 4.0865 Marker coordinate: L.Toe.Med z Steps from IC (mm): -1 time: 1218.9159
+L.Toe.Med z converged at 0 mm from IC. Min obj: 144.8458
+L.Toe.Tip x:
+ Iter: 562 Obj: 145.0826 Marker cost: 141.4517 Tilt cost: 3.6309 Avg RMS: 4.0867 Marker coordinate: L.Toe.Tip x Steps from IC (mm): 1 time: 1221.1095
+ Iter: 563 Obj: 145.3167 Marker cost: 141.6863 Tilt cost: 3.6304 Avg RMS: 4.0888 Marker coordinate: L.Toe.Tip x Steps from IC (mm): -1 time: 1223.2615
+L.Toe.Tip x converged at 0 mm from IC. Min obj: 144.8458
+L.Toe.Tip y:
+ Iter: 564 Obj: 145.0493 Marker cost: 141.4203 Tilt cost: 3.6291 Avg RMS: 4.0859 Marker coordinate: L.Toe.Tip y Steps from IC (mm): 1 time: 1225.4151
+ Iter: 565 Obj: 145.3117 Marker cost: 141.6823 Tilt cost: 3.6294 Avg RMS: 4.0891 Marker coordinate: L.Toe.Tip y Steps from IC (mm): -1 time: 1227.575
+L.Toe.Tip y converged at 0 mm from IC. Min obj: 144.8458
+L.Toe.Tip z:
+ Iter: 566 Obj: 145.4239 Marker cost: 141.7945 Tilt cost: 3.6294 Avg RMS: 4.0901 Marker coordinate: L.Toe.Tip z Steps from IC (mm): 1 time: 1229.7332
+ Iter: 567 Obj: 145.1367 Marker cost: 141.5068 Tilt cost: 3.6299 Avg RMS: 4.087 Marker coordinate: L.Toe.Tip z Steps from IC (mm): -1 time: 1231.8801
+L.Toe.Tip z converged at 0 mm from IC. Min obj: 144.8458
+Cervical.Spine x:
+ Iter: 568 Obj: 145.0196 Marker cost: 141.3896 Tilt cost: 3.6299 Avg RMS: 4.0863 Marker coordinate: Cervical.Spine x Steps from IC (mm): 1 time: 1234.0217
+ Iter: 569 Obj: 145.6508 Marker cost: 142.022 Tilt cost: 3.6288 Avg RMS: 4.0914 Marker coordinate: Cervical.Spine x Steps from IC (mm): -1 time: 1236.164
+Cervical.Spine x converged at 0 mm from IC. Min obj: 144.8458
+Cervical.Spine y:
+ Iter: 570 Obj: 145.6995 Marker cost: 142.0646 Tilt cost: 3.635 Avg RMS: 4.0916 Marker coordinate: Cervical.Spine y Steps from IC (mm): 1 time: 1238.3222
+ Iter: 571 Obj: 145.0763 Marker cost: 141.447 Tilt cost: 3.6292 Avg RMS: 4.0871 Marker coordinate: Cervical.Spine y Steps from IC (mm): -1 time: 1240.4747
+Cervical.Spine y converged at 0 mm from IC. Min obj: 144.8458
+Cervical.Spine z:
+ Iter: 572 Obj: 144.9214 Marker cost: 141.2899 Tilt cost: 3.6315 Avg RMS: 4.0848 Marker coordinate: Cervical.Spine z Steps from IC (mm): 1 time: 1242.6211
+ Iter: 573 Obj: 145.5348 Marker cost: 141.9059 Tilt cost: 3.6289 Avg RMS: 4.091 Marker coordinate: Cervical.Spine z Steps from IC (mm): -1 time: 1244.7742
+Cervical.Spine z converged at 0 mm from IC. Min obj: 144.8458
+Back x:
+ Iter: 574 Obj: 144.7973 Marker cost: 141.1628 Tilt cost: 3.6345 Avg RMS: 4.0848 Marker coordinate: Back x Steps from IC (mm): 1 time: 1246.9458
+ Iter: 575 Obj: 145.3902 Marker cost: 141.7474 Tilt cost: 3.6428 Avg RMS: 4.089 Marker coordinate: Back x Steps from IC (mm): 2 time: 1249.1007
+Back x converged at 1 mm from IC. Min obj: 144.7973
+Back y:
+ Iter: 576 Obj: 145.3583 Marker cost: 141.7215 Tilt cost: 3.6368 Avg RMS: 4.0882 Marker coordinate: Back y Steps from IC (mm): 1 time: 1251.2412
+ Iter: 577 Obj: 145.0801 Marker cost: 141.4469 Tilt cost: 3.6332 Avg RMS: 4.0875 Marker coordinate: Back y Steps from IC (mm): -1 time: 1253.3858
+Back y converged at 0 mm from IC. Min obj: 144.7973
+Back z:
+ Iter: 578 Obj: 145.4506 Marker cost: 141.8146 Tilt cost: 3.636 Avg RMS: 4.088 Marker coordinate: Back z Steps from IC (mm): 1 time: 1255.5382
+ Iter: 579 Obj: 145.4123 Marker cost: 141.7765 Tilt cost: 3.6359 Avg RMS: 4.0909 Marker coordinate: Back z Steps from IC (mm): -1 time: 1257.6943
+Back z converged at 0 mm from IC. Min obj: 144.7973
+Sternum x:
+Marker coordinate Sternum x is locked.
+Sternum y:
+Marker coordinate Sternum y is locked.
+Sternum z:
+Marker coordinate Sternum z is locked.
+R.Acromium x:
+ Iter: 580 Obj: 145.1562 Marker cost: 141.5199 Tilt cost: 3.6363 Avg RMS: 4.0871 Marker coordinate: R.Acromium x Steps from IC (mm): 1 time: 1259.9921
+ Iter: 581 Obj: 145.2724 Marker cost: 141.6375 Tilt cost: 3.6349 Avg RMS: 4.0889 Marker coordinate: R.Acromium x Steps from IC (mm): -1 time: 1262.2495
+R.Acromium x converged at 0 mm from IC. Min obj: 144.7973
+R.Acromium y:
+ Iter: 582 Obj: 145.0543 Marker cost: 141.4124 Tilt cost: 3.6419 Avg RMS: 4.0852 Marker coordinate: R.Acromium y Steps from IC (mm): 1 time: 1264.402
+ Iter: 583 Obj: 145.496 Marker cost: 141.8646 Tilt cost: 3.6314 Avg RMS: 4.0914 Marker coordinate: R.Acromium y Steps from IC (mm): -1 time: 1266.5578
+R.Acromium y converged at 0 mm from IC. Min obj: 144.7973
+R.Acromium z:
+ Iter: 584 Obj: 145.405 Marker cost: 141.7694 Tilt cost: 3.6356 Avg RMS: 4.0888 Marker coordinate: R.Acromium z Steps from IC (mm): 1 time: 1268.7098
+ Iter: 585 Obj: 145.3632 Marker cost: 141.7282 Tilt cost: 3.635 Avg RMS: 4.0892 Marker coordinate: R.Acromium z Steps from IC (mm): -1 time: 1270.8711
+R.Acromium z converged at 0 mm from IC. Min obj: 144.7973
+L.Acromium x:
+ Iter: 586 Obj: 144.8818 Marker cost: 141.2434 Tilt cost: 3.6384 Avg RMS: 4.0861 Marker coordinate: L.Acromium x Steps from IC (mm): 1 time: 1273.0231
+ Iter: 587 Obj: 145.537 Marker cost: 141.903 Tilt cost: 3.634 Avg RMS: 4.0901 Marker coordinate: L.Acromium x Steps from IC (mm): -1 time: 1275.1638
+L.Acromium x converged at 0 mm from IC. Min obj: 144.7973
+L.Acromium y:
+ Iter: 588 Obj: 145.1256 Marker cost: 141.4837 Tilt cost: 3.6419 Avg RMS: 4.0877 Marker coordinate: L.Acromium y Steps from IC (mm): 1 time: 1277.3199
+ Iter: 589 Obj: 145.2859 Marker cost: 141.6535 Tilt cost: 3.6324 Avg RMS: 4.0879 Marker coordinate: L.Acromium y Steps from IC (mm): -1 time: 1279.458
+L.Acromium y converged at 0 mm from IC. Min obj: 144.7973
+L.Acromium z:
+ Iter: 590 Obj: 145.4341 Marker cost: 141.7983 Tilt cost: 3.6358 Avg RMS: 4.0899 Marker coordinate: L.Acromium z Steps from IC (mm): 1 time: 1281.616
+ Iter: 591 Obj: 145.0792 Marker cost: 141.4447 Tilt cost: 3.6344 Avg RMS: 4.0868 Marker coordinate: L.Acromium z Steps from IC (mm): -1 time: 1283.8027
+L.Acromium z converged at 0 mm from IC. Min obj: 144.7973
+Top.Head x:
+ Iter: 592 Obj: 144.7844 Marker cost: 141.1511 Tilt cost: 3.6333 Avg RMS: 4.0847 Marker coordinate: Top.Head x Steps from IC (mm): 1 time: 1285.9459
+ Iter: 593 Obj: 144.8764 Marker cost: 141.2488 Tilt cost: 3.6276 Avg RMS: 4.0843 Marker coordinate: Top.Head x Steps from IC (mm): 2 time: 1288.0831
+Top.Head x converged at 1 mm from IC. Min obj: 144.7844
+Top.Head y:
+ Iter: 594 Obj: 145.1648 Marker cost: 141.5287 Tilt cost: 3.6361 Avg RMS: 4.0868 Marker coordinate: Top.Head y Steps from IC (mm): 1 time: 1290.2312
+ Iter: 595 Obj: 145.2282 Marker cost: 141.6012 Tilt cost: 3.627 Avg RMS: 4.0883 Marker coordinate: Top.Head y Steps from IC (mm): -1 time: 1292.3969
+Top.Head y converged at 0 mm from IC. Min obj: 144.7844
+Top.Head z:
+ Iter: 596 Obj: 144.7629 Marker cost: 141.13 Tilt cost: 3.6329 Avg RMS: 4.0852 Marker coordinate: Top.Head z Steps from IC (mm): 1 time: 1294.5415
+ Iter: 597 Obj: 145.3714 Marker cost: 141.7366 Tilt cost: 3.6348 Avg RMS: 4.0906 Marker coordinate: Top.Head z Steps from IC (mm): 2 time: 1296.6953
+Top.Head z converged at 1 mm from IC. Min obj: 144.7629
+R.ASIS x:
+ Iter: 598 Obj: 145.2065 Marker cost: 141.5835 Tilt cost: 3.6231 Avg RMS: 4.0892 Marker coordinate: R.ASIS x Steps from IC (mm): 1 time: 1298.8538
+ Iter: 599 Obj: 145.1716 Marker cost: 141.5309 Tilt cost: 3.6407 Avg RMS: 4.0869 Marker coordinate: R.ASIS x Steps from IC (mm): -1 time: 1301.0119
+R.ASIS x converged at 0 mm from IC. Min obj: 144.7629
+R.ASIS y:
+ Iter: 600 Obj: 144.7205 Marker cost: 141.2463 Tilt cost: 3.4742 Avg RMS: 4.0858 Marker coordinate: R.ASIS y Steps from IC (mm): 1 time: 1303.1815
+ Iter: 601 Obj: 145.8709 Marker cost: 142.5503 Tilt cost: 3.3206 Avg RMS: 4.0959 Marker coordinate: R.ASIS y Steps from IC (mm): 2 time: 1305.3401
+R.ASIS y converged at 1 mm from IC. Min obj: 144.7205
+R.ASIS z:
+ Iter: 602 Obj: 145.6403 Marker cost: 142.1692 Tilt cost: 3.4711 Avg RMS: 4.0931 Marker coordinate: R.ASIS z Steps from IC (mm): 1 time: 1307.4953
+ Iter: 603 Obj: 144.8348 Marker cost: 141.3573 Tilt cost: 3.4774 Avg RMS: 4.0868 Marker coordinate: R.ASIS z Steps from IC (mm): -1 time: 1309.6466
+R.ASIS z converged at 0 mm from IC. Min obj: 144.7205
+L.ASIS x:
+ Iter: 604 Obj: 145.8638 Marker cost: 142.3935 Tilt cost: 3.4704 Avg RMS: 4.095 Marker coordinate: L.ASIS x Steps from IC (mm): 1 time: 1311.7919
+ Iter: 605 Obj: 145.5314 Marker cost: 142.0527 Tilt cost: 3.4787 Avg RMS: 4.0913 Marker coordinate: L.ASIS x Steps from IC (mm): -1 time: 1313.9482
+L.ASIS x converged at 0 mm from IC. Min obj: 144.7205
+L.ASIS y:
+ Iter: 606 Obj: 145.5726 Marker cost: 142.2561 Tilt cost: 3.3165 Avg RMS: 4.0932 Marker coordinate: L.ASIS y Steps from IC (mm): 1 time: 1316.1075
+ Iter: 607 Obj: 145.0762 Marker cost: 141.442 Tilt cost: 3.6342 Avg RMS: 4.0882 Marker coordinate: L.ASIS y Steps from IC (mm): -1 time: 1318.2576
+L.ASIS y converged at 0 mm from IC. Min obj: 144.7205
+L.ASIS z:
+ Iter: 608 Obj: 145.4226 Marker cost: 141.9508 Tilt cost: 3.4718 Avg RMS: 4.0911 Marker coordinate: L.ASIS z Steps from IC (mm): 1 time: 1320.4132
+ Iter: 609 Obj: 145.3455 Marker cost: 141.8652 Tilt cost: 3.4803 Avg RMS: 4.0915 Marker coordinate: L.ASIS z Steps from IC (mm): -1 time: 1322.5574
+L.ASIS z converged at 0 mm from IC. Min obj: 144.7205
+R.PSIS x:
+ Iter: 610 Obj: 145.6201 Marker cost: 142.1076 Tilt cost: 3.5125 Avg RMS: 4.093 Marker coordinate: R.PSIS x Steps from IC (mm): 1 time: 1324.712
+ Iter: 611 Obj: 145.0368 Marker cost: 141.5985 Tilt cost: 3.4383 Avg RMS: 4.0886 Marker coordinate: R.PSIS x Steps from IC (mm): -1 time: 1326.8645
+R.PSIS x converged at 0 mm from IC. Min obj: 144.7205
+R.PSIS y:
+ Iter: 612 Obj: 145.0275 Marker cost: 141.4384 Tilt cost: 3.5892 Avg RMS: 4.0872 Marker coordinate: R.PSIS y Steps from IC (mm): 1 time: 1329.0083
+ Iter: 613 Obj: 145.3642 Marker cost: 142.0027 Tilt cost: 3.3615 Avg RMS: 4.0925 Marker coordinate: R.PSIS y Steps from IC (mm): -1 time: 1331.1652
+R.PSIS y converged at 0 mm from IC. Min obj: 144.7205
+R.PSIS z:
+ Iter: 614 Obj: 145.3108 Marker cost: 141.8353 Tilt cost: 3.4755 Avg RMS: 4.0911 Marker coordinate: R.PSIS z Steps from IC (mm): 1 time: 1333.3241
+ Iter: 615 Obj: 144.9475 Marker cost: 141.4726 Tilt cost: 3.475 Avg RMS: 4.0867 Marker coordinate: R.PSIS z Steps from IC (mm): -1 time: 1335.4753
+R.PSIS z converged at 0 mm from IC. Min obj: 144.7205
+L.PSIS x:
+ Iter: 616 Obj: 145.6583 Marker cost: 142.1418 Tilt cost: 3.5165 Avg RMS: 4.0937 Marker coordinate: L.PSIS x Steps from IC (mm): 1 time: 1337.6301
+ Iter: 617 Obj: 144.984 Marker cost: 141.5517 Tilt cost: 3.4322 Avg RMS: 4.0875 Marker coordinate: L.PSIS x Steps from IC (mm): -1 time: 1339.7726
+L.PSIS x converged at 0 mm from IC. Min obj: 144.7205
+L.PSIS y:
+ Iter: 618 Obj: 144.7297 Marker cost: 141.1423 Tilt cost: 3.5873 Avg RMS: 4.0853 Marker coordinate: L.PSIS y Steps from IC (mm): 1 time: 1341.9355
+ Iter: 619 Obj: 146.0734 Marker cost: 142.7055 Tilt cost: 3.3679 Avg RMS: 4.0969 Marker coordinate: L.PSIS y Steps from IC (mm): -1 time: 1344.0882
+L.PSIS y converged at 0 mm from IC. Min obj: 144.7205
+L.PSIS z:
+ Iter: 620 Obj: 145.7284 Marker cost: 142.2509 Tilt cost: 3.4775 Avg RMS: 4.0949 Marker coordinate: L.PSIS z Steps from IC (mm): 1 time: 1346.2416
+ Iter: 621 Obj: 145.5162 Marker cost: 142.0401 Tilt cost: 3.4761 Avg RMS: 4.0912 Marker coordinate: L.PSIS z Steps from IC (mm): -1 time: 1348.3786
+L.PSIS z converged at 0 mm from IC. Min obj: 144.7205
+R.Great.Tro x:
+ Iter: 622 Obj: 144.7205 Marker cost: 141.2463 Tilt cost: 3.4742 Avg RMS: 4.0858 Marker coordinate: R.Great.Tro x Steps from IC (mm): 1 time: 1350.5258
+Marker coordinate has no effect on IK
+R.Great.Tro y:
+ Iter: 623 Obj: 144.7205 Marker cost: 141.2463 Tilt cost: 3.4742 Avg RMS: 4.0858 Marker coordinate: R.Great.Tro y Steps from IC (mm): 1 time: 1352.6799
+Marker coordinate has no effect on IK
+R.Great.Tro z:
+ Iter: 624 Obj: 144.7205 Marker cost: 141.2463 Tilt cost: 3.4742 Avg RMS: 4.0858 Marker coordinate: R.Great.Tro z Steps from IC (mm): 1 time: 1354.8726
+Marker coordinate has no effect on IK
+L.Great.Tro x:
+ Iter: 625 Obj: 144.7205 Marker cost: 141.2463 Tilt cost: 3.4742 Avg RMS: 4.0858 Marker coordinate: L.Great.Tro x Steps from IC (mm): 1 time: 1357.0237
+Marker coordinate has no effect on IK
+L.Great.Tro y:
+ Iter: 626 Obj: 144.7205 Marker cost: 141.2463 Tilt cost: 3.4742 Avg RMS: 4.0858 Marker coordinate: L.Great.Tro y Steps from IC (mm): 1 time: 1359.1682
+Marker coordinate has no effect on IK
+L.Great.Tro z:
+ Iter: 627 Obj: 144.7205 Marker cost: 141.2463 Tilt cost: 3.4742 Avg RMS: 4.0858 Marker coordinate: L.Great.Tro z Steps from IC (mm): 1 time: 1361.4526
+Marker coordinate has no effect on IK
+R.Iliac.Crest x:
+ Iter: 628 Obj: 145.4208 Marker cost: 141.9394 Tilt cost: 3.4813 Avg RMS: 4.0904 Marker coordinate: R.Iliac.Crest x Steps from IC (mm): 1 time: 1363.6067
+ Iter: 629 Obj: 144.8616 Marker cost: 141.3919 Tilt cost: 3.4697 Avg RMS: 4.0876 Marker coordinate: R.Iliac.Crest x Steps from IC (mm): -1 time: 1365.755
+R.Iliac.Crest x converged at 0 mm from IC. Min obj: 144.7205
+R.Iliac.Crest y:
+ Iter: 630 Obj: 144.9976 Marker cost: 141.5238 Tilt cost: 3.4738 Avg RMS: 4.0862 Marker coordinate: R.Iliac.Crest y Steps from IC (mm): 1 time: 1367.8993
+ Iter: 631 Obj: 145.2601 Marker cost: 141.7862 Tilt cost: 3.4739 Avg RMS: 4.0914 Marker coordinate: R.Iliac.Crest y Steps from IC (mm): -1 time: 1370.0572
+R.Iliac.Crest y converged at 0 mm from IC. Min obj: 144.7205
+R.Iliac.Crest z:
+ Iter: 632 Obj: 145.3208 Marker cost: 141.8462 Tilt cost: 3.4747 Avg RMS: 4.0913 Marker coordinate: R.Iliac.Crest z Steps from IC (mm): 1 time: 1372.2542
+ Iter: 633 Obj: 145.5661 Marker cost: 142.0923 Tilt cost: 3.4738 Avg RMS: 4.0919 Marker coordinate: R.Iliac.Crest z Steps from IC (mm): -1 time: 1374.3976
+R.Iliac.Crest z converged at 0 mm from IC. Min obj: 144.7205
+L.Iliac.Crest x:
+ Iter: 634 Obj: 145.0615 Marker cost: 141.5777 Tilt cost: 3.4837 Avg RMS: 4.0894 Marker coordinate: L.Iliac.Crest x Steps from IC (mm): 1 time: 1376.5409
+ Iter: 635 Obj: 145.5519 Marker cost: 142.0815 Tilt cost: 3.4704 Avg RMS: 4.0918 Marker coordinate: L.Iliac.Crest x Steps from IC (mm): -1 time: 1378.6972
+L.Iliac.Crest x converged at 0 mm from IC. Min obj: 144.7205
+L.Iliac.Crest y:
+ Iter: 636 Obj: 145.8287 Marker cost: 142.3545 Tilt cost: 3.4742 Avg RMS: 4.0944 Marker coordinate: L.Iliac.Crest y Steps from IC (mm): 1 time: 1381.0641
+ Iter: 637 Obj: 145.1904 Marker cost: 141.7153 Tilt cost: 3.475 Avg RMS: 4.0897 Marker coordinate: L.Iliac.Crest y Steps from IC (mm): -1 time: 1383.2821
+L.Iliac.Crest y converged at 0 mm from IC. Min obj: 144.7205
+L.Iliac.Crest z:
+ Iter: 638 Obj: 145.6052 Marker cost: 142.1294 Tilt cost: 3.4758 Avg RMS: 4.0936 Marker coordinate: L.Iliac.Crest z Steps from IC (mm): 1 time: 1385.4611
+ Iter: 639 Obj: 145.0262 Marker cost: 141.5527 Tilt cost: 3.4735 Avg RMS: 4.0871 Marker coordinate: L.Iliac.Crest z Steps from IC (mm): -1 time: 1387.6186
+L.Iliac.Crest z converged at 0 mm from IC. Min obj: 144.7205
+V.Sacral x:
+ Iter: 640 Obj: 145.255 Marker cost: 141.779 Tilt cost: 3.476 Avg RMS: 4.0904 Marker coordinate: V.Sacral x Steps from IC (mm): 1 time: 1389.779
+ Iter: 641 Obj: 145.0818 Marker cost: 141.6062 Tilt cost: 3.4756 Avg RMS: 4.0884 Marker coordinate: V.Sacral x Steps from IC (mm): -1 time: 1392.0111
+V.Sacral x converged at 0 mm from IC. Min obj: 144.7205
+V.Sacral y:
+ Iter: 642 Obj: 145.371 Marker cost: 141.8817 Tilt cost: 3.4894 Avg RMS: 4.09 Marker coordinate: V.Sacral y Steps from IC (mm): 1 time: 1394.1871
+ Iter: 643 Obj: 144.8341 Marker cost: 141.3738 Tilt cost: 3.4603 Avg RMS: 4.0882 Marker coordinate: V.Sacral y Steps from IC (mm): -1 time: 1396.365
+V.Sacral y converged at 0 mm from IC. Min obj: 144.7205
+V.Sacral z:
+ Iter: 644 Obj: 145.3156 Marker cost: 141.8405 Tilt cost: 3.4751 Avg RMS: 4.0913 Marker coordinate: V.Sacral z Steps from IC (mm): 1 time: 1398.5344
+ Iter: 645 Obj: 145.4286 Marker cost: 141.9532 Tilt cost: 3.4754 Avg RMS: 4.0909 Marker coordinate: V.Sacral z Steps from IC (mm): -1 time: 1400.7127
+V.Sacral z converged at 0 mm from IC. Min obj: 144.7205
+R.Thigh.Upper.Post x:
+ Iter: 646 Obj: 145.2638 Marker cost: 141.8144 Tilt cost: 3.4493 Avg RMS: 4.0899 Marker coordinate: R.Thigh.Upper.Post x Steps from IC (mm): 1 time: 1402.8844
+ Iter: 647 Obj: 145.4044 Marker cost: 141.9036 Tilt cost: 3.5008 Avg RMS: 4.0914 Marker coordinate: R.Thigh.Upper.Post x Steps from IC (mm): -1 time: 1405.0521
+R.Thigh.Upper.Post x converged at 0 mm from IC. Min obj: 144.7205
+R.Thigh.Upper.Post y:
+ Iter: 648 Obj: 145.4985 Marker cost: 142.0268 Tilt cost: 3.4717 Avg RMS: 4.0921 Marker coordinate: R.Thigh.Upper.Post y Steps from IC (mm): 1 time: 1407.2289
+ Iter: 649 Obj: 145.3261 Marker cost: 141.8457 Tilt cost: 3.4804 Avg RMS: 4.0903 Marker coordinate: R.Thigh.Upper.Post y Steps from IC (mm): -1 time: 1409.5586
+R.Thigh.Upper.Post y converged at 0 mm from IC. Min obj: 144.7205
+R.Thigh.Upper.Post z:
+ Iter: 650 Obj: 145.4325 Marker cost: 141.9556 Tilt cost: 3.4769 Avg RMS: 4.0927 Marker coordinate: R.Thigh.Upper.Post z Steps from IC (mm): 1 time: 1411.6546
+ Iter: 651 Obj: 145.19 Marker cost: 141.7149 Tilt cost: 3.4751 Avg RMS: 4.0883 Marker coordinate: R.Thigh.Upper.Post z Steps from IC (mm): -1 time: 1413.7614
+R.Thigh.Upper.Post z converged at 0 mm from IC. Min obj: 144.7205
+R.Thigh.Upper.Ant x:
+ Iter: 652 Obj: 145.7048 Marker cost: 142.2541 Tilt cost: 3.4508 Avg RMS: 4.0921 Marker coordinate: R.Thigh.Upper.Ant x Steps from IC (mm): 1 time: 1415.9515
+ Iter: 653 Obj: 144.7007 Marker cost: 141.2012 Tilt cost: 3.4995 Avg RMS: 4.0871 Marker coordinate: R.Thigh.Upper.Ant x Steps from IC (mm): -1 time: 1418.0623
+ Iter: 654 Obj: 145.721 Marker cost: 142.1944 Tilt cost: 3.5265 Avg RMS: 4.0952 Marker coordinate: R.Thigh.Upper.Ant x Steps from IC (mm): -2 time: 1420.1556
+R.Thigh.Upper.Ant x converged at -1 mm from IC. Min obj: 144.7007
+R.Thigh.Upper.Ant y:
+ Iter: 655 Obj: 145.4378 Marker cost: 141.9264 Tilt cost: 3.5114 Avg RMS: 4.092 Marker coordinate: R.Thigh.Upper.Ant y Steps from IC (mm): 1 time: 1422.2586
+ Iter: 656 Obj: 145.143 Marker cost: 141.6535 Tilt cost: 3.4896 Avg RMS: 4.0906 Marker coordinate: R.Thigh.Upper.Ant y Steps from IC (mm): -1 time: 1424.3635
+R.Thigh.Upper.Ant y converged at 0 mm from IC. Min obj: 144.7007
+R.Thigh.Upper.Ant z:
+ Iter: 657 Obj: 145.1176 Marker cost: 141.6239 Tilt cost: 3.4937 Avg RMS: 4.089 Marker coordinate: R.Thigh.Upper.Ant z Steps from IC (mm): 1 time: 1426.4824
+ Iter: 658 Obj: 145.529 Marker cost: 142.0227 Tilt cost: 3.5063 Avg RMS: 4.0937 Marker coordinate: R.Thigh.Upper.Ant z Steps from IC (mm): -1 time: 1428.7292
+R.Thigh.Upper.Ant z converged at 0 mm from IC. Min obj: 144.7007
+R.Thigh.Lower.Ant x:
+ Iter: 659 Obj: 145.5589 Marker cost: 142.0658 Tilt cost: 3.493 Avg RMS: 4.0915 Marker coordinate: R.Thigh.Lower.Ant x Steps from IC (mm): 1 time: 1430.8287
+ Iter: 660 Obj: 145.0033 Marker cost: 141.4956 Tilt cost: 3.5077 Avg RMS: 4.0911 Marker coordinate: R.Thigh.Lower.Ant x Steps from IC (mm): -1 time: 1432.9213
+R.Thigh.Lower.Ant x converged at 0 mm from IC. Min obj: 144.7007
+R.Thigh.Lower.Ant y:
+ Iter: 661 Obj: 145.6216 Marker cost: 142.1108 Tilt cost: 3.5108 Avg RMS: 4.0937 Marker coordinate: R.Thigh.Lower.Ant y Steps from IC (mm): 1 time: 1435.0276
+ Iter: 662 Obj: 144.9461 Marker cost: 141.4576 Tilt cost: 3.4885 Avg RMS: 4.088 Marker coordinate: R.Thigh.Lower.Ant y Steps from IC (mm): -1 time: 1437.5072
+R.Thigh.Lower.Ant y converged at 0 mm from IC. Min obj: 144.7007
+R.Thigh.Lower.Ant z:
+ Iter: 663 Obj: 144.9024 Marker cost: 141.41 Tilt cost: 3.4924 Avg RMS: 4.0875 Marker coordinate: R.Thigh.Lower.Ant z Steps from IC (mm): 1 time: 1439.6448
+ Iter: 664 Obj: 145.5167 Marker cost: 142.0107 Tilt cost: 3.506 Avg RMS: 4.0937 Marker coordinate: R.Thigh.Lower.Ant z Steps from IC (mm): -1 time: 1441.7525
+R.Thigh.Lower.Ant z converged at 0 mm from IC. Min obj: 144.7007
+R.Thigh.Lower.Post x:
+ Iter: 665 Obj: 145.504 Marker cost: 142.0125 Tilt cost: 3.4915 Avg RMS: 4.0915 Marker coordinate: R.Thigh.Lower.Post x Steps from IC (mm): 1 time: 1443.8404
+ Iter: 666 Obj: 144.7616 Marker cost: 141.2544 Tilt cost: 3.5073 Avg RMS: 4.0888 Marker coordinate: R.Thigh.Lower.Post x Steps from IC (mm): -1 time: 1445.939
+R.Thigh.Lower.Post x converged at 0 mm from IC. Min obj: 144.7007
+R.Thigh.Lower.Post y:
+ Iter: 667 Obj: 145.1095 Marker cost: 141.6123 Tilt cost: 3.4972 Avg RMS: 4.0906 Marker coordinate: R.Thigh.Lower.Post y Steps from IC (mm): 1 time: 1448.0273
+ Iter: 668 Obj: 145.1583 Marker cost: 141.6559 Tilt cost: 3.5023 Avg RMS: 4.0893 Marker coordinate: R.Thigh.Lower.Post y Steps from IC (mm): -1 time: 1450.1288
+R.Thigh.Lower.Post y converged at 0 mm from IC. Min obj: 144.7007
+R.Thigh.Lower.Post z:
+ Iter: 669 Obj: 144.738 Marker cost: 141.24 Tilt cost: 3.498 Avg RMS: 4.0874 Marker coordinate: R.Thigh.Lower.Post z Steps from IC (mm): 1 time: 1452.2359
+ Iter: 670 Obj: 146.0059 Marker cost: 142.5044 Tilt cost: 3.5015 Avg RMS: 4.0958 Marker coordinate: R.Thigh.Lower.Post z Steps from IC (mm): -1 time: 1454.3286
+R.Thigh.Lower.Post z converged at 0 mm from IC. Min obj: 144.7007
+R.Knee.Lat x:
+ Iter: 671 Obj: 145.2189 Marker cost: 141.7195 Tilt cost: 3.4994 Avg RMS: 4.0929 Marker coordinate: R.Knee.Lat x Steps from IC (mm): 1 time: 1456.4659
+ Iter: 672 Obj: 145.1031 Marker cost: 141.6043 Tilt cost: 3.4989 Avg RMS: 4.0877 Marker coordinate: R.Knee.Lat x Steps from IC (mm): -1 time: 1458.5664
+R.Knee.Lat x converged at 0 mm from IC. Min obj: 144.7007
+R.Knee.Lat y:
+ Iter: 673 Obj: 145.4925 Marker cost: 141.9904 Tilt cost: 3.5021 Avg RMS: 4.094 Marker coordinate: R.Knee.Lat y Steps from IC (mm): 1 time: 1460.6584
+ Iter: 674 Obj: 145.3336 Marker cost: 141.8339 Tilt cost: 3.4997 Avg RMS: 4.0907 Marker coordinate: R.Knee.Lat y Steps from IC (mm): -1 time: 1462.7696
+R.Knee.Lat y converged at 0 mm from IC. Min obj: 144.7007
+R.Knee.Lat z:
+ Iter: 675 Obj: 145.6121 Marker cost: 142.115 Tilt cost: 3.4972 Avg RMS: 4.093 Marker coordinate: R.Knee.Lat z Steps from IC (mm): 1 time: 1464.8763
+ Iter: 676 Obj: 145.1344 Marker cost: 141.6322 Tilt cost: 3.5022 Avg RMS: 4.091 Marker coordinate: R.Knee.Lat z Steps from IC (mm): -1 time: 1467.0786
+R.Knee.Lat z converged at 0 mm from IC. Min obj: 144.7007
+R.Knee.Med x:
+ Iter: 677 Obj: 144.7007 Marker cost: 141.2012 Tilt cost: 3.4995 Avg RMS: 4.0871 Marker coordinate: R.Knee.Med x Steps from IC (mm): 1 time: 1469.188
+Marker coordinate has no effect on IK
+R.Knee.Med y:
+ Iter: 678 Obj: 144.7007 Marker cost: 141.2012 Tilt cost: 3.4995 Avg RMS: 4.0871 Marker coordinate: R.Knee.Med y Steps from IC (mm): 1 time: 1471.2972
+Marker coordinate has no effect on IK
+R.Knee.Med z:
+ Iter: 679 Obj: 144.7007 Marker cost: 141.2012 Tilt cost: 3.4995 Avg RMS: 4.0871 Marker coordinate: R.Knee.Med z Steps from IC (mm): 1 time: 1473.4056
+Marker coordinate has no effect on IK
+R.Shank.Upper.Post x:
+ Iter: 680 Obj: 145.6359 Marker cost: 142.1231 Tilt cost: 3.5127 Avg RMS: 4.0946 Marker coordinate: R.Shank.Upper.Post x Steps from IC (mm): 1 time: 1475.4971
+ Iter: 681 Obj: 144.7197 Marker cost: 141.2292 Tilt cost: 3.4905 Avg RMS: 4.0863 Marker coordinate: R.Shank.Upper.Post x Steps from IC (mm): -1 time: 1477.6772
+R.Shank.Upper.Post x converged at 0 mm from IC. Min obj: 144.7007
+R.Shank.Upper.Post y:
+ Iter: 682 Obj: 145.0327 Marker cost: 141.528 Tilt cost: 3.5047 Avg RMS: 4.0902 Marker coordinate: R.Shank.Upper.Post y Steps from IC (mm): 1 time: 1479.7877
+ Iter: 683 Obj: 145.3138 Marker cost: 141.8179 Tilt cost: 3.496 Avg RMS: 4.0905 Marker coordinate: R.Shank.Upper.Post y Steps from IC (mm): -1 time: 1481.8928
+R.Shank.Upper.Post y converged at 0 mm from IC. Min obj: 144.7007
+R.Shank.Upper.Post z:
+ Iter: 684 Obj: 145.0491 Marker cost: 141.5482 Tilt cost: 3.5009 Avg RMS: 4.0905 Marker coordinate: R.Shank.Upper.Post z Steps from IC (mm): 1 time: 1484.1013
+ Iter: 685 Obj: 145.2017 Marker cost: 141.7016 Tilt cost: 3.5001 Avg RMS: 4.0894 Marker coordinate: R.Shank.Upper.Post z Steps from IC (mm): -1 time: 1486.3821
+R.Shank.Upper.Post z converged at 0 mm from IC. Min obj: 144.7007
+R.Shank.Upper.Ant x:
+ Iter: 686 Obj: 145.6411 Marker cost: 142.13 Tilt cost: 3.5112 Avg RMS: 4.0948 Marker coordinate: R.Shank.Upper.Ant x Steps from IC (mm): 1 time: 1488.721
+ Iter: 687 Obj: 144.9353 Marker cost: 141.445 Tilt cost: 3.4902 Avg RMS: 4.0882 Marker coordinate: R.Shank.Upper.Ant x Steps from IC (mm): -1 time: 1491.261
+R.Shank.Upper.Ant x converged at 0 mm from IC. Min obj: 144.7007
+R.Shank.Upper.Ant y:
+ Iter: 688 Obj: 145.3963 Marker cost: 141.8946 Tilt cost: 3.5017 Avg RMS: 4.0925 Marker coordinate: R.Shank.Upper.Ant y Steps from IC (mm): 1 time: 1493.4376
+ Iter: 689 Obj: 145.1472 Marker cost: 141.6512 Tilt cost: 3.496 Avg RMS: 4.0895 Marker coordinate: R.Shank.Upper.Ant y Steps from IC (mm): -1 time: 1495.6471
+R.Shank.Upper.Ant y converged at 0 mm from IC. Min obj: 144.7007
+R.Shank.Upper.Ant z:
+ Iter: 690 Obj: 145.5003 Marker cost: 142.0037 Tilt cost: 3.4966 Avg RMS: 4.0929 Marker coordinate: R.Shank.Upper.Ant z Steps from IC (mm): 1 time: 1497.8101
+ Iter: 691 Obj: 144.8256 Marker cost: 141.3219 Tilt cost: 3.5037 Avg RMS: 4.0878 Marker coordinate: R.Shank.Upper.Ant z Steps from IC (mm): -1 time: 1500.8032
+R.Shank.Upper.Ant z converged at 0 mm from IC. Min obj: 144.7007
+R.Shank.Lower.Ant x:
+ Iter: 692 Obj: 145.5455 Marker cost: 142.039 Tilt cost: 3.5066 Avg RMS: 4.0933 Marker coordinate: R.Shank.Lower.Ant x Steps from IC (mm): 1 time: 1502.9669
+ Iter: 693 Obj: 145.1705 Marker cost: 141.677 Tilt cost: 3.4936 Avg RMS: 4.0909 Marker coordinate: R.Shank.Lower.Ant x Steps from IC (mm): -1 time: 1506.0382
+R.Shank.Lower.Ant x converged at 0 mm from IC. Min obj: 144.7007
+R.Shank.Lower.Ant y:
+ Iter: 694 Obj: 145.2179 Marker cost: 141.7136 Tilt cost: 3.5044 Avg RMS: 4.091 Marker coordinate: R.Shank.Lower.Ant y Steps from IC (mm): 1 time: 1508.5122
+ Iter: 695 Obj: 145.2647 Marker cost: 141.7672 Tilt cost: 3.4975 Avg RMS: 4.0908 Marker coordinate: R.Shank.Lower.Ant y Steps from IC (mm): -1 time: 1510.9004
+R.Shank.Lower.Ant y converged at 0 mm from IC. Min obj: 144.7007
+R.Shank.Lower.Ant z:
+ Iter: 696 Obj: 144.9858 Marker cost: 141.4899 Tilt cost: 3.4959 Avg RMS: 4.0885 Marker coordinate: R.Shank.Lower.Ant z Steps from IC (mm): 1 time: 1513.0018
+ Iter: 697 Obj: 145.3031 Marker cost: 141.801 Tilt cost: 3.5022 Avg RMS: 4.092 Marker coordinate: R.Shank.Lower.Ant z Steps from IC (mm): -1 time: 1515.1211
+R.Shank.Lower.Ant z converged at 0 mm from IC. Min obj: 144.7007
+R.Shank.Lower.Post x:
+ Iter: 698 Obj: 145.4182 Marker cost: 141.9122 Tilt cost: 3.506 Avg RMS: 4.0927 Marker coordinate: R.Shank.Lower.Post x Steps from IC (mm): 1 time: 1517.2193
+ Iter: 699 Obj: 145.2733 Marker cost: 141.778 Tilt cost: 3.4954 Avg RMS: 4.0912 Marker coordinate: R.Shank.Lower.Post x Steps from IC (mm): -1 time: 1519.335
+R.Shank.Lower.Post x converged at 0 mm from IC. Min obj: 144.7007
+R.Shank.Lower.Post y:
+ Iter: 700 Obj: 145.6098 Marker cost: 142.1051 Tilt cost: 3.5047 Avg RMS: 4.0945 Marker coordinate: R.Shank.Lower.Post y Steps from IC (mm): 1 time: 1521.4559
+ Iter: 701 Obj: 144.9189 Marker cost: 141.4237 Tilt cost: 3.4952 Avg RMS: 4.0876 Marker coordinate: R.Shank.Lower.Post y Steps from IC (mm): -1 time: 1523.5587
+R.Shank.Lower.Post y converged at 0 mm from IC. Min obj: 144.7007
+R.Shank.Lower.Post z:
+ Iter: 702 Obj: 145.195 Marker cost: 141.6939 Tilt cost: 3.5011 Avg RMS: 4.0915 Marker coordinate: R.Shank.Lower.Post z Steps from IC (mm): 1 time: 1525.6546
+ Iter: 703 Obj: 145.4929 Marker cost: 141.9937 Tilt cost: 3.4992 Avg RMS: 4.0922 Marker coordinate: R.Shank.Lower.Post z Steps from IC (mm): -1 time: 1527.7725
+R.Shank.Lower.Post z converged at 0 mm from IC. Min obj: 144.7007
+R.Ankle.Lat x:
+ Iter: 704 Obj: 145.1996 Marker cost: 141.7009 Tilt cost: 3.4987 Avg RMS: 4.0895 Marker coordinate: R.Ankle.Lat x Steps from IC (mm): 1 time: 1529.8801
+ Iter: 705 Obj: 145.2899 Marker cost: 141.7895 Tilt cost: 3.5004 Avg RMS: 4.092 Marker coordinate: R.Ankle.Lat x Steps from IC (mm): -1 time: 1532.0059
+R.Ankle.Lat x converged at 0 mm from IC. Min obj: 144.7007
+R.Ankle.Lat y:
+ Iter: 706 Obj: 145.3173 Marker cost: 141.8171 Tilt cost: 3.5002 Avg RMS: 4.091 Marker coordinate: R.Ankle.Lat y Steps from IC (mm): 1 time: 1534.1236
+ Iter: 707 Obj: 145.3844 Marker cost: 141.8856 Tilt cost: 3.4988 Avg RMS: 4.0924 Marker coordinate: R.Ankle.Lat y Steps from IC (mm): -1 time: 1536.2496
+R.Ankle.Lat y converged at 0 mm from IC. Min obj: 144.7007
+R.Ankle.Lat z:
+ Iter: 708 Obj: 145.4624 Marker cost: 141.9625 Tilt cost: 3.5 Avg RMS: 4.0925 Marker coordinate: R.Ankle.Lat z Steps from IC (mm): 1 time: 1538.3572
+ Iter: 709 Obj: 145.1584 Marker cost: 141.6585 Tilt cost: 3.4999 Avg RMS: 4.0906 Marker coordinate: R.Ankle.Lat z Steps from IC (mm): -1 time: 1540.4503
+R.Ankle.Lat z converged at 0 mm from IC. Min obj: 144.7007
+R.Ankle.Med x:
+ Iter: 710 Obj: 144.7007 Marker cost: 141.2012 Tilt cost: 3.4995 Avg RMS: 4.0871 Marker coordinate: R.Ankle.Med x Steps from IC (mm): 1 time: 1542.5473
+Marker coordinate has no effect on IK
+R.Ankle.Med y:
+ Iter: 711 Obj: 144.7007 Marker cost: 141.2012 Tilt cost: 3.4995 Avg RMS: 4.0871 Marker coordinate: R.Ankle.Med y Steps from IC (mm): 1 time: 1544.7633
+Marker coordinate has no effect on IK
+R.Ankle.Med z:
+ Iter: 712 Obj: 144.7007 Marker cost: 141.2012 Tilt cost: 3.4995 Avg RMS: 4.0871 Marker coordinate: R.Ankle.Med z Steps from IC (mm): 1 time: 1546.8672
+Marker coordinate has no effect on IK
+R.Heel.Upper x:
+ Iter: 713 Obj: 145.1727 Marker cost: 141.6736 Tilt cost: 3.4991 Avg RMS: 4.0893 Marker coordinate: R.Heel.Upper x Steps from IC (mm): 1 time: 1548.9658
+ Iter: 714 Obj: 145.3503 Marker cost: 141.8503 Tilt cost: 3.5 Avg RMS: 4.0927 Marker coordinate: R.Heel.Upper x Steps from IC (mm): -1 time: 1551.0617
+R.Heel.Upper x converged at 0 mm from IC. Min obj: 144.7007
+R.Heel.Upper y:
+ Iter: 715 Obj: 145.0395 Marker cost: 141.5394 Tilt cost: 3.5001 Avg RMS: 4.0896 Marker coordinate: R.Heel.Upper y Steps from IC (mm): 1 time: 1553.1613
+ Iter: 716 Obj: 145.6467 Marker cost: 142.1471 Tilt cost: 3.4996 Avg RMS: 4.094 Marker coordinate: R.Heel.Upper y Steps from IC (mm): -1 time: 1555.2634
+R.Heel.Upper y converged at 0 mm from IC. Min obj: 144.7007
+R.Heel.Upper z:
+ Iter: 717 Obj: 145.1932 Marker cost: 141.6931 Tilt cost: 3.5002 Avg RMS: 4.0904 Marker coordinate: R.Heel.Upper z Steps from IC (mm): 1 time: 1557.3804
+ Iter: 718 Obj: 145.9876 Marker cost: 142.4873 Tilt cost: 3.5004 Avg RMS: 4.0971 Marker coordinate: R.Heel.Upper z Steps from IC (mm): -1 time: 1559.4684
+R.Heel.Upper z converged at 0 mm from IC. Min obj: 144.7007
+R.Heel.Med x:
+ Iter: 719 Obj: 145.193 Marker cost: 141.6973 Tilt cost: 3.4957 Avg RMS: 4.0908 Marker coordinate: R.Heel.Med x Steps from IC (mm): 1 time: 1561.5818
+ Iter: 720 Obj: 145.1032 Marker cost: 141.5998 Tilt cost: 3.5034 Avg RMS: 4.0894 Marker coordinate: R.Heel.Med x Steps from IC (mm): -1 time: 1563.6836
+R.Heel.Med x converged at 0 mm from IC. Min obj: 144.7007
+R.Heel.Med y:
+ Iter: 721 Obj: 145.5091 Marker cost: 142.012 Tilt cost: 3.497 Avg RMS: 4.0925 Marker coordinate: R.Heel.Med y Steps from IC (mm): 1 time: 1565.8938
+ Iter: 722 Obj: 145.478 Marker cost: 141.9783 Tilt cost: 3.4997 Avg RMS: 4.0925 Marker coordinate: R.Heel.Med y Steps from IC (mm): -1 time: 1567.996
+R.Heel.Med y converged at 0 mm from IC. Min obj: 144.7007
+R.Heel.Med z:
+ Iter: 723 Obj: 145.4169 Marker cost: 141.9135 Tilt cost: 3.5034 Avg RMS: 4.0924 Marker coordinate: R.Heel.Med z Steps from IC (mm): 1 time: 1570.0938
+ Iter: 724 Obj: 144.8147 Marker cost: 141.3186 Tilt cost: 3.4961 Avg RMS: 4.0875 Marker coordinate: R.Heel.Med z Steps from IC (mm): -1 time: 1572.1881
+R.Heel.Med z converged at 0 mm from IC. Min obj: 144.7007
+R.Heel.Lat x:
+ Iter: 725 Obj: 145.1069 Marker cost: 141.6092 Tilt cost: 3.4977 Avg RMS: 4.0901 Marker coordinate: R.Heel.Lat x Steps from IC (mm): 1 time: 1574.4463
+ Iter: 726 Obj: 145.3929 Marker cost: 141.8892 Tilt cost: 3.5037 Avg RMS: 4.092 Marker coordinate: R.Heel.Lat x Steps from IC (mm): -1 time: 1576.55
+R.Heel.Lat x converged at 0 mm from IC. Min obj: 144.7007
+R.Heel.Lat y:
+ Iter: 727 Obj: 144.9976 Marker cost: 141.4953 Tilt cost: 3.5023 Avg RMS: 4.0889 Marker coordinate: R.Heel.Lat y Steps from IC (mm): 1 time: 1578.664
+ Iter: 728 Obj: 145.4509 Marker cost: 141.9556 Tilt cost: 3.4953 Avg RMS: 4.0921 Marker coordinate: R.Heel.Lat y Steps from IC (mm): -1 time: 1580.8312
+R.Heel.Lat y converged at 0 mm from IC. Min obj: 144.7007
+R.Heel.Lat z:
+ Iter: 729 Obj: 145.6331 Marker cost: 142.1289 Tilt cost: 3.5043 Avg RMS: 4.0946 Marker coordinate: R.Heel.Lat z Steps from IC (mm): 1 time: 1582.9182
+ Iter: 730 Obj: 145.0327 Marker cost: 141.5385 Tilt cost: 3.4942 Avg RMS: 4.0889 Marker coordinate: R.Heel.Lat z Steps from IC (mm): -1 time: 1585.0137
+R.Heel.Lat z converged at 0 mm from IC. Min obj: 144.7007
+R.Toe.Lat x:
+ Iter: 731 Obj: 144.7007 Marker cost: 141.2012 Tilt cost: 3.4995 Avg RMS: 4.0871 Marker coordinate: R.Toe.Lat x Steps from IC (mm): 1 time: 1587.1233
+Marker coordinate has no effect on IK
+R.Toe.Lat y:
+ Iter: 732 Obj: 144.7007 Marker cost: 141.2012 Tilt cost: 3.4995 Avg RMS: 4.0871 Marker coordinate: R.Toe.Lat y Steps from IC (mm): 1 time: 1589.2352
+Marker coordinate has no effect on IK
+R.Toe.Lat z:
+ Iter: 733 Obj: 144.7007 Marker cost: 141.2012 Tilt cost: 3.4995 Avg RMS: 4.0871 Marker coordinate: R.Toe.Lat z Steps from IC (mm): 1 time: 1591.3281
+Marker coordinate has no effect on IK
+R.Toe.Med x:
+ Iter: 734 Obj: 145.2686 Marker cost: 141.772 Tilt cost: 3.4966 Avg RMS: 4.0913 Marker coordinate: R.Toe.Med x Steps from IC (mm): 1 time: 1593.4357
+ Iter: 735 Obj: 145.2892 Marker cost: 141.7864 Tilt cost: 3.5028 Avg RMS: 4.0913 Marker coordinate: R.Toe.Med x Steps from IC (mm): -1 time: 1595.5311
+R.Toe.Med x converged at 0 mm from IC. Min obj: 144.7007
+R.Toe.Med y:
+ Iter: 736 Obj: 145.3008 Marker cost: 141.7977 Tilt cost: 3.5031 Avg RMS: 4.0912 Marker coordinate: R.Toe.Med y Steps from IC (mm): 1 time: 1597.8105
+ Iter: 737 Obj: 145.733 Marker cost: 142.2353 Tilt cost: 3.4976 Avg RMS: 4.095 Marker coordinate: R.Toe.Med y Steps from IC (mm): -1 time: 1599.9055
+R.Toe.Med y converged at 0 mm from IC. Min obj: 144.7007
+R.Toe.Med z:
+ Iter: 738 Obj: 145.2689 Marker cost: 141.765 Tilt cost: 3.5039 Avg RMS: 4.0909 Marker coordinate: R.Toe.Med z Steps from IC (mm): 1 time: 1602.0125
+ Iter: 739 Obj: 145.8492 Marker cost: 142.3513 Tilt cost: 3.4979 Avg RMS: 4.0961 Marker coordinate: R.Toe.Med z Steps from IC (mm): -1 time: 1604.1053
+R.Toe.Med z converged at 0 mm from IC. Min obj: 144.7007
+R.Toe.Tip x:
+ Iter: 740 Obj: 145.4546 Marker cost: 141.9569 Tilt cost: 3.4977 Avg RMS: 4.0928 Marker coordinate: R.Toe.Tip x Steps from IC (mm): 1 time: 1606.2002
+ Iter: 741 Obj: 144.9633 Marker cost: 141.4634 Tilt cost: 3.4999 Avg RMS: 4.0882 Marker coordinate: R.Toe.Tip x Steps from IC (mm): -1 time: 1608.2926
+R.Toe.Tip x converged at 0 mm from IC. Min obj: 144.7007
+R.Toe.Tip y:
+ Iter: 742 Obj: 145.3809 Marker cost: 141.8795 Tilt cost: 3.5014 Avg RMS: 4.0923 Marker coordinate: R.Toe.Tip y Steps from IC (mm): 1 time: 1610.394
+ Iter: 743 Obj: 144.8759 Marker cost: 141.3768 Tilt cost: 3.4991 Avg RMS: 4.0879 Marker coordinate: R.Toe.Tip y Steps from IC (mm): -1 time: 1612.4837
+R.Toe.Tip y converged at 0 mm from IC. Min obj: 144.7007
+R.Toe.Tip z:
+ Iter: 744 Obj: 145.0916 Marker cost: 141.591 Tilt cost: 3.5006 Avg RMS: 4.0899 Marker coordinate: R.Toe.Tip z Steps from IC (mm): 1 time: 1614.6035
+ Iter: 745 Obj: 145.4699 Marker cost: 141.972 Tilt cost: 3.498 Avg RMS: 4.0927 Marker coordinate: R.Toe.Tip z Steps from IC (mm): -1 time: 1616.7137
+R.Toe.Tip z converged at 0 mm from IC. Min obj: 144.7007
+L.Thigh.Upper.Post x:
+ Iter: 746 Obj: 145.6394 Marker cost: 142.1664 Tilt cost: 3.4731 Avg RMS: 4.0933 Marker coordinate: L.Thigh.Upper.Post x Steps from IC (mm): 1 time: 1618.8106
+ Iter: 747 Obj: 145.0898 Marker cost: 141.5647 Tilt cost: 3.5251 Avg RMS: 4.0902 Marker coordinate: L.Thigh.Upper.Post x Steps from IC (mm): -1 time: 1620.9149
+L.Thigh.Upper.Post x converged at 0 mm from IC. Min obj: 144.7007
+L.Thigh.Upper.Post y:
+ Iter: 748 Obj: 145.9851 Marker cost: 142.4918 Tilt cost: 3.4932 Avg RMS: 4.0982 Marker coordinate: L.Thigh.Upper.Post y Steps from IC (mm): 1 time: 1623.0123
+ Iter: 749 Obj: 144.8449 Marker cost: 141.3397 Tilt cost: 3.5053 Avg RMS: 4.0856 Marker coordinate: L.Thigh.Upper.Post y Steps from IC (mm): -1 time: 1625.1134
+L.Thigh.Upper.Post y converged at 0 mm from IC. Min obj: 144.7007
+L.Thigh.Upper.Post z:
+ Iter: 750 Obj: 144.9912 Marker cost: 141.4887 Tilt cost: 3.5025 Avg RMS: 4.0886 Marker coordinate: L.Thigh.Upper.Post z Steps from IC (mm): 1 time: 1627.2519
+ Iter: 751 Obj: 145.323 Marker cost: 141.8251 Tilt cost: 3.498 Avg RMS: 4.0919 Marker coordinate: L.Thigh.Upper.Post z Steps from IC (mm): -1 time: 1629.3443
+L.Thigh.Upper.Post z converged at 0 mm from IC. Min obj: 144.7007
+L.Thigh.Upper.Ant x:
+ Iter: 752 Obj: 145.2218 Marker cost: 141.7458 Tilt cost: 3.476 Avg RMS: 4.0895 Marker coordinate: L.Thigh.Upper.Ant x Steps from IC (mm): 1 time: 1631.4511
+ Iter: 753 Obj: 144.9719 Marker cost: 141.4469 Tilt cost: 3.525 Avg RMS: 4.0899 Marker coordinate: L.Thigh.Upper.Ant x Steps from IC (mm): -1 time: 1633.5557
+L.Thigh.Upper.Ant x converged at 0 mm from IC. Min obj: 144.7007
+L.Thigh.Upper.Ant y:
+ Iter: 754 Obj: 145.2415 Marker cost: 141.7322 Tilt cost: 3.5093 Avg RMS: 4.0929 Marker coordinate: L.Thigh.Upper.Ant y Steps from IC (mm): 1 time: 1635.6498
+ Iter: 755 Obj: 145.4162 Marker cost: 141.9248 Tilt cost: 3.4914 Avg RMS: 4.089 Marker coordinate: L.Thigh.Upper.Ant y Steps from IC (mm): -1 time: 1637.7687
+L.Thigh.Upper.Ant y converged at 0 mm from IC. Min obj: 144.7007
+L.Thigh.Upper.Ant z:
+ Iter: 756 Obj: 145.6025 Marker cost: 142.096 Tilt cost: 3.5064 Avg RMS: 4.0937 Marker coordinate: L.Thigh.Upper.Ant z Steps from IC (mm): 1 time: 1639.855
+ Iter: 757 Obj: 145.1054 Marker cost: 141.6111 Tilt cost: 3.4942 Avg RMS: 4.09 Marker coordinate: L.Thigh.Upper.Ant z Steps from IC (mm): -1 time: 1641.9504
+L.Thigh.Upper.Ant z converged at 0 mm from IC. Min obj: 144.7007
+L.Thigh.Lower.Ant x:
+ Iter: 758 Obj: 145.0451 Marker cost: 141.5528 Tilt cost: 3.4923 Avg RMS: 4.0899 Marker coordinate: L.Thigh.Lower.Ant x Steps from IC (mm): 1 time: 1644.0456
+ Iter: 759 Obj: 145.6097 Marker cost: 142.102 Tilt cost: 3.5077 Avg RMS: 4.093 Marker coordinate: L.Thigh.Lower.Ant x Steps from IC (mm): -1 time: 1646.1396
+L.Thigh.Lower.Ant x converged at 0 mm from IC. Min obj: 144.7007
+L.Thigh.Lower.Ant y:
+ Iter: 760 Obj: 146.0335 Marker cost: 142.5194 Tilt cost: 3.5141 Avg RMS: 4.0993 Marker coordinate: L.Thigh.Lower.Ant y Steps from IC (mm): 1 time: 1648.244
+ Iter: 761 Obj: 144.7318 Marker cost: 141.2442 Tilt cost: 3.4876 Avg RMS: 4.0838 Marker coordinate: L.Thigh.Lower.Ant y Steps from IC (mm): -1 time: 1650.3696
+L.Thigh.Lower.Ant y converged at 0 mm from IC. Min obj: 144.7007
+L.Thigh.Lower.Ant z:
+ Iter: 762 Obj: 145.2493 Marker cost: 141.7405 Tilt cost: 3.5088 Avg RMS: 4.0908 Marker coordinate: L.Thigh.Lower.Ant z Steps from IC (mm): 1 time: 1652.6414
+ Iter: 763 Obj: 145.1863 Marker cost: 141.6933 Tilt cost: 3.493 Avg RMS: 4.0909 Marker coordinate: L.Thigh.Lower.Ant z Steps from IC (mm): -1 time: 1654.7565
+L.Thigh.Lower.Ant z converged at 0 mm from IC. Min obj: 144.7007
+L.Thigh.Lower.Post x:
+ Iter: 764 Obj: 145.4212 Marker cost: 141.9301 Tilt cost: 3.491 Avg RMS: 4.0923 Marker coordinate: L.Thigh.Lower.Post x Steps from IC (mm): 1 time: 1656.8613
+ Iter: 765 Obj: 144.8821 Marker cost: 141.3723 Tilt cost: 3.5098 Avg RMS: 4.0877 Marker coordinate: L.Thigh.Lower.Post x Steps from IC (mm): -1 time: 1659.0142
+L.Thigh.Lower.Post x converged at 0 mm from IC. Min obj: 144.7007
+L.Thigh.Lower.Post y:
+ Iter: 766 Obj: 145.312 Marker cost: 141.8153 Tilt cost: 3.4966 Avg RMS: 4.093 Marker coordinate: L.Thigh.Lower.Post y Steps from IC (mm): 1 time: 1661.116
+ Iter: 767 Obj: 145.4388 Marker cost: 141.9373 Tilt cost: 3.5015 Avg RMS: 4.0902 Marker coordinate: L.Thigh.Lower.Post y Steps from IC (mm): -1 time: 1663.2175
+L.Thigh.Lower.Post y converged at 0 mm from IC. Min obj: 144.7007
+L.Thigh.Lower.Post z:
+ Iter: 768 Obj: 145.6479 Marker cost: 142.143 Tilt cost: 3.5049 Avg RMS: 4.0939 Marker coordinate: L.Thigh.Lower.Post z Steps from IC (mm): 1 time: 1665.3121
+ Iter: 769 Obj: 145.0589 Marker cost: 141.5655 Tilt cost: 3.4934 Avg RMS: 4.0892 Marker coordinate: L.Thigh.Lower.Post z Steps from IC (mm): -1 time: 1667.4497
+L.Thigh.Lower.Post z converged at 0 mm from IC. Min obj: 144.7007
+L.Knee.Lat x:
+ Iter: 770 Obj: 145.7893 Marker cost: 142.2882 Tilt cost: 3.5011 Avg RMS: 4.0963 Marker coordinate: L.Knee.Lat x Steps from IC (mm): 1 time: 1669.5458
+ Iter: 771 Obj: 145.4049 Marker cost: 141.9058 Tilt cost: 3.4991 Avg RMS: 4.0914 Marker coordinate: L.Knee.Lat x Steps from IC (mm): -1 time: 1671.6447
+L.Knee.Lat x converged at 0 mm from IC. Min obj: 144.7007
+L.Knee.Lat y:
+ Iter: 772 Obj: 145.0694 Marker cost: 141.5702 Tilt cost: 3.4992 Avg RMS: 4.09 Marker coordinate: L.Knee.Lat y Steps from IC (mm): 1 time: 1673.7501
+ Iter: 773 Obj: 145.7707 Marker cost: 142.2693 Tilt cost: 3.5014 Avg RMS: 4.0949 Marker coordinate: L.Knee.Lat y Steps from IC (mm): -1 time: 1675.8588
+L.Knee.Lat y converged at 0 mm from IC. Min obj: 144.7007
+L.Knee.Lat z:
+ Iter: 774 Obj: 145.226 Marker cost: 141.7249 Tilt cost: 3.5011 Avg RMS: 4.0901 Marker coordinate: L.Knee.Lat z Steps from IC (mm): 1 time: 1678.0251
+ Iter: 775 Obj: 145.6869 Marker cost: 142.1879 Tilt cost: 3.4991 Avg RMS: 4.0953 Marker coordinate: L.Knee.Lat z Steps from IC (mm): -1 time: 1680.1287
+L.Knee.Lat z converged at 0 mm from IC. Min obj: 144.7007
+L.Knee.Med x:
+ Iter: 776 Obj: 144.7007 Marker cost: 141.2012 Tilt cost: 3.4995 Avg RMS: 4.0871 Marker coordinate: L.Knee.Med x Steps from IC (mm): 1 time: 1682.2329
+Marker coordinate has no effect on IK
+L.Knee.Med y:
+ Iter: 777 Obj: 144.7007 Marker cost: 141.2012 Tilt cost: 3.4995 Avg RMS: 4.0871 Marker coordinate: L.Knee.Med y Steps from IC (mm): 1 time: 1684.3256
+Marker coordinate has no effect on IK
+L.Knee.Med z:
+ Iter: 778 Obj: 144.7007 Marker cost: 141.2012 Tilt cost: 3.4995 Avg RMS: 4.0871 Marker coordinate: L.Knee.Med z Steps from IC (mm): 1 time: 1686.4178
+Marker coordinate has no effect on IK
+L.Shank.Upper.Post x:
+ Iter: 779 Obj: 145.564 Marker cost: 142.0531 Tilt cost: 3.5109 Avg RMS: 4.0941 Marker coordinate: L.Shank.Upper.Post x Steps from IC (mm): 1 time: 1688.5119
+ Iter: 780 Obj: 144.8068 Marker cost: 141.3165 Tilt cost: 3.4903 Avg RMS: 4.087 Marker coordinate: L.Shank.Upper.Post x Steps from IC (mm): -1 time: 1690.611
+L.Shank.Upper.Post x converged at 0 mm from IC. Min obj: 144.7007
+L.Shank.Upper.Post y:
+ Iter: 781 Obj: 145.4147 Marker cost: 141.9102 Tilt cost: 3.5045 Avg RMS: 4.0926 Marker coordinate: L.Shank.Upper.Post y Steps from IC (mm): 1 time: 1692.7312
+ Iter: 782 Obj: 145.1264 Marker cost: 141.6303 Tilt cost: 3.4961 Avg RMS: 4.0896 Marker coordinate: L.Shank.Upper.Post y Steps from IC (mm): -1 time: 1694.8473
+L.Shank.Upper.Post y converged at 0 mm from IC. Min obj: 144.7007
+L.Shank.Upper.Post z:
+ Iter: 783 Obj: 145.4758 Marker cost: 141.9773 Tilt cost: 3.4985 Avg RMS: 4.0921 Marker coordinate: L.Shank.Upper.Post z Steps from IC (mm): 1 time: 1696.9551
+ Iter: 784 Obj: 145.0447 Marker cost: 141.5453 Tilt cost: 3.4994 Avg RMS: 4.0904 Marker coordinate: L.Shank.Upper.Post z Steps from IC (mm): -1 time: 1699.06
+L.Shank.Upper.Post z converged at 0 mm from IC. Min obj: 144.7007
+L.Shank.Upper.Ant x:
+ Iter: 785 Obj: 145.3003 Marker cost: 141.7912 Tilt cost: 3.509 Avg RMS: 4.0924 Marker coordinate: L.Shank.Upper.Ant x Steps from IC (mm): 1 time: 1701.1751
+ Iter: 786 Obj: 145.7212 Marker cost: 142.231 Tilt cost: 3.4902 Avg RMS: 4.0937 Marker coordinate: L.Shank.Upper.Ant x Steps from IC (mm): -1 time: 1703.285
+L.Shank.Upper.Ant x converged at 0 mm from IC. Min obj: 144.7007
+L.Shank.Upper.Ant y:
+ Iter: 787 Obj: 145.7924 Marker cost: 142.2903 Tilt cost: 3.5021 Avg RMS: 4.0952 Marker coordinate: L.Shank.Upper.Ant y Steps from IC (mm): 1 time: 1705.3888
+ Iter: 788 Obj: 145.2123 Marker cost: 141.7166 Tilt cost: 3.4957 Avg RMS: 4.0903 Marker coordinate: L.Shank.Upper.Ant y Steps from IC (mm): -1 time: 1707.4854
+L.Shank.Upper.Ant y converged at 0 mm from IC. Min obj: 144.7007
+L.Shank.Upper.Ant z:
+ Iter: 789 Obj: 144.922 Marker cost: 141.4198 Tilt cost: 3.5022 Avg RMS: 4.0877 Marker coordinate: L.Shank.Upper.Ant z Steps from IC (mm): 1 time: 1709.7495
+ Iter: 790 Obj: 145.5172 Marker cost: 142.0212 Tilt cost: 3.496 Avg RMS: 4.0934 Marker coordinate: L.Shank.Upper.Ant z Steps from IC (mm): -1 time: 1711.8583
+L.Shank.Upper.Ant z converged at 0 mm from IC. Min obj: 144.7007
+L.Shank.Lower.Ant x:
+ Iter: 791 Obj: 145.6347 Marker cost: 142.1285 Tilt cost: 3.5061 Avg RMS: 4.0941 Marker coordinate: L.Shank.Lower.Ant x Steps from IC (mm): 1 time: 1713.9546
+ Iter: 792 Obj: 144.5483 Marker cost: 141.0538 Tilt cost: 3.4945 Avg RMS: 4.0854 Marker coordinate: L.Shank.Lower.Ant x Steps from IC (mm): -1 time: 1716.068
+ Iter: 793 Obj: 145.4998 Marker cost: 142.0129 Tilt cost: 3.487 Avg RMS: 4.0918 Marker coordinate: L.Shank.Lower.Ant x Steps from IC (mm): -2 time: 1718.1782
+L.Shank.Lower.Ant x converged at -1 mm from IC. Min obj: 144.5483
+L.Shank.Lower.Ant y:
+ Iter: 794 Obj: 145.9004 Marker cost: 142.4045 Tilt cost: 3.496 Avg RMS: 4.0952 Marker coordinate: L.Shank.Lower.Ant y Steps from IC (mm): 1 time: 1720.2687
+ Iter: 795 Obj: 144.8074 Marker cost: 141.3134 Tilt cost: 3.494 Avg RMS: 4.0873 Marker coordinate: L.Shank.Lower.Ant y Steps from IC (mm): -1 time: 1722.3747
+L.Shank.Lower.Ant y converged at 0 mm from IC. Min obj: 144.5483
+L.Shank.Lower.Ant z:
+ Iter: 796 Obj: 145.1691 Marker cost: 141.6732 Tilt cost: 3.4959 Avg RMS: 4.0891 Marker coordinate: L.Shank.Lower.Ant z Steps from IC (mm): 1 time: 1724.4664
+ Iter: 797 Obj: 145.5287 Marker cost: 142.0368 Tilt cost: 3.4919 Avg RMS: 4.0941 Marker coordinate: L.Shank.Lower.Ant z Steps from IC (mm): -1 time: 1726.5613
+L.Shank.Lower.Ant z converged at 0 mm from IC. Min obj: 144.5483
+L.Shank.Lower.Post x:
+ Iter: 798 Obj: 145.4715 Marker cost: 141.97 Tilt cost: 3.5016 Avg RMS: 4.0933 Marker coordinate: L.Shank.Lower.Post x Steps from IC (mm): 1 time: 1728.6515
+ Iter: 799 Obj: 144.8997 Marker cost: 141.4098 Tilt cost: 3.4899 Avg RMS: 4.0875 Marker coordinate: L.Shank.Lower.Post x Steps from IC (mm): -1 time: 1730.7523
+L.Shank.Lower.Post x converged at 0 mm from IC. Min obj: 144.5483
+L.Shank.Lower.Post y:
+ Iter: 800 Obj: 145.364 Marker cost: 141.8639 Tilt cost: 3.5001 Avg RMS: 4.0923 Marker coordinate: L.Shank.Lower.Post y Steps from IC (mm): 1 time: 1732.8413
+ Iter: 801 Obj: 145.1901 Marker cost: 141.7007 Tilt cost: 3.4895 Avg RMS: 4.0898 Marker coordinate: L.Shank.Lower.Post y Steps from IC (mm): -1 time: 1734.9352
+L.Shank.Lower.Post y converged at 0 mm from IC. Min obj: 144.5483
+L.Shank.Lower.Post z:
+ Iter: 802 Obj: 144.9302 Marker cost: 141.4375 Tilt cost: 3.4927 Avg RMS: 4.0872 Marker coordinate: L.Shank.Lower.Post z Steps from IC (mm): 1 time: 1737.0314
+ Iter: 803 Obj: 145.1722 Marker cost: 141.677 Tilt cost: 3.4952 Avg RMS: 4.091 Marker coordinate: L.Shank.Lower.Post z Steps from IC (mm): -1 time: 1739.1314
+L.Shank.Lower.Post z converged at 0 mm from IC. Min obj: 144.5483
+L.Ankle.Lat x:
+ Iter: 804 Obj: 145.8526 Marker cost: 142.3576 Tilt cost: 3.495 Avg RMS: 4.0965 Marker coordinate: L.Ankle.Lat x Steps from IC (mm): 1 time: 1741.2283
+ Iter: 805 Obj: 144.8815 Marker cost: 141.3866 Tilt cost: 3.4948 Avg RMS: 4.0864 Marker coordinate: L.Ankle.Lat x Steps from IC (mm): -1 time: 1743.3281
+L.Ankle.Lat x converged at 0 mm from IC. Min obj: 144.5483
+L.Ankle.Lat y:
+ Iter: 806 Obj: 144.7696 Marker cost: 141.2776 Tilt cost: 3.492 Avg RMS: 4.0854 Marker coordinate: L.Ankle.Lat y Steps from IC (mm): 1 time: 1745.4225
+ Iter: 807 Obj: 145.5947 Marker cost: 142.1007 Tilt cost: 3.4939 Avg RMS: 4.0943 Marker coordinate: L.Ankle.Lat y Steps from IC (mm): -1 time: 1747.5116
+L.Ankle.Lat y converged at 0 mm from IC. Min obj: 144.5483
+L.Ankle.Lat z:
+ Iter: 808 Obj: 145.0887 Marker cost: 141.593 Tilt cost: 3.4958 Avg RMS: 4.0893 Marker coordinate: L.Ankle.Lat z Steps from IC (mm): 1 time: 1749.6099
+ Iter: 809 Obj: 145.2506 Marker cost: 141.7569 Tilt cost: 3.4937 Avg RMS: 4.0908 Marker coordinate: L.Ankle.Lat z Steps from IC (mm): -1 time: 1751.7183
+L.Ankle.Lat z converged at 0 mm from IC. Min obj: 144.5483
+L.Ankle.Med x:
+ Iter: 810 Obj: 144.5483 Marker cost: 141.0538 Tilt cost: 3.4945 Avg RMS: 4.0854 Marker coordinate: L.Ankle.Med x Steps from IC (mm): 1 time: 1753.9682
+Marker coordinate has no effect on IK
+L.Ankle.Med y:
+ Iter: 811 Obj: 144.5483 Marker cost: 141.0538 Tilt cost: 3.4945 Avg RMS: 4.0854 Marker coordinate: L.Ankle.Med y Steps from IC (mm): 1 time: 1756.0758
+Marker coordinate has no effect on IK
+L.Ankle.Med z:
+ Iter: 812 Obj: 144.5483 Marker cost: 141.0538 Tilt cost: 3.4945 Avg RMS: 4.0854 Marker coordinate: L.Ankle.Med z Steps from IC (mm): 1 time: 1758.1707
+Marker coordinate has no effect on IK
+L.Heel.Upper x:
+ Iter: 813 Obj: 145.522 Marker cost: 142.0271 Tilt cost: 3.4949 Avg RMS: 4.0924 Marker coordinate: L.Heel.Upper x Steps from IC (mm): 1 time: 1760.2682
+ Iter: 814 Obj: 144.9639 Marker cost: 141.4687 Tilt cost: 3.4952 Avg RMS: 4.0893 Marker coordinate: L.Heel.Upper x Steps from IC (mm): -1 time: 1762.3766
+L.Heel.Upper x converged at 0 mm from IC. Min obj: 144.5483
+L.Heel.Upper y:
+ Iter: 815 Obj: 144.9925 Marker cost: 141.4983 Tilt cost: 3.4942 Avg RMS: 4.0866 Marker coordinate: L.Heel.Upper y Steps from IC (mm): 1 time: 1764.4865
+ Iter: 816 Obj: 145.1987 Marker cost: 141.7041 Tilt cost: 3.4946 Avg RMS: 4.0924 Marker coordinate: L.Heel.Upper y Steps from IC (mm): -1 time: 1766.5763
+L.Heel.Upper y converged at 0 mm from IC. Min obj: 144.5483
+L.Heel.Upper z:
+ Iter: 817 Obj: 145.6035 Marker cost: 142.1112 Tilt cost: 3.4923 Avg RMS: 4.0945 Marker coordinate: L.Heel.Upper z Steps from IC (mm): 1 time: 1768.6689
+ Iter: 818 Obj: 144.5063 Marker cost: 141.0125 Tilt cost: 3.4937 Avg RMS: 4.0838 Marker coordinate: L.Heel.Upper z Steps from IC (mm): -1 time: 1770.761
+ Iter: 819 Obj: 145.1921 Marker cost: 141.6962 Tilt cost: 3.4959 Avg RMS: 4.0876 Marker coordinate: L.Heel.Upper z Steps from IC (mm): -2 time: 1772.8563
+L.Heel.Upper z converged at -1 mm from IC. Min obj: 144.5063
+L.Heel.Med x:
+ Iter: 820 Obj: 145.1081 Marker cost: 141.6187 Tilt cost: 3.4894 Avg RMS: 4.0877 Marker coordinate: L.Heel.Med x Steps from IC (mm): 1 time: 1774.952
+ Iter: 821 Obj: 144.8304 Marker cost: 141.3325 Tilt cost: 3.4979 Avg RMS: 4.0863 Marker coordinate: L.Heel.Med x Steps from IC (mm): -1 time: 1777.0449
+L.Heel.Med x converged at 0 mm from IC. Min obj: 144.5063
+L.Heel.Med y:
+ Iter: 822 Obj: 145.2224 Marker cost: 141.7286 Tilt cost: 3.4938 Avg RMS: 4.0859 Marker coordinate: L.Heel.Med y Steps from IC (mm): 1 time: 1779.1447
+ Iter: 823 Obj: 144.9388 Marker cost: 141.4449 Tilt cost: 3.494 Avg RMS: 4.0893 Marker coordinate: L.Heel.Med y Steps from IC (mm): -1 time: 1781.2344
+L.Heel.Med y converged at 0 mm from IC. Min obj: 144.5063
+L.Heel.Med z:
+ Iter: 824 Obj: 144.9783 Marker cost: 141.4903 Tilt cost: 3.488 Avg RMS: 4.0877 Marker coordinate: L.Heel.Med z Steps from IC (mm): 1 time: 1783.3461
+ Iter: 825 Obj: 145.2655 Marker cost: 141.7665 Tilt cost: 3.499 Avg RMS: 4.0886 Marker coordinate: L.Heel.Med z Steps from IC (mm): -1 time: 1785.4878
+L.Heel.Med z converged at 0 mm from IC. Min obj: 144.5063
+L.Heel.Lat x:
+ Iter: 826 Obj: 144.6158 Marker cost: 141.1246 Tilt cost: 3.4912 Avg RMS: 4.0838 Marker coordinate: L.Heel.Lat x Steps from IC (mm): 1 time: 1787.7045
+ Iter: 827 Obj: 145.2037 Marker cost: 141.7065 Tilt cost: 3.4972 Avg RMS: 4.0892 Marker coordinate: L.Heel.Lat x Steps from IC (mm): -1 time: 1789.8157
+L.Heel.Lat x converged at 0 mm from IC. Min obj: 144.5063
+L.Heel.Lat y:
+ Iter: 828 Obj: 144.9439 Marker cost: 141.4457 Tilt cost: 3.4982 Avg RMS: 4.0855 Marker coordinate: L.Heel.Lat y Steps from IC (mm): 1 time: 1791.9312
+ Iter: 829 Obj: 145.0075 Marker cost: 141.516 Tilt cost: 3.4915 Avg RMS: 4.0879 Marker coordinate: L.Heel.Lat y Steps from IC (mm): -1 time: 1794.0464
+L.Heel.Lat y converged at 0 mm from IC. Min obj: 144.5063
+L.Heel.Lat z:
+ Iter: 830 Obj: 145.234 Marker cost: 141.7459 Tilt cost: 3.4881 Avg RMS: 4.0898 Marker coordinate: L.Heel.Lat z Steps from IC (mm): 1 time: 1796.3393
+ Iter: 831 Obj: 144.3274 Marker cost: 140.8274 Tilt cost: 3.5 Avg RMS: 4.0812 Marker coordinate: L.Heel.Lat z Steps from IC (mm): -1 time: 1798.4694
+ Iter: 832 Obj: 145.1773 Marker cost: 141.6737 Tilt cost: 3.5036 Avg RMS: 4.0873 Marker coordinate: L.Heel.Lat z Steps from IC (mm): -2 time: 1800.5742
+L.Heel.Lat z converged at -1 mm from IC. Min obj: 144.3274
+L.Toe.Lat x:
+ Iter: 833 Obj: 144.8722 Marker cost: 141.3751 Tilt cost: 3.4971 Avg RMS: 4.0846 Marker coordinate: L.Toe.Lat x Steps from IC (mm): 1 time: 1802.6795
+ Iter: 834 Obj: 144.8518 Marker cost: 141.3517 Tilt cost: 3.5001 Avg RMS: 4.0865 Marker coordinate: L.Toe.Lat x Steps from IC (mm): -1 time: 1804.7761
+L.Toe.Lat x converged at 0 mm from IC. Min obj: 144.3274
+L.Toe.Lat y:
+ Iter: 835 Obj: 145.0919 Marker cost: 141.5847 Tilt cost: 3.5071 Avg RMS: 4.0881 Marker coordinate: L.Toe.Lat y Steps from IC (mm): 1 time: 1806.8903
+ Iter: 836 Obj: 144.9784 Marker cost: 141.4832 Tilt cost: 3.4953 Avg RMS: 4.0859 Marker coordinate: L.Toe.Lat y Steps from IC (mm): -1 time: 1808.9837
+L.Toe.Lat y converged at 0 mm from IC. Min obj: 144.3274
+L.Toe.Lat z:
+ Iter: 837 Obj: 145.0954 Marker cost: 141.596 Tilt cost: 3.4994 Avg RMS: 4.0882 Marker coordinate: L.Toe.Lat z Steps from IC (mm): 1 time: 1811.0819
+ Iter: 838 Obj: 144.6266 Marker cost: 141.1267 Tilt cost: 3.4998 Avg RMS: 4.0828 Marker coordinate: L.Toe.Lat z Steps from IC (mm): -1 time: 1813.1708
+L.Toe.Lat z converged at 0 mm from IC. Min obj: 144.3274
+L.Toe.Med x:
+ Iter: 839 Obj: 144.9623 Marker cost: 141.4678 Tilt cost: 3.4945 Avg RMS: 4.0848 Marker coordinate: L.Toe.Med x Steps from IC (mm): 1 time: 1815.2722
+ Iter: 840 Obj: 144.8494 Marker cost: 141.3453 Tilt cost: 3.5041 Avg RMS: 4.0867 Marker coordinate: L.Toe.Med x Steps from IC (mm): -1 time: 1817.372
+L.Toe.Med x converged at 0 mm from IC. Min obj: 144.3274
+L.Toe.Med y:
+ Iter: 841 Obj: 144.7884 Marker cost: 141.2886 Tilt cost: 3.4998 Avg RMS: 4.0833 Marker coordinate: L.Toe.Med y Steps from IC (mm): 1 time: 1819.4659
+ Iter: 842 Obj: 144.4976 Marker cost: 140.9988 Tilt cost: 3.4988 Avg RMS: 4.0842 Marker coordinate: L.Toe.Med y Steps from IC (mm): -1 time: 1821.5615
+L.Toe.Med y converged at 0 mm from IC. Min obj: 144.3274
+L.Toe.Med z:
+ Iter: 843 Obj: 144.6494 Marker cost: 141.1478 Tilt cost: 3.5016 Avg RMS: 4.0851 Marker coordinate: L.Toe.Med z Steps from IC (mm): 1 time: 1823.6537
+ Iter: 844 Obj: 144.8516 Marker cost: 141.3521 Tilt cost: 3.4995 Avg RMS: 4.084 Marker coordinate: L.Toe.Med z Steps from IC (mm): -1 time: 1825.7663
+L.Toe.Med z converged at 0 mm from IC. Min obj: 144.3274
+L.Toe.Tip x:
+ Iter: 845 Obj: 144.8926 Marker cost: 141.3928 Tilt cost: 3.4998 Avg RMS: 4.0856 Marker coordinate: L.Toe.Tip x Steps from IC (mm): 1 time: 1827.8574
+ Iter: 846 Obj: 145.2073 Marker cost: 141.7075 Tilt cost: 3.4998 Avg RMS: 4.0884 Marker coordinate: L.Toe.Tip x Steps from IC (mm): -1 time: 1829.951
+L.Toe.Tip x converged at 0 mm from IC. Min obj: 144.3274
+L.Toe.Tip y:
+ Iter: 847 Obj: 144.6621 Marker cost: 141.1633 Tilt cost: 3.4988 Avg RMS: 4.0836 Marker coordinate: L.Toe.Tip y Steps from IC (mm): 1 time: 1832.0537
+ Iter: 848 Obj: 144.9221 Marker cost: 141.4239 Tilt cost: 3.4982 Avg RMS: 4.0863 Marker coordinate: L.Toe.Tip y Steps from IC (mm): -1 time: 1834.1764
+L.Toe.Tip y converged at 0 mm from IC. Min obj: 144.3274
+L.Toe.Tip z:
+ Iter: 849 Obj: 145.0202 Marker cost: 141.5196 Tilt cost: 3.5006 Avg RMS: 4.0874 Marker coordinate: L.Toe.Tip z Steps from IC (mm): 1 time: 1836.2783
+ Iter: 850 Obj: 144.8308 Marker cost: 141.3319 Tilt cost: 3.4989 Avg RMS: 4.0846 Marker coordinate: L.Toe.Tip z Steps from IC (mm): -1 time: 1838.3896
+L.Toe.Tip z converged at 0 mm from IC. Min obj: 144.3274
+Cervical.Spine x:
+ Iter: 851 Obj: 144.3296 Marker cost: 140.8299 Tilt cost: 3.4997 Avg RMS: 4.081 Marker coordinate: Cervical.Spine x Steps from IC (mm): 1 time: 1840.4814
+ Iter: 852 Obj: 145.7433 Marker cost: 142.2438 Tilt cost: 3.4995 Avg RMS: 4.0925 Marker coordinate: Cervical.Spine x Steps from IC (mm): -1 time: 1842.5781
+Cervical.Spine x converged at 0 mm from IC. Min obj: 144.3274
+Cervical.Spine y:
+ Iter: 853 Obj: 145.3624 Marker cost: 141.8575 Tilt cost: 3.5049 Avg RMS: 4.0899 Marker coordinate: Cervical.Spine y Steps from IC (mm): 1 time: 1844.6668
+ Iter: 854 Obj: 144.8839 Marker cost: 141.3875 Tilt cost: 3.4964 Avg RMS: 4.0858 Marker coordinate: Cervical.Spine y Steps from IC (mm): -1 time: 1846.7673
+Cervical.Spine y converged at 0 mm from IC. Min obj: 144.3274
+Cervical.Spine z:
+ Iter: 855 Obj: 144.3815 Marker cost: 140.8809 Tilt cost: 3.5006 Avg RMS: 4.0816 Marker coordinate: Cervical.Spine z Steps from IC (mm): 1 time: 1848.855
+ Iter: 856 Obj: 145.19 Marker cost: 141.6892 Tilt cost: 3.5008 Avg RMS: 4.0887 Marker coordinate: Cervical.Spine z Steps from IC (mm): -1 time: 1851.1018
+Cervical.Spine z converged at 0 mm from IC. Min obj: 144.3274
+Back x:
+ Iter: 857 Obj: 145.2186 Marker cost: 141.7132 Tilt cost: 3.5054 Avg RMS: 4.0887 Marker coordinate: Back x Steps from IC (mm): 1 time: 1853.2054

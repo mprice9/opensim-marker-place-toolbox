@@ -58,7 +58,7 @@ tags = data.colheaders;
 
 % penalize the average pelvis tilt
 % TILTcost = abs(mean(data(1:end,2).^2))*10;
-TILTcost = abs(mean(data.data(1:end,strcmp('pelvis_tilt',tags)).^2))*10;
+TILTcost = abs(mean(data.data(1:end,strcmp('pelvis_tilt',tags)).^2))*0.1;
 
 % penalize non-zero socket coordinates at the zero position
 % data = importdata('Chopped_ik.mot','\t',11);
