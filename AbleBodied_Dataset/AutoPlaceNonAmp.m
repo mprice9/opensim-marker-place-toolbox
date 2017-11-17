@@ -31,7 +31,7 @@ clc
 
 %% Set directories and intersubject information in a general options structure
 
-global myModel fileID iteration
+global iteration
 
 import org.opensim.modeling.*
 
@@ -64,11 +64,17 @@ subjOptions.markerData = {'S01_PSF_T06.trc','S02_PSF_T01.trc',...
 %     'S08_RRA_Model_newmass.osim','S09_RRA_Model_newmass.osim',...
 %     'S10_RRA_Model_newmass.osim'};
 
-subjOptions.inputModel = {'S01_RRA_Model_PSF_newmass.osim',...
-    'autoPlaceWorker.osim','S04_RRA_Model_newmass.osim',...
-    'S05_Scaled_BK_5.osim','autoPlaceWorker.osim',...
+% subjOptions.inputModel = {'S01_RRA_Model_PSF_newmass.osim',...
+%     'autoPlaceWorker.osim','S04_RRA_Model_newmass.osim',...
+%     'S05_Scaled_BK_5.osim','autoPlaceWorker.osim',...
+%     'autoPlaceWorker.osim','autoPlaceWorker.osim',...
+%     'autoPlaceWorker.osim'};
+
+subjOptions.inputModel = {'S01_no-amp_ALLBODY_auto_marker_place_PSF.osim',...
+    'autoPlaceWorker.osim','S04_no-amp_ALLBODY_auto_marker_place_PSF.osim',...
     'autoPlaceWorker.osim','autoPlaceWorker.osim',...
-    'autoPlaceWorker.osim'};
+    'autoPlaceWorker.osim','S09_no-amp_ALLBODY_auto_marker_place_PSF.osim',...
+    'S10_no-amp_ALLBODY_auto_marker_place_PSF.osim'};
 
 subjOptions.jointNames = {{},{},{},{},{},{},{},{}};
 subjOptions.coordLockNames = {{},{},{},{},{},{},{},{}};
@@ -185,6 +191,31 @@ subjOptions.markerNames{8} = {'Sternum','R.Acromium','L.Acromium','Top.Head','R.
     'L.Shank.Upper.Ant','L.Shank.Lower.Ant','L.Shank.Lower.Post','L.Ankle.Lat',...
     'L.Ankle.Med','L.Heel.Upper','L.Heel.Med','L.Heel.Lat','L.Toe.Lat',...
     'L.Toe.Med','L.Toe.Tip','Cervical.Spine','Back'};
+
+for i = 1:numSubj
+    
+    ikSetupDir = [subjOptions.subjPaths{i} 'IKSetup\'];
+    genericSetupForIK = [ikSetupDir subjOptions.IKSetup{i}];
+    
+    modelDir = [subjOptions.subjPaths{i} 'Models\AutoPlaced\'];
+    modelFile = [modelDir 'autoPlaceWorker.osim']; % Name of the 'worker' model file which is updated with each iteration
+    
+    ikResultsDir = [subjOptions.subjPaths{i} 'IKResults\'];
+    outputMotionFile = [ikResultsDir 'autoPlaceWorker.mot']; % Name of the 'worker' output motion file which is updated with each iteration
+    
+    trcDataDir = [subjOptions.subjPaths{i} 'MarkerData\PREF\'];
+    markerFile = [trcDataDir subjOptions.markerData{i}];
+    
+    
+    ikTool = InverseKinematicsTool(genericSetupForIK);
+    factorProp  = ikTool.getPropertyByName('model_file');
+    PropertyHelper.setValueString(modelFile,factorProp); % Set the .osim model file path in the setup .xml
+    factorProp  = ikTool.getPropertyByName('marker_file');
+    PropertyHelper.setValueString(markerFile,factorProp); % Set the .trc marker file path in the setup .xml
+    factorProp  = ikTool.getPropertyByName('output_motion_file');
+    PropertyHelper.setValueString(outputMotionFile,factorProp); % Set the model path in the setup .xml
+    ikTool.print(genericSetupForIK);
+end
      
 % Names of model joints whose placements (location and orientation) in the 
 % parent segment are also to be optimized
@@ -196,9 +227,15 @@ subjOptions.markerNames{8} = {'Sternum','R.Acromium','L.Acromium','Top.Head','R.
 
 iteration = 1;
 
-for i = 8:numSubj
-% for i = 1
+% testModel = Model([subjOptions.subjPaths{1} 'Models\Scaled\' subjOptions.inputModel{1}]);
+
+parfor i = 1:numSubj
+% for i = 1:numSubj
     
+    import org.opensim.modeling.*
+
+    options = struct();
+
     ikSetupDir = [subjOptions.subjPaths{i} 'IKSetup\'];
     genericSetupForIK = [ikSetupDir subjOptions.IKSetup{i}];
     
@@ -209,7 +246,7 @@ for i = 8:numSubj
     markerFile = [trcDataDir subjOptions.markerData{i}];
     
     inputModelDir = [subjOptions.subjPaths{i} 'Models\Scaled\'];
-    inputModel = [inputModelDir subjOptions.inputModel{i}];
+    inputModelName = [inputModelDir subjOptions.inputModel{i}];
     
     modelDir = [subjOptions.subjPaths{i} 'Models\AutoPlaced\'];
     modelFile = [modelDir 'autoPlaceWorker.osim']; % Name of the 'worker' model file which is updated with each iteration
@@ -222,18 +259,18 @@ for i = 8:numSubj
     coordLockNames = subjOptions.coordLockNames{i};
     coordLockStates = subjOptions.coordLockStates{i};
     
-    % Update IK setup file to reflect current file paths for walking trial
-    ikTool = InverseKinematicsTool(genericSetupForIK);
-    factorProp  = ikTool.getPropertyByName('model_file');
-    PropertyHelper.setValueString(modelFile,factorProp); % Set the .osim model file path in the setup .xml
-    factorProp  = ikTool.getPropertyByName('marker_file');
-    PropertyHelper.setValueString(markerFile,factorProp); % Set the .trc marker file path in the setup .xml
-    factorProp  = ikTool.getPropertyByName('output_motion_file');
-    PropertyHelper.setValueString(outputMotionFile,factorProp); % Set the model path in the setup .xml
-    ikTool.print(genericSetupForIK);
+%     % Update IK setup file to reflect current file paths for walking trial
+%     ikTool = InverseKinematicsTool(genericSetupForIK);
+%     factorProp  = ikTool.getPropertyByName('model_file');
+%     PropertyHelper.setValueString(modelFile,factorProp); % Set the .osim model file path in the setup .xml
+%     factorProp  = ikTool.getPropertyByName('marker_file');
+%     PropertyHelper.setValueString(markerFile,factorProp); % Set the .trc marker file path in the setup .xml
+%     factorProp  = ikTool.getPropertyByName('output_motion_file');
+%     PropertyHelper.setValueString(outputMotionFile,factorProp); % Set the model path in the setup .xml
+%     ikTool.print(genericSetupForIK);
 
     % Create new file for log of marker search
-    fileID = fopen(['coarseMarkerSearch_log_' subject '_' prosType '_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss_Z')) '.txt'], 'w');
+    options.fileID = fopen(['coarseMarkerSearch_log_' subject '_' prosType '_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss_Z')) '.txt'], 'w');
 
     newName = [subject '_' prosType '_ALLBODY_auto_marker_place_' char(datetime('now','TimeZone','local','Format','d-MMM-y_HH.mm.ss')) '.osim'];
     newModelName = [modelDir newName];  % set name for new .osim model created after placing markers
@@ -243,7 +280,13 @@ for i = 8:numSubj
 
     % Set model and algorithm options:
     options.IKsetup = genericSetupForIK;  % IK setup file
-    options.inputModel = Model(inputModel);                            % Input model
+    
+    inputModel = assignModel(inputModelName);  
+    
+%     inputModel = Model(inputModel);
+%     disp('inputModel loaded');
+    options.inputModel = inputModel;                            % Input model
+%     osimState = options.inputModel.initSystem();
     
 %     options.subjectMass = 67.3046;                      % Subject mass in kg
     options.newName = newModelName;                     % Output model name
@@ -285,10 +328,11 @@ for i = 8:numSubj
     X_robpros = coarseMarkerSearch(options);    % Run autoplace algorithm
 
     % Save output model to specified name.
-    model = Model(modelFile);
+%     model = Model(modelFile);
+    model = assignModel(modelFile);
     model.initSystem();
     model.print(newModelName);
 
-    fclose(fileID);     % Close log.
+    fclose(options.fileID);     % Close log.
 
 end

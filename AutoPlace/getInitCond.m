@@ -1,6 +1,6 @@
-function x0 = getInitCond(options)
+function [x0, options] = getInitCond(options)
 
-global testCoords
+% global testCoords
 
 % modelFile = [options.modelFolder options.newName];
 % modelFile = options.model;
@@ -240,5 +240,7 @@ end
 %     testCoords{end+1} = 'SOCKET_JOINT_ORIENT z';
 
 % end
+
+    options.testCoords = testCoords;
 
 end

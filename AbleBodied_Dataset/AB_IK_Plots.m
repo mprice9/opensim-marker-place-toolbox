@@ -12,9 +12,12 @@ close all
 % load('fullErrData.mat');
 % load('fullNormDataFiltered.mat');
 % load('fullErrDataFiltered.mat');
-
-load('fullNormDataNoTilt.mat');
-load('fullErrDataNoTilt.mat');
+% load('fullNormDataNoTilt.mat');
+% load('fullErrDataNoTilt.mat');
+% load('fullNormDataNoTiltReal.mat');
+% load('fullErrDataNoTiltReal.mat');
+load('fullNormData100Tilt.mat');
+load('fullErrData100Tilt.mat');
 load('fullTags.mat');
 load('subjNames.mat');
 

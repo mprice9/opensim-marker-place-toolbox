@@ -1,13 +1,15 @@
 function X = coarseMarkerSearch(options)
     
-    global coord testCoords stepCount fileID
+    global coord stepCount fileID
 
-    convThresh = options.convThresh;
-    fixedMarkerCoords = options.fixedMarkerCoords;
     
     % Choose which markers to optimize in options.bodySet
     % Get initial guess x0
-    x0 = getInitCond(options);     
+    [x0, options] = getInitCond(options);  
+    
+    testCoords = options.testCoords;
+    convThresh = options.convThresh;
+    fixedMarkerCoords = options.fixedMarkerCoords;
     
     % Set output X equal to initial condition to start loop
     X = x0;
@@ -36,8 +38,8 @@ function X = coarseMarkerSearch(options)
             message = [coord ':'];
             disp(message)
             strFormat = '%s';
-            fprintf(fileID, strFormat, message);
-            fprintf(fileID,'\n');
+            fprintf(options.fileID, strFormat, message);
+            fprintf(options.fileID,'\n');
             
             while convFlag < 1
                 
@@ -46,8 +48,8 @@ function X = coarseMarkerSearch(options)
                     message = ['Marker coordinate ' num2str(coord) ' is locked.'];                    
                     disp(message)
                     strFormat = '%s';
-                    fprintf(fileID, strFormat, message);
-                    fprintf(fileID,'\n');
+                    fprintf(options.fileID, strFormat, message);
+                    fprintf(options.fileID,'\n');
                     break;
                 end
                 
@@ -89,8 +91,8 @@ function X = coarseMarkerSearch(options)
                     message = 'Marker coordinate has no effect on IK';                    
                     disp(message)
                     strFormat = '%s';
-                    fprintf(fileID, strFormat, message);
-                    fprintf(fileID,'\n');
+                    fprintf(options.fileID, strFormat, message);
+                    fprintf(options.fileID,'\n');
                     break;
                 end
                 
@@ -112,8 +114,8 @@ function X = coarseMarkerSearch(options)
                     message = [coord ' converged at ' num2str(stepCount + searchDir) ' mm from IC. Min obj: ' num2str(fMin)];
                     disp(message)
                     strFormat = '%s';
-                    fprintf(fileID, strFormat, message);
-                    fprintf(fileID,'\n');
+                    fprintf(options.fileID, strFormat, message);
+                    fprintf(options.fileID,'\n');
                 end
 
             end 
@@ -127,8 +129,8 @@ function X = coarseMarkerSearch(options)
     disp(message)
 
     strFormat = '%s';
-    fprintf(fileID, strFormat, message);
-    fprintf(fileID,'\n');
+    fprintf(options.fileID, strFormat, message);
+    fprintf(options.fileID,'\n');
    
 end
     

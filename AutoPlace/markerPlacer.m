@@ -1,6 +1,6 @@
 function markerPlacer(X, newName, options)
 
-global myModel markerScale
+% global myModel markerScale
 
 import org.opensim.modeling.*
    
@@ -286,5 +286,10 @@ model.initSystem();
 
 % pause(0.1);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-model.print(newName);
+try
+    model.print(newName);
+catch
+    pause(1)
+    model.print(newName);
+end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

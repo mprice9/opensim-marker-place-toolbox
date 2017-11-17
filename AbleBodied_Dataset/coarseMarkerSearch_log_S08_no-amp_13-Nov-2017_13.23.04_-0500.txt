@@ -1,0 +1,13 @@
+ Iter: 1 Obj: 208.5824 Marker cost: 208.5824 Tilt cost: 0 Avg RMS: 4.4915 Marker coordinate:  Steps from IC (mm):  time: 2.8037
+Sternum x:
+Marker coordinate Sternum x is locked.
+Sternum y:
+Marker coordinate Sternum y is locked.
+Sternum z:
+Marker coordinate Sternum z is locked.
+R.Acromium x:
+ Iter: 2 Obj: 208.4293 Marker cost: 208.4293 Tilt cost: 0 Avg RMS: 4.4907 Marker coordinate: R.Acromium x Steps from IC (mm): 1 time: 5.0429
+ Iter: 3 Obj: 208.2819 Marker cost: 208.2819 Tilt cost: 0 Avg RMS: 4.4903 Marker coordinate: R.Acromium x Steps from IC (mm): 2 time: 7.2963
+ Iter: 4 Obj: 209.2443 Marker cost: 209.2443 Tilt cost: 0 Avg RMS: 4.4958 Marker coordinate: R.Acromium x Steps from IC (mm): 3 time: 9.544
+R.Acromium x converged at 2 mm from IC. Min obj: 208.2819
+R.Acromium y:

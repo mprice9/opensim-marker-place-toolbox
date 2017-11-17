@@ -1,0 +1,188 @@
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate:  Steps from IC (mm):  time: 5.1171
+Sternum x:
+Marker coordinate Sternum x is locked.
+Sternum y:
+Marker coordinate Sternum y is locked.
+Sternum z:
+Marker coordinate Sternum z is locked.
+R.Acromium x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Acromium x Steps from IC (mm): 1 time: 7.5562
+Marker coordinate has no effect on IK
+R.Acromium y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Acromium y Steps from IC (mm): 1 time: 9.8135
+Marker coordinate has no effect on IK
+R.Acromium z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Acromium z Steps from IC (mm): 1 time: 12.1956
+Marker coordinate has no effect on IK
+L.Acromium x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: L.Acromium x Steps from IC (mm): 1 time: 14.9254
+Marker coordinate has no effect on IK
+L.Acromium y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: L.Acromium y Steps from IC (mm): 1 time: 17.1308
+Marker coordinate has no effect on IK
+L.Acromium z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: L.Acromium z Steps from IC (mm): 1 time: 19.4389
+Marker coordinate has no effect on IK
+Top.Head x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: Top.Head x Steps from IC (mm): 1 time: 21.7905
+Marker coordinate has no effect on IK
+Top.Head y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: Top.Head y Steps from IC (mm): 1 time: 24.3835
+Marker coordinate has no effect on IK
+Top.Head z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: Top.Head z Steps from IC (mm): 1 time: 26.7762
+Marker coordinate has no effect on IK
+R.ASIS x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.ASIS x Steps from IC (mm): 1 time: 29.0873
+Marker coordinate has no effect on IK
+R.ASIS y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.ASIS y Steps from IC (mm): 1 time: 31.4229
+Marker coordinate has no effect on IK
+R.ASIS z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.ASIS z Steps from IC (mm): 1 time: 33.6134
+Marker coordinate has no effect on IK
+L.ASIS x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: L.ASIS x Steps from IC (mm): 1 time: 35.7621
+Marker coordinate has no effect on IK
+L.ASIS y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: L.ASIS y Steps from IC (mm): 1 time: 38.013
+Marker coordinate has no effect on IK
+L.ASIS z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: L.ASIS z Steps from IC (mm): 1 time: 40.3201
+Marker coordinate has no effect on IK
+R.PSIS x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.PSIS x Steps from IC (mm): 1 time: 42.6005
+Marker coordinate has no effect on IK
+R.PSIS y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.PSIS y Steps from IC (mm): 1 time: 45.0328
+Marker coordinate has no effect on IK
+R.PSIS z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.PSIS z Steps from IC (mm): 1 time: 47.2987
+Marker coordinate has no effect on IK
+L.PSIS x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: L.PSIS x Steps from IC (mm): 1 time: 49.7083
+Marker coordinate has no effect on IK
+L.PSIS y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: L.PSIS y Steps from IC (mm): 1 time: 52.0432
+Marker coordinate has no effect on IK
+L.PSIS z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: L.PSIS z Steps from IC (mm): 1 time: 54.2379
+Marker coordinate has no effect on IK
+R.Great.Tro x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Great.Tro x Steps from IC (mm): 1 time: 56.4796
+Marker coordinate has no effect on IK
+R.Great.Tro y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Great.Tro y Steps from IC (mm): 1 time: 59.0118
+Marker coordinate has no effect on IK
+R.Great.Tro z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Great.Tro z Steps from IC (mm): 1 time: 61.3142
+Marker coordinate has no effect on IK
+L.Great.Tro x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: L.Great.Tro x Steps from IC (mm): 1 time: 63.5285
+Marker coordinate has no effect on IK
+L.Great.Tro y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: L.Great.Tro y Steps from IC (mm): 1 time: 65.7945
+Marker coordinate has no effect on IK
+L.Great.Tro z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: L.Great.Tro z Steps from IC (mm): 1 time: 68.1114
+Marker coordinate has no effect on IK
+R.Iliac.Crest x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Iliac.Crest x Steps from IC (mm): 1 time: 70.398
+Marker coordinate has no effect on IK
+R.Iliac.Crest y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Iliac.Crest y Steps from IC (mm): 1 time: 72.5942
+Marker coordinate has no effect on IK
+R.Iliac.Crest z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Iliac.Crest z Steps from IC (mm): 1 time: 74.7787
+Marker coordinate has no effect on IK
+L.Iliac.Crest x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: L.Iliac.Crest x Steps from IC (mm): 1 time: 77.0216
+Marker coordinate has no effect on IK
+L.Iliac.Crest y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: L.Iliac.Crest y Steps from IC (mm): 1 time: 79.2799
+Marker coordinate has no effect on IK
+L.Iliac.Crest z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: L.Iliac.Crest z Steps from IC (mm): 1 time: 81.7553
+Marker coordinate has no effect on IK
+V.Sacral x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: V.Sacral x Steps from IC (mm): 1 time: 83.9997
+Marker coordinate has no effect on IK
+V.Sacral y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: V.Sacral y Steps from IC (mm): 1 time: 86.3037
+Marker coordinate has no effect on IK
+V.Sacral z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: V.Sacral z Steps from IC (mm): 1 time: 88.7125
+Marker coordinate has no effect on IK
+R.Thigh.Upper.Post x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Thigh.Upper.Post x Steps from IC (mm): 1 time: 90.994
+Marker coordinate has no effect on IK
+R.Thigh.Upper.Post y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Thigh.Upper.Post y Steps from IC (mm): 1 time: 93.2086
+Marker coordinate has no effect on IK
+R.Thigh.Upper.Post z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Thigh.Upper.Post z Steps from IC (mm): 1 time: 95.5788
+Marker coordinate has no effect on IK
+R.Thigh.Upper.Ant x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Thigh.Upper.Ant x Steps from IC (mm): 1 time: 97.9071
+Marker coordinate has no effect on IK
+R.Thigh.Upper.Ant y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Thigh.Upper.Ant y Steps from IC (mm): 1 time: 100.3107
+Marker coordinate has no effect on IK
+R.Thigh.Upper.Ant z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Thigh.Upper.Ant z Steps from IC (mm): 1 time: 102.5101
+Marker coordinate has no effect on IK
+R.Thigh.Lower.Ant x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Thigh.Lower.Ant x Steps from IC (mm): 1 time: 104.9662
+Marker coordinate has no effect on IK
+R.Thigh.Lower.Ant y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Thigh.Lower.Ant y Steps from IC (mm): 1 time: 107.3001
+Marker coordinate has no effect on IK
+R.Thigh.Lower.Ant z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Thigh.Lower.Ant z Steps from IC (mm): 1 time: 109.6968
+Marker coordinate has no effect on IK
+R.Thigh.Lower.Post x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Thigh.Lower.Post x Steps from IC (mm): 1 time: 111.9545
+Marker coordinate has no effect on IK
+R.Thigh.Lower.Post y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Thigh.Lower.Post y Steps from IC (mm): 1 time: 114.2801
+Marker coordinate has no effect on IK
+R.Thigh.Lower.Post z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Thigh.Lower.Post z Steps from IC (mm): 1 time: 116.6263
+Marker coordinate has no effect on IK
+R.Knee.Lat x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Knee.Lat x Steps from IC (mm): 1 time: 118.8502
+Marker coordinate has no effect on IK
+R.Knee.Lat y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Knee.Lat y Steps from IC (mm): 1 time: 121.1132
+Marker coordinate has no effect on IK
+R.Knee.Lat z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Knee.Lat z Steps from IC (mm): 1 time: 123.4366
+Marker coordinate has no effect on IK
+R.Knee.Med x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Knee.Med x Steps from IC (mm): 1 time: 125.7761
+Marker coordinate has no effect on IK
+R.Knee.Med y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Knee.Med y Steps from IC (mm): 1 time: 127.9595
+Marker coordinate has no effect on IK
+R.Knee.Med z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Knee.Med z Steps from IC (mm): 1 time: 130.1977
+Marker coordinate has no effect on IK
+R.Shank.Upper.Post x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Shank.Upper.Post x Steps from IC (mm): 1 time: 132.5354
+Marker coordinate has no effect on IK
+R.Shank.Upper.Post y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Shank.Upper.Post y Steps from IC (mm): 1 time: 134.7375
+Marker coordinate has no effect on IK
+R.Shank.Upper.Post z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Shank.Upper.Post z Steps from IC (mm): 1 time: 136.8864
+Marker coordinate has no effect on IK
+R.Shank.Upper.Ant x:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Shank.Upper.Ant x Steps from IC (mm): 1 time: 139.057
+Marker coordinate has no effect on IK
+R.Shank.Upper.Ant y:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Shank.Upper.Ant y Steps from IC (mm): 1 time: 141.2219
+Marker coordinate has no effect on IK
+R.Shank.Upper.Ant z:
+ Iter:  Obj: 2884.5565 Marker cost: 503.1605 Tilt cost: 2381.3961 Avg RMS: 5.7048 Marker coordinate: R.Shank.Upper.Ant z Steps from IC (mm): 1 time: 143.376
+Marker coordinate has no effect on IK
+R.Shank.Lower.Ant x:
