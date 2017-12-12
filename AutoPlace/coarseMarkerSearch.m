@@ -21,7 +21,7 @@ function X = coarseMarkerSearch(options)
     xMin = X;
     fMin = F;
     
-    convScore = ones(1,length(X))*10;
+    convScore = ones(1,length(X))*1000;
     % While loop - check convergence (auto fail first pass)    
     while max(abs(convScore)) > convThresh
         coordSkip = 0;
@@ -46,7 +46,7 @@ function X = coarseMarkerSearch(options)
                 if max(strcmp(coord,fixedMarkerCoords))
                     coordSkip = coordSkip + 1;
                     message = ['Marker coordinate ' num2str(coord) ' is locked.'];                    
-                    disp(message)
+%                     disp(message)
                     strFormat = '%s';
                     fprintf(options.fileID, strFormat, message);
                     fprintf(options.fileID,'\n');
@@ -89,7 +89,7 @@ function X = coarseMarkerSearch(options)
 
                 if(gradSign == 0) 
                     message = 'Marker coordinate has no effect on IK';                    
-                    disp(message)
+%                     disp(message)
                     strFormat = '%s';
                     fprintf(options.fileID, strFormat, message);
                     fprintf(options.fileID,'\n');
@@ -112,7 +112,7 @@ function X = coarseMarkerSearch(options)
                 convFlag = abs((numSteps > 1)*(sign(searchDir) - sign(oldSearchDir)));
                 if convFlag > 0
                     message = [coord ' converged at ' num2str(stepCount + searchDir) ' mm from IC. Min obj: ' num2str(fMin)];
-                    disp(message)
+%                     disp(message)
                     strFormat = '%s';
                     fprintf(options.fileID, strFormat, message);
                     fprintf(options.fileID,'\n');
@@ -134,3 +134,4 @@ function X = coarseMarkerSearch(options)
    
 end
     
+

@@ -45,10 +45,10 @@ for i = 1:numSubj
     genericSetupDir{i} = [subjDir{i} 'IKSetup\'];
     
     % specify where results will be printed.
-    resultsDir{i} = [subjDir{i} 'IKResults\AutoPlaceNoTiltReal\'];
-    errorDir{i} = [subjDir{i} 'IKErrors\AutoPlaceNoTiltReal\'];
-%     resultsDir{i} = [subjDir{i} 'IKResults\AutoPlace100Tilt\'];
-%     errorDir{i} = [subjDir{i} 'IKErrors\AutoPlace100Tilt\'];
+%     resultsDir{i} = [subjDir{i} 'IKResults\AutoPlaceNoTiltReal\'];
+%     errorDir{i} = [subjDir{i} 'IKErrors\AutoPlaceNoTiltReal\'];
+    resultsDir{i} = [subjDir{i} 'IKResults\AutoPlace10TiltLockedASIS10Conv\'];
+    errorDir{i} = [subjDir{i} 'IKErrors\AutoPlace10TiltLockedASIS10Conv\'];
 %     resultsDir{i} = [subjDir{i} 'IKResults\StdMarkerPlaceMe\'];
 %     errorDir{i} = [subjDir{i} 'IKErrors\StdMarkerPlaceMe\'];
     
@@ -84,14 +84,14 @@ runSlow = true;
 % inputModels{7} = 'S09_no-amp_ALLBODY_auto_marker_place_PSF_notilt.osim';
 % inputModels{8} = 'S10_no-amp_ALLBODY_auto_marker_place_PSF_notilt.osim';
 
-inputModels{1} = 'S01_no-amp_ALLBODY_auto_marker_place_notilt_real.osim';
-inputModels{2} = 'S02_no-amp_ALLBODY_auto_marker_place_notilt_real.osim';
-inputModels{3} = 'S04_no-amp_ALLBODY_auto_marker_place_notilt_real.osim';
-inputModels{4} = 'S05_no-amp_ALLBODY_auto_marker_place_notilt_real.osim';
-inputModels{5} = 'S06_no-amp_ALLBODY_auto_marker_place_notilt_real.osim';
-inputModels{6} = 'S08_no-amp_ALLBODY_auto_marker_place_notilt_real.osim';
-inputModels{7} = 'S09_no-amp_ALLBODY_auto_marker_place_notilt_real.osim';
-inputModels{8} = 'S10_no-amp_ALLBODY_auto_marker_place_notilt_real.osim';
+% inputModels{1} = 'S01_no-amp_ALLBODY_auto_marker_place_notilt_real.osim';
+% inputModels{2} = 'S02_no-amp_ALLBODY_auto_marker_place_notilt_real.osim';
+% inputModels{3} = 'S04_no-amp_ALLBODY_auto_marker_place_notilt_real.osim';
+% inputModels{4} = 'S05_no-amp_ALLBODY_auto_marker_place_notilt_real.osim';
+% inputModels{5} = 'S06_no-amp_ALLBODY_auto_marker_place_notilt_real.osim';
+% inputModels{6} = 'S08_no-amp_ALLBODY_auto_marker_place_notilt_real.osim';
+% inputModels{7} = 'S09_no-amp_ALLBODY_auto_marker_place_notilt_real.osim';
+% inputModels{8} = 'S10_no-amp_ALLBODY_auto_marker_place_notilt_real.osim';
 
 % inputModels{1} = 'S01_no-amp_ALLBODY_auto_marker_place_100tilt.osim';
 % inputModels{2} = 'S02_no-amp_ALLBODY_auto_marker_place_100tilt.osim';
@@ -101,6 +101,34 @@ inputModels{8} = 'S10_no-amp_ALLBODY_auto_marker_place_notilt_real.osim';
 % inputModels{6} = 'S08_no-amp_ALLBODY_auto_marker_place_100tilt.osim';
 % inputModels{7} = 'S09_no-amp_ALLBODY_auto_marker_place_100tilt.osim';
 % inputModels{8} = 'S10_no-amp_ALLBODY_auto_marker_place_100tilt.osim';
+
+% inputModels{1} = 'S01_no-amp_ALLBODY_auto_marker_place_1000tilt.osim';
+% inputModels{2} = 'S02_no-amp_ALLBODY_auto_marker_place_1000tilt.osim';
+% inputModels{3} = 'S04_no-amp_ALLBODY_auto_marker_place_1000tilt.osim';
+% inputModels{4} = 'S05_no-amp_ALLBODY_auto_marker_place_1000tilt.osim';
+% inputModels{5} = 'S06_no-amp_ALLBODY_auto_marker_place_1000tilt.osim';
+% inputModels{6} = 'S08_no-amp_ALLBODY_auto_marker_place_1000tilt.osim';
+% inputModels{7} = 'S09_no-amp_ALLBODY_auto_marker_place_1000tilt.osim';
+% inputModels{8} = 'S10_no-amp_ALLBODY_auto_marker_place_1000tilt.osim';
+
+% inputModels{1} = 'S01_no-amp_ALLBODY_auto_marker_place_1000tiltreal.osim';
+% inputModels{2} = 'S02_no-amp_ALLBODY_auto_marker_place_1000tiltreal.osim';
+% inputModels{3} = 'S04_no-amp_ALLBODY_auto_marker_place_1000tiltreal.osim';
+% inputModels{4} = 'S05_no-amp_ALLBODY_auto_marker_place_1000tiltreal.osim';
+% inputModels{5} = 'S06_no-amp_ALLBODY_auto_marker_place_1000tiltreal.osim';
+% inputModels{6} = 'S08_no-amp_ALLBODY_auto_marker_place_1000tiltreal.osim';
+% inputModels{7} = 'S09_no-amp_ALLBODY_auto_marker_place_1000tiltreal.osim';
+% inputModels{8} = 'S10_no-amp_ALLBODY_auto_marker_place_1000tiltreal.osim';
+
+inputModels{1} = 'S01_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis_10conv.osim';
+inputModels{2} = 'S02_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis_10conv.osim';
+inputModels{3} = 'S04_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis_10conv.osim';
+inputModels{4} = 'S05_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis_10conv.osim';
+inputModels{5} = 'S06_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis_10conv.osim';
+inputModels{6} = 'S08_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis_10conv.osim';
+inputModels{7} = 'S09_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis_10conv.osim';
+inputModels{8} = 'S10_no-amp_ALLBODY_auto_marker_place_10tilt_lockedasis_10conv.osim';
+
 
 % inputModels = {'S01_RRA_Model_PSF_newmass.osim',...
 %     'S02_RRA_Model_PSF_newmass.osim','S04_RRA_Model_newmass.osim',...

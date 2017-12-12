@@ -19,8 +19,14 @@ close all
 % load('fullNormDataNoTiltReal.mat');
 % load('fullErrDataNoTiltReal.mat');
 
-load('fullNormData100Tilt.mat');
-load('fullErrData100Tilt.mat');
+dataSetName = '10TiltLockedASIS10Conv';
+figDir = ['Figures\' dataSetName '\'];
+if ~exist(figDir, 'dir')
+    mkdir(figDir);
+end
+
+load(['fullNormData' dataSetName '.mat']);
+load(['fullErrData' dataSetName '.mat']);
 load('fullTags.mat');
 load('subjNames.mat');
 
@@ -162,6 +168,10 @@ title('Preferred Speed Marker Error RMS','FontSize',14);
 % Create legend
 legend1 = legend(axes1,bar1);
 
+figname = [figDir dataSetName '_RMSerr_indivSubj_PSF'];
+saveas(figure1,figname,'fig');
+saveas(figure1,figname,'png');
+
 %% Plot Marker error RMS for manually vs autoplaced markers slow speed
 
 % Create figure
@@ -204,6 +214,10 @@ title('-20% Cadence Marker Error RMS','FontSize',14);
  
 % Create legend
 legend1 = legend(axes1,bar1);
+
+figname = [figDir dataSetName '_RMSerr_indivSubj_M20'];
+saveas(figure1,figname,'fig');
+saveas(figure1,figname,'png');
 
 %% Plot Marker error RMS for manually vs autoplaced markers fast speed
 
@@ -248,6 +262,10 @@ title('+20% Cadence Marker Error RMS','FontSize',14);
 % Create legend
 legend1 = legend(axes1,bar1);
 
+figname = [figDir dataSetName '_RMSerr_indivSubj_P20'];
+saveas(figure1,figname,'fig');
+saveas(figure1,figname,'png');
+
 %% PREF SPEED Plot Marker error RMS all subjects averaged
 % Create figure
 figure1 = figure;
@@ -280,6 +298,10 @@ ylabel('Avg. RMS (m)','FontSize',13);
  
 % Create title
 title('Preferred Speed Marker Error RMS','FontSize',14);
+
+figname = [figDir dataSetName '_RMSerr_aggSubj_PSF'];
+saveas(figure1,figname,'fig');
+saveas(figure1,figname,'png');
 
 
 %% FAST SPEED Plot Marker error RMS all subjects averaged
@@ -315,6 +337,10 @@ ylabel('Avg. RMS (m)','FontSize',13);
 % Create title
 title('Fast Speed Marker Error RMS','FontSize',14);
 
+figname = [figDir dataSetName '_RMSerr_aggSubj_P20'];
+saveas(figure1,figname,'fig');
+saveas(figure1,figname,'png');
+
 %% SLOW SPEED Plot Marker error RMS all subjects averaged
 % Create figure
 figure1 = figure;
@@ -348,6 +374,9 @@ ylabel('Avg. RMS (m)','FontSize',13);
 % Create title
 title('Slow Speed Marker Error RMS','FontSize',14);
 
+figname = [figDir dataSetName '_RMSerr_aggSubj_M20'];
+saveas(figure1,figname,'fig');
+saveas(figure1,figname,'png');
 
 %% Hip/knee/ankle kinematics sagittal
 
@@ -356,7 +385,7 @@ title('Slow Speed Marker Error RMS','FontSize',14);
 
 for subj = 1:numSubj
     
-    figure('OuterPosition',[100 100 850 300])
+    figure1 = figure('OuterPosition',[100 100 850 300]);
 %     options.datasets{1} = [subjFolders{subj} '\IKResults\Rigid\'];
 %     options.datasets{2} = [subjFolders{subj} '\IKResults\4DOF\'];
 %     % load frames.mat
@@ -484,6 +513,10 @@ for subj = 1:numSubj
         
     end
     box off
+    
+    figname = [figDir dataSetName '_S' num2str(subj) '_sagKinematics_PSF'];
+    saveas(figure1,figname,'fig');
+    saveas(figure1,figname,'png');
 end
 
 %% Hip/ankle kinematics non-sagittal
@@ -493,7 +526,7 @@ end
 
 for subj = 1:numSubj
     
-    figure('OuterPosition',[100 100 850 300])
+    figure1 = figure('OuterPosition',[100 100 850 300]);
 %     options.datasets{1} = [subjFolders{subj} '\IKResults\Rigid\'];
 %     options.datasets{2} = [subjFolders{subj} '\IKResults\4DOF\'];
 %     % load frames.mat
@@ -621,11 +654,18 @@ for subj = 1:numSubj
         
     end
     box off
+    
+    figname = [figDir dataSetName '_S' num2str(subj) '_nonSagKinematics_PSF'];
+    saveas(figure1,figname,'fig');
+    saveas(figure1,figname,'png');
  end 
 
 %% Hip/knee/ankle kinematics both sides all subjects averaged
     
-    figure('OuterPosition',[100 100 850 300])
+    figure1 = figure;
+    figure1.OuterPosition = [100 100 850 300];
+%     ax1.ActivePositionProperty = 'outerposition';
+%     figure1 = figure;
 %     options.datasets{1} = [subjFolders{subj} '\IKResults\Rigid\'];
 %     options.datasets{2} = [subjFolders{subj} '\IKResults\4DOF\'];
 %     % load frames.mat
@@ -719,7 +759,7 @@ for subj = 1:numSubj
 %         text(.05,.9,label,'Units','Normalized','FontSize',12)
 %         ylabel('Angle (deg)', 'FontSize',14)
         if plots == 3; title('Ankle', 'FontSize',14);end
-        if plots == 2; title(['All subjects' newline 'Knee'], 'FontSize',14);end
+        if plots == 2; title({'All subjects';'Knee'}, 'FontSize',14);end
         if plots == 1; title('Hip', 'FontSize',14);end
         
 %         if plots ==1 && subj == 1; ylabel(['Ankle',sprintf('\n'),'Angle (deg)'],'FontSize',12);end
@@ -749,13 +789,20 @@ for subj = 1:numSubj
 %         if absPlotNum > 6 && absPlotNum < 10;
             xlabel('% Gait')
 %         end
-        
+
     end
     box off
+%     figure1.OuterPosition = [100 100 850 300];
+%     figure1.Position = [120 120 834 150];
+        
+    
+    figname = [figDir dataSetName '_aggSubj_sagKinematics_PSF'];
+    saveas(figure1,figname,'fig');
+    saveas(figure1,figname,'png');
 
 %% Hip/knee/ankle kinematics all subjects averaged non-sagittal
     
-    figure('OuterPosition',[100 100 850 300])
+    figure1 = figure('OuterPosition',[100 100 850 300]);
 %     options.datasets{1} = [subjFolders{subj} '\IKResults\Rigid\'];
 %     options.datasets{2} = [subjFolders{subj} '\IKResults\4DOF\'];
 %     % load frames.mat
@@ -882,6 +929,9 @@ for subj = 1:numSubj
         
     end
     box off
+    figname = [figDir dataSetName '_aggSubj_nonSagKinematics_PSF'];
+    saveas(figure1,figname,'fig');
+    saveas(figure1,figname,'png');
 
 
 

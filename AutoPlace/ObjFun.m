@@ -58,7 +58,9 @@ tags = data.colheaders;
 
 % penalize the average pelvis tilt
 % TILTcost = abs(mean(data(1:end,2).^2))*10;
-TILTcost = abs(mean(data.data(1:end,strcmp('pelvis_tilt',tags)).^2))*100;
+TILTcost = abs(mean(data.data(1:end,strcmp('pelvis_tilt',tags)).^2))*10;
+% TILTcost = abs(mean(data.data(1:end,strcmp('pelvis_tilt',tags)).^2))*1000;
+% TILTcost = abs(mean(data.data(1:end,strcmp('pelvis_tilt',tags)).^2))*100;
 % TILTcost = abs(mean(data.data(1:end,strcmp('pelvis_tilt',tags)).^2))*0.1;
 % TILTcost = abs(mean(data.data(1:end,strcmp('pelvis_tilt',tags)).^2))*0;
 
@@ -118,7 +120,7 @@ else
     coord ' Steps from IC (mm): ' num2str(stepCount) ' time: ' num2str(toc)];
 end
 
-disp(message)
+% disp(message)
 
 strFormat = '%s';
 fprintf(options.fileID, strFormat, message);
