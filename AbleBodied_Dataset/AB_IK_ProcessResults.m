@@ -35,8 +35,8 @@ clc
 subjNames = {'S01','S02','S04','S05','S06','S08','S09','S10'};
 numSubj = length(subjNames);
 
-normDataSaveName = 'fullNormData10TiltLockedASIS9conv.mat';
-errDataSaveName = 'fullErrData10TiltLockedASIS9conv.mat';
+normDataSaveName = 'fullNormData10TiltLockedASIS50conv.mat';
+errDataSaveName = 'fullErrData10TiltLockedASIS50conv.mat';
 
 % Also define paths to individual subject and model folders in options structure
 for i = 1:numSubj
@@ -58,8 +58,8 @@ for i = 1:numSubj
 %     errorDir{i} = [subjDir{i} 'IKErrors\AutoPlaceNoTilt'];
 %     resultsDir{i} = [subjDir{i} 'IKResults\AutoPlaceNoTiltReal\'];
 %     errorDir{i} = [subjDir{i} 'IKErrors\AutoPlaceNoTiltReal'];    
-    resultsDir{i} = [subjDir{i} 'IKResults\AutoPlace10TiltLockedASIS9Conv\'];
-    errorDir{i} = [subjDir{i} 'IKErrors\AutoPlace10TiltLockedASIS9Conv'];   
+    resultsDir{i} = [subjDir{i} 'IKResults\AutoPlace10TiltLockedASIS50Conv\'];
+    errorDir{i} = [subjDir{i} 'IKErrors\AutoPlace10TiltLockedASIS50Conv'];   
 
     % specify where standard marker placement results are stored.
     resultsManualDir{i} = [subjDir{i} 'IKResults\StdMarkerPlaceMe\'];

@@ -8,12 +8,12 @@ close all
 
 %% Load data
 
-convTypes = 10;
+convTypes = [1 2 3 4 5 6 7 8 9 10 20 30 40 50];
 
-for convValue = 1:convTypes
+for convValue = 1:length(convTypes)
 
-dataSetName = ['10TiltLockedASIS' num2str(convValue) 'Conv'];
-logDir = ['Logs\thresh' num2str(convValue) ];
+dataSetName = ['10TiltLockedASIS' num2str(convTypes(convValue)) 'Conv'];
+logDir = ['Logs\thresh' num2str(convTypes(convValue)) ];
 
 % figDir = ['Figures\' dataSetName '\'];
 % if ~exist(figDir, 'dir')
@@ -159,11 +159,11 @@ end
 figure
 hold on
 
-for i = 1:convTypes
+for i = 1:length(convTypes)
     errorbar(timeAvg(i),normErrPrefMean(i),normErrPrefStd(i),normErrPrefStd(i),timeStd(i),timeStd(i),'o')
 end
 
-legend('1mm','2mm','3mm','4mm','5mm','6mm','7mm','8mm','9mm','10mm');
+legend('1mm','2mm','3mm','4mm','5mm','6mm','7mm','8mm','9mm','10mm','20mm','30mm','40mm','50mm');
 title('Effect of convergence criteria strictness')
 ylabel('Normalized IK error')
 xlabel('Time per subject (s)')

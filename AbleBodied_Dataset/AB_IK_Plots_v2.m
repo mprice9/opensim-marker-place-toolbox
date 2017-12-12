@@ -19,7 +19,7 @@ close all
 % load('fullNormDataNoTiltReal.mat');
 % load('fullErrDataNoTiltReal.mat');
 
-dataSetName = '10TiltLockedASIS10Conv';
+dataSetName = '10TiltLockedASIS50Conv';
 figDir = ['Figures\' dataSetName '\'];
 if ~exist(figDir, 'dir')
     mkdir(figDir);

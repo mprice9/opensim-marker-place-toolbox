@@ -35,6 +35,9 @@ clc
 subjNames = {'S01','S02','S04','S05','S06','S08','S09','S10'};
 numSubj = length(subjNames);
 
+normDataSaveName = 'fullNormData10TiltLockedASIS9conv.mat';
+errDataSaveName = 'fullErrData10TiltLockedASIS9conv.mat';
+
 % Also define paths to individual subject and model folders in options structure
 for i = 1:numSubj
     
@@ -55,8 +58,8 @@ for i = 1:numSubj
 %     errorDir{i} = [subjDir{i} 'IKErrors\AutoPlaceNoTilt'];
 %     resultsDir{i} = [subjDir{i} 'IKResults\AutoPlaceNoTiltReal\'];
 %     errorDir{i} = [subjDir{i} 'IKErrors\AutoPlaceNoTiltReal'];    
-    resultsDir{i} = [subjDir{i} 'IKResults\AutoPlace100Tilt\'];
-    errorDir{i} = [subjDir{i} 'IKErrors\AutoPlace100Tilt'];   
+    resultsDir{i} = [subjDir{i} 'IKResults\AutoPlace10TiltLockedASIS20Conv\'];
+    errorDir{i} = [subjDir{i} 'IKErrors\AutoPlace10TiltLockedASISConv'];   
 
     % specify where standard marker placement results are stored.
     resultsManualDir{i} = [subjDir{i} 'IKResults\StdMarkerPlaceMe\'];
@@ -983,3 +986,6 @@ end
 % % fprintf('saving results \n')
 % % save IK_analysis.mat
 fprintf('program finished!')
+
+save(normDataSaveName,'fullNormData');
+save(errDataSaveName,'fullErrData');
