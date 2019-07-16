@@ -231,7 +231,7 @@ for trial = 1:nTrials
     %         P = 101;
     %         Q = size(temp,1);
     %         x = resample(temp,P,Q);
-            temp = dynWindFilt(20,temp);
+%             temp = dynWindFilt(20,temp);
             x = norm2stance(temp);
 
             % store in appropriate cell
@@ -318,7 +318,7 @@ for speed = spFirst:spLast
 
                 % combined across trials using individual trial averages
                 for trial = 1:nTrials
-                    A(trial) = errData{speed,3}{placetype,trial}(2,var);                   
+                    A(trial) = errData{speed,3}{placetype,trial}(1,var); 
                 end
                 errData{speed,5}{placetype}(2,var) = std(A);    % standard deviation
                 
